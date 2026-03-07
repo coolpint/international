@@ -1,13 +1,21 @@
 from __future__ import annotations
 
+import re
+
 from .models import Classification, MonitoredItem
 
 
+def _term_pattern(term: str) -> re.Pattern[str]:
+    escaped = re.escape(term)
+    prefix = r"(?<![A-Za-z0-9])" if term[:1].isalnum() else ""
+    suffix = r"(?![A-Za-z0-9])" if term[-1:].isalnum() else ""
+    return re.compile(f"{prefix}{escaped}{suffix}", re.IGNORECASE)
+
+
 def _find_hits(text: str, terms: list[str]) -> list[str]:
-    lowered = text.lower()
     hits = []
     for term in terms:
-        if term.lower() in lowered and term not in hits:
+        if _term_pattern(term).search(text) and term not in hits:
             hits.append(term)
     return hits
 
@@ -42,4 +50,3 @@ def classify_item(item: MonitoredItem, keywords: dict) -> Classification:
         return Classification(relevant=True, confidence="medium", matched_terms=matched_terms)
 
     return Classification(relevant=False, confidence="low", matched_terms=[])
-

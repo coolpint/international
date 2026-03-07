@@ -26,6 +26,8 @@ UN 및 산하기구의 한국(대한민국, 북한, 한반도 전체) 관련 업
 
 초기 실행은 `bootstrap` 모드입니다. 과거 글을 한꺼번에 알리지 않고, 현재 보이는 항목을 상태 파일에만 기록합니다.
 
+수동 테스트가 필요하면 GitHub Actions의 `Run workflow`에서 `mode=test_telegram`을 선택하면 텔레그램 테스트 메시지만 보냅니다.
+
 ## Telegram Secrets
 
 GitHub repository에서 아래 경로로 들어가 시크릿을 추가하면 됩니다.

@@ -48,7 +48,18 @@ class FilteringTests(unittest.TestCase):
         self.assertTrue(result.relevant)
         self.assertEqual(result.confidence, "medium")
 
+    def test_rok_does_not_match_inside_other_words(self) -> None:
+        item = MonitoredItem(
+            source_id="x",
+            source_label="Test",
+            url="https://example.com/3",
+            title="A broken system needs reform",
+            summary="No direct reference here.",
+            body="",
+        )
+        result = classify_item(item, KEYWORDS)
+        self.assertNotIn("ROK", result.matched_terms)
+
 
 if __name__ == "__main__":
     unittest.main()
-

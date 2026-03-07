@@ -51,3 +51,17 @@ def send_telegram_message(item: MonitoredItem, event_type: str) -> None:
     }
     post_form(f"https://api.telegram.org/bot{token}/sendMessage", payload)
 
+
+def send_telegram_text(text: str) -> None:
+    token = os.environ.get("TELEGRAM_BOT_TOKEN")
+    chat_id = os.environ.get("TELEGRAM_CHAT_ID")
+
+    if not token or not chat_id:
+        raise RuntimeError("TELEGRAM_BOT_TOKEN or TELEGRAM_CHAT_ID is missing.")
+
+    payload = {
+        "chat_id": chat_id,
+        "text": text,
+        "disable_web_page_preview": "true",
+    }
+    post_form(f"https://api.telegram.org/bot{token}/sendMessage", payload)

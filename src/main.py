@@ -26,6 +26,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--state", default=str(DEFAULT_STATE))
     parser.add_argument("--history-dir", default=str(DEFAULT_HISTORY_DIR))
     parser.add_argument("--dry-run", action="store_true")
+    parser.add_argument("--test-telegram", action="store_true")
     return parser.parse_args()
 
 
@@ -36,6 +37,17 @@ def utc_now_iso() -> str:
 def main() -> int:
     args = parse_args()
     run_at = utc_now_iso()
+
+    if args.test_telegram:
+        if not telegram_is_configured():
+            print("[error] Telegram secrets not configured.", file=sys.stderr)
+            return 1
+
+        from .monitor.notifier import send_telegram_text
+
+        send_telegram_text("international monitor test message")
+        print("[summary] sent test telegram message")
+        return 0
 
     sources = load_sources(Path(args.sources))
     keywords = load_keywords(Path(args.keywords))

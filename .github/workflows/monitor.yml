@@ -4,6 +4,15 @@ on:
   schedule:
     - cron: "0 7,15,23 * * *"
   workflow_dispatch:
+    inputs:
+      mode:
+        description: "Run mode"
+        required: false
+        default: "monitor"
+        type: choice
+        options:
+          - monitor
+          - test_telegram
 
 permissions:
   contents: write
@@ -35,7 +44,14 @@ jobs:
           PYTHONUNBUFFERED: "1"
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python -m src.main
+          WORKFLOW_MODE: ${{ github.event.inputs.mode }}
+        run: |
+          MODE="${WORKFLOW_MODE:-monitor}"
+          if [ "$MODE" = "test_telegram" ]; then
+            python -m src.main --test-telegram
+          else
+            python -m src.main
+          fi
 
       - name: Commit State Changes
         run: |
@@ -48,4 +64,3 @@ jobs:
           fi
           git commit -m "Update monitored UN items"
           git push
-
