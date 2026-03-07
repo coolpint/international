@@ -1,0 +1,65 @@
+{
+  "sources": [
+    {
+      "id": "un_news_latest",
+      "label": "UN News",
+      "type": "un_news_latest",
+      "enabled": true,
+      "list_url": "https://news.un.org/en/news",
+      "max_items": 20
+    },
+    {
+      "id": "un_press_releases",
+      "label": "UN Press Releases",
+      "type": "un_press_listing",
+      "enabled": true,
+      "list_url": "https://press.un.org/en/press-release",
+      "max_items": 20
+    },
+    {
+      "id": "un_meetings_coverage",
+      "label": "UN Meetings Coverage",
+      "type": "un_press_listing",
+      "enabled": true,
+      "list_url": "https://press.un.org/en/meetings-coverage",
+      "max_items": 20
+    },
+    {
+      "id": "unctad_publications",
+      "label": "UNCTAD Publications",
+      "type": "unctad_publications",
+      "enabled": true,
+      "list_url": "https://unctad.org/publications",
+      "max_items": 12,
+      "note": "Featured publications are accessible; broader search endpoints currently sit behind a challenge page."
+    },
+    {
+      "id": "unrisd_news",
+      "label": "UNRISD News",
+      "type": "pending",
+      "enabled": false,
+      "list_url": "https://www.unrisd.org/news",
+      "max_items": 20,
+      "note": "Current UNRISD site is a SPA backed by api.unrisd.org; list API discovery is still needed."
+    },
+    {
+      "id": "unrisd_publications",
+      "label": "UNRISD Publications",
+      "type": "pending",
+      "enabled": false,
+      "list_url": "https://www.unrisd.org/publications",
+      "max_items": 20,
+      "note": "Current UNRISD site is a SPA backed by api.unrisd.org; list API discovery is still needed."
+    },
+    {
+      "id": "undp_news_centre",
+      "label": "UNDP News Centre",
+      "type": "pending",
+      "enabled": false,
+      "list_url": "https://www.undp.org/news-centre",
+      "max_items": 20,
+      "note": "Official site returned Access Denied to non-browser automation from the tested environment."
+    }
+  ]
+}
+

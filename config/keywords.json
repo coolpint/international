@@ -1,0 +1,22 @@
+{
+  "high_confidence_terms": [
+    "South Korea",
+    "Republic of Korea",
+    "Republic of Korea (ROK)",
+    "North Korea",
+    "Democratic People's Republic of Korea",
+    "Democratic People’s Republic of Korea",
+    "DPRK",
+    "Korean Peninsula",
+    "inter-Korean"
+  ],
+  "medium_confidence_terms": [
+    "Korea",
+    "Korean",
+    "ROK",
+    "Seoul",
+    "Pyongyang"
+  ],
+  "min_medium_hits_for_high": 2
+}
+
