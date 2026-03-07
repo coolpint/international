@@ -1,5 +1,40 @@
 {
-  "bootstrapped": false,
-  "items": {}
+  "bootstrapped": true,
+  "bootstrapped_at": "2026-03-07T09:13:17Z",
+  "items": {
+    "https://press.un.org/en/2026/sc16302.doc.htm": {
+      "confidence": "medium",
+      "content_hash": "10e6652632c35fb99ddbf556611d061a3da33fc2a3a85f2ee7fcf1a0c09530d8",
+      "first_seen_at": "2026-03-07T09:13:17Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-03-07T09:13:17Z",
+      "matched_terms": [
+        "ROK"
+      ],
+      "published_at": "2026-02-24T12:00:00Z",
+      "source_id": "un_meetings_coverage",
+      "source_label": "UN Meetings Coverage",
+      "summary": "As the Russian Federation’s war on Ukraine enters its fifth year, the Security Council today heard that ongoing diplomatic efforts must first yield an immediate ceasefire, and then a lasting peace, to finally end the widespread suffering wrought by prolonged conflict.",
+      "title": "‘War Remains Stain on Collective Conscience’, Under-Secretary-General Tells Security Council as Ukraine War Enters Fifth Year, Urging Ceasefire",
+      "url": "https://press.un.org/en/2026/sc16302.doc.htm"
+    },
+    "https://www.unrisd.org/en/library/publications/eco-social-contracts-for-sustainable-and-just-futures": {
+      "confidence": "medium",
+      "content_hash": "8443260841b0b541a1142179faaae76517b599f223541bdd19f2a2cb66ea4e09",
+      "first_seen_at": "2026-03-07T09:13:17Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-03-07T09:13:17Z",
+      "matched_terms": [
+        "ROK"
+      ],
+      "published_at": "2026-02-10 14:38:00",
+      "source_id": "unrisd_publications",
+      "source_label": "UNRISD Publications",
+      "summary": "This groundbreaking open access volume, co-published by Springer and UNRISD, introduces eco-social contracts as a bold and actionable vision for addressing the major, interconnected crises of our time—climate change, biodiversity loss, rising inequality, and the erosion of public trust and democratic legitimacy. At its heart lies a fundamental realization that can no longer be ignored: the social contract has been broken for billions of people. As a result, the bonds between people, planet, and ",
+      "title": "Eco-Social Contracts for Sustainable and Just Futures",
+      "url": "https://www.unrisd.org/en/library/publications/eco-social-contracts-for-sustainable-and-just-futures"
+    }
+  }
 }
-
