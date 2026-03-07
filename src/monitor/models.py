@@ -12,6 +12,7 @@ class SourceConfig:
     list_url: str | None
     max_items: int
     note: str | None = None
+    options: dict[str, object] = field(default_factory=dict)
 
 
 @dataclass
@@ -33,4 +34,3 @@ class Classification:
     relevant: bool
     confidence: str
     matched_terms: list[str] = field(default_factory=list)
-

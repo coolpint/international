@@ -8,10 +8,11 @@ UN 및 산하기구의 한국(대한민국, 북한, 한반도 전체) 관련 업
 - `UN Press Releases`
 - `UN Meetings Coverage`
 - `UNCTAD Publications`
+- `UNRISD News`
+- `UNRISD Publications`
 
 보류 중:
 
-- `UNRISD`: 현재 사이트가 SPA라서 `api.unrisd.org`의 실제 목록 엔드포인트 확인이 더 필요합니다.
 - `UNDP`: 테스트한 자동화 환경에서 공식 사이트가 `Access Denied`를 반환했습니다.
 
 ## How It Works

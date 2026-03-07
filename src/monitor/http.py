@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import json
 from urllib.error import HTTPError, URLError
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
@@ -16,8 +17,19 @@ DEFAULT_HEADERS = {
 
 
 def fetch_text(url: str, timeout: int = 30) -> tuple[str, dict[str, str]]:
+    return request_text(url=url, timeout=timeout)
+
+
+def request_text(
+    url: str,
+    timeout: int = 30,
+    headers: dict[str, str] | None = None,
+    method: str = "GET",
+    data: bytes | None = None,
+) -> tuple[str, dict[str, str]]:
     request = Request(url, headers=DEFAULT_HEADERS)
     try:
+        request = Request(url, data=data, headers={**DEFAULT_HEADERS, **(headers or {})}, method=method)
         with urlopen(request, timeout=timeout) as response:
             raw = response.read()
             headers = {key.lower(): value for key, value in response.headers.items()}
@@ -29,6 +41,11 @@ def fetch_text(url: str, timeout: int = 30) -> tuple[str, dict[str, str]]:
         raise RuntimeError(f"HTTP {exc.code} for {url}: {snippet or exc.reason}") from exc
     except URLError as exc:
         raise RuntimeError(f"Request failed for {url}: {exc.reason}") from exc
+
+
+def fetch_json(url: str, timeout: int = 30, headers: dict[str, str] | None = None) -> object:
+    text, _ = request_text(url=url, timeout=timeout, headers=headers)
+    return json.loads(text)
 
 
 def post_form(url: str, payload: dict[str, str], timeout: int = 30) -> str:
@@ -49,3 +66,14 @@ def post_form(url: str, payload: dict[str, str], timeout: int = 30) -> str:
     except URLError as exc:
         raise RuntimeError(f"Request failed for {url}: {exc.reason}") from exc
 
+
+def post_json(url: str, payload: dict[str, object], timeout: int = 30, headers: dict[str, str] | None = None) -> object:
+    body = json.dumps(payload).encode("utf-8")
+    text, _ = request_text(
+        url=url,
+        timeout=timeout,
+        headers={"Content-Type": "application/json", **(headers or {})},
+        method="POST",
+        data=body,
+    )
+    return json.loads(text)

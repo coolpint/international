@@ -1,10 +1,11 @@
 from __future__ import annotations
 
+import json
 from urllib.parse import urljoin, urlparse
 
 from bs4 import BeautifulSoup
 
-from .http import fetch_text
+from .http import fetch_json, fetch_text, post_json
 from .models import MonitoredItem, SourceConfig
 
 
@@ -21,6 +22,8 @@ def collect_items(source: SourceConfig) -> list[MonitoredItem]:
         urls = _extract_press_links(source.list_url, soup)
     elif source.type == "unctad_publications":
         urls = _extract_unctad_publication_links(source.list_url, soup)
+    elif source.type == "unrisd_api":
+        return _collect_unrisd_api_items(source)
     else:
         raise RuntimeError(f"Unsupported active source type: {source.type}")
 
@@ -102,6 +105,76 @@ def _fetch_detail_item(source: SourceConfig, url: str) -> MonitoredItem:
         body=body,
         published_at=published_at,
     )
+
+
+def _collect_unrisd_api_items(source: SourceConfig) -> list[MonitoredItem]:
+    token_url = str(source.options.get("oauth_token_url", "")).strip()
+    api_url = str(source.options.get("api_url", "")).strip()
+    route_prefix = str(source.options.get("route_prefix", "")).strip()
+
+    if not token_url or not api_url or not route_prefix:
+        raise RuntimeError(f"{source.id} is missing oauth_token_url, api_url, or route_prefix.")
+
+    token_payload = post_json(token_url, {"grantType": "client_credentials"})
+    access_token = token_payload.get("access_token")
+    if not access_token:
+        raise RuntimeError(f"{source.id} failed to obtain UNRISD access token.")
+
+    payload = fetch_json(
+        f"{api_url}?limit={source.max_items}&sort=-publishAt&isPublished=1",
+        headers={"Authorization": f"Bearer {access_token}"},
+    )
+    records = payload.get("data", [])
+
+    items = []
+    for record in records:
+        item = _build_unrisd_item(source, record, route_prefix)
+        if item:
+            items.append(item)
+    return items
+
+
+def _build_unrisd_item(source: SourceConfig, record: dict, route_prefix: str) -> MonitoredItem | None:
+    attributes = record.get("attributes", {})
+    slug = attributes.get("slug")
+    title = (attributes.get("title") or "").strip()
+    if not slug or not title:
+        return None
+
+    summary = " ".join((attributes.get("summary") or attributes.get("metaDescription") or "").split())
+    body = _unrisd_search_index_text(attributes.get("searchIndex"))
+    if not summary:
+        summary = body[:280].strip()
+
+    return MonitoredItem(
+        source_id=source.id,
+        source_label=source.label,
+        url=f"https://www.unrisd.org{route_prefix}/{slug}",
+        title=title,
+        summary=summary,
+        body=body,
+        published_at=attributes.get("publishAt"),
+    )
+
+
+def _unrisd_search_index_text(search_index: str | None) -> str:
+    if not search_index:
+        return ""
+
+    try:
+        payload = json.loads(search_index)
+    except json.JSONDecodeError:
+        return ""
+
+    chunks = []
+    for value in payload.values():
+        html = value.get("text")
+        if not html:
+            continue
+        text = " ".join(BeautifulSoup(html, "html.parser").get_text(" ", strip=True).split())
+        if text:
+            chunks.append(text)
+    return "\n".join(chunks)
 
 
 def _extract_title(soup: BeautifulSoup) -> str:
