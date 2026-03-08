@@ -1,7 +1,9 @@
 from __future__ import annotations
 
+import html
 import json
 from urllib.parse import urljoin, urlparse
+from xml.etree import ElementTree
 
 from bs4 import BeautifulSoup
 
@@ -13,8 +15,13 @@ def collect_items(source: SourceConfig) -> list[MonitoredItem]:
     if not source.list_url:
         raise RuntimeError(f"{source.id} has no list URL configured.")
 
-    html, _ = fetch_text(source.list_url)
-    soup = BeautifulSoup(html, "html.parser")
+    if source.type == "unrisd_api":
+        return _collect_unrisd_api_items(source)
+    if source.type == "rss_xml":
+        return _collect_rss_items(source)
+
+    html_text, _ = fetch_text(source.list_url)
+    soup = BeautifulSoup(html_text, "html.parser")
 
     if source.type == "un_news_latest":
         urls = _extract_un_news_links(source.list_url, soup)
@@ -22,8 +29,6 @@ def collect_items(source: SourceConfig) -> list[MonitoredItem]:
         urls = _extract_press_links(source.list_url, soup)
     elif source.type == "unctad_publications":
         urls = _extract_unctad_publication_links(source.list_url, soup)
-    elif source.type == "unrisd_api":
-        return _collect_unrisd_api_items(source)
     else:
         raise RuntimeError(f"Unsupported active source type: {source.type}")
 
@@ -107,6 +112,41 @@ def _fetch_detail_item(source: SourceConfig, url: str) -> MonitoredItem:
     )
 
 
+def _collect_rss_items(source: SourceConfig) -> list[MonitoredItem]:
+    xml_text, _ = fetch_text(source.list_url)
+
+    try:
+        root = ElementTree.fromstring(xml_text)
+    except ElementTree.ParseError as exc:
+        raise RuntimeError(f"{source.id} returned invalid XML: {exc}") from exc
+
+    items = []
+    root_name = _xml_local_name(root.tag)
+
+    if root_name == "rss":
+        channel = _xml_first_child(root, "channel")
+        if channel is None:
+            raise RuntimeError(f"{source.id} RSS feed is missing a channel element.")
+
+        for node in channel:
+            if _xml_local_name(node.tag) != "item":
+                continue
+            item = _build_rss_item(source, node)
+            if item:
+                items.append(item)
+    elif root_name == "feed":
+        for node in root:
+            if _xml_local_name(node.tag) != "entry":
+                continue
+            item = _build_atom_item(source, node)
+            if item:
+                items.append(item)
+    else:
+        raise RuntimeError(f"{source.id} feed is not RSS/Atom XML.")
+
+    return items[: source.max_items]
+
+
 def _collect_unrisd_api_items(source: SourceConfig) -> list[MonitoredItem]:
     token_url = str(source.options.get("oauth_token_url", "")).strip()
     api_url = str(source.options.get("api_url", "")).strip()
@@ -175,6 +215,137 @@ def _unrisd_search_index_text(search_index: str | None) -> str:
         if text:
             chunks.append(text)
     return "\n".join(chunks)
+
+
+def _build_rss_item(source: SourceConfig, node: ElementTree.Element) -> MonitoredItem | None:
+    title = _xml_first_child_text(node, "title")
+    url = _normalize_feed_link(source, _xml_first_child_text(node, "link"))
+    if not title or not url:
+        return None
+
+    summary = _xml_html_text(_xml_first_child_text(node, "description"))
+    body_parts = []
+
+    content = _xml_html_text(_xml_first_child_text(node, "encoded", "content", "summary"))
+    if summary:
+        body_parts.append(summary)
+    if content and content != summary:
+        body_parts.append(content)
+
+    categories = _xml_all_child_text(node, "category")
+    if categories:
+        body_parts.append("Categories: " + ", ".join(categories))
+
+    body = "\n".join(part for part in body_parts if part)
+    if not summary:
+        summary = body[:280].strip()
+
+    return MonitoredItem(
+        source_id=source.id,
+        source_label=source.label,
+        url=url,
+        title=title,
+        summary=summary,
+        body=body,
+        published_at=_xml_first_child_text(node, "pubDate", "published", "updated", "date"),
+    )
+
+
+def _build_atom_item(source: SourceConfig, node: ElementTree.Element) -> MonitoredItem | None:
+    title = _xml_first_child_text(node, "title")
+    url = _normalize_feed_link(source, _xml_atom_link(node))
+    if not title or not url:
+        return None
+
+    summary = _xml_html_text(_xml_first_child_text(node, "summary"))
+    content = _xml_html_text(_xml_first_child_text(node, "content"))
+    body_parts = []
+    if summary:
+        body_parts.append(summary)
+    if content and content != summary:
+        body_parts.append(content)
+    body = "\n".join(body_parts)
+    if not body:
+        body = summary
+    if not summary:
+        summary = body[:280].strip()
+
+    return MonitoredItem(
+        source_id=source.id,
+        source_label=source.label,
+        url=url,
+        title=title,
+        summary=summary,
+        body=body,
+        published_at=_xml_first_child_text(node, "published", "updated"),
+    )
+
+
+def _xml_local_name(tag: str) -> str:
+    return tag.split("}", 1)[-1]
+
+
+def _xml_first_child(node: ElementTree.Element, local_name: str) -> ElementTree.Element | None:
+    for child in node:
+        if _xml_local_name(child.tag) == local_name:
+            return child
+    return None
+
+
+def _xml_first_child_text(node: ElementTree.Element, *local_names: str) -> str:
+    for local_name in local_names:
+        child = _xml_first_child(node, local_name)
+        if child is None:
+            continue
+
+        text = "".join(child.itertext()).strip()
+        if text:
+            return text
+        href = child.get("href", "").strip()
+        if href:
+            return href
+    return ""
+
+
+def _xml_all_child_text(node: ElementTree.Element, local_name: str) -> list[str]:
+    values = []
+    for child in node:
+        if _xml_local_name(child.tag) != local_name:
+            continue
+        text = "".join(child.itertext()).strip()
+        if text:
+            values.append(" ".join(text.split()))
+    return values
+
+
+def _xml_atom_link(node: ElementTree.Element) -> str:
+    for child in node:
+        if _xml_local_name(child.tag) != "link":
+            continue
+        rel = child.get("rel", "alternate")
+        href = child.get("href", "").strip()
+        if rel == "alternate" and href:
+            return href
+        text = "".join(child.itertext()).strip()
+        if text:
+            return text
+    return ""
+
+
+def _normalize_feed_link(source: SourceConfig, link: str) -> str:
+    clean_link = link.strip()
+    if not clean_link:
+        return ""
+    return urljoin(source.list_url or "", clean_link)
+
+
+def _xml_html_text(raw_text: str) -> str:
+    if not raw_text:
+        return ""
+
+    text = BeautifulSoup(html.unescape(raw_text), "html.parser").get_text("\n", strip=True)
+    lines = [" ".join(line.split()) for line in text.splitlines() if line.strip()]
+    return "\n".join(lines)
 
 
 def _extract_title(soup: BeautifulSoup) -> str:

@@ -56,6 +56,30 @@
       "route_prefix": "/en/library/publications"
     },
     {
+      "id": "wto_latest_news",
+      "label": "WTO Latest News",
+      "type": "rss_xml",
+      "enabled": true,
+      "list_url": "https://www.wto.org/library/rss/latest_news_e.xml",
+      "max_items": 20
+    },
+    {
+      "id": "ilo_newsroom",
+      "label": "ILO Newsroom",
+      "type": "rss_xml",
+      "enabled": true,
+      "list_url": "https://www.ilo.org/rss.xml",
+      "max_items": 20
+    },
+    {
+      "id": "adb_news",
+      "label": "ADB News",
+      "type": "rss_xml",
+      "enabled": true,
+      "list_url": "https://www.adb.org/rss/news",
+      "max_items": 20
+    },
+    {
       "id": "undp_news_centre",
       "label": "UNDP News Centre",
       "type": "pending",
