@@ -25,7 +25,7 @@
       "first_seen_at": "2026-03-11T07:37:45Z",
       "last_event": "new",
       "last_notified_at": "2026-03-11T07:37:45Z",
-      "last_seen_at": "2026-03-11T07:37:45Z",
+      "last_seen_at": "2026-03-11T15:39:09Z",
       "matched_terms": [
         "South Korea",
         "Korea"
@@ -88,6 +88,24 @@
       "summary": "This groundbreaking open access volume, co-published by Springer and UNRISD, introduces eco-social contracts as a bold and actionable vision for addressing the major, interconnected crises of our time—climate change, biodiversity loss, rising inequality, and the erosion of public trust and democratic legitimacy. At its heart lies a fundamental realization that can no longer be ignored: the social contract has been broken for billions of people. As a result, the bonds between people, planet, and ",
       "title": "Eco-Social Contracts for Sustainable and Just Futures",
       "url": "https://www.unrisd.org/en/library/publications/eco-social-contracts-for-sustainable-and-just-futures"
+    },
+    "https://www.wto.org/english/news_e/news26_e/acc_09mar26_316_e.htm": {
+      "confidence": "high",
+      "content_hash": "dcce93c9a1f188717397911a411f41c88f35bdfb506b49460f83234b463f241b",
+      "first_seen_at": "2026-03-11T15:39:09Z",
+      "last_event": "new",
+      "last_notified_at": "2026-03-11T15:39:09Z",
+      "last_seen_at": "2026-03-11T15:39:09Z",
+      "matched_terms": [
+        "Republic of Korea",
+        "Korea"
+      ],
+      "published_at": "Mon, 09 Mar 2026 00:00:00 GMT",
+      "source_id": "wto_latest_news",
+      "source_label": "WTO Latest News",
+      "summary": "At a meeting of the Working Party on the Accession of Uzbekistan on 9 March, the head of Uzbekistan's delegation, Deputy Prime Minister Jamshid Khodjaev, said his country is committed to bringing Uzbekistan’s accession process to a successful conclusion this year. Thanking members for supporting Uzbekistan's accession during a very busy period, he reaffirmed the country's commitment to engage constructively with all Working Party members. Uzbekistan stands ready to address any remaining issues i",
+      "title": "Uzbekistan commits to maintaining \"strong momentum\" to accede to WTO in 2026",
+      "url": "https://www.wto.org/english/news_e/news26_e/acc_09mar26_316_e.htm"
     }
   }
 }
