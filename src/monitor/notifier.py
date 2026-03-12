@@ -5,7 +5,6 @@ import os
 
 from .http import post_form
 from .models import MonitoredItem
-from .translation import translate_alert_text
 
 
 SOURCE_LABELS_KO = {
@@ -62,24 +61,26 @@ def _translate_term(term: str) -> str:
 
 
 def build_telegram_message(item: MonitoredItem, event_type: str) -> str:
+    title = " ".join(item.title.split())
     summary = _trim_summary(item.summary or item.body)
-    localized = translate_alert_text(item.title, summary)
     matched = ", ".join(_translate_term(term) for term in item.matched_terms[:5])
     event_label = EVENT_LABELS_KO.get(event_type, event_type)
     confidence_label = CONFIDENCE_LABELS_KO.get(item.confidence, item.confidence)
     source_label = SOURCE_LABELS_KO.get(item.source_label, item.source_label)
 
     lines = [
-        f"<b>[{html.escape(source_label)}] {html.escape(localized.title or item.title)}</b>",
-        f"{html.escape(event_label)} | 관련도: {html.escape(confidence_label)}",
+        f"<b>[{html.escape(source_label)}] 한국 관련 {html.escape(event_label)} 알림</b>",
+        f"관련도: {html.escape(confidence_label)}",
     ]
 
     if matched:
         lines.append(f"근거 키워드: {html.escape(matched)}")
     if item.published_at:
         lines.append(f"발행: {html.escape(item.published_at)}")
-    if localized.summary:
-        lines.append(html.escape(localized.summary))
+    if title:
+        lines.append(f"원문 제목: {html.escape(title)}")
+    if summary:
+        lines.append(f"원문 요약: {html.escape(summary)}")
 
     lines.append(f'<a href="{html.escape(item.url, quote=True)}">원문 보기</a>')
     return "\n".join(lines)
