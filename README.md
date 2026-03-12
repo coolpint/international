@@ -42,6 +42,16 @@ GitHub repository에서 아래 경로로 들어가 시크릿을 추가하면 됩
 - `TELEGRAM_BOT_TOKEN`
 - `TELEGRAM_CHAT_ID`
 
+한국어 번역까지 자동으로 받으려면 추가 시크릿:
+
+- `OPENAI_API_KEY`
+
+선택 변수:
+
+- `OPENAI_TRANSLATION_MODEL`
+
+`OPENAI_API_KEY`가 없으면 알림 라벨은 한국어로 가지만, 제목과 요약은 원문으로 남습니다.
+
 `TELEGRAM_CHAT_ID`는 보통 아래 둘 중 하나입니다.
 
 - 공개 채널 username: 예를 들어 `@my_channel`

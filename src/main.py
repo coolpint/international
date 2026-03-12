@@ -45,7 +45,7 @@ def main() -> int:
 
         from .monitor.notifier import send_telegram_text
 
-        send_telegram_text("international monitor test message")
+        send_telegram_text("international monitor 테스트 메시지")
         print("[summary] sent test telegram message")
         return 0
 
