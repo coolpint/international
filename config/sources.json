@@ -77,7 +77,11 @@
       "type": "rss_xml",
       "enabled": true,
       "list_url": "https://www.adb.org/rss/news",
-      "max_items": 20
+      "max_items": 20,
+      "fallback_urls": [
+        "https://feeds.feedburner.com/adb_news"
+      ],
+      "note": "Primary RSS occasionally returns a Cloudflare challenge; fallback uses the official FeedBurner link published on ADB's RSS page."
     },
     {
       "id": "undp_news_centre",

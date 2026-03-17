@@ -1,8 +1,9 @@
 import unittest
+from unittest.mock import patch
 from xml.etree import ElementTree
 
 from src.monitor.models import SourceConfig
-from src.monitor.sources import _build_rss_item, _xml_html_text
+from src.monitor.sources import _build_rss_item, _collect_rss_items, _xml_html_text
 
 
 class RssTests(unittest.TestCase):
@@ -34,7 +35,7 @@ class RssTests(unittest.TestCase):
             """
         )
 
-        item = _build_rss_item(self.source, node)
+        item = _build_rss_item(self.source, node, self.source.list_url or "")
         self.assertIsNotNone(item)
         assert item is not None
         self.assertEqual(item.url, "https://www.wto.org/english/news_e/example.htm")
@@ -43,6 +44,41 @@ class RssTests(unittest.TestCase):
         self.assertIn("DPRK supply chain detail.", item.body)
         self.assertIn("Categories: Press release", item.body)
         self.assertEqual(item.published_at, "Sat, 07 Mar 2026 09:35:57 GMT")
+
+    @patch("src.monitor.sources.fetch_text")
+    def test_collect_rss_items_uses_fallback_url(self, mock_fetch_text) -> None:
+        source = SourceConfig(
+            id="adb_news",
+            label="ADB News",
+            type="rss_xml",
+            enabled=True,
+            list_url="https://www.adb.org/rss/news",
+            max_items=20,
+            options={"fallback_urls": ["https://feeds.feedburner.com/adb_news"]},
+        )
+        mock_fetch_text.side_effect = [
+            RuntimeError("HTTP 403 for https://www.adb.org/rss/news"),
+            (
+                """<?xml version="1.0" encoding="utf-8"?>
+                <rss version="2.0">
+                  <channel>
+                    <item>
+                      <title>ADB fallback item</title>
+                      <link>https://www.adb.org/news/example</link>
+                      <description>Republic of Korea related example</description>
+                      <pubDate>2026-03-17</pubDate>
+                    </item>
+                  </channel>
+                </rss>""",
+                {},
+            ),
+        ]
+
+        items = _collect_rss_items(source)
+
+        self.assertEqual(len(items), 1)
+        self.assertEqual(items[0].title, "ADB fallback item")
+        self.assertEqual(items[0].url, "https://www.adb.org/news/example")
 
 
 if __name__ == "__main__":

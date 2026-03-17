@@ -113,12 +113,26 @@ def _fetch_detail_item(source: SourceConfig, url: str) -> MonitoredItem:
 
 
 def _collect_rss_items(source: SourceConfig) -> list[MonitoredItem]:
-    xml_text, _ = fetch_text(source.list_url)
+    feed_urls = [str(source.list_url)]
+    fallback_urls = source.options.get("fallback_urls", [])
+    if isinstance(fallback_urls, list):
+        feed_urls.extend(str(url) for url in fallback_urls if str(url).strip())
 
-    try:
-        root = ElementTree.fromstring(xml_text)
-    except ElementTree.ParseError as exc:
-        raise RuntimeError(f"{source.id} returned invalid XML: {exc}") from exc
+    root = None
+    selected_feed_url = ""
+    errors = []
+    for feed_url in feed_urls:
+        try:
+            xml_text, _ = fetch_text(feed_url)
+            root = ElementTree.fromstring(xml_text)
+            selected_feed_url = feed_url
+            break
+        except Exception as exc:
+            errors.append(f"{feed_url}: {exc}")
+
+    if root is None:
+        joined = "; ".join(errors)
+        raise RuntimeError(f"{source.id} feed fetch failed. {joined}")
 
     items = []
     root_name = _xml_local_name(root.tag)
@@ -131,14 +145,14 @@ def _collect_rss_items(source: SourceConfig) -> list[MonitoredItem]:
         for node in channel:
             if _xml_local_name(node.tag) != "item":
                 continue
-            item = _build_rss_item(source, node)
+            item = _build_rss_item(source, node, selected_feed_url)
             if item:
                 items.append(item)
     elif root_name == "feed":
         for node in root:
             if _xml_local_name(node.tag) != "entry":
                 continue
-            item = _build_atom_item(source, node)
+            item = _build_atom_item(source, node, selected_feed_url)
             if item:
                 items.append(item)
     else:
@@ -217,9 +231,9 @@ def _unrisd_search_index_text(search_index: str | None) -> str:
     return "\n".join(chunks)
 
 
-def _build_rss_item(source: SourceConfig, node: ElementTree.Element) -> MonitoredItem | None:
+def _build_rss_item(source: SourceConfig, node: ElementTree.Element, feed_url: str) -> MonitoredItem | None:
     title = _xml_first_child_text(node, "title")
-    url = _normalize_feed_link(source, _xml_first_child_text(node, "link"))
+    url = _normalize_feed_link(feed_url, _xml_first_child_text(node, "link"))
     if not title or not url:
         return None
 
@@ -251,9 +265,9 @@ def _build_rss_item(source: SourceConfig, node: ElementTree.Element) -> Monitore
     )
 
 
-def _build_atom_item(source: SourceConfig, node: ElementTree.Element) -> MonitoredItem | None:
+def _build_atom_item(source: SourceConfig, node: ElementTree.Element, feed_url: str) -> MonitoredItem | None:
     title = _xml_first_child_text(node, "title")
-    url = _normalize_feed_link(source, _xml_atom_link(node))
+    url = _normalize_feed_link(feed_url, _xml_atom_link(node))
     if not title or not url:
         return None
 
@@ -332,11 +346,11 @@ def _xml_atom_link(node: ElementTree.Element) -> str:
     return ""
 
 
-def _normalize_feed_link(source: SourceConfig, link: str) -> str:
+def _normalize_feed_link(feed_url: str, link: str) -> str:
     clean_link = link.strip()
     if not clean_link:
         return ""
-    return urljoin(source.list_url or "", clean_link)
+    return urljoin(feed_url, clean_link)
 
 
 def _xml_html_text(raw_text: str) -> str:
