@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+from datetime import datetime, timezone
 import html
 import json
 from urllib.parse import urljoin, urlparse
@@ -19,6 +20,8 @@ def collect_items(source: SourceConfig) -> list[MonitoredItem]:
         return _collect_unrisd_api_items(source)
     if source.type == "rss_xml":
         return _collect_rss_items(source)
+    if source.type == "world_bank_news_api":
+        return _collect_world_bank_news_items(source)
 
     html_text, _ = fetch_text(source.list_url)
     soup = BeautifulSoup(html_text, "html.parser")
@@ -188,6 +191,42 @@ def _collect_unrisd_api_items(source: SourceConfig) -> list[MonitoredItem]:
     return items
 
 
+def _collect_world_bank_news_items(source: SourceConfig) -> list[MonitoredItem]:
+    api_url = str(source.options.get("api_url", "")).strip()
+    if not api_url:
+        raise RuntimeError(f"{source.id} is missing api_url.")
+
+    payload = fetch_json(api_url)
+    if not isinstance(payload, dict):
+        raise RuntimeError(f"{source.id} returned an unexpected response payload.")
+
+    documents = payload.get("documents", {})
+    if not isinstance(documents, dict):
+        raise RuntimeError(f"{source.id} payload did not contain a documents object.")
+
+    records = []
+    now = datetime.now(timezone.utc)
+    for record in documents.values():
+        if not isinstance(record, dict):
+            continue
+
+        published_at = str(record.get("lnchdt") or "").strip()
+        published_dt = _parse_iso_datetime(published_at)
+        if published_dt and published_dt > now:
+            continue
+
+        records.append(record)
+
+    records.sort(key=lambda record: str(record.get("lnchdt") or ""), reverse=True)
+
+    items = []
+    for record in records[: source.max_items]:
+        item = _build_world_bank_news_item(source, record)
+        if item:
+            items.append(item)
+    return items
+
+
 def _build_unrisd_item(source: SourceConfig, record: dict, route_prefix: str) -> MonitoredItem | None:
     attributes = record.get("attributes", {})
     slug = attributes.get("slug")
@@ -211,6 +250,32 @@ def _build_unrisd_item(source: SourceConfig, record: dict, route_prefix: str) ->
     )
 
 
+def _build_world_bank_news_item(source: SourceConfig, record: dict) -> MonitoredItem | None:
+    title = _world_bank_text(record.get("title"))
+    url = _normalize_world_bank_url(record.get("url"))
+    if not title or not url:
+        return None
+
+    summary = _world_bank_text(record.get("descr"))
+    body = _world_bank_text(record.get("content_1000")) or _world_bank_text(record.get("content"))
+    if summary and body and body != summary:
+        body = "\n".join([summary, body])
+    elif summary and not body:
+        body = summary
+    elif body and not summary:
+        summary = body[:280].strip()
+
+    return MonitoredItem(
+        source_id=source.id,
+        source_label=source.label,
+        url=url,
+        title=title,
+        summary=summary,
+        body=body,
+        published_at=str(record.get("lnchdt") or "").strip() or None,
+    )
+
+
 def _unrisd_search_index_text(search_index: str | None) -> str:
     if not search_index:
         return ""
@@ -229,6 +294,38 @@ def _unrisd_search_index_text(search_index: str | None) -> str:
         if text:
             chunks.append(text)
     return "\n".join(chunks)
+
+
+def _world_bank_text(value: object) -> str:
+    if isinstance(value, dict):
+        for key in ["cdata!", "#cdata-section", "text", "value"]:
+            nested = value.get(key)
+            if nested:
+                return _xml_html_text(str(nested))
+        return ""
+    if value is None:
+        return ""
+    return _xml_html_text(str(value))
+
+
+def _normalize_world_bank_url(url: object) -> str:
+    if not url:
+        return ""
+    clean_url = str(url).strip()
+    if clean_url.startswith("http://www.worldbank.org/"):
+        return "https://" + clean_url[len("http://") :]
+    if clean_url.startswith("http://worldbank.org/"):
+        return "https://" + clean_url[len("http://") :]
+    return clean_url
+
+
+def _parse_iso_datetime(value: str) -> datetime | None:
+    if not value:
+        return None
+    try:
+        return datetime.fromisoformat(value.replace("Z", "+00:00"))
+    except ValueError:
+        return None
 
 
 def _build_rss_item(source: SourceConfig, node: ElementTree.Element, feed_url: str) -> MonitoredItem | None:

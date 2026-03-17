@@ -84,6 +84,16 @@
       "note": "Primary RSS occasionally returns a Cloudflare challenge; fallback uses the official FeedBurner link published on ADB's RSS page."
     },
     {
+      "id": "world_bank_news",
+      "label": "World Bank News",
+      "type": "world_bank_news_api",
+      "enabled": true,
+      "list_url": "https://www.worldbank.org/en/news/all",
+      "max_items": 20,
+      "api_url": "https://search.worldbank.org/api/v2/news?format=json&rows=40&src=cq55&apilang=en&lang_exact=English",
+      "note": "Uses the public JSON API exposed by the official World Bank all-news page; future-dated items are ignored."
+    },
+    {
       "id": "undp_news_centre",
       "label": "UNDP News Centre",
       "type": "pending",
