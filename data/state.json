@@ -19,6 +19,24 @@
       "title": "‘War Remains Stain on Collective Conscience’, Under-Secretary-General Tells Security Council as Ukraine War Enters Fifth Year, Urging Ceasefire",
       "url": "https://press.un.org/en/2026/sc16302.doc.htm"
     },
+    "https://www.ilo.org/fr/resource/actualites/la-rdc-lance-un-projet-conjoint-pour-renforcer-la-protection-sociale-et": {
+      "confidence": "high",
+      "content_hash": "41163fbc75127f86fab4f8c5d393875d57581a6aa1ef14ccdbf54e5e30a347b7",
+      "first_seen_at": "2026-03-19T07:40:49Z",
+      "last_event": "new",
+      "last_notified_at": "2026-03-19T07:40:49Z",
+      "last_seen_at": "2026-03-19T07:40:49Z",
+      "matched_terms": [
+        "Republic of Korea",
+        "Korea"
+      ],
+      "published_at": "Wed, 18 Mar 2026 09:46:53 +0000",
+      "source_id": "ilo_newsroom",
+      "source_label": "ILO Newsroom",
+      "summary": "DRC launches a joint project to strengthen social protection and promote access to decent work\njohnssona@ilo.org\nWed, 03/18/2026 - 23:44\nDocument Type\nNews\nCountries\nCongo, Democratic Republic of the\nRegions\nAfrica\nDate of Publication\nWed, 03/18/2026 - 12:00\nEyebrow\nPress release\nSubject (relevant to topic/sector)\nsocial protection\ndecent work\nemployment\ninformal employment\nemployment policy\nlabour policy\nsocial security policy\ninformal economy\nHero Image\n© OIT\n© OIT\nDes représentants du Gouvern",
+      "title": "La RDC lance un projet conjoint pour renforcer la protection sociale et promouvoir l’accès à un travail décent",
+      "url": "https://www.ilo.org/fr/resource/actualites/la-rdc-lance-un-projet-conjoint-pour-renforcer-la-protection-sociale-et"
+    },
     "https://www.ilo.org/meetings-and-events/comparative-study-employment-quota-systems-persons-disabilities-east-and": {
       "confidence": "high",
       "content_hash": "64f92e2b0f0fb747edeeee60bc8eca2300794067678872449eec832623fc185a",
@@ -95,7 +113,7 @@
       "first_seen_at": "2026-03-11T15:39:09Z",
       "last_event": "new",
       "last_notified_at": "2026-03-11T15:39:09Z",
-      "last_seen_at": "2026-03-18T23:23:39Z",
+      "last_seen_at": "2026-03-19T07:40:49Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
