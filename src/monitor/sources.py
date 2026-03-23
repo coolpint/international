@@ -22,6 +22,10 @@ def collect_items(source: SourceConfig) -> list[MonitoredItem]:
         return _collect_rss_items(source)
     if source.type == "world_bank_news_api":
         return _collect_world_bank_news_items(source)
+    if source.type == "bruegel_publications":
+        return _collect_bruegel_publication_items(source)
+    if source.type == "rusi_publications":
+        return _collect_rusi_publication_items(source)
 
     html_text, _ = fetch_text(source.list_url)
     soup = BeautifulSoup(html_text, "html.parser")
@@ -95,6 +99,32 @@ def _extract_unctad_publication_links(base_url: str, soup: BeautifulSoup) -> lis
     return _dedupe_preserve_order(urls)
 
 
+def _extract_bruegel_publication_links(base_url: str, soup: BeautifulSoup) -> list[str]:
+    urls = []
+    for anchor in soup.select("div.c-listing__items article.c-list-item--article h2 a[href]"):
+        href = anchor.get("href")
+        if not href:
+            continue
+        url = urljoin(base_url, href)
+        if urlparse(url).netloc != "www.bruegel.org":
+            continue
+        urls.append(url)
+    return _dedupe_preserve_order(urls)
+
+
+def _extract_rusi_publication_links(base_url: str, soup: BeautifulSoup) -> list[str]:
+    urls = []
+    for anchor in soup.select('a.RelatedArticle-module--mainLink--4c03e[href*="/explore-our-research/publications/"]'):
+        href = anchor.get("href")
+        if not href:
+            continue
+        url = urljoin(base_url, href)
+        if urlparse(url).netloc != "www.rusi.org":
+            continue
+        urls.append(url)
+    return _dedupe_preserve_order(urls)
+
+
 def _fetch_detail_item(source: SourceConfig, url: str) -> MonitoredItem:
     html, headers = fetch_text(url)
     soup = BeautifulSoup(html, "html.parser")
@@ -149,14 +179,14 @@ def _collect_rss_items(source: SourceConfig) -> list[MonitoredItem]:
             if _xml_local_name(node.tag) != "item":
                 continue
             item = _build_rss_item(source, node, selected_feed_url)
-            if item:
+            if item and _rss_item_matches_source_filters(item, source):
                 items.append(item)
     elif root_name == "feed":
         for node in root:
             if _xml_local_name(node.tag) != "entry":
                 continue
             item = _build_atom_item(source, node, selected_feed_url)
-            if item:
+            if item and _rss_item_matches_source_filters(item, source):
                 items.append(item)
     else:
         raise RuntimeError(f"{source.id} feed is not RSS/Atom XML.")
@@ -224,6 +254,34 @@ def _collect_world_bank_news_items(source: SourceConfig) -> list[MonitoredItem]:
         item = _build_world_bank_news_item(source, record)
         if item:
             items.append(item)
+    return items
+
+
+def _collect_bruegel_publication_items(source: SourceConfig) -> list[MonitoredItem]:
+    html_text, _ = fetch_text(source.list_url)
+    soup = BeautifulSoup(html_text, "html.parser")
+    urls = _extract_bruegel_publication_links(source.list_url, soup)
+
+    items = []
+    for url in urls[: source.max_items]:
+        try:
+            items.append(_fetch_detail_item(source, url))
+        except Exception as exc:
+            print(f"[warn] {source.id}: failed to parse {url}: {exc}")
+    return items
+
+
+def _collect_rusi_publication_items(source: SourceConfig) -> list[MonitoredItem]:
+    html_text, _ = fetch_text(source.list_url)
+    soup = BeautifulSoup(html_text, "html.parser")
+    urls = _extract_rusi_publication_links(source.list_url, soup)
+
+    items = []
+    for url in urls[: source.max_items]:
+        try:
+            items.append(_fetch_detail_item(source, url))
+        except Exception as exc:
+            print(f"[warn] {source.id}: failed to parse {url}: {exc}")
     return items
 
 
@@ -326,6 +384,25 @@ def _parse_iso_datetime(value: str) -> datetime | None:
         return datetime.fromisoformat(value.replace("Z", "+00:00"))
     except ValueError:
         return None
+
+
+def _option_string_list(source: SourceConfig, key: str) -> list[str]:
+    value = source.options.get(key, [])
+    if not isinstance(value, list):
+        return []
+    return [str(entry).strip() for entry in value if str(entry).strip()]
+
+
+def _rss_item_matches_source_filters(item: MonitoredItem, source: SourceConfig) -> bool:
+    allowed_url_patterns = _option_string_list(source, "allowed_url_patterns")
+    if allowed_url_patterns and not any(pattern in item.url for pattern in allowed_url_patterns):
+        return False
+
+    denied_url_patterns = _option_string_list(source, "deny_url_patterns")
+    if denied_url_patterns and any(pattern in item.url for pattern in denied_url_patterns):
+        return False
+
+    return True
 
 
 def _build_rss_item(source: SourceConfig, node: ElementTree.Element, feed_url: str) -> MonitoredItem | None:

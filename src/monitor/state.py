@@ -10,6 +10,7 @@ from .models import MonitoredItem
 
 DEFAULT_STATE = {
     "bootstrapped": False,
+    "source_bootstrapped_at": {},
     "items": {},
 }
 
@@ -102,4 +103,3 @@ def append_history(history_dir: Path, events: list[dict]) -> None:
     with history_path.open("a", encoding="utf-8") as handle:
         for event in events:
             handle.write(json.dumps(event, ensure_ascii=False, sort_keys=True) + "\n")
-

@@ -14,9 +14,16 @@ UN 및 산하기구의 한국(대한민국, 북한, 한반도 전체) 관련 업
 - `ILO Newsroom`
 - `ADB News`
 - `World Bank News`
+- `Crisis Group Korean Peninsula`
+- `SIPRI Publications`
+- `Bruegel Publications`
+- `RUSI Publications`
 
 보류 중:
 
+- `CGD Publications`: 공식 feed는 확인됐지만 테스트한 자동화 환경에서 Cloudflare challenge가 발생했습니다.
+- `PIIE Publications`: 공식 publications 페이지는 확인됐지만 테스트한 자동화 환경에서 Cloudflare challenge가 발생했습니다.
+- `CSIS Korea Chair`: 공식 페이지는 확인됐지만 테스트한 자동화 환경에서 Cloudflare challenge 페이지가 반환됐습니다.
 - `UNDP`: 테스트한 자동화 환경에서 공식 사이트가 `Access Denied`를 반환했습니다.
 
 ## How It Works
@@ -29,6 +36,8 @@ UN 및 산하기구의 한국(대한민국, 북한, 한반도 전체) 관련 업
 6. `data/state.json`과 `data/history/*.ndjson`를 갱신하고 커밋합니다.
 
 초기 실행은 `bootstrap` 모드입니다. 과거 글을 한꺼번에 알리지 않고, 현재 보이는 항목을 상태 파일에만 기록합니다.
+
+새 소스를 나중에 추가한 경우에도 동일한 원칙을 적용합니다. 새 소스는 첫 성공 실행에서 현재 항목을 기준선으로만 저장하고, 그 다음 실행부터 신규/업데이트만 알립니다.
 
 수동 테스트가 필요하면 GitHub Actions의 `Run workflow`에서 `mode=test_telegram`을 선택하면 텔레그램 테스트 메시지만 보냅니다.
 

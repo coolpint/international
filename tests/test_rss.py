@@ -2,8 +2,16 @@ import unittest
 from unittest.mock import patch
 from xml.etree import ElementTree
 
+from bs4 import BeautifulSoup
+
 from src.monitor.models import SourceConfig
-from src.monitor.sources import _build_rss_item, _collect_rss_items, _xml_html_text
+from src.monitor.sources import (
+    _build_rss_item,
+    _collect_rss_items,
+    _extract_bruegel_publication_links,
+    _extract_rusi_publication_links,
+    _xml_html_text,
+)
 
 
 class RssTests(unittest.TestCase):
@@ -79,6 +87,101 @@ class RssTests(unittest.TestCase):
         self.assertEqual(len(items), 1)
         self.assertEqual(items[0].title, "ADB fallback item")
         self.assertEqual(items[0].url, "https://www.adb.org/news/example")
+
+    def test_collect_rss_items_applies_url_filters(self) -> None:
+        source = SourceConfig(
+            id="sipri_publications",
+            label="SIPRI Publications",
+            type="rss_xml",
+            enabled=True,
+            list_url="https://www.sipri.org/rss/combined.xml",
+            max_items=20,
+            options={
+                "allowed_url_patterns": ["/publications/"],
+                "deny_url_patterns": ["/news/"],
+            },
+        )
+        root = ElementTree.fromstring(
+            """
+            <rss version="2.0">
+              <channel>
+                <item>
+                  <title>Publication</title>
+                  <link>https://www.sipri.org/publications/example</link>
+                  <description>Republic of Korea report</description>
+                  <pubDate>2026-03-20</pubDate>
+                </item>
+                <item>
+                  <title>News</title>
+                  <link>https://www.sipri.org/news/example</link>
+                  <description>Republic of Korea article</description>
+                  <pubDate>2026-03-19</pubDate>
+                </item>
+              </channel>
+            </rss>
+            """
+        )
+
+        with patch("src.monitor.sources.fetch_text", return_value=(ElementTree.tostring(root, encoding="unicode"), {})):
+            items = _collect_rss_items(source)
+
+        self.assertEqual(len(items), 1)
+        self.assertEqual(items[0].url, "https://www.sipri.org/publications/example")
+
+    def test_extract_bruegel_publication_links(self) -> None:
+        soup = BeautifulSoup(
+            """
+            <div class="c-listing__items">
+              <div class="views-row">
+                <article class="c-list-item c-list-item--article">
+                  <h2 class="c-list-item__title">
+                    <a href="/working-paper/example-paper">Example paper</a>
+                  </h2>
+                </article>
+              </div>
+              <div class="views-row">
+                <article class="c-list-item c-list-item--article">
+                  <h2 class="c-list-item__title">
+                    <a href="/analysis/example-analysis">Example analysis</a>
+                  </h2>
+                </article>
+              </div>
+            </div>
+            """,
+            "html.parser",
+        )
+
+        urls = _extract_bruegel_publication_links("https://www.bruegel.org/publications", soup)
+
+        self.assertEqual(
+            urls,
+            [
+                "https://www.bruegel.org/working-paper/example-paper",
+                "https://www.bruegel.org/analysis/example-analysis",
+            ],
+        )
+
+    def test_extract_rusi_publication_links(self) -> None:
+        soup = BeautifulSoup(
+            """
+            <div>
+              <a class="RelatedArticle-module--mainLink--4c03e" href="/explore-our-research/publications/insights-papers/example-paper"></a>
+              <a class="RelatedArticle-module--mainLink--4c03e" href="/explore-our-research/publications/research-papers/example-report"></a>
+              <a class="RelatedArticle-module--mainLink--4c03e" href="/podcasts/example"></a>
+            </div>
+            """,
+            "html.parser",
+        )
+
+        urls = _extract_rusi_publication_links("https://www.rusi.org/", soup)
+
+        self.assertEqual(
+            urls,
+            [
+                "https://www.rusi.org/explore-our-research/publications/insights-papers/example-paper",
+                "https://www.rusi.org/explore-our-research/publications/research-papers/example-report",
+            ],
+        )
 
 
 if __name__ == "__main__":

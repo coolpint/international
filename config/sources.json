@@ -94,6 +94,75 @@
       "note": "Uses the public JSON API exposed by the official World Bank all-news page; future-dated items are ignored."
     },
     {
+      "id": "crisis_group_korean_peninsula",
+      "label": "Crisis Group Korean Peninsula",
+      "type": "rss_xml",
+      "enabled": true,
+      "list_url": "https://www.crisisgroup.org/rss/33",
+      "max_items": 20,
+      "deny_url_patterns": [
+        "/evt/"
+      ],
+      "note": "Uses the official Korean Peninsula RSS feed and excludes event pages."
+    },
+    {
+      "id": "sipri_publications",
+      "label": "SIPRI Publications",
+      "type": "rss_xml",
+      "enabled": true,
+      "list_url": "https://www.sipri.org/rss/combined.xml",
+      "max_items": 20,
+      "allowed_url_patterns": [
+        "/publications/"
+      ],
+      "note": "Uses SIPRI's official combined RSS feed, filtered to publication URLs."
+    },
+    {
+      "id": "bruegel_publications",
+      "label": "Bruegel Publications",
+      "type": "bruegel_publications",
+      "enabled": true,
+      "list_url": "https://www.bruegel.org/publications",
+      "max_items": 20,
+      "note": "Parses the official publications listing page."
+    },
+    {
+      "id": "rusi_publications",
+      "label": "RUSI Publications",
+      "type": "rusi_publications",
+      "enabled": true,
+      "list_url": "https://www.rusi.org/",
+      "max_items": 20,
+      "note": "Parses publication cards from RUSI's official homepage, limited to publication URLs."
+    },
+    {
+      "id": "cgdev_publications",
+      "label": "CGD Publications",
+      "type": "pending",
+      "enabled": false,
+      "list_url": "https://www.cgdev.org/section/publications/feed",
+      "max_items": 20,
+      "note": "Official publications feed exists, but the tested automation environment received a Cloudflare challenge."
+    },
+    {
+      "id": "piie_publications",
+      "label": "PIIE Publications",
+      "type": "pending",
+      "enabled": false,
+      "list_url": "https://www.piie.com/research/publications",
+      "max_items": 20,
+      "note": "Official publications page exists, but the tested automation environment received a Cloudflare challenge."
+    },
+    {
+      "id": "csis_korea_chair",
+      "label": "CSIS Korea Chair",
+      "type": "pending",
+      "enabled": false,
+      "list_url": "https://www.csis.org/programs/korea-chair?f%5B0%5D=topics%3A3091",
+      "max_items": 20,
+      "note": "Official page exists, but the tested automation environment returned a Cloudflare challenge page."
+    },
+    {
       "id": "undp_news_centre",
       "label": "UNDP News Centre",
       "type": "pending",

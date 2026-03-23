@@ -54,8 +54,19 @@ def main() -> int:
     state = load_state(Path(args.state))
 
     bootstrapping = not state.get("bootstrapped", False)
+    source_bootstrapped_at = state.setdefault("source_bootstrapped_at", {})
+    if not source_bootstrapped_at and state.get("bootstrapped"):
+        for record in state.get("items", {}).values():
+            source_id = record.get("source_id")
+            if not source_id:
+                continue
+            source_bootstrapped_at.setdefault(
+                source_id,
+                record.get("first_seen_at") or state.get("bootstrapped_at") or run_at,
+            )
     relevant_items = []
     events = []
+    successful_source_ids = []
 
     for source in sources:
         if not source.enabled:
@@ -69,7 +80,11 @@ def main() -> int:
             print(f"[error] {source.id}: {exc}", file=sys.stderr)
             continue
 
+        successful_source_ids.append(source.id)
         print(f"[source] {source.id}: collected {len(items)} items")
+        source_bootstrapping = bootstrapping or source.id not in source_bootstrapped_at
+        if source_bootstrapping and not bootstrapping:
+            print(f"[bootstrap] New source detected for {source.id}; storing current relevant items without Telegram alerts.")
 
         for item in items:
             classification = classify_item(item, keywords)
@@ -79,7 +94,7 @@ def main() -> int:
             item.relevant = True
             item.confidence = classification.confidence
             item.matched_terms = classification.matched_terms
-            relevant_items.append(item)
+            relevant_items.append((item, source_bootstrapping))
 
     if bootstrapping:
         print("[bootstrap] First run detected; storing current relevant items without Telegram alerts.")
@@ -88,8 +103,8 @@ def main() -> int:
     if not telegram_ready:
         print("[info] Telegram secrets not configured; notifications will be skipped.")
 
-    for item in relevant_items:
-        event = register_item(state, item, run_at, bootstrapping=bootstrapping)
+    for item, source_bootstrapping in relevant_items:
+        event = register_item(state, item, run_at, bootstrapping=bootstrapping or source_bootstrapping)
         if event is None:
             continue
 
@@ -121,6 +136,8 @@ def main() -> int:
         if bootstrapping:
             state["bootstrapped"] = True
             state["bootstrapped_at"] = run_at
+        for source_id in successful_source_ids:
+            source_bootstrapped_at.setdefault(source_id, run_at)
         save_state(Path(args.state), state)
         append_history(Path(args.history_dir), events)
 
