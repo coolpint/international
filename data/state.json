@@ -223,6 +223,24 @@
       "title": "Ghana launches “Dress Ghana and Build Ghana” campaign to boost local garment production and decent work",
       "url": "https://www.ilo.org/resource/news/ghana-launches-%E2%80%9Cdress-ghana-and-build-ghana%E2%80%9D-campaign-boost-local-garment"
     },
+    "https://www.ilo.org/resource/news/uzbekistan-advances-work-injury-insurance-construction-workers": {
+      "confidence": "high",
+      "content_hash": "23c5a1d487e2a6cd1c1417c1b11587cd43a4f56ee99d2d5cde77366ff4331850",
+      "first_seen_at": "2026-03-24T15:57:42Z",
+      "last_event": "new",
+      "last_notified_at": "2026-03-24T15:57:42Z",
+      "last_seen_at": "2026-03-24T15:57:42Z",
+      "matched_terms": [
+        "Republic of Korea",
+        "Korea"
+      ],
+      "published_at": "Tue, 24 Mar 2026 13:43:49 +0000",
+      "source_id": "ilo_newsroom",
+      "source_label": "ILO Newsroom",
+      "summary": "Uzbekistan advances work injury insurance for construction workers\nplatonova@ilo.org\nTue, 03/24/2026 - 13:43\nDocument Type\nNews\nCountries\nUzbekistan\nRegions\nEurope and Central Asia\nDate of Publication\nMon, 02/23/2026 - 12:00\nEyebrow\nGlobal Accelerator\nSubject (relevant to topic/sector)\ninformal employment\nemployment injury insurance\nformalization\nconstruction industry\npartnerships\nHero Image\n© ILO\n© ILO\nParticipants at the tripartite roundtable on work injury insurance for the construction secto",
+      "title": "Uzbekistan advances work injury insurance for construction workers",
+      "url": "https://www.ilo.org/resource/news/uzbekistan-advances-work-injury-insurance-construction-workers"
+    },
     "https://www.rusi.org/explore-our-research/publications/commentary/gulf-war-iii-warning-about-effects-taiwan-straits-war-i": {
       "confidence": "high",
       "content_hash": "f95904487842d7080772cfd86b5be9d5df839e3e78bcd4970896e2060a8e6fa5",
@@ -296,6 +314,24 @@
       "summary": "At a meeting of the Working Party on the Accession of Uzbekistan on 9 March, the head of Uzbekistan's delegation, Deputy Prime Minister Jamshid Khodjaev, said his country is committed to bringing Uzbekistan’s accession process to a successful conclusion this year. Thanking members for supporting Uzbekistan's accession during a very busy period, he reaffirmed the country's commitment to engage constructively with all Working Party members. Uzbekistan stands ready to address any remaining issues i",
       "title": "Uzbekistan commits to maintaining \"strong momentum\" to accede to WTO in 2026",
       "url": "https://www.wto.org/english/news_e/news26_e/acc_09mar26_316_e.htm"
+    },
+    "https://www.wto.org/english/news_e/news26_e/chair_19mar26_333_e.htm": {
+      "confidence": "high",
+      "content_hash": "010619c63c7de61c0a7081860346a113ff0b3d59ac195dc4b83be56f4064fa7b",
+      "first_seen_at": "2026-03-24T15:57:42Z",
+      "last_event": "new",
+      "last_notified_at": "2026-03-24T15:57:42Z",
+      "last_seen_at": "2026-03-24T15:57:42Z",
+      "matched_terms": [
+        "Republic of Korea",
+        "Korea"
+      ],
+      "published_at": "Thu, 19 Mar 2026 00:00:00 GMT",
+      "source_id": "wto_latest_news",
+      "source_label": "WTO Latest News",
+      "summary": "The WTO Chairs Programme (WCP) held an academic conference on 19 and 20 March in Yaoundé, Cameroon, discussing a wide range of issues and challenges in reforming the multilateral trading system from an African perspective. Participants also delved into trade and development issues to explore opportunities and new approaches for the continent and for other developing regions.",
+      "title": "WTO Chairs Programme holds academic conference in Cameroon",
+      "url": "https://www.wto.org/english/news_e/news26_e/chair_19mar26_333_e.htm"
     }
   },
   "source_bootstrapped_at": {
