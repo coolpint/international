@@ -25,7 +25,7 @@
       "first_seen_at": "2026-03-23T13:56:57Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-03-24T23:22:53Z",
+      "last_seen_at": "2026-03-25T07:47:14Z",
       "matched_terms": [
         "North Korea",
         "Korean Peninsula",
@@ -46,7 +46,7 @@
       "first_seen_at": "2026-03-23T13:56:57Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-03-24T23:22:53Z",
+      "last_seen_at": "2026-03-25T07:47:14Z",
       "matched_terms": [
         "Korean Peninsula",
         "Korean"
@@ -64,7 +64,7 @@
       "first_seen_at": "2026-03-23T13:56:57Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-03-24T23:22:53Z",
+      "last_seen_at": "2026-03-25T07:47:14Z",
       "matched_terms": [
         "Korean Peninsula",
         "Korean"
@@ -82,7 +82,7 @@
       "first_seen_at": "2026-03-23T13:56:57Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-03-24T23:22:53Z",
+      "last_seen_at": "2026-03-25T07:47:14Z",
       "matched_terms": [
         "North Korea",
         "Korean Peninsula",
@@ -102,7 +102,7 @@
       "first_seen_at": "2026-03-23T13:56:57Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-03-24T23:22:53Z",
+      "last_seen_at": "2026-03-25T07:47:14Z",
       "matched_terms": [
         "North Korea",
         "Korea",
@@ -121,7 +121,7 @@
       "first_seen_at": "2026-03-23T13:56:57Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-03-24T23:22:53Z",
+      "last_seen_at": "2026-03-25T07:47:14Z",
       "matched_terms": [
         "North Korea",
         "Korea",
@@ -223,13 +223,30 @@
       "title": "Ghana launches “Dress Ghana and Build Ghana” campaign to boost local garment production and decent work",
       "url": "https://www.ilo.org/resource/news/ghana-launches-%E2%80%9Cdress-ghana-and-build-ghana%E2%80%9D-campaign-boost-local-garment"
     },
+    "https://www.ilo.org/resource/news/green-digital-skills-shift-construction-drives-youth-employment-push": {
+      "confidence": "medium",
+      "content_hash": "dbb06dd0f29bfb75c3aa8f7ba46e26216ac9f9ed5ee491a7333670939e70eff0",
+      "first_seen_at": "2026-03-25T07:47:14Z",
+      "last_event": "new",
+      "last_notified_at": null,
+      "last_seen_at": "2026-03-25T07:47:14Z",
+      "matched_terms": [
+        "Korea"
+      ],
+      "published_at": "Tue, 24 Mar 2026 23:14:17 +0000",
+      "source_id": "ilo_newsroom",
+      "source_label": "ILO Newsroom",
+      "summary": "Green, digital skills shift in construction drives youth employment push\nrimando@ilo.org\nTue, 03/24/2026 - 23:14\nDocument Type\nNews\nCountries\nPhilippines\nRegions\nAsia\nDate of Publication\nWed, 03/25/2026 - 12:00\nEyebrow\nDigital and green skills\nSubject (relevant to topic/sector)\nemployment\nyouth employment\neducation and training\ntraining\nskills\nconstruction industry\nenvironment\nclimate change\nHero Image\n© Maxime Fossat/ILO\n© Maxime Fossat/ILO\nA young construction worker gathers materials on-site,",
+      "title": "Green, digital skills shift in construction drives youth employment push",
+      "url": "https://www.ilo.org/resource/news/green-digital-skills-shift-construction-drives-youth-employment-push"
+    },
     "https://www.ilo.org/resource/news/uzbekistan-advances-work-injury-insurance-construction-workers": {
       "confidence": "high",
       "content_hash": "23c5a1d487e2a6cd1c1417c1b11587cd43a4f56ee99d2d5cde77366ff4331850",
       "first_seen_at": "2026-03-24T15:57:42Z",
       "last_event": "new",
       "last_notified_at": "2026-03-24T15:57:42Z",
-      "last_seen_at": "2026-03-24T23:22:53Z",
+      "last_seen_at": "2026-03-25T07:47:14Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
@@ -321,7 +338,7 @@
       "first_seen_at": "2026-03-24T15:57:42Z",
       "last_event": "new",
       "last_notified_at": "2026-03-24T15:57:42Z",
-      "last_seen_at": "2026-03-24T23:22:53Z",
+      "last_seen_at": "2026-03-25T07:47:14Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
