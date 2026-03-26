@@ -20,6 +20,8 @@ def collect_items(source: SourceConfig) -> list[MonitoredItem]:
         return _collect_unrisd_api_items(source)
     if source.type == "rss_xml":
         return _collect_rss_items(source)
+    if source.type == "html_listing":
+        return _collect_html_listing_items(source)
     if source.type == "world_bank_news_api":
         return _collect_world_bank_news_items(source)
     if source.type == "bruegel_publications":
@@ -285,6 +287,24 @@ def _collect_rusi_publication_items(source: SourceConfig) -> list[MonitoredItem]
     return items
 
 
+def _collect_html_listing_items(source: SourceConfig) -> list[MonitoredItem]:
+    selector = str(source.options.get("link_selector", "")).strip()
+    if not selector:
+        raise RuntimeError(f"{source.id} is missing link_selector.")
+
+    html_text, _ = fetch_text(source.list_url)
+    soup = BeautifulSoup(html_text, "html.parser")
+    urls = _extract_html_listing_links(source.list_url, soup, selector, source)
+
+    items = []
+    for url in urls[: source.max_items]:
+        try:
+            items.append(_fetch_detail_item(source, url))
+        except Exception as exc:
+            print(f"[warn] {source.id}: failed to parse {url}: {exc}")
+    return items
+
+
 def _build_unrisd_item(source: SourceConfig, record: dict, route_prefix: str) -> MonitoredItem | None:
     attributes = record.get("attributes", {})
     slug = attributes.get("slug")
@@ -393,16 +413,40 @@ def _option_string_list(source: SourceConfig, key: str) -> list[str]:
     return [str(entry).strip() for entry in value if str(entry).strip()]
 
 
-def _rss_item_matches_source_filters(item: MonitoredItem, source: SourceConfig) -> bool:
+def _url_matches_source_filters(url: str, source: SourceConfig) -> bool:
+    allowed_domains = _option_string_list(source, "allowed_domains")
+    if allowed_domains:
+        domain = urlparse(url).netloc.lower()
+        allowed_domain_set = [entry.lower() for entry in allowed_domains]
+        if not any(domain == allowed or domain.endswith("." + allowed) for allowed in allowed_domain_set):
+            return False
+
     allowed_url_patterns = _option_string_list(source, "allowed_url_patterns")
-    if allowed_url_patterns and not any(pattern in item.url for pattern in allowed_url_patterns):
+    if allowed_url_patterns and not any(pattern in url for pattern in allowed_url_patterns):
         return False
 
     denied_url_patterns = _option_string_list(source, "deny_url_patterns")
-    if denied_url_patterns and any(pattern in item.url for pattern in denied_url_patterns):
+    if denied_url_patterns and any(pattern in url for pattern in denied_url_patterns):
         return False
 
     return True
+
+
+def _rss_item_matches_source_filters(item: MonitoredItem, source: SourceConfig) -> bool:
+    return _url_matches_source_filters(item.url, source)
+
+
+def _extract_html_listing_links(base_url: str, soup: BeautifulSoup, selector: str, source: SourceConfig) -> list[str]:
+    urls = []
+    for anchor in soup.select(selector):
+        href = anchor.get("href")
+        if not href:
+            continue
+        url = urljoin(base_url, href)
+        if not _url_matches_source_filters(url, source):
+            continue
+        urls.append(url)
+    return _dedupe_preserve_order(urls)
 
 
 def _build_rss_item(source: SourceConfig, node: ElementTree.Element, feed_url: str) -> MonitoredItem | None:

@@ -1,6 +1,6 @@
 # international
 
-UN 및 산하기구의 한국(대한민국, 북한, 한반도 전체) 관련 업데이트를 감지해 텔레그램 채널로 보내는 GitHub Actions 기반 모니터입니다.
+UN 계열 기관, 국제기구, 싱크탱크, 미국 정부 보도자료의 한국(대한민국, 북한, 한반도 전체) 관련 업데이트를 감지해 텔레그램 채널로 보내는 GitHub Actions 기반 모니터입니다.
 
 ## Current Scope
 
@@ -14,6 +14,9 @@ UN 및 산하기구의 한국(대한민국, 북한, 한반도 전체) 관련 업
 - `ILO Newsroom`
 - `ADB News`
 - `World Bank News`
+- `DOJ Press Releases`
+- `U.S. Treasury Press Releases`
+- `USTR Press Releases`
 - `Crisis Group Korean Peninsula`
 - `SIPRI Publications`
 - `Bruegel Publications`

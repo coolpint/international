@@ -94,6 +94,53 @@
       "note": "Uses the public JSON API exposed by the official World Bank all-news page; future-dated items are ignored."
     },
     {
+      "id": "doj_press_releases",
+      "label": "DOJ Press Releases",
+      "type": "rss_xml",
+      "enabled": true,
+      "list_url": "https://www.justice.gov/news/rss?m=1&type=press_release",
+      "max_items": 20,
+      "allowed_domains": [
+        "www.justice.gov"
+      ],
+      "allowed_url_patterns": [
+        "/opa/pr/"
+      ],
+      "note": "Uses the official DOJ Justice News press release RSS feed."
+    },
+    {
+      "id": "treasury_press_releases",
+      "label": "U.S. Treasury Press Releases",
+      "type": "html_listing",
+      "enabled": true,
+      "list_url": "https://home.treasury.gov/news/press-releases",
+      "max_items": 20,
+      "link_selector": "h3.featured-stories__headline a[href]",
+      "allowed_domains": [
+        "home.treasury.gov"
+      ],
+      "allowed_url_patterns": [
+        "/news/press-releases/"
+      ],
+      "note": "Parses the official Treasury press releases listing page."
+    },
+    {
+      "id": "ustr_press_releases",
+      "label": "USTR Press Releases",
+      "type": "html_listing",
+      "enabled": true,
+      "list_url": "https://ustr.gov/about-us/policy-offices/press-office/press-releases",
+      "max_items": 20,
+      "link_selector": "div.view-content div.views-row .views-field-title a[href]",
+      "allowed_domains": [
+        "ustr.gov"
+      ],
+      "allowed_url_patterns": [
+        "/press-office/press-releases/"
+      ],
+      "note": "Parses the official USTR press releases page and keeps press release URLs only."
+    },
+    {
       "id": "crisis_group_korean_peninsula",
       "label": "Crisis Group Korean Peninsula",
       "type": "rss_xml",
