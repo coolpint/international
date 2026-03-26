@@ -2,6 +2,28 @@
   "bootstrapped": true,
   "bootstrapped_at": "2026-03-07T09:13:17Z",
   "items": {
+    "https://home.treasury.gov/news/press-releases/sb0416": {
+      "confidence": "high",
+      "content_hash": "b3be4be21827107f686d86a31a00f51fb646f01f66cb14a081004b949b9937e2",
+      "first_seen_at": "2026-03-26T16:03:48Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-03-26T16:03:48Z",
+      "matched_terms": [
+        "DPRK",
+        "Republic of Korea",
+        "North Korea",
+        "Democratic People’s Republic of Korea",
+        "Korea",
+        "Korean"
+      ],
+      "published_at": "2025-12-23T21:15:00Z",
+      "source_id": "treasury_press_releases",
+      "source_label": "U.S. Treasury Press Releases",
+      "summary": "WASHINGTON—Today, the U.S. Department of the Treasury’s Office of Foreign Assets Control (OFAC) sanctioned six individuals and two entities for their roles in Democratic People’s Republic of Korea (DPRK) government-orchestrated information technology (IT) worker schemes that systematically defraud U.S. businesses and generate revenue to fund the DPRK’s weapons of mass destruction (WMD) programs, including nearly $800 million in 2024.“The North Korean regime targets American companies through dec",
+      "title": "Treasury Sanctions Facilitators of DPRK IT Worker Fraud Targeting U.S. Businesses",
+      "url": "https://home.treasury.gov/news/press-releases/sb0416"
+    },
     "https://press.un.org/en/2026/sc16302.doc.htm": {
       "confidence": "medium",
       "content_hash": "10e6652632c35fb99ddbf556611d061a3da33fc2a3a85f2ee7fcf1a0c09530d8",
@@ -18,6 +40,41 @@
       "summary": "As the Russian Federation’s war on Ukraine enters its fifth year, the Security Council today heard that ongoing diplomatic efforts must first yield an immediate ceasefire, and then a lasting peace, to finally end the widespread suffering wrought by prolonged conflict.",
       "title": "‘War Remains Stain on Collective Conscience’, Under-Secretary-General Tells Security Council as Ukraine War Enters Fifth Year, Urging Ceasefire",
       "url": "https://press.un.org/en/2026/sc16302.doc.htm"
+    },
+    "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/march/ustr-initiates-60-section-301-investigations-relating-failures-take-action-forced-labor": {
+      "confidence": "high",
+      "content_hash": "f347a7b1d3b9b1ec7b91a29c4c749af875818f514a50300d3e0035c86d1905ec",
+      "first_seen_at": "2026-03-26T16:03:48Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-03-26T16:03:48Z",
+      "matched_terms": [
+        "South Korea",
+        "Korea"
+      ],
+      "published_at": "Thu, 26 Mar 2026 15:58:28 GMT",
+      "source_id": "ustr_press_releases",
+      "source_label": "USTR Press Releases",
+      "summary": "WASHINGTON — Today, the United States Trade Representative initiated investigations of 60 economies under Section 301(b) of the Trade Act of 1974. The investigations will determine whether acts, policies, and practices of each of these economies related to the failure to impose and effectively enforce a ban on the importation of goods produced with forced labor are unreasonable or discriminatory and burden or restrict U.S. commerce. The list of economies subject to these investigations—60 of the",
+      "title": "USTR Initiates 60 Section 301 Investigations Relating to Failures to Take Action on Forced Labor",
+      "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/march/ustr-initiates-60-section-301-investigations-relating-failures-take-action-forced-labor"
+    },
+    "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/march/ustr-initiates-section-301-investigations-relating-structural-excess-capacity-and-production": {
+      "confidence": "medium",
+      "content_hash": "a620eaad2ac454280d4224d26e4ce99e0a89f7ba2af2e6f98d0ebdeebc3e52e0",
+      "first_seen_at": "2026-03-26T16:03:48Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-03-26T16:03:48Z",
+      "matched_terms": [
+        "Korea"
+      ],
+      "published_at": "Thu, 26 Mar 2026 16:04:34 GMT",
+      "source_id": "ustr_press_releases",
+      "source_label": "USTR Press Releases",
+      "summary": "WASHINGTON — Today, United States Trade Representative Jamieson Greer announced the initiation of investigations regarding the acts, policies, and practices of various economies under Section 301(b) of the Trade Act of 1974 relating to structural excess capacity and production in manufacturing sectors. The investigations will determine whether those acts, policies, and practices are unreasonable or discriminatory and burden or restrict U.S. commerce.",
+      "title": "USTR Initiates Section 301 Investigations Relating to Structural Excess Capacity and Production in Manufacturing Sectors",
+      "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/march/ustr-initiates-section-301-investigations-relating-structural-excess-capacity-and-production"
     },
     "https://www.crisisgroup.org/cmt/asia-pacific/korean-peninsula/addressing-challenges-emboldened-north-korea": {
       "confidence": "high",
@@ -338,7 +395,7 @@
       "first_seen_at": "2026-03-24T15:57:42Z",
       "last_event": "new",
       "last_notified_at": "2026-03-24T15:57:42Z",
-      "last_seen_at": "2026-03-26T07:56:07Z",
+      "last_seen_at": "2026-03-26T16:03:48Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
@@ -349,20 +406,41 @@
       "summary": "The WTO Chairs Programme (WCP) held an academic conference on 19 and 20 March in Yaoundé, Cameroon, discussing a wide range of issues and challenges in reforming the multilateral trading system from an African perspective. Participants also delved into trade and development issues to explore opportunities and new approaches for the continent and for other developing regions.",
       "title": "WTO Chairs Programme holds academic conference in Cameroon",
       "url": "https://www.wto.org/english/news_e/news26_e/chair_19mar26_333_e.htm"
+    },
+    "https://www.wto.org/english/news_e/news26_e/infac_25mar26_338_e.htm": {
+      "confidence": "high",
+      "content_hash": "66bd83939eae986297890a3f4a3290fa9d81b6b19551f82a37173e90c141a380",
+      "first_seen_at": "2026-03-26T16:03:48Z",
+      "last_event": "new",
+      "last_notified_at": "2026-03-26T16:03:48Z",
+      "last_seen_at": "2026-03-26T16:03:48Z",
+      "matched_terms": [
+        "Republic of Korea",
+        "Korea"
+      ],
+      "published_at": "Wed, 25 Mar 2026 00:00:00 GMT",
+      "source_id": "wto_latest_news",
+      "source_label": "WTO Latest News",
+      "summary": "At a high-level event on 25 March, on the eve of the 14th Ministerial Conference (MC14) in Yaoundé, ministers of 128 WTO members participating in the Investment Facilitation for Development (IFD) Agreement showcased initiatives with global partners to support implementation of the Agreement and to mobilize investment particularly towards developing economies. They reiterated their call for MC14 to incorporate the Agreement into the WTO legal framework to fully unlock its development potential. T",
+      "title": "Members participating in IFD showcase progress, urge incorporation of Agreement into WTO",
+      "url": "https://www.wto.org/english/news_e/news26_e/infac_25mar26_338_e.htm"
     }
   },
   "source_bootstrapped_at": {
     "adb_news": "2026-03-23T13:56:57Z",
     "crisis_group_korean_peninsula": "2026-03-23T13:56:57Z",
+    "doj_press_releases": "2026-03-26T16:03:48Z",
     "ilo_newsroom": "2026-03-19T07:40:49Z",
     "rusi_publications": "2026-03-23T13:56:57Z",
     "sipri_publications": "2026-03-23T13:56:57Z",
+    "treasury_press_releases": "2026-03-26T16:03:48Z",
     "un_meetings_coverage": "2026-03-07T09:13:17Z",
     "un_news_latest": "2026-03-23T13:56:57Z",
     "un_press_releases": "2026-03-23T13:56:57Z",
     "unctad_publications": "2026-03-23T13:56:57Z",
     "unrisd_news": "2026-03-23T13:56:57Z",
     "unrisd_publications": "2026-03-07T09:13:17Z",
+    "ustr_press_releases": "2026-03-26T16:03:48Z",
     "world_bank_news": "2026-03-23T13:56:57Z",
     "wto_latest_news": "2026-03-11T15:39:09Z"
   }
