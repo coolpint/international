@@ -9,7 +9,7 @@ from .monitor.config import load_keywords, load_sources
 from .monitor.filtering import classify_item
 from .monitor.notifier import send_telegram_message, telegram_is_configured
 from .monitor.sources import collect_items
-from .monitor.state import append_history, load_state, mark_notified, register_item, save_state
+from .monitor.state import append_history, append_run_log, load_state, mark_notified, register_item, save_state
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
@@ -17,6 +17,7 @@ DEFAULT_SOURCES = REPO_ROOT / "config" / "sources.json"
 DEFAULT_KEYWORDS = REPO_ROOT / "config" / "keywords.json"
 DEFAULT_STATE = REPO_ROOT / "data" / "state.json"
 DEFAULT_HISTORY_DIR = REPO_ROOT / "data" / "history"
+DEFAULT_RUN_LOG_DIR = REPO_ROOT / "data" / "run_logs"
 
 
 def parse_args() -> argparse.Namespace:
@@ -25,6 +26,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--keywords", default=str(DEFAULT_KEYWORDS))
     parser.add_argument("--state", default=str(DEFAULT_STATE))
     parser.add_argument("--history-dir", default=str(DEFAULT_HISTORY_DIR))
+    parser.add_argument("--run-log-dir", default=str(DEFAULT_RUN_LOG_DIR))
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--test-telegram", action="store_true")
     return parser.parse_args()
@@ -67,17 +69,36 @@ def main() -> int:
     relevant_items = []
     events = []
     successful_source_ids = []
+    source_reports = []
 
     for source in sources:
         if not source.enabled:
             reason = source.note or "disabled"
             print(f"[skip] {source.id}: {reason}")
+            source_reports.append(
+                {
+                    "source_id": source.id,
+                    "source_label": source.label,
+                    "enabled": False,
+                    "status": "disabled",
+                    "detail": reason,
+                }
+            )
             continue
 
         try:
             items = collect_items(source)
         except Exception as exc:
             print(f"[error] {source.id}: {exc}", file=sys.stderr)
+            source_reports.append(
+                {
+                    "source_id": source.id,
+                    "source_label": source.label,
+                    "enabled": True,
+                    "status": "error",
+                    "detail": str(exc),
+                }
+            )
             continue
 
         successful_source_ids.append(source.id)
@@ -85,6 +106,16 @@ def main() -> int:
         source_bootstrapping = bootstrapping or source.id not in source_bootstrapped_at
         if source_bootstrapping and not bootstrapping:
             print(f"[bootstrap] New source detected for {source.id}; storing current relevant items without Telegram alerts.")
+        source_reports.append(
+            {
+                "source_id": source.id,
+                "source_label": source.label,
+                "enabled": True,
+                "status": "ok",
+                "collected": len(items),
+                "bootstrapping": source_bootstrapping,
+            }
+        )
 
         for item in items:
             classification = classify_item(item, keywords)
@@ -130,6 +161,22 @@ def main() -> int:
 
         events.append(event)
 
+    summary = {
+        "relevant_items": len(relevant_items),
+        "events": len(events),
+        "new": sum(1 for event in events if event["event"] == "new"),
+        "updated": sum(1 for event in events if event["event"] == "updated"),
+        "bootstrap": sum(1 for event in events if event["event"] == "bootstrap"),
+        "notified": sum(1 for event in events if event.get("notified")),
+    }
+    run_report = {
+        "run_at": run_at,
+        "bootstrapping": bootstrapping,
+        "telegram_ready": telegram_ready,
+        "sources": source_reports,
+        "summary": summary,
+    }
+
     if args.dry_run:
         print("[dry-run] State files were not changed.")
     else:
@@ -140,15 +187,8 @@ def main() -> int:
             source_bootstrapped_at.setdefault(source_id, run_at)
         save_state(Path(args.state), state)
         append_history(Path(args.history_dir), events)
+        append_run_log(Path(args.run_log_dir), run_report)
 
-    summary = {
-        "relevant_items": len(relevant_items),
-        "events": len(events),
-        "new": sum(1 for event in events if event["event"] == "new"),
-        "updated": sum(1 for event in events if event["event"] == "updated"),
-        "bootstrap": sum(1 for event in events if event["event"] == "bootstrap"),
-        "notified": sum(1 for event in events if event.get("notified")),
-    }
     print(f"[summary] {summary}")
     return 0
 

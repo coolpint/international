@@ -103,3 +103,12 @@ def append_history(history_dir: Path, events: list[dict]) -> None:
     with history_path.open("a", encoding="utf-8") as handle:
         for event in events:
             handle.write(json.dumps(event, ensure_ascii=False, sort_keys=True) + "\n")
+
+
+def append_run_log(run_log_dir: Path, report: dict) -> None:
+    run_log_dir.mkdir(parents=True, exist_ok=True)
+    event_time = datetime.fromisoformat(report["run_at"].replace("Z", "+00:00"))
+    report_path = run_log_dir / f"{event_time:%Y-%m}.ndjson"
+
+    with report_path.open("a", encoding="utf-8") as handle:
+        handle.write(json.dumps(report, ensure_ascii=False, sort_keys=True) + "\n")

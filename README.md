@@ -34,6 +34,7 @@ UN 및 산하기구의 한국(대한민국, 북한, 한반도 전체) 관련 업
 4. 한반도 관련 키워드로 1차 판별합니다.
 5. `high` confidence 신규/업데이트 항목만 텔레그램 채널로 보냅니다.
 6. `data/state.json`과 `data/history/*.ndjson`를 갱신하고 커밋합니다.
+7. 각 모니터 실행 결과를 `data/run_logs/*.ndjson`에 저장해 주간 건강점검에 활용합니다.
 
 초기 실행은 `bootstrap` 모드입니다. 과거 글을 한꺼번에 알리지 않고, 현재 보이는 항목을 상태 파일에만 기록합니다.
 
@@ -76,18 +77,27 @@ GitHub repository에서 아래 경로로 들어가 시크릿을 추가하면 됩
 - `08:00`
 - `16:00`
 
+주간 건강점검 워크플로도 함께 동작합니다.
+
+- `45 6 * * 5`
+
+이는 한국 시간 기준 매주 금요일 `15:45`입니다. 지난 7일간의 스케줄 실행, 소스 에러, 알림 전송 여부를 점검해 텔레그램으로 정상/이상 상태를 보냅니다.
+
 ## Layout
 
 ```text
 .
 ├─ .github/workflows/monitor.yml
+├─ .github/workflows/weekly-healthcheck.yml
 ├─ config/
 │  ├─ keywords.json
 │  └─ sources.json
 ├─ data/
 │  ├─ history/
+│  ├─ run_logs/
 │  └─ state.json
 ├─ src/
+│  ├─ healthcheck.py
 │  ├─ main.py
 │  └─ monitor/
 └─ tests/

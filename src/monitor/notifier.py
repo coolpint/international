@@ -17,6 +17,11 @@ SOURCE_LABELS_KO = {
     "WTO Latest News": "WTO 최신 뉴스",
     "ILO Newsroom": "ILO 뉴스룸",
     "ADB News": "ADB 뉴스",
+    "World Bank News": "세계은행 뉴스",
+    "Crisis Group Korean Peninsula": "국제위기그룹 한반도",
+    "SIPRI Publications": "SIPRI 간행물",
+    "Bruegel Publications": "브뤼헐 간행물",
+    "RUSI Publications": "RUSI 간행물",
 }
 
 EVENT_LABELS_KO = {
