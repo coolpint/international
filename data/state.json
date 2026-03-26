@@ -8,7 +8,7 @@
       "first_seen_at": "2026-03-26T16:03:48Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-03-26T16:03:48Z",
+      "last_seen_at": "2026-03-26T23:22:51Z",
       "matched_terms": [
         "DPRK",
         "Republic of Korea",
@@ -47,7 +47,7 @@
       "first_seen_at": "2026-03-26T16:03:48Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-03-26T16:03:48Z",
+      "last_seen_at": "2026-03-26T23:22:51Z",
       "matched_terms": [
         "South Korea",
         "Korea"
@@ -65,7 +65,7 @@
       "first_seen_at": "2026-03-26T16:03:48Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-03-26T16:03:48Z",
+      "last_seen_at": "2026-03-26T23:22:51Z",
       "matched_terms": [
         "Korea"
       ],
@@ -409,11 +409,11 @@
     },
     "https://www.wto.org/english/news_e/news26_e/infac_25mar26_338_e.htm": {
       "confidence": "high",
-      "content_hash": "66bd83939eae986297890a3f4a3290fa9d81b6b19551f82a37173e90c141a380",
+      "content_hash": "52526609e7cfa0de400516c86854b404751e7a9ce6d7a61fe2d773c2d53e983f",
       "first_seen_at": "2026-03-26T16:03:48Z",
-      "last_event": "new",
-      "last_notified_at": "2026-03-26T16:03:48Z",
-      "last_seen_at": "2026-03-26T16:03:48Z",
+      "last_event": "updated",
+      "last_notified_at": "2026-03-26T23:22:51Z",
+      "last_seen_at": "2026-03-26T23:22:51Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
