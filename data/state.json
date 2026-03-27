@@ -8,7 +8,7 @@
       "first_seen_at": "2026-03-26T16:03:48Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-03-27T07:54:15Z",
+      "last_seen_at": "2026-03-27T15:42:56Z",
       "matched_terms": [
         "DPRK",
         "Republic of Korea",
@@ -47,7 +47,7 @@
       "first_seen_at": "2026-03-26T16:03:48Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-03-27T07:54:15Z",
+      "last_seen_at": "2026-03-27T15:42:56Z",
       "matched_terms": [
         "South Korea",
         "Korea"
@@ -65,7 +65,7 @@
       "first_seen_at": "2026-03-26T16:03:48Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-03-27T07:54:15Z",
+      "last_seen_at": "2026-03-27T15:42:56Z",
       "matched_terms": [
         "Korea"
       ],
@@ -424,6 +424,24 @@
       "summary": "At a high-level event on 25 March, on the eve of the 14th Ministerial Conference (MC14) in Yaoundé, ministers of 128 WTO members participating in the Investment Facilitation for Development (IFD) Agreement showcased initiatives with global partners to support implementation of the Agreement and to mobilize investment particularly towards developing economies. They reiterated their call for MC14 to incorporate the Agreement into the WTO legal framework to fully unlock its development potential. T",
       "title": "Members participating in IFD showcase progress, urge incorporation of Agreement into WTO",
       "url": "https://www.wto.org/english/news_e/news26_e/infac_25mar26_338_e.htm"
+    },
+    "https://www.wto.org/english/news_e/pres26_e/pr994_347_e.htm": {
+      "confidence": "high",
+      "content_hash": "9fd477666123894caf7268c525da827c3f018b9e027d06a82cffeb8824fc917f",
+      "first_seen_at": "2026-03-27T15:42:56Z",
+      "last_event": "new",
+      "last_notified_at": "2026-03-27T15:42:56Z",
+      "last_seen_at": "2026-03-27T15:42:56Z",
+      "matched_terms": [
+        "Republic of Korea",
+        "Korea"
+      ],
+      "published_at": "Fri, 27 Mar 2026 00:00:00 GMT",
+      "source_id": "wto_latest_news",
+      "source_label": "WTO Latest News",
+      "summary": "The government of Australia has committed an additional AUD 2 million (approximately CHF 1.2 million) to the WTO Fisheries Funding Mechanism, known as the Fish Fund, to assist developing and least-developed members in implementing the Agreement on Fisheries Subsidies. This contribution builds on Australia's earlier contribution of AUD 2 million in May 2023.",
+      "title": "Australia contributes an additional AUD 2 million to WTO Fish Fund",
+      "url": "https://www.wto.org/english/news_e/pres26_e/pr994_347_e.htm"
     }
   },
   "source_bootstrapped_at": {
