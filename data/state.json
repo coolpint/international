@@ -8,7 +8,7 @@
       "first_seen_at": "2026-03-26T16:03:48Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-03-30T08:17:10Z",
+      "last_seen_at": "2026-03-30T16:00:55Z",
       "matched_terms": [
         "DPRK",
         "Republic of Korea",
@@ -47,7 +47,7 @@
       "first_seen_at": "2026-03-26T16:03:48Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-03-30T08:17:10Z",
+      "last_seen_at": "2026-03-30T16:00:55Z",
       "matched_terms": [
         "South Korea",
         "Korea"
@@ -65,7 +65,7 @@
       "first_seen_at": "2026-03-26T16:03:48Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-03-30T08:17:10Z",
+      "last_seen_at": "2026-03-30T16:00:55Z",
       "matched_terms": [
         "Korea"
       ],
@@ -443,13 +443,32 @@
       "title": "Members participating in IFD showcase progress, urge incorporation of Agreement into WTO",
       "url": "https://www.wto.org/english/news_e/news26_e/infac_25mar26_338_e.htm"
     },
+    "https://www.wto.org/english/news_e/news26_e/infac_30mar26_353_e.htm": {
+      "confidence": "high",
+      "content_hash": "f8ba80fda7137ec664b85d75496a11badc84b452bcf51202b94bf5cc970a6bcf",
+      "first_seen_at": "2026-03-30T16:00:55Z",
+      "last_event": "new",
+      "last_notified_at": "2026-03-30T16:00:55Z",
+      "last_seen_at": "2026-03-30T16:00:55Z",
+      "matched_terms": [
+        "Republic of Korea",
+        "Korea",
+        "Korean"
+      ],
+      "published_at": "Mon, 30 Mar 2026 00:00:00 GMT",
+      "source_id": "wto_latest_news",
+      "source_label": "WTO Latest News",
+      "summary": "The 129 WTO members participating in the Investment Facilitation for Development Agreement (IFDA) issued a joint ministerial declaration on 29 March at the end of the 14th Ministerial Conference in Yaoundé, Cameroon. A joint press release by the IFDA co-Coordinators — the Republic of Korea and Chile — is provided below.",
+      "title": "Members participating in IFD Agreement issue joint ministerial declaration at end of MC14",
+      "url": "https://www.wto.org/english/news_e/news26_e/infac_30mar26_353_e.htm"
+    },
     "https://www.wto.org/english/news_e/pres26_e/pr994_347_e.htm": {
       "confidence": "high",
       "content_hash": "9fd477666123894caf7268c525da827c3f018b9e027d06a82cffeb8824fc917f",
       "first_seen_at": "2026-03-27T15:42:56Z",
       "last_event": "new",
       "last_notified_at": "2026-03-27T15:42:56Z",
-      "last_seen_at": "2026-03-30T08:17:10Z",
+      "last_seen_at": "2026-03-30T16:00:55Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
