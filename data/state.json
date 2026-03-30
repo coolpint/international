@@ -8,7 +8,7 @@
       "first_seen_at": "2026-03-26T16:03:48Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-03-29T23:23:52Z",
+      "last_seen_at": "2026-03-30T08:17:10Z",
       "matched_terms": [
         "DPRK",
         "Republic of Korea",
@@ -47,7 +47,7 @@
       "first_seen_at": "2026-03-26T16:03:48Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-03-29T23:23:52Z",
+      "last_seen_at": "2026-03-30T08:17:10Z",
       "matched_terms": [
         "South Korea",
         "Korea"
@@ -65,7 +65,7 @@
       "first_seen_at": "2026-03-26T16:03:48Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-03-29T23:23:52Z",
+      "last_seen_at": "2026-03-30T08:17:10Z",
       "matched_terms": [
         "Korea"
       ],
@@ -297,6 +297,24 @@
       "title": "Green, digital skills shift in construction drives youth employment push",
       "url": "https://www.ilo.org/resource/news/green-digital-skills-shift-construction-drives-youth-employment-push"
     },
+    "https://www.ilo.org/resource/news/trade-officials-complete-ilo-led-training-support-businesses-through-ai": {
+      "confidence": "high",
+      "content_hash": "6160aaa862dc02c47bef913042186e108d7dd280d93512029dbc8686334be1b6",
+      "first_seen_at": "2026-03-30T08:17:10Z",
+      "last_event": "new",
+      "last_notified_at": "2026-03-30T08:17:10Z",
+      "last_seen_at": "2026-03-30T08:17:10Z",
+      "matched_terms": [
+        "Republic of Korea",
+        "Korea"
+      ],
+      "published_at": "Mon, 30 Mar 2026 03:57:24 +0000",
+      "source_id": "ilo_newsroom",
+      "source_label": "ILO Newsroom",
+      "summary": "Trade officials complete ILO-led training to support businesses through AI tools\nrimando@ilo.org\nMon, 03/30/2026 - 03:57\nDocument Type\nNews\nCountries\nPhilippines\nRegions\nAsia\nDate of Publication\nThu, 03/12/2026 - 12:00\nEyebrow\nTrade and digitalization\nSubject (relevant to topic/sector)\neducation and training\ntraining\nenterprises\nenterprise creation\nenterprise development\nsmall enterprises\ntechnology\nartificial intelligence\nHero Image\n© ILO\n© ILO\nDTI officials participate in a hands-on training s",
+      "title": "Trade officials complete ILO-led training to support businesses through AI tools",
+      "url": "https://www.ilo.org/resource/news/trade-officials-complete-ilo-led-training-support-businesses-through-ai"
+    },
     "https://www.ilo.org/resource/news/uzbekistan-advances-work-injury-insurance-construction-workers": {
       "confidence": "high",
       "content_hash": "23c5a1d487e2a6cd1c1417c1b11587cd43a4f56ee99d2d5cde77366ff4331850",
@@ -431,7 +449,7 @@
       "first_seen_at": "2026-03-27T15:42:56Z",
       "last_event": "new",
       "last_notified_at": "2026-03-27T15:42:56Z",
-      "last_seen_at": "2026-03-29T23:23:52Z",
+      "last_seen_at": "2026-03-30T08:17:10Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
