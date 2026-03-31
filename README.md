@@ -27,6 +27,7 @@ UN 계열 기관, 국제기구, 싱크탱크, 미국 정부 보도자료의 한�
 - `CGD Publications`: 공식 feed는 확인됐지만 테스트한 자동화 환경에서 Cloudflare challenge가 발생했습니다.
 - `PIIE Publications`: 공식 publications 페이지는 확인됐지만 테스트한 자동화 환경에서 Cloudflare challenge가 발생했습니다.
 - `CSIS Korea Chair`: 공식 페이지는 확인됐지만 테스트한 자동화 환경에서 Cloudflare challenge 페이지가 반환됐습니다.
+- `IEA News and Reports`: 공식 뉴스/보고서 페이지는 확인됐지만 테스트한 자동화 환경에서 비브라우저 요청에 Cloudflare challenge가 반환됐습니다.
 - `UNDP`: 테스트한 자동화 환경에서 공식 사이트가 `Access Denied`를 반환했습니다.
 
 ## How It Works

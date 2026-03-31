@@ -210,6 +210,15 @@
       "note": "Official page exists, but the tested automation environment returned a Cloudflare challenge page."
     },
     {
+      "id": "iea_news_and_reports",
+      "label": "IEA News and Reports",
+      "type": "pending",
+      "enabled": false,
+      "list_url": "https://www.iea.org/news",
+      "max_items": 20,
+      "note": "Official IEA news and reports pages are valuable, but the tested automation environment received a Cloudflare challenge page for non-browser requests."
+    },
+    {
       "id": "undp_news_centre",
       "label": "UNDP News Centre",
       "type": "pending",
