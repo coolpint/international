@@ -47,7 +47,7 @@
       "first_seen_at": "2026-03-26T16:03:48Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-02T07:59:25Z",
+      "last_seen_at": "2026-04-02T15:51:56Z",
       "matched_terms": [
         "South Korea",
         "Korea"
@@ -65,7 +65,7 @@
       "first_seen_at": "2026-03-26T16:03:48Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-02T07:59:25Z",
+      "last_seen_at": "2026-04-02T15:51:56Z",
       "matched_terms": [
         "Korea"
       ],
@@ -333,6 +333,24 @@
       "title": "Uzbekistan advances work injury insurance for construction workers",
       "url": "https://www.ilo.org/resource/news/uzbekistan-advances-work-injury-insurance-construction-workers"
     },
+    "https://www.ilo.org/resource/news/uzbekistan-hosts-tripartite-workshop-develop-forthcoming-social-insurance": {
+      "confidence": "high",
+      "content_hash": "d37109cf2dc0f29cf86c5667d40b4ff6ef06677d4e9b51c167d7e413b154792d",
+      "first_seen_at": "2026-04-02T15:51:56Z",
+      "last_event": "new",
+      "last_notified_at": "2026-04-02T15:51:56Z",
+      "last_seen_at": "2026-04-02T15:51:56Z",
+      "matched_terms": [
+        "Republic of Korea",
+        "Korea"
+      ],
+      "published_at": "Thu, 02 Apr 2026 13:24:27 +0000",
+      "source_id": "ilo_newsroom",
+      "source_label": "ILO Newsroom",
+      "summary": "Uzbekistan hosts tripartite workshop to develop forthcoming social insurance law\nplatonova@ilo.org\nThu, 04/02/2026 - 13:24\nDocument Type\nNews\nCountries\nUzbekistan\nRegions\nEurope and Central Asia\nDate of Publication\nThu, 09/25/2025 - 12:00\nEyebrow\nGlobal Accelerator\nSubject (relevant to topic/sector)\nsocial protection\nsocial security\nmaternity benefits\nHero Image\n© ILO\n© ILO\nParticipants of the tripartite workshop on workshop on the maternity cash benefit reformm in Tashkent, Uzbekistan on 25 Sep",
+      "title": "Uzbekistan hosts tripartite workshop to develop forthcoming social insurance law",
+      "url": "https://www.ilo.org/resource/news/uzbekistan-hosts-tripartite-workshop-develop-forthcoming-social-insurance"
+    },
     "https://www.rusi.org/explore-our-research/publications/commentary/gulf-war-iii-warning-about-effects-taiwan-straits-war-i": {
       "confidence": "high",
       "content_hash": "f95904487842d7080772cfd86b5be9d5df839e3e78bcd4970896e2060a8e6fa5",
@@ -449,7 +467,7 @@
       "first_seen_at": "2026-03-30T16:00:55Z",
       "last_event": "new",
       "last_notified_at": "2026-03-30T16:00:55Z",
-      "last_seen_at": "2026-04-02T07:59:25Z",
+      "last_seen_at": "2026-04-02T15:51:56Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea",
@@ -468,7 +486,7 @@
       "first_seen_at": "2026-03-27T15:42:56Z",
       "last_event": "new",
       "last_notified_at": "2026-03-27T15:42:56Z",
-      "last_seen_at": "2026-04-02T07:59:25Z",
+      "last_seen_at": "2026-04-02T15:51:56Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
