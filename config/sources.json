@@ -94,6 +94,66 @@
       "note": "Uses the public JSON API exposed by the official World Bank all-news page; future-dated items are ignored."
     },
     {
+      "id": "aiib_news",
+      "label": "AIIB News",
+      "type": "rss_xml",
+      "enabled": true,
+      "list_url": "https://www.aiib.org/en/rss/aiib-news-rss.xml",
+      "max_items": 20,
+      "allowed_domains": [
+        "www.aiib.org"
+      ],
+      "allowed_url_patterns": [
+        "/en/news-events/news/"
+      ],
+      "note": "Uses AIIB's official news RSS feed."
+    },
+    {
+      "id": "bis_press_releases",
+      "label": "BIS Press Releases",
+      "type": "rss_xml",
+      "enabled": true,
+      "list_url": "https://www.bis.org/doclist/all_pressrels.rss",
+      "max_items": 20,
+      "allowed_domains": [
+        "www.bis.org"
+      ],
+      "allowed_url_patterns": [
+        "/press/"
+      ],
+      "note": "Uses BIS's official press releases RSS feed."
+    },
+    {
+      "id": "ecb_press",
+      "label": "ECB Press",
+      "type": "rss_xml",
+      "enabled": true,
+      "list_url": "https://www.ecb.europa.eu/rss/press.html",
+      "max_items": 20,
+      "allowed_domains": [
+        "www.ecb.europa.eu"
+      ],
+      "allowed_url_patterns": [
+        "/press/"
+      ],
+      "note": "Uses the ECB's official press RSS feed covering press releases, speeches, interviews and press conferences."
+    },
+    {
+      "id": "eib_press_releases",
+      "label": "EIB Press Releases",
+      "type": "rss_xml",
+      "enabled": true,
+      "list_url": "https://www.eib.org/en/press/all/index.rss",
+      "max_items": 20,
+      "allowed_domains": [
+        "www.eib.org"
+      ],
+      "allowed_url_patterns": [
+        "/press/"
+      ],
+      "note": "Uses the EIB's official press releases RSS feed."
+    },
+    {
       "id": "doj_press_releases",
       "label": "DOJ Press Releases",
       "type": "rss_xml",

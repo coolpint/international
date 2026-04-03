@@ -183,6 +183,13 @@ def _collect_rss_items(source: SourceConfig) -> list[MonitoredItem]:
             item = _build_rss_item(source, node, selected_feed_url)
             if item and _rss_item_matches_source_filters(item, source):
                 items.append(item)
+    elif root_name == "RDF":
+        for node in root:
+            if _xml_local_name(node.tag) != "item":
+                continue
+            item = _build_rss_item(source, node, selected_feed_url)
+            if item and _rss_item_matches_source_filters(item, source):
+                items.append(item)
     elif root_name == "feed":
         for node in root:
             if _xml_local_name(node.tag) != "entry":

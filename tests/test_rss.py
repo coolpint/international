@@ -128,6 +128,43 @@ class RssTests(unittest.TestCase):
         self.assertEqual(len(items), 1)
         self.assertEqual(items[0].url, "https://www.sipri.org/publications/example")
 
+    def test_collect_rss_items_supports_rdf_rss(self) -> None:
+        source = SourceConfig(
+            id="bis_press_releases",
+            label="BIS Press Releases",
+            type="rss_xml",
+            enabled=True,
+            list_url="https://www.bis.org/doclist/all_pressrels.rss",
+            max_items=20,
+            options={"allowed_url_patterns": ["/press/"]},
+        )
+        root = ElementTree.fromstring(
+            """
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                     xmlns="http://purl.org/rss/1.0/"
+                     xmlns:dc="http://purl.org/dc/elements/1.1/">
+              <channel rdf:about="https://www.bis.org/doclist/all_pressrels.rss">
+                <title>Press releases</title>
+                <link>https://www.bis.org/doclist/all_pressrels.rss</link>
+                <description>Press releases</description>
+              </channel>
+              <item rdf:about="https://www.bis.org/press/p260322.htm">
+                <title>Statement on the nomination of Hyun Song Shin as Governor of the Bank of Korea</title>
+                <link>https://www.bis.org/press/p260322.htm</link>
+                <description>Following the nomination of Hyun Song Shin as Governor of the Bank of Korea.</description>
+                <dc:date>2026-03-22T12:08:00Z</dc:date>
+              </item>
+            </rdf:RDF>
+            """
+        )
+
+        with patch("src.monitor.sources.fetch_text", return_value=(ElementTree.tostring(root, encoding="unicode"), {})):
+            items = _collect_rss_items(source)
+
+        self.assertEqual(len(items), 1)
+        self.assertEqual(items[0].url, "https://www.bis.org/press/p260322.htm")
+        self.assertEqual(items[0].published_at, "2026-03-22T12:08:00Z")
+
     def test_extract_bruegel_publication_links(self) -> None:
         soup = BeautifulSoup(
             """

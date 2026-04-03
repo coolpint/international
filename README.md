@@ -14,6 +14,10 @@ UN 계열 기관, 국제기구, 싱크탱크, 미국 정부 보도자료의 한�
 - `ILO Newsroom`
 - `ADB News`
 - `World Bank News`
+- `AIIB News`
+- `BIS Press Releases`
+- `ECB Press`
+- `EIB Press Releases`
 - `DOJ Press Releases`
 - `U.S. Treasury Press Releases`
 - `USTR Press Releases`
