@@ -143,14 +143,11 @@
     {
       "id": "crisis_group_korean_peninsula",
       "label": "Crisis Group Korean Peninsula",
-      "type": "rss_xml",
-      "enabled": true,
+      "type": "pending",
+      "enabled": false,
       "list_url": "https://www.crisisgroup.org/rss/33",
       "max_items": 20,
-      "deny_url_patterns": [
-        "/evt/"
-      ],
-      "note": "Uses the official Korean Peninsula RSS feed and excludes event pages."
+      "note": "Official Korean Peninsula RSS feed is relevant, but the tested automation environment now receives a Cloudflare challenge for non-browser requests."
     },
     {
       "id": "sipri_publications",
@@ -167,11 +164,11 @@
     {
       "id": "bruegel_publications",
       "label": "Bruegel Publications",
-      "type": "bruegel_publications",
-      "enabled": true,
+      "type": "pending",
+      "enabled": false,
       "list_url": "https://www.bruegel.org/publications",
       "max_items": 20,
-      "note": "Parses the official publications listing page."
+      "note": "Official publications page is relevant, but the tested automation environment now receives a Cloudflare challenge for non-browser requests."
     },
     {
       "id": "rusi_publications",

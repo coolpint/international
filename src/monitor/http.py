@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+from time import sleep
 from urllib.error import HTTPError, URLError
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
@@ -15,6 +16,9 @@ DEFAULT_HEADERS = {
     "Accept-Language": "en-US,en;q=0.9",
 }
 
+RETRYABLE_HTTP_STATUS_CODES = {429, 500, 502, 503, 504}
+DEFAULT_RETRY_ATTEMPTS = 2
+
 
 def fetch_text(url: str, timeout: int = 30) -> tuple[str, dict[str, str]]:
     return request_text(url=url, timeout=timeout)
@@ -26,21 +30,29 @@ def request_text(
     headers: dict[str, str] | None = None,
     method: str = "GET",
     data: bytes | None = None,
+    retry_attempts: int = DEFAULT_RETRY_ATTEMPTS,
 ) -> tuple[str, dict[str, str]]:
-    request = Request(url, headers=DEFAULT_HEADERS)
-    try:
-        request = Request(url, data=data, headers={**DEFAULT_HEADERS, **(headers or {})}, method=method)
-        with urlopen(request, timeout=timeout) as response:
-            raw = response.read()
-            headers = {key.lower(): value for key, value in response.headers.items()}
-            charset = response.headers.get_content_charset() or "utf-8"
-            return raw.decode(charset, errors="replace"), headers
-    except HTTPError as exc:
-        body = exc.read().decode("utf-8", errors="replace").strip()
-        snippet = body[:200].replace("\n", " ")
-        raise RuntimeError(f"HTTP {exc.code} for {url}: {snippet or exc.reason}") from exc
-    except URLError as exc:
-        raise RuntimeError(f"Request failed for {url}: {exc.reason}") from exc
+    request_headers = {**DEFAULT_HEADERS, **(headers or {})}
+
+    for attempt in range(retry_attempts + 1):
+        request = Request(url, data=data, headers=request_headers, method=method)
+        try:
+            with urlopen(request, timeout=timeout) as response:
+                raw = response.read()
+                headers = {key.lower(): value for key, value in response.headers.items()}
+                charset = response.headers.get_content_charset() or "utf-8"
+                return raw.decode(charset, errors="replace"), headers
+        except HTTPError as exc:
+            body = exc.read().decode("utf-8", errors="replace").strip()
+            if exc.code in RETRYABLE_HTTP_STATUS_CODES and attempt < retry_attempts:
+                sleep(attempt + 1)
+                continue
+            snippet = body[:200].replace("\n", " ")
+            raise RuntimeError(f"HTTP {exc.code} for {url}: {snippet or exc.reason}") from exc
+        except URLError as exc:
+            raise RuntimeError(f"Request failed for {url}: {exc.reason}") from exc
+
+    raise RuntimeError(f"Request failed for {url}: exhausted retries")
 
 
 def fetch_json(url: str, timeout: int = 30, headers: dict[str, str] | None = None) -> object:

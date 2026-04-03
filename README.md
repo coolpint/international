@@ -17,13 +17,13 @@ UN 계열 기관, 국제기구, 싱크탱크, 미국 정부 보도자료의 한�
 - `DOJ Press Releases`
 - `U.S. Treasury Press Releases`
 - `USTR Press Releases`
-- `Crisis Group Korean Peninsula`
 - `SIPRI Publications`
-- `Bruegel Publications`
 - `RUSI Publications`
 
 보류 중:
 
+- `Crisis Group Korean Peninsula`: 공식 한반도 RSS는 확인됐지만 테스트한 자동화 환경에서 Cloudflare challenge가 발생했습니다.
+- `Bruegel Publications`: 공식 publications 페이지는 확인됐지만 테스트한 자동화 환경에서 Cloudflare challenge가 발생했습니다.
 - `CGD Publications`: 공식 feed는 확인됐지만 테스트한 자동화 환경에서 Cloudflare challenge가 발생했습니다.
 - `PIIE Publications`: 공식 publications 페이지는 확인됐지만 테스트한 자동화 환경에서 Cloudflare challenge가 발생했습니다.
 - `CSIS Korea Chair`: 공식 페이지는 확인됐지만 테스트한 자동화 환경에서 Cloudflare challenge 페이지가 반환됐습니다.
