@@ -47,7 +47,7 @@
       "first_seen_at": "2026-03-26T16:03:48Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-07T08:06:15Z",
+      "last_seen_at": "2026-04-07T16:05:45Z",
       "matched_terms": [
         "South Korea",
         "Korea"
@@ -65,7 +65,7 @@
       "first_seen_at": "2026-03-26T16:03:48Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-07T08:06:15Z",
+      "last_seen_at": "2026-04-07T16:05:45Z",
       "matched_terms": [
         "Korea"
       ],
@@ -82,7 +82,7 @@
       "first_seen_at": "2026-04-03T15:33:11Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-07T08:06:15Z",
+      "last_seen_at": "2026-04-07T16:05:45Z",
       "matched_terms": [
         "Korea"
       ],
@@ -350,6 +350,24 @@
       "title": "Uzbekistan advances work injury insurance for construction workers",
       "url": "https://www.ilo.org/resource/news/uzbekistan-advances-work-injury-insurance-construction-workers"
     },
+    "https://www.ilo.org/resource/news/uzbekistan-approves-new-social-insurance-law": {
+      "confidence": "high",
+      "content_hash": "e6daf3052469e9347dd313f92580589a5a202711010e6cffa1d45649306b044e",
+      "first_seen_at": "2026-04-07T16:05:45Z",
+      "last_event": "new",
+      "last_notified_at": "2026-04-07T16:05:45Z",
+      "last_seen_at": "2026-04-07T16:05:45Z",
+      "matched_terms": [
+        "Republic of Korea",
+        "Korea"
+      ],
+      "published_at": "Tue, 07 Apr 2026 13:46:18 +0000",
+      "source_id": "ilo_newsroom",
+      "source_label": "ILO Newsroom",
+      "summary": "Uzbekistan approves new Social Insurance Law\nplatonova@ilo.org\nTue, 04/07/2026 - 13:46\nDocument Type\nNews\nCountries\nUzbekistan\nRegions\nEurope and Central Asia\nDate of Publication\nTue, 12/09/2025 - 12:00\nEyebrow\nGlobal Accelerator\nSubject (relevant to topic/sector)\ntripartism\nsocial security\nsocial security legislation\nsocial security policy\nBrief description\nUzbekistan has adopted a new Law “On State Social Insurance”, paving the way for a comprehensive system covering maternity, sickness and un",
+      "title": "Uzbekistan approves new Social Insurance Law",
+      "url": "https://www.ilo.org/resource/news/uzbekistan-approves-new-social-insurance-law"
+    },
     "https://www.ilo.org/resource/news/uzbekistan-hosts-tripartite-workshop-develop-forthcoming-social-insurance": {
       "confidence": "high",
       "content_hash": "d37109cf2dc0f29cf86c5667d40b4ff6ef06677d4e9b51c167d7e413b154792d",
@@ -484,7 +502,7 @@
       "first_seen_at": "2026-03-30T16:00:55Z",
       "last_event": "new",
       "last_notified_at": "2026-03-30T16:00:55Z",
-      "last_seen_at": "2026-04-07T08:06:15Z",
+      "last_seen_at": "2026-04-07T16:05:45Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea",
@@ -503,7 +521,7 @@
       "first_seen_at": "2026-03-27T15:42:56Z",
       "last_event": "new",
       "last_notified_at": "2026-03-27T15:42:56Z",
-      "last_seen_at": "2026-04-07T08:06:15Z",
+      "last_seen_at": "2026-04-07T16:05:45Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
