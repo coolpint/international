@@ -47,7 +47,7 @@
       "first_seen_at": "2026-03-26T16:03:48Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-08T08:06:48Z",
+      "last_seen_at": "2026-04-08T16:09:48Z",
       "matched_terms": [
         "South Korea",
         "Korea"
@@ -65,7 +65,7 @@
       "first_seen_at": "2026-03-26T16:03:48Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-08T08:06:48Z",
+      "last_seen_at": "2026-04-08T16:09:48Z",
       "matched_terms": [
         "Korea"
       ],
@@ -82,7 +82,7 @@
       "first_seen_at": "2026-04-03T15:33:11Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-08T08:06:48Z",
+      "last_seen_at": "2026-04-08T16:09:48Z",
       "matched_terms": [
         "Korea"
       ],
@@ -356,7 +356,7 @@
       "first_seen_at": "2026-04-07T16:05:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-07T16:05:45Z",
-      "last_seen_at": "2026-04-08T08:06:48Z",
+      "last_seen_at": "2026-04-08T16:09:48Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
@@ -388,11 +388,11 @@
     },
     "https://www.ilo.org/resource/news/uzbekistan-launches-new-social-insurance-law": {
       "confidence": "high",
-      "content_hash": "118c6df0882f385dcde3ff54ef1a35bfe5d76957318af1d7b57023bf84073780",
+      "content_hash": "4dca8cf02cff2f8657e985ac34581d3d48de53b05f4e32b3e3ba07e0e44f9c56",
       "first_seen_at": "2026-04-08T08:06:48Z",
-      "last_event": "new",
-      "last_notified_at": "2026-04-08T08:06:48Z",
-      "last_seen_at": "2026-04-08T08:06:48Z",
+      "last_event": "updated",
+      "last_notified_at": "2026-04-08T16:09:48Z",
+      "last_seen_at": "2026-04-08T16:09:48Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
@@ -400,7 +400,7 @@
       "published_at": "Tue, 07 Apr 2026 11:40:53 +0000",
       "source_id": "ilo_newsroom",
       "source_label": "ILO Newsroom",
-      "summary": "Uzbekistan launches new Social Insurance Law\nplatonova@ilo.org\nTue, 04/07/2026 - 11:40\nDocument Type\nNews\nCountries\nUzbekistan\nRegions\nEurope and Central Asia\nDate of Publication\nTue, 02/03/2026 - 12:00\nEyebrow\nGlobal Accelerator\nSubject (relevant to topic/sector)\nsocial security\nmaternity benefits\nsocial security legislation\nsocial security policy\nBrief description\nUnder the Global Accelerator programme, the Government, the United Nations (UN) and development partners met in Tashkent to discuss",
+      "summary": "Uzbekistan launches new Social Insurance Law\nplatonova@ilo.org\nTue, 04/07/2026 - 11:40\nDocument Type\nNews\nCountries\nUzbekistan\nRegions\nEurope and Central Asia\nDate of Publication\nTue, 02/03/2026 - 12:00\nEyebrow\nGlobal Accelerator\nSubject (relevant to topic/sector)\nsocial security\nmaternity benefits\nsocial security legislation\nsocial security policy\nBrief description\nUnder the Global Accelerator programme, the constituents, the United Nations (UN) and development partners met in Tashkent to discu",
       "title": "Uzbekistan launches new Social Insurance Law",
       "url": "https://www.ilo.org/resource/news/uzbekistan-launches-new-social-insurance-law"
     },
@@ -520,7 +520,7 @@
       "first_seen_at": "2026-03-30T16:00:55Z",
       "last_event": "new",
       "last_notified_at": "2026-03-30T16:00:55Z",
-      "last_seen_at": "2026-04-08T08:06:48Z",
+      "last_seen_at": "2026-04-08T16:09:48Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea",
@@ -539,7 +539,7 @@
       "first_seen_at": "2026-03-27T15:42:56Z",
       "last_event": "new",
       "last_notified_at": "2026-03-27T15:42:56Z",
-      "last_seen_at": "2026-04-08T08:06:48Z",
+      "last_seen_at": "2026-04-08T16:09:48Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
