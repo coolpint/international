@@ -47,7 +47,7 @@
       "first_seen_at": "2026-03-26T16:03:48Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-09T23:31:11Z",
+      "last_seen_at": "2026-04-10T08:16:51Z",
       "matched_terms": [
         "South Korea",
         "Korea"
@@ -65,7 +65,7 @@
       "first_seen_at": "2026-03-26T16:03:48Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-09T23:31:11Z",
+      "last_seen_at": "2026-04-10T08:16:51Z",
       "matched_terms": [
         "Korea"
       ],
@@ -82,7 +82,7 @@
       "first_seen_at": "2026-04-03T15:33:11Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-09T23:31:11Z",
+      "last_seen_at": "2026-04-10T08:16:51Z",
       "matched_terms": [
         "Korea"
       ],
@@ -243,6 +243,24 @@
       "summary": "Comparative study on employment quota systems for persons with disabilities in East and Southeast Asia\nbudi@ilo.org\nWed, 03/11/2026 - 03:57\nEvent type\nPresentation\nBackground\nIndonesia joined the Global Accelerator on Jobs and Social Protection for Just Transitions in June 2023, reinforcing its commitment to inclusive and job-rich growth. The Indonesia Roadmap for the Global Accelerator was endorsed by the Ministry of National Development Planning (Bappenas) in June 2025, accompanied by the laun",
       "title": "Comparative study on employment quota systems for persons with disabilities in East and Southeast Asia",
       "url": "https://www.ilo.org/meetings-and-events/comparative-study-employment-quota-systems-persons-disabilities-east-and"
+    },
+    "https://www.ilo.org/projects-and-partnerships/projects/delivering-national-commitments-korea%E2%80%99s-support-implementation-global": {
+      "confidence": "high",
+      "content_hash": "e8a00f11d012bfcea878b757cebaa2768f58e413c34efa9cd156191a8c55657a",
+      "first_seen_at": "2026-04-10T08:16:51Z",
+      "last_event": "new",
+      "last_notified_at": "2026-04-10T08:16:51Z",
+      "last_seen_at": "2026-04-10T08:16:51Z",
+      "matched_terms": [
+        "Republic of Korea",
+        "Korea"
+      ],
+      "published_at": "Thu, 09 Apr 2026 15:00:11 +0000",
+      "source_id": "ilo_newsroom",
+      "source_label": "ILO Newsroom",
+      "summary": "Delivering on national commitments: Korea’s support to the implementation of the Global Accelerator\nrehman@iloguest.org\nThu, 04/09/2026 - 15:00\nBackground and context\nThe\nGlobal Accelerator on Jobs and Social Protection for Just Transitions\n(GA) addresses critical global gaps in employment and social protection. An estimated 453 million people unable to find jobs, while over 4 billion people lacking access to social protection.\nLaunched in September 2021 by the UN Secretary-General as a High-Imp",
+      "title": "Delivering on national commitments: Korea’s support to the implementation of the Global Accelerator",
+      "url": "https://www.ilo.org/projects-and-partnerships/projects/delivering-national-commitments-korea%E2%80%99s-support-implementation-global"
     },
     "https://www.ilo.org/resource/news/cambodia-advances-worker-safety-and-green-standards-construction-sector": {
       "confidence": "medium",
@@ -520,7 +538,7 @@
       "first_seen_at": "2026-03-30T16:00:55Z",
       "last_event": "new",
       "last_notified_at": "2026-03-30T16:00:55Z",
-      "last_seen_at": "2026-04-09T23:31:11Z",
+      "last_seen_at": "2026-04-10T08:16:51Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea",
@@ -539,7 +557,7 @@
       "first_seen_at": "2026-03-27T15:42:56Z",
       "last_event": "new",
       "last_notified_at": "2026-03-27T15:42:56Z",
-      "last_seen_at": "2026-04-09T23:31:11Z",
+      "last_seen_at": "2026-04-10T08:16:51Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
