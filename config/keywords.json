@@ -17,6 +17,56 @@
     "Seoul",
     "Pyongyang"
   ],
-  "min_medium_hits_for_high": 2
+  "min_medium_hits_for_high": 2,
+  "excluded_contexts": [
+    {
+      "label": "cacao_crop",
+      "terms": [
+        "cacao",
+        "cocoa",
+        "kakao"
+      ],
+      "context_terms": [
+        "bean",
+        "beans",
+        "crop",
+        "crops",
+        "farmer",
+        "farmers",
+        "farming",
+        "farm",
+        "farms",
+        "agriculture",
+        "agricultural",
+        "harvest",
+        "plantation",
+        "plantations",
+        "commodity",
+        "commodities",
+        "chocolate",
+        "smallholder",
+        "smallholders",
+        "cocoa production",
+        "cacao production",
+        "cocoa farmer",
+        "cacao farmer",
+        "cocoa farmers",
+        "cacao farmers"
+      ],
+      "unless_terms": [
+        "Kakao Corp",
+        "Kakao Corporation",
+        "Kakao Group",
+        "KakaoBank",
+        "Kakao Bank",
+        "Kakao Pay",
+        "Kakao Entertainment",
+        "Kakao Mobility",
+        "Kakao Games",
+        "KakaoTalk",
+        "Kakao Talk",
+        "Kakao Piccoma"
+      ]
+    }
+  ]
 }
-
