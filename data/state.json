@@ -47,7 +47,7 @@
       "first_seen_at": "2026-03-26T16:03:48Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-12T23:25:54Z",
+      "last_seen_at": "2026-04-13T03:53:51Z",
       "matched_terms": [
         "South Korea",
         "Korea"
@@ -65,7 +65,7 @@
       "first_seen_at": "2026-03-26T16:03:48Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-12T23:25:54Z",
+      "last_seen_at": "2026-04-13T03:53:51Z",
       "matched_terms": [
         "Korea"
       ],
@@ -76,13 +76,185 @@
       "title": "USTR Initiates Section 301 Investigations Relating to Structural Excess Capacity and Production in Manufacturing Sectors",
       "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/march/ustr-initiates-section-301-investigations-relating-structural-excess-capacity-and-production"
     },
+    "https://www.38north.org/2026/04/a-new-rocket-motor-further-muddles-north-koreas-solid-propellant-icbm-outlook/": {
+      "confidence": "high",
+      "content_hash": "e52ad6d616eda2a49c7b401b6ff276124838c1a05e795f8f8a9d873b1d65f2c8",
+      "first_seen_at": "2026-04-13T03:53:51Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-04-13T03:53:51Z",
+      "matched_terms": [
+        "North Korea",
+        "North Korean",
+        "Korea",
+        "Korean",
+        "Pyongyang"
+      ],
+      "published_at": "Thu, 02 Apr 2026 17:12:27 +0000",
+      "source_id": "thirty_eight_north",
+      "source_label": "38 North",
+      "summary": "North Korea claims to have ground-tested a “newly upgraded” solid-propellant rocket motor about ...\nThe post\nA New Rocket Motor Further Muddles North Korea’s Solid-Propellant ICBM Outlook\nappeared first on\n38 North\n.",
+      "title": "A New Rocket Motor Further Muddles North Korea’s Solid-Propellant ICBM Outlook",
+      "url": "https://www.38north.org/2026/04/a-new-rocket-motor-further-muddles-north-koreas-solid-propellant-icbm-outlook/"
+    },
+    "https://www.38north.org/2026/04/a-probable-new-hospital-at-wonsan-kalma-beach-resort/": {
+      "confidence": "high",
+      "content_hash": "b8355039f7b0e6d31a48a3db50d20407de66d5ae388e6b384cea42fee6df5011",
+      "first_seen_at": "2026-04-13T03:53:51Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-04-13T03:53:51Z",
+      "matched_terms": [
+        "North Korea",
+        "Korea",
+        "Pyongyang"
+      ],
+      "published_at": "Fri, 10 Apr 2026 15:35:16 +0000",
+      "source_id": "thirty_eight_north",
+      "source_label": "38 North",
+      "summary": "Commercial satellite imagery shows the Wonsan-Kalma Beach Resort likely has a new hospital. ...\nThe post\nA Probable New Hospital at Wonsan-Kalma Beach Resort\nappeared first on\n38 North\n.",
+      "title": "A Probable New Hospital at Wonsan-Kalma Beach Resort",
+      "url": "https://www.38north.org/2026/04/a-probable-new-hospital-at-wonsan-kalma-beach-resort/"
+    },
+    "https://www.38north.org/2026/04/assessing-the-limits-of-female-leadership-in-north-korea/": {
+      "confidence": "high",
+      "content_hash": "57c1c65c1279c517a32299eaf1756f7082828a8aee48fe31c46c11145ad9f1e8",
+      "first_seen_at": "2026-04-13T03:53:51Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-04-13T03:53:51Z",
+      "matched_terms": [
+        "North Korea",
+        "South Korean",
+        "Republic of Korea",
+        "North Korean",
+        "Democratic People’s Republic of Korea",
+        "DPRK",
+        "Korea",
+        "Korean",
+        "Pyongyang"
+      ],
+      "published_at": "Mon, 06 Apr 2026 18:17:51 +0000",
+      "source_id": "thirty_eight_north",
+      "source_label": "38 North",
+      "summary": "This article was written and researched as part of the second cohort of 38 North’s Emerging ...\nThe post\nAssessing the Limits of Female Leadership in North Korea\nappeared first on\n38 North\n.",
+      "title": "Assessing the Limits of Female Leadership in North Korea",
+      "url": "https://www.38north.org/2026/04/assessing-the-limits-of-female-leadership-in-north-korea/"
+    },
+    "https://www.38north.org/2026/04/drones-and-operational-shift-north-koreas-adaptation-to-a-changing-warfare-environment/": {
+      "confidence": "high",
+      "content_hash": "e2b2184e9019590d67bc5c703f3eda5098515df0b0bdea4b47b461b0d1a69dd0",
+      "first_seen_at": "2026-04-13T03:53:51Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-04-13T03:53:51Z",
+      "matched_terms": [
+        "North Korea",
+        "Republic of Korea",
+        "North Korean",
+        "Democratic People’s Republic of Korea",
+        "DPRK",
+        "Korea",
+        "Korean",
+        "Pyongyang"
+      ],
+      "published_at": "Thu, 02 Apr 2026 13:36:50 +0000",
+      "source_id": "thirty_eight_north",
+      "source_label": "38 North",
+      "summary": "This article was written and researched as part of the second cohort of 38 North’s Emerging ...\nThe post\nDrones and Operational Shift: North Korea’s Adaptation to a Changing Warfare Environment\nappeared first on\n38 North\n.",
+      "title": "Drones and Operational Shift: North Korea’s Adaptation to a Changing Warfare Environment",
+      "url": "https://www.38north.org/2026/04/drones-and-operational-shift-north-koreas-adaptation-to-a-changing-warfare-environment/"
+    },
+    "https://www.38north.org/2026/04/over-three-decades-of-north-korea-policy-divide-south-korea-should-give-bipartisanship-a-chance/": {
+      "confidence": "high",
+      "content_hash": "d078839fa08e283f0ff1cd9f56b2b49ce2118717434ecfd3c01befb6d3bc5168",
+      "first_seen_at": "2026-04-13T03:53:51Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-04-13T03:53:51Z",
+      "matched_terms": [
+        "South Korea",
+        "North Korea",
+        "North Korean",
+        "DPRK",
+        "inter-Korean",
+        "Korea",
+        "Korean",
+        "Seoul"
+      ],
+      "published_at": "Mon, 06 Apr 2026 13:01:29 +0000",
+      "source_id": "thirty_eight_north",
+      "source_label": "38 North",
+      "summary": "This article was written and researched as part of the second cohort of 38 North’s Emerging ...\nThe post\nOver Three Decades of North Korea Policy Divide: South Korea Should Give Bipartisanship a Chance\nappeared first on\n38 North\n.",
+      "title": "Over Three Decades of North Korea Policy Divide: South Korea Should Give Bipartisanship a Chance",
+      "url": "https://www.38north.org/2026/04/over-three-decades-of-north-korea-policy-divide-south-korea-should-give-bipartisanship-a-chance/"
+    },
+    "https://www.38north.org/2026/04/quick-take-kim-yo-jongs-evolving-messaging/": {
+      "confidence": "high",
+      "content_hash": "855e7cc94b341fad7f496d2c22f57ea4afea4b30e725090a9a5d0f444ee60531",
+      "first_seen_at": "2026-04-13T03:53:51Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-04-13T03:53:51Z",
+      "matched_terms": [
+        "South Korean",
+        "North Korea",
+        "North Korean",
+        "Korea",
+        "Korean"
+      ],
+      "published_at": "Wed, 08 Apr 2026 16:17:30 +0000",
+      "source_id": "thirty_eight_north",
+      "source_label": "38 North",
+      "summary": "Kim Yo Jong’s April 6 communiqué replying to South Korean President Lee Jae Myung’s apology for ...\nThe post\nQuick Take: Kim Yo Jong’s Evolving Messaging\nappeared first on\n38 North\n.",
+      "title": "Quick Take: Kim Yo Jong’s Evolving Messaging",
+      "url": "https://www.38north.org/2026/04/quick-take-kim-yo-jongs-evolving-messaging/"
+    },
+    "https://www.38north.org/2026/04/sinpho-south-shipyard-unusual-ship-repurposing-effort/": {
+      "confidence": "high",
+      "content_hash": "4d4dbe5db74edd72936a6f4f9b82e4b2ead0d56b8e88ea13c716ca621fc11dfd",
+      "first_seen_at": "2026-04-13T03:53:51Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-04-13T03:53:51Z",
+      "matched_terms": [
+        "North Korea",
+        "Korea"
+      ],
+      "published_at": "Fri, 03 Apr 2026 15:51:18 +0000",
+      "source_id": "thirty_eight_north",
+      "source_label": "38 North",
+      "summary": "Recent commercial satellite imagery indicates an ongoing effort to repurpose a coastal cargo ...\nThe post\nSinpho South Shipyard: Unusual Ship Repurposing Effort\nappeared first on\n38 North\n.",
+      "title": "Sinpho South Shipyard: Unusual Ship Repurposing Effort",
+      "url": "https://www.38north.org/2026/04/sinpho-south-shipyard-unusual-ship-repurposing-effort/"
+    },
+    "https://www.38north.org/2026/04/villages-bordering-sohae-satellite-launching-station-razed/": {
+      "confidence": "high",
+      "content_hash": "9bfe76c0fc7b75eeb5a84c71e5f63dd4bd8c1b58b400ef9ce1ec9cfa61d25c49",
+      "first_seen_at": "2026-04-13T03:53:51Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-04-13T03:53:51Z",
+      "matched_terms": [
+        "North Korea",
+        "North Korean",
+        "Korea",
+        "Korean"
+      ],
+      "published_at": "Thu, 02 Apr 2026 15:14:46 +0000",
+      "source_id": "thirty_eight_north",
+      "source_label": "38 North",
+      "summary": "Commercial satellite imagery shows North Korea completely demolished two small communities ...\nThe post\nVillages Bordering Sohae Satellite Launching Station Razed\nappeared first on\n38 North\n.",
+      "title": "Villages Bordering Sohae Satellite Launching Station Razed",
+      "url": "https://www.38north.org/2026/04/villages-bordering-sohae-satellite-launching-station-razed/"
+    },
     "https://www.bis.org/press/p260322.htm": {
       "confidence": "medium",
       "content_hash": "26df461f780b89a6555243819e200b44dbf4171d6ac30351655afcaf14ab9f95",
       "first_seen_at": "2026-04-03T15:33:11Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-12T23:25:54Z",
+      "last_seen_at": "2026-04-13T03:53:51Z",
       "matched_terms": [
         "Korea"
       ],
@@ -92,6 +264,58 @@
       "summary": "Following the nomination of Hyun Song Shin as Governor of the Bank of Korea, the BIS today announced that Mr. Shin will step back from his duties with immediate effect. In the interim, the Monetary and Economic Department will be led by Frank Smets, who will serve as Acting Head.",
       "title": "Statement on the nomination of Hyun Song Shin as Governor of the Bank of Korea",
       "url": "https://www.bis.org/press/p260322.htm"
+    },
+    "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-040a": {
+      "confidence": "high",
+      "content_hash": "ef543a649d6365822729669a2637f5695b1e6de973b0e00b4d70faa94bf11717",
+      "first_seen_at": "2026-04-13T03:53:51Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-04-13T03:53:51Z",
+      "matched_terms": [
+        "DPRK",
+        "South Korea",
+        "South Korean",
+        "Republic of Korea",
+        "Republic of Korea (ROK)",
+        "North Korea",
+        "North Korean",
+        "Democratic People’s Republic of Korea",
+        "Korea",
+        "Korean",
+        "ROK"
+      ],
+      "published_at": "2023-02-09T12:00:00Z",
+      "source_id": "cisa_north_korea_cyber_advisories",
+      "source_label": "CISA North Korea Cyber Advisories",
+      "summary": "Note: This Cybersecurity Advisory (CSA) is part of an ongoing #StopRansomware effort to publish advisories for network defenders that detail various ransomware variants and various ransomware threat actors. These #StopRansomware advisories detail historically and recently observed tactics, techniques, and procedures (TTPs) and indicators of compromise (IOCs) to help organizations protect against ransomware. Visit stopransomware.gov to see all #StopRansomware advisories and to learn about other r",
+      "title": "#StopRansomware: Ransomware Attacks on Critical Infrastructure Fund DPRK Malicious Cyber Activities | CISA",
+      "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-040a"
+    },
+    "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-207a": {
+      "confidence": "high",
+      "content_hash": "3b68f2da89942df32596c27217ab658f9e563e9ccd4f12fe73f28e56aed3929e",
+      "first_seen_at": "2026-04-13T03:53:51Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-04-13T03:53:51Z",
+      "matched_terms": [
+        "North Korea",
+        "South Korean",
+        "Republic of Korea",
+        "North Korean",
+        "Democratic People’s Republic of Korea",
+        "DPRK",
+        "Korea",
+        "Korean",
+        "Pyongyang"
+      ],
+      "published_at": "2024-07-25T12:00:00Z",
+      "source_id": "cisa_north_korea_cyber_advisories",
+      "source_label": "CISA North Korea Cyber Advisories",
+      "summary": "The U.S. Federal Bureau of Investigation (FBI) and the following authoring partners are releasing this Cybersecurity Advisory to highlight cyber espionage activity associated with the Democratic People’s Republic of Korea (DPRK)’s Reconnaissance General Bureau (RGB) 3rd Bureau based in Pyongyang and Sinuiju:",
+      "title": "North Korea Cyber Group Conducts Global Espionage Campaign to Advance Regime’s Military and Nuclear Programs | CISA",
+      "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-207a"
     },
     "https://www.crisisgroup.org/cmt/asia-pacific/korean-peninsula/addressing-challenges-emboldened-north-korea": {
       "confidence": "high",
@@ -208,6 +432,293 @@
       "title": "Plugging a New Gap in Monitoring Sanctions on North Korea",
       "url": "https://www.crisisgroup.org/qna/asia-pacific/korean-peninsula/plugging-new-gap-monitoring-sanctions-north-korea"
     },
+    "https://www.csis.org/analysis/cross-border-law-enforcement-collaboration-countering-north-koreas-crypto-plunder": {
+      "confidence": "high",
+      "content_hash": "96aaec1bd75f2f5d548c6f94ca29d7e48956426af1e97f1d7383bec01acd2048",
+      "first_seen_at": "2026-04-13T03:53:51Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-04-13T03:53:51Z",
+      "matched_terms": [
+        "North Korea",
+        "South Korea",
+        "Republic of Korea",
+        "Democratic People’s Republic of Korea",
+        "DPRK",
+        "Korea"
+      ],
+      "published_at": "Mon, 13 Apr 2026 03:54:57 GMT",
+      "source_id": "csis_korea_chair",
+      "source_label": "CSIS Korea Chair",
+      "summary": "The decentralized characteristics of cryptocurrencies strengthen North Korea's incentives to target crypto assets. An international framework is needed to secure law enforcement cooperation from jurisdictions that serve as safe havens for DPRK money laundering activities.",
+      "title": "Cross-Border Law Enforcement Collaboration for Countering North Korea’s Crypto Plunder",
+      "url": "https://www.csis.org/analysis/cross-border-law-enforcement-collaboration-countering-north-koreas-crypto-plunder"
+    },
+    "https://www.csis.org/analysis/impact-iran-conflict-south-korea-numbers": {
+      "confidence": "high",
+      "content_hash": "9279f01baca9146c503c1c526e9058e86bd772cbb680d436bdb41577c5733464",
+      "first_seen_at": "2026-04-13T03:53:51Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-04-13T03:53:51Z",
+      "matched_terms": [
+        "South Korea",
+        "South Korean",
+        "Korea",
+        "Korean",
+        "Seoul"
+      ],
+      "published_at": "Mon, 13 Apr 2026 03:46:51 GMT",
+      "source_id": "csis_korea_chair",
+      "source_label": "CSIS Korea Chair",
+      "summary": "One month into the Iran conflict, no noncombatant country has been hit harder than South Korea. The Lee government faces not just economic but political pressures as a result of the war.",
+      "title": "The Impact of the Iran Conflict on South Korea: By the Numbers",
+      "url": "https://www.csis.org/analysis/impact-iran-conflict-south-korea-numbers"
+    },
+    "https://www.csis.org/analysis/north-koreas-ties-belarus-limited-not-insignificant": {
+      "confidence": "high",
+      "content_hash": "f35de8541e03108af0b01a9664924893d7ebd377dab6edee16fa4faa54f523a8",
+      "first_seen_at": "2026-04-13T03:53:51Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-04-13T03:53:51Z",
+      "matched_terms": [
+        "North Korea",
+        "North Korean",
+        "Korea",
+        "Korean",
+        "Pyongyang"
+      ],
+      "published_at": "Mon, 13 Apr 2026 03:27:21 GMT",
+      "source_id": "csis_korea_chair",
+      "source_label": "CSIS Korea Chair",
+      "summary": "Time will tell as to whether Lukashenko will play any role, let alone a successful one, in reviving U.S.-North Korean diplomacy. Notwithstanding this unlikely possibility, the more important consequence of the recent elevation in Belarus-North Korea relations pertains to North Korea’s broadening of diplomatic partnerships.",
+      "title": "North Korea’s Ties With Belarus: Limited But Not Insignificant",
+      "url": "https://www.csis.org/analysis/north-koreas-ties-belarus-limited-not-insignificant"
+    },
+    "https://www.dailynk.com/english/north-korea-arms-control-us-talks-ninth-party-congress/": {
+      "confidence": "high",
+      "content_hash": "184e160337e715774016f6a0e36c34b41933c2985724dae4247edca7d1c6d637",
+      "first_seen_at": "2026-04-13T03:53:51Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-04-13T03:53:51Z",
+      "matched_terms": [
+        "North Korea",
+        "Pyongyang",
+        "Korea"
+      ],
+      "published_at": "Thu, 09 Apr 2026 11:34:00 +0000",
+      "source_id": "daily_nk_english",
+      "source_label": "Daily NK English",
+      "summary": "North Korea’s government issued a strategic directive in late March ordering its foreign affairs and military officials to abandon denuclearization as a negotiating framework and pursue arms control talks with the United States instead, according to a source in Pyongyang who spoke to Daily NK on Wednesday. “The government issued a strategic directive to the […]",
+      "title": "Pyongyang tells diplomats to drop denuclearization, push arms control instead",
+      "url": "https://www.dailynk.com/english/north-korea-arms-control-us-talks-ninth-party-congress/"
+    },
+    "https://www.dailynk.com/english/north-korea-china-travel-resumes-tourists-barred/": {
+      "confidence": "high",
+      "content_hash": "058f35ceb66d8213c29c6cd8816325bf2431ba00e356034e5cd29c864177589f",
+      "first_seen_at": "2026-04-13T03:53:51Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-04-13T03:53:51Z",
+      "matched_terms": [
+        "North Korea",
+        "South Korea",
+        "South Korean",
+        "North Korean",
+        "Korean Peninsula",
+        "Korea",
+        "Korean",
+        "Pyongyang"
+      ],
+      "published_at": "Fri, 10 Apr 2026 09:36:00 +0000",
+      "source_id": "daily_nk_english",
+      "source_label": "Daily NK English",
+      "summary": "North Korea resumed rail and air links with China in late March after a roughly six-year COVID-19 suspension, marking a significant development in North Korea-China travel. But the reopening has already hit a snag. Air China suspended new bookings on the Beijing-Pyongyang route within days of launching flights, raising questions about how far Pyongyang is […]",
+      "title": "North Korea resumes China transport links but clamps down on tourist entry",
+      "url": "https://www.dailynk.com/english/north-korea-china-travel-resumes-tourists-barred/"
+    },
+    "https://www.dailynk.com/english/north-korea-early-discharge-soldiers-russia-workers/": {
+      "confidence": "high",
+      "content_hash": "f2072555824b11a352965349401ecd8cba54a1154c85e4a2fe1db3a27cfaf5d6",
+      "first_seen_at": "2026-04-13T03:53:51Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-04-13T03:53:51Z",
+      "matched_terms": [
+        "North Korea",
+        "North Korean",
+        "Korea",
+        "Korean",
+        "Pyongyang"
+      ],
+      "published_at": "Thu, 09 Apr 2026 10:35:00 +0000",
+      "source_id": "daily_nk_english",
+      "source_label": "Daily NK English",
+      "summary": "North Korea has been discharging soldiers early from active military service and sending them to Russia as overseas laborers, Daily NK has learned. Families of those deployed are divided — some hoping for foreign currency earnings, others fearful for their children’s safety. A Daily NK source inside North Korea said Thursday that authorities selected soldiers […]",
+      "title": "North Korea discharges soldiers early to send them to Russia as laborers",
+      "url": "https://www.dailynk.com/english/north-korea-early-discharge-soldiers-russia-workers/"
+    },
+    "https://www.dailynk.com/english/north-korea-factories-join-spring-foraging-scramble-squeezing-out-ordinary-people/": {
+      "confidence": "high",
+      "content_hash": "88eea36d05ac5975bb4ba6df6e441c7c01a2ba61d3520732ed4b5051d0dfad4b",
+      "first_seen_at": "2026-04-13T03:53:51Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-04-13T03:53:51Z",
+      "matched_terms": [
+        "North Korea",
+        "North Korean",
+        "Korea",
+        "Korean"
+      ],
+      "published_at": "Mon, 13 Apr 2026 01:10:00 +0000",
+      "source_id": "daily_nk_english",
+      "source_label": "Daily NK English",
+      "summary": "As spring foraging season gets underway across North Korea, workers from state-run food factories have joined the annual race for wild mountain vegetables. Their organized presence is intensifying competition with local communities and cutting into a food source many families depend on for basic nutrition, Daily NK has learned. A Daily NK source in North […]",
+      "title": "North Korea factories join spring foraging scramble, squeezing out ordinary people",
+      "url": "https://www.dailynk.com/english/north-korea-factories-join-spring-foraging-scramble-squeezing-out-ordinary-people/"
+    },
+    "https://www.dailynk.com/english/north-korea-rote-learning-ideological-sessions/": {
+      "confidence": "high",
+      "content_hash": "462b16d33a8786a5bedb2c03a9e578dbdfdf5248ca3d4216508bdbc89a1c50ea",
+      "first_seen_at": "2026-04-13T03:53:51Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-04-13T03:53:51Z",
+      "matched_terms": [
+        "North Korea",
+        "North Korean",
+        "Korea",
+        "Korean"
+      ],
+      "published_at": "Thu, 09 Apr 2026 23:51:00 +0000",
+      "source_id": "daily_nk_english",
+      "source_label": "Daily NK English",
+      "summary": "North Korea has tightened ideological controls since the Ninth Workers’ Party of Korea Congress. Now, first-quarter Q&A-style ideological review sessions have swept across nearly all institutions and organizations, Daily NK has learned. From late March through early April, officials conducted sessions centered on rote learning and recall of key party documents. These included Kim Jong […]",
+      "title": "North Korea’s rote learning sessions pressure workers after Ninth Party Congress",
+      "url": "https://www.dailynk.com/english/north-korea-rote-learning-ideological-sessions/"
+    },
+    "https://www.dailynk.com/english/north-korean-students-mobilized-to-farm-school-land-as-rations-dry-up/": {
+      "confidence": "high",
+      "content_hash": "8f7afd0ce8a441666a13ad3382f26c91a39b14574efd685cee3cb329eb51d65f",
+      "first_seen_at": "2026-04-13T03:53:51Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-04-13T03:53:51Z",
+      "matched_terms": [
+        "North Korean",
+        "North Korea",
+        "Korean",
+        "Korea"
+      ],
+      "published_at": "Thu, 09 Apr 2026 23:43:00 +0000",
+      "source_id": "daily_nk_english",
+      "source_label": "Daily NK English",
+      "summary": "North Korean students have barely settled into the new school year before being pulled out of class to expand school farmland plots, with parents in South Pyongan province voicing sharp frustration over an education system that increasingly prioritizes labor over learning. A Daily NK source in South Pyongan province reported Thursday that students at schools […]",
+      "title": "North Korean students mobilized to farm school land as rations dry up",
+      "url": "https://www.dailynk.com/english/north-korean-students-mobilized-to-farm-school-land-as-rations-dry-up/"
+    },
+    "https://www.dailynk.com/english/north-koreans-react-kim-jong-un-pet-shop-hwasong-district/": {
+      "confidence": "high",
+      "content_hash": "af1f1e80f00f697566966c9f2d554205ddaa1a07d27c223aa26905aea8085f7e",
+      "first_seen_at": "2026-04-13T03:53:51Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-04-13T03:53:51Z",
+      "matched_terms": [
+        "North Korea",
+        "North Korean",
+        "Korea",
+        "Pyongyang",
+        "Korean"
+      ],
+      "published_at": "Sun, 12 Apr 2026 21:08:21 +0000",
+      "source_id": "daily_nk_english",
+      "source_label": "Daily NK English",
+      "summary": "North Koreans outside Pyongyang are reacting with resentment and disbelief after state media broadcast footage of Kim Jong Un and his daughter, Ju Ae, touring a pet shop at the newly opened Hwasong District Phase 4 service complex in the capital. Many provincial North Koreans say the luxury facility is worlds apart from their daily […]",
+      "title": "Pet shop in Pyongyang sparks anger and envy among North Korea’s provincial poor",
+      "url": "https://www.dailynk.com/english/north-koreans-react-kim-jong-un-pet-shop-hwasong-district/"
+    },
+    "https://www.dailynk.com/english/north-koreas-ninth-party-congress/": {
+      "confidence": "high",
+      "content_hash": "73e6d3bb670e1dd2d0817d52e77731f067399fe0289b6f24257cd70cc3a57181",
+      "first_seen_at": "2026-04-13T03:53:51Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-04-13T03:53:51Z",
+      "matched_terms": [
+        "North Korea",
+        "South Korea",
+        "DPRK",
+        "inter-Korean",
+        "Korea",
+        "Korean"
+      ],
+      "published_at": "Thu, 09 Apr 2026 23:27:58 +0000",
+      "source_id": "daily_nk_english",
+      "source_label": "Daily NK English",
+      "summary": "Daily NK has released a report analyzing North Korea’s Ninth Party Congress, examining what the congress reveals about the future direction of Kim Jong Un’s rule across the political, military, economic, and diplomatic spheres. The report finds that rather than introducing major new policies, the congress served primarily to consolidate existing governance structures — marking […]",
+      "title": "North Korea’s Ninth Party Congress: Key takeaways",
+      "url": "https://www.dailynk.com/english/north-koreas-ninth-party-congress/"
+    },
+    "https://www.dailynk.com/english/satellite-imagery-shows-yongbyon-nuclear-complex-in-active-modernization-phase/": {
+      "confidence": "high",
+      "content_hash": "82afe342fbb19c5ec9c7266d0fb56702748a9fef017abfb68f3b5a6018e8187d",
+      "first_seen_at": "2026-04-13T03:53:51Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-04-13T03:53:51Z",
+      "matched_terms": [
+        "North Korea",
+        "Korea"
+      ],
+      "published_at": "Fri, 10 Apr 2026 13:48:00 +0000",
+      "source_id": "daily_nk_english",
+      "source_label": "Daily NK English",
+      "summary": "Recent satellite imagery and analysis by international monitoring organizations indicate that North Korea’s Yongbyon Nuclear Scientific Research Center, the country’s primary nuclear complex located in North Pyongan province, is undergoing simultaneous reactor operations, enrichment facility expansion, and demolition of aging infrastructure. The findings suggest the site has entered an active modernization phase rather than a […]",
+      "title": "Satellite imagery shows Yongbyon nuclear complex in active modernization phase",
+      "url": "https://www.dailynk.com/english/satellite-imagery-shows-yongbyon-nuclear-complex-in-active-modernization-phase/"
+    },
+    "https://www.dailynk.com/english/water-crisis-grips-hyesan-as-tap-water-flows-just-once-every-five-days/": {
+      "confidence": "high",
+      "content_hash": "564dc1f245e9794e8f8cce5cd1fdfc92ca29db232556ecc7aaaec7fb43b18a2e",
+      "first_seen_at": "2026-04-13T03:53:51Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-04-13T03:53:51Z",
+      "matched_terms": [
+        "North Korea",
+        "North Korean",
+        "Korea",
+        "Korean"
+      ],
+      "published_at": "Thu, 09 Apr 2026 17:35:00 +0000",
+      "source_id": "daily_nk_english",
+      "source_label": "Daily NK English",
+      "summary": "Tap water in Hyesan, a city in North Korea’s Ryanggang province bordering China, now flows roughly once every five days, and even then reaches only some households, according to a local source, leaving the city’s population scrambling to stockpile water whenever supply briefly resumes. “People living in the city are actually feeling the water shortage […]",
+      "title": "Water crisis grips Hyesan as tap water flows just once every five days",
+      "url": "https://www.dailynk.com/english/water-crisis-grips-hyesan-as-tap-water-flows-just-once-every-five-days/"
+    },
+    "https://www.fbi.gov/news/press-releases/ukrainian-national-sentenced-in-laptop-farm-scheme-that-generated-income-for-north-korean-it-workers": {
+      "confidence": "high",
+      "content_hash": "a4b4b599b9ed5cbe92bcd58ec9e471ce379e5e8de09ceef0c8d232159c687fb3",
+      "first_seen_at": "2026-04-13T03:53:51Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-04-13T03:53:51Z",
+      "matched_terms": [
+        "North Korean",
+        "Korean"
+      ],
+      "published_at": "Thu, 19 Feb 2026 10:30:00 +0000",
+      "source_id": "fbi_national_press_releases",
+      "source_label": "FBI National Press Releases",
+      "summary": "Oleksandr Didenko was sentenced to five years in prison in connection with a years-long scheme that stole the identities of U.S. citizens and sold them to North Korean workers so they could fraudulently gain employment at 40 U.S. companies.",
+      "title": "Ukrainian National Sentenced in Laptop Farm Scheme That Generated Income for North Korean IT Workers",
+      "url": "https://www.fbi.gov/news/press-releases/ukrainian-national-sentenced-in-laptop-farm-scheme-that-generated-income-for-north-korean-it-workers"
+    },
     "https://www.ilo.org/fr/resource/actualites/la-rdc-lance-un-projet-conjoint-pour-renforcer-la-protection-sociale-et": {
       "confidence": "high",
       "content_hash": "41163fbc75127f86fab4f8c5d393875d57581a6aa1ef14ccdbf54e5e30a347b7",
@@ -250,7 +761,7 @@
       "first_seen_at": "2026-04-10T08:16:51Z",
       "last_event": "new",
       "last_notified_at": "2026-04-10T08:16:51Z",
-      "last_seen_at": "2026-04-12T23:25:54Z",
+      "last_seen_at": "2026-04-13T03:53:51Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
@@ -422,6 +933,420 @@
       "title": "Uzbekistan launches new Social Insurance Law",
       "url": "https://www.ilo.org/resource/news/uzbekistan-launches-new-social-insurance-law"
     },
+    "https://www.nknews.org/2026/04/a-unified-korea-is-less-threatening-to-china-than-us-military-presence-expert/": {
+      "confidence": "high",
+      "content_hash": "9f062a820da3fa991180418a7a3ad1da7cf7353a16febda8acee38dabeb940d9",
+      "first_seen_at": "2026-04-13T03:53:51Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-04-13T03:53:51Z",
+      "matched_terms": [
+        "South Korean",
+        "North Korea",
+        "Korean Peninsula",
+        "inter-Korean",
+        "Korea",
+        "Korean"
+      ],
+      "published_at": "Fri, 10 Apr 2026 06:09:08 +0000",
+      "source_id": "nk_news",
+      "source_label": "NK News",
+      "summary": "A unified Korean Peninsula under control of either government is less threatening to China than a divided one with a U.S. military presence in the South, according to one Chinese expert, characterizing South Korean President Lee Jae Myung’s diplomatic engagement with North Korea as “the first step for a better future.” “China is not worried […]",
+      "title": "A unified Korea is less threatening to China than US military presence: Expert",
+      "url": "https://www.nknews.org/2026/04/a-unified-korea-is-less-threatening-to-china-than-us-military-presence-expert/"
+    },
+    "https://www.nknews.org/2026/04/belarus-says-it-will-open-embassy-in-north-korea-by-august/": {
+      "confidence": "high",
+      "content_hash": "fc4b62de3eb5949e1624d31ef61d93ed2a6b21d20fd05d64bebbaf218a40b190",
+      "first_seen_at": "2026-04-13T03:53:51Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-04-13T03:53:51Z",
+      "matched_terms": [
+        "North Korea",
+        "DPRK",
+        "Korea"
+      ],
+      "published_at": "Thu, 09 Apr 2026 01:59:16 +0000",
+      "source_id": "nk_news",
+      "source_label": "NK News",
+      "summary": "Belarus will open an embassy in North Korea by August, according to Minsk, following President Alexander Lukashenko’s order to set up the diplomatic mission. “The Embassy of the Republic of Belarus in the DPRK will open by Aug. 1, 2026,” the Belarus government said in a release on Wednesday. Prime Minister Alexander Turchin signed the […]",
+      "title": "Belarus says it will open embassy in North Korea by August",
+      "url": "https://www.nknews.org/2026/04/belarus-says-it-will-open-embassy-in-north-korea-by-august/"
+    },
+    "https://www.nknews.org/2026/04/chinese-foreign-minister-to-visit-north-korea-from-thursday/": {
+      "confidence": "high",
+      "content_hash": "b1691b0789d64fd7a1b6c29f31f146ed3dc8ed09af400f91757e75d3396a3131",
+      "first_seen_at": "2026-04-13T03:53:51Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-04-13T03:53:51Z",
+      "matched_terms": [
+        "North Korea",
+        "Korea",
+        "Korean"
+      ],
+      "published_at": "Wed, 08 Apr 2026 08:38:12 +0000",
+      "source_id": "nk_news",
+      "source_label": "NK News",
+      "summary": "Chinese Foreign Minister Wang Yi will pay a two-day visit to North Korea starting Thursday, North Korea’s Foreign Ministry announced Wednesday. In a one-line statement distributed through the state-run Korean Central News Agency (KCNA), the ministry said it invited Wang but did not provide details about the agenda for his visit. A spokesperson for Beijing’s […]",
+      "title": "Chinese foreign minister to visit North Korea from Thursday",
+      "url": "https://www.nknews.org/2026/04/chinese-foreign-minister-to-visit-north-korea-from-thursday/"
+    },
+    "https://www.nknews.org/2026/04/how-a-south-korean-helped-pave-the-way-for-north-koreas-soccer-success/": {
+      "confidence": "high",
+      "content_hash": "77f2131e011799fda177da325519d05a1ac87f443c45e3b47b11bd117c8a8a20",
+      "first_seen_at": "2026-04-13T03:53:51Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-04-13T03:53:51Z",
+      "matched_terms": [
+        "South Korean",
+        "North Korea",
+        "inter-Korean",
+        "Korea",
+        "Korean"
+      ],
+      "published_at": "Fri, 10 Apr 2026 01:42:42 +0000",
+      "source_id": "nk_news",
+      "source_label": "NK News",
+      "summary": "North Korea’s women’s soccer teams have been on a tear in recent years. Youth squads have won the under-17 World Cup twice and the under-20 World Cup once. The national team had a mixed run at the recent Asian Football Confederation tournament but still qualified for the Women’s World Cup in Brazil next year. All […]",
+      "title": "How a South Korean helped pave the way for North Korea’s soccer success",
+      "url": "https://www.nknews.org/2026/04/how-a-south-korean-helped-pave-the-way-for-north-koreas-soccer-success/"
+    },
+    "https://www.nknews.org/2026/04/jonathan-cheng-the-christian-roots-of-north-koreas-personality-cult/": {
+      "confidence": "high",
+      "content_hash": "5bb7aa17b22b5c986766088c88d8be45cfab0ccf6bfd1154198055fae3edb4d0",
+      "first_seen_at": "2026-04-13T03:53:51Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-04-13T03:53:51Z",
+      "matched_terms": [
+        "North Korea",
+        "South Korean",
+        "inter-Korean",
+        "Korea",
+        "Korean",
+        "Seoul"
+      ],
+      "published_at": "Tue, 07 Apr 2026 03:52:24 +0000",
+      "source_id": "nk_news",
+      "source_label": "NK News",
+      "summary": "NK News founder Chad O’Carroll begins this week’s episode by discussing the death of North Korea’s longtime representative to the International Olympic Committee, a South Korean helicopter’s accidental flight into the demilitarized zone during a firefighting mission and Seoul’s expression of regret over civilian drone incursions. In the second half, Jonathan Cheng, the China bureau […]",
+      "title": "Jonathan Cheng: The Christian roots of North Korea’s personality cult",
+      "url": "https://www.nknews.org/2026/04/jonathan-cheng-the-christian-roots-of-north-koreas-personality-cult/"
+    },
+    "https://www.nknews.org/2026/04/kim-jong-un-vows-support-for-china-realizing-territorial-policy-on-taiwan/": {
+      "confidence": "high",
+      "content_hash": "1451400638ec5d619487f80d49c1cb632547376895c10117e4ea02ecc50344cd",
+      "first_seen_at": "2026-04-13T03:53:51Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-04-13T03:53:51Z",
+      "matched_terms": [
+        "North Korean",
+        "DPRK",
+        "Korean",
+        "Pyongyang"
+      ],
+      "published_at": "Fri, 10 Apr 2026 23:45:16 +0000",
+      "source_id": "nk_news",
+      "source_label": "NK News",
+      "summary": "North Korean leader Kim Jong Un met Chinese foreign minister Wang Yi in Pyongyang on Friday, vowing “support” for China’s territorial policies on Taiwan, according to state media. The Korean Central News Agency (KCNA) reported Saturday that Kim told Wang the DPRK “would fully support all the internal and external policies of the Chinese party […]",
+      "title": "Kim Jong Un vows support for China ‘realizing’ territorial policy on Taiwan",
+      "url": "https://www.nknews.org/2026/04/kim-jong-un-vows-support-for-china-realizing-territorial-policy-on-taiwan/"
+    },
+    "https://www.nknews.org/2026/04/lawmaker-claims-seoul-failed-to-detect-north-korean-missile-launch-this-week/": {
+      "confidence": "high",
+      "content_hash": "ba05d4723c5d4ba8c73357c929507a0dce7186fdab7d3dafabb60796725bf9ce",
+      "first_seen_at": "2026-04-13T03:53:51Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-04-13T03:53:51Z",
+      "matched_terms": [
+        "North Korean",
+        "South Korean",
+        "inter-Korean",
+        "Korean",
+        "Seoul"
+      ],
+      "published_at": "Thu, 09 Apr 2026 08:27:51 +0000",
+      "source_id": "nk_news",
+      "source_label": "NK News",
+      "summary": "A South Korean lawmaker has claimed that the country’s military failed to detect a North Korean missile launch earlier this week, faulting Seoul’s real-time tracking capabilities. Sung Il-jong of the conservative People Power Party (PPP), chair of the National Assembly’s Defense Committee, wrote on social media on Wednesday that it was “deeply regrettable” that “our […]",
+      "title": "Lawmaker claims Seoul failed to detect North Korean missile launch this week",
+      "url": "https://www.nknews.org/2026/04/lawmaker-claims-seoul-failed-to-detect-north-korean-missile-launch-this-week/"
+    },
+    "https://www.nknews.org/2026/04/likely-sanctioned-north-korean-firm-looks-to-sell-medicine-beer-in-russia/": {
+      "confidence": "high",
+      "content_hash": "0833294653a3e5080ccf092318b2405a0fe2b5a07c70157d08e185856a4207cd",
+      "first_seen_at": "2026-04-13T03:53:51Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-04-13T03:53:51Z",
+      "matched_terms": [
+        "North Korean",
+        "Korean",
+        "Pyongyang"
+      ],
+      "published_at": "Tue, 07 Apr 2026 07:56:04 +0000",
+      "source_id": "nk_news",
+      "source_label": "NK News",
+      "summary": "A sanctioned North Korean firm appears to have filed for trademark protection in Russia, records show, after previously seeking to sell aphrodisiacs and traditional medicines in the neighboring market last year. The Sobaekso Joint Venture Company from Pyongyang applied to register its trademark in Russia late March, according to its filing with Moscow’s intellectual property […]",
+      "title": "Likely sanctioned North Korean firm looks to sell medicine, beer in Russia",
+      "url": "https://www.nknews.org/2026/04/likely-sanctioned-north-korean-firm-looks-to-sell-medicine-beer-in-russia/"
+    },
+    "https://www.nknews.org/2026/04/north-korea-and-chinas-top-diplomats-hold-talks-in-pyongyang/": {
+      "confidence": "high",
+      "content_hash": "c77d3a55794870ba49790cd8994f775c2a20c386d8538f75004752ade49a6f44",
+      "first_seen_at": "2026-04-13T03:53:51Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-04-13T03:53:51Z",
+      "matched_terms": [
+        "North Korea",
+        "DPRK",
+        "Korea",
+        "Pyongyang"
+      ],
+      "published_at": "Fri, 10 Apr 2026 04:24:36 +0000",
+      "source_id": "nk_news",
+      "source_label": "NK News",
+      "summary": "North Korea and China’s foreign ministers held talks in Pyongyang late Thursday, vowing to support each other on the global stage as they prepare to mark the 65th anniversary of their defense pact. China’s top diplomat Wang Yi arrived at Sunan International Airport on Thursday on a two-day visit, the DPRK party daily Rodong Sinmun […]",
+      "title": "North Korea and China’s top diplomats hold talks in Pyongyang",
+      "url": "https://www.nknews.org/2026/04/north-korea-and-chinas-top-diplomats-hold-talks-in-pyongyang/"
+    },
+    "https://www.nknews.org/2026/04/north-korea-bats-down-seouls-dream-of-inter-korean-thaw-after-rare-praise/": {
+      "confidence": "high",
+      "content_hash": "a5115f308e9f59aff21090a4e69fa633f3fa46c128d0e00e945457c0d4b5e75f",
+      "first_seen_at": "2026-04-13T03:53:51Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-04-13T03:53:51Z",
+      "matched_terms": [
+        "North Korea",
+        "inter-Korean",
+        "South Korea",
+        "North Korean",
+        "DPRK",
+        "Korea",
+        "Korean",
+        "Seoul"
+      ],
+      "published_at": "Wed, 08 Apr 2026 06:29:38 +0000",
+      "source_id": "nk_news",
+      "source_label": "NK News",
+      "summary": "A senior North Korean official struck down Seoul’s hopes for an inter-Korean detente late Tuesday, insisting that South Korea remains the “most hostile” enemy state despite Kim Yo Jong’s rare compliment to President Lee Jae Myung the previous day. In a statement released via state media, DPRK Vice Foreign Minister Jang Kum Chol mocked Seoul’s […]",
+      "title": "North Korea bats down Seoul’s ‘dream’ of inter-Korean thaw after rare praise",
+      "url": "https://www.nknews.org/2026/04/north-korea-bats-down-seouls-dream-of-inter-korean-thaw-after-rare-praise/"
+    },
+    "https://www.nknews.org/2026/04/north-korea-conducts-missile-tests-two-days-in-a-row-rok-military/": {
+      "confidence": "high",
+      "content_hash": "dbec34bfeac2ae80661f756f6ea3903bd174314a9f3824829fd0dfe555b0382d",
+      "first_seen_at": "2026-04-13T03:53:51Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-04-13T03:53:51Z",
+      "matched_terms": [
+        "North Korea",
+        "South Korea",
+        "North Korean",
+        "inter-Korean",
+        "Korea",
+        "ROK",
+        "Korean"
+      ],
+      "published_at": "Wed, 08 Apr 2026 00:48:46 +0000",
+      "source_id": "nk_news",
+      "source_label": "NK News",
+      "summary": "Updated on April 8 at 5:02 p.m. KST with details about a second missile launch on Wednesday. North Korea carried out its third missile test in two days on Wednesday afternoon, following launches in the morning and on Tuesday, according to South Korea’s military. The tests come as a top North Korean diplomat repeated in […]",
+      "title": "North Korea conducts third missile launch in two days: ROK military",
+      "url": "https://www.nknews.org/2026/04/north-korea-conducts-missile-tests-two-days-in-a-row-rok-military/"
+    },
+    "https://www.nknews.org/2026/04/north-korea-says-it-tested-missiles-with-cluster-munitions-blackout-bombs/": {
+      "confidence": "high",
+      "content_hash": "1a4c2ceb609d2507f44a20d92de5425f4854cb7fc8771630bde326326404499d",
+      "first_seen_at": "2026-04-13T03:53:51Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-04-13T03:53:51Z",
+      "matched_terms": [
+        "North Korea",
+        "inter-Korean",
+        "Korea",
+        "Korean"
+      ],
+      "published_at": "Thu, 09 Apr 2026 05:32:08 +0000",
+      "source_id": "nk_news",
+      "source_label": "NK News",
+      "summary": "North Korea said it conducted a series of weapons tests over three days this week, including a graphite bomb targeting enemy electric grids and a Hwasong-11A short-range ballistic missile (SRBM) equipped with a cluster munition warhead. The Korean Central News Agency (KCNA) reported Thursday that research agencies under the Missile Administration also tested a new […]",
+      "title": "North Korea says it tested missiles with cluster munitions, blackout bombs",
+      "url": "https://www.nknews.org/2026/04/north-korea-says-it-tested-missiles-with-cluster-munitions-blackout-bombs/"
+    },
+    "https://www.nknews.org/2026/04/north-korean-vice-economic-minister-to-serve-as-new-ambassador-to-belarus/": {
+      "confidence": "high",
+      "content_hash": "7e943027d128214c0880b51aa0edaaaedca8941333aba6aaf07db3f3c835a36e",
+      "first_seen_at": "2026-04-13T03:53:51Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-04-13T03:53:51Z",
+      "matched_terms": [
+        "North Korean",
+        "DPRK",
+        "Korean",
+        "Pyongyang"
+      ],
+      "published_at": "Wed, 08 Apr 2026 07:26:05 +0000",
+      "source_id": "nk_news",
+      "source_label": "NK News",
+      "summary": "A senior North Korean diplomat who has helped manage ties with Moscow will serve as Pyongyang’s new ambassador to Belarus, replacing the DPRK’s first envoy to Minsk amid a push to strengthen ties. Ji Kyong Su presented his credentials to Belarusian Foreign Minister Maxim Ryzhenkov on Tuesday, according to a short news release from the […]",
+      "title": "North Korean vice economic minister to serve as new ambassador to Belarus",
+      "url": "https://www.nknews.org/2026/04/north-korean-vice-economic-minister-to-serve-as-new-ambassador-to-belarus/"
+    },
+    "https://www.nknews.org/2026/04/russian-military-jet-lands-in-north-korea-for-first-time-since-february/": {
+      "confidence": "high",
+      "content_hash": "f346083c780fa1732648c485a37c4ea3252ad4ad72e29d0b3a04affa3b8dde8e",
+      "first_seen_at": "2026-04-13T03:53:51Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-04-13T03:53:51Z",
+      "matched_terms": [
+        "North Korea",
+        "Korea",
+        "Pyongyang"
+      ],
+      "published_at": "Tue, 07 Apr 2026 07:33:00 +0000",
+      "source_id": "nk_news",
+      "source_label": "NK News",
+      "summary": "A Russian military jet landed in Pyongyang on Tuesday, aviation data shows, in the first such flight since February. The Russian Air Force Il-62M (RA-86559) touched down in Pyongyang at around 3:39 p.m. KST, arriving from Moscow after a brief stop in Vladivostok, according to data from Flightradar24. The Il-62M returned to Vladivostok at around […]",
+      "title": "Russian military jet lands in North Korea for first time since February",
+      "url": "https://www.nknews.org/2026/04/russian-military-jet-lands-in-north-korea-for-first-time-since-february/"
+    },
+    "https://www.nknews.org/2026/04/seoul-plans-to-replace-troops-on-north-korea-border-with-ai-based-systems/": {
+      "confidence": "high",
+      "content_hash": "091ad507f51aca550cdeb89b675e14288d1610007ea0fe368043c542718ac7ee",
+      "first_seen_at": "2026-04-13T03:53:51Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-04-13T03:53:51Z",
+      "matched_terms": [
+        "North Korea",
+        "South Korea",
+        "inter-Korean",
+        "Korea",
+        "Seoul",
+        "Korean",
+        "ROK"
+      ],
+      "published_at": "Wed, 08 Apr 2026 08:14:35 +0000",
+      "source_id": "nk_news",
+      "source_label": "NK News",
+      "summary": "​​South Korea will cut the number of troops stationed at general outposts (GOPs) along the heavily militarized border with North Korea by almost three-quarters, replacing the soldiers with artificial intelligence-based systems, Seoul’s defense minister said Tuesday. The move aligns with the ROK military’s push to reduce the number of front-line personnel by 2040 due to […]",
+      "title": "Seoul plans to replace troops on North Korea border with AI-based systems",
+      "url": "https://www.nknews.org/2026/04/seoul-plans-to-replace-troops-on-north-korea-border-with-ai-based-systems/"
+    },
+    "https://www.nknews.org/2026/04/singaporean-man-gets-jail-time-over-north-korean-oil-smuggling-plot-report/": {
+      "confidence": "high",
+      "content_hash": "4949a5333f5e5918d7a9b1be750bb3aed6d181099070ad26e84eb5fb3b589522",
+      "first_seen_at": "2026-04-13T03:53:51Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-04-13T03:53:51Z",
+      "matched_terms": [
+        "North Korean",
+        "North Korea",
+        "Korean",
+        "Korea"
+      ],
+      "published_at": "Thu, 09 Apr 2026 09:31:06 +0000",
+      "source_id": "nk_news",
+      "source_label": "NK News",
+      "summary": "A Singaporean national has reportedly been sentenced to over two years in jail for his role in a scheme to supply North Korea with almost $7 million worth of oil in breach of U.N. sanctions. Kwek Kee Seng, 66, was handed 30 months’ imprisonment and fined 80,000 Singapore dollars (approximately US$63,000) on Tuesday after pleading […]",
+      "title": "Singaporean man gets jail time over North Korean oil smuggling plot: Report",
+      "url": "https://www.nknews.org/2026/04/singaporean-man-gets-jail-time-over-north-korean-oil-smuggling-plot-report/"
+    },
+    "https://www.nknews.org/2026/04/switzerland-to-reopen-cooperation-office-in-north-korea-after-6-years/": {
+      "confidence": "high",
+      "content_hash": "94625225e51c5c694a229359bfc026a03556d2a2627df163430a3242fab791bb",
+      "first_seen_at": "2026-04-13T03:53:51Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-04-13T03:53:51Z",
+      "matched_terms": [
+        "North Korea",
+        "Korea",
+        "Pyongyang"
+      ],
+      "published_at": "Fri, 10 Apr 2026 06:10:41 +0000",
+      "source_id": "nk_news",
+      "source_label": "NK News",
+      "summary": "Switzerland plans to reopen its international cooperation office in North Korea this year, after a six-year absence due to the pandemic. The Federal Department of Foreign Affairs (FDFA) confirmed to NK News on Thursday that it plans to resume operations at the Pyongyang office of the Swiss Agency for Development and Cooperation (SDC). “The FDFA […]",
+      "title": "Switzerland to reopen cooperation office in North Korea after 6 years",
+      "url": "https://www.nknews.org/2026/04/switzerland-to-reopen-cooperation-office-in-north-korea-after-6-years/"
+    },
+    "https://www.nknews.org/2026/04/trump-could-meet-kim-jong-un-for-summit-this-fall-former-us-official/": {
+      "confidence": "high",
+      "content_hash": "7a8133e93c1d6a34c187054977e65de641ffb0e04f01fea57de2b95c0bb54cc3",
+      "first_seen_at": "2026-04-13T03:53:51Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-04-13T03:53:51Z",
+      "matched_terms": [
+        "North Korean",
+        "Korean"
+      ],
+      "published_at": "Wed, 08 Apr 2026 08:52:01 +0000",
+      "source_id": "nk_news",
+      "source_label": "NK News",
+      "summary": "U.S. President Donald Trump and North Korean leader Kim Jong Un could reunite face-to-face in the second half of this year, but Trump is unlikely to abandon the longstanding goal of denuclearizing the regime, former National Security Council (NSC) chief of staff Fred Fleitz said Wednesday. U.S. President Donald Trump and North Korean leader Kim […]",
+      "title": "Trump could meet Kim Jong Un for summit this fall: Former US official",
+      "url": "https://www.nknews.org/2026/04/trump-could-meet-kim-jong-un-for-summit-this-fall-former-us-official/"
+    },
+    "https://www.nknews.org/2026/04/us-rok-to-hold-joint-air-force-exercise-for-two-weeks-from-friday/": {
+      "confidence": "high",
+      "content_hash": "66ef9e14dff271151893f2785aced5908bc896fbe92cc4f5e49f3aae1827a64d",
+      "first_seen_at": "2026-04-13T03:53:51Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-04-13T03:53:51Z",
+      "matched_terms": [
+        "South Korea",
+        "South Korean",
+        "North Korea",
+        "inter-Korean",
+        "ROK",
+        "Korea",
+        "Korean"
+      ],
+      "published_at": "Thu, 09 Apr 2026 04:47:51 +0000",
+      "source_id": "nk_news",
+      "source_label": "NK News",
+      "summary": "The U.S. and South Korean air forces will hold a biannual joint aerial exercise beginning Friday, as the allies’ large-scale drills continue to draw North Korea’s ire. South Korea’s air force will lead the two-week Freedom Flag exercise with a focus on validating combined operational capabilities in preparation for the transfer of wartime operational control […]",
+      "title": "US, ROK to hold joint air force exercise for two weeks from Friday",
+      "url": "https://www.nknews.org/2026/04/us-rok-to-hold-joint-air-force-exercise-for-two-weeks-from-friday/"
+    },
+    "https://www.nknews.org/2026/04/why-kim-yo-jong-praising-seoul-for-saying-sorry-isnt-a-prelude-to-engagement/": {
+      "confidence": "high",
+      "content_hash": "c0401e78039fb77a0247f12e50cf337f0991179785283901746378f76d6f270c",
+      "first_seen_at": "2026-04-13T03:53:51Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-04-13T03:53:51Z",
+      "matched_terms": [
+        "North Korea",
+        "inter-Korean",
+        "Seoul",
+        "Korea",
+        "Korean",
+        "Pyongyang"
+      ],
+      "published_at": "Tue, 07 Apr 2026 08:16:05 +0000",
+      "source_id": "nk_news",
+      "source_label": "NK News",
+      "summary": "Kim Yo Jong’s unusually complimentary remarks to President Lee Jae Myung late Monday suggests North Korea recognizes the domestic political risk Lee took in saying he “felt sorry” for a series of drone incursions, but they do not signal any change in Pyongyang’s stance of treating Seoul as a hostile state. At a cabinet meeting […]",
+      "title": "Why Kim Yo Jong praising Seoul for saying ‘sorry’ isn’t a prelude to engagement",
+      "url": "https://www.nknews.org/2026/04/why-kim-yo-jong-praising-seoul-for-saying-sorry-isnt-a-prelude-to-engagement/"
+    },
     "https://www.rusi.org/explore-our-research/publications/commentary/gulf-war-iii-warning-about-effects-taiwan-straits-war-i": {
       "confidence": "high",
       "content_hash": "f95904487842d7080772cfd86b5be9d5df839e3e78bcd4970896e2060a8e6fa5",
@@ -477,6 +1402,371 @@
       "summary": "This groundbreaking open access volume, co-published by Springer and UNRISD, introduces eco-social contracts as a bold and actionable vision for addressing the major, interconnected crises of our time—climate change, biodiversity loss, rising inequality, and the erosion of public trust and democratic legitimacy. At its heart lies a fundamental realization that can no longer be ignored: the social contract has been broken for billions of people. As a result, the bonds between people, planet, and ",
       "title": "Eco-Social Contracts for Sustainable and Just Futures",
       "url": "https://www.unrisd.org/en/library/publications/eco-social-contracts-for-sustainable-and-just-futures"
+    },
+    "https://www.voakorea.com/a/8134922.html": {
+      "confidence": "high",
+      "content_hash": "a867be00c1efddbb1532796459273ae64495002fec1928f83831726f437b44af",
+      "first_seen_at": "2026-04-13T03:53:51Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-04-13T03:53:51Z",
+      "matched_terms": [
+        "한반도"
+      ],
+      "published_at": "Tue, 07 Apr 2026 02:47:26 +0900",
+      "source_id": "voa_korea_peninsula",
+      "source_label": "VOA Korean Peninsula",
+      "summary": "Categories: 한반도",
+      "title": "4. '두 국가' 선언과 관료 체제 변화...외교 관계 압박 vs 원칙 유지",
+      "url": "https://www.voakorea.com/a/8134922.html"
+    },
+    "https://www.voakorea.com/a/8134925.html": {
+      "confidence": "high",
+      "content_hash": "3ec66c5db648e4ea4c61c429e6947065972105c800cfc27695fb198a9621071a",
+      "first_seen_at": "2026-04-13T03:53:51Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-04-13T03:53:51Z",
+      "matched_terms": [
+        "한반도"
+      ],
+      "published_at": "Tue, 07 Apr 2026 03:00:19 +0900",
+      "source_id": "voa_korea_peninsula",
+      "source_label": "VOA Korean Peninsula",
+      "summary": "Categories: 한반도",
+      "title": "5. 헌법 비공개...내부 딜레마인가, 협상용 유연성인가?",
+      "url": "https://www.voakorea.com/a/8134925.html"
+    },
+    "https://www.voakorea.com/a/8134930.html": {
+      "confidence": "high",
+      "content_hash": "84fa4b1d70ec0dc99d1ecd599aa1d2f79b8d52ffd2751f3ae1620ac6887b68c5",
+      "first_seen_at": "2026-04-13T03:53:51Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-04-13T03:53:51Z",
+      "matched_terms": [
+        "김정은",
+        "한반도"
+      ],
+      "published_at": "Tue, 07 Apr 2026 03:13:18 +0900",
+      "source_id": "voa_korea_peninsula",
+      "source_label": "VOA Korean Peninsula",
+      "summary": "Categories: 한반도",
+      "title": "6. 완성된 김정은 친정체제...\"주식회사에서 1인 회사로\"",
+      "url": "https://www.voakorea.com/a/8134930.html"
+    },
+    "https://www.voakorea.com/a/8134950.html": {
+      "confidence": "high",
+      "content_hash": "83e2bf9a5195a29121e5ff9d395f30c138db8904654fe5bb7db3a7511745fda1",
+      "first_seen_at": "2026-04-13T03:53:51Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-04-13T03:53:51Z",
+      "matched_terms": [
+        "북한",
+        "한반도"
+      ],
+      "published_at": "Wed, 08 Apr 2026 01:25:33 +0900",
+      "source_id": "voa_korea_peninsula",
+      "source_label": "VOA Korean Peninsula",
+      "summary": "신앙을 가졌다는 이유만으로, 그 대가가 가족 3대에까지 이어지는 곳, 북한. 종교 활동 자체가 ‘반국가 범죄’로 규정되면서, 조직적 종교는 사실상 완전히 사라졌습니다. 전례 없는 수준의 통제와 탄압—북한의 종교 자유 실태를 짚어봅니다. VOA 이조은 기자입니다.",
+      "title": "\"성경 한 권의 죄 — 북한, 3대를 벌하다\"",
+      "url": "https://www.voakorea.com/a/8134950.html"
+    },
+    "https://www.voakorea.com/a/8135332.html": {
+      "confidence": "high",
+      "content_hash": "7140d6e57cc86a6bb595e126ee2f41c305d0e19df4b180de5ea8a41dfb79201a",
+      "first_seen_at": "2026-04-13T03:53:51Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-04-13T03:53:51Z",
+      "matched_terms": [
+        "한반도"
+      ],
+      "published_at": "Wed, 08 Apr 2026 03:09:10 +0900",
+      "source_id": "voa_korea_peninsula",
+      "source_label": "VOA Korean Peninsula",
+      "summary": "미 해군 중위였던 엘머 로이스 윌리엄스 대령은 6.25전쟁 기간 제77기동부대에 배속돼 항공모함 ‘오리스카니’호에서 복무하며 항공기 요격과 함대 방어 임무를 수행했습니다.",
+      "title": "“35분 공중전”...미 해군 역사 새로쓴 윌리엄스 대령",
+      "url": "https://www.voakorea.com/a/8135332.html"
+    },
+    "https://www.voakorea.com/a/8136160.html": {
+      "confidence": "high",
+      "content_hash": "092f2d16954beadffa00c9259ce68cba4acb3039009e5e18c8f6d471d17ca119",
+      "first_seen_at": "2026-04-13T03:53:51Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-04-13T03:53:51Z",
+      "matched_terms": [
+        "북한",
+        "한반도",
+        "대북"
+      ],
+      "published_at": "Fri, 10 Apr 2026 03:25:33 +0900",
+      "source_id": "voa_korea_peninsula",
+      "source_label": "VOA Korean Peninsula",
+      "summary": "유엔 북한인권 특별보고관이 향후 어떤 형태의 대북 대화에서도 인권을 배제해서는 안 된다며, 과거 인권을 제쳐두고 북한과 대화한 결과 아무것도 얻지 못했다고 강조했습니다.",
+      "title": "살몬 보고관 \"북한과 대화서 인권 배제 말아야…우크라 당국에 북한군 포로 강제송환 금지 촉구\"",
+      "url": "https://www.voakorea.com/a/8136160.html"
+    },
+    "https://www.voakorea.com/a/8136481.html": {
+      "confidence": "high",
+      "content_hash": "3a92c1319e40434fde5e37cb9a9aaa240c1c13a0b21baaca92de4219fca0b17a",
+      "first_seen_at": "2026-04-13T03:53:51Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-04-13T03:53:51Z",
+      "matched_terms": [
+        "북한",
+        "한반도",
+        "평양"
+      ],
+      "published_at": "Sat, 11 Apr 2026 01:25:12 +0900",
+      "source_id": "voa_korea_peninsula",
+      "source_label": "VOA Korean Peninsula",
+      "summary": "러시아에 파견된 북한 해외 노동자들이 도착 직후 여권을 압수당하고 귀국 후에도 ‘모범 시민’으로 이용되고 있다는 지적이 나왔습니다. 헤이그에 있는 국제인권단체 글로벌 라이츠 컴플라이언스(GRC)의 김예지 북한 자문은 이 프로그램이 평양의 중앙 통제 아래 체계적으로 운영된다는 점이 다른 나라와 큰 차이라고 밝혔습니다. VOA 장양희 기자가 들어봤습니다.",
+      "title": "북한 노동자들 “여권 뺏기고, 15층 곤돌라에 매달려”...제재보다 시급한 것?",
+      "url": "https://www.voakorea.com/a/8136481.html"
+    },
+    "https://www.voakorea.com/a/chinese-foreign-ministry-foreign-minister-wang-yi-to-visit-north-korea-will-discuss-matters-of-mutual-interest-20260409/8136194.html": {
+      "confidence": "high",
+      "content_hash": "5a59bfda7d69ed64ee594f469e3f694283eae99eed9ab07d5fef5ee794066419",
+      "first_seen_at": "2026-04-13T03:53:51Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-04-13T03:53:51Z",
+      "matched_terms": [
+        "북한",
+        "한반도"
+      ],
+      "published_at": "Fri, 10 Apr 2026 06:21:30 +0900",
+      "source_id": "voa_korea_peninsula",
+      "source_label": "VOA Korean Peninsula",
+      "summary": "왕이 외교부장이 북한을 방문해 “양국 간 공동 관심사에 대해 논의할 것”이라고 중국 외교부가 9일 밝혔습니다. 마오닝 중국 외교부 대변인은 구체적인 일정과 의제에 대해서는 설명하지 않았습니다.",
+      "title": "중국 외교부 “왕이 외교부장 방북 … 북한과 공동 관심사 논의할 것”",
+      "url": "https://www.voakorea.com/a/chinese-foreign-ministry-foreign-minister-wang-yi-to-visit-north-korea-will-discuss-matters-of-mutual-interest-20260409/8136194.html"
+    },
+    "https://www.voakorea.com/a/ministry-of-foreign-affairs-launches-7th-wego-supporters-to-strengthen-rok-u-s-people-to-people-exchange-041026/8136458.html": {
+      "confidence": "high",
+      "content_hash": "77a130dbd1296f9c84069073693c7a3df0551dce0797d63b37b08dc532bd9649",
+      "first_seen_at": "2026-04-13T03:53:51Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-04-13T03:53:51Z",
+      "matched_terms": [
+        "한국",
+        "한반도"
+      ],
+      "published_at": "Fri, 10 Apr 2026 22:57:26 +0900",
+      "source_id": "voa_korea_peninsula",
+      "source_label": "VOA Korean Peninsula",
+      "summary": "한국 외교부는 10일 우리 국민과 주한미군 간 상호 이해와 우호 증진을 위한 ‘위고(WeGo) 서포터즈’ 제7기 발대식을 열고 공식 출범을 알렸습니다.",
+      "title": "한국 외교부, ‘위고(WeGo) 서포터즈’ 7기 출범…한미 민간교류 강화",
+      "url": "https://www.voakorea.com/a/ministry-of-foreign-affairs-launches-7th-wego-supporters-to-strengthen-rok-u-s-people-to-people-exchange-041026/8136458.html"
+    },
+    "https://www.voakorea.com/a/north-korea-china-agree-to-strengthen-ties-041026/8136491.html": {
+      "confidence": "high",
+      "content_hash": "7d61e5f3dbb84dcdd6b64e0dad0b7d4689ae9e299bccdfbacc1e97d16e081abc",
+      "first_seen_at": "2026-04-13T03:53:51Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-04-13T03:53:51Z",
+      "matched_terms": [
+        "북한",
+        "한반도",
+        "북·중"
+      ],
+      "published_at": "Sat, 11 Apr 2026 01:27:47 +0900",
+      "source_id": "voa_korea_peninsula",
+      "source_label": "VOA Korean Peninsula",
+      "summary": "왕이 중국 외교부장이 9일 최선희 북한 외무성과 만나 전략적 소통을 강화하고 협력을 확대하기로 합의했다고 중국 외교부가 10일 밝혔습니다.",
+      "title": "북·중 외교장관 회담 … “전략적 소통 강화·협력 확대”",
+      "url": "https://www.voakorea.com/a/north-korea-china-agree-to-strengthen-ties-041026/8136491.html"
+    },
+    "https://www.voakorea.com/a/north-korea-exploits-github-used-by-100-million-developers-worldwide-for-hacking-040726/8135286.html": {
+      "confidence": "high",
+      "content_hash": "f314394ed07fd38b255694595235f8755f10894aee6f9aa5efd34ba88c37e44b",
+      "first_seen_at": "2026-04-13T03:53:51Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-04-13T03:53:51Z",
+      "matched_terms": [
+        "한국",
+        "북한",
+        "한반도"
+      ],
+      "published_at": "Tue, 07 Apr 2026 23:51:12 +0900",
+      "source_id": "voa_korea_peninsula",
+      "source_label": "VOA Korean Peninsula",
+      "summary": "북한 연계 해킹 조직이 전 세계 1억 명 이상의 프로그램 개발자들이 사용하는 소프트웨어 코드 공유 플랫폼 '깃허브(GitHub)'를 해킹 명령 서버로 악용해 한국 기업들의 보안망을 뚫고 있다고 사이버 보안업체가 밝혔습니다.",
+      "title": "북한, 전 세계 개발자 이용 '깃허브' 해킹에 악용…한국 기업 보안망 무력화",
+      "url": "https://www.voakorea.com/a/north-korea-exploits-github-used-by-100-million-developers-worldwide-for-hacking-040726/8135286.html"
+    },
+    "https://www.voakorea.com/a/rok-vows-efforts-to-ensure-safe-passage-through-hormuz-strait-20260408/8135714.html": {
+      "confidence": "high",
+      "content_hash": "8789e16d61d5dc52d79770defc51ad18f6e1216b473883cc378d10cba0fa0445",
+      "first_seen_at": "2026-04-13T03:53:51Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-04-13T03:53:51Z",
+      "matched_terms": [
+        "한국",
+        "한반도"
+      ],
+      "published_at": "Thu, 09 Apr 2026 01:04:59 +0900",
+      "source_id": "voa_korea_peninsula",
+      "source_label": "VOA Korean Peninsula",
+      "summary": "한국 청와대가 8일 미국과 이란의 호르무즈 해협 개방을 조건으로 한 2주간의 휴전 합의와 관련해 “정부는 가능한 한 조속히 우리 선박의 호르무즈 해협 통항이 이뤄질 수 있도록 최선을 다하겠다”고 밝혔습니다.",
+      "title": "한국 정부 “호르무즈 통항 재개 여건 마련…관련국 소통 가속화”",
+      "url": "https://www.voakorea.com/a/rok-vows-efforts-to-ensure-safe-passage-through-hormuz-strait-20260408/8135714.html"
+    },
+    "https://www.voakorea.com/a/s-korean-govt-approves-public-notice-of-constitutional-amendment-040726/8135263.html": {
+      "confidence": "high",
+      "content_hash": "6bc7c0ad7ab3913c0a9bd8a39db499bc18dd683f03306f8c5cb6005e71aa123b",
+      "first_seen_at": "2026-04-13T03:53:51Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-04-13T03:53:51Z",
+      "matched_terms": [
+        "한국",
+        "대한민국",
+        "한반도"
+      ],
+      "published_at": "Tue, 07 Apr 2026 22:44:49 +0900",
+      "source_id": "voa_korea_peninsula",
+      "source_label": "VOA Korean Peninsula",
+      "summary": "한국 정부는 6일 이재명 대통령 주재로 열린 국무회의에서 ‘대한민국헌법 개정안’ 공고안을 심의·의결했습니다.",
+      "title": "한국 정부, 개헌안 공고 의결…국회 3분의 2 찬성·국민투표 거쳐 확정",
+      "url": "https://www.voakorea.com/a/s-korean-govt-approves-public-notice-of-constitutional-amendment-040726/8135263.html"
+    },
+    "https://www.voakorea.com/a/south-korea-iran-special-envoy-041026/8136518.html": {
+      "confidence": "high",
+      "content_hash": "ad71e3d9073686c8d8b0a056e37e338e75468e9eeaf493ebedb9df5f418309b3",
+      "first_seen_at": "2026-04-13T03:53:51Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-04-13T03:53:51Z",
+      "matched_terms": [
+        "한국",
+        "한반도"
+      ],
+      "published_at": "Sat, 11 Apr 2026 03:09:27 +0900",
+      "source_id": "voa_korea_peninsula",
+      "source_label": "VOA Korean Peninsula",
+      "summary": "조현 한국 외교부 장관이 중동 정세와 한-이란 양자 현안 등을 논의하기 위해 외교장관 특사를 이란에 파견하기로 했다고 한국 외교부가 9일 발표했습니다.",
+      "title": "한국 외교장관 “이란 특사 파견…호르무즈 항행 재개돼야”",
+      "url": "https://www.voakorea.com/a/south-korea-iran-special-envoy-041026/8136518.html"
+    },
+    "https://www.voakorea.com/a/south-korea-s-dmz-border-tourism-train-peace-connection-resumes-service-after-6-5-years-20260410/8136464.html": {
+      "confidence": "high",
+      "content_hash": "58b6bc833cd70e3d598ade8ab05c5c6b23259a8789534f99311a66b085d5bd01",
+      "first_seen_at": "2026-04-13T03:53:51Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-04-13T03:53:51Z",
+      "matched_terms": [
+        "한국",
+        "한반도",
+        "서울"
+      ],
+      "published_at": "Fri, 10 Apr 2026 23:20:08 +0900",
+      "source_id": "voa_korea_peninsula",
+      "source_label": "VOA Korean Peninsula",
+      "summary": "한반도 비무장지대(DMZ) 남측 민간인출입통제선(민통선) 내부에 위치한 도라산역과 서울역을 잇는 관광 열차가 6년 6개월 만에 운행을 재개했습니다.",
+      "title": "한국 DMZ 접경 ‘평화이음’ 관광열차,  6년 6개월 만에 운행 재개",
+      "url": "https://www.voakorea.com/a/south-korea-s-dmz-border-tourism-train-peace-connection-resumes-service-after-6-5-years-20260410/8136464.html"
+    },
+    "https://www.voakorea.com/a/the-crime-of-a-single-bible-north-korea-punishes-three-generations-religious-persecution-us-uscirf-20260406/8135306.html": {
+      "confidence": "high",
+      "content_hash": "c9c3abdf16c7526edcfe6977a339b0e30737d17d034d4fc2a811b8c311947c73",
+      "first_seen_at": "2026-04-13T03:53:51Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-04-13T03:53:51Z",
+      "matched_terms": [
+        "북한",
+        "한반도"
+      ],
+      "published_at": "Wed, 08 Apr 2026 01:36:35 +0900",
+      "source_id": "voa_korea_peninsula",
+      "source_label": "VOA Korean Peninsula",
+      "summary": "신앙을 가졌다는 이유만으로 그 대가가 가족 3대에까지 이어지는 곳, 북한. 종교 활동 자체가 ‘반국가 범죄’로 규정되면서 조직적 종교는 사실상 완전히 사라졌습니다. 북한은 수십 년에 걸쳐 종교를 범죄화하는 법과 제도를 촘촘히 구축해왔습니다.",
+      "title": "성경 한 권의 죄 — 북한, 3대를 벌하다",
+      "url": "https://www.voakorea.com/a/the-crime-of-a-single-bible-north-korea-punishes-three-generations-religious-persecution-us-uscirf-20260406/8135306.html"
+    },
+    "https://www.voakorea.com/a/u-s-military-says-north-korean-ballistic-missile-launch-poses-no-immediate-threat-consulting-closely-with-allies-20260408/8135698.html": {
+      "confidence": "high",
+      "content_hash": "ec45fe744593967542a659427bc8516f30ed71ea82ae38ed2a6b64d5a0568c02",
+      "first_seen_at": "2026-04-13T03:53:51Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-04-13T03:53:51Z",
+      "matched_terms": [
+        "북한",
+        "한반도",
+        "평양"
+      ],
+      "published_at": "Thu, 09 Apr 2026 00:43:59 +0900",
+      "source_id": "voa_korea_peninsula",
+      "source_label": "VOA Korean Peninsula",
+      "summary": "북한이 8일 탄도미사일을 잇따라 발사한 가운데 주한미군과 미국 인도태평양사령부가 즉각적인 위협은 아니라고 평가하면서도 동맹·파트너국들과 긴밀히 협의 중이라고 밝혔습니다.",
+      "title": "미군 당국 \"북한 탄도미사일 발사, 즉각적 위협 아니지만 동맹과 긴밀 협의\"",
+      "url": "https://www.voakorea.com/a/u-s-military-says-north-korean-ballistic-missile-launch-poses-no-immediate-threat-consulting-closely-with-allies-20260408/8135698.html"
+    },
+    "https://www.voakorea.com/a/u-s-south-korea-japan-condemn-north-korean-ballistic-missile-launch-as-u-n-security-council-violation-040926/8136100.html": {
+      "confidence": "high",
+      "content_hash": "a53f17ddbf64668373f320fa895a5539223c3e0c258a1e36582a4849afc51eca",
+      "first_seen_at": "2026-04-13T03:53:51Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-04-13T03:53:51Z",
+      "matched_terms": [
+        "북한",
+        "한국",
+        "한반도"
+      ],
+      "published_at": "Thu, 09 Apr 2026 23:53:48 +0900",
+      "source_id": "voa_korea_peninsula",
+      "source_label": "VOA Korean Peninsula",
+      "summary": "데이비드 와일레졸 미국 국무부 한일 담당 부차관보는 이날 백용진 한국 외교부 한반도정책국장, 오츠카 켄고 일본 외무성 아시아대양주국 심의관과 유선 협의를 갖고 이번 발사가 유엔 안보리 관련 결의를 위반한 것임을 재확인했다고 한국 외교부와 일본 외무성이 9일 밝혔습니다.",
+      "title": "미한일, 북한 탄도미사일 발사 공동 규탄…\"유엔 안보리 결의 위반\"",
+      "url": "https://www.voakorea.com/a/u-s-south-korea-japan-condemn-north-korean-ballistic-missile-launch-as-u-n-security-council-violation-040926/8136100.html"
+    },
+    "https://www.voakorea.com/a/u-s-south-korean-air-forces-launch-freedom-flag-joint-air-exercise-led-by-south-korea-040926/8136071.html": {
+      "confidence": "high",
+      "content_hash": "db26b910a0406c29b51bcacb5df73ef3fe53c17459f6716cef1af0b7969c5a0e",
+      "first_seen_at": "2026-04-13T03:53:51Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-04-13T03:53:51Z",
+      "matched_terms": [
+        "한국",
+        "한반도"
+      ],
+      "published_at": "Thu, 09 Apr 2026 22:59:59 +0900",
+      "source_id": "voa_korea_peninsula",
+      "source_label": "VOA Korean Peninsula",
+      "summary": "미한 공군은 10일부터 24일까지 광주기지에서 ‘26-1차 프리덤 플래그(Freedom Flag)’ 훈련을 실시한다고 한국 공군이 9일 밝혔습니다.",
+      "title": "미한 공군, ‘프리덤 플래그’ 연합 공중훈련…한국 공군 주도",
+      "url": "https://www.voakorea.com/a/u-s-south-korean-air-forces-launch-freedom-flag-joint-air-exercise-led-by-south-korea-040926/8136071.html"
+    },
+    "https://www.voakorea.com/a/us-rok-kicks-off-korean-war-remain-search-040626/8135242.html": {
+      "confidence": "high",
+      "content_hash": "1bc51f0a088650f7ba3768d08b185b8d014406420d4cbbdb3b604039d2627cbb",
+      "first_seen_at": "2026-04-13T03:53:51Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-04-13T03:53:51Z",
+      "matched_terms": [
+        "한국",
+        "한반도"
+      ],
+      "published_at": "Tue, 07 Apr 2026 21:09:59 +0900",
+      "source_id": "voa_korea_peninsula",
+      "source_label": "VOA Korean Peninsula",
+      "summary": "미국과 한국 당국이 6일부터 다음 달 1일까지 한국전쟁 당시 동해로 추락한 군용 항공기 탑승자의 유해를 찾기 위한 조사에 착수한다고 한국 국방부가 밝혔습니다.",
+      "title": "미한, ‘한국전’ 추락 군용기 탑승자 유해 소재 조사 착수",
+      "url": "https://www.voakorea.com/a/us-rok-kicks-off-korean-war-remain-search-040626/8135242.html"
     },
     "https://www.wto.org/english/news_e/news26_e/acc_09mar26_316_e.htm": {
       "confidence": "high",
@@ -538,7 +1828,7 @@
       "first_seen_at": "2026-03-30T16:00:55Z",
       "last_event": "new",
       "last_notified_at": "2026-03-30T16:00:55Z",
-      "last_seen_at": "2026-04-12T23:25:54Z",
+      "last_seen_at": "2026-04-13T03:53:51Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea",
@@ -557,7 +1847,7 @@
       "first_seen_at": "2026-03-27T15:42:56Z",
       "last_event": "new",
       "last_notified_at": "2026-03-27T15:42:56Z",
-      "last_seen_at": "2026-04-12T23:25:54Z",
+      "last_seen_at": "2026-04-13T03:53:51Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
@@ -574,13 +1864,19 @@
     "adb_news": "2026-03-23T13:56:57Z",
     "aiib_news": "2026-04-03T15:33:11Z",
     "bis_press_releases": "2026-04-03T15:33:11Z",
+    "cisa_north_korea_cyber_advisories": "2026-04-13T03:53:51Z",
     "crisis_group_korean_peninsula": "2026-03-23T13:56:57Z",
+    "csis_korea_chair": "2026-04-13T03:53:51Z",
+    "daily_nk_english": "2026-04-13T03:53:51Z",
     "doj_press_releases": "2026-03-26T16:03:48Z",
     "ecb_press": "2026-04-03T15:33:11Z",
     "eib_press_releases": "2026-04-03T15:33:11Z",
+    "fbi_national_press_releases": "2026-04-13T03:53:51Z",
     "ilo_newsroom": "2026-03-19T07:40:49Z",
+    "nk_news": "2026-04-13T03:53:51Z",
     "rusi_publications": "2026-03-23T13:56:57Z",
     "sipri_publications": "2026-03-23T13:56:57Z",
+    "thirty_eight_north": "2026-04-13T03:53:51Z",
     "treasury_press_releases": "2026-03-26T16:03:48Z",
     "un_meetings_coverage": "2026-03-07T09:13:17Z",
     "un_news_latest": "2026-03-23T13:56:57Z",
@@ -589,6 +1885,7 @@
     "unrisd_news": "2026-03-23T13:56:57Z",
     "unrisd_publications": "2026-03-07T09:13:17Z",
     "ustr_press_releases": "2026-03-26T16:03:48Z",
+    "voa_korea_peninsula": "2026-04-13T03:53:51Z",
     "world_bank_news": "2026-03-23T13:56:57Z",
     "wto_latest_news": "2026-03-11T15:39:09Z"
   }
