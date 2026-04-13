@@ -201,6 +201,109 @@
       "note": "Parses the official USTR press releases page and keeps press release URLs only."
     },
     {
+      "id": "fbi_national_press_releases",
+      "label": "FBI National Press Releases",
+      "type": "rss_xml",
+      "enabled": true,
+      "list_url": "https://www.fbi.gov/feeds/national-press-releases/rss.xml",
+      "max_items": 20,
+      "allowed_domains": [
+        "www.fbi.gov"
+      ],
+      "allowed_url_patterns": [
+        "/news/press-releases/",
+        "/contact-us/field-offices/"
+      ],
+      "note": "Uses the official FBI national press releases RSS feed."
+    },
+    {
+      "id": "cisa_north_korea_cyber_advisories",
+      "label": "CISA North Korea Cyber Advisories",
+      "type": "html_listing",
+      "enabled": true,
+      "list_url": "https://www.cisa.gov/topics/cyber-threats-and-advisories/nation-state-cyber-actors/north-korea/publications",
+      "max_items": 20,
+      "link_selector": "table a[href]",
+      "allowed_domains": [
+        "www.cisa.gov"
+      ],
+      "allowed_url_patterns": [
+        "/news-events/cybersecurity-advisories/"
+      ],
+      "default_confidence": "high",
+      "default_matched_terms": [
+        "North Korea cyber advisory source"
+      ],
+      "note": "Parses CISA's official North Korea state-sponsored cyber threat advisories page."
+    },
+    {
+      "id": "thirty_eight_north",
+      "label": "38 North",
+      "type": "rss_xml",
+      "enabled": true,
+      "list_url": "https://www.38north.org/feed/",
+      "max_items": 20,
+      "allowed_domains": [
+        "www.38north.org"
+      ],
+      "default_confidence": "high",
+      "default_matched_terms": [
+        "North Korea specialist source"
+      ],
+      "note": "Uses 38 North's official RSS feed; items are treated as North Korea relevant by source scope."
+    },
+    {
+      "id": "nk_news",
+      "label": "NK News",
+      "type": "rss_xml",
+      "enabled": true,
+      "list_url": "https://www.nknews.org/feed/",
+      "max_items": 20,
+      "allowed_domains": [
+        "www.nknews.org"
+      ],
+      "default_confidence": "high",
+      "default_matched_terms": [
+        "North Korea specialist source"
+      ],
+      "note": "Uses NK News's public RSS feed; items are treated as North Korea relevant by source scope."
+    },
+    {
+      "id": "daily_nk_english",
+      "label": "Daily NK English",
+      "type": "rss_xml",
+      "enabled": true,
+      "list_url": "https://www.dailynk.com/english/feed/",
+      "max_items": 20,
+      "allowed_domains": [
+        "www.dailynk.com"
+      ],
+      "default_confidence": "high",
+      "default_matched_terms": [
+        "North Korea specialist source"
+      ],
+      "note": "Uses Daily NK English's official RSS feed; items are treated as North Korea relevant by source scope."
+    },
+    {
+      "id": "voa_korea_peninsula",
+      "label": "VOA Korean Peninsula",
+      "type": "rss_xml",
+      "enabled": true,
+      "list_url": "https://www.voakorea.com/api/zoikol-vomx-tpepgjp",
+      "max_items": 20,
+      "allowed_domains": [
+        "www.voakorea.com"
+      ],
+      "allowed_url_patterns": [
+        "/a/"
+      ],
+      "default_confidence": "high",
+      "default_matched_terms": [
+        "Korean Peninsula source"
+      ],
+      "note": "Uses VOA Korean's official Korean Peninsula RSS feed."
+    },
+    {
       "id": "crisis_group_korean_peninsula",
       "label": "Crisis Group Korean Peninsula",
       "type": "pending",
@@ -260,11 +363,22 @@
     {
       "id": "csis_korea_chair",
       "label": "CSIS Korea Chair",
-      "type": "pending",
-      "enabled": false,
-      "list_url": "https://www.csis.org/programs/korea-chair?f%5B0%5D=topics%3A3091",
+      "type": "html_listing",
+      "enabled": true,
+      "list_url": "https://www.csis.org/programs/korea-chair",
       "max_items": 20,
-      "note": "Official page exists, but the tested automation environment returned a Cloudflare challenge page."
+      "link_selector": ".views-row h3 a[href]",
+      "allowed_domains": [
+        "www.csis.org"
+      ],
+      "allowed_url_patterns": [
+        "/analysis/"
+      ],
+      "default_confidence": "high",
+      "default_matched_terms": [
+        "Korean Peninsula source"
+      ],
+      "note": "Parses CSIS Korea Chair analysis links from the official program page."
     },
     {
       "id": "iea_news_and_reports",

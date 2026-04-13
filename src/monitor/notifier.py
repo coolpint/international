@@ -25,9 +25,16 @@ SOURCE_LABELS_KO = {
     "DOJ Press Releases": "미 법무부 보도자료",
     "U.S. Treasury Press Releases": "미 재무부 보도자료",
     "USTR Press Releases": "USTR 보도자료",
+    "FBI National Press Releases": "FBI 전국 보도자료",
+    "CISA North Korea Cyber Advisories": "CISA 북한 사이버 권고",
+    "38 North": "38노스",
+    "NK News": "NK News",
+    "Daily NK English": "데일리NK English",
+    "VOA Korean Peninsula": "VOA 한국어 한반도",
     "Crisis Group Korean Peninsula": "국제위기그룹 한반도",
     "SIPRI Publications": "SIPRI 간행물",
     "Bruegel Publications": "브뤼헐 간행물",
+    "CSIS Korea Chair": "CSIS Korea Chair",
     "RUSI Publications": "RUSI 간행물",
 }
 
@@ -54,6 +61,9 @@ TERM_LABELS_KO = {
     "Pyongyang": "평양",
     "Korean Peninsula": "한반도",
     "inter-Korean": "남북한",
+    "North Korea specialist source": "북한 전문 소스",
+    "North Korea cyber advisory source": "북한 사이버 권고 소스",
+    "Korean Peninsula source": "한반도 전문 소스",
 }
 
 

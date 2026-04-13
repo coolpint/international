@@ -8,6 +8,7 @@ from pathlib import Path
 from .monitor.config import load_keywords, load_sources
 from .monitor.filtering import classify_item
 from .monitor.notifier import send_telegram_message, telegram_is_configured
+from .monitor.models import Classification, MonitoredItem, SourceConfig
 from .monitor.sources import collect_items
 from .monitor.state import append_history, append_run_log, load_state, mark_notified, register_item, save_state
 
@@ -18,6 +19,7 @@ DEFAULT_KEYWORDS = REPO_ROOT / "config" / "keywords.json"
 DEFAULT_STATE = REPO_ROOT / "data" / "state.json"
 DEFAULT_HISTORY_DIR = REPO_ROOT / "data" / "history"
 DEFAULT_RUN_LOG_DIR = REPO_ROOT / "data" / "run_logs"
+CONFIDENCE_RANK = {"low": 0, "medium": 1, "high": 2}
 
 
 def parse_args() -> argparse.Namespace:
@@ -34,6 +36,34 @@ def parse_args() -> argparse.Namespace:
 
 def utc_now_iso() -> str:
     return datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
+
+
+def _option_string_list(value: object) -> list[str]:
+    if not isinstance(value, list):
+        return []
+    return [str(entry).strip() for entry in value if str(entry).strip()]
+
+
+def _apply_source_default_classification(
+    item: MonitoredItem,
+    classification: Classification,
+    source: SourceConfig,
+) -> Classification:
+    default_confidence = str(source.options.get("default_confidence", "")).strip().lower()
+    if default_confidence not in CONFIDENCE_RANK:
+        return classification
+
+    current_rank = CONFIDENCE_RANK.get(classification.confidence, 0) if classification.relevant else 0
+    if CONFIDENCE_RANK[default_confidence] <= current_rank:
+        return classification
+
+    default_terms = _option_string_list(source.options.get("default_matched_terms")) or [source.label]
+    matched_terms = list(classification.matched_terms)
+    for term in default_terms:
+        if term not in matched_terms:
+            matched_terms.append(term)
+
+    return Classification(relevant=True, confidence=default_confidence, matched_terms=matched_terms)
 
 
 def main() -> int:
@@ -119,6 +149,7 @@ def main() -> int:
 
         for item in items:
             classification = classify_item(item, keywords)
+            classification = _apply_source_default_classification(item, classification, source)
             if not classification.relevant:
                 continue
 

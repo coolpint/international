@@ -53,6 +53,24 @@ class RssTests(unittest.TestCase):
         self.assertIn("Categories: Press release", item.body)
         self.assertEqual(item.published_at, "Sat, 07 Mar 2026 09:35:57 GMT")
 
+    def test_builds_rss_item_from_guid_when_link_is_missing(self) -> None:
+        node = ElementTree.fromstring(
+            """
+            <item>
+              <title>North Korean cyber update</title>
+              <description>FBI update on DPRK cyber activity</description>
+              <guid>https://www.fbi.gov/news/press-releases/example</guid>
+              <pubDate>Fri, 13 Mar 2026 10:30:00 +0000</pubDate>
+            </item>
+            """
+        )
+
+        item = _build_rss_item(self.source, node, self.source.list_url or "")
+        self.assertIsNotNone(item)
+        assert item is not None
+        self.assertEqual(item.url, "https://www.fbi.gov/news/press-releases/example")
+        self.assertEqual(item.title, "North Korean cyber update")
+
     @patch("src.monitor.sources.fetch_text")
     def test_collect_rss_items_uses_fallback_url(self, mock_fetch_text) -> None:
         source = SourceConfig(

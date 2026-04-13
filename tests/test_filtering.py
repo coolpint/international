@@ -7,9 +7,12 @@ from src.monitor.models import MonitoredItem
 KEYWORDS = {
     "high_confidence_terms": [
         "South Korea",
+        "South Korean",
         "North Korea",
+        "North Korean",
         "DPRK",
         "Korean Peninsula",
+        "북한",
     ],
     "medium_confidence_terms": [
         "Korea",
@@ -36,6 +39,32 @@ class FilteringTests(unittest.TestCase):
             source_label="Test",
             url="https://example.com/1",
             title="UN envoy briefs Security Council on North Korea",
+            summary="",
+            body="",
+        )
+        result = classify_item(item, KEYWORDS)
+        self.assertTrue(result.relevant)
+        self.assertEqual(result.confidence, "high")
+
+    def test_high_confidence_when_north_korean_adjective_appears(self) -> None:
+        item = MonitoredItem(
+            source_id="x",
+            source_label="Test",
+            url="https://example.com/1a",
+            title="FBI warns of North Korean cyber activity",
+            summary="",
+            body="",
+        )
+        result = classify_item(item, KEYWORDS)
+        self.assertTrue(result.relevant)
+        self.assertEqual(result.confidence, "high")
+
+    def test_high_confidence_when_korean_keyword_appears(self) -> None:
+        item = MonitoredItem(
+            source_id="x",
+            source_label="Test",
+            url="https://example.com/1b",
+            title="북한 외무상, 중국 외교부장과 회담",
             summary="",
             body="",
         )
@@ -96,7 +125,7 @@ class FilteringTests(unittest.TestCase):
         result = classify_item(item, KEYWORDS)
 
         self.assertTrue(result.relevant)
-        self.assertEqual(result.confidence, "medium")
+        self.assertEqual(result.confidence, "high")
 
     def test_explicit_high_confidence_korea_term_is_not_excluded_by_cacao_context(self) -> None:
         item = MonitoredItem(

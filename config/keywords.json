@@ -1,21 +1,43 @@
 {
   "high_confidence_terms": [
     "South Korea",
+    "South Korean",
     "Republic of Korea",
     "Republic of Korea (ROK)",
     "North Korea",
+    "North Korean",
     "Democratic People's Republic of Korea",
     "Democratic People’s Republic of Korea",
     "DPRK",
     "Korean Peninsula",
-    "inter-Korean"
+    "inter-Korean",
+    "Lazarus Group",
+    "APT38",
+    "Kimsuky",
+    "BlueNoroff",
+    "Hidden Cobra",
+    "AppleJeus",
+    "TraderTraitor",
+    "대한민국",
+    "한국",
+    "북한",
+    "조선민주주의인민공화국",
+    "한반도",
+    "남북",
+    "대북",
+    "북핵",
+    "김정은"
   ],
   "medium_confidence_terms": [
     "Korea",
     "Korean",
     "ROK",
     "Seoul",
-    "Pyongyang"
+    "Pyongyang",
+    "서울",
+    "평양",
+    "북·중",
+    "북중"
   ],
   "min_medium_hits_for_high": 2,
   "excluded_contexts": [

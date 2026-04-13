@@ -458,7 +458,7 @@ def _extract_html_listing_links(base_url: str, soup: BeautifulSoup, selector: st
 
 def _build_rss_item(source: SourceConfig, node: ElementTree.Element, feed_url: str) -> MonitoredItem | None:
     title = _xml_first_child_text(node, "title")
-    url = _normalize_feed_link(feed_url, _xml_first_child_text(node, "link"))
+    url = _normalize_feed_link(feed_url, _xml_first_child_text(node, "link") or _xml_first_child_text(node, "guid"))
     if not title or not url:
         return None
 
