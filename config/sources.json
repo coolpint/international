@@ -255,53 +255,29 @@
     {
       "id": "nk_news",
       "label": "NK News",
-      "type": "rss_xml",
-      "enabled": true,
+      "type": "pending",
+      "enabled": false,
       "list_url": "https://www.nknews.org/feed/",
       "max_items": 20,
-      "allowed_domains": [
-        "www.nknews.org"
-      ],
-      "default_confidence": "high",
-      "default_matched_terms": [
-        "North Korea specialist source"
-      ],
-      "note": "Uses NK News's public RSS feed; items are treated as North Korea relevant by source scope."
+      "note": "Disabled because this is a high-volume North Korea news source that often duplicates topics already covered by Korean media. Prefer primary official, institutional, and analysis sources."
     },
     {
       "id": "daily_nk_english",
       "label": "Daily NK English",
-      "type": "rss_xml",
-      "enabled": true,
+      "type": "pending",
+      "enabled": false,
       "list_url": "https://www.dailynk.com/english/feed/",
       "max_items": 20,
-      "allowed_domains": [
-        "www.dailynk.com"
-      ],
-      "default_confidence": "high",
-      "default_matched_terms": [
-        "North Korea specialist source"
-      ],
-      "note": "Uses Daily NK English's official RSS feed; items are treated as North Korea relevant by source scope."
+      "note": "Disabled because this is a high-volume North Korea news source that often duplicates topics already covered by Korean media. Prefer primary official, institutional, and analysis sources."
     },
     {
       "id": "voa_korea_peninsula",
       "label": "VOA Korean Peninsula",
-      "type": "rss_xml",
-      "enabled": true,
+      "type": "pending",
+      "enabled": false,
       "list_url": "https://www.voakorea.com/api/zoikol-vomx-tpepgjp",
       "max_items": 20,
-      "allowed_domains": [
-        "www.voakorea.com"
-      ],
-      "allowed_url_patterns": [
-        "/a/"
-      ],
-      "default_confidence": "high",
-      "default_matched_terms": [
-        "Korean Peninsula source"
-      ],
-      "note": "Uses VOA Korean's official Korean Peninsula RSS feed."
+      "note": "Disabled because this is a high-volume Korean-language news feed that often duplicates topics already covered by Korean media. Prefer global primary official, institutional, and analysis sources."
     },
     {
       "id": "crisis_group_korean_peninsula",

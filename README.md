@@ -24,9 +24,6 @@ UN 계열 기관, 국제기구, 싱크탱크, 미국 정부 보도자료의 한�
 - `FBI National Press Releases`
 - `CISA North Korea Cyber Advisories`
 - `38 North`
-- `NK News`
-- `Daily NK English`
-- `VOA Korean Peninsula`
 - `SIPRI Publications`
 - `CSIS Korea Chair`
 - `RUSI Publications`
@@ -37,6 +34,9 @@ UN 계열 기관, 국제기구, 싱크탱크, 미국 정부 보도자료의 한�
 - `Bruegel Publications`: 공식 publications 페이지는 확인됐지만 테스트한 자동화 환경에서 Cloudflare challenge가 발생했습니다.
 - `CGD Publications`: 공식 feed는 확인됐지만 테스트한 자동화 환경에서 Cloudflare challenge가 발생했습니다.
 - `PIIE Publications`: 공식 publications 페이지는 확인됐지만 테스트한 자동화 환경에서 Cloudflare challenge가 발생했습니다.
+- `NK News`: 북한 전문 속보성 뉴스 소스로 한국 언론에서 이미 다루는 토픽과 중복되는 경우가 많아 비활성화했습니다.
+- `Daily NK English`: 북한 전문 속보성 뉴스 소스로 한국 언론에서 이미 다루는 토픽과 중복되는 경우가 많아 비활성화했습니다.
+- `VOA Korean Peninsula`: 한국어 한반도 뉴스 피드로 한국 언론에서 이미 다루는 토픽과 중복되는 경우가 많아 비활성화했습니다.
 - `IEA News and Reports`: 공식 뉴스/보고서 페이지는 확인됐지만 테스트한 자동화 환경에서 비브라우저 요청에 Cloudflare challenge가 반환됐습니다.
 - `UNDP`: 테스트한 자동화 환경에서 공식 사이트가 `Access Denied`를 반환했습니다.
 
@@ -46,7 +46,7 @@ UN 계열 기관, 국제기구, 싱크탱크, 미국 정부 보도자료의 한�
 2. 최신 목록 페이지, RSS 피드, 또는 공식 JSON API를 읽고 후보 항목을 수집합니다.
 3. HTML 소스는 상세 페이지를 다시 읽어 제목, 요약, 본문 일부를 추출합니다. RSS와 API 소스는 응답에 포함된 제목, 설명, 본문 조각을 바로 파싱합니다.
 4. 한반도 관련 키워드로 1차 판별합니다. `North Korean`, `South Korean` 같은 형용사형과 `북한`, `한국`, `한반도` 같은 한국어 키워드도 포함합니다.
-5. `38 North`, `NK News`, `Daily NK English`, `VOA Korean Peninsula`, `CISA North Korea Cyber Advisories`, `CSIS Korea Chair`처럼 소스 자체가 한반도/북한 전문인 경우에는 소스 범위를 근거로 기본 관련도를 부여합니다.
+5. `38 North`, `CISA North Korea Cyber Advisories`, `CSIS Korea Chair`처럼 소스 자체가 한반도/북한 전문이면서 정책·분석·공식 자료 성격이 강한 경우에는 소스 범위를 근거로 기본 관련도를 부여합니다.
 6. 카카오/코코아 농작물 문맥처럼 알려진 오탐 패턴을 제외합니다. `Kakao Corp`, `KakaoBank`, `KakaoTalk` 같은 회사 문맥은 제외하지 않습니다.
 7. `high` confidence 신규/업데이트 항목만 텔레그램 채널로 보냅니다.
 8. `data/state.json`과 `data/history/*.ndjson`를 갱신하고 커밋합니다.
