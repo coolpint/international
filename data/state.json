@@ -47,7 +47,7 @@
       "first_seen_at": "2026-03-26T16:03:48Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-13T08:58:00Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
       "matched_terms": [
         "South Korea",
         "Korea"
@@ -65,7 +65,7 @@
       "first_seen_at": "2026-03-26T16:03:48Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-13T08:58:00Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
       "matched_terms": [
         "Korea"
       ],
@@ -82,7 +82,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-13T08:58:00Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -103,7 +103,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-13T08:58:00Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
       "matched_terms": [
         "North Korea",
         "Korea",
@@ -122,7 +122,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-13T08:58:00Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
       "matched_terms": [
         "North Korea",
         "South Korean",
@@ -140,6 +140,26 @@
       "summary": "This article was written and researched as part of the second cohort of 38 North’s Emerging ...\nThe post\nAssessing the Limits of Female Leadership in North Korea\nappeared first on\n38 North\n.",
       "title": "Assessing the Limits of Female Leadership in North Korea",
       "url": "https://www.38north.org/2026/04/assessing-the-limits-of-female-leadership-in-north-korea/"
+    },
+    "https://www.38north.org/2026/04/call-for-applications-38-north-emerging-scholars-fellowship-program-2026-2027/": {
+      "confidence": "high",
+      "content_hash": "217dbe1fcc509d7e13b5dfdd8698539fe2cae8eb375ebd88295d35b0954b5d4e",
+      "first_seen_at": "2026-04-13T16:06:54Z",
+      "last_event": "new",
+      "last_notified_at": "2026-04-13T16:06:54Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
+      "matched_terms": [
+        "North Korea",
+        "Korean Peninsula",
+        "Korea",
+        "Korean"
+      ],
+      "published_at": "Mon, 13 Apr 2026 16:00:55 +0000",
+      "source_id": "thirty_eight_north",
+      "source_label": "38 North",
+      "summary": "38 NORTH EMERGING SCHOLARS FELLOWSHIP PROGRAM 2026-2027 Application Open: April 13, 2025 ...\nThe post\nCall for Applications: 38 North Emerging Scholars Fellowship Program 2026-2027\nappeared first on\n38 North\n.",
+      "title": "Call for Applications: 38 North Emerging Scholars Fellowship Program 2026-2027",
+      "url": "https://www.38north.org/2026/04/call-for-applications-38-north-emerging-scholars-fellowship-program-2026-2027/"
     },
     "https://www.38north.org/2026/04/drones-and-operational-shift-north-koreas-adaptation-to-a-changing-warfare-environment/": {
       "confidence": "high",
@@ -171,7 +191,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-13T08:58:00Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
       "matched_terms": [
         "South Korea",
         "North Korea",
@@ -195,7 +215,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-13T08:58:00Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
       "matched_terms": [
         "South Korean",
         "North Korea",
@@ -216,7 +236,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-13T08:58:00Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
       "matched_terms": [
         "North Korea",
         "Korea"
@@ -248,13 +268,36 @@
       "title": "Villages Bordering Sohae Satellite Launching Station Razed",
       "url": "https://www.38north.org/2026/04/villages-bordering-sohae-satellite-launching-station-razed/"
     },
+    "https://www.38north.org/2026/04/wang-yis-pyongyang-visit-kim-jong-un-signals-renewed-efforts-to-improve-ties-but-alignment-still-lacking/": {
+      "confidence": "high",
+      "content_hash": "23558c16d8b342e55d4b1ec810cda1d2d676d206cffaae28c61b6aeee125039b",
+      "first_seen_at": "2026-04-13T16:06:54Z",
+      "last_event": "new",
+      "last_notified_at": "2026-04-13T16:06:54Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
+      "matched_terms": [
+        "Republic of Korea",
+        "North Korea",
+        "Democratic People’s Republic of Korea",
+        "DPRK",
+        "Pyongyang",
+        "Korea",
+        "Korean"
+      ],
+      "published_at": "Mon, 13 Apr 2026 14:35:37 +0000",
+      "source_id": "thirty_eight_north",
+      "source_label": "38 North",
+      "summary": "Notably, North Korea’s summary report of the Ninth Party Congress made no mention of China or ...\nThe post\nWang Yi’s Pyongyang Visit: Kim Jong Un Signals Renewed Efforts to Improve Ties but Alignment Still Lacking\nappeared first on\n38 North\n.",
+      "title": "Wang Yi’s Pyongyang Visit: Kim Jong Un Signals Renewed Efforts to Improve Ties but Alignment Still Lacking",
+      "url": "https://www.38north.org/2026/04/wang-yis-pyongyang-visit-kim-jong-un-signals-renewed-efforts-to-improve-ties-but-alignment-still-lacking/"
+    },
     "https://www.bis.org/press/p260322.htm": {
       "confidence": "medium",
       "content_hash": "26df461f780b89a6555243819e200b44dbf4171d6ac30351655afcaf14ab9f95",
       "first_seen_at": "2026-04-03T15:33:11Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-13T08:58:00Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
       "matched_terms": [
         "Korea"
       ],
@@ -271,7 +314,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-13T08:58:00Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
       "matched_terms": [
         "DPRK",
         "South Korea",
@@ -298,7 +341,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-13T08:58:00Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
       "matched_terms": [
         "North Korea",
         "South Korean",
@@ -438,7 +481,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-13T08:58:00Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -460,7 +503,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-13T08:58:00Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
       "matched_terms": [
         "South Korea",
         "South Korean",
@@ -481,7 +524,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-13T08:58:00Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -521,7 +564,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-13T08:58:00Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -566,7 +609,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-13T08:58:00Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -586,7 +629,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-13T08:58:00Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -600,13 +643,33 @@
       "title": "North Korea’s rote learning sessions pressure workers after Ninth Party Congress",
       "url": "https://www.dailynk.com/english/north-korea-rote-learning-ideological-sessions/"
     },
+    "https://www.dailynk.com/english/north-korean-factories-turn-workers-into-salespeople-under-revamped-informal-labor-system/": {
+      "confidence": "high",
+      "content_hash": "3c54f8aaec3f636c02152cc05b03266b18ac2ef6c2ee952955dff9f158be0ccf",
+      "first_seen_at": "2026-04-13T16:06:54Z",
+      "last_event": "new",
+      "last_notified_at": "2026-04-13T16:06:54Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
+      "matched_terms": [
+        "North Korean",
+        "North Korea",
+        "Korean",
+        "Korea"
+      ],
+      "published_at": "Mon, 13 Apr 2026 14:38:00 +0000",
+      "source_id": "daily_nk_english",
+      "source_label": "Daily NK English",
+      "summary": "A longstanding informal labor arrangement in North Korea is taking on a new form, with factory workers now directly distributing factory-made goods and remitting the proceeds back to their enterprises. A Daily NK source in North Pyongan province reported on Monday hat the number of workers engaging in the so-called “8·3 system” has been growing […]",
+      "title": "North Korean factories turn workers into salespeople under revamped informal labor system",
+      "url": "https://www.dailynk.com/english/north-korean-factories-turn-workers-into-salespeople-under-revamped-informal-labor-system/"
+    },
     "https://www.dailynk.com/english/north-korean-students-mobilized-to-farm-school-land-as-rations-dry-up/": {
       "confidence": "high",
       "content_hash": "8f7afd0ce8a441666a13ad3382f26c91a39b14574efd685cee3cb329eb51d65f",
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-13T08:58:00Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
       "matched_terms": [
         "North Korean",
         "North Korea",
@@ -620,13 +683,33 @@
       "title": "North Korean students mobilized to farm school land as rations dry up",
       "url": "https://www.dailynk.com/english/north-korean-students-mobilized-to-farm-school-land-as-rations-dry-up/"
     },
+    "https://www.dailynk.com/english/north-koreans-mock-second-reforestation-drive-when-did-the-first-one-happen/": {
+      "confidence": "high",
+      "content_hash": "a7fdd5a5a683e5b1bf43909b90e457698c00bc51e8cc9efa20c8d2b6ee9bc7b9",
+      "first_seen_at": "2026-04-13T16:06:54Z",
+      "last_event": "new",
+      "last_notified_at": "2026-04-13T16:06:54Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
+      "matched_terms": [
+        "North Korea",
+        "North Korean",
+        "Korea",
+        "Korean"
+      ],
+      "published_at": "Mon, 13 Apr 2026 09:35:00 +0000",
+      "source_id": "daily_nk_english",
+      "source_label": "Daily NK English",
+      "summary": "North Korea is pushing a nationwide tree-planting drive under the banner of its “Second Reforestation Project,” but on the ground in South Hamgyong province the campaign is producing more eye-rolls than saplings, with workers going through the motions while quietly hauling firewood home, Daily NK has learned. A Daily NK source in South Hamgyong province […]",
+      "title": "North Koreans mock ‘second’ reforestation drive: ‘When did the first one happen?’",
+      "url": "https://www.dailynk.com/english/north-koreans-mock-second-reforestation-drive-when-did-the-first-one-happen/"
+    },
     "https://www.dailynk.com/english/north-koreans-react-kim-jong-un-pet-shop-hwasong-district/": {
       "confidence": "high",
       "content_hash": "af1f1e80f00f697566966c9f2d554205ddaa1a07d27c223aa26905aea8085f7e",
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-13T08:58:00Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -647,7 +730,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "updated",
       "last_notified_at": "2026-04-13T08:58:00Z",
-      "last_seen_at": "2026-04-13T08:58:00Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -669,7 +752,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-13T08:58:00Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
       "matched_terms": [
         "North Korea",
         "Korea"
@@ -687,7 +770,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-13T08:58:00Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -939,7 +1022,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-13T08:58:00Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
       "matched_terms": [
         "South Korean",
         "North Korea",
@@ -961,7 +1044,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-13T08:58:00Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
       "matched_terms": [
         "North Korea",
         "DPRK",
@@ -980,7 +1063,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-13T08:58:00Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
       "matched_terms": [
         "North Korea",
         "Korea",
@@ -999,7 +1082,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-13T08:58:00Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
       "matched_terms": [
         "South Korean",
         "North Korea",
@@ -1042,7 +1125,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-13T08:58:00Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
       "matched_terms": [
         "North Korean",
         "DPRK",
@@ -1062,7 +1145,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-13T08:58:00Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
       "matched_terms": [
         "North Korean",
         "South Korean",
@@ -1102,7 +1185,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-13T08:58:00Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
       "matched_terms": [
         "North Korea",
         "DPRK",
@@ -1122,7 +1205,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-13T08:58:00Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
       "matched_terms": [
         "North Korea",
         "inter-Korean",
@@ -1163,13 +1246,34 @@
       "title": "North Korea conducts third missile launch in two days: ROK military",
       "url": "https://www.nknews.org/2026/04/north-korea-conducts-missile-tests-two-days-in-a-row-rok-military/"
     },
+    "https://www.nknews.org/2026/04/north-korea-kicks-off-tourism-expo-amid-hopes-for-reopening-to-chinese-visitors/": {
+      "confidence": "high",
+      "content_hash": "748883bbbd8a02e100f738f81b6cc849057367ea30c122d1f58415c8df412c8b",
+      "first_seen_at": "2026-04-13T16:06:54Z",
+      "last_event": "new",
+      "last_notified_at": "2026-04-13T16:06:54Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
+      "matched_terms": [
+        "North Korea",
+        "North Korean",
+        "Korea",
+        "Korean",
+        "Pyongyang"
+      ],
+      "published_at": "Mon, 13 Apr 2026 09:05:38 +0000",
+      "source_id": "nk_news",
+      "source_label": "NK News",
+      "summary": "A North Korean tourism expo spotlighting souvenirs opened in the capital on Friday, amid growing expectations that the country could reopen to Chinese visitors soon. According to state media on Saturday, the opening ceremony for the Pyongyang International Tourists Souvenirs and Health Goods Exhibition took place at the capital’s Sci-Tech Complex the previous day. National […]",
+      "title": "North Korea kicks off tourism expo amid hopes for reopening to Chinese visitors",
+      "url": "https://www.nknews.org/2026/04/north-korea-kicks-off-tourism-expo-amid-hopes-for-reopening-to-chinese-visitors/"
+    },
     "https://www.nknews.org/2026/04/north-korea-says-it-tested-missiles-with-cluster-munitions-blackout-bombs/": {
       "confidence": "high",
       "content_hash": "1a4c2ceb609d2507f44a20d92de5425f4854cb7fc8771630bde326326404499d",
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-13T08:58:00Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
       "matched_terms": [
         "North Korea",
         "inter-Korean",
@@ -1189,7 +1293,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-13T08:58:00Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
       "matched_terms": [
         "North Korean",
         "DPRK",
@@ -1209,7 +1313,7 @@
       "first_seen_at": "2026-04-13T08:58:00Z",
       "last_event": "new",
       "last_notified_at": "2026-04-13T08:58:00Z",
-      "last_seen_at": "2026-04-13T08:58:00Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
       "matched_terms": [
         "North Korea",
         "Korea"
@@ -1246,7 +1350,7 @@
       "first_seen_at": "2026-04-13T08:58:00Z",
       "last_event": "new",
       "last_notified_at": "2026-04-13T08:58:00Z",
-      "last_seen_at": "2026-04-13T08:58:00Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
       "matched_terms": [
         "North Korea",
         "Korea",
@@ -1265,7 +1369,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-13T08:58:00Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -1288,7 +1392,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-13T08:58:00Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
       "matched_terms": [
         "North Korean",
         "North Korea",
@@ -1308,7 +1412,7 @@
       "first_seen_at": "2026-04-13T08:58:00Z",
       "last_event": "new",
       "last_notified_at": "2026-04-13T08:58:00Z",
-      "last_seen_at": "2026-04-13T08:58:00Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
       "matched_terms": [
         "South Korean",
         "North Korea",
@@ -1329,7 +1433,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-13T08:58:00Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
       "matched_terms": [
         "North Korea",
         "Korea",
@@ -1348,7 +1452,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-13T08:58:00Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
       "matched_terms": [
         "North Korean",
         "Korean"
@@ -1366,7 +1470,7 @@
       "first_seen_at": "2026-04-13T08:58:00Z",
       "last_event": "new",
       "last_notified_at": "2026-04-13T08:58:00Z",
-      "last_seen_at": "2026-04-13T08:58:00Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
       "matched_terms": [
         "North Korean",
         "DPRK",
@@ -1385,7 +1489,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-13T08:58:00Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
       "matched_terms": [
         "South Korea",
         "South Korean",
@@ -1520,7 +1624,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-13T08:58:00Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
       "matched_terms": [
         "김정은",
         "한반도"
@@ -1538,7 +1642,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-13T08:58:00Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
       "matched_terms": [
         "북한",
         "한반도"
@@ -1556,7 +1660,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-13T08:58:00Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
       "matched_terms": [
         "한반도"
       ],
@@ -1573,7 +1677,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-13T08:58:00Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
       "matched_terms": [
         "북한",
         "한반도",
@@ -1592,7 +1696,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-13T08:58:00Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
       "matched_terms": [
         "북한",
         "한반도",
@@ -1611,7 +1715,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-13T08:58:00Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
       "matched_terms": [
         "북한",
         "한반도"
@@ -1629,7 +1733,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-13T08:58:00Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
       "matched_terms": [
         "한국",
         "한반도"
@@ -1647,7 +1751,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-13T08:58:00Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
       "matched_terms": [
         "북한",
         "한반도",
@@ -1666,7 +1770,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-13T08:58:00Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
       "matched_terms": [
         "한국",
         "북한",
@@ -1679,13 +1783,31 @@
       "title": "북한, 전 세계 개발자 이용 '깃허브' 해킹에 악용…한국 기업 보안망 무력화",
       "url": "https://www.voakorea.com/a/north-korea-exploits-github-used-by-100-million-developers-worldwide-for-hacking-040726/8135286.html"
     },
+    "https://www.voakorea.com/a/north-korean-it-fraud-and-hacking-threat-expands-australian-government-tells-voa-it-is-strengthening-response-041326/8137315.html": {
+      "confidence": "high",
+      "content_hash": "2854d93a2573e74a5cc816790f8f136bd9462da0b989540ca388a3c8cfb2f7c2",
+      "first_seen_at": "2026-04-13T16:06:54Z",
+      "last_event": "new",
+      "last_notified_at": "2026-04-13T16:06:54Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
+      "matched_terms": [
+        "북한",
+        "한반도"
+      ],
+      "published_at": "Tue, 14 Apr 2026 00:03:52 +0900",
+      "source_id": "voa_korea_peninsula",
+      "source_label": "VOA Korean Peninsula",
+      "summary": "북한의 IT 요원과 해킹 조직이 호주 기업 위장 취업을 비롯해 소셜미디어를 이용한 정교한 사이버 공격까지 다양한 수법으로 위협을 확대하고 있는 가운데 호주 정부가 VOA에 적극적인 대응 의지를 밝혔습니다.",
+      "title": "북한 IT 사기·해킹 위협 확산…호주 정부, VOA에 “대응책 강화”",
+      "url": "https://www.voakorea.com/a/north-korean-it-fraud-and-hacking-threat-expands-australian-government-tells-voa-it-is-strengthening-response-041326/8137315.html"
+    },
     "https://www.voakorea.com/a/rok-vows-efforts-to-ensure-safe-passage-through-hormuz-strait-20260408/8135714.html": {
       "confidence": "high",
       "content_hash": "8789e16d61d5dc52d79770defc51ad18f6e1216b473883cc378d10cba0fa0445",
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-13T08:58:00Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
       "matched_terms": [
         "한국",
         "한반도"
@@ -1703,7 +1825,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-13T08:58:00Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
       "matched_terms": [
         "한국",
         "대한민국",
@@ -1716,13 +1838,31 @@
       "title": "한국 정부, 개헌안 공고 의결…국회 3분의 2 찬성·국민투표 거쳐 확정",
       "url": "https://www.voakorea.com/a/s-korean-govt-approves-public-notice-of-constitutional-amendment-040726/8135263.html"
     },
+    "https://www.voakorea.com/a/south-korea-close-to-secure-oil-supplies-from-kazakhstan-041326/8137310.html": {
+      "confidence": "high",
+      "content_hash": "cf1f3d0ae2c3bef9f6165aecc49ba7f33b31fa0b38ae6d7358dda0b2833ff817",
+      "first_seen_at": "2026-04-13T16:06:54Z",
+      "last_event": "new",
+      "last_notified_at": "2026-04-13T16:06:54Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
+      "matched_terms": [
+        "한국",
+        "한반도"
+      ],
+      "published_at": "Mon, 13 Apr 2026 23:49:21 +0900",
+      "source_id": "voa_korea_peninsula",
+      "source_label": "VOA Korean Peninsula",
+      "summary": "한국 정부가 호르무즈 해협 사태에 따른 대체 에너지 공급원을 모색하는 가운데, 김정관 한국 산업통상부 장관이 12일 카자흐스탄으로부터의 원유 공급 확보가 가시화됐다고 밝혔습니다.",
+      "title": "“한국, 카자흐스탄 원유 확보 임박”…’호르무즈 해협 봉쇄’ 속 다변화 모색",
+      "url": "https://www.voakorea.com/a/south-korea-close-to-secure-oil-supplies-from-kazakhstan-041326/8137310.html"
+    },
     "https://www.voakorea.com/a/south-korea-iran-special-envoy-041026/8136518.html": {
       "confidence": "high",
       "content_hash": "ad71e3d9073686c8d8b0a056e37e338e75468e9eeaf493ebedb9df5f418309b3",
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-13T08:58:00Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
       "matched_terms": [
         "한국",
         "한반도"
@@ -1740,7 +1880,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-13T08:58:00Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
       "matched_terms": [
         "한국",
         "한반도",
@@ -1759,7 +1899,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-13T08:58:00Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
       "matched_terms": [
         "북한",
         "한반도"
@@ -1777,7 +1917,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-13T08:58:00Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
       "matched_terms": [
         "북한",
         "한반도",
@@ -1796,7 +1936,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-13T08:58:00Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
       "matched_terms": [
         "북한",
         "한국",
@@ -1815,7 +1955,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-13T08:58:00Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
       "matched_terms": [
         "한국",
         "한반도"
@@ -1833,7 +1973,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-13T08:58:00Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
       "matched_terms": [
         "한국",
         "한반도"
@@ -1905,7 +2045,7 @@
       "first_seen_at": "2026-03-30T16:00:55Z",
       "last_event": "new",
       "last_notified_at": "2026-03-30T16:00:55Z",
-      "last_seen_at": "2026-04-13T08:58:00Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea",
@@ -1924,7 +2064,7 @@
       "first_seen_at": "2026-03-27T15:42:56Z",
       "last_event": "new",
       "last_notified_at": "2026-03-27T15:42:56Z",
-      "last_seen_at": "2026-04-13T08:58:00Z",
+      "last_seen_at": "2026-04-13T16:06:54Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
