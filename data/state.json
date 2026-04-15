@@ -24,6 +24,24 @@
       "title": "Treasury Sanctions Facilitators of DPRK IT Worker Fraud Targeting U.S. Businesses",
       "url": "https://home.treasury.gov/news/press-releases/sb0416"
     },
+    "https://home.treasury.gov/news/press-releases/sb0443": {
+      "confidence": "high",
+      "content_hash": "5e703bff0cb8f6f36fa1b0efa0301c84353dd5d1952ee8a781cc8ad08bc56d7e",
+      "first_seen_at": "2026-04-15T23:34:33Z",
+      "last_event": "new",
+      "last_notified_at": "2026-04-15T23:34:33Z",
+      "last_seen_at": "2026-04-15T23:34:33Z",
+      "matched_terms": [
+        "South Korea",
+        "Korea"
+      ],
+      "published_at": "2026-02-13T14:52:38Z",
+      "source_id": "treasury_press_releases",
+      "source_label": "U.S. Treasury Press Releases",
+      "summary": "Action Also Targets Hizballah Gold Scheme Benefitting Iran’s MilitaryWASHINGTON—Today, the Department of the Treasury’s Office of Foreign Assets Control (OFAC) intensified pressure on Iran’s illicit oil transportation infrastructure by sanctioning more than two dozen individuals, companies, and vessels operating within the network of Iranian oil shipping magnate Mohammad Hossein Shamkhani (Shamkhani), the son of now-deceased senior Iranian security official Ali Shamkhani. “Treasury is moving agg",
+      "title": "Economic Fury Targets Illicit Oil Smuggling Network Run by Iranian Regime Elite",
+      "url": "https://home.treasury.gov/news/press-releases/sb0443"
+    },
     "https://press.un.org/en/2026/sc16302.doc.htm": {
       "confidence": "medium",
       "content_hash": "10e6652632c35fb99ddbf556611d061a3da33fc2a3a85f2ee7fcf1a0c09530d8",
@@ -47,7 +65,7 @@
       "first_seen_at": "2026-03-26T16:03:48Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-15T15:59:45Z",
+      "last_seen_at": "2026-04-15T23:34:33Z",
       "matched_terms": [
         "South Korea",
         "Korea"
@@ -65,7 +83,7 @@
       "first_seen_at": "2026-03-26T16:03:48Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-15T15:59:45Z",
+      "last_seen_at": "2026-04-15T23:34:33Z",
       "matched_terms": [
         "Korea"
       ],
@@ -103,7 +121,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-15T15:59:45Z",
+      "last_seen_at": "2026-04-15T23:34:33Z",
       "matched_terms": [
         "North Korea",
         "Korea",
@@ -147,7 +165,7 @@
       "first_seen_at": "2026-04-13T16:06:54Z",
       "last_event": "new",
       "last_notified_at": "2026-04-13T16:06:54Z",
-      "last_seen_at": "2026-04-15T15:59:45Z",
+      "last_seen_at": "2026-04-15T23:34:33Z",
       "matched_terms": [
         "North Korea",
         "Korean Peninsula",
@@ -167,7 +185,7 @@
       "first_seen_at": "2026-04-15T15:59:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-15T15:59:45Z",
-      "last_seen_at": "2026-04-15T15:59:45Z",
+      "last_seen_at": "2026-04-15T23:34:33Z",
       "matched_terms": [
         "North Korea",
         "Korea",
@@ -210,7 +228,7 @@
       "first_seen_at": "2026-04-15T15:59:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-15T15:59:45Z",
-      "last_seen_at": "2026-04-15T15:59:45Z",
+      "last_seen_at": "2026-04-15T23:34:33Z",
       "matched_terms": [
         "North Korea",
         "Korea",
@@ -229,7 +247,7 @@
       "first_seen_at": "2026-04-15T15:59:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-15T15:59:45Z",
-      "last_seen_at": "2026-04-15T15:59:45Z",
+      "last_seen_at": "2026-04-15T23:34:33Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -275,7 +293,7 @@
       "first_seen_at": "2026-04-15T15:59:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-15T15:59:45Z",
-      "last_seen_at": "2026-04-15T15:59:45Z",
+      "last_seen_at": "2026-04-15T23:34:33Z",
       "matched_terms": [
         "South Korean",
         "Republic of Korea",
@@ -358,7 +376,7 @@
       "first_seen_at": "2026-04-13T16:06:54Z",
       "last_event": "new",
       "last_notified_at": "2026-04-13T16:06:54Z",
-      "last_seen_at": "2026-04-15T15:59:45Z",
+      "last_seen_at": "2026-04-15T23:34:33Z",
       "matched_terms": [
         "Republic of Korea",
         "North Korea",
@@ -381,7 +399,7 @@
       "first_seen_at": "2026-04-15T15:59:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-15T15:59:45Z",
-      "last_seen_at": "2026-04-15T15:59:45Z",
+      "last_seen_at": "2026-04-15T23:34:33Z",
       "matched_terms": [
         "North Korea",
         "Republic of Korea",
@@ -405,7 +423,7 @@
       "first_seen_at": "2026-04-03T15:33:11Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-15T15:59:45Z",
+      "last_seen_at": "2026-04-15T23:34:33Z",
       "matched_terms": [
         "Korea"
       ],
@@ -422,7 +440,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-15T15:59:45Z",
+      "last_seen_at": "2026-04-15T23:34:33Z",
       "matched_terms": [
         "DPRK",
         "South Korea",
@@ -449,7 +467,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-15T15:59:45Z",
+      "last_seen_at": "2026-04-15T23:34:33Z",
       "matched_terms": [
         "North Korea",
         "South Korean",
@@ -589,7 +607,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-15T15:59:45Z",
+      "last_seen_at": "2026-04-15T23:34:33Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -611,7 +629,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-15T08:22:49Z",
+      "last_seen_at": "2026-04-15T23:34:33Z",
       "matched_terms": [
         "South Korea",
         "South Korean",
@@ -632,7 +650,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-15T15:59:45Z",
+      "last_seen_at": "2026-04-15T23:34:33Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -898,7 +916,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-15T15:59:45Z",
+      "last_seen_at": "2026-04-15T23:34:33Z",
       "matched_terms": [
         "North Korean",
         "Korean"
@@ -970,7 +988,7 @@
       "first_seen_at": "2026-04-15T08:22:49Z",
       "last_event": "new",
       "last_notified_at": "2026-04-15T08:22:49Z",
-      "last_seen_at": "2026-04-15T15:59:45Z",
+      "last_seen_at": "2026-04-15T23:34:33Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
@@ -1141,6 +1159,28 @@
       "summary": "Uzbekistan launches new Social Insurance Law\nplatonova@ilo.org\nTue, 04/07/2026 - 11:40\nDocument Type\nNews\nCountries\nUzbekistan\nRegions\nEurope and Central Asia\nDate of Publication\nTue, 02/03/2026 - 12:00\nEyebrow\nGlobal Accelerator\nSubject (relevant to topic/sector)\nsocial security\nmaternity benefits\nsocial security legislation\nsocial security policy\nBrief description\nUnder the Global Accelerator programme, the constituents, the United Nations (UN) and development partners met in Tashkent to discu",
       "title": "Uzbekistan launches new Social Insurance Law",
       "url": "https://www.ilo.org/resource/news/uzbekistan-launches-new-social-insurance-law"
+    },
+    "https://www.justice.gov/opa/pr/two-us-nationals-sentenced-facilitating-fraudulent-remote-information-technology-worker": {
+      "confidence": "high",
+      "content_hash": "dee947bc0247b65c36a72dabe8d8dbf1bf48628240fbdbe766dd5322f0a0de3d",
+      "first_seen_at": "2026-04-15T23:34:33Z",
+      "last_event": "new",
+      "last_notified_at": "2026-04-15T23:34:33Z",
+      "last_seen_at": "2026-04-15T23:34:33Z",
+      "matched_terms": [
+        "Republic of Korea",
+        "Democratic People’s Republic of Korea",
+        "North Korean",
+        "DPRK",
+        "Korea",
+        "Korean"
+      ],
+      "published_at": "Wed, 15 Apr 2026 12:00:00 +0000",
+      "source_id": "doj_press_releases",
+      "source_label": "DOJ Press Releases",
+      "summary": "The Justice Department today announced the sentencings of two U.S. nationals, Kejia Wang, 42, and Zhenxing Wang, 39, for their roles in facilitating North Korean remote information technology (IT) workers posing as U.S. residents to obtain work at more than 100 U.S. companies. The multi-year scheme used the stolen identities of at least 80 U.S. persons and generated more than $5 million in illicit revenue for the government of the Democratic People’s Republic of Korea (DPRK).",
+      "title": "Two U.S. Nationals Sentenced for Facilitating Fraudulent Remote Information Technology Worker Scheme that Generated $5M in Revenue for the Democratic People’s Republic of Korea",
+      "url": "https://www.justice.gov/opa/pr/two-us-nationals-sentenced-facilitating-fraudulent-remote-information-technology-worker"
     },
     "https://www.nknews.org/2026/04/a-unified-korea-is-less-threatening-to-china-than-us-military-presence-expert/": {
       "confidence": "high",
@@ -2153,7 +2193,7 @@
       "first_seen_at": "2026-04-15T15:59:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-15T15:59:45Z",
-      "last_seen_at": "2026-04-15T15:59:45Z",
+      "last_seen_at": "2026-04-15T23:34:33Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
@@ -2189,7 +2229,7 @@
       "first_seen_at": "2026-03-30T16:00:55Z",
       "last_event": "new",
       "last_notified_at": "2026-03-30T16:00:55Z",
-      "last_seen_at": "2026-04-15T15:59:45Z",
+      "last_seen_at": "2026-04-15T23:34:33Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea",
@@ -2208,7 +2248,7 @@
       "first_seen_at": "2026-03-27T15:42:56Z",
       "last_event": "new",
       "last_notified_at": "2026-03-27T15:42:56Z",
-      "last_seen_at": "2026-04-15T15:59:45Z",
+      "last_seen_at": "2026-04-15T23:34:33Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
