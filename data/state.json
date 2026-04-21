@@ -48,7 +48,7 @@
       "first_seen_at": "2026-04-19T23:27:41Z",
       "last_event": "new",
       "last_notified_at": "2026-04-19T23:27:41Z",
-      "last_seen_at": "2026-04-21T08:27:41Z",
+      "last_seen_at": "2026-04-21T16:05:08Z",
       "matched_terms": [
         "Republic of Korea",
         "South Korea",
@@ -85,7 +85,7 @@
       "first_seen_at": "2026-03-26T16:03:48Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-21T08:27:41Z",
+      "last_seen_at": "2026-04-21T16:05:08Z",
       "matched_terms": [
         "South Korea",
         "Korea"
@@ -103,7 +103,7 @@
       "first_seen_at": "2026-03-26T16:03:48Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-21T08:27:41Z",
+      "last_seen_at": "2026-04-21T16:05:08Z",
       "matched_terms": [
         "Korea"
       ],
@@ -185,7 +185,7 @@
       "first_seen_at": "2026-04-13T16:06:54Z",
       "last_event": "new",
       "last_notified_at": "2026-04-13T16:06:54Z",
-      "last_seen_at": "2026-04-21T08:27:41Z",
+      "last_seen_at": "2026-04-21T16:05:08Z",
       "matched_terms": [
         "North Korea",
         "Korean Peninsula",
@@ -205,7 +205,7 @@
       "first_seen_at": "2026-04-15T15:59:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-15T15:59:45Z",
-      "last_seen_at": "2026-04-21T08:27:41Z",
+      "last_seen_at": "2026-04-21T16:05:08Z",
       "matched_terms": [
         "North Korea",
         "Korea",
@@ -248,7 +248,7 @@
       "first_seen_at": "2026-04-15T15:59:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-15T15:59:45Z",
-      "last_seen_at": "2026-04-21T08:27:41Z",
+      "last_seen_at": "2026-04-21T16:05:08Z",
       "matched_terms": [
         "North Korea",
         "Korea",
@@ -267,7 +267,7 @@
       "first_seen_at": "2026-04-15T15:59:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-15T15:59:45Z",
-      "last_seen_at": "2026-04-21T08:27:41Z",
+      "last_seen_at": "2026-04-21T16:05:08Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -313,7 +313,7 @@
       "first_seen_at": "2026-04-15T15:59:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-15T15:59:45Z",
-      "last_seen_at": "2026-04-21T08:27:41Z",
+      "last_seen_at": "2026-04-21T16:05:08Z",
       "matched_terms": [
         "South Korean",
         "Republic of Korea",
@@ -358,7 +358,7 @@
       "first_seen_at": "2026-04-16T23:32:53Z",
       "last_event": "new",
       "last_notified_at": "2026-04-16T23:32:53Z",
-      "last_seen_at": "2026-04-21T08:27:41Z",
+      "last_seen_at": "2026-04-21T16:05:08Z",
       "matched_terms": [
         "North Korea",
         "Korea"
@@ -414,7 +414,7 @@
       "first_seen_at": "2026-04-13T16:06:54Z",
       "last_event": "new",
       "last_notified_at": "2026-04-13T16:06:54Z",
-      "last_seen_at": "2026-04-21T08:27:41Z",
+      "last_seen_at": "2026-04-21T16:05:08Z",
       "matched_terms": [
         "Republic of Korea",
         "North Korea",
@@ -437,7 +437,7 @@
       "first_seen_at": "2026-04-15T15:59:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-15T15:59:45Z",
-      "last_seen_at": "2026-04-21T08:27:41Z",
+      "last_seen_at": "2026-04-21T16:05:08Z",
       "matched_terms": [
         "North Korea",
         "Republic of Korea",
@@ -461,7 +461,7 @@
       "first_seen_at": "2026-04-03T15:33:11Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-21T08:27:41Z",
+      "last_seen_at": "2026-04-21T16:05:08Z",
       "matched_terms": [
         "Korea"
       ],
@@ -478,7 +478,7 @@
       "first_seen_at": "2026-04-20T16:01:59Z",
       "last_event": "new",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-21T08:27:41Z",
+      "last_seen_at": "2026-04-21T16:05:08Z",
       "matched_terms": [
         "Korea"
       ],
@@ -495,7 +495,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-21T08:27:41Z",
+      "last_seen_at": "2026-04-21T16:05:08Z",
       "matched_terms": [
         "DPRK",
         "South Korea",
@@ -522,7 +522,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-21T08:27:41Z",
+      "last_seen_at": "2026-04-21T16:05:08Z",
       "matched_terms": [
         "North Korea",
         "South Korean",
@@ -662,7 +662,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-21T08:27:41Z",
+      "last_seen_at": "2026-04-21T16:05:08Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -684,7 +684,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-21T08:27:41Z",
+      "last_seen_at": "2026-04-21T16:05:08Z",
       "matched_terms": [
         "South Korea",
         "South Korean",
@@ -705,7 +705,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-21T08:27:41Z",
+      "last_seen_at": "2026-04-21T16:05:08Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -971,7 +971,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-21T08:27:41Z",
+      "last_seen_at": "2026-04-21T16:05:08Z",
       "matched_terms": [
         "North Korean",
         "Korean"
@@ -1036,6 +1036,26 @@
       "summary": "Delivering on national commitments: Korea’s support to the implementation of the Global Accelerator\nrehman@iloguest.org\nThu, 04/09/2026 - 15:00\nBackground and context\nThe\nGlobal Accelerator on Jobs and Social Protection for Just Transitions\n(GA) addresses critical global gaps in employment and social protection. An estimated 453 million people unable to find jobs, while over 4 billion people lacking access to social protection.\nLaunched in September 2021 by the UN Secretary-General as a High-Imp",
       "title": "Delivering on national commitments: Korea’s support to the implementation of the Global Accelerator",
       "url": "https://www.ilo.org/projects-and-partnerships/projects/delivering-national-commitments-korea%E2%80%99s-support-implementation-global"
+    },
+    "https://www.ilo.org/publications/nursing-and-artificial-intelligence-republic-korea": {
+      "confidence": "high",
+      "content_hash": "9937538826dc194b6e56eb03e97df4fc523dce227be98248b3d40b34bd89cbac",
+      "first_seen_at": "2026-04-21T16:05:08Z",
+      "last_event": "new",
+      "last_notified_at": "2026-04-21T16:05:08Z",
+      "last_seen_at": "2026-04-21T16:05:08Z",
+      "matched_terms": [
+        "Republic of Korea",
+        "South Korea",
+        "Korea",
+        "Seoul"
+      ],
+      "published_at": "Tue, 21 Apr 2026 09:06:05 +0000",
+      "source_id": "ilo_newsroom",
+      "source_label": "ILO Newsroom",
+      "summary": "Nursing and Artificial Intelligence in the Republic of Korea\nSubject (relevant to topic/sector)\n2116\n2156\n3021\n6446\n3561\n3596\n3716\n6126\n3811\nippolitoneira@…\nTue, 04/21/2026 - 09:06\nWorking paper\nHealth and social services\nKorea, Republic of\nAsia\nEunJeong Cheon\nHee Rin Lee\n21 April 2026\nThis working paper explores how artificial intelligence is being introduced into nursing work in the Republic of Korea and what this means in practice. It highlights the gap between technological innovation and fr",
+      "title": "Nursing and Artificial Intelligence in the Republic of Korea",
+      "url": "https://www.ilo.org/publications/nursing-and-artificial-intelligence-republic-korea"
     },
     "https://www.ilo.org/resource/article/awareness-action-enhanced-capacity-vietnamese-youth-decent-work-and-green": {
       "confidence": "high",
@@ -2248,7 +2268,7 @@
       "first_seen_at": "2026-04-15T15:59:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-15T15:59:45Z",
-      "last_seen_at": "2026-04-21T08:27:41Z",
+      "last_seen_at": "2026-04-21T16:05:08Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
