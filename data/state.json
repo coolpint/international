@@ -48,7 +48,7 @@
       "first_seen_at": "2026-04-19T23:27:41Z",
       "last_event": "new",
       "last_notified_at": "2026-04-19T23:27:41Z",
-      "last_seen_at": "2026-04-22T23:38:45Z",
+      "last_seen_at": "2026-04-23T08:29:11Z",
       "matched_terms": [
         "Republic of Korea",
         "South Korea",
@@ -85,7 +85,7 @@
       "first_seen_at": "2026-03-26T16:03:48Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-22T23:38:45Z",
+      "last_seen_at": "2026-04-23T08:29:11Z",
       "matched_terms": [
         "South Korea",
         "Korea"
@@ -103,7 +103,7 @@
       "first_seen_at": "2026-03-26T16:03:48Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-22T23:38:45Z",
+      "last_seen_at": "2026-04-23T08:29:11Z",
       "matched_terms": [
         "Korea"
       ],
@@ -185,7 +185,7 @@
       "first_seen_at": "2026-04-13T16:06:54Z",
       "last_event": "new",
       "last_notified_at": "2026-04-13T16:06:54Z",
-      "last_seen_at": "2026-04-22T23:38:45Z",
+      "last_seen_at": "2026-04-23T08:29:11Z",
       "matched_terms": [
         "North Korea",
         "Korean Peninsula",
@@ -205,7 +205,7 @@
       "first_seen_at": "2026-04-22T23:38:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-22T23:38:45Z",
-      "last_seen_at": "2026-04-22T23:38:45Z",
+      "last_seen_at": "2026-04-23T08:29:11Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -227,7 +227,7 @@
       "first_seen_at": "2026-04-15T15:59:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-15T15:59:45Z",
-      "last_seen_at": "2026-04-22T23:38:45Z",
+      "last_seen_at": "2026-04-23T08:29:11Z",
       "matched_terms": [
         "North Korea",
         "Korea",
@@ -270,7 +270,7 @@
       "first_seen_at": "2026-04-15T15:59:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-15T15:59:45Z",
-      "last_seen_at": "2026-04-22T23:38:45Z",
+      "last_seen_at": "2026-04-23T08:29:11Z",
       "matched_terms": [
         "North Korea",
         "Korea",
@@ -289,7 +289,7 @@
       "first_seen_at": "2026-04-15T15:59:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-15T15:59:45Z",
-      "last_seen_at": "2026-04-22T23:38:45Z",
+      "last_seen_at": "2026-04-23T08:29:11Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -335,7 +335,7 @@
       "first_seen_at": "2026-04-15T15:59:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-15T15:59:45Z",
-      "last_seen_at": "2026-04-22T23:38:45Z",
+      "last_seen_at": "2026-04-23T08:29:11Z",
       "matched_terms": [
         "South Korean",
         "Republic of Korea",
@@ -380,7 +380,7 @@
       "first_seen_at": "2026-04-16T23:32:53Z",
       "last_event": "updated",
       "last_notified_at": "2026-04-22T23:38:45Z",
-      "last_seen_at": "2026-04-22T23:38:45Z",
+      "last_seen_at": "2026-04-23T08:29:11Z",
       "matched_terms": [
         "North Korea",
         "Korea"
@@ -459,7 +459,7 @@
       "first_seen_at": "2026-04-15T15:59:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-15T15:59:45Z",
-      "last_seen_at": "2026-04-22T23:38:45Z",
+      "last_seen_at": "2026-04-23T08:29:11Z",
       "matched_terms": [
         "North Korea",
         "Republic of Korea",
@@ -483,7 +483,7 @@
       "first_seen_at": "2026-04-03T15:33:11Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-22T23:38:45Z",
+      "last_seen_at": "2026-04-23T08:29:11Z",
       "matched_terms": [
         "Korea"
       ],
@@ -500,7 +500,7 @@
       "first_seen_at": "2026-04-20T16:01:59Z",
       "last_event": "new",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-22T23:38:45Z",
+      "last_seen_at": "2026-04-23T08:29:11Z",
       "matched_terms": [
         "Korea"
       ],
@@ -517,7 +517,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-22T23:38:45Z",
+      "last_seen_at": "2026-04-23T08:29:11Z",
       "matched_terms": [
         "DPRK",
         "South Korea",
@@ -544,7 +544,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-22T23:38:45Z",
+      "last_seen_at": "2026-04-23T08:29:11Z",
       "matched_terms": [
         "North Korea",
         "South Korean",
@@ -706,7 +706,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-22T23:38:45Z",
+      "last_seen_at": "2026-04-23T08:29:11Z",
       "matched_terms": [
         "South Korea",
         "South Korean",
@@ -727,7 +727,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-22T23:38:45Z",
+      "last_seen_at": "2026-04-23T08:29:11Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -993,7 +993,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-22T16:03:03Z",
+      "last_seen_at": "2026-04-23T08:29:11Z",
       "matched_terms": [
         "North Korean",
         "Korean"
@@ -1096,6 +1096,23 @@
       "summary": "From awareness to action: Enhanced capacity for Vietnamese youth for decent work and green jobs\nvu@ilo.org\nWed, 04/15/2026 - 02:38\nDocument Type\nArticle\nCountries\nViet Nam\nRegions\nAsia\nDate of Publication\nTue, 03/31/2026 - 12:00\nEyebrow\nYouth employment\nSubject (relevant to topic/sector)\ndecent work\nfuture of work\nemployment\ngreen jobs\nUnited Nations\neducation and training\ntraining\nskills\nyouth employment\nyouth unemployment\nHero Image\n© ILO\n© ILO\nBrief description\nMore than 200 young people stre",
       "title": "From awareness to action: Enhanced capacity for Vietnamese youth for decent work and green jobs",
       "url": "https://www.ilo.org/resource/article/awareness-action-enhanced-capacity-vietnamese-youth-decent-work-and-green"
+    },
+    "https://www.ilo.org/resource/article/finding-place-tech-young-woman%E2%80%99s-story-learning-participation-and-inclusion": {
+      "confidence": "medium",
+      "content_hash": "e0b8b39f96248b94d84a6004bc9569f19184cd11fb401afe377a8c8aa8d642cd",
+      "first_seen_at": "2026-04-23T08:29:11Z",
+      "last_event": "new",
+      "last_notified_at": null,
+      "last_seen_at": "2026-04-23T08:29:11Z",
+      "matched_terms": [
+        "Korea"
+      ],
+      "published_at": "Thu, 23 Apr 2026 04:18:14 +0000",
+      "source_id": "ilo_newsroom",
+      "source_label": "ILO Newsroom",
+      "summary": "Finding a place in tech: A young woman’s story of learning, participation, and inclusion in Viet Nam\nvu@ilo.org\nThu, 04/23/2026 - 04:18\nDocument Type\nArticle\nCountries\nViet Nam\nRegions\nAsia\nDate of Publication\nThu, 04/23/2026 - 12:00\nEyebrow\nYouth employment\nSubject (relevant to topic/sector)\ndecent work\nfuture of work\nemployment\ngreen jobs\nUnited Nations\neducation and training\ntraining\nskills\nyouth employment\nyouth unemployment\nHero Image\nBrief description\nA story of Nguyen Phuong Thao, a young",
+      "title": "Finding a place in tech: A young woman’s story of learning, participation, and inclusion in Viet Nam",
+      "url": "https://www.ilo.org/resource/article/finding-place-tech-young-woman%E2%80%99s-story-learning-participation-and-inclusion"
     },
     "https://www.ilo.org/resource/news/cambodia-advances-worker-safety-and-green-standards-construction-sector": {
       "confidence": "medium",
@@ -1797,7 +1814,7 @@
       "first_seen_at": "2026-04-22T23:38:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-22T23:38:45Z",
-      "last_seen_at": "2026-04-22T23:38:45Z",
+      "last_seen_at": "2026-04-23T08:29:11Z",
       "matched_terms": [
         "South Korea",
         "Korea"
@@ -2308,7 +2325,7 @@
       "first_seen_at": "2026-04-15T15:59:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-15T15:59:45Z",
-      "last_seen_at": "2026-04-22T23:38:45Z",
+      "last_seen_at": "2026-04-23T08:29:11Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
