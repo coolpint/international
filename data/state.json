@@ -85,7 +85,7 @@
       "first_seen_at": "2026-03-26T16:03:48Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-23T16:25:15Z",
+      "last_seen_at": "2026-04-23T23:36:35Z",
       "matched_terms": [
         "South Korea",
         "Korea"
@@ -103,7 +103,7 @@
       "first_seen_at": "2026-03-26T16:03:48Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-23T16:25:15Z",
+      "last_seen_at": "2026-04-23T23:36:35Z",
       "matched_terms": [
         "Korea"
       ],
@@ -205,7 +205,7 @@
       "first_seen_at": "2026-04-22T23:38:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-22T23:38:45Z",
-      "last_seen_at": "2026-04-23T16:25:15Z",
+      "last_seen_at": "2026-04-23T23:36:35Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -227,7 +227,7 @@
       "first_seen_at": "2026-04-15T15:59:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-15T15:59:45Z",
-      "last_seen_at": "2026-04-23T16:25:15Z",
+      "last_seen_at": "2026-04-23T23:36:35Z",
       "matched_terms": [
         "North Korea",
         "Korea",
@@ -264,13 +264,37 @@
       "title": "Drones and Operational Shift: North Korea’s Adaptation to a Changing Warfare Environment",
       "url": "https://www.38north.org/2026/04/drones-and-operational-shift-north-koreas-adaptation-to-a-changing-warfare-environment/"
     },
+    "https://www.38north.org/2026/04/evaluating-the-limits-of-the-dprks-20x10-regional-development-policy/": {
+      "confidence": "high",
+      "content_hash": "b0efac3f0a79a24503e511cfaa0231a232b9a5f037d4d92c6c73a70f393ec659",
+      "first_seen_at": "2026-04-23T23:36:35Z",
+      "last_event": "new",
+      "last_notified_at": "2026-04-23T23:36:35Z",
+      "last_seen_at": "2026-04-23T23:36:35Z",
+      "matched_terms": [
+        "North Korea",
+        "Republic of Korea",
+        "North Korean",
+        "Democratic People’s Republic of Korea",
+        "DPRK",
+        "Korea",
+        "Korean",
+        "Pyongyang"
+      ],
+      "published_at": "Thu, 23 Apr 2026 17:40:38 +0000",
+      "source_id": "thirty_eight_north",
+      "source_label": "38 North",
+      "summary": "The “20×10” regional development policy, introduced in January 2024, represents Kim Jong Un’s ...\nThe post\nNorth Korea’s 20×10 Policy and the Challenges of Regional Development\nappeared first on\n38 North\n.",
+      "title": "North Korea’s 20×10 Policy and the Challenges of Regional Development",
+      "url": "https://www.38north.org/2026/04/evaluating-the-limits-of-the-dprks-20x10-regional-development-policy/"
+    },
     "https://www.38north.org/2026/04/from-party-congress-to-supreme-peoples-assembly-kims-power-consolidation-self-reliance-strategy-and-new-five-year-plan/": {
       "confidence": "high",
       "content_hash": "bc536773f8666010fecd868ed0f3c4c69abd3512e8ba66bf6ead58b308e756d1",
       "first_seen_at": "2026-04-15T15:59:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-15T15:59:45Z",
-      "last_seen_at": "2026-04-23T16:25:15Z",
+      "last_seen_at": "2026-04-23T23:36:35Z",
       "matched_terms": [
         "North Korea",
         "Korea",
@@ -282,6 +306,33 @@
       "summary": "This article is from the fourth edition (January – March 2026) of 38 North’s quarterly ...\nThe post\nFrom Party Congress to Supreme People’s Assembly: Kim’s Power Consolidation, Self-Reliance Strategy, and New Five-Year Plan\nappeared first on\n38 North\n.",
       "title": "From Party Congress to Supreme People’s Assembly: Kim’s Power Consolidation, Self-Reliance Strategy, and New Five-Year Plan",
       "url": "https://www.38north.org/2026/04/from-party-congress-to-supreme-peoples-assembly-kims-power-consolidation-self-reliance-strategy-and-new-five-year-plan/"
+    },
+    "https://www.38north.org/2026/04/how-south-korea-might-fight-a-north-korean-invasion-in-a-dual-contingency-scenario/": {
+      "confidence": "high",
+      "content_hash": "d1fd5b7fe62a470ee2df567c73f64c4c463faba1f02c75d13e3446abf8262192",
+      "first_seen_at": "2026-04-23T23:36:35Z",
+      "last_event": "new",
+      "last_notified_at": "2026-04-23T23:36:35Z",
+      "last_seen_at": "2026-04-23T23:36:35Z",
+      "matched_terms": [
+        "South Korea",
+        "North Korean",
+        "South Korean",
+        "Republic of Korea",
+        "North Korea",
+        "Korean Peninsula",
+        "대한민국",
+        "Korea",
+        "Korean",
+        "Seoul",
+        "Pyongyang"
+      ],
+      "published_at": "Thu, 23 Apr 2026 19:36:16 +0000",
+      "source_id": "thirty_eight_north",
+      "source_label": "38 North",
+      "summary": "For decades, deterrence on the Korean Peninsula has rested on a single fundamental assumption: ...\nThe post\nHow South Korea Might Fight a North Korean Invasion in a Dual-Contingency Scenario\nappeared first on\n38 North\n.",
+      "title": "How South Korea Might Fight a North Korean Invasion in a Dual-Contingency Scenario",
+      "url": "https://www.38north.org/2026/04/how-south-korea-might-fight-a-north-korean-invasion-in-a-dual-contingency-scenario/"
     },
     "https://www.38north.org/2026/04/north-korea-tests-new-theater-launch-platforms-as-party-congress-continues-nuclear-missile-buildup/": {
       "confidence": "high",
@@ -335,7 +386,7 @@
       "first_seen_at": "2026-04-15T15:59:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-15T15:59:45Z",
-      "last_seen_at": "2026-04-23T16:25:15Z",
+      "last_seen_at": "2026-04-23T23:36:35Z",
       "matched_terms": [
         "South Korean",
         "Republic of Korea",
@@ -380,7 +431,7 @@
       "first_seen_at": "2026-04-16T23:32:53Z",
       "last_event": "updated",
       "last_notified_at": "2026-04-22T23:38:45Z",
-      "last_seen_at": "2026-04-23T16:25:15Z",
+      "last_seen_at": "2026-04-23T23:36:35Z",
       "matched_terms": [
         "North Korea",
         "Korea"
@@ -459,7 +510,7 @@
       "first_seen_at": "2026-04-15T15:59:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-15T15:59:45Z",
-      "last_seen_at": "2026-04-23T16:25:15Z",
+      "last_seen_at": "2026-04-23T23:36:35Z",
       "matched_terms": [
         "North Korea",
         "Republic of Korea",
@@ -483,7 +534,7 @@
       "first_seen_at": "2026-04-03T15:33:11Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-23T16:25:15Z",
+      "last_seen_at": "2026-04-23T23:36:35Z",
       "matched_terms": [
         "Korea"
       ],
@@ -500,7 +551,7 @@
       "first_seen_at": "2026-04-20T16:01:59Z",
       "last_event": "new",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-23T16:25:15Z",
+      "last_seen_at": "2026-04-23T23:36:35Z",
       "matched_terms": [
         "Korea"
       ],
@@ -517,7 +568,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-23T16:25:15Z",
+      "last_seen_at": "2026-04-23T23:36:35Z",
       "matched_terms": [
         "DPRK",
         "South Korea",
@@ -544,7 +595,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-23T16:25:15Z",
+      "last_seen_at": "2026-04-23T23:36:35Z",
       "matched_terms": [
         "North Korea",
         "South Korean",
@@ -706,7 +757,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-23T16:25:15Z",
+      "last_seen_at": "2026-04-23T23:36:35Z",
       "matched_terms": [
         "South Korea",
         "South Korean",
@@ -727,7 +778,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-23T16:25:15Z",
+      "last_seen_at": "2026-04-23T23:36:35Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1814,7 +1865,7 @@
       "first_seen_at": "2026-04-22T23:38:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-22T23:38:45Z",
-      "last_seen_at": "2026-04-23T16:25:15Z",
+      "last_seen_at": "2026-04-23T23:36:35Z",
       "matched_terms": [
         "South Korea",
         "Korea"
@@ -2325,7 +2376,7 @@
       "first_seen_at": "2026-04-15T15:59:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-15T15:59:45Z",
-      "last_seen_at": "2026-04-23T16:25:15Z",
+      "last_seen_at": "2026-04-23T23:36:35Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
