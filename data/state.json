@@ -85,7 +85,7 @@
       "first_seen_at": "2026-03-26T16:03:48Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-27T16:19:59Z",
+      "last_seen_at": "2026-04-27T23:43:13Z",
       "matched_terms": [
         "South Korea",
         "Korea"
@@ -205,7 +205,7 @@
       "first_seen_at": "2026-04-22T23:38:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-22T23:38:45Z",
-      "last_seen_at": "2026-04-27T16:19:59Z",
+      "last_seen_at": "2026-04-27T23:43:13Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -227,7 +227,7 @@
       "first_seen_at": "2026-04-15T15:59:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-15T15:59:45Z",
-      "last_seen_at": "2026-04-27T16:19:59Z",
+      "last_seen_at": "2026-04-27T23:43:13Z",
       "matched_terms": [
         "North Korea",
         "Korea",
@@ -270,7 +270,7 @@
       "first_seen_at": "2026-04-23T23:36:35Z",
       "last_event": "new",
       "last_notified_at": "2026-04-23T23:36:35Z",
-      "last_seen_at": "2026-04-27T16:19:59Z",
+      "last_seen_at": "2026-04-27T23:43:13Z",
       "matched_terms": [
         "North Korea",
         "Republic of Korea",
@@ -294,7 +294,7 @@
       "first_seen_at": "2026-04-15T15:59:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-15T15:59:45Z",
-      "last_seen_at": "2026-04-27T16:19:59Z",
+      "last_seen_at": "2026-04-27T23:43:13Z",
       "matched_terms": [
         "North Korea",
         "Korea",
@@ -313,7 +313,7 @@
       "first_seen_at": "2026-04-23T23:36:35Z",
       "last_event": "new",
       "last_notified_at": "2026-04-23T23:36:35Z",
-      "last_seen_at": "2026-04-27T16:19:59Z",
+      "last_seen_at": "2026-04-27T23:43:13Z",
       "matched_terms": [
         "South Korea",
         "North Korean",
@@ -386,7 +386,7 @@
       "first_seen_at": "2026-04-15T15:59:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-15T15:59:45Z",
-      "last_seen_at": "2026-04-27T16:19:59Z",
+      "last_seen_at": "2026-04-27T23:43:13Z",
       "matched_terms": [
         "South Korean",
         "Republic of Korea",
@@ -431,7 +431,7 @@
       "first_seen_at": "2026-04-16T23:32:53Z",
       "last_event": "updated",
       "last_notified_at": "2026-04-25T08:00:20Z",
-      "last_seen_at": "2026-04-27T16:19:59Z",
+      "last_seen_at": "2026-04-27T23:43:13Z",
       "matched_terms": [
         "North Korea",
         "Korea"
@@ -510,7 +510,7 @@
       "first_seen_at": "2026-04-15T15:59:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-15T15:59:45Z",
-      "last_seen_at": "2026-04-27T16:19:59Z",
+      "last_seen_at": "2026-04-27T23:43:13Z",
       "matched_terms": [
         "North Korea",
         "Republic of Korea",
@@ -534,7 +534,7 @@
       "first_seen_at": "2026-04-03T15:33:11Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-27T16:19:59Z",
+      "last_seen_at": "2026-04-27T23:43:13Z",
       "matched_terms": [
         "Korea"
       ],
@@ -551,7 +551,7 @@
       "first_seen_at": "2026-04-20T16:01:59Z",
       "last_event": "new",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-27T16:19:59Z",
+      "last_seen_at": "2026-04-27T23:43:13Z",
       "matched_terms": [
         "Korea"
       ],
@@ -568,7 +568,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-27T16:19:59Z",
+      "last_seen_at": "2026-04-27T23:43:13Z",
       "matched_terms": [
         "DPRK",
         "South Korea",
@@ -595,7 +595,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-27T16:19:59Z",
+      "last_seen_at": "2026-04-27T23:43:13Z",
       "matched_terms": [
         "North Korea",
         "South Korean",
@@ -757,7 +757,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-27T16:19:59Z",
+      "last_seen_at": "2026-04-27T23:43:13Z",
       "matched_terms": [
         "South Korea",
         "South Korean",
@@ -778,7 +778,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-27T16:19:59Z",
+      "last_seen_at": "2026-04-27T23:43:13Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1865,7 +1865,7 @@
       "first_seen_at": "2026-04-22T23:38:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-22T23:38:45Z",
-      "last_seen_at": "2026-04-27T16:19:59Z",
+      "last_seen_at": "2026-04-27T23:43:13Z",
       "matched_terms": [
         "South Korea",
         "Korea"
@@ -2333,6 +2333,23 @@
       "summary": "미국과 한국 당국이 6일부터 다음 달 1일까지 한국전쟁 당시 동해로 추락한 군용 항공기 탑승자의 유해를 찾기 위한 조사에 착수한다고 한국 국방부가 밝혔습니다.",
       "title": "미한, ‘한국전’ 추락 군용기 탑승자 유해 소재 조사 착수",
       "url": "https://www.voakorea.com/a/us-rok-kicks-off-korean-war-remain-search-040626/8135242.html"
+    },
+    "https://www.worldbank.org/en/news/feature/2026/04/27/augmented-and-virtual-reality-program-transforming-tvet-in-ecuador": {
+      "confidence": "medium",
+      "content_hash": "6eaf4c9fe5cbbffafe23559f6163612181107f604010293361eba03cbd00e2eb",
+      "first_seen_at": "2026-04-27T23:43:13Z",
+      "last_event": "new",
+      "last_notified_at": null,
+      "last_seen_at": "2026-04-27T23:43:13Z",
+      "matched_terms": [
+        "Korea"
+      ],
+      "published_at": "2026-04-27T14:52:16Z",
+      "source_id": "world_bank_news",
+      "source_label": "World Bank News",
+      "summary": "Active Training Using Virtual Reality Program (ACTIVaR) is reimagining how Ecuador’s Technical and Technological Institutes (TTIs) teach auto-mechanics by bringing mixed reality (virtual and augmented reality) labs into classrooms to deliver safe, affordable, and highly engaging hands-on practice.",
+      "title": "Augmented and Virtual Reality Program Transforming TVET in Ecuador",
+      "url": "https://www.worldbank.org/en/news/feature/2026/04/27/augmented-and-virtual-reality-program-transforming-tvet-in-ecuador"
     },
     "https://www.wto.org/english/news_e/news26_e/acc_09mar26_316_e.htm": {
       "confidence": "high",
