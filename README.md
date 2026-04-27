@@ -2,6 +2,8 @@
 
 UN 계열 기관, 국제기구, 싱크탱크, 미국 정부 보도자료의 한국(대한민국, 북한, 한반도 전체) 관련 업데이트를 감지해 텔레그램 채널로 보내는 GitHub Actions 기반 모니터입니다.
 
+다른 머신에서 이어받을 때 필요한 운영·환경 정보는 [docs/HANDOFF.md](/Users/air/codes/UN-news/docs/HANDOFF.md)에 정리되어 있습니다.
+
 ## Current Scope
 
 - `UN News`
@@ -122,7 +124,7 @@ GitHub repository에서 아래 경로로 들어가 시크릿을 추가하면 됩
 ## Local Dry Run
 
 ```bash
-python3 -m venv .venv
+python3.12 -m venv .venv
 . .venv/bin/activate
 pip install -r requirements.txt
 python -m src.main --dry-run
