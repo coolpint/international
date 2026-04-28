@@ -85,7 +85,7 @@
       "first_seen_at": "2026-03-26T16:03:48Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-28T09:13:44Z",
+      "last_seen_at": "2026-04-28T16:46:49Z",
       "matched_terms": [
         "South Korea",
         "Korea"
@@ -205,7 +205,7 @@
       "first_seen_at": "2026-04-22T23:38:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-22T23:38:45Z",
-      "last_seen_at": "2026-04-28T09:13:44Z",
+      "last_seen_at": "2026-04-28T16:46:49Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -227,7 +227,7 @@
       "first_seen_at": "2026-04-15T15:59:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-15T15:59:45Z",
-      "last_seen_at": "2026-04-28T09:13:44Z",
+      "last_seen_at": "2026-04-28T16:46:49Z",
       "matched_terms": [
         "North Korea",
         "Korea",
@@ -270,7 +270,7 @@
       "first_seen_at": "2026-04-23T23:36:35Z",
       "last_event": "new",
       "last_notified_at": "2026-04-23T23:36:35Z",
-      "last_seen_at": "2026-04-28T09:13:44Z",
+      "last_seen_at": "2026-04-28T16:46:49Z",
       "matched_terms": [
         "North Korea",
         "Republic of Korea",
@@ -294,7 +294,7 @@
       "first_seen_at": "2026-04-15T15:59:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-15T15:59:45Z",
-      "last_seen_at": "2026-04-28T09:13:44Z",
+      "last_seen_at": "2026-04-28T16:46:49Z",
       "matched_terms": [
         "North Korea",
         "Korea",
@@ -313,7 +313,7 @@
       "first_seen_at": "2026-04-23T23:36:35Z",
       "last_event": "new",
       "last_notified_at": "2026-04-23T23:36:35Z",
-      "last_seen_at": "2026-04-28T09:13:44Z",
+      "last_seen_at": "2026-04-28T16:46:49Z",
       "matched_terms": [
         "South Korea",
         "North Korean",
@@ -386,7 +386,7 @@
       "first_seen_at": "2026-04-15T15:59:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-15T15:59:45Z",
-      "last_seen_at": "2026-04-28T09:13:44Z",
+      "last_seen_at": "2026-04-28T16:46:49Z",
       "matched_terms": [
         "South Korean",
         "Republic of Korea",
@@ -431,7 +431,7 @@
       "first_seen_at": "2026-04-16T23:32:53Z",
       "last_event": "updated",
       "last_notified_at": "2026-04-25T08:00:20Z",
-      "last_seen_at": "2026-04-28T09:13:44Z",
+      "last_seen_at": "2026-04-28T16:46:49Z",
       "matched_terms": [
         "North Korea",
         "Korea"
@@ -510,7 +510,7 @@
       "first_seen_at": "2026-04-15T15:59:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-15T15:59:45Z",
-      "last_seen_at": "2026-04-28T09:13:44Z",
+      "last_seen_at": "2026-04-28T16:46:49Z",
       "matched_terms": [
         "North Korea",
         "Republic of Korea",
@@ -534,7 +534,7 @@
       "first_seen_at": "2026-04-03T15:33:11Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-28T09:13:44Z",
+      "last_seen_at": "2026-04-28T16:46:49Z",
       "matched_terms": [
         "Korea"
       ],
@@ -551,7 +551,7 @@
       "first_seen_at": "2026-04-20T16:01:59Z",
       "last_event": "new",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-28T09:13:44Z",
+      "last_seen_at": "2026-04-28T16:46:49Z",
       "matched_terms": [
         "Korea"
       ],
@@ -568,7 +568,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-28T09:13:44Z",
+      "last_seen_at": "2026-04-28T16:46:49Z",
       "matched_terms": [
         "DPRK",
         "South Korea",
@@ -595,7 +595,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-28T09:13:44Z",
+      "last_seen_at": "2026-04-28T16:46:49Z",
       "matched_terms": [
         "North Korea",
         "South Korean",
@@ -757,7 +757,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-28T09:13:44Z",
+      "last_seen_at": "2026-04-28T16:46:49Z",
       "matched_terms": [
         "South Korea",
         "South Korean",
@@ -778,7 +778,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-28T09:13:44Z",
+      "last_seen_at": "2026-04-28T16:46:49Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1165,6 +1165,24 @@
       "title": "Finding a place in tech: A young woman’s story of learning, participation, and inclusion in Viet Nam",
       "url": "https://www.ilo.org/resource/article/finding-place-tech-young-woman%E2%80%99s-story-learning-participation-and-inclusion"
     },
+    "https://www.ilo.org/resource/article/it%E2%80%99s-time-address-psychosocial-hazards-changing-world-work": {
+      "confidence": "high",
+      "content_hash": "e228931962992709b0f8504a9fc0d0d97b9394796f528dfd53fce5b3b9754f8d",
+      "first_seen_at": "2026-04-28T16:46:49Z",
+      "last_event": "new",
+      "last_notified_at": "2026-04-28T16:46:49Z",
+      "last_seen_at": "2026-04-28T16:46:49Z",
+      "matched_terms": [
+        "Republic of Korea",
+        "Korea"
+      ],
+      "published_at": "Tue, 28 Apr 2026 03:37:36 +0000",
+      "source_id": "ilo_newsroom",
+      "source_label": "ILO Newsroom",
+      "summary": "It’s time to address psychosocial hazards in a changing world of work\nzhengg@ilo.org\nTue, 04/28/2026 - 03:37\nDocument Type\nArticle\nCountries\nChina\nDate of Publication\nTue, 04/28/2026 - 12:00\nEyebrow\nOpinion editorial\nSubject (relevant to topic/sector)\nworking conditions\noccupational safety and health\nHero Image\n© Shutterstock\n© Shutterstock\nA safe and healthy working environment is a fundamental principle and right at work.\nBrief description\nTo mark World Day for Safety and Health at Work, Kaori",
+      "title": "It’s time to address psychosocial hazards in a changing world of work",
+      "url": "https://www.ilo.org/resource/article/it%E2%80%99s-time-address-psychosocial-hazards-changing-world-work"
+    },
     "https://www.ilo.org/resource/article/it%E2%80%99s-time-address-psychosocial-hazards-changing-world-work-0": {
       "confidence": "high",
       "content_hash": "75ffeb24f2ee33b5bf2de95e3a280cc218b97f260246c884dbf47a6f93776e81",
@@ -1189,7 +1207,7 @@
       "first_seen_at": "2026-04-28T09:13:44Z",
       "last_event": "new",
       "last_notified_at": "2026-04-28T09:13:44Z",
-      "last_seen_at": "2026-04-28T09:13:44Z",
+      "last_seen_at": "2026-04-28T16:46:49Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
@@ -1901,7 +1919,7 @@
       "first_seen_at": "2026-04-22T23:38:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-22T23:38:45Z",
-      "last_seen_at": "2026-04-28T09:13:44Z",
+      "last_seen_at": "2026-04-28T16:46:49Z",
       "matched_terms": [
         "South Korea",
         "Korea"
@@ -2376,7 +2394,7 @@
       "first_seen_at": "2026-04-27T23:43:13Z",
       "last_event": "new",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-28T09:13:44Z",
+      "last_seen_at": "2026-04-28T16:46:49Z",
       "matched_terms": [
         "Korea"
       ],
