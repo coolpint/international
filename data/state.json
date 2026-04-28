@@ -205,7 +205,7 @@
       "first_seen_at": "2026-04-22T23:38:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-22T23:38:45Z",
-      "last_seen_at": "2026-04-28T16:46:49Z",
+      "last_seen_at": "2026-04-28T23:44:30Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -227,7 +227,7 @@
       "first_seen_at": "2026-04-15T15:59:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-15T15:59:45Z",
-      "last_seen_at": "2026-04-28T16:46:49Z",
+      "last_seen_at": "2026-04-28T23:44:30Z",
       "matched_terms": [
         "North Korea",
         "Korea",
@@ -270,7 +270,7 @@
       "first_seen_at": "2026-04-23T23:36:35Z",
       "last_event": "new",
       "last_notified_at": "2026-04-23T23:36:35Z",
-      "last_seen_at": "2026-04-28T16:46:49Z",
+      "last_seen_at": "2026-04-28T23:44:30Z",
       "matched_terms": [
         "North Korea",
         "Republic of Korea",
@@ -294,7 +294,7 @@
       "first_seen_at": "2026-04-15T15:59:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-15T15:59:45Z",
-      "last_seen_at": "2026-04-28T16:46:49Z",
+      "last_seen_at": "2026-04-28T23:44:30Z",
       "matched_terms": [
         "North Korea",
         "Korea",
@@ -313,7 +313,7 @@
       "first_seen_at": "2026-04-23T23:36:35Z",
       "last_event": "new",
       "last_notified_at": "2026-04-23T23:36:35Z",
-      "last_seen_at": "2026-04-28T16:46:49Z",
+      "last_seen_at": "2026-04-28T23:44:30Z",
       "matched_terms": [
         "South Korea",
         "North Korean",
@@ -386,7 +386,7 @@
       "first_seen_at": "2026-04-15T15:59:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-15T15:59:45Z",
-      "last_seen_at": "2026-04-28T16:46:49Z",
+      "last_seen_at": "2026-04-28T23:44:30Z",
       "matched_terms": [
         "South Korean",
         "Republic of Korea",
@@ -431,7 +431,7 @@
       "first_seen_at": "2026-04-16T23:32:53Z",
       "last_event": "updated",
       "last_notified_at": "2026-04-25T08:00:20Z",
-      "last_seen_at": "2026-04-28T16:46:49Z",
+      "last_seen_at": "2026-04-28T23:44:30Z",
       "matched_terms": [
         "North Korea",
         "Korea"
@@ -510,7 +510,7 @@
       "first_seen_at": "2026-04-15T15:59:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-15T15:59:45Z",
-      "last_seen_at": "2026-04-28T16:46:49Z",
+      "last_seen_at": "2026-04-28T23:44:30Z",
       "matched_terms": [
         "North Korea",
         "Republic of Korea",
@@ -534,7 +534,7 @@
       "first_seen_at": "2026-04-03T15:33:11Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-28T16:46:49Z",
+      "last_seen_at": "2026-04-28T23:44:30Z",
       "matched_terms": [
         "Korea"
       ],
@@ -551,7 +551,7 @@
       "first_seen_at": "2026-04-20T16:01:59Z",
       "last_event": "new",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-28T16:46:49Z",
+      "last_seen_at": "2026-04-28T23:44:30Z",
       "matched_terms": [
         "Korea"
       ],
@@ -568,7 +568,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-28T16:46:49Z",
+      "last_seen_at": "2026-04-28T23:44:30Z",
       "matched_terms": [
         "DPRK",
         "South Korea",
@@ -595,7 +595,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-28T16:46:49Z",
+      "last_seen_at": "2026-04-28T23:44:30Z",
       "matched_terms": [
         "North Korea",
         "South Korean",
@@ -757,7 +757,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-28T16:46:49Z",
+      "last_seen_at": "2026-04-28T23:44:30Z",
       "matched_terms": [
         "South Korea",
         "South Korean",
@@ -778,7 +778,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-28T16:46:49Z",
+      "last_seen_at": "2026-04-28T23:44:30Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1091,6 +1091,24 @@
       "summary": "Comparative study on employment quota systems for persons with disabilities in East and Southeast Asia\nbudi@ilo.org\nWed, 03/11/2026 - 03:57\nEvent type\nPresentation\nBackground\nIndonesia joined the Global Accelerator on Jobs and Social Protection for Just Transitions in June 2023, reinforcing its commitment to inclusive and job-rich growth. The Indonesia Roadmap for the Global Accelerator was endorsed by the Ministry of National Development Planning (Bappenas) in June 2025, accompanied by the laun",
       "title": "Comparative study on employment quota systems for persons with disabilities in East and Southeast Asia",
       "url": "https://www.ilo.org/meetings-and-events/comparative-study-employment-quota-systems-persons-disabilities-east-and"
+    },
+    "https://www.ilo.org/meetings-and-events/ilo-international-migration-review-forum": {
+      "confidence": "high",
+      "content_hash": "0d5a05d7e239254f1fc36e6a431fe22dbca6db9bfc425c521d93581edbbbc0bb",
+      "first_seen_at": "2026-04-28T23:44:30Z",
+      "last_event": "new",
+      "last_notified_at": "2026-04-28T23:44:30Z",
+      "last_seen_at": "2026-04-28T23:44:30Z",
+      "matched_terms": [
+        "South Korea",
+        "Korea"
+      ],
+      "published_at": "Tue, 28 Apr 2026 10:14:12 +0000",
+      "source_id": "ilo_newsroom",
+      "source_label": "ILO Newsroom",
+      "summary": "ILO at the International Migration Review Forum\ndard@ilo.org\nTue, 04/28/2026 - 10:14\nEvent type\nConference\nSince 2018, Member States have committed to reviewing progress in implementing the Global Compact for Safe, Orderly and Regular Migration (GCM) through a UN-led, State-driven process with broad stakeholder participation.\nThe second International Migration Review Forum (IMRF) will assess progress and set priorities for the next five years, including on rights-based labour migration governanc",
+      "title": "ILO at the International Migration Review Forum",
+      "url": "https://www.ilo.org/meetings-and-events/ilo-international-migration-review-forum"
     },
     "https://www.ilo.org/projects-and-partnerships/projects/delivering-national-commitments-korea%E2%80%99s-support-implementation-global": {
       "confidence": "high",
@@ -1919,7 +1937,7 @@
       "first_seen_at": "2026-04-22T23:38:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-22T23:38:45Z",
-      "last_seen_at": "2026-04-28T16:46:49Z",
+      "last_seen_at": "2026-04-28T23:44:30Z",
       "matched_terms": [
         "South Korea",
         "Korea"
@@ -2394,7 +2412,7 @@
       "first_seen_at": "2026-04-27T23:43:13Z",
       "last_event": "new",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-28T16:46:49Z",
+      "last_seen_at": "2026-04-28T23:44:30Z",
       "matched_terms": [
         "Korea"
       ],
