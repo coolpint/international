@@ -68,7 +68,7 @@
       "first_seen_at": "2026-04-30T09:07:20Z",
       "last_event": "new",
       "last_notified_at": "2026-04-30T09:07:20Z",
-      "last_seen_at": "2026-04-30T09:07:20Z",
+      "last_seen_at": "2026-04-30T16:13:17Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -225,7 +225,7 @@
       "first_seen_at": "2026-04-22T23:38:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-22T23:38:45Z",
-      "last_seen_at": "2026-04-30T09:07:20Z",
+      "last_seen_at": "2026-04-30T16:13:17Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -247,7 +247,7 @@
       "first_seen_at": "2026-04-15T15:59:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-15T15:59:45Z",
-      "last_seen_at": "2026-04-30T09:07:20Z",
+      "last_seen_at": "2026-04-30T16:13:17Z",
       "matched_terms": [
         "North Korea",
         "Korea",
@@ -290,7 +290,7 @@
       "first_seen_at": "2026-04-23T23:36:35Z",
       "last_event": "new",
       "last_notified_at": "2026-04-23T23:36:35Z",
-      "last_seen_at": "2026-04-30T09:07:20Z",
+      "last_seen_at": "2026-04-30T16:13:17Z",
       "matched_terms": [
         "North Korea",
         "Republic of Korea",
@@ -314,7 +314,7 @@
       "first_seen_at": "2026-04-15T15:59:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-15T15:59:45Z",
-      "last_seen_at": "2026-04-30T09:07:20Z",
+      "last_seen_at": "2026-04-30T16:13:17Z",
       "matched_terms": [
         "North Korea",
         "Korea",
@@ -333,7 +333,7 @@
       "first_seen_at": "2026-04-23T23:36:35Z",
       "last_event": "new",
       "last_notified_at": "2026-04-23T23:36:35Z",
-      "last_seen_at": "2026-04-30T09:07:20Z",
+      "last_seen_at": "2026-04-30T16:13:17Z",
       "matched_terms": [
         "South Korea",
         "North Korean",
@@ -406,7 +406,7 @@
       "first_seen_at": "2026-04-15T15:59:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-15T15:59:45Z",
-      "last_seen_at": "2026-04-30T09:07:20Z",
+      "last_seen_at": "2026-04-30T16:13:17Z",
       "matched_terms": [
         "South Korean",
         "Republic of Korea",
@@ -451,7 +451,7 @@
       "first_seen_at": "2026-04-16T23:32:53Z",
       "last_event": "updated",
       "last_notified_at": "2026-04-25T08:00:20Z",
-      "last_seen_at": "2026-04-30T09:07:20Z",
+      "last_seen_at": "2026-04-30T16:13:17Z",
       "matched_terms": [
         "North Korea",
         "Korea"
@@ -530,7 +530,7 @@
       "first_seen_at": "2026-04-15T15:59:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-15T15:59:45Z",
-      "last_seen_at": "2026-04-30T09:07:20Z",
+      "last_seen_at": "2026-04-30T16:13:17Z",
       "matched_terms": [
         "North Korea",
         "Republic of Korea",
@@ -554,7 +554,7 @@
       "first_seen_at": "2026-04-03T15:33:11Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-30T09:07:20Z",
+      "last_seen_at": "2026-04-30T16:13:17Z",
       "matched_terms": [
         "Korea"
       ],
@@ -571,7 +571,7 @@
       "first_seen_at": "2026-04-20T16:01:59Z",
       "last_event": "new",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-30T09:07:20Z",
+      "last_seen_at": "2026-04-30T16:13:17Z",
       "matched_terms": [
         "Korea"
       ],
@@ -588,7 +588,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-30T09:07:20Z",
+      "last_seen_at": "2026-04-30T16:13:17Z",
       "matched_terms": [
         "DPRK",
         "South Korea",
@@ -615,7 +615,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-30T09:07:20Z",
+      "last_seen_at": "2026-04-30T16:13:17Z",
       "matched_terms": [
         "North Korea",
         "South Korean",
@@ -798,7 +798,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-30T09:07:20Z",
+      "last_seen_at": "2026-04-30T16:13:17Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1957,7 +1957,7 @@
       "first_seen_at": "2026-04-22T23:38:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-22T23:38:45Z",
-      "last_seen_at": "2026-04-30T09:07:20Z",
+      "last_seen_at": "2026-04-30T16:13:17Z",
       "matched_terms": [
         "South Korea",
         "Korea"
@@ -2432,7 +2432,7 @@
       "first_seen_at": "2026-04-27T23:43:13Z",
       "last_event": "new",
       "last_notified_at": null,
-      "last_seen_at": "2026-04-30T09:07:20Z",
+      "last_seen_at": "2026-04-30T16:13:17Z",
       "matched_terms": [
         "Korea"
       ],
@@ -2460,6 +2460,24 @@
       "summary": "At a meeting of the Working Party on the Accession of Uzbekistan on 9 March, the head of Uzbekistan's delegation, Deputy Prime Minister Jamshid Khodjaev, said his country is committed to bringing Uzbekistan’s accession process to a successful conclusion this year. Thanking members for supporting Uzbekistan's accession during a very busy period, he reaffirmed the country's commitment to engage constructively with all Working Party members. Uzbekistan stands ready to address any remaining issues i",
       "title": "Uzbekistan commits to maintaining \"strong momentum\" to accede to WTO in 2026",
       "url": "https://www.wto.org/english/news_e/news26_e/acc_09mar26_316_e.htm"
+    },
+    "https://www.wto.org/english/news_e/news26_e/anti_28apr26_381_e.htm": {
+      "confidence": "high",
+      "content_hash": "d853e216096615f804cfac63606cf25ea004e0cdd89e38cbd21610b35576706f",
+      "first_seen_at": "2026-04-30T16:13:17Z",
+      "last_event": "new",
+      "last_notified_at": "2026-04-30T16:13:17Z",
+      "last_seen_at": "2026-04-30T16:13:17Z",
+      "matched_terms": [
+        "Republic of Korea",
+        "Korea"
+      ],
+      "published_at": "Tue, 28 Apr 2026 00:00:00 GMT",
+      "source_id": "wto_latest_news",
+      "source_label": "WTO Latest News",
+      "summary": "The WTO’s Committee on Anti-Dumping Practices met on 28 April 2026 to review members’ latest notifications of new, amended or previously reviewed anti-dumping laws and regulations as well as reports on anti-dumping actions.",
+      "title": "Members review notifications, anti-dumping actions at regular spring meeting of Committee",
+      "url": "https://www.wto.org/english/news_e/news26_e/anti_28apr26_381_e.htm"
     },
     "https://www.wto.org/english/news_e/news26_e/chair_19mar26_333_e.htm": {
       "confidence": "high",
