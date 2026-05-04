@@ -251,7 +251,7 @@
       "first_seen_at": "2026-04-22T23:38:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-22T23:38:45Z",
-      "last_seen_at": "2026-05-04T09:11:33Z",
+      "last_seen_at": "2026-05-04T16:25:57Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -273,7 +273,7 @@
       "first_seen_at": "2026-04-15T15:59:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-15T15:59:45Z",
-      "last_seen_at": "2026-05-04T09:11:33Z",
+      "last_seen_at": "2026-05-04T16:25:57Z",
       "matched_terms": [
         "North Korea",
         "Korea",
@@ -316,7 +316,7 @@
       "first_seen_at": "2026-04-23T23:36:35Z",
       "last_event": "new",
       "last_notified_at": "2026-04-23T23:36:35Z",
-      "last_seen_at": "2026-05-04T09:11:33Z",
+      "last_seen_at": "2026-05-04T16:25:57Z",
       "matched_terms": [
         "North Korea",
         "Republic of Korea",
@@ -340,7 +340,7 @@
       "first_seen_at": "2026-04-15T15:59:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-15T15:59:45Z",
-      "last_seen_at": "2026-05-04T09:11:33Z",
+      "last_seen_at": "2026-05-04T16:25:57Z",
       "matched_terms": [
         "North Korea",
         "Korea",
@@ -359,7 +359,7 @@
       "first_seen_at": "2026-04-23T23:36:35Z",
       "last_event": "new",
       "last_notified_at": "2026-04-23T23:36:35Z",
-      "last_seen_at": "2026-05-04T09:11:33Z",
+      "last_seen_at": "2026-05-04T16:25:57Z",
       "matched_terms": [
         "South Korea",
         "North Korean",
@@ -432,7 +432,7 @@
       "first_seen_at": "2026-04-15T15:59:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-15T15:59:45Z",
-      "last_seen_at": "2026-05-04T09:11:33Z",
+      "last_seen_at": "2026-05-04T16:25:57Z",
       "matched_terms": [
         "South Korean",
         "Republic of Korea",
@@ -477,7 +477,7 @@
       "first_seen_at": "2026-04-16T23:32:53Z",
       "last_event": "updated",
       "last_notified_at": "2026-04-25T08:00:20Z",
-      "last_seen_at": "2026-05-04T09:11:33Z",
+      "last_seen_at": "2026-05-04T16:25:57Z",
       "matched_terms": [
         "North Korea",
         "Korea"
@@ -556,7 +556,7 @@
       "first_seen_at": "2026-04-15T15:59:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-15T15:59:45Z",
-      "last_seen_at": "2026-05-04T09:11:33Z",
+      "last_seen_at": "2026-05-04T16:25:57Z",
       "matched_terms": [
         "North Korea",
         "Republic of Korea",
@@ -580,7 +580,7 @@
       "first_seen_at": "2026-04-03T15:33:11Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-05-04T09:11:33Z",
+      "last_seen_at": "2026-05-04T16:25:57Z",
       "matched_terms": [
         "Korea"
       ],
@@ -597,7 +597,7 @@
       "first_seen_at": "2026-04-20T16:01:59Z",
       "last_event": "new",
       "last_notified_at": null,
-      "last_seen_at": "2026-05-04T09:11:33Z",
+      "last_seen_at": "2026-05-04T16:25:57Z",
       "matched_terms": [
         "Korea"
       ],
@@ -614,7 +614,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-05-04T09:11:33Z",
+      "last_seen_at": "2026-05-04T16:25:57Z",
       "matched_terms": [
         "DPRK",
         "South Korea",
@@ -641,7 +641,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-05-04T09:11:33Z",
+      "last_seen_at": "2026-05-04T16:25:57Z",
       "matched_terms": [
         "North Korea",
         "South Korean",
@@ -824,7 +824,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-05-04T09:11:33Z",
+      "last_seen_at": "2026-05-04T16:25:57Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1265,6 +1265,23 @@
       "title": "It’s time to address psychosocial hazards in a changing world of work",
       "url": "https://www.ilo.org/resource/article/it%E2%80%99s-time-address-psychosocial-hazards-changing-world-work-0"
     },
+    "https://www.ilo.org/resource/brief/korea-factsheet": {
+      "confidence": "medium",
+      "content_hash": "e3e944d8294f8eda7f5fdf576d584b06e64d34f944a7cf1b352037a3db2cae85",
+      "first_seen_at": "2026-05-04T16:25:57Z",
+      "last_event": "new",
+      "last_notified_at": null,
+      "last_seen_at": "2026-05-04T16:25:57Z",
+      "matched_terms": [
+        "Korea"
+      ],
+      "published_at": "Thu, 30 Apr 2026 20:02:25 +0000",
+      "source_id": "ilo_newsroom",
+      "source_label": "ILO Newsroom",
+      "summary": "Korea factsheet\ndombkins@ilo.org\nThu, 04/30/2026 - 20:02\nDocument Type\nBrief\nDate of Publication\nFri, 05/01/2026 - 12:00\nPrimary File(s)\nKorea factsheet (May 2026).pdf\nCover image\nMigration WIP\nOff\nReferences",
+      "title": "Korea factsheet",
+      "url": "https://www.ilo.org/resource/brief/korea-factsheet"
+    },
     "https://www.ilo.org/resource/news/ai-training-opens-doors-women-entrepreneurs-philippines": {
       "confidence": "high",
       "content_hash": "97fdc0cfaeaa778f2debb102eb2171bf58c67fc474d289b71a34cb8915c7ec01",
@@ -1359,7 +1376,7 @@
       "first_seen_at": "2026-05-04T09:11:33Z",
       "last_event": "new",
       "last_notified_at": "2026-05-04T09:11:33Z",
-      "last_seen_at": "2026-05-04T09:11:33Z",
+      "last_seen_at": "2026-05-04T16:25:57Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
@@ -2001,7 +2018,7 @@
       "first_seen_at": "2026-04-22T23:38:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-22T23:38:45Z",
-      "last_seen_at": "2026-05-04T09:11:33Z",
+      "last_seen_at": "2026-05-04T16:25:57Z",
       "matched_terms": [
         "South Korea",
         "Korea"
@@ -2511,7 +2528,7 @@
       "first_seen_at": "2026-04-30T16:13:17Z",
       "last_event": "new",
       "last_notified_at": "2026-04-30T16:13:17Z",
-      "last_seen_at": "2026-05-04T09:11:33Z",
+      "last_seen_at": "2026-05-04T16:25:57Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
@@ -2595,6 +2612,24 @@
       "summary": "The 129 WTO members participating in the Investment Facilitation for Development Agreement (IFDA) issued a joint ministerial declaration on 29 March at the end of the 14th Ministerial Conference in Yaoundé, Cameroon. A joint press release by the IFDA co-Coordinators — the Republic of Korea and Chile — is provided below.",
       "title": "Members participating in IFD Agreement issue joint ministerial declaration at end of MC14",
       "url": "https://www.wto.org/english/news_e/news26_e/infac_30mar26_353_e.htm"
+    },
+    "https://www.wto.org/english/news_e/news26_e/scm_30apr26_383_e.htm": {
+      "confidence": "high",
+      "content_hash": "fe6d039c6c34c170039ec4cca0d50e3515fbefc5d26b667fd09998049f233801",
+      "first_seen_at": "2026-05-04T16:25:57Z",
+      "last_event": "new",
+      "last_notified_at": "2026-05-04T16:25:57Z",
+      "last_seen_at": "2026-05-04T16:25:57Z",
+      "matched_terms": [
+        "Republic of Korea",
+        "Korea"
+      ],
+      "published_at": "Thu, 30 Apr 2026 00:00:00 GMT",
+      "source_id": "wto_latest_news",
+      "source_label": "WTO Latest News",
+      "summary": "At regular and special meetings of the Committee on Subsidies and Countervailing Measures (SCM) on 30 April 2026, improving transparency through the timely and complete submission of subsidy notifications was once again a central theme of the Committee’s work. The Chair, Jungsoo Hur of the Republic of Korea, emphasized the critical importance of transparency for the effective operation of the Committee and expressed concern about the continued low level of compliance with notification obligation",
+      "title": "Transparency on subsidies remains central focus of SCM Committee",
+      "url": "https://www.wto.org/english/news_e/news26_e/scm_30apr26_383_e.htm"
     },
     "https://www.wto.org/english/news_e/pres26_e/pr994_347_e.htm": {
       "confidence": "high",
