@@ -251,7 +251,7 @@
       "first_seen_at": "2026-04-22T23:38:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-22T23:38:45Z",
-      "last_seen_at": "2026-05-04T23:43:27Z",
+      "last_seen_at": "2026-05-05T09:03:43Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -273,7 +273,7 @@
       "first_seen_at": "2026-04-15T15:59:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-15T15:59:45Z",
-      "last_seen_at": "2026-05-04T23:43:27Z",
+      "last_seen_at": "2026-05-05T09:03:43Z",
       "matched_terms": [
         "North Korea",
         "Korea",
@@ -316,7 +316,7 @@
       "first_seen_at": "2026-04-23T23:36:35Z",
       "last_event": "new",
       "last_notified_at": "2026-04-23T23:36:35Z",
-      "last_seen_at": "2026-05-04T23:43:27Z",
+      "last_seen_at": "2026-05-05T09:03:43Z",
       "matched_terms": [
         "North Korea",
         "Republic of Korea",
@@ -359,7 +359,7 @@
       "first_seen_at": "2026-04-23T23:36:35Z",
       "last_event": "new",
       "last_notified_at": "2026-04-23T23:36:35Z",
-      "last_seen_at": "2026-05-04T23:43:27Z",
+      "last_seen_at": "2026-05-05T09:03:43Z",
       "matched_terms": [
         "South Korea",
         "North Korean",
@@ -432,7 +432,7 @@
       "first_seen_at": "2026-04-15T15:59:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-15T15:59:45Z",
-      "last_seen_at": "2026-05-04T23:43:27Z",
+      "last_seen_at": "2026-05-05T09:03:43Z",
       "matched_terms": [
         "South Korean",
         "Republic of Korea",
@@ -477,7 +477,7 @@
       "first_seen_at": "2026-04-16T23:32:53Z",
       "last_event": "updated",
       "last_notified_at": "2026-04-25T08:00:20Z",
-      "last_seen_at": "2026-05-04T23:43:27Z",
+      "last_seen_at": "2026-05-05T09:03:43Z",
       "matched_terms": [
         "North Korea",
         "Korea"
@@ -556,7 +556,7 @@
       "first_seen_at": "2026-04-15T15:59:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-15T15:59:45Z",
-      "last_seen_at": "2026-05-04T23:43:27Z",
+      "last_seen_at": "2026-05-05T09:03:43Z",
       "matched_terms": [
         "North Korea",
         "Republic of Korea",
@@ -580,7 +580,7 @@
       "first_seen_at": "2026-05-04T23:43:27Z",
       "last_event": "new",
       "last_notified_at": "2026-05-04T23:43:27Z",
-      "last_seen_at": "2026-05-04T23:43:27Z",
+      "last_seen_at": "2026-05-05T09:03:43Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -601,7 +601,7 @@
       "first_seen_at": "2026-04-03T15:33:11Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-05-04T23:43:27Z",
+      "last_seen_at": "2026-05-05T09:03:43Z",
       "matched_terms": [
         "Korea"
       ],
@@ -618,7 +618,7 @@
       "first_seen_at": "2026-04-20T16:01:59Z",
       "last_event": "new",
       "last_notified_at": null,
-      "last_seen_at": "2026-05-04T23:43:27Z",
+      "last_seen_at": "2026-05-05T09:03:43Z",
       "matched_terms": [
         "Korea"
       ],
@@ -635,7 +635,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-05-04T23:43:27Z",
+      "last_seen_at": "2026-05-05T09:03:43Z",
       "matched_terms": [
         "DPRK",
         "South Korea",
@@ -662,7 +662,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-05-04T23:43:27Z",
+      "last_seen_at": "2026-05-05T09:03:43Z",
       "matched_terms": [
         "North Korea",
         "South Korean",
@@ -802,7 +802,7 @@
       "first_seen_at": "2026-05-04T23:43:27Z",
       "last_event": "new",
       "last_notified_at": "2026-05-04T23:43:27Z",
-      "last_seen_at": "2026-05-04T23:43:27Z",
+      "last_seen_at": "2026-05-05T09:03:43Z",
       "matched_terms": [
         "Korean Peninsula",
         "South Korea",
@@ -871,7 +871,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-05-04T23:43:27Z",
+      "last_seen_at": "2026-05-05T09:03:43Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1434,6 +1434,24 @@
       "summary": "Identifying priority actions for a just transition in Viet Nam's paper and pulp sector\nvu@ilo.org\nMon, 05/04/2026 - 07:02\nDocument Type\nNews\nCountries\nViet Nam\nRegions\nAsia\nDate of Publication\nTue, 04/21/2026 - 12:00\nEyebrow\nJust transition\nSubject (relevant to topic/sector)\ndecent work\nfuture of work\nemployment\nemployment policy\ngreen jobs\nUnited Nations\nBrief description\nStakeholders from government, industry and trade unions gathered in Hanoi to identify priority actions for a just transition",
       "title": "Identifying priority actions for a just transition in Viet Nam's paper and pulp sector",
       "url": "https://www.ilo.org/resource/news/identifying-priority-actions-just-transition-viet-nams-paper-and-pulp"
+    },
+    "https://www.ilo.org/resource/news/ilo-shares-survey-results-simplified-tax-and-social-insurance-msmes": {
+      "confidence": "high",
+      "content_hash": "f5b36eb074e98a5c5449c3d2c9dbab444febeae66e7b91081a2ffb272d17e6f6",
+      "first_seen_at": "2026-05-05T09:03:43Z",
+      "last_event": "new",
+      "last_notified_at": "2026-05-05T09:03:43Z",
+      "last_seen_at": "2026-05-05T09:03:43Z",
+      "matched_terms": [
+        "South Korean",
+        "Korean"
+      ],
+      "published_at": "Tue, 05 May 2026 07:57:11 +0000",
+      "source_id": "ilo_newsroom",
+      "source_label": "ILO Newsroom",
+      "summary": "ILO shares survey results on simplified tax and social insurance for MSMEs with constituents\ntergel@ilo.org\nTue, 05/05/2026 - 07:57\nDocument Type\nNews\nDate of Publication\nTue, 05/05/2026 - 12:00\nEyebrow\nFormalization of the Informal Economy Project (Phase II)\nBrief description\nILO news - (Mongolia) On 16 February 2026, the ILO national consultant presented the results of a survey to the working group for revising the Law on Supporting Small and Medium Enterprises Services during a virtual meetin",
+      "title": "ILO shares survey results on simplified tax and social insurance for MSMEs with constituents",
+      "url": "https://www.ilo.org/resource/news/ilo-shares-survey-results-simplified-tax-and-social-insurance-msmes"
     },
     "https://www.ilo.org/resource/news/trade-officials-complete-ilo-led-training-support-businesses-through-ai": {
       "confidence": "high",
@@ -2065,7 +2083,7 @@
       "first_seen_at": "2026-04-22T23:38:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-22T23:38:45Z",
-      "last_seen_at": "2026-05-04T23:43:27Z",
+      "last_seen_at": "2026-05-05T09:03:43Z",
       "matched_terms": [
         "South Korea",
         "Korea"
@@ -2575,7 +2593,7 @@
       "first_seen_at": "2026-04-30T16:13:17Z",
       "last_event": "new",
       "last_notified_at": "2026-04-30T16:13:17Z",
-      "last_seen_at": "2026-05-04T23:43:27Z",
+      "last_seen_at": "2026-05-05T09:03:43Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
@@ -2666,7 +2684,7 @@
       "first_seen_at": "2026-05-04T16:25:57Z",
       "last_event": "new",
       "last_notified_at": "2026-05-04T16:25:57Z",
-      "last_seen_at": "2026-05-04T23:43:27Z",
+      "last_seen_at": "2026-05-05T09:03:43Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
