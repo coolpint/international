@@ -251,7 +251,7 @@
       "first_seen_at": "2026-04-22T23:38:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-22T23:38:45Z",
-      "last_seen_at": "2026-05-06T09:15:16Z",
+      "last_seen_at": "2026-05-06T16:23:01Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -273,7 +273,7 @@
       "first_seen_at": "2026-04-15T15:59:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-15T15:59:45Z",
-      "last_seen_at": "2026-05-06T09:15:16Z",
+      "last_seen_at": "2026-05-06T16:23:01Z",
       "matched_terms": [
         "North Korea",
         "Korea",
@@ -316,7 +316,7 @@
       "first_seen_at": "2026-04-23T23:36:35Z",
       "last_event": "new",
       "last_notified_at": "2026-04-23T23:36:35Z",
-      "last_seen_at": "2026-05-06T09:15:16Z",
+      "last_seen_at": "2026-05-06T16:23:01Z",
       "matched_terms": [
         "North Korea",
         "Republic of Korea",
@@ -359,7 +359,7 @@
       "first_seen_at": "2026-04-23T23:36:35Z",
       "last_event": "new",
       "last_notified_at": "2026-04-23T23:36:35Z",
-      "last_seen_at": "2026-05-06T09:15:16Z",
+      "last_seen_at": "2026-05-06T16:23:01Z",
       "matched_terms": [
         "South Korea",
         "North Korean",
@@ -432,7 +432,7 @@
       "first_seen_at": "2026-04-15T15:59:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-15T15:59:45Z",
-      "last_seen_at": "2026-05-06T09:15:16Z",
+      "last_seen_at": "2026-05-06T16:23:01Z",
       "matched_terms": [
         "South Korean",
         "Republic of Korea",
@@ -477,7 +477,7 @@
       "first_seen_at": "2026-04-16T23:32:53Z",
       "last_event": "updated",
       "last_notified_at": "2026-04-25T08:00:20Z",
-      "last_seen_at": "2026-05-06T09:15:16Z",
+      "last_seen_at": "2026-05-06T16:23:01Z",
       "matched_terms": [
         "North Korea",
         "Korea"
@@ -556,7 +556,7 @@
       "first_seen_at": "2026-04-15T15:59:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-15T15:59:45Z",
-      "last_seen_at": "2026-05-06T09:15:16Z",
+      "last_seen_at": "2026-05-06T16:23:01Z",
       "matched_terms": [
         "North Korea",
         "Republic of Korea",
@@ -576,11 +576,11 @@
     },
     "https://www.38north.org/2026/05/project-anthracite-imagery-search-for-possible-nuclear-chemical-and-biological-defense-battalions/": {
       "confidence": "high",
-      "content_hash": "b9c552c0bb9e8a8e0cbbc3207d65ec01f28eee1525b6f4f7aa34c7bd2cc84ee3",
+      "content_hash": "61ed2adf2a9ce742456e4472866e624e881761cc9953d3093b36818dcdb097ed",
       "first_seen_at": "2026-05-04T23:43:27Z",
-      "last_event": "new",
-      "last_notified_at": "2026-05-04T23:43:27Z",
-      "last_seen_at": "2026-05-06T09:15:16Z",
+      "last_event": "updated",
+      "last_notified_at": "2026-05-06T16:23:01Z",
+      "last_seen_at": "2026-05-06T16:23:01Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -601,7 +601,7 @@
       "first_seen_at": "2026-04-03T15:33:11Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-05-06T09:15:16Z",
+      "last_seen_at": "2026-05-06T16:23:01Z",
       "matched_terms": [
         "Korea"
       ],
@@ -618,7 +618,7 @@
       "first_seen_at": "2026-04-20T16:01:59Z",
       "last_event": "new",
       "last_notified_at": null,
-      "last_seen_at": "2026-05-06T09:15:16Z",
+      "last_seen_at": "2026-05-06T16:23:01Z",
       "matched_terms": [
         "Korea"
       ],
@@ -635,7 +635,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-05-06T09:15:16Z",
+      "last_seen_at": "2026-05-06T16:23:01Z",
       "matched_terms": [
         "DPRK",
         "South Korea",
@@ -662,7 +662,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-05-06T09:15:16Z",
+      "last_seen_at": "2026-05-06T16:23:01Z",
       "matched_terms": [
         "North Korea",
         "South Korean",
@@ -802,7 +802,7 @@
       "first_seen_at": "2026-05-04T23:43:27Z",
       "last_event": "new",
       "last_notified_at": "2026-05-04T23:43:27Z",
-      "last_seen_at": "2026-05-06T09:15:16Z",
+      "last_seen_at": "2026-05-06T16:23:01Z",
       "matched_terms": [
         "Korean Peninsula",
         "South Korea",
@@ -1166,6 +1166,25 @@
       "summary": "DRC launches a joint project to strengthen social protection and promote access to decent work\njohnssona@ilo.org\nWed, 03/18/2026 - 23:44\nDocument Type\nNews\nCountries\nCongo, Democratic Republic of the\nRegions\nAfrica\nDate of Publication\nWed, 03/18/2026 - 12:00\nEyebrow\nPress release\nSubject (relevant to topic/sector)\nsocial protection\ndecent work\nemployment\ninformal employment\nemployment policy\nlabour policy\nsocial security policy\ninformal economy\nHero Image\n© OIT\n© OIT\nDes représentants du Gouvern",
       "title": "La RDC lance un projet conjoint pour renforcer la protection sociale et promouvoir l’accès à un travail décent",
       "url": "https://www.ilo.org/fr/resource/actualites/la-rdc-lance-un-projet-conjoint-pour-renforcer-la-protection-sociale-et"
+    },
+    "https://www.ilo.org/meetings-and-events/ai-and-future-nursing-lessons-india-germany-and-republic-korea": {
+      "confidence": "high",
+      "content_hash": "a6f94dc41fe5c56159b65b5e5afb0d5bf3f83b49d488de9ea76ddabb342e11d5",
+      "first_seen_at": "2026-05-06T16:23:01Z",
+      "last_event": "new",
+      "last_notified_at": "2026-05-06T16:23:01Z",
+      "last_seen_at": "2026-05-06T16:23:01Z",
+      "matched_terms": [
+        "Republic of Korea",
+        "South Korea",
+        "Korea"
+      ],
+      "published_at": "Wed, 06 May 2026 10:28:52 +0000",
+      "source_id": "ilo_newsroom",
+      "source_label": "ILO Newsroom",
+      "summary": "AI and the future of nursing: Lessons from India, Germany and the Republic of Korea\nippolitoneira@…\nWed, 05/06/2026 - 10:28\nEvent type\nSeminar\nObjective\nTo commemorate International Nurses Day, the International Labour Organization (ILO) is convening a webinar to present the findings of three studies on the use of digital technologies and AI in nursing carried out in India,\nGermany\n, and the\nRepublic of Korea\n. The authors will present their findings on the types of technology being introduced a",
+      "title": "AI and the future of nursing: Lessons from India, Germany and the Republic of Korea",
+      "url": "https://www.ilo.org/meetings-and-events/ai-and-future-nursing-lessons-india-germany-and-republic-korea"
     },
     "https://www.ilo.org/meetings-and-events/comparative-study-employment-quota-systems-persons-disabilities-east-and": {
       "confidence": "high",
@@ -2083,7 +2102,7 @@
       "first_seen_at": "2026-04-22T23:38:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-22T23:38:45Z",
-      "last_seen_at": "2026-05-06T09:15:16Z",
+      "last_seen_at": "2026-05-06T16:23:01Z",
       "matched_terms": [
         "South Korea",
         "Korea"
@@ -2593,7 +2612,7 @@
       "first_seen_at": "2026-04-30T16:13:17Z",
       "last_event": "new",
       "last_notified_at": "2026-04-30T16:13:17Z",
-      "last_seen_at": "2026-05-06T09:15:16Z",
+      "last_seen_at": "2026-05-06T16:23:01Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
@@ -2684,7 +2703,7 @@
       "first_seen_at": "2026-05-04T16:25:57Z",
       "last_event": "new",
       "last_notified_at": "2026-05-04T16:25:57Z",
-      "last_seen_at": "2026-05-06T09:15:16Z",
+      "last_seen_at": "2026-05-06T16:23:01Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
