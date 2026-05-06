@@ -251,7 +251,7 @@
       "first_seen_at": "2026-04-22T23:38:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-22T23:38:45Z",
-      "last_seen_at": "2026-05-06T16:23:01Z",
+      "last_seen_at": "2026-05-06T23:40:54Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -273,7 +273,7 @@
       "first_seen_at": "2026-04-15T15:59:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-15T15:59:45Z",
-      "last_seen_at": "2026-05-06T16:23:01Z",
+      "last_seen_at": "2026-05-06T23:40:54Z",
       "matched_terms": [
         "North Korea",
         "Korea",
@@ -316,7 +316,7 @@
       "first_seen_at": "2026-04-23T23:36:35Z",
       "last_event": "new",
       "last_notified_at": "2026-04-23T23:36:35Z",
-      "last_seen_at": "2026-05-06T16:23:01Z",
+      "last_seen_at": "2026-05-06T23:40:54Z",
       "matched_terms": [
         "North Korea",
         "Republic of Korea",
@@ -359,7 +359,7 @@
       "first_seen_at": "2026-04-23T23:36:35Z",
       "last_event": "new",
       "last_notified_at": "2026-04-23T23:36:35Z",
-      "last_seen_at": "2026-05-06T16:23:01Z",
+      "last_seen_at": "2026-05-06T23:40:54Z",
       "matched_terms": [
         "South Korea",
         "North Korean",
@@ -432,7 +432,7 @@
       "first_seen_at": "2026-04-15T15:59:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-15T15:59:45Z",
-      "last_seen_at": "2026-05-06T16:23:01Z",
+      "last_seen_at": "2026-05-06T23:40:54Z",
       "matched_terms": [
         "South Korean",
         "Republic of Korea",
@@ -477,7 +477,7 @@
       "first_seen_at": "2026-04-16T23:32:53Z",
       "last_event": "updated",
       "last_notified_at": "2026-04-25T08:00:20Z",
-      "last_seen_at": "2026-05-06T16:23:01Z",
+      "last_seen_at": "2026-05-06T23:40:54Z",
       "matched_terms": [
         "North Korea",
         "Korea"
@@ -556,7 +556,7 @@
       "first_seen_at": "2026-04-15T15:59:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-15T15:59:45Z",
-      "last_seen_at": "2026-05-06T16:23:01Z",
+      "last_seen_at": "2026-05-06T23:40:54Z",
       "matched_terms": [
         "North Korea",
         "Republic of Korea",
@@ -580,7 +580,7 @@
       "first_seen_at": "2026-05-04T23:43:27Z",
       "last_event": "updated",
       "last_notified_at": "2026-05-06T16:23:01Z",
-      "last_seen_at": "2026-05-06T16:23:01Z",
+      "last_seen_at": "2026-05-06T23:40:54Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -601,7 +601,7 @@
       "first_seen_at": "2026-04-03T15:33:11Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-05-06T16:23:01Z",
+      "last_seen_at": "2026-05-06T23:40:54Z",
       "matched_terms": [
         "Korea"
       ],
@@ -618,7 +618,7 @@
       "first_seen_at": "2026-04-20T16:01:59Z",
       "last_event": "new",
       "last_notified_at": null,
-      "last_seen_at": "2026-05-06T16:23:01Z",
+      "last_seen_at": "2026-05-06T23:40:54Z",
       "matched_terms": [
         "Korea"
       ],
@@ -635,7 +635,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-05-06T16:23:01Z",
+      "last_seen_at": "2026-05-06T23:40:54Z",
       "matched_terms": [
         "DPRK",
         "South Korea",
@@ -662,7 +662,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-05-06T16:23:01Z",
+      "last_seen_at": "2026-05-06T23:40:54Z",
       "matched_terms": [
         "North Korea",
         "South Korean",
@@ -802,7 +802,7 @@
       "first_seen_at": "2026-05-04T23:43:27Z",
       "last_event": "new",
       "last_notified_at": "2026-05-04T23:43:27Z",
-      "last_seen_at": "2026-05-06T16:23:01Z",
+      "last_seen_at": "2026-05-06T23:40:54Z",
       "matched_terms": [
         "Korean Peninsula",
         "South Korea",
@@ -1173,7 +1173,7 @@
       "first_seen_at": "2026-05-06T16:23:01Z",
       "last_event": "new",
       "last_notified_at": "2026-05-06T16:23:01Z",
-      "last_seen_at": "2026-05-06T16:23:01Z",
+      "last_seen_at": "2026-05-06T23:40:54Z",
       "matched_terms": [
         "Republic of Korea",
         "South Korea",
@@ -1583,6 +1583,26 @@
       "summary": "The Justice Department today announced the sentencings of two U.S. nationals, Kejia Wang, 42, and Zhenxing Wang, 39, for their roles in facilitating North Korean remote information technology (IT) workers posing as U.S. residents to obtain work at more than 100 U.S. companies. The multi-year scheme used the stolen identities of at least 80 U.S. persons and generated more than $5 million in illicit revenue for the government of the Democratic People’s Republic of Korea (DPRK).",
       "title": "Two U.S. Nationals Sentenced for Facilitating Fraudulent Remote Information Technology Worker Scheme that Generated $5M in Revenue for the Democratic People’s Republic of Korea",
       "url": "https://www.justice.gov/opa/pr/two-us-nationals-sentenced-facilitating-fraudulent-remote-information-technology-worker"
+    },
+    "https://www.justice.gov/opa/pr/two-us-nationals-sentenced-facilitating-fraudulent-remote-information-technology-worker-0": {
+      "confidence": "high",
+      "content_hash": "4b8413e7bfbd1c9a2413abd896c1515f93bbe38507b806a611c7e09df64baed5",
+      "first_seen_at": "2026-05-06T23:40:54Z",
+      "last_event": "new",
+      "last_notified_at": "2026-05-06T23:40:54Z",
+      "last_seen_at": "2026-05-06T23:40:54Z",
+      "matched_terms": [
+        "Republic of Korea",
+        "Democratic People’s Republic of Korea",
+        "DPRK",
+        "Korea"
+      ],
+      "published_at": "Wed, 06 May 2026 12:00:00 +0000",
+      "source_id": "doj_press_releases",
+      "source_label": "DOJ Press Releases",
+      "summary": "The Justice Department today announced the sentencings in separate cases of two U.S. nationals, Matthew Issac Knoot, of Nashville, Tennessee, and Erick Ntekereze Prince, of New York, for their roles in facilitating Democratic People’s Republic of Korea (DPRK) remote information technology (IT) workers. Knoot was sentenced to 18 months in prison and Prince was sentenced to 18 months in prison. Both men received and hosted laptop computers at their residences that victim U.S. companies shipped to ",
+      "title": "Two U.S. Nationals Sentenced for Facilitating Fraudulent Remote Information Technology Worker Schemes to Generate Revenue for the Democratic People’s Republic of Korea",
+      "url": "https://www.justice.gov/opa/pr/two-us-nationals-sentenced-facilitating-fraudulent-remote-information-technology-worker-0"
     },
     "https://www.nknews.org/2026/04/a-unified-korea-is-less-threatening-to-china-than-us-military-presence-expert/": {
       "confidence": "high",
@@ -2102,7 +2122,7 @@
       "first_seen_at": "2026-04-22T23:38:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-22T23:38:45Z",
-      "last_seen_at": "2026-05-06T16:23:01Z",
+      "last_seen_at": "2026-05-06T23:40:54Z",
       "matched_terms": [
         "South Korea",
         "Korea"
@@ -2612,7 +2632,7 @@
       "first_seen_at": "2026-04-30T16:13:17Z",
       "last_event": "new",
       "last_notified_at": "2026-04-30T16:13:17Z",
-      "last_seen_at": "2026-05-06T16:23:01Z",
+      "last_seen_at": "2026-05-06T23:40:54Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
@@ -2703,7 +2723,7 @@
       "first_seen_at": "2026-05-04T16:25:57Z",
       "last_event": "new",
       "last_notified_at": "2026-05-04T16:25:57Z",
-      "last_seen_at": "2026-05-06T16:23:01Z",
+      "last_seen_at": "2026-05-06T23:40:54Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
