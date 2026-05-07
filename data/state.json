@@ -251,7 +251,7 @@
       "first_seen_at": "2026-04-22T23:38:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-22T23:38:45Z",
-      "last_seen_at": "2026-05-07T09:26:01Z",
+      "last_seen_at": "2026-05-07T16:43:14Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -273,7 +273,7 @@
       "first_seen_at": "2026-04-15T15:59:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-15T15:59:45Z",
-      "last_seen_at": "2026-05-07T09:26:01Z",
+      "last_seen_at": "2026-05-07T16:43:14Z",
       "matched_terms": [
         "North Korea",
         "Korea",
@@ -316,7 +316,7 @@
       "first_seen_at": "2026-04-23T23:36:35Z",
       "last_event": "new",
       "last_notified_at": "2026-04-23T23:36:35Z",
-      "last_seen_at": "2026-05-07T09:26:01Z",
+      "last_seen_at": "2026-05-07T16:43:14Z",
       "matched_terms": [
         "North Korea",
         "Republic of Korea",
@@ -359,7 +359,7 @@
       "first_seen_at": "2026-04-23T23:36:35Z",
       "last_event": "new",
       "last_notified_at": "2026-04-23T23:36:35Z",
-      "last_seen_at": "2026-05-07T09:26:01Z",
+      "last_seen_at": "2026-05-07T16:43:14Z",
       "matched_terms": [
         "South Korea",
         "North Korean",
@@ -432,7 +432,7 @@
       "first_seen_at": "2026-04-15T15:59:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-15T15:59:45Z",
-      "last_seen_at": "2026-05-07T09:26:01Z",
+      "last_seen_at": "2026-05-07T16:43:14Z",
       "matched_terms": [
         "South Korean",
         "Republic of Korea",
@@ -477,7 +477,7 @@
       "first_seen_at": "2026-04-16T23:32:53Z",
       "last_event": "updated",
       "last_notified_at": "2026-04-25T08:00:20Z",
-      "last_seen_at": "2026-05-07T09:26:01Z",
+      "last_seen_at": "2026-05-07T16:43:14Z",
       "matched_terms": [
         "North Korea",
         "Korea"
@@ -556,7 +556,7 @@
       "first_seen_at": "2026-04-15T15:59:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-15T15:59:45Z",
-      "last_seen_at": "2026-05-07T09:26:01Z",
+      "last_seen_at": "2026-05-07T16:43:14Z",
       "matched_terms": [
         "North Korea",
         "Republic of Korea",
@@ -580,7 +580,7 @@
       "first_seen_at": "2026-05-04T23:43:27Z",
       "last_event": "updated",
       "last_notified_at": "2026-05-06T16:23:01Z",
-      "last_seen_at": "2026-05-07T09:26:01Z",
+      "last_seen_at": "2026-05-07T16:43:14Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -601,7 +601,7 @@
       "first_seen_at": "2026-04-03T15:33:11Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-05-07T09:26:01Z",
+      "last_seen_at": "2026-05-07T16:43:14Z",
       "matched_terms": [
         "Korea"
       ],
@@ -618,7 +618,7 @@
       "first_seen_at": "2026-04-20T16:01:59Z",
       "last_event": "new",
       "last_notified_at": null,
-      "last_seen_at": "2026-05-07T09:26:01Z",
+      "last_seen_at": "2026-05-07T16:43:14Z",
       "matched_terms": [
         "Korea"
       ],
@@ -635,7 +635,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-05-07T09:26:01Z",
+      "last_seen_at": "2026-05-07T16:43:14Z",
       "matched_terms": [
         "DPRK",
         "South Korea",
@@ -662,7 +662,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-05-07T09:26:01Z",
+      "last_seen_at": "2026-05-07T16:43:14Z",
       "matched_terms": [
         "North Korea",
         "South Korean",
@@ -802,7 +802,7 @@
       "first_seen_at": "2026-05-04T23:43:27Z",
       "last_event": "new",
       "last_notified_at": "2026-05-04T23:43:27Z",
-      "last_seen_at": "2026-05-07T09:26:01Z",
+      "last_seen_at": "2026-05-07T16:43:14Z",
       "matched_terms": [
         "Korean Peninsula",
         "South Korea",
@@ -1472,6 +1472,24 @@
       "title": "ILO shares survey results on simplified tax and social insurance for MSMEs with constituents",
       "url": "https://www.ilo.org/resource/news/ilo-shares-survey-results-simplified-tax-and-social-insurance-msmes"
     },
+    "https://www.ilo.org/resource/news/social-and-solidarity-economy-highlighted-concrete-pathway-well-being": {
+      "confidence": "high",
+      "content_hash": "5eb3b40ed6e4011c2f19cdbe05fdb510ce75841b6a11939d7d20056c7b378cd1",
+      "first_seen_at": "2026-05-07T16:43:14Z",
+      "last_event": "new",
+      "last_notified_at": "2026-05-07T16:43:14Z",
+      "last_seen_at": "2026-05-07T16:43:14Z",
+      "matched_terms": [
+        "Republic of Korea",
+        "Korea"
+      ],
+      "published_at": "Thu, 07 May 2026 15:48:35 +0000",
+      "source_id": "ilo_newsroom",
+      "source_label": "ILO Newsroom",
+      "summary": "Social and solidarity economy highlighted as a concrete pathway for well-being-centred development at Geneva conference\nbvumbe@ilo.org\nThu, 05/07/2026 - 15:48\nDocument Type\nNews\nRegions\nGlobal\nDate of Publication\nMon, 04/27/2026 - 12:00\nSubject (relevant to topic/sector)\ndecent work\nsustainable development\ncooperatives\nsocial and solidarity economy\nenterprises\nhuman rights\nsocial justice\nBrief description\nAt a high-level conference at ILO headquarters in Geneva on eradicating poverty beyond grow",
+      "title": "Social and solidarity economy highlighted as a concrete pathway for well-being-centred development at Geneva conference",
+      "url": "https://www.ilo.org/resource/news/social-and-solidarity-economy-highlighted-concrete-pathway-well-being"
+    },
     "https://www.ilo.org/resource/news/trade-officials-complete-ilo-led-training-support-businesses-through-ai": {
       "confidence": "high",
       "content_hash": "6160aaa862dc02c47bef913042186e108d7dd280d93512029dbc8686334be1b6",
@@ -1590,7 +1608,7 @@
       "first_seen_at": "2026-05-06T23:40:54Z",
       "last_event": "new",
       "last_notified_at": "2026-05-06T23:40:54Z",
-      "last_seen_at": "2026-05-07T09:26:01Z",
+      "last_seen_at": "2026-05-07T16:43:14Z",
       "matched_terms": [
         "Republic of Korea",
         "Democratic People’s Republic of Korea",
@@ -2122,7 +2140,7 @@
       "first_seen_at": "2026-04-22T23:38:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-22T23:38:45Z",
-      "last_seen_at": "2026-05-07T09:26:01Z",
+      "last_seen_at": "2026-05-07T16:43:14Z",
       "matched_terms": [
         "South Korea",
         "Korea"
@@ -2152,6 +2170,28 @@
       "summary": "Ripples of economic disruption radiating from the attack on Iran by Israel and the US give notice of the effect a war over Taiwan would spread through the world.",
       "title": "Gulf War III is a Warning About the Effects of a ‘Taiwan Straits War I’",
       "url": "https://www.rusi.org/explore-our-research/publications/commentary/gulf-war-iii-warning-about-effects-taiwan-straits-war-i"
+    },
+    "https://www.rusi.org/explore-our-research/publications/insights-papers/evaluating-russian-support-north-koreas-nuclear-weapons": {
+      "confidence": "high",
+      "content_hash": "f6f5cb4159de31c23d6c8add08a593de116a464ef287299cd803f21547f35602",
+      "first_seen_at": "2026-05-07T16:43:14Z",
+      "last_event": "new",
+      "last_notified_at": "2026-05-07T16:43:14Z",
+      "last_seen_at": "2026-05-07T16:43:14Z",
+      "matched_terms": [
+        "North Korea",
+        "South Korean",
+        "North Korean",
+        "Korea",
+        "Korean",
+        "Pyongyang"
+      ],
+      "published_at": "Thu, 07 May 2026 09:48:57 GMT",
+      "source_id": "rusi_publications",
+      "source_label": "RUSI Publications",
+      "summary": "Russia’s partnership with North Korea could advance Pyongyang’s nuclear weapons programme through technical aid and proliferation financing, particularly in the absence of global controls.",
+      "title": "Evaluating Russian Support for North Korea’s Nuclear Weapons",
+      "url": "https://www.rusi.org/explore-our-research/publications/insights-papers/evaluating-russian-support-north-koreas-nuclear-weapons"
     },
     "https://www.rusi.org/explore-our-research/publications/research-papers/strengthening-uk-south-korea-cyber-security-cooperation": {
       "confidence": "high",
@@ -2632,7 +2672,7 @@
       "first_seen_at": "2026-04-30T16:13:17Z",
       "last_event": "new",
       "last_notified_at": "2026-04-30T16:13:17Z",
-      "last_seen_at": "2026-05-07T09:26:01Z",
+      "last_seen_at": "2026-05-07T16:43:14Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
@@ -2723,7 +2763,7 @@
       "first_seen_at": "2026-05-04T16:25:57Z",
       "last_event": "new",
       "last_notified_at": "2026-05-04T16:25:57Z",
-      "last_seen_at": "2026-05-07T09:26:01Z",
+      "last_seen_at": "2026-05-07T16:43:14Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
