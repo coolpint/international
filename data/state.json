@@ -251,7 +251,7 @@
       "first_seen_at": "2026-04-22T23:38:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-22T23:38:45Z",
-      "last_seen_at": "2026-05-12T09:29:44Z",
+      "last_seen_at": "2026-05-12T17:02:27Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -273,7 +273,7 @@
       "first_seen_at": "2026-04-15T15:59:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-15T15:59:45Z",
-      "last_seen_at": "2026-05-12T09:29:44Z",
+      "last_seen_at": "2026-05-12T17:02:27Z",
       "matched_terms": [
         "North Korea",
         "Korea",
@@ -316,7 +316,7 @@
       "first_seen_at": "2026-04-23T23:36:35Z",
       "last_event": "new",
       "last_notified_at": "2026-04-23T23:36:35Z",
-      "last_seen_at": "2026-05-12T09:29:44Z",
+      "last_seen_at": "2026-05-12T17:02:27Z",
       "matched_terms": [
         "North Korea",
         "Republic of Korea",
@@ -359,7 +359,7 @@
       "first_seen_at": "2026-04-23T23:36:35Z",
       "last_event": "new",
       "last_notified_at": "2026-04-23T23:36:35Z",
-      "last_seen_at": "2026-05-12T09:29:44Z",
+      "last_seen_at": "2026-05-12T17:02:27Z",
       "matched_terms": [
         "South Korea",
         "North Korean",
@@ -477,7 +477,7 @@
       "first_seen_at": "2026-04-16T23:32:53Z",
       "last_event": "updated",
       "last_notified_at": "2026-04-25T08:00:20Z",
-      "last_seen_at": "2026-05-12T09:29:44Z",
+      "last_seen_at": "2026-05-12T17:02:27Z",
       "matched_terms": [
         "North Korea",
         "Korea"
@@ -556,7 +556,7 @@
       "first_seen_at": "2026-04-15T15:59:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-15T15:59:45Z",
-      "last_seen_at": "2026-05-12T09:29:44Z",
+      "last_seen_at": "2026-05-12T17:02:27Z",
       "matched_terms": [
         "North Korea",
         "Republic of Korea",
@@ -580,7 +580,7 @@
       "first_seen_at": "2026-05-04T23:43:27Z",
       "last_event": "updated",
       "last_notified_at": "2026-05-06T16:23:01Z",
-      "last_seen_at": "2026-05-12T09:29:44Z",
+      "last_seen_at": "2026-05-12T17:02:27Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -595,13 +595,37 @@
       "title": "Project Anthracite: Imagery Search for Possible Nuclear, Chemical, and Biological Defense Battalions",
       "url": "https://www.38north.org/2026/05/project-anthracite-imagery-search-for-possible-nuclear-chemical-and-biological-defense-battalions/"
     },
+    "https://www.38north.org/2026/05/quick-take-the-leader-gets-a-strong-constitution/": {
+      "confidence": "high",
+      "content_hash": "265f382799e488013a8ed2af93b8206b3fa0b7a455672f608e66bd8f32daac3b",
+      "first_seen_at": "2026-05-12T17:02:27Z",
+      "last_event": "new",
+      "last_notified_at": "2026-05-12T17:02:27Z",
+      "last_seen_at": "2026-05-12T17:02:27Z",
+      "matched_terms": [
+        "South Korean",
+        "Republic of Korea",
+        "North Korea",
+        "North Korean",
+        "Democratic People’s Republic of Korea",
+        "DPRK",
+        "Korea",
+        "Korean"
+      ],
+      "published_at": "Tue, 12 May 2026 16:20:22 +0000",
+      "source_id": "thirty_eight_north",
+      "source_label": "38 North",
+      "summary": "The most recent North Korean (Democratic People’s Republic of Korea or DPRK) constitution was ...\nThe post\nQuick Take: The Leader Gets a Strong Constitution\nappeared first on\n38 North\n.",
+      "title": "Quick Take: The Leader Gets a Strong Constitution",
+      "url": "https://www.38north.org/2026/05/quick-take-the-leader-gets-a-strong-constitution/"
+    },
     "https://www.bis.org/press/p260322.htm": {
       "confidence": "medium",
       "content_hash": "26df461f780b89a6555243819e200b44dbf4171d6ac30351655afcaf14ab9f95",
       "first_seen_at": "2026-04-03T15:33:11Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-05-12T09:29:44Z",
+      "last_seen_at": "2026-05-12T17:02:27Z",
       "matched_terms": [
         "Korea"
       ],
@@ -618,7 +642,7 @@
       "first_seen_at": "2026-04-20T16:01:59Z",
       "last_event": "new",
       "last_notified_at": null,
-      "last_seen_at": "2026-05-12T09:29:44Z",
+      "last_seen_at": "2026-05-12T17:02:27Z",
       "matched_terms": [
         "Korea"
       ],
@@ -635,7 +659,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-05-12T09:29:44Z",
+      "last_seen_at": "2026-05-12T17:02:27Z",
       "matched_terms": [
         "DPRK",
         "South Korea",
@@ -662,7 +686,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-05-12T09:29:44Z",
+      "last_seen_at": "2026-05-12T17:02:27Z",
       "matched_terms": [
         "North Korea",
         "South Korean",
@@ -802,7 +826,7 @@
       "first_seen_at": "2026-05-04T23:43:27Z",
       "last_event": "new",
       "last_notified_at": "2026-05-04T23:43:27Z",
-      "last_seen_at": "2026-05-12T09:29:44Z",
+      "last_seen_at": "2026-05-12T17:02:27Z",
       "matched_terms": [
         "Korean Peninsula",
         "South Korea",
@@ -2177,7 +2201,7 @@
       "first_seen_at": "2026-05-07T16:43:14Z",
       "last_event": "new",
       "last_notified_at": "2026-05-07T16:43:14Z",
-      "last_seen_at": "2026-05-12T09:29:44Z",
+      "last_seen_at": "2026-05-12T17:02:27Z",
       "matched_terms": [
         "North Korea",
         "South Korean",
@@ -2672,7 +2696,7 @@
       "first_seen_at": "2026-04-30T16:13:17Z",
       "last_event": "new",
       "last_notified_at": "2026-04-30T16:13:17Z",
-      "last_seen_at": "2026-05-12T09:29:44Z",
+      "last_seen_at": "2026-05-12T17:02:27Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
@@ -2763,7 +2787,7 @@
       "first_seen_at": "2026-05-04T16:25:57Z",
       "last_event": "new",
       "last_notified_at": "2026-05-04T16:25:57Z",
-      "last_seen_at": "2026-05-12T09:29:44Z",
+      "last_seen_at": "2026-05-12T17:02:27Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
