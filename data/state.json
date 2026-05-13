@@ -251,7 +251,7 @@
       "first_seen_at": "2026-04-22T23:38:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-22T23:38:45Z",
-      "last_seen_at": "2026-05-12T23:51:15Z",
+      "last_seen_at": "2026-05-13T09:36:08Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -273,7 +273,7 @@
       "first_seen_at": "2026-04-15T15:59:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-15T15:59:45Z",
-      "last_seen_at": "2026-05-12T23:51:15Z",
+      "last_seen_at": "2026-05-13T09:36:08Z",
       "matched_terms": [
         "North Korea",
         "Korea",
@@ -316,7 +316,7 @@
       "first_seen_at": "2026-04-23T23:36:35Z",
       "last_event": "new",
       "last_notified_at": "2026-04-23T23:36:35Z",
-      "last_seen_at": "2026-05-12T23:51:15Z",
+      "last_seen_at": "2026-05-13T09:36:08Z",
       "matched_terms": [
         "North Korea",
         "Republic of Korea",
@@ -359,7 +359,7 @@
       "first_seen_at": "2026-04-23T23:36:35Z",
       "last_event": "new",
       "last_notified_at": "2026-04-23T23:36:35Z",
-      "last_seen_at": "2026-05-12T23:51:15Z",
+      "last_seen_at": "2026-05-13T09:36:08Z",
       "matched_terms": [
         "South Korea",
         "North Korean",
@@ -477,7 +477,7 @@
       "first_seen_at": "2026-04-16T23:32:53Z",
       "last_event": "updated",
       "last_notified_at": "2026-04-25T08:00:20Z",
-      "last_seen_at": "2026-05-12T23:51:15Z",
+      "last_seen_at": "2026-05-13T09:36:08Z",
       "matched_terms": [
         "North Korea",
         "Korea"
@@ -556,7 +556,7 @@
       "first_seen_at": "2026-04-15T15:59:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-15T15:59:45Z",
-      "last_seen_at": "2026-05-12T23:51:15Z",
+      "last_seen_at": "2026-05-13T09:36:08Z",
       "matched_terms": [
         "North Korea",
         "Republic of Korea",
@@ -580,7 +580,7 @@
       "first_seen_at": "2026-05-04T23:43:27Z",
       "last_event": "updated",
       "last_notified_at": "2026-05-06T16:23:01Z",
-      "last_seen_at": "2026-05-12T23:51:15Z",
+      "last_seen_at": "2026-05-13T09:36:08Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -601,7 +601,7 @@
       "first_seen_at": "2026-05-12T17:02:27Z",
       "last_event": "new",
       "last_notified_at": "2026-05-12T17:02:27Z",
-      "last_seen_at": "2026-05-12T23:51:15Z",
+      "last_seen_at": "2026-05-13T09:36:08Z",
       "matched_terms": [
         "South Korean",
         "Republic of Korea",
@@ -625,7 +625,7 @@
       "first_seen_at": "2026-04-03T15:33:11Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-05-12T23:51:15Z",
+      "last_seen_at": "2026-05-13T09:36:08Z",
       "matched_terms": [
         "Korea"
       ],
@@ -642,7 +642,7 @@
       "first_seen_at": "2026-04-20T16:01:59Z",
       "last_event": "new",
       "last_notified_at": null,
-      "last_seen_at": "2026-05-12T23:51:15Z",
+      "last_seen_at": "2026-05-13T09:36:08Z",
       "matched_terms": [
         "Korea"
       ],
@@ -659,7 +659,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-05-12T23:51:15Z",
+      "last_seen_at": "2026-05-13T09:36:08Z",
       "matched_terms": [
         "DPRK",
         "South Korea",
@@ -686,7 +686,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-05-12T23:51:15Z",
+      "last_seen_at": "2026-05-13T09:36:08Z",
       "matched_terms": [
         "North Korea",
         "South Korean",
@@ -826,7 +826,7 @@
       "first_seen_at": "2026-05-04T23:43:27Z",
       "last_event": "new",
       "last_notified_at": "2026-05-04T23:43:27Z",
-      "last_seen_at": "2026-05-12T23:51:15Z",
+      "last_seen_at": "2026-05-13T09:36:08Z",
       "matched_terms": [
         "Korean Peninsula",
         "South Korea",
@@ -1210,6 +1210,25 @@
       "title": "AI and the future of nursing: Lessons from India, Germany and the Republic of Korea",
       "url": "https://www.ilo.org/meetings-and-events/ai-and-future-nursing-lessons-india-germany-and-republic-korea"
     },
+    "https://www.ilo.org/meetings-and-events/ai-and-future-nursing-lessons-india-germany-and-republic-korea-0": {
+      "confidence": "high",
+      "content_hash": "0bf533385b052e56d2d0679666810eceb8eeb0788f930b34aeec3628d83ed9c4",
+      "first_seen_at": "2026-05-13T09:36:08Z",
+      "last_event": "new",
+      "last_notified_at": "2026-05-13T09:36:08Z",
+      "last_seen_at": "2026-05-13T09:36:08Z",
+      "matched_terms": [
+        "Republic of Korea",
+        "South Korea",
+        "Korea"
+      ],
+      "published_at": "Wed, 13 May 2026 07:51:32 +0000",
+      "source_id": "ilo_newsroom",
+      "source_label": "ILO Newsroom",
+      "summary": "AI and the future of nursing: Lessons from India, Germany and the Republic of Korea\nILO Live API\nWed, 05/13/2026 - 07:51\nCountries\nSwitzerland\nSubject (relevant to topic/sector)\nartificial intelligence\nhealth services sector\nhealth policy\nhealth\noccupational health services\noccupational safety and health\nresearch\nEyebrow\nILO Live\nStart Date\nTue, 05/12/2026 - 12:00\nEnd Date\nTue, 05/12/2026 - 12:00\nAbstract\nObjectiveTo commemorate International Nurses Day, the International Labour Organization (IL",
+      "title": "AI and the future of nursing: Lessons from India, Germany and the Republic of Korea",
+      "url": "https://www.ilo.org/meetings-and-events/ai-and-future-nursing-lessons-india-germany-and-republic-korea-0"
+    },
     "https://www.ilo.org/meetings-and-events/comparative-study-employment-quota-systems-persons-disabilities-east-and": {
       "confidence": "high",
       "content_hash": "64f92e2b0f0fb747edeeee60bc8eca2300794067678872449eec832623fc185a",
@@ -1245,6 +1264,24 @@
       "summary": "ILO at the International Migration Review Forum\ndard@ilo.org\nTue, 04/28/2026 - 10:14\nEvent type\nConference\nSince 2018, Member States have committed to reviewing progress in implementing the Global Compact for Safe, Orderly and Regular Migration (GCM) through a UN-led, State-driven process with broad stakeholder participation.\nThe second International Migration Review Forum (IMRF) will assess progress and set priorities for the next five years, including on rights-based labour migration governanc",
       "title": "ILO at the International Migration Review Forum",
       "url": "https://www.ilo.org/meetings-and-events/ilo-international-migration-review-forum"
+    },
+    "https://www.ilo.org/nursing-and-artificial-intelligence": {
+      "confidence": "high",
+      "content_hash": "d5e666f81d14e5a33a2b14bc108f232ce8e999837b36e90974c75cfa5da85263",
+      "first_seen_at": "2026-05-13T09:36:08Z",
+      "last_event": "new",
+      "last_notified_at": "2026-05-13T09:36:08Z",
+      "last_seen_at": "2026-05-13T09:36:08Z",
+      "matched_terms": [
+        "Republic of Korea",
+        "Korea"
+      ],
+      "published_at": "Wed, 13 May 2026 08:43:42 +0000",
+      "source_id": "ilo_newsroom",
+      "source_label": "ILO Newsroom",
+      "summary": "Nursing and Artificial Intelligence\nserra@ilo.org\nWed, 05/13/2026 - 08:43\nNursing and Artificial Intelligence in the Republic of Korea\nILO Working Paper 168\nNursing and Artificial Intelligence in the Republic of Korea\n21 April 2026\nArtificial Intelligence (AI) in the Nursing Profession in Germany\nILO Working paper 161\nArtificial Intelligence (AI) in the Nursing Profession in Germany\n23 February 2026\nAI and the future of nursing: Lessons from India, Germany and the Republic of Korea\nResearch webi",
+      "title": "Nursing and Artificial Intelligence",
+      "url": "https://www.ilo.org/nursing-and-artificial-intelligence"
     },
     "https://www.ilo.org/projects-and-partnerships/projects/delivering-national-commitments-korea%E2%80%99s-support-implementation-global": {
       "confidence": "high",
@@ -2201,7 +2238,7 @@
       "first_seen_at": "2026-05-07T16:43:14Z",
       "last_event": "new",
       "last_notified_at": "2026-05-07T16:43:14Z",
-      "last_seen_at": "2026-05-12T23:51:15Z",
+      "last_seen_at": "2026-05-13T09:36:08Z",
       "matched_terms": [
         "North Korea",
         "South Korean",
@@ -2696,7 +2733,7 @@
       "first_seen_at": "2026-04-30T16:13:17Z",
       "last_event": "new",
       "last_notified_at": "2026-04-30T16:13:17Z",
-      "last_seen_at": "2026-05-12T23:51:15Z",
+      "last_seen_at": "2026-05-13T09:36:08Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
@@ -2787,7 +2824,7 @@
       "first_seen_at": "2026-05-04T16:25:57Z",
       "last_event": "new",
       "last_notified_at": "2026-05-04T16:25:57Z",
-      "last_seen_at": "2026-05-12T23:51:15Z",
+      "last_seen_at": "2026-05-13T09:36:08Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
