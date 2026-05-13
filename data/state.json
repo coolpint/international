@@ -251,7 +251,7 @@
       "first_seen_at": "2026-04-22T23:38:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-22T23:38:45Z",
-      "last_seen_at": "2026-05-13T09:36:08Z",
+      "last_seen_at": "2026-05-13T17:08:17Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -316,7 +316,7 @@
       "first_seen_at": "2026-04-23T23:36:35Z",
       "last_event": "new",
       "last_notified_at": "2026-04-23T23:36:35Z",
-      "last_seen_at": "2026-05-13T09:36:08Z",
+      "last_seen_at": "2026-05-13T17:08:17Z",
       "matched_terms": [
         "North Korea",
         "Republic of Korea",
@@ -359,7 +359,7 @@
       "first_seen_at": "2026-04-23T23:36:35Z",
       "last_event": "new",
       "last_notified_at": "2026-04-23T23:36:35Z",
-      "last_seen_at": "2026-05-13T09:36:08Z",
+      "last_seen_at": "2026-05-13T17:08:17Z",
       "matched_terms": [
         "South Korea",
         "North Korean",
@@ -477,7 +477,7 @@
       "first_seen_at": "2026-04-16T23:32:53Z",
       "last_event": "updated",
       "last_notified_at": "2026-04-25T08:00:20Z",
-      "last_seen_at": "2026-05-13T09:36:08Z",
+      "last_seen_at": "2026-05-13T17:08:17Z",
       "matched_terms": [
         "North Korea",
         "Korea"
@@ -556,7 +556,7 @@
       "first_seen_at": "2026-04-15T15:59:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-15T15:59:45Z",
-      "last_seen_at": "2026-05-13T09:36:08Z",
+      "last_seen_at": "2026-05-13T17:08:17Z",
       "matched_terms": [
         "North Korea",
         "Republic of Korea",
@@ -580,7 +580,7 @@
       "first_seen_at": "2026-05-04T23:43:27Z",
       "last_event": "updated",
       "last_notified_at": "2026-05-06T16:23:01Z",
-      "last_seen_at": "2026-05-13T09:36:08Z",
+      "last_seen_at": "2026-05-13T17:08:17Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -601,7 +601,7 @@
       "first_seen_at": "2026-05-12T17:02:27Z",
       "last_event": "new",
       "last_notified_at": "2026-05-12T17:02:27Z",
-      "last_seen_at": "2026-05-13T09:36:08Z",
+      "last_seen_at": "2026-05-13T17:08:17Z",
       "matched_terms": [
         "South Korean",
         "Republic of Korea",
@@ -619,13 +619,35 @@
       "title": "Quick Take: The Leader Gets a Strong Constitution",
       "url": "https://www.38north.org/2026/05/quick-take-the-leader-gets-a-strong-constitution/"
     },
+    "https://www.38north.org/2026/05/tracing-russian-linkages-in-north-koreas-expanding-nuclear-complex/": {
+      "confidence": "high",
+      "content_hash": "af767aa95c4c6d70e550c96e927ad9684dd61de511568629b065ecf6a10e48ab",
+      "first_seen_at": "2026-05-13T17:08:17Z",
+      "last_event": "new",
+      "last_notified_at": "2026-05-13T17:08:17Z",
+      "last_seen_at": "2026-05-13T17:08:17Z",
+      "matched_terms": [
+        "North Korea",
+        "Korean Peninsula",
+        "Korea",
+        "Korean",
+        "Seoul",
+        "Pyongyang"
+      ],
+      "published_at": "Wed, 13 May 2026 14:28:36 +0000",
+      "source_id": "thirty_eight_north",
+      "source_label": "38 North",
+      "summary": "North Korea’s growing nuclear capabilities have recently come back into public focus. Speaking ...\nThe post\nTracing Russian Linkages in North Korea’s Expanding Nuclear Complex\nappeared first on\n38 North\n.",
+      "title": "Tracing Russian Linkages in North Korea’s Expanding Nuclear Complex",
+      "url": "https://www.38north.org/2026/05/tracing-russian-linkages-in-north-koreas-expanding-nuclear-complex/"
+    },
     "https://www.bis.org/press/p260322.htm": {
       "confidence": "medium",
       "content_hash": "26df461f780b89a6555243819e200b44dbf4171d6ac30351655afcaf14ab9f95",
       "first_seen_at": "2026-04-03T15:33:11Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-05-13T09:36:08Z",
+      "last_seen_at": "2026-05-13T17:08:17Z",
       "matched_terms": [
         "Korea"
       ],
@@ -642,7 +664,7 @@
       "first_seen_at": "2026-04-20T16:01:59Z",
       "last_event": "new",
       "last_notified_at": null,
-      "last_seen_at": "2026-05-13T09:36:08Z",
+      "last_seen_at": "2026-05-13T17:08:17Z",
       "matched_terms": [
         "Korea"
       ],
@@ -659,7 +681,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-05-13T09:36:08Z",
+      "last_seen_at": "2026-05-13T17:08:17Z",
       "matched_terms": [
         "DPRK",
         "South Korea",
@@ -686,7 +708,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-05-13T09:36:08Z",
+      "last_seen_at": "2026-05-13T17:08:17Z",
       "matched_terms": [
         "North Korea",
         "South Korean",
@@ -826,7 +848,7 @@
       "first_seen_at": "2026-05-04T23:43:27Z",
       "last_event": "new",
       "last_notified_at": "2026-05-04T23:43:27Z",
-      "last_seen_at": "2026-05-13T09:36:08Z",
+      "last_seen_at": "2026-05-13T17:08:17Z",
       "matched_terms": [
         "Korean Peninsula",
         "South Korea",
@@ -1271,7 +1293,7 @@
       "first_seen_at": "2026-05-13T09:36:08Z",
       "last_event": "new",
       "last_notified_at": "2026-05-13T09:36:08Z",
-      "last_seen_at": "2026-05-13T09:36:08Z",
+      "last_seen_at": "2026-05-13T17:08:17Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
@@ -2238,7 +2260,7 @@
       "first_seen_at": "2026-05-07T16:43:14Z",
       "last_event": "new",
       "last_notified_at": "2026-05-07T16:43:14Z",
-      "last_seen_at": "2026-05-13T09:36:08Z",
+      "last_seen_at": "2026-05-13T17:08:17Z",
       "matched_terms": [
         "North Korea",
         "South Korean",
@@ -2824,7 +2846,7 @@
       "first_seen_at": "2026-05-04T16:25:57Z",
       "last_event": "new",
       "last_notified_at": "2026-05-04T16:25:57Z",
-      "last_seen_at": "2026-05-13T09:36:08Z",
+      "last_seen_at": "2026-05-13T17:08:17Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
