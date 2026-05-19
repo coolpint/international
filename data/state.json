@@ -131,6 +131,24 @@
       "title": "UN rights chief warns abuses in DPR Korea remain a ‘human rights crisis’",
       "url": "https://news.un.org/en/story/2026/05/1167504"
     },
+    "https://press.un.org/en/2026/db260518.doc.htm": {
+      "confidence": "high",
+      "content_hash": "f30f28141b358cf2ff60a64321b9ef0d358012f5458dc0c39bbd1e88b1f130ef",
+      "first_seen_at": "2026-05-19T17:33:53Z",
+      "last_event": "new",
+      "last_notified_at": "2026-05-19T17:33:53Z",
+      "last_seen_at": "2026-05-19T17:33:53Z",
+      "matched_terms": [
+        "Korean Peninsula",
+        "Korean"
+      ],
+      "published_at": "2026-05-18T12:00:00Z",
+      "source_id": "un_press_releases",
+      "source_label": "UN Press Releases",
+      "summary": "The World Health Organization says that the Ebola outbreak in the Democratic Republic of the Congo and Uganda constitutes a public health emergency of international concern, highlighting the high risk of further spread and the likelihood that the outbreak may be larger than currently detected.",
+      "title": "Daily Press Briefing by the Office of the Spokesperson for the Secretary-General",
+      "url": "https://press.un.org/en/2026/db260518.doc.htm"
+    },
     "https://press.un.org/en/2026/sc16302.doc.htm": {
       "confidence": "medium",
       "content_hash": "10e6652632c35fb99ddbf556611d061a3da33fc2a3a85f2ee7fcf1a0c09530d8",
@@ -274,7 +292,7 @@
       "first_seen_at": "2026-04-22T23:38:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-22T23:38:45Z",
-      "last_seen_at": "2026-05-19T10:32:55Z",
+      "last_seen_at": "2026-05-19T17:33:53Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -339,7 +357,7 @@
       "first_seen_at": "2026-04-23T23:36:35Z",
       "last_event": "new",
       "last_notified_at": "2026-04-23T23:36:35Z",
-      "last_seen_at": "2026-05-19T10:32:55Z",
+      "last_seen_at": "2026-05-19T17:33:53Z",
       "matched_terms": [
         "North Korea",
         "Republic of Korea",
@@ -382,7 +400,7 @@
       "first_seen_at": "2026-04-23T23:36:35Z",
       "last_event": "new",
       "last_notified_at": "2026-04-23T23:36:35Z",
-      "last_seen_at": "2026-05-19T10:32:55Z",
+      "last_seen_at": "2026-05-19T17:33:53Z",
       "matched_terms": [
         "South Korea",
         "North Korean",
@@ -500,7 +518,7 @@
       "first_seen_at": "2026-04-16T23:32:53Z",
       "last_event": "updated",
       "last_notified_at": "2026-04-25T08:00:20Z",
-      "last_seen_at": "2026-05-19T10:32:55Z",
+      "last_seen_at": "2026-05-19T17:33:53Z",
       "matched_terms": [
         "North Korea",
         "Korea"
@@ -579,7 +597,7 @@
       "first_seen_at": "2026-04-15T15:59:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-15T15:59:45Z",
-      "last_seen_at": "2026-05-19T10:32:55Z",
+      "last_seen_at": "2026-05-19T17:33:53Z",
       "matched_terms": [
         "North Korea",
         "Republic of Korea",
@@ -603,7 +621,7 @@
       "first_seen_at": "2026-05-04T23:43:27Z",
       "last_event": "updated",
       "last_notified_at": "2026-05-06T16:23:01Z",
-      "last_seen_at": "2026-05-19T10:32:55Z",
+      "last_seen_at": "2026-05-19T17:33:53Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -624,7 +642,7 @@
       "first_seen_at": "2026-05-12T17:02:27Z",
       "last_event": "new",
       "last_notified_at": "2026-05-12T17:02:27Z",
-      "last_seen_at": "2026-05-19T10:32:55Z",
+      "last_seen_at": "2026-05-19T17:33:53Z",
       "matched_terms": [
         "South Korean",
         "Republic of Korea",
@@ -648,7 +666,7 @@
       "first_seen_at": "2026-05-13T17:08:17Z",
       "last_event": "new",
       "last_notified_at": "2026-05-13T17:08:17Z",
-      "last_seen_at": "2026-05-19T10:32:55Z",
+      "last_seen_at": "2026-05-19T17:33:53Z",
       "matched_terms": [
         "North Korea",
         "Korean Peninsula",
@@ -670,7 +688,7 @@
       "first_seen_at": "2026-04-03T15:33:11Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-05-19T10:32:55Z",
+      "last_seen_at": "2026-05-19T17:33:53Z",
       "matched_terms": [
         "Korea"
       ],
@@ -687,7 +705,7 @@
       "first_seen_at": "2026-04-20T16:01:59Z",
       "last_event": "new",
       "last_notified_at": null,
-      "last_seen_at": "2026-05-19T10:32:55Z",
+      "last_seen_at": "2026-05-19T17:33:53Z",
       "matched_terms": [
         "Korea"
       ],
@@ -704,7 +722,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-05-19T10:32:55Z",
+      "last_seen_at": "2026-05-19T17:33:53Z",
       "matched_terms": [
         "DPRK",
         "South Korea",
@@ -731,7 +749,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-05-19T10:32:55Z",
+      "last_seen_at": "2026-05-19T17:33:53Z",
       "matched_terms": [
         "North Korea",
         "South Korean",
@@ -871,7 +889,7 @@
       "first_seen_at": "2026-05-04T23:43:27Z",
       "last_event": "new",
       "last_notified_at": "2026-05-04T23:43:27Z",
-      "last_seen_at": "2026-05-19T10:32:55Z",
+      "last_seen_at": "2026-05-19T17:33:53Z",
       "matched_terms": [
         "Korean Peninsula",
         "South Korea",
@@ -2305,7 +2323,7 @@
       "first_seen_at": "2026-05-19T10:32:55Z",
       "last_event": "new",
       "last_notified_at": "2026-05-19T10:32:55Z",
-      "last_seen_at": "2026-05-19T10:32:55Z",
+      "last_seen_at": "2026-05-19T17:33:53Z",
       "matched_terms": [
         "DPRK",
         "North Korea",
@@ -2324,7 +2342,7 @@
       "first_seen_at": "2026-05-15T09:39:12Z",
       "last_event": "new",
       "last_notified_at": "2026-05-15T09:39:12Z",
-      "last_seen_at": "2026-05-19T10:32:55Z",
+      "last_seen_at": "2026-05-19T17:33:53Z",
       "matched_terms": [
         "DPRK",
         "North Korea",
@@ -2907,7 +2925,7 @@
       "first_seen_at": "2026-05-04T16:25:57Z",
       "last_event": "new",
       "last_notified_at": "2026-05-04T16:25:57Z",
-      "last_seen_at": "2026-05-19T10:32:55Z",
+      "last_seen_at": "2026-05-19T17:33:53Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
