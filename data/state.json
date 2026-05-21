@@ -62,6 +62,23 @@
       "title": "READOUT: Secretary of the Treasury Scott Bessent’s Meeting with Deputy Prime Minister and Minister of Finance and Economy Koo Yoon-cheol of the Republic of Korea",
       "url": "https://home.treasury.gov/news/press-releases/sb0459"
     },
+    "https://home.treasury.gov/news/press-releases/sb0504": {
+      "confidence": "medium",
+      "content_hash": "c64a4c4aa4564e04bf937425ebc0b0bdb9036872a7ceddc0434ba7404db1e497",
+      "first_seen_at": "2026-05-21T00:00:37Z",
+      "last_event": "new",
+      "last_notified_at": null,
+      "last_seen_at": "2026-05-21T00:00:37Z",
+      "matched_terms": [
+        "Korea"
+      ],
+      "published_at": "2026-02-13T14:52:38Z",
+      "source_id": "treasury_press_releases",
+      "source_label": "U.S. Treasury Press Releases",
+      "summary": "Thank you, Tom, for that introduction and for the invitation to be here on this wonderful occasion. It’s an honor to join you in celebrating the Class of 2026 Bruins and all those who helped to bring these young men to this moment.Before I share a few reflections, I would be remiss not to mention that next year will mark Tom’s last at Brunswick after nearly four decades. Today belongs to the graduates before me. But I must say that when this institution looks back on its history, it will record ",
+      "title": "Remarks by Treasury Secretary Scott Bessent before the Brunswick School Commencement: The Life Within Reach, and the Life You Choose to Live",
+      "url": "https://home.treasury.gov/news/press-releases/sb0504"
+    },
     "https://news.un.org/en/story/2026/04/1167409": {
       "confidence": "high",
       "content_hash": "10208b74fdc1748e4e1116804502cb6900bc835825db9d49c1e85bf80a048f7c",
@@ -292,7 +309,7 @@
       "first_seen_at": "2026-04-22T23:38:45Z",
       "last_event": "new",
       "last_notified_at": "2026-04-22T23:38:45Z",
-      "last_seen_at": "2026-05-20T17:49:00Z",
+      "last_seen_at": "2026-05-21T00:00:37Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -357,7 +374,7 @@
       "first_seen_at": "2026-04-23T23:36:35Z",
       "last_event": "new",
       "last_notified_at": "2026-04-23T23:36:35Z",
-      "last_seen_at": "2026-05-20T17:49:00Z",
+      "last_seen_at": "2026-05-21T00:00:37Z",
       "matched_terms": [
         "North Korea",
         "Republic of Korea",
@@ -400,7 +417,7 @@
       "first_seen_at": "2026-04-23T23:36:35Z",
       "last_event": "new",
       "last_notified_at": "2026-04-23T23:36:35Z",
-      "last_seen_at": "2026-05-20T17:49:00Z",
+      "last_seen_at": "2026-05-21T00:00:37Z",
       "matched_terms": [
         "South Korea",
         "North Korean",
@@ -518,7 +535,7 @@
       "first_seen_at": "2026-04-16T23:32:53Z",
       "last_event": "updated",
       "last_notified_at": "2026-04-25T08:00:20Z",
-      "last_seen_at": "2026-05-20T17:49:00Z",
+      "last_seen_at": "2026-05-21T00:00:37Z",
       "matched_terms": [
         "North Korea",
         "Korea"
@@ -621,7 +638,7 @@
       "first_seen_at": "2026-05-04T23:43:27Z",
       "last_event": "updated",
       "last_notified_at": "2026-05-06T16:23:01Z",
-      "last_seen_at": "2026-05-20T17:49:00Z",
+      "last_seen_at": "2026-05-21T00:00:37Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -636,13 +653,34 @@
       "title": "Project Anthracite: Imagery Search for Possible Nuclear, Chemical, and Biological Defense Battalions",
       "url": "https://www.38north.org/2026/05/project-anthracite-imagery-search-for-possible-nuclear-chemical-and-biological-defense-battalions/"
     },
+    "https://www.38north.org/2026/05/quick-take-progress-continues-at-new-yalu-river-bridge-crossing/": {
+      "confidence": "high",
+      "content_hash": "9fc619b7e7f4137b24fffd3bf1b60363f1d3f2f90ee1552ebf94aeecedf186ae",
+      "first_seen_at": "2026-05-21T00:00:37Z",
+      "last_event": "new",
+      "last_notified_at": "2026-05-21T00:00:37Z",
+      "last_seen_at": "2026-05-21T00:00:37Z",
+      "matched_terms": [
+        "North Korea",
+        "North Korean",
+        "DPRK",
+        "Korea",
+        "Korean"
+      ],
+      "published_at": "Wed, 20 May 2026 20:14:53 +0000",
+      "source_id": "thirty_eight_north",
+      "source_label": "38 North",
+      "summary": "Commercial satellite imagery indicates work to build a customs and immigration center on the ...\nThe post\nQuick Take: Progress Continues at New Yalu River Bridge Crossing\nappeared first on\n38 North\n.",
+      "title": "Quick Take: Progress Continues at New Yalu River Bridge Crossing",
+      "url": "https://www.38north.org/2026/05/quick-take-progress-continues-at-new-yalu-river-bridge-crossing/"
+    },
     "https://www.38north.org/2026/05/quick-take-the-leader-gets-a-strong-constitution/": {
       "confidence": "high",
       "content_hash": "265f382799e488013a8ed2af93b8206b3fa0b7a455672f608e66bd8f32daac3b",
       "first_seen_at": "2026-05-12T17:02:27Z",
       "last_event": "new",
       "last_notified_at": "2026-05-12T17:02:27Z",
-      "last_seen_at": "2026-05-20T17:49:00Z",
+      "last_seen_at": "2026-05-21T00:00:37Z",
       "matched_terms": [
         "South Korean",
         "Republic of Korea",
@@ -666,7 +704,7 @@
       "first_seen_at": "2026-05-13T17:08:17Z",
       "last_event": "new",
       "last_notified_at": "2026-05-13T17:08:17Z",
-      "last_seen_at": "2026-05-20T17:49:00Z",
+      "last_seen_at": "2026-05-21T00:00:37Z",
       "matched_terms": [
         "North Korea",
         "Korean Peninsula",
@@ -688,7 +726,7 @@
       "first_seen_at": "2026-04-03T15:33:11Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-05-20T17:49:00Z",
+      "last_seen_at": "2026-05-21T00:00:37Z",
       "matched_terms": [
         "Korea"
       ],
@@ -705,7 +743,7 @@
       "first_seen_at": "2026-04-20T16:01:59Z",
       "last_event": "new",
       "last_notified_at": null,
-      "last_seen_at": "2026-05-20T17:49:00Z",
+      "last_seen_at": "2026-05-21T00:00:37Z",
       "matched_terms": [
         "Korea"
       ],
@@ -722,7 +760,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-05-20T17:49:00Z",
+      "last_seen_at": "2026-05-21T00:00:37Z",
       "matched_terms": [
         "DPRK",
         "South Korea",
@@ -749,7 +787,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-05-20T17:49:00Z",
+      "last_seen_at": "2026-05-21T00:00:37Z",
       "matched_terms": [
         "North Korea",
         "South Korean",
@@ -889,7 +927,7 @@
       "first_seen_at": "2026-05-04T23:43:27Z",
       "last_event": "new",
       "last_notified_at": "2026-05-04T23:43:27Z",
-      "last_seen_at": "2026-05-20T17:49:00Z",
+      "last_seen_at": "2026-05-21T00:00:37Z",
       "matched_terms": [
         "Korean Peninsula",
         "South Korea",
@@ -2323,7 +2361,7 @@
       "first_seen_at": "2026-05-19T10:32:55Z",
       "last_event": "new",
       "last_notified_at": "2026-05-19T10:32:55Z",
-      "last_seen_at": "2026-05-20T17:49:00Z",
+      "last_seen_at": "2026-05-21T00:00:37Z",
       "matched_terms": [
         "DPRK",
         "North Korea",
@@ -2342,7 +2380,7 @@
       "first_seen_at": "2026-05-15T09:39:12Z",
       "last_event": "new",
       "last_notified_at": "2026-05-15T09:39:12Z",
-      "last_seen_at": "2026-05-20T17:49:00Z",
+      "last_seen_at": "2026-05-21T00:00:37Z",
       "matched_terms": [
         "DPRK",
         "North Korea",
@@ -2925,7 +2963,7 @@
       "first_seen_at": "2026-05-04T16:25:57Z",
       "last_event": "new",
       "last_notified_at": "2026-05-04T16:25:57Z",
-      "last_seen_at": "2026-05-20T17:49:00Z",
+      "last_seen_at": "2026-05-21T00:00:37Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
