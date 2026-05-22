@@ -68,7 +68,7 @@
       "first_seen_at": "2026-05-21T00:00:37Z",
       "last_event": "new",
       "last_notified_at": null,
-      "last_seen_at": "2026-05-22T10:16:24Z",
+      "last_seen_at": "2026-05-22T17:02:08Z",
       "matched_terms": [
         "Korea"
       ],
@@ -374,7 +374,7 @@
       "first_seen_at": "2026-04-23T23:36:35Z",
       "last_event": "new",
       "last_notified_at": "2026-04-23T23:36:35Z",
-      "last_seen_at": "2026-05-22T10:16:24Z",
+      "last_seen_at": "2026-05-22T17:02:08Z",
       "matched_terms": [
         "North Korea",
         "Republic of Korea",
@@ -417,7 +417,7 @@
       "first_seen_at": "2026-04-23T23:36:35Z",
       "last_event": "new",
       "last_notified_at": "2026-04-23T23:36:35Z",
-      "last_seen_at": "2026-05-22T10:16:24Z",
+      "last_seen_at": "2026-05-22T17:02:08Z",
       "matched_terms": [
         "South Korea",
         "North Korean",
@@ -638,7 +638,7 @@
       "first_seen_at": "2026-05-21T17:26:28Z",
       "last_event": "new",
       "last_notified_at": "2026-05-21T17:26:28Z",
-      "last_seen_at": "2026-05-22T10:16:24Z",
+      "last_seen_at": "2026-05-22T17:02:08Z",
       "matched_terms": [
         "North Korea",
         "inter-Korean",
@@ -660,13 +660,34 @@
       "title": "Paving the Way for Hostile Coexistence? What North Korea’s Constitutional Revisions Mean for Inter-Korean Ties",
       "url": "https://www.38north.org/2026/05/paving-the-way-for-hostile-coexistence-what-north-koreas-constitutional-revisions-mean-for-inter-korean-ties/"
     },
+    "https://www.38north.org/2026/05/project-anthracite-analyzing-north-korean-patents-and-academic-journals-for-evidence-of-chemical-weapons-potential/": {
+      "confidence": "high",
+      "content_hash": "8302ca3f31ed3dde967f1c584ca40418998d92f5cc269f3f12aa02c4d6ee8123",
+      "first_seen_at": "2026-05-22T17:02:08Z",
+      "last_event": "new",
+      "last_notified_at": "2026-05-22T17:02:08Z",
+      "last_seen_at": "2026-05-22T17:02:08Z",
+      "matched_terms": [
+        "North Korean",
+        "North Korea",
+        "Korean",
+        "Korea",
+        "Pyongyang"
+      ],
+      "published_at": "Fri, 22 May 2026 13:02:48 +0000",
+      "source_id": "thirty_eight_north",
+      "source_label": "38 North",
+      "summary": "This research draws on Project Anthracite, a multiyear initiative funded by Global Affairs ...\nThe post\nProject Anthracite: Analyzing North Korean Patents and Academic Journals for Evidence of Chemical Weapons Potential\nappeared first on\n38 North\n.",
+      "title": "Project Anthracite: Analyzing North Korean Patents and Academic Journals for Evidence of Chemical Weapons Potential",
+      "url": "https://www.38north.org/2026/05/project-anthracite-analyzing-north-korean-patents-and-academic-journals-for-evidence-of-chemical-weapons-potential/"
+    },
     "https://www.38north.org/2026/05/project-anthracite-imagery-search-for-possible-nuclear-chemical-and-biological-defense-battalions/": {
       "confidence": "high",
       "content_hash": "61ed2adf2a9ce742456e4472866e624e881761cc9953d3093b36818dcdb097ed",
       "first_seen_at": "2026-05-04T23:43:27Z",
       "last_event": "updated",
       "last_notified_at": "2026-05-06T16:23:01Z",
-      "last_seen_at": "2026-05-22T10:16:24Z",
+      "last_seen_at": "2026-05-22T17:02:08Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -687,7 +708,7 @@
       "first_seen_at": "2026-05-21T00:00:37Z",
       "last_event": "new",
       "last_notified_at": "2026-05-21T00:00:37Z",
-      "last_seen_at": "2026-05-22T10:16:24Z",
+      "last_seen_at": "2026-05-22T17:02:08Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -708,7 +729,7 @@
       "first_seen_at": "2026-05-12T17:02:27Z",
       "last_event": "new",
       "last_notified_at": "2026-05-12T17:02:27Z",
-      "last_seen_at": "2026-05-22T10:16:24Z",
+      "last_seen_at": "2026-05-22T17:02:08Z",
       "matched_terms": [
         "South Korean",
         "Republic of Korea",
@@ -732,7 +753,7 @@
       "first_seen_at": "2026-05-13T17:08:17Z",
       "last_event": "new",
       "last_notified_at": "2026-05-13T17:08:17Z",
-      "last_seen_at": "2026-05-22T10:16:24Z",
+      "last_seen_at": "2026-05-22T17:02:08Z",
       "matched_terms": [
         "North Korea",
         "Korean Peninsula",
@@ -754,7 +775,7 @@
       "first_seen_at": "2026-04-03T15:33:11Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-05-22T10:16:24Z",
+      "last_seen_at": "2026-05-22T17:02:08Z",
       "matched_terms": [
         "Korea"
       ],
@@ -771,7 +792,7 @@
       "first_seen_at": "2026-04-20T16:01:59Z",
       "last_event": "new",
       "last_notified_at": null,
-      "last_seen_at": "2026-05-22T10:16:24Z",
+      "last_seen_at": "2026-05-22T17:02:08Z",
       "matched_terms": [
         "Korea"
       ],
@@ -788,7 +809,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-05-22T10:16:24Z",
+      "last_seen_at": "2026-05-22T17:02:08Z",
       "matched_terms": [
         "DPRK",
         "South Korea",
@@ -815,7 +836,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-05-22T10:16:24Z",
+      "last_seen_at": "2026-05-22T17:02:08Z",
       "matched_terms": [
         "North Korea",
         "South Korean",
@@ -955,7 +976,7 @@
       "first_seen_at": "2026-05-04T23:43:27Z",
       "last_event": "new",
       "last_notified_at": "2026-05-04T23:43:27Z",
-      "last_seen_at": "2026-05-22T10:16:24Z",
+      "last_seen_at": "2026-05-22T17:02:08Z",
       "matched_terms": [
         "Korean Peninsula",
         "South Korea",
@@ -2389,7 +2410,7 @@
       "first_seen_at": "2026-05-19T10:32:55Z",
       "last_event": "new",
       "last_notified_at": "2026-05-19T10:32:55Z",
-      "last_seen_at": "2026-05-22T10:16:24Z",
+      "last_seen_at": "2026-05-22T17:02:08Z",
       "matched_terms": [
         "DPRK",
         "North Korea",
@@ -2408,7 +2429,7 @@
       "first_seen_at": "2026-05-15T09:39:12Z",
       "last_event": "new",
       "last_notified_at": "2026-05-15T09:39:12Z",
-      "last_seen_at": "2026-05-22T10:16:24Z",
+      "last_seen_at": "2026-05-22T17:02:08Z",
       "matched_terms": [
         "DPRK",
         "North Korea",
@@ -2991,7 +3012,7 @@
       "first_seen_at": "2026-05-04T16:25:57Z",
       "last_event": "new",
       "last_notified_at": "2026-05-04T16:25:57Z",
-      "last_seen_at": "2026-05-22T10:16:24Z",
+      "last_seen_at": "2026-05-22T17:02:08Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
