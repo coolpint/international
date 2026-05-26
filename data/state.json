@@ -68,7 +68,7 @@
       "first_seen_at": "2026-05-21T00:00:37Z",
       "last_event": "new",
       "last_notified_at": null,
-      "last_seen_at": "2026-05-25T23:56:25Z",
+      "last_seen_at": "2026-05-26T17:51:24Z",
       "matched_terms": [
         "Korea"
       ],
@@ -374,7 +374,7 @@
       "first_seen_at": "2026-04-23T23:36:35Z",
       "last_event": "new",
       "last_notified_at": "2026-04-23T23:36:35Z",
-      "last_seen_at": "2026-05-25T23:56:25Z",
+      "last_seen_at": "2026-05-26T17:51:24Z",
       "matched_terms": [
         "North Korea",
         "Republic of Korea",
@@ -417,7 +417,7 @@
       "first_seen_at": "2026-04-23T23:36:35Z",
       "last_event": "new",
       "last_notified_at": "2026-04-23T23:36:35Z",
-      "last_seen_at": "2026-05-25T23:56:25Z",
+      "last_seen_at": "2026-05-26T17:51:24Z",
       "matched_terms": [
         "South Korea",
         "North Korean",
@@ -638,7 +638,7 @@
       "first_seen_at": "2026-05-21T17:26:28Z",
       "last_event": "new",
       "last_notified_at": "2026-05-21T17:26:28Z",
-      "last_seen_at": "2026-05-25T23:56:25Z",
+      "last_seen_at": "2026-05-26T17:51:24Z",
       "matched_terms": [
         "North Korea",
         "inter-Korean",
@@ -666,7 +666,7 @@
       "first_seen_at": "2026-05-22T17:02:08Z",
       "last_event": "new",
       "last_notified_at": "2026-05-22T17:02:08Z",
-      "last_seen_at": "2026-05-25T23:56:25Z",
+      "last_seen_at": "2026-05-26T17:51:24Z",
       "matched_terms": [
         "North Korean",
         "North Korea",
@@ -687,7 +687,7 @@
       "first_seen_at": "2026-05-04T23:43:27Z",
       "last_event": "updated",
       "last_notified_at": "2026-05-06T16:23:01Z",
-      "last_seen_at": "2026-05-25T23:56:25Z",
+      "last_seen_at": "2026-05-26T17:51:24Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -708,7 +708,7 @@
       "first_seen_at": "2026-05-21T00:00:37Z",
       "last_event": "new",
       "last_notified_at": "2026-05-21T00:00:37Z",
-      "last_seen_at": "2026-05-25T23:56:25Z",
+      "last_seen_at": "2026-05-26T17:51:24Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -729,7 +729,7 @@
       "first_seen_at": "2026-05-12T17:02:27Z",
       "last_event": "new",
       "last_notified_at": "2026-05-12T17:02:27Z",
-      "last_seen_at": "2026-05-25T23:56:25Z",
+      "last_seen_at": "2026-05-26T17:51:24Z",
       "matched_terms": [
         "South Korean",
         "Republic of Korea",
@@ -753,7 +753,7 @@
       "first_seen_at": "2026-05-13T17:08:17Z",
       "last_event": "new",
       "last_notified_at": "2026-05-13T17:08:17Z",
-      "last_seen_at": "2026-05-25T23:56:25Z",
+      "last_seen_at": "2026-05-26T17:51:24Z",
       "matched_terms": [
         "North Korea",
         "Korean Peninsula",
@@ -775,7 +775,7 @@
       "first_seen_at": "2026-04-03T15:33:11Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-05-25T23:56:25Z",
+      "last_seen_at": "2026-05-26T17:51:24Z",
       "matched_terms": [
         "Korea"
       ],
@@ -792,7 +792,7 @@
       "first_seen_at": "2026-04-20T16:01:59Z",
       "last_event": "new",
       "last_notified_at": null,
-      "last_seen_at": "2026-05-25T23:56:25Z",
+      "last_seen_at": "2026-05-26T17:51:24Z",
       "matched_terms": [
         "Korea"
       ],
@@ -809,7 +809,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-05-25T23:56:25Z",
+      "last_seen_at": "2026-05-26T17:51:24Z",
       "matched_terms": [
         "DPRK",
         "South Korea",
@@ -836,7 +836,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-05-25T23:56:25Z",
+      "last_seen_at": "2026-05-26T17:51:24Z",
       "matched_terms": [
         "North Korea",
         "South Korean",
@@ -2404,13 +2404,31 @@
       "title": "Evaluating Russian Support for North Korea’s Nuclear Weapons",
       "url": "https://www.rusi.org/explore-our-research/publications/insights-papers/evaluating-russian-support-north-koreas-nuclear-weapons"
     },
+    "https://www.rusi.org/explore-our-research/publications/research-papers/algorithms-evasion-rise-ai-enabled-proliferation-financing": {
+      "confidence": "high",
+      "content_hash": "811ad22a133fdef8fbae1da308b5e0382204805c9b59317ef96021853cfe6d58",
+      "first_seen_at": "2026-05-26T17:51:24Z",
+      "last_event": "new",
+      "last_notified_at": "2026-05-26T17:51:24Z",
+      "last_seen_at": "2026-05-26T17:51:24Z",
+      "matched_terms": [
+        "North Korea",
+        "Korea"
+      ],
+      "published_at": "Tue, 26 May 2026 13:19:57 GMT",
+      "source_id": "rusi_publications",
+      "source_label": "RUSI Publications",
+      "summary": "This paper explores how AI is revolutionising proliferation financing and sanctions evasion, revealing new threats, regulatory gaps and actionable policy solutions.",
+      "title": "Algorithms of Evasion: The Rise of AI-Enabled Proliferation Financing",
+      "url": "https://www.rusi.org/explore-our-research/publications/research-papers/algorithms-evasion-rise-ai-enabled-proliferation-financing"
+    },
     "https://www.rusi.org/explore-our-research/publications/research-papers/dprks-chemical-facilities-aoji-ri-area-site-profile-6": {
       "confidence": "high",
       "content_hash": "2650e988dd364624a168359064c4bc0e1c378b9d81f414102154ac7fffa59abc",
       "first_seen_at": "2026-05-19T10:32:55Z",
       "last_event": "new",
       "last_notified_at": "2026-05-19T10:32:55Z",
-      "last_seen_at": "2026-05-25T23:56:25Z",
+      "last_seen_at": "2026-05-26T17:51:24Z",
       "matched_terms": [
         "DPRK",
         "North Korea",
