@@ -68,7 +68,7 @@
       "first_seen_at": "2026-05-21T00:00:37Z",
       "last_event": "new",
       "last_notified_at": null,
-      "last_seen_at": "2026-05-27T17:51:41Z",
+      "last_seen_at": "2026-05-27T23:53:58Z",
       "matched_terms": [
         "Korea"
       ],
@@ -374,7 +374,7 @@
       "first_seen_at": "2026-04-23T23:36:35Z",
       "last_event": "new",
       "last_notified_at": "2026-04-23T23:36:35Z",
-      "last_seen_at": "2026-05-27T17:51:41Z",
+      "last_seen_at": "2026-05-27T23:53:58Z",
       "matched_terms": [
         "North Korea",
         "Republic of Korea",
@@ -417,7 +417,7 @@
       "first_seen_at": "2026-04-23T23:36:35Z",
       "last_event": "new",
       "last_notified_at": "2026-04-23T23:36:35Z",
-      "last_seen_at": "2026-05-27T17:51:41Z",
+      "last_seen_at": "2026-05-27T23:53:58Z",
       "matched_terms": [
         "South Korea",
         "North Korean",
@@ -638,7 +638,7 @@
       "first_seen_at": "2026-05-21T17:26:28Z",
       "last_event": "new",
       "last_notified_at": "2026-05-21T17:26:28Z",
-      "last_seen_at": "2026-05-27T17:51:41Z",
+      "last_seen_at": "2026-05-27T23:53:58Z",
       "matched_terms": [
         "North Korea",
         "inter-Korean",
@@ -666,7 +666,7 @@
       "first_seen_at": "2026-05-22T17:02:08Z",
       "last_event": "new",
       "last_notified_at": "2026-05-22T17:02:08Z",
-      "last_seen_at": "2026-05-27T17:51:41Z",
+      "last_seen_at": "2026-05-27T23:53:58Z",
       "matched_terms": [
         "North Korean",
         "North Korea",
@@ -687,7 +687,7 @@
       "first_seen_at": "2026-05-04T23:43:27Z",
       "last_event": "updated",
       "last_notified_at": "2026-05-06T16:23:01Z",
-      "last_seen_at": "2026-05-27T17:51:41Z",
+      "last_seen_at": "2026-05-27T23:53:58Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -708,7 +708,7 @@
       "first_seen_at": "2026-05-21T00:00:37Z",
       "last_event": "new",
       "last_notified_at": "2026-05-21T00:00:37Z",
-      "last_seen_at": "2026-05-27T17:51:41Z",
+      "last_seen_at": "2026-05-27T23:53:58Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -729,7 +729,7 @@
       "first_seen_at": "2026-05-12T17:02:27Z",
       "last_event": "new",
       "last_notified_at": "2026-05-12T17:02:27Z",
-      "last_seen_at": "2026-05-27T17:51:41Z",
+      "last_seen_at": "2026-05-27T23:53:58Z",
       "matched_terms": [
         "South Korean",
         "Republic of Korea",
@@ -753,7 +753,7 @@
       "first_seen_at": "2026-05-13T17:08:17Z",
       "last_event": "new",
       "last_notified_at": "2026-05-13T17:08:17Z",
-      "last_seen_at": "2026-05-27T17:51:41Z",
+      "last_seen_at": "2026-05-27T23:53:58Z",
       "matched_terms": [
         "North Korea",
         "Korean Peninsula",
@@ -775,7 +775,7 @@
       "first_seen_at": "2026-04-03T15:33:11Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-05-27T17:51:41Z",
+      "last_seen_at": "2026-05-27T23:53:58Z",
       "matched_terms": [
         "Korea"
       ],
@@ -792,7 +792,7 @@
       "first_seen_at": "2026-04-20T16:01:59Z",
       "last_event": "new",
       "last_notified_at": null,
-      "last_seen_at": "2026-05-27T17:51:41Z",
+      "last_seen_at": "2026-05-27T23:53:58Z",
       "matched_terms": [
         "Korea"
       ],
@@ -809,7 +809,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-05-27T17:51:41Z",
+      "last_seen_at": "2026-05-27T23:53:58Z",
       "matched_terms": [
         "DPRK",
         "South Korea",
@@ -836,7 +836,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-05-27T17:51:41Z",
+      "last_seen_at": "2026-05-27T23:53:58Z",
       "matched_terms": [
         "North Korea",
         "South Korean",
@@ -1304,6 +1304,25 @@
       "summary": "Tap water in Hyesan, a city in North Korea’s Ryanggang province bordering China, now flows roughly once every five days, and even then reaches only some households, according to a local source, leaving the city’s population scrambling to stockpile water whenever supply briefly resumes. “People living in the city are actually feeling the water shortage […]",
       "title": "Water crisis grips Hyesan as tap water flows just once every five days",
       "url": "https://www.dailynk.com/english/water-crisis-grips-hyesan-as-tap-water-flows-just-once-every-five-days/"
+    },
+    "https://www.fbi.gov/news/press-releases/two-us-nationals-sentenced-for-facilitating-fraudulent-remote-information-technology-worker-schemes-to-generate-revenue-for-the-democratic-peoples-republic-of-korea": {
+      "confidence": "high",
+      "content_hash": "ab0bcf2e3934ef1ebe7fca6584e144b2f22d14a363983663c40c35abf3a5d82d",
+      "first_seen_at": "2026-05-27T23:53:58Z",
+      "last_event": "new",
+      "last_notified_at": "2026-05-27T23:53:58Z",
+      "last_seen_at": "2026-05-27T23:53:58Z",
+      "matched_terms": [
+        "Republic of Korea",
+        "Democratic People’s Republic of Korea",
+        "Korea"
+      ],
+      "published_at": "Wed, 06 May 2026 15:30:00 +0000",
+      "source_id": "fbi_national_press_releases",
+      "source_label": "FBI National Press Releases",
+      "summary": "Matthew Issac Knoot, of Nashville, Tennessee, and Erick Ntekereze Prince, of New York, were sentenced for their roles in facilitating Democratic People’s Republic of Korea remote IT workers.",
+      "title": "Two U.S. Nationals Sentenced for Facilitating Fraudulent Remote Information Technology Worker Schemes to Generate Revenue for the Democratic People’s Republic of Korea",
+      "url": "https://www.fbi.gov/news/press-releases/two-us-nationals-sentenced-for-facilitating-fraudulent-remote-information-technology-worker-schemes-to-generate-revenue-for-the-democratic-peoples-republic-of-korea"
     },
     "https://www.fbi.gov/news/press-releases/ukrainian-national-sentenced-in-laptop-farm-scheme-that-generated-income-for-north-korean-it-workers": {
       "confidence": "high",
@@ -2410,7 +2429,7 @@
       "first_seen_at": "2026-05-26T17:51:24Z",
       "last_event": "new",
       "last_notified_at": "2026-05-26T17:51:24Z",
-      "last_seen_at": "2026-05-27T17:51:41Z",
+      "last_seen_at": "2026-05-27T23:53:58Z",
       "matched_terms": [
         "North Korea",
         "Korea"
