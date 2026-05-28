@@ -68,7 +68,7 @@
       "first_seen_at": "2026-05-21T00:00:37Z",
       "last_event": "new",
       "last_notified_at": null,
-      "last_seen_at": "2026-05-28T10:44:57Z",
+      "last_seen_at": "2026-05-28T17:56:29Z",
       "matched_terms": [
         "Korea"
       ],
@@ -417,7 +417,7 @@
       "first_seen_at": "2026-04-23T23:36:35Z",
       "last_event": "new",
       "last_notified_at": "2026-04-23T23:36:35Z",
-      "last_seen_at": "2026-05-28T10:44:57Z",
+      "last_seen_at": "2026-05-28T17:56:29Z",
       "matched_terms": [
         "South Korea",
         "North Korean",
@@ -632,13 +632,33 @@
       "title": "With Little Incentive to Engage the US, North Korea Deepens Russia and China Ties",
       "url": "https://www.38north.org/2026/04/with-little-incentive-to-engage-the-us-north-korea-deepens-russia-and-china-ties/"
     },
+    "https://www.38north.org/2026/05/building-a-state-controlled-knowledge-infrastructure-the-evolution-of-distance-education-in-north-korea/": {
+      "confidence": "high",
+      "content_hash": "564fc6462319096a650617de2f73b9b41b048cb949d6a3aefc0bc7eb338ccb5b",
+      "first_seen_at": "2026-05-28T17:56:29Z",
+      "last_event": "new",
+      "last_notified_at": "2026-05-28T17:56:29Z",
+      "last_seen_at": "2026-05-28T17:56:29Z",
+      "matched_terms": [
+        "North Korea",
+        "North Korean",
+        "Korea",
+        "Korean"
+      ],
+      "published_at": "Thu, 28 May 2026 13:32:03 +0000",
+      "source_id": "thirty_eight_north",
+      "source_label": "38 North",
+      "summary": "More often than not, the outside world dismisses North Korean digital education as ...\nThe post\nBuilding a State-Controlled Knowledge Infrastructure: The Evolution of Distance Education in North Korea\nappeared first on\n38 North\n.",
+      "title": "Building a State-Controlled Knowledge Infrastructure: The Evolution of Distance Education in North Korea",
+      "url": "https://www.38north.org/2026/05/building-a-state-controlled-knowledge-infrastructure-the-evolution-of-distance-education-in-north-korea/"
+    },
     "https://www.38north.org/2026/05/paving-the-way-for-hostile-coexistence-what-north-koreas-constitutional-revisions-mean-for-inter-korean-ties/": {
       "confidence": "high",
       "content_hash": "21c50dba80a639b25b4a79bf177d853fb04fa0a1d9aafd2797f99be45c6769f5",
       "first_seen_at": "2026-05-21T17:26:28Z",
       "last_event": "new",
       "last_notified_at": "2026-05-21T17:26:28Z",
-      "last_seen_at": "2026-05-28T10:44:57Z",
+      "last_seen_at": "2026-05-28T17:56:29Z",
       "matched_terms": [
         "North Korea",
         "inter-Korean",
@@ -666,7 +686,7 @@
       "first_seen_at": "2026-05-22T17:02:08Z",
       "last_event": "new",
       "last_notified_at": "2026-05-22T17:02:08Z",
-      "last_seen_at": "2026-05-28T10:44:57Z",
+      "last_seen_at": "2026-05-28T17:56:29Z",
       "matched_terms": [
         "North Korean",
         "North Korea",
@@ -687,7 +707,7 @@
       "first_seen_at": "2026-05-04T23:43:27Z",
       "last_event": "updated",
       "last_notified_at": "2026-05-06T16:23:01Z",
-      "last_seen_at": "2026-05-28T10:44:57Z",
+      "last_seen_at": "2026-05-28T17:56:29Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -708,7 +728,7 @@
       "first_seen_at": "2026-05-21T00:00:37Z",
       "last_event": "new",
       "last_notified_at": "2026-05-21T00:00:37Z",
-      "last_seen_at": "2026-05-28T10:44:57Z",
+      "last_seen_at": "2026-05-28T17:56:29Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -729,7 +749,7 @@
       "first_seen_at": "2026-05-12T17:02:27Z",
       "last_event": "new",
       "last_notified_at": "2026-05-12T17:02:27Z",
-      "last_seen_at": "2026-05-28T10:44:57Z",
+      "last_seen_at": "2026-05-28T17:56:29Z",
       "matched_terms": [
         "South Korean",
         "Republic of Korea",
@@ -753,7 +773,7 @@
       "first_seen_at": "2026-05-13T17:08:17Z",
       "last_event": "new",
       "last_notified_at": "2026-05-13T17:08:17Z",
-      "last_seen_at": "2026-05-28T10:44:57Z",
+      "last_seen_at": "2026-05-28T17:56:29Z",
       "matched_terms": [
         "North Korea",
         "Korean Peninsula",
@@ -775,7 +795,7 @@
       "first_seen_at": "2026-04-03T15:33:11Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-05-28T10:44:57Z",
+      "last_seen_at": "2026-05-28T17:56:29Z",
       "matched_terms": [
         "Korea"
       ],
@@ -792,7 +812,7 @@
       "first_seen_at": "2026-04-20T16:01:59Z",
       "last_event": "new",
       "last_notified_at": null,
-      "last_seen_at": "2026-05-28T10:44:57Z",
+      "last_seen_at": "2026-05-28T17:56:29Z",
       "matched_terms": [
         "Korea"
       ],
@@ -809,7 +829,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-05-28T10:44:57Z",
+      "last_seen_at": "2026-05-28T17:56:29Z",
       "matched_terms": [
         "DPRK",
         "South Korea",
@@ -836,7 +856,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-05-28T10:44:57Z",
+      "last_seen_at": "2026-05-28T17:56:29Z",
       "matched_terms": [
         "North Korea",
         "South Korean",
@@ -2429,7 +2449,7 @@
       "first_seen_at": "2026-05-26T17:51:24Z",
       "last_event": "new",
       "last_notified_at": "2026-05-26T17:51:24Z",
-      "last_seen_at": "2026-05-28T10:44:57Z",
+      "last_seen_at": "2026-05-28T17:56:29Z",
       "matched_terms": [
         "North Korea",
         "Korea"
