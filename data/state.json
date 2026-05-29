@@ -68,7 +68,7 @@
       "first_seen_at": "2026-05-21T00:00:37Z",
       "last_event": "new",
       "last_notified_at": null,
-      "last_seen_at": "2026-05-29T10:38:24Z",
+      "last_seen_at": "2026-05-29T17:59:46Z",
       "matched_terms": [
         "Korea"
       ],
@@ -638,7 +638,7 @@
       "first_seen_at": "2026-05-28T17:56:29Z",
       "last_event": "new",
       "last_notified_at": "2026-05-28T17:56:29Z",
-      "last_seen_at": "2026-05-29T10:38:24Z",
+      "last_seen_at": "2026-05-29T17:59:46Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -652,13 +652,31 @@
       "title": "Building a State-Controlled Knowledge Infrastructure: The Evolution of Distance Education in North Korea",
       "url": "https://www.38north.org/2026/05/building-a-state-controlled-knowledge-infrastructure-the-evolution-of-distance-education-in-north-korea/"
     },
+    "https://www.38north.org/2026/05/inspector-o-and-the-washington-swamp-gas-machine/": {
+      "confidence": "high",
+      "content_hash": "bcd7985172f84298d05be68d1cb126628f0c143076bd8bf73df56e887b000b1a",
+      "first_seen_at": "2026-05-29T17:59:46Z",
+      "last_event": "new",
+      "last_notified_at": "2026-05-29T17:59:46Z",
+      "last_seen_at": "2026-05-29T17:59:46Z",
+      "matched_terms": [
+        "Pyongyang",
+        "North Korea specialist source"
+      ],
+      "published_at": "Fri, 29 May 2026 15:43:58 +0000",
+      "source_id": "thirty_eight_north",
+      "source_label": "38 North",
+      "summary": "The bench at the Fontana dell’Acqua Paola overlooking Rome on a pleasant day might have ...\nThe post\nInspector O and the Washington Swamp Gas Machine\nappeared first on\n38 North\n.",
+      "title": "Inspector O and the Washington Swamp Gas Machine",
+      "url": "https://www.38north.org/2026/05/inspector-o-and-the-washington-swamp-gas-machine/"
+    },
     "https://www.38north.org/2026/05/paving-the-way-for-hostile-coexistence-what-north-koreas-constitutional-revisions-mean-for-inter-korean-ties/": {
       "confidence": "high",
       "content_hash": "21c50dba80a639b25b4a79bf177d853fb04fa0a1d9aafd2797f99be45c6769f5",
       "first_seen_at": "2026-05-21T17:26:28Z",
       "last_event": "new",
       "last_notified_at": "2026-05-21T17:26:28Z",
-      "last_seen_at": "2026-05-29T10:38:24Z",
+      "last_seen_at": "2026-05-29T17:59:46Z",
       "matched_terms": [
         "North Korea",
         "inter-Korean",
@@ -686,7 +704,7 @@
       "first_seen_at": "2026-05-22T17:02:08Z",
       "last_event": "new",
       "last_notified_at": "2026-05-22T17:02:08Z",
-      "last_seen_at": "2026-05-29T10:38:24Z",
+      "last_seen_at": "2026-05-29T17:59:46Z",
       "matched_terms": [
         "North Korean",
         "North Korea",
@@ -707,7 +725,7 @@
       "first_seen_at": "2026-05-04T23:43:27Z",
       "last_event": "updated",
       "last_notified_at": "2026-05-06T16:23:01Z",
-      "last_seen_at": "2026-05-29T10:38:24Z",
+      "last_seen_at": "2026-05-29T17:59:46Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -728,7 +746,7 @@
       "first_seen_at": "2026-05-21T00:00:37Z",
       "last_event": "new",
       "last_notified_at": "2026-05-21T00:00:37Z",
-      "last_seen_at": "2026-05-29T10:38:24Z",
+      "last_seen_at": "2026-05-29T17:59:46Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -749,7 +767,7 @@
       "first_seen_at": "2026-05-12T17:02:27Z",
       "last_event": "new",
       "last_notified_at": "2026-05-12T17:02:27Z",
-      "last_seen_at": "2026-05-29T10:38:24Z",
+      "last_seen_at": "2026-05-29T17:59:46Z",
       "matched_terms": [
         "South Korean",
         "Republic of Korea",
@@ -773,7 +791,7 @@
       "first_seen_at": "2026-05-13T17:08:17Z",
       "last_event": "new",
       "last_notified_at": "2026-05-13T17:08:17Z",
-      "last_seen_at": "2026-05-29T10:38:24Z",
+      "last_seen_at": "2026-05-29T17:59:46Z",
       "matched_terms": [
         "North Korea",
         "Korean Peninsula",
@@ -795,7 +813,7 @@
       "first_seen_at": "2026-04-03T15:33:11Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-05-29T10:38:24Z",
+      "last_seen_at": "2026-05-29T17:59:46Z",
       "matched_terms": [
         "Korea"
       ],
@@ -812,7 +830,7 @@
       "first_seen_at": "2026-04-20T16:01:59Z",
       "last_event": "new",
       "last_notified_at": null,
-      "last_seen_at": "2026-05-29T10:38:24Z",
+      "last_seen_at": "2026-05-29T17:59:46Z",
       "matched_terms": [
         "Korea"
       ],
@@ -829,7 +847,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-05-29T10:38:24Z",
+      "last_seen_at": "2026-05-29T17:59:46Z",
       "matched_terms": [
         "DPRK",
         "South Korea",
@@ -856,7 +874,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-05-29T10:38:24Z",
+      "last_seen_at": "2026-05-29T17:59:46Z",
       "matched_terms": [
         "North Korea",
         "South Korean",
@@ -2449,7 +2467,7 @@
       "first_seen_at": "2026-05-26T17:51:24Z",
       "last_event": "new",
       "last_notified_at": "2026-05-26T17:51:24Z",
-      "last_seen_at": "2026-05-29T10:38:24Z",
+      "last_seen_at": "2026-05-29T17:59:46Z",
       "matched_terms": [
         "North Korea",
         "Korea"
