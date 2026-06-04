@@ -638,7 +638,7 @@
       "first_seen_at": "2026-05-28T17:56:29Z",
       "last_event": "new",
       "last_notified_at": "2026-05-28T17:56:29Z",
-      "last_seen_at": "2026-06-04T00:25:05Z",
+      "last_seen_at": "2026-06-04T10:33:07Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -658,7 +658,7 @@
       "first_seen_at": "2026-05-29T17:59:46Z",
       "last_event": "new",
       "last_notified_at": "2026-05-29T17:59:46Z",
-      "last_seen_at": "2026-06-04T00:25:05Z",
+      "last_seen_at": "2026-06-04T10:33:07Z",
       "matched_terms": [
         "Pyongyang",
         "North Korea specialist source"
@@ -676,7 +676,7 @@
       "first_seen_at": "2026-05-21T17:26:28Z",
       "last_event": "new",
       "last_notified_at": "2026-05-21T17:26:28Z",
-      "last_seen_at": "2026-06-04T00:25:05Z",
+      "last_seen_at": "2026-06-04T10:33:07Z",
       "matched_terms": [
         "North Korea",
         "inter-Korean",
@@ -704,7 +704,7 @@
       "first_seen_at": "2026-05-22T17:02:08Z",
       "last_event": "new",
       "last_notified_at": "2026-05-22T17:02:08Z",
-      "last_seen_at": "2026-06-04T00:25:05Z",
+      "last_seen_at": "2026-06-04T10:33:07Z",
       "matched_terms": [
         "North Korean",
         "North Korea",
@@ -746,7 +746,7 @@
       "first_seen_at": "2026-05-21T00:00:37Z",
       "last_event": "new",
       "last_notified_at": "2026-05-21T00:00:37Z",
-      "last_seen_at": "2026-06-04T00:25:05Z",
+      "last_seen_at": "2026-06-04T10:33:07Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -767,7 +767,7 @@
       "first_seen_at": "2026-05-12T17:02:27Z",
       "last_event": "new",
       "last_notified_at": "2026-05-12T17:02:27Z",
-      "last_seen_at": "2026-06-04T00:25:05Z",
+      "last_seen_at": "2026-06-04T10:33:07Z",
       "matched_terms": [
         "South Korean",
         "Republic of Korea",
@@ -791,7 +791,7 @@
       "first_seen_at": "2026-05-13T17:08:17Z",
       "last_event": "new",
       "last_notified_at": "2026-05-13T17:08:17Z",
-      "last_seen_at": "2026-06-04T00:25:05Z",
+      "last_seen_at": "2026-06-04T10:33:07Z",
       "matched_terms": [
         "North Korea",
         "Korean Peninsula",
@@ -813,7 +813,7 @@
       "first_seen_at": "2026-06-03T18:39:43Z",
       "last_event": "new",
       "last_notified_at": "2026-06-03T18:39:43Z",
-      "last_seen_at": "2026-06-04T00:25:05Z",
+      "last_seen_at": "2026-06-04T10:33:07Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -834,7 +834,7 @@
       "first_seen_at": "2026-04-03T15:33:11Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-06-04T00:25:05Z",
+      "last_seen_at": "2026-06-04T10:33:07Z",
       "matched_terms": [
         "Korea"
       ],
@@ -851,7 +851,7 @@
       "first_seen_at": "2026-04-20T16:01:59Z",
       "last_event": "new",
       "last_notified_at": null,
-      "last_seen_at": "2026-06-04T00:25:05Z",
+      "last_seen_at": "2026-06-04T10:33:07Z",
       "matched_terms": [
         "Korea"
       ],
@@ -868,7 +868,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-06-04T00:25:05Z",
+      "last_seen_at": "2026-06-04T10:33:07Z",
       "matched_terms": [
         "DPRK",
         "South Korea",
@@ -895,7 +895,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-06-04T00:25:05Z",
+      "last_seen_at": "2026-06-04T10:33:07Z",
       "matched_terms": [
         "North Korea",
         "South Korean",
@@ -1370,7 +1370,7 @@
       "first_seen_at": "2026-05-27T23:53:58Z",
       "last_event": "new",
       "last_notified_at": "2026-05-27T23:53:58Z",
-      "last_seen_at": "2026-06-04T00:25:05Z",
+      "last_seen_at": "2026-06-04T10:33:07Z",
       "matched_terms": [
         "Republic of Korea",
         "Democratic People’s Republic of Korea",
