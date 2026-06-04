@@ -638,7 +638,7 @@
       "first_seen_at": "2026-05-28T17:56:29Z",
       "last_event": "new",
       "last_notified_at": "2026-05-28T17:56:29Z",
-      "last_seen_at": "2026-06-04T17:38:24Z",
+      "last_seen_at": "2026-06-04T23:58:59Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -658,7 +658,7 @@
       "first_seen_at": "2026-05-29T17:59:46Z",
       "last_event": "new",
       "last_notified_at": "2026-05-29T17:59:46Z",
-      "last_seen_at": "2026-06-04T17:38:24Z",
+      "last_seen_at": "2026-06-04T23:58:59Z",
       "matched_terms": [
         "Pyongyang",
         "North Korea specialist source"
@@ -676,7 +676,7 @@
       "first_seen_at": "2026-05-21T17:26:28Z",
       "last_event": "new",
       "last_notified_at": "2026-05-21T17:26:28Z",
-      "last_seen_at": "2026-06-04T17:38:24Z",
+      "last_seen_at": "2026-06-04T23:58:59Z",
       "matched_terms": [
         "North Korea",
         "inter-Korean",
@@ -704,7 +704,7 @@
       "first_seen_at": "2026-05-22T17:02:08Z",
       "last_event": "new",
       "last_notified_at": "2026-05-22T17:02:08Z",
-      "last_seen_at": "2026-06-04T17:38:24Z",
+      "last_seen_at": "2026-06-04T23:58:59Z",
       "matched_terms": [
         "North Korean",
         "North Korea",
@@ -746,7 +746,7 @@
       "first_seen_at": "2026-05-21T00:00:37Z",
       "last_event": "new",
       "last_notified_at": "2026-05-21T00:00:37Z",
-      "last_seen_at": "2026-06-04T17:38:24Z",
+      "last_seen_at": "2026-06-04T23:58:59Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -829,13 +829,35 @@
       "title": "New DPRK-Russia Friendship Hospital is Repurposing Existing Project",
       "url": "https://www.38north.org/2026/06/new-dprk-russia-friendship-hospital-is-repurpising-existing-project/"
     },
+    "https://www.38north.org/2026/06/new-dprk-russia-friendship-hospital-is-repurposing-existing-project/": {
+      "confidence": "high",
+      "content_hash": "29809c20471796db3543a68cd75816b0a06c0b5b807e4f3833fd9b79564f1c8a",
+      "first_seen_at": "2026-06-04T23:58:59Z",
+      "last_event": "new",
+      "last_notified_at": "2026-06-04T23:58:59Z",
+      "last_seen_at": "2026-06-04T23:58:59Z",
+      "matched_terms": [
+        "DPRK",
+        "North Korea",
+        "North Korean",
+        "Korea",
+        "Korean",
+        "Pyongyang"
+      ],
+      "published_at": "Thu, 04 Jun 2026 16:52:39 +0000",
+      "source_id": "thirty_eight_north",
+      "source_label": "38 North",
+      "summary": "In late April, when officials from Russia and North Korea broke ground on the new DPRK-Russia ...\nThe post\nNew DPRK-Russia Friendship Hospital is Repurposing Existing Project\nappeared first on\n38 North\n.",
+      "title": "New DPRK-Russia Friendship Hospital is Repurposing Existing Project",
+      "url": "https://www.38north.org/2026/06/new-dprk-russia-friendship-hospital-is-repurposing-existing-project/"
+    },
     "https://www.38north.org/2026/06/north-korea-sees-a-new-solar-power-push/": {
       "confidence": "high",
       "content_hash": "1b32ffa46849f049b7afee889a9137e9e1f5cbe464e3acfdae6d5e712ef49586",
       "first_seen_at": "2026-06-03T18:39:43Z",
       "last_event": "new",
       "last_notified_at": "2026-06-03T18:39:43Z",
-      "last_seen_at": "2026-06-04T17:38:24Z",
+      "last_seen_at": "2026-06-04T23:58:59Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -856,7 +878,7 @@
       "first_seen_at": "2026-06-04T17:38:24Z",
       "last_event": "new",
       "last_notified_at": "2026-06-04T17:38:24Z",
-      "last_seen_at": "2026-06-04T17:38:24Z",
+      "last_seen_at": "2026-06-04T23:58:59Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -876,7 +898,7 @@
       "first_seen_at": "2026-04-03T15:33:11Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-06-04T17:38:24Z",
+      "last_seen_at": "2026-06-04T23:58:59Z",
       "matched_terms": [
         "Korea"
       ],
@@ -893,7 +915,7 @@
       "first_seen_at": "2026-04-20T16:01:59Z",
       "last_event": "new",
       "last_notified_at": null,
-      "last_seen_at": "2026-06-04T17:38:24Z",
+      "last_seen_at": "2026-06-04T23:58:59Z",
       "matched_terms": [
         "Korea"
       ],
@@ -910,7 +932,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-06-04T17:38:24Z",
+      "last_seen_at": "2026-06-04T23:58:59Z",
       "matched_terms": [
         "DPRK",
         "South Korea",
@@ -937,7 +959,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-06-04T17:38:24Z",
+      "last_seen_at": "2026-06-04T23:58:59Z",
       "matched_terms": [
         "North Korea",
         "South Korean",
@@ -1412,7 +1434,7 @@
       "first_seen_at": "2026-05-27T23:53:58Z",
       "last_event": "new",
       "last_notified_at": "2026-05-27T23:53:58Z",
-      "last_seen_at": "2026-06-04T17:38:24Z",
+      "last_seen_at": "2026-06-04T23:58:59Z",
       "matched_terms": [
         "Republic of Korea",
         "Democratic People’s Republic of Korea",
@@ -2530,7 +2552,7 @@
       "first_seen_at": "2026-05-26T17:51:24Z",
       "last_event": "new",
       "last_notified_at": "2026-05-26T17:51:24Z",
-      "last_seen_at": "2026-06-04T17:38:24Z",
+      "last_seen_at": "2026-06-04T23:58:59Z",
       "matched_terms": [
         "North Korea",
         "Korea"
