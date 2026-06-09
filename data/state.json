@@ -638,7 +638,7 @@
       "first_seen_at": "2026-05-28T17:56:29Z",
       "last_event": "new",
       "last_notified_at": "2026-05-28T17:56:29Z",
-      "last_seen_at": "2026-06-09T10:28:32Z",
+      "last_seen_at": "2026-06-09T17:18:15Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -658,7 +658,7 @@
       "first_seen_at": "2026-05-29T17:59:46Z",
       "last_event": "new",
       "last_notified_at": "2026-05-29T17:59:46Z",
-      "last_seen_at": "2026-06-09T10:28:32Z",
+      "last_seen_at": "2026-06-09T17:18:15Z",
       "matched_terms": [
         "Pyongyang",
         "North Korea specialist source"
@@ -676,7 +676,7 @@
       "first_seen_at": "2026-05-21T17:26:28Z",
       "last_event": "new",
       "last_notified_at": "2026-05-21T17:26:28Z",
-      "last_seen_at": "2026-06-09T10:28:32Z",
+      "last_seen_at": "2026-06-09T17:18:15Z",
       "matched_terms": [
         "North Korea",
         "inter-Korean",
@@ -704,7 +704,7 @@
       "first_seen_at": "2026-05-22T17:02:08Z",
       "last_event": "new",
       "last_notified_at": "2026-05-22T17:02:08Z",
-      "last_seen_at": "2026-06-09T10:28:32Z",
+      "last_seen_at": "2026-06-09T17:18:15Z",
       "matched_terms": [
         "North Korean",
         "North Korea",
@@ -835,7 +835,7 @@
       "first_seen_at": "2026-06-04T23:58:59Z",
       "last_event": "new",
       "last_notified_at": "2026-06-04T23:58:59Z",
-      "last_seen_at": "2026-06-09T10:28:32Z",
+      "last_seen_at": "2026-06-09T17:18:15Z",
       "matched_terms": [
         "DPRK",
         "North Korea",
@@ -857,7 +857,7 @@
       "first_seen_at": "2026-06-03T18:39:43Z",
       "last_event": "new",
       "last_notified_at": "2026-06-03T18:39:43Z",
-      "last_seen_at": "2026-06-09T10:28:32Z",
+      "last_seen_at": "2026-06-09T17:18:15Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -878,7 +878,7 @@
       "first_seen_at": "2026-06-06T23:56:48Z",
       "last_event": "new",
       "last_notified_at": "2026-06-06T23:56:48Z",
-      "last_seen_at": "2026-06-09T10:28:32Z",
+      "last_seen_at": "2026-06-09T17:18:15Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -901,7 +901,7 @@
       "first_seen_at": "2026-06-04T17:38:24Z",
       "last_event": "new",
       "last_notified_at": "2026-06-04T17:38:24Z",
-      "last_seen_at": "2026-06-09T10:28:32Z",
+      "last_seen_at": "2026-06-09T17:18:15Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -921,7 +921,7 @@
       "first_seen_at": "2026-04-03T15:33:11Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-06-09T10:28:32Z",
+      "last_seen_at": "2026-06-09T17:18:15Z",
       "matched_terms": [
         "Korea"
       ],
@@ -938,7 +938,7 @@
       "first_seen_at": "2026-04-20T16:01:59Z",
       "last_event": "new",
       "last_notified_at": null,
-      "last_seen_at": "2026-06-09T10:28:32Z",
+      "last_seen_at": "2026-06-09T17:18:15Z",
       "matched_terms": [
         "Korea"
       ],
@@ -955,7 +955,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-06-09T10:28:32Z",
+      "last_seen_at": "2026-06-09T17:18:15Z",
       "matched_terms": [
         "DPRK",
         "South Korea",
@@ -982,7 +982,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-06-09T10:28:32Z",
+      "last_seen_at": "2026-06-09T17:18:15Z",
       "matched_terms": [
         "North Korea",
         "South Korean",
@@ -1212,7 +1212,7 @@
       "first_seen_at": "2026-06-05T17:07:35Z",
       "last_event": "new",
       "last_notified_at": "2026-06-05T17:07:35Z",
-      "last_seen_at": "2026-06-09T10:28:32Z",
+      "last_seen_at": "2026-06-09T17:18:15Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1234,7 +1234,7 @@
       "first_seen_at": "2026-06-05T17:07:35Z",
       "last_event": "new",
       "last_notified_at": "2026-06-05T17:07:35Z",
-      "last_seen_at": "2026-06-09T10:28:32Z",
+      "last_seen_at": "2026-06-09T17:18:15Z",
       "matched_terms": [
         "South Korea",
         "South Korean",
@@ -1504,7 +1504,7 @@
       "first_seen_at": "2026-05-27T23:53:58Z",
       "last_event": "new",
       "last_notified_at": "2026-05-27T23:53:58Z",
-      "last_seen_at": "2026-06-09T10:28:32Z",
+      "last_seen_at": "2026-06-09T17:18:15Z",
       "matched_terms": [
         "Republic of Korea",
         "Democratic People’s Republic of Korea",
@@ -2622,7 +2622,7 @@
       "first_seen_at": "2026-05-26T17:51:24Z",
       "last_event": "new",
       "last_notified_at": "2026-05-26T17:51:24Z",
-      "last_seen_at": "2026-06-09T10:28:32Z",
+      "last_seen_at": "2026-06-09T17:18:15Z",
       "matched_terms": [
         "North Korea",
         "Korea"
@@ -3180,6 +3180,24 @@
       "summary": "The WTO Chairs Programme (WCP) held an academic conference on 19 and 20 March in Yaoundé, Cameroon, discussing a wide range of issues and challenges in reforming the multilateral trading system from an African perspective. Participants also delved into trade and development issues to explore opportunities and new approaches for the continent and for other developing regions.",
       "title": "WTO Chairs Programme holds academic conference in Cameroon",
       "url": "https://www.wto.org/english/news_e/news26_e/chair_19mar26_333_e.htm"
+    },
+    "https://www.wto.org/english/news_e/news26_e/ffm_09jun26_410_e.htm": {
+      "confidence": "high",
+      "content_hash": "fd644655c07ff4e4480daa87f9f3827ec4c561dd99d3a61e17764ed11b65a1c7",
+      "first_seen_at": "2026-06-09T17:18:15Z",
+      "last_event": "new",
+      "last_notified_at": "2026-06-09T17:18:15Z",
+      "last_seen_at": "2026-06-09T17:18:15Z",
+      "matched_terms": [
+        "Republic of Korea",
+        "Korea"
+      ],
+      "published_at": "Tue, 09 Jun 2026 00:00:00 GMT",
+      "source_id": "wto_latest_news",
+      "source_label": "WTO Latest News",
+      "summary": "The WTO Fish Fund has marked an important milestone with the submission to the WTO of the first-ever fisheries subsidy notification made possible through support from the Fund. The submission on 3 June by Tonga under the Agreement on Fisheries Subsidies has additional significance given the developing Pacific region's exposure to the effects of harmful fisheries subsidies. The notification was prepared during a workshop held from 20 to 22 May in Nuku'alofa, Tonga, as part of a project funded by ",
+      "title": "Fish Fund supports Tonga's first notification under the Agreement on Fisheries Subsidies",
+      "url": "https://www.wto.org/english/news_e/news26_e/ffm_09jun26_410_e.htm"
     },
     "https://www.wto.org/english/news_e/news26_e/ffm_15apr26_359_e.htm": {
       "confidence": "high",
