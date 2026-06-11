@@ -638,7 +638,7 @@
       "first_seen_at": "2026-05-28T17:56:29Z",
       "last_event": "new",
       "last_notified_at": "2026-05-28T17:56:29Z",
-      "last_seen_at": "2026-06-10T17:51:19Z",
+      "last_seen_at": "2026-06-11T00:08:40Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -658,7 +658,7 @@
       "first_seen_at": "2026-05-29T17:59:46Z",
       "last_event": "new",
       "last_notified_at": "2026-05-29T17:59:46Z",
-      "last_seen_at": "2026-06-10T17:51:19Z",
+      "last_seen_at": "2026-06-11T00:08:40Z",
       "matched_terms": [
         "Pyongyang",
         "North Korea specialist source"
@@ -704,7 +704,7 @@
       "first_seen_at": "2026-05-22T17:02:08Z",
       "last_event": "new",
       "last_notified_at": "2026-05-22T17:02:08Z",
-      "last_seen_at": "2026-06-10T17:51:19Z",
+      "last_seen_at": "2026-06-11T00:08:40Z",
       "matched_terms": [
         "North Korean",
         "North Korea",
@@ -835,7 +835,7 @@
       "first_seen_at": "2026-06-04T23:58:59Z",
       "last_event": "new",
       "last_notified_at": "2026-06-04T23:58:59Z",
-      "last_seen_at": "2026-06-10T17:51:19Z",
+      "last_seen_at": "2026-06-11T00:08:40Z",
       "matched_terms": [
         "DPRK",
         "North Korea",
@@ -857,7 +857,7 @@
       "first_seen_at": "2026-06-03T18:39:43Z",
       "last_event": "new",
       "last_notified_at": "2026-06-03T18:39:43Z",
-      "last_seen_at": "2026-06-10T17:51:19Z",
+      "last_seen_at": "2026-06-11T00:08:40Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -878,7 +878,7 @@
       "first_seen_at": "2026-06-06T23:56:48Z",
       "last_event": "new",
       "last_notified_at": "2026-06-06T23:56:48Z",
-      "last_seen_at": "2026-06-10T17:51:19Z",
+      "last_seen_at": "2026-06-11T00:08:40Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -901,7 +901,7 @@
       "first_seen_at": "2026-06-04T17:38:24Z",
       "last_event": "new",
       "last_notified_at": "2026-06-04T17:38:24Z",
-      "last_seen_at": "2026-06-10T17:51:19Z",
+      "last_seen_at": "2026-06-11T00:08:40Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -915,13 +915,35 @@
       "title": "Project Anthracite: Sunchon Area Site Profile",
       "url": "https://www.38north.org/2026/06/project-anthracite-sunchon-area-site-profile/"
     },
+    "https://www.38north.org/2026/06/tbd-kim-xi-regional-roundup/": {
+      "confidence": "high",
+      "content_hash": "308fd0a7c4e15be9a477af84472e447880a2d3d1d267b000c2ce3d1ac83d3887",
+      "first_seen_at": "2026-06-11T00:08:40Z",
+      "last_event": "new",
+      "last_notified_at": "2026-06-11T00:08:40Z",
+      "last_seen_at": "2026-06-11T00:08:40Z",
+      "matched_terms": [
+        "North Korea",
+        "North Korean",
+        "DPRK",
+        "Pyongyang",
+        "Korea",
+        "Korean"
+      ],
+      "published_at": "Wed, 10 Jun 2026 23:20:48 +0000",
+      "source_id": "thirty_eight_north",
+      "source_label": "38 North",
+      "summary": "Stimson experts weigh in on Chinese President Xi Jinping’s June 8-9 visit to North Korea ...\nThe post\nXi Jinping’s Visit to Pyongyang: Regional Roundup\nappeared first on\n38 North\n.",
+      "title": "Xi Jinping’s Visit to Pyongyang: Regional Roundup",
+      "url": "https://www.38north.org/2026/06/tbd-kim-xi-regional-roundup/"
+    },
     "https://www.bis.org/press/p260322.htm": {
       "confidence": "medium",
       "content_hash": "26df461f780b89a6555243819e200b44dbf4171d6ac30351655afcaf14ab9f95",
       "first_seen_at": "2026-04-03T15:33:11Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-06-10T17:51:19Z",
+      "last_seen_at": "2026-06-11T00:08:40Z",
       "matched_terms": [
         "Korea"
       ],
@@ -938,7 +960,7 @@
       "first_seen_at": "2026-04-20T16:01:59Z",
       "last_event": "new",
       "last_notified_at": null,
-      "last_seen_at": "2026-06-10T17:51:19Z",
+      "last_seen_at": "2026-06-11T00:08:40Z",
       "matched_terms": [
         "Korea"
       ],
@@ -955,7 +977,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-06-10T17:51:19Z",
+      "last_seen_at": "2026-06-11T00:08:40Z",
       "matched_terms": [
         "DPRK",
         "South Korea",
@@ -982,7 +1004,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-06-10T17:51:19Z",
+      "last_seen_at": "2026-06-11T00:08:40Z",
       "matched_terms": [
         "North Korea",
         "South Korean",
@@ -1116,6 +1138,23 @@
       "title": "Plugging a New Gap in Monitoring Sanctions on North Korea",
       "url": "https://www.crisisgroup.org/qna/asia-pacific/korean-peninsula/plugging-new-gap-monitoring-sanctions-north-korea"
     },
+    "https://www.csis.org/analysis/2026-world-cup-sports-and-conflict": {
+      "confidence": "high",
+      "content_hash": "9607bc715c63057982370aa16fc74dd1148c87b44bed25eefd0af9b2177b7b0c",
+      "first_seen_at": "2026-06-11T00:08:40Z",
+      "last_event": "new",
+      "last_notified_at": "2026-06-11T00:08:40Z",
+      "last_seen_at": "2026-06-11T00:08:40Z",
+      "matched_terms": [
+        "Korean Peninsula source"
+      ],
+      "published_at": "Thu, 11 Jun 2026 00:09:46 GMT",
+      "source_id": "csis_korea_chair",
+      "source_label": "CSIS Korea Chair",
+      "summary": "As the United States prepares to co-host the largest World Cup ever played, the link between sports and politics is no less relevant than it was during the Cold War. But can it create diplomatic opportunities or even peace breakthroughs?",
+      "title": "The 2026 World Cup: Sports and Conflict",
+      "url": "https://www.csis.org/analysis/2026-world-cup-sports-and-conflict"
+    },
     "https://www.csis.org/analysis/can-sports-diplomacy-open-door-korean-peninsula": {
       "confidence": "high",
       "content_hash": "00b767155d0d65660360c722c17ff8944a92f7cef6e170b5eb938364a092b706",
@@ -1212,7 +1251,7 @@
       "first_seen_at": "2026-06-05T17:07:35Z",
       "last_event": "new",
       "last_notified_at": "2026-06-05T17:07:35Z",
-      "last_seen_at": "2026-06-10T17:51:19Z",
+      "last_seen_at": "2026-06-11T00:08:40Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1234,7 +1273,7 @@
       "first_seen_at": "2026-06-05T17:07:35Z",
       "last_event": "new",
       "last_notified_at": "2026-06-05T17:07:35Z",
-      "last_seen_at": "2026-06-10T17:51:19Z",
+      "last_seen_at": "2026-06-11T00:08:40Z",
       "matched_terms": [
         "South Korea",
         "South Korean",
@@ -1504,7 +1543,7 @@
       "first_seen_at": "2026-05-27T23:53:58Z",
       "last_event": "new",
       "last_notified_at": "2026-05-27T23:53:58Z",
-      "last_seen_at": "2026-06-10T17:51:19Z",
+      "last_seen_at": "2026-06-11T00:08:40Z",
       "matched_terms": [
         "Republic of Korea",
         "Democratic People’s Republic of Korea",
@@ -3187,7 +3226,7 @@
       "first_seen_at": "2026-06-09T17:18:15Z",
       "last_event": "new",
       "last_notified_at": "2026-06-09T17:18:15Z",
-      "last_seen_at": "2026-06-10T17:51:19Z",
+      "last_seen_at": "2026-06-11T00:08:40Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
