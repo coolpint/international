@@ -658,7 +658,7 @@
       "first_seen_at": "2026-05-29T17:59:46Z",
       "last_event": "new",
       "last_notified_at": "2026-05-29T17:59:46Z",
-      "last_seen_at": "2026-06-17T11:28:00Z",
+      "last_seen_at": "2026-06-17T17:44:48Z",
       "matched_terms": [
         "Pyongyang",
         "North Korea specialist source"
@@ -813,7 +813,7 @@
       "first_seen_at": "2026-06-17T00:09:34Z",
       "last_event": "new",
       "last_notified_at": "2026-06-17T00:09:34Z",
-      "last_seen_at": "2026-06-17T11:28:00Z",
+      "last_seen_at": "2026-06-17T17:44:48Z",
       "matched_terms": [
         "Republic of Korea",
         "North Korea",
@@ -859,7 +859,7 @@
       "first_seen_at": "2026-06-04T23:58:59Z",
       "last_event": "new",
       "last_notified_at": "2026-06-04T23:58:59Z",
-      "last_seen_at": "2026-06-17T11:28:00Z",
+      "last_seen_at": "2026-06-17T17:44:48Z",
       "matched_terms": [
         "DPRK",
         "North Korea",
@@ -881,7 +881,7 @@
       "first_seen_at": "2026-06-03T18:39:43Z",
       "last_event": "new",
       "last_notified_at": "2026-06-03T18:39:43Z",
-      "last_seen_at": "2026-06-17T11:28:00Z",
+      "last_seen_at": "2026-06-17T17:44:48Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -902,7 +902,7 @@
       "first_seen_at": "2026-06-06T23:56:48Z",
       "last_event": "new",
       "last_notified_at": "2026-06-06T23:56:48Z",
-      "last_seen_at": "2026-06-17T11:28:00Z",
+      "last_seen_at": "2026-06-17T17:44:48Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -919,13 +919,36 @@
       "title": "North Korea’s Posturing Toward China Ahead of Xi’s Visit",
       "url": "https://www.38north.org/2026/06/north-koreas-posturing-toward-china-ahead-of-xis-visit/"
     },
+    "https://www.38north.org/2026/06/on-a-mission-from-general-affairs-department/": {
+      "confidence": "high",
+      "content_hash": "ee265a7b7978566366b3be1d1815011b4cdd6538f31251d350b8f425ecb9738e",
+      "first_seen_at": "2026-06-17T17:44:48Z",
+      "last_event": "new",
+      "last_notified_at": "2026-06-17T17:44:48Z",
+      "last_seen_at": "2026-06-17T17:44:48Z",
+      "matched_terms": [
+        "South Korea",
+        "North Korea",
+        "North Korean",
+        "DPRK",
+        "Korea",
+        "Korean",
+        "ROK"
+      ],
+      "published_at": "Wed, 17 Jun 2026 15:35:27 +0000",
+      "source_id": "thirty_eight_north",
+      "source_label": "38 North",
+      "summary": "One significant outcome from North Korea’s Ninth Party Congress was the appointment of Kim Yo ...\nThe post\nOn a Mission From General Affairs Department\nappeared first on\n38 North\n.",
+      "title": "On a Mission From General Affairs Department",
+      "url": "https://www.38north.org/2026/06/on-a-mission-from-general-affairs-department/"
+    },
     "https://www.38north.org/2026/06/project-anthracite-sunchon-area-site-profile/": {
       "confidence": "high",
       "content_hash": "9f34f123a5efa464c3b7296f1e369786477ba95094fdd74d89148017b96156ee",
       "first_seen_at": "2026-06-04T17:38:24Z",
       "last_event": "new",
       "last_notified_at": "2026-06-04T17:38:24Z",
-      "last_seen_at": "2026-06-17T11:28:00Z",
+      "last_seen_at": "2026-06-17T17:44:48Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -945,7 +968,7 @@
       "first_seen_at": "2026-06-11T00:08:40Z",
       "last_event": "new",
       "last_notified_at": "2026-06-11T00:08:40Z",
-      "last_seen_at": "2026-06-17T11:28:00Z",
+      "last_seen_at": "2026-06-17T17:44:48Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -967,7 +990,7 @@
       "first_seen_at": "2026-04-03T15:33:11Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-06-17T11:28:00Z",
+      "last_seen_at": "2026-06-17T17:44:48Z",
       "matched_terms": [
         "Korea"
       ],
@@ -984,7 +1007,7 @@
       "first_seen_at": "2026-04-20T16:01:59Z",
       "last_event": "new",
       "last_notified_at": null,
-      "last_seen_at": "2026-06-17T11:28:00Z",
+      "last_seen_at": "2026-06-17T17:44:48Z",
       "matched_terms": [
         "Korea"
       ],
@@ -1001,7 +1024,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-06-17T11:28:00Z",
+      "last_seen_at": "2026-06-17T17:44:48Z",
       "matched_terms": [
         "DPRK",
         "South Korea",
@@ -1028,7 +1051,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-06-17T11:28:00Z",
+      "last_seen_at": "2026-06-17T17:44:48Z",
       "matched_terms": [
         "North Korea",
         "South Korean",
@@ -1168,7 +1191,7 @@
       "first_seen_at": "2026-06-11T00:08:40Z",
       "last_event": "new",
       "last_notified_at": "2026-06-11T00:08:40Z",
-      "last_seen_at": "2026-06-17T11:28:00Z",
+      "last_seen_at": "2026-06-17T17:44:48Z",
       "matched_terms": [
         "Korean Peninsula source"
       ],
@@ -1322,7 +1345,7 @@
       "first_seen_at": "2026-06-13T00:13:07Z",
       "last_event": "new",
       "last_notified_at": "2026-06-13T00:13:07Z",
-      "last_seen_at": "2026-06-17T11:28:00Z",
+      "last_seen_at": "2026-06-17T17:44:48Z",
       "matched_terms": [
         "South Korea",
         "Korea"
@@ -1585,7 +1608,7 @@
       "first_seen_at": "2026-05-27T23:53:58Z",
       "last_event": "new",
       "last_notified_at": "2026-05-27T23:53:58Z",
-      "last_seen_at": "2026-06-17T11:28:00Z",
+      "last_seen_at": "2026-06-17T17:44:48Z",
       "matched_terms": [
         "Republic of Korea",
         "Democratic People’s Republic of Korea",
@@ -3268,7 +3291,7 @@
       "first_seen_at": "2026-06-09T17:18:15Z",
       "last_event": "new",
       "last_notified_at": "2026-06-09T17:18:15Z",
-      "last_seen_at": "2026-06-17T11:28:00Z",
+      "last_seen_at": "2026-06-17T17:44:48Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
