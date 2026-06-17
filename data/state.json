@@ -638,7 +638,7 @@
       "first_seen_at": "2026-05-28T17:56:29Z",
       "last_event": "new",
       "last_notified_at": "2026-05-28T17:56:29Z",
-      "last_seen_at": "2026-06-16T18:51:44Z",
+      "last_seen_at": "2026-06-17T00:09:34Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -658,7 +658,7 @@
       "first_seen_at": "2026-05-29T17:59:46Z",
       "last_event": "new",
       "last_notified_at": "2026-05-29T17:59:46Z",
-      "last_seen_at": "2026-06-16T18:51:44Z",
+      "last_seen_at": "2026-06-17T00:09:34Z",
       "matched_terms": [
         "Pyongyang",
         "North Korea specialist source"
@@ -807,6 +807,30 @@
       "title": "Tracing Russian Linkages in North Korea’s Expanding Nuclear Complex",
       "url": "https://www.38north.org/2026/05/tracing-russian-linkages-in-north-koreas-expanding-nuclear-complex/"
     },
+    "https://www.38north.org/2026/06/meet-the-2026-2027-cohort-for-the-38-north-emerging-scholars-fellowship-program/": {
+      "confidence": "high",
+      "content_hash": "8962fe0de39253542f0b0d869a45097f0d1ffe2bede2e768c246c32f204bddf5",
+      "first_seen_at": "2026-06-17T00:09:34Z",
+      "last_event": "new",
+      "last_notified_at": "2026-06-17T00:09:34Z",
+      "last_seen_at": "2026-06-17T00:09:34Z",
+      "matched_terms": [
+        "Republic of Korea",
+        "North Korea",
+        "North Korean",
+        "DPRK",
+        "Korean Peninsula",
+        "Korea",
+        "Korean",
+        "Seoul"
+      ],
+      "published_at": "Tue, 16 Jun 2026 15:06:59 +0000",
+      "source_id": "thirty_eight_north",
+      "source_label": "38 North",
+      "summary": "The 38 North Program at the Henry L. Stimson Center is excited to welcome our 2026-2027 cohort ...\nThe post\nMeet the 2026-2027 Cohort for the 38 North Emerging Scholars Fellowship Program\nappeared first on\n38 North\n.",
+      "title": "Meet the 2026-2027 Cohort for the 38 North Emerging Scholars Fellowship Program",
+      "url": "https://www.38north.org/2026/06/meet-the-2026-2027-cohort-for-the-38-north-emerging-scholars-fellowship-program/"
+    },
     "https://www.38north.org/2026/06/new-dprk-russia-friendship-hospital-is-repurpising-existing-project/": {
       "confidence": "high",
       "content_hash": "29809c20471796db3543a68cd75816b0a06c0b5b807e4f3833fd9b79564f1c8a",
@@ -835,7 +859,7 @@
       "first_seen_at": "2026-06-04T23:58:59Z",
       "last_event": "new",
       "last_notified_at": "2026-06-04T23:58:59Z",
-      "last_seen_at": "2026-06-16T18:51:44Z",
+      "last_seen_at": "2026-06-17T00:09:34Z",
       "matched_terms": [
         "DPRK",
         "North Korea",
@@ -857,7 +881,7 @@
       "first_seen_at": "2026-06-03T18:39:43Z",
       "last_event": "new",
       "last_notified_at": "2026-06-03T18:39:43Z",
-      "last_seen_at": "2026-06-16T18:51:44Z",
+      "last_seen_at": "2026-06-17T00:09:34Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -878,7 +902,7 @@
       "first_seen_at": "2026-06-06T23:56:48Z",
       "last_event": "new",
       "last_notified_at": "2026-06-06T23:56:48Z",
-      "last_seen_at": "2026-06-16T18:51:44Z",
+      "last_seen_at": "2026-06-17T00:09:34Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -901,7 +925,7 @@
       "first_seen_at": "2026-06-04T17:38:24Z",
       "last_event": "new",
       "last_notified_at": "2026-06-04T17:38:24Z",
-      "last_seen_at": "2026-06-16T18:51:44Z",
+      "last_seen_at": "2026-06-17T00:09:34Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -921,7 +945,7 @@
       "first_seen_at": "2026-06-11T00:08:40Z",
       "last_event": "new",
       "last_notified_at": "2026-06-11T00:08:40Z",
-      "last_seen_at": "2026-06-16T18:51:44Z",
+      "last_seen_at": "2026-06-17T00:09:34Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -943,7 +967,7 @@
       "first_seen_at": "2026-04-03T15:33:11Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-06-16T18:51:44Z",
+      "last_seen_at": "2026-06-17T00:09:34Z",
       "matched_terms": [
         "Korea"
       ],
@@ -960,7 +984,7 @@
       "first_seen_at": "2026-04-20T16:01:59Z",
       "last_event": "new",
       "last_notified_at": null,
-      "last_seen_at": "2026-06-16T18:51:44Z",
+      "last_seen_at": "2026-06-17T00:09:34Z",
       "matched_terms": [
         "Korea"
       ],
@@ -977,7 +1001,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-06-16T18:51:44Z",
+      "last_seen_at": "2026-06-17T00:09:34Z",
       "matched_terms": [
         "DPRK",
         "South Korea",
@@ -1004,7 +1028,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-06-16T18:51:44Z",
+      "last_seen_at": "2026-06-17T00:09:34Z",
       "matched_terms": [
         "North Korea",
         "South Korean",
@@ -1144,7 +1168,7 @@
       "first_seen_at": "2026-06-11T00:08:40Z",
       "last_event": "new",
       "last_notified_at": "2026-06-11T00:08:40Z",
-      "last_seen_at": "2026-06-16T18:51:44Z",
+      "last_seen_at": "2026-06-17T00:09:34Z",
       "matched_terms": [
         "Korean Peninsula source"
       ],
@@ -1298,7 +1322,7 @@
       "first_seen_at": "2026-06-13T00:13:07Z",
       "last_event": "new",
       "last_notified_at": "2026-06-13T00:13:07Z",
-      "last_seen_at": "2026-06-16T18:51:44Z",
+      "last_seen_at": "2026-06-17T00:09:34Z",
       "matched_terms": [
         "South Korea",
         "Korea"
@@ -1561,7 +1585,7 @@
       "first_seen_at": "2026-05-27T23:53:58Z",
       "last_event": "new",
       "last_notified_at": "2026-05-27T23:53:58Z",
-      "last_seen_at": "2026-06-16T18:51:44Z",
+      "last_seen_at": "2026-06-17T00:09:34Z",
       "matched_terms": [
         "Republic of Korea",
         "Democratic People’s Republic of Korea",
@@ -3244,7 +3268,7 @@
       "first_seen_at": "2026-06-09T17:18:15Z",
       "last_event": "new",
       "last_notified_at": "2026-06-09T17:18:15Z",
-      "last_seen_at": "2026-06-16T18:51:44Z",
+      "last_seen_at": "2026-06-17T00:09:34Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
