@@ -831,7 +831,7 @@
       "first_seen_at": "2026-06-17T00:09:34Z",
       "last_event": "new",
       "last_notified_at": "2026-06-17T00:09:34Z",
-      "last_seen_at": "2026-06-22T12:43:07Z",
+      "last_seen_at": "2026-06-22T18:40:19Z",
       "matched_terms": [
         "Republic of Korea",
         "North Korea",
@@ -877,7 +877,7 @@
       "first_seen_at": "2026-06-04T23:58:59Z",
       "last_event": "new",
       "last_notified_at": "2026-06-04T23:58:59Z",
-      "last_seen_at": "2026-06-22T12:43:07Z",
+      "last_seen_at": "2026-06-22T18:40:19Z",
       "matched_terms": [
         "DPRK",
         "North Korea",
@@ -899,7 +899,7 @@
       "first_seen_at": "2026-06-19T00:20:04Z",
       "last_event": "new",
       "last_notified_at": "2026-06-19T00:20:04Z",
-      "last_seen_at": "2026-06-22T12:43:07Z",
+      "last_seen_at": "2026-06-22T18:40:19Z",
       "matched_terms": [
         "North Korea",
         "Republic of Korea",
@@ -943,7 +943,7 @@
       "first_seen_at": "2026-06-06T23:56:48Z",
       "last_event": "new",
       "last_notified_at": "2026-06-06T23:56:48Z",
-      "last_seen_at": "2026-06-22T12:43:07Z",
+      "last_seen_at": "2026-06-22T18:40:19Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -966,7 +966,7 @@
       "first_seen_at": "2026-06-17T17:44:48Z",
       "last_event": "new",
       "last_notified_at": "2026-06-17T17:44:48Z",
-      "last_seen_at": "2026-06-22T12:43:07Z",
+      "last_seen_at": "2026-06-22T18:40:19Z",
       "matched_terms": [
         "South Korea",
         "North Korea",
@@ -989,7 +989,7 @@
       "first_seen_at": "2026-06-04T17:38:24Z",
       "last_event": "new",
       "last_notified_at": "2026-06-04T17:38:24Z",
-      "last_seen_at": "2026-06-22T12:43:07Z",
+      "last_seen_at": "2026-06-22T18:40:19Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1009,7 +1009,7 @@
       "first_seen_at": "2026-06-11T00:08:40Z",
       "last_event": "new",
       "last_notified_at": "2026-06-11T00:08:40Z",
-      "last_seen_at": "2026-06-22T12:43:07Z",
+      "last_seen_at": "2026-06-22T18:40:19Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1025,13 +1025,37 @@
       "title": "Xi Jinping’s Visit to Pyongyang: Regional Roundup",
       "url": "https://www.38north.org/2026/06/tbd-kim-xi-regional-roundup/"
     },
+    "https://www.38north.org/2026/06/why-north-korea-got-the-bomb-and-iran-did-not-for-now/": {
+      "confidence": "high",
+      "content_hash": "ecfd571e505a1743c1f1d90fd323f3e659ac01960f6d43541b69078fe77bd070",
+      "first_seen_at": "2026-06-22T18:40:19Z",
+      "last_event": "new",
+      "last_notified_at": "2026-06-22T18:40:19Z",
+      "last_seen_at": "2026-06-22T18:40:19Z",
+      "matched_terms": [
+        "North Korea",
+        "South Korea",
+        "South Korean",
+        "North Korean",
+        "Korea",
+        "Korean",
+        "Seoul",
+        "Pyongyang"
+      ],
+      "published_at": "Mon, 22 Jun 2026 16:26:16 +0000",
+      "source_id": "thirty_eight_north",
+      "source_label": "38 North",
+      "summary": "Why did North Korea get nuclear weapons when other states with similar nuclear ambitions like ...\nThe post\nWhy North Korea Got the Bomb (And Iran Did Not, for Now)\nappeared first on\n38 North\n.",
+      "title": "Why North Korea Got the Bomb (And Iran Did Not, for Now)",
+      "url": "https://www.38north.org/2026/06/why-north-korea-got-the-bomb-and-iran-did-not-for-now/"
+    },
     "https://www.bis.org/press/p260322.htm": {
       "confidence": "medium",
       "content_hash": "26df461f780b89a6555243819e200b44dbf4171d6ac30351655afcaf14ab9f95",
       "first_seen_at": "2026-04-03T15:33:11Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-06-22T12:43:07Z",
+      "last_seen_at": "2026-06-22T18:40:19Z",
       "matched_terms": [
         "Korea"
       ],
@@ -1048,7 +1072,7 @@
       "first_seen_at": "2026-04-20T16:01:59Z",
       "last_event": "new",
       "last_notified_at": null,
-      "last_seen_at": "2026-06-22T12:43:07Z",
+      "last_seen_at": "2026-06-22T18:40:19Z",
       "matched_terms": [
         "Korea"
       ],
@@ -1232,7 +1256,7 @@
       "first_seen_at": "2026-06-11T00:08:40Z",
       "last_event": "new",
       "last_notified_at": "2026-06-11T00:08:40Z",
-      "last_seen_at": "2026-06-22T12:43:07Z",
+      "last_seen_at": "2026-06-22T18:40:19Z",
       "matched_terms": [
         "Korean Peninsula source"
       ],
@@ -1386,7 +1410,7 @@
       "first_seen_at": "2026-06-13T00:13:07Z",
       "last_event": "new",
       "last_notified_at": "2026-06-13T00:13:07Z",
-      "last_seen_at": "2026-06-22T12:43:07Z",
+      "last_seen_at": "2026-06-22T18:40:19Z",
       "matched_terms": [
         "South Korea",
         "Korea"
@@ -1649,7 +1673,7 @@
       "first_seen_at": "2026-05-27T23:53:58Z",
       "last_event": "new",
       "last_notified_at": "2026-05-27T23:53:58Z",
-      "last_seen_at": "2026-06-22T12:43:07Z",
+      "last_seen_at": "2026-06-22T18:40:19Z",
       "matched_terms": [
         "Republic of Korea",
         "Democratic People’s Republic of Korea",
