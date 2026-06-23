@@ -831,7 +831,7 @@
       "first_seen_at": "2026-06-17T00:09:34Z",
       "last_event": "new",
       "last_notified_at": "2026-06-17T00:09:34Z",
-      "last_seen_at": "2026-06-23T10:28:02Z",
+      "last_seen_at": "2026-06-23T17:10:13Z",
       "matched_terms": [
         "Republic of Korea",
         "North Korea",
@@ -877,7 +877,7 @@
       "first_seen_at": "2026-06-04T23:58:59Z",
       "last_event": "new",
       "last_notified_at": "2026-06-04T23:58:59Z",
-      "last_seen_at": "2026-06-23T10:28:02Z",
+      "last_seen_at": "2026-06-23T17:10:13Z",
       "matched_terms": [
         "DPRK",
         "North Korea",
@@ -899,7 +899,7 @@
       "first_seen_at": "2026-06-19T00:20:04Z",
       "last_event": "new",
       "last_notified_at": "2026-06-19T00:20:04Z",
-      "last_seen_at": "2026-06-23T10:28:02Z",
+      "last_seen_at": "2026-06-23T17:10:13Z",
       "matched_terms": [
         "North Korea",
         "Republic of Korea",
@@ -943,7 +943,7 @@
       "first_seen_at": "2026-06-06T23:56:48Z",
       "last_event": "new",
       "last_notified_at": "2026-06-06T23:56:48Z",
-      "last_seen_at": "2026-06-23T10:28:02Z",
+      "last_seen_at": "2026-06-23T17:10:13Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -966,7 +966,7 @@
       "first_seen_at": "2026-06-17T17:44:48Z",
       "last_event": "new",
       "last_notified_at": "2026-06-17T17:44:48Z",
-      "last_seen_at": "2026-06-23T10:28:02Z",
+      "last_seen_at": "2026-06-23T17:10:13Z",
       "matched_terms": [
         "South Korea",
         "North Korea",
@@ -989,7 +989,7 @@
       "first_seen_at": "2026-06-04T17:38:24Z",
       "last_event": "new",
       "last_notified_at": "2026-06-04T17:38:24Z",
-      "last_seen_at": "2026-06-23T10:28:02Z",
+      "last_seen_at": "2026-06-23T17:10:13Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1009,7 +1009,7 @@
       "first_seen_at": "2026-06-11T00:08:40Z",
       "last_event": "new",
       "last_notified_at": "2026-06-11T00:08:40Z",
-      "last_seen_at": "2026-06-23T10:28:02Z",
+      "last_seen_at": "2026-06-23T17:10:13Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1031,7 +1031,7 @@
       "first_seen_at": "2026-06-22T18:40:19Z",
       "last_event": "new",
       "last_notified_at": "2026-06-22T18:40:19Z",
-      "last_seen_at": "2026-06-23T10:28:02Z",
+      "last_seen_at": "2026-06-23T17:10:13Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -1055,7 +1055,7 @@
       "first_seen_at": "2026-04-03T15:33:11Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-06-23T10:28:02Z",
+      "last_seen_at": "2026-06-23T17:10:13Z",
       "matched_terms": [
         "Korea"
       ],
@@ -1072,7 +1072,7 @@
       "first_seen_at": "2026-04-20T16:01:59Z",
       "last_event": "new",
       "last_notified_at": null,
-      "last_seen_at": "2026-06-23T10:28:02Z",
+      "last_seen_at": "2026-06-23T17:10:13Z",
       "matched_terms": [
         "Korea"
       ],
@@ -1256,7 +1256,7 @@
       "first_seen_at": "2026-06-11T00:08:40Z",
       "last_event": "new",
       "last_notified_at": "2026-06-11T00:08:40Z",
-      "last_seen_at": "2026-06-23T10:28:02Z",
+      "last_seen_at": "2026-06-23T17:10:13Z",
       "matched_terms": [
         "Korean Peninsula source"
       ],
@@ -1410,7 +1410,7 @@
       "first_seen_at": "2026-06-13T00:13:07Z",
       "last_event": "new",
       "last_notified_at": "2026-06-13T00:13:07Z",
-      "last_seen_at": "2026-06-23T10:28:02Z",
+      "last_seen_at": "2026-06-23T17:10:13Z",
       "matched_terms": [
         "South Korea",
         "Korea"
@@ -3349,6 +3349,43 @@
       "summary": "The WTO Chairs Programme (WCP) held an academic conference on 19 and 20 March in Yaoundé, Cameroon, discussing a wide range of issues and challenges in reforming the multilateral trading system from an African perspective. Participants also delved into trade and development issues to explore opportunities and new approaches for the continent and for other developing regions.",
       "title": "WTO Chairs Programme holds academic conference in Cameroon",
       "url": "https://www.wto.org/english/news_e/news26_e/chair_19mar26_333_e.htm"
+    },
+    "https://www.wto.org/english/news_e/news26_e/ddgjn_23jun26_425_e.htm": {
+      "confidence": "high",
+      "content_hash": "57e559a58f9ffcacfa0297fd40498e9d0ebeefc0067154e92654a9489a71f308",
+      "first_seen_at": "2026-06-23T17:10:13Z",
+      "last_event": "new",
+      "last_notified_at": "2026-06-23T17:10:13Z",
+      "last_seen_at": "2026-06-23T17:10:13Z",
+      "matched_terms": [
+        "South Korea",
+        "Seoul",
+        "Korea"
+      ],
+      "published_at": "Tue, 23 Jun 2026 00:00:00 GMT",
+      "source_id": "wto_latest_news",
+      "source_label": "WTO Latest News",
+      "summary": "Speaking at the 24th Seoul International Forum on Trade Remedies on 23 June, WTO Deputy Director-General DJ Nordquist underscored the importance of transparent and predictable trade remedy practices in a period of heightened uncertainty for the global trading system. She highlighted the continued resilience of global trade, the growing use of WTO-consistent trade remedy instruments by members, and the need for WTO reform to ensure that the multilateral trading system remains responsive to contem",
+      "title": "DDG Nordquist highlights role of trade remedies amid global trade challenges at Seoul Forum",
+      "url": "https://www.wto.org/english/news_e/news26_e/ddgjn_23jun26_425_e.htm"
+    },
+    "https://www.wto.org/english/news_e/news26_e/dsb_23jun26_426_e.htm": {
+      "confidence": "high",
+      "content_hash": "f58cfbcde1a95895df07521cec06e6ae79de05e891515d42d4730a5efca1b5d9",
+      "first_seen_at": "2026-06-23T17:10:13Z",
+      "last_event": "new",
+      "last_notified_at": "2026-06-23T17:10:13Z",
+      "last_seen_at": "2026-06-23T17:10:13Z",
+      "matched_terms": [
+        "Republic of Korea",
+        "Korea"
+      ],
+      "published_at": "Tue, 23 Jun 2026 00:00:00 GMT",
+      "source_id": "wto_latest_news",
+      "source_label": "WTO Latest News",
+      "summary": "The Dispute Settlement Body (DSB) agreed at its meeting on 23 June to a request from China for the establishment of a panel to review measures in India affecting imports of solar cells, solar modules and information technology goods. The DSB Chair, Ambassador Guilherme de Aguiar Patriota (Brazil), convened an informal discussion after the meeting to take stock of members' positions on dispute settlement reform.",
+      "title": "Panel to review Indian measures on solar, IT goods; members share views on reform talks",
+      "url": "https://www.wto.org/english/news_e/news26_e/dsb_23jun26_426_e.htm"
     },
     "https://www.wto.org/english/news_e/news26_e/ffm_09jun26_410_e.htm": {
       "confidence": "high",
