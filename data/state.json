@@ -831,7 +831,7 @@
       "first_seen_at": "2026-06-17T00:09:34Z",
       "last_event": "new",
       "last_notified_at": "2026-06-17T00:09:34Z",
-      "last_seen_at": "2026-06-25T10:11:11Z",
+      "last_seen_at": "2026-06-25T17:03:26Z",
       "matched_terms": [
         "Republic of Korea",
         "North Korea",
@@ -877,7 +877,7 @@
       "first_seen_at": "2026-06-04T23:58:59Z",
       "last_event": "new",
       "last_notified_at": "2026-06-04T23:58:59Z",
-      "last_seen_at": "2026-06-25T10:11:11Z",
+      "last_seen_at": "2026-06-25T17:03:26Z",
       "matched_terms": [
         "DPRK",
         "North Korea",
@@ -899,7 +899,7 @@
       "first_seen_at": "2026-06-19T00:20:04Z",
       "last_event": "new",
       "last_notified_at": "2026-06-19T00:20:04Z",
-      "last_seen_at": "2026-06-25T10:11:11Z",
+      "last_seen_at": "2026-06-25T17:03:26Z",
       "matched_terms": [
         "North Korea",
         "Republic of Korea",
@@ -943,7 +943,7 @@
       "first_seen_at": "2026-06-06T23:56:48Z",
       "last_event": "new",
       "last_notified_at": "2026-06-06T23:56:48Z",
-      "last_seen_at": "2026-06-25T10:11:11Z",
+      "last_seen_at": "2026-06-25T17:03:26Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -966,7 +966,7 @@
       "first_seen_at": "2026-06-17T17:44:48Z",
       "last_event": "new",
       "last_notified_at": "2026-06-17T17:44:48Z",
-      "last_seen_at": "2026-06-25T10:11:11Z",
+      "last_seen_at": "2026-06-25T17:03:26Z",
       "matched_terms": [
         "South Korea",
         "North Korea",
@@ -989,7 +989,7 @@
       "first_seen_at": "2026-06-04T17:38:24Z",
       "last_event": "new",
       "last_notified_at": "2026-06-04T17:38:24Z",
-      "last_seen_at": "2026-06-25T10:11:11Z",
+      "last_seen_at": "2026-06-25T17:03:26Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1009,7 +1009,7 @@
       "first_seen_at": "2026-06-11T00:08:40Z",
       "last_event": "new",
       "last_notified_at": "2026-06-11T00:08:40Z",
-      "last_seen_at": "2026-06-25T10:11:11Z",
+      "last_seen_at": "2026-06-25T17:03:26Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1031,7 +1031,7 @@
       "first_seen_at": "2026-06-22T18:40:19Z",
       "last_event": "new",
       "last_notified_at": "2026-06-22T18:40:19Z",
-      "last_seen_at": "2026-06-25T10:11:11Z",
+      "last_seen_at": "2026-06-25T17:03:26Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -1055,7 +1055,7 @@
       "first_seen_at": "2026-04-03T15:33:11Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-06-25T10:11:11Z",
+      "last_seen_at": "2026-06-25T17:03:26Z",
       "matched_terms": [
         "Korea"
       ],
@@ -1072,7 +1072,7 @@
       "first_seen_at": "2026-04-20T16:01:59Z",
       "last_event": "new",
       "last_notified_at": null,
-      "last_seen_at": "2026-06-25T10:11:11Z",
+      "last_seen_at": "2026-06-25T17:03:26Z",
       "matched_terms": [
         "Korea"
       ],
@@ -1410,7 +1410,7 @@
       "first_seen_at": "2026-06-13T00:13:07Z",
       "last_event": "new",
       "last_notified_at": "2026-06-13T00:13:07Z",
-      "last_seen_at": "2026-06-25T10:11:11Z",
+      "last_seen_at": "2026-06-25T17:03:26Z",
       "matched_terms": [
         "South Korea",
         "Korea"
@@ -1673,7 +1673,7 @@
       "first_seen_at": "2026-05-27T23:53:58Z",
       "last_event": "new",
       "last_notified_at": "2026-05-27T23:53:58Z",
-      "last_seen_at": "2026-06-24T23:58:52Z",
+      "last_seen_at": "2026-06-25T17:03:26Z",
       "matched_terms": [
         "Republic of Korea",
         "Democratic People’s Republic of Korea",
@@ -2726,6 +2726,24 @@
       "title": "Why Kim Yo Jong praising Seoul for saying ‘sorry’ isn’t a prelude to engagement",
       "url": "https://www.nknews.org/2026/04/why-kim-yo-jong-praising-seoul-for-saying-sorry-isnt-a-prelude-to-engagement/"
     },
+    "https://www.rusi.org/explore-our-research/publications/commentary/china-has-not-escaped-middle-east-it-has-learned-live-risk": {
+      "confidence": "high",
+      "content_hash": "ade17d0321cc0d3ea912fef2c9243da06bca541a77960ded9e8baf6a20636c89",
+      "first_seen_at": "2026-06-25T17:03:26Z",
+      "last_event": "new",
+      "last_notified_at": "2026-06-25T17:03:26Z",
+      "last_seen_at": "2026-06-25T17:03:26Z",
+      "matched_terms": [
+        "South Korea",
+        "Korea"
+      ],
+      "published_at": "Thu, 25 Jun 2026 14:33:55 GMT",
+      "source_id": "rusi_publications",
+      "source_label": "RUSI Publications",
+      "summary": "The success of China energy resilience approach should give foreign policymakers pause for thought.",
+      "title": "China Has Not Escaped the Middle East. It Has Learned to Live with the Risk",
+      "url": "https://www.rusi.org/explore-our-research/publications/commentary/china-has-not-escaped-middle-east-it-has-learned-live-risk"
+    },
     "https://www.rusi.org/explore-our-research/publications/commentary/gulf-war-hidden-vulnerabilities-and-strategic-failures": {
       "confidence": "high",
       "content_hash": "be23692633d770b312fd127dd17d5bab9ed48b3ac9c8fd06d8beafba28c33bc4",
@@ -3356,7 +3374,7 @@
       "first_seen_at": "2026-06-23T17:10:13Z",
       "last_event": "updated",
       "last_notified_at": "2026-06-24T10:13:21Z",
-      "last_seen_at": "2026-06-25T10:11:11Z",
+      "last_seen_at": "2026-06-25T17:03:26Z",
       "matched_terms": [
         "South Korea",
         "Seoul",
@@ -3375,7 +3393,7 @@
       "first_seen_at": "2026-06-23T17:10:13Z",
       "last_event": "new",
       "last_notified_at": "2026-06-23T17:10:13Z",
-      "last_seen_at": "2026-06-25T10:11:11Z",
+      "last_seen_at": "2026-06-25T17:03:26Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
