@@ -831,7 +831,7 @@
       "first_seen_at": "2026-06-17T00:09:34Z",
       "last_event": "new",
       "last_notified_at": "2026-06-17T00:09:34Z",
-      "last_seen_at": "2026-06-27T09:22:53Z",
+      "last_seen_at": "2026-06-27T15:58:40Z",
       "matched_terms": [
         "Republic of Korea",
         "North Korea",
@@ -877,7 +877,7 @@
       "first_seen_at": "2026-06-04T23:58:59Z",
       "last_event": "new",
       "last_notified_at": "2026-06-04T23:58:59Z",
-      "last_seen_at": "2026-06-27T09:22:53Z",
+      "last_seen_at": "2026-06-27T15:58:40Z",
       "matched_terms": [
         "DPRK",
         "North Korea",
@@ -899,7 +899,7 @@
       "first_seen_at": "2026-06-19T00:20:04Z",
       "last_event": "new",
       "last_notified_at": "2026-06-19T00:20:04Z",
-      "last_seen_at": "2026-06-27T09:22:53Z",
+      "last_seen_at": "2026-06-27T15:58:40Z",
       "matched_terms": [
         "North Korea",
         "Republic of Korea",
@@ -943,7 +943,7 @@
       "first_seen_at": "2026-06-06T23:56:48Z",
       "last_event": "new",
       "last_notified_at": "2026-06-06T23:56:48Z",
-      "last_seen_at": "2026-06-27T09:22:53Z",
+      "last_seen_at": "2026-06-27T15:58:40Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -966,7 +966,7 @@
       "first_seen_at": "2026-06-17T17:44:48Z",
       "last_event": "new",
       "last_notified_at": "2026-06-17T17:44:48Z",
-      "last_seen_at": "2026-06-27T09:22:53Z",
+      "last_seen_at": "2026-06-27T15:58:40Z",
       "matched_terms": [
         "South Korea",
         "North Korea",
@@ -989,7 +989,7 @@
       "first_seen_at": "2026-06-04T17:38:24Z",
       "last_event": "new",
       "last_notified_at": "2026-06-04T17:38:24Z",
-      "last_seen_at": "2026-06-27T09:22:53Z",
+      "last_seen_at": "2026-06-27T15:58:40Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1009,7 +1009,7 @@
       "first_seen_at": "2026-06-11T00:08:40Z",
       "last_event": "new",
       "last_notified_at": "2026-06-11T00:08:40Z",
-      "last_seen_at": "2026-06-27T09:22:53Z",
+      "last_seen_at": "2026-06-27T15:58:40Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1031,7 +1031,7 @@
       "first_seen_at": "2026-06-22T18:40:19Z",
       "last_event": "new",
       "last_notified_at": "2026-06-22T18:40:19Z",
-      "last_seen_at": "2026-06-27T09:22:53Z",
+      "last_seen_at": "2026-06-27T15:58:40Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -1055,7 +1055,7 @@
       "first_seen_at": "2026-04-03T15:33:11Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-06-27T09:22:53Z",
+      "last_seen_at": "2026-06-27T15:58:40Z",
       "matched_terms": [
         "Korea"
       ],
@@ -1072,7 +1072,7 @@
       "first_seen_at": "2026-04-20T16:01:59Z",
       "last_event": "new",
       "last_notified_at": null,
-      "last_seen_at": "2026-06-27T09:22:53Z",
+      "last_seen_at": "2026-06-27T15:58:40Z",
       "matched_terms": [
         "Korea"
       ],
@@ -1422,6 +1422,24 @@
       "title": "Who Are G7’s Top Performers?",
       "url": "https://www.csis.org/analysis/who-are-g7s-top-performers"
     },
+    "https://www.csis.org/index%2ephp/analysis/who-are-g7s-top-performers": {
+      "confidence": "high",
+      "content_hash": "cb3ebe264b7fc560cd11f87bda4272d61b779239d7d14f14727cf525052ba9ad",
+      "first_seen_at": "2026-06-27T15:58:40Z",
+      "last_event": "new",
+      "last_notified_at": "2026-06-27T15:58:40Z",
+      "last_seen_at": "2026-06-27T15:58:40Z",
+      "matched_terms": [
+        "South Korea",
+        "Korea"
+      ],
+      "published_at": "Sat, 27 Jun 2026 15:50:57 GMT",
+      "source_id": "csis_korea_chair",
+      "source_label": "CSIS Korea Chair",
+      "summary": "The G7’s agenda has globalized even as the bloc’s share of the world economy and population has shrunk. As leaders convene at Évian-les-Bains, is the group still fit for purpose — and which countries actually perform on the issues it prioritizes?",
+      "title": "Who Are G7’s Top Performers?",
+      "url": "https://www.csis.org/index%2ephp/analysis/who-are-g7s-top-performers"
+    },
     "https://www.dailynk.com/english/north-korea-arms-control-us-talks-ninth-party-congress/": {
       "confidence": "high",
       "content_hash": "184e160337e715774016f6a0e36c34b41933c2985724dae4247edca7d1c6d637",
@@ -1673,7 +1691,7 @@
       "first_seen_at": "2026-05-27T23:53:58Z",
       "last_event": "new",
       "last_notified_at": "2026-05-27T23:53:58Z",
-      "last_seen_at": "2026-06-27T09:22:53Z",
+      "last_seen_at": "2026-06-27T15:58:40Z",
       "matched_terms": [
         "Republic of Korea",
         "Democratic People’s Republic of Korea",
@@ -2732,7 +2750,7 @@
       "first_seen_at": "2026-06-25T17:03:26Z",
       "last_event": "new",
       "last_notified_at": "2026-06-25T17:03:26Z",
-      "last_seen_at": "2026-06-27T09:22:53Z",
+      "last_seen_at": "2026-06-27T15:58:40Z",
       "matched_terms": [
         "South Korea",
         "Korea"
@@ -3374,7 +3392,7 @@
       "first_seen_at": "2026-06-23T17:10:13Z",
       "last_event": "updated",
       "last_notified_at": "2026-06-24T10:13:21Z",
-      "last_seen_at": "2026-06-27T09:22:53Z",
+      "last_seen_at": "2026-06-27T15:58:40Z",
       "matched_terms": [
         "South Korea",
         "Seoul",
@@ -3393,7 +3411,7 @@
       "first_seen_at": "2026-06-23T17:10:13Z",
       "last_event": "new",
       "last_notified_at": "2026-06-23T17:10:13Z",
-      "last_seen_at": "2026-06-27T09:22:53Z",
+      "last_seen_at": "2026-06-27T15:58:40Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
