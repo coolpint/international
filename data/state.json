@@ -831,7 +831,7 @@
       "first_seen_at": "2026-06-17T00:09:34Z",
       "last_event": "new",
       "last_notified_at": "2026-06-17T00:09:34Z",
-      "last_seen_at": "2026-06-29T17:27:37Z",
+      "last_seen_at": "2026-06-29T23:54:17Z",
       "matched_terms": [
         "Republic of Korea",
         "North Korea",
@@ -877,7 +877,7 @@
       "first_seen_at": "2026-06-04T23:58:59Z",
       "last_event": "new",
       "last_notified_at": "2026-06-04T23:58:59Z",
-      "last_seen_at": "2026-06-29T17:27:37Z",
+      "last_seen_at": "2026-06-29T23:54:17Z",
       "matched_terms": [
         "DPRK",
         "North Korea",
@@ -899,7 +899,7 @@
       "first_seen_at": "2026-06-19T00:20:04Z",
       "last_event": "new",
       "last_notified_at": "2026-06-19T00:20:04Z",
-      "last_seen_at": "2026-06-29T17:27:37Z",
+      "last_seen_at": "2026-06-29T23:54:17Z",
       "matched_terms": [
         "North Korea",
         "Republic of Korea",
@@ -943,7 +943,7 @@
       "first_seen_at": "2026-06-06T23:56:48Z",
       "last_event": "new",
       "last_notified_at": "2026-06-06T23:56:48Z",
-      "last_seen_at": "2026-06-29T17:27:37Z",
+      "last_seen_at": "2026-06-29T23:54:17Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -966,7 +966,7 @@
       "first_seen_at": "2026-06-17T17:44:48Z",
       "last_event": "new",
       "last_notified_at": "2026-06-17T17:44:48Z",
-      "last_seen_at": "2026-06-29T17:27:37Z",
+      "last_seen_at": "2026-06-29T23:54:17Z",
       "matched_terms": [
         "South Korea",
         "North Korea",
@@ -1009,7 +1009,7 @@
       "first_seen_at": "2026-06-11T00:08:40Z",
       "last_event": "new",
       "last_notified_at": "2026-06-11T00:08:40Z",
-      "last_seen_at": "2026-06-29T17:27:37Z",
+      "last_seen_at": "2026-06-29T23:54:17Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1025,13 +1025,37 @@
       "title": "Xi Jinping’s Visit to Pyongyang: Regional Roundup",
       "url": "https://www.38north.org/2026/06/tbd-kim-xi-regional-roundup/"
     },
+    "https://www.38north.org/2026/06/vietnams-potential-economic-lessons-for-north-korea/": {
+      "confidence": "high",
+      "content_hash": "7a14bc2246fe0a61193ddd07990415accfe54245a2fc76e561ebf5aa60fa1e30",
+      "first_seen_at": "2026-06-29T23:54:17Z",
+      "last_event": "new",
+      "last_notified_at": "2026-06-29T23:54:17Z",
+      "last_seen_at": "2026-06-29T23:54:17Z",
+      "matched_terms": [
+        "North Korea",
+        "South Korea",
+        "Republic of Korea",
+        "Democratic People’s Republic of Korea",
+        "DPRK",
+        "Korea",
+        "Korean",
+        "Pyongyang"
+      ],
+      "published_at": "Mon, 29 Jun 2026 20:08:25 +0000",
+      "source_id": "thirty_eight_north",
+      "source_label": "38 North",
+      "summary": "In the last twelve months, Vietnam has met with North Korea (Democratic People’s Republic of ...\nThe post\nVietnam’s Potential Economic Lessons for North Korea\nappeared first on\n38 North\n.",
+      "title": "Vietnam’s Potential Economic Lessons for North Korea",
+      "url": "https://www.38north.org/2026/06/vietnams-potential-economic-lessons-for-north-korea/"
+    },
     "https://www.38north.org/2026/06/why-north-korea-got-the-bomb-and-iran-did-not-for-now/": {
       "confidence": "high",
       "content_hash": "ecfd571e505a1743c1f1d90fd323f3e659ac01960f6d43541b69078fe77bd070",
       "first_seen_at": "2026-06-22T18:40:19Z",
       "last_event": "new",
       "last_notified_at": "2026-06-22T18:40:19Z",
-      "last_seen_at": "2026-06-29T17:27:37Z",
+      "last_seen_at": "2026-06-29T23:54:17Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -1055,7 +1079,7 @@
       "first_seen_at": "2026-04-03T15:33:11Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-06-29T17:27:37Z",
+      "last_seen_at": "2026-06-29T23:54:17Z",
       "matched_terms": [
         "Korea"
       ],
@@ -1072,7 +1096,7 @@
       "first_seen_at": "2026-04-20T16:01:59Z",
       "last_event": "new",
       "last_notified_at": null,
-      "last_seen_at": "2026-06-29T17:27:37Z",
+      "last_seen_at": "2026-06-29T23:54:17Z",
       "matched_terms": [
         "Korea"
       ],
@@ -1410,7 +1434,7 @@
       "first_seen_at": "2026-06-13T00:13:07Z",
       "last_event": "new",
       "last_notified_at": "2026-06-13T00:13:07Z",
-      "last_seen_at": "2026-06-29T17:27:37Z",
+      "last_seen_at": "2026-06-29T23:54:17Z",
       "matched_terms": [
         "South Korea",
         "Korea"
@@ -1691,7 +1715,7 @@
       "first_seen_at": "2026-05-27T23:53:58Z",
       "last_event": "new",
       "last_notified_at": "2026-05-27T23:53:58Z",
-      "last_seen_at": "2026-06-29T11:52:31Z",
+      "last_seen_at": "2026-06-29T23:54:17Z",
       "matched_terms": [
         "Republic of Korea",
         "Democratic People’s Republic of Korea",
@@ -2750,7 +2774,7 @@
       "first_seen_at": "2026-06-25T17:03:26Z",
       "last_event": "new",
       "last_notified_at": "2026-06-25T17:03:26Z",
-      "last_seen_at": "2026-06-29T17:27:37Z",
+      "last_seen_at": "2026-06-29T23:54:17Z",
       "matched_terms": [
         "South Korea",
         "Korea"
@@ -3392,7 +3416,7 @@
       "first_seen_at": "2026-06-23T17:10:13Z",
       "last_event": "updated",
       "last_notified_at": "2026-06-24T10:13:21Z",
-      "last_seen_at": "2026-06-29T17:27:37Z",
+      "last_seen_at": "2026-06-29T23:54:17Z",
       "matched_terms": [
         "South Korea",
         "Seoul",
@@ -3411,7 +3435,7 @@
       "first_seen_at": "2026-06-23T17:10:13Z",
       "last_event": "new",
       "last_notified_at": "2026-06-23T17:10:13Z",
-      "last_seen_at": "2026-06-29T17:27:37Z",
+      "last_seen_at": "2026-06-29T23:54:17Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
