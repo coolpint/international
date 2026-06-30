@@ -831,7 +831,7 @@
       "first_seen_at": "2026-06-17T00:09:34Z",
       "last_event": "new",
       "last_notified_at": "2026-06-17T00:09:34Z",
-      "last_seen_at": "2026-06-30T17:00:24Z",
+      "last_seen_at": "2026-06-30T23:58:25Z",
       "matched_terms": [
         "Republic of Korea",
         "North Korea",
@@ -899,7 +899,7 @@
       "first_seen_at": "2026-06-19T00:20:04Z",
       "last_event": "new",
       "last_notified_at": "2026-06-19T00:20:04Z",
-      "last_seen_at": "2026-06-30T17:00:24Z",
+      "last_seen_at": "2026-06-30T23:58:25Z",
       "matched_terms": [
         "North Korea",
         "Republic of Korea",
@@ -943,7 +943,7 @@
       "first_seen_at": "2026-06-06T23:56:48Z",
       "last_event": "new",
       "last_notified_at": "2026-06-06T23:56:48Z",
-      "last_seen_at": "2026-06-30T17:00:24Z",
+      "last_seen_at": "2026-06-30T23:58:25Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -966,7 +966,7 @@
       "first_seen_at": "2026-06-17T17:44:48Z",
       "last_event": "new",
       "last_notified_at": "2026-06-17T17:44:48Z",
-      "last_seen_at": "2026-06-30T17:00:24Z",
+      "last_seen_at": "2026-06-30T23:58:25Z",
       "matched_terms": [
         "South Korea",
         "North Korea",
@@ -989,7 +989,7 @@
       "first_seen_at": "2026-06-30T17:00:24Z",
       "last_event": "new",
       "last_notified_at": "2026-06-30T17:00:24Z",
-      "last_seen_at": "2026-06-30T17:00:24Z",
+      "last_seen_at": "2026-06-30T23:58:25Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1029,7 +1029,7 @@
       "first_seen_at": "2026-06-11T00:08:40Z",
       "last_event": "new",
       "last_notified_at": "2026-06-11T00:08:40Z",
-      "last_seen_at": "2026-06-30T17:00:24Z",
+      "last_seen_at": "2026-06-30T23:58:25Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1051,7 +1051,7 @@
       "first_seen_at": "2026-06-29T23:54:17Z",
       "last_event": "new",
       "last_notified_at": "2026-06-29T23:54:17Z",
-      "last_seen_at": "2026-06-30T17:00:24Z",
+      "last_seen_at": "2026-06-30T23:58:25Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -1075,7 +1075,7 @@
       "first_seen_at": "2026-06-22T18:40:19Z",
       "last_event": "new",
       "last_notified_at": "2026-06-22T18:40:19Z",
-      "last_seen_at": "2026-06-30T17:00:24Z",
+      "last_seen_at": "2026-06-30T23:58:25Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -1099,7 +1099,7 @@
       "first_seen_at": "2026-04-03T15:33:11Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-06-30T17:00:24Z",
+      "last_seen_at": "2026-06-30T23:58:25Z",
       "matched_terms": [
         "Korea"
       ],
@@ -1116,7 +1116,7 @@
       "first_seen_at": "2026-04-20T16:01:59Z",
       "last_event": "new",
       "last_notified_at": null,
-      "last_seen_at": "2026-06-30T17:00:24Z",
+      "last_seen_at": "2026-06-30T23:58:25Z",
       "matched_terms": [
         "Korea"
       ],
@@ -1423,6 +1423,26 @@
       "title": "Previewing Xi Jinping’s Visit to North Korea | State of Play",
       "url": "https://www.csis.org/analysis/previewing-xi-jinpings-visit-north-korea-state-play"
     },
+    "https://www.csis.org/analysis/south-koreas-market-boom-and-bubble-beneath-it": {
+      "confidence": "high",
+      "content_hash": "d9323c6466678025c43733d120265ba0ed18cdfa1ed71591acd38c1fc32349ad",
+      "first_seen_at": "2026-06-30T23:58:25Z",
+      "last_event": "new",
+      "last_notified_at": "2026-06-30T23:58:25Z",
+      "last_seen_at": "2026-06-30T23:58:25Z",
+      "matched_terms": [
+        "South Korea",
+        "South Korean",
+        "Korea",
+        "Korean"
+      ],
+      "published_at": "Tue, 30 Jun 2026 23:59:29 GMT",
+      "source_id": "csis_korea_chair",
+      "source_label": "CSIS Korea Chair",
+      "summary": "The South Korean stock market is the world’s best-performing in the first six months of 2026, doubling in value mainly on investors’ perceptions of two companies. But South Korean investors are also at great risk because the euphoric sentiment driving the rally will end someday. This could shock the broader economy, create political fallout, and damage Koreans’ confidence in stock investing.",
+      "title": "South Korea’s Market Boom—and the Bubble Beneath It",
+      "url": "https://www.csis.org/analysis/south-koreas-market-boom-and-bubble-beneath-it"
+    },
     "https://www.csis.org/analysis/strategic-clarity-reassessing-value-china-korea": {
       "confidence": "high",
       "content_hash": "acae73b21e203fbea648c8002b0f3acba62c4203f976afb3c664e87b92ff1edf",
@@ -1454,7 +1474,7 @@
       "first_seen_at": "2026-06-13T00:13:07Z",
       "last_event": "new",
       "last_notified_at": "2026-06-13T00:13:07Z",
-      "last_seen_at": "2026-06-30T17:00:24Z",
+      "last_seen_at": "2026-06-30T23:58:25Z",
       "matched_terms": [
         "South Korea",
         "Korea"
@@ -1735,7 +1755,7 @@
       "first_seen_at": "2026-05-27T23:53:58Z",
       "last_event": "new",
       "last_notified_at": "2026-05-27T23:53:58Z",
-      "last_seen_at": "2026-06-30T17:00:24Z",
+      "last_seen_at": "2026-06-30T23:58:25Z",
       "matched_terms": [
         "Republic of Korea",
         "Democratic People’s Republic of Korea",
@@ -2794,7 +2814,7 @@
       "first_seen_at": "2026-06-25T17:03:26Z",
       "last_event": "new",
       "last_notified_at": "2026-06-25T17:03:26Z",
-      "last_seen_at": "2026-06-30T17:00:24Z",
+      "last_seen_at": "2026-06-30T23:58:25Z",
       "matched_terms": [
         "South Korea",
         "Korea"
@@ -3436,7 +3456,7 @@
       "first_seen_at": "2026-06-23T17:10:13Z",
       "last_event": "updated",
       "last_notified_at": "2026-06-24T10:13:21Z",
-      "last_seen_at": "2026-06-30T17:00:24Z",
+      "last_seen_at": "2026-06-30T23:58:25Z",
       "matched_terms": [
         "South Korea",
         "Seoul",
@@ -3455,7 +3475,7 @@
       "first_seen_at": "2026-06-23T17:10:13Z",
       "last_event": "new",
       "last_notified_at": "2026-06-23T17:10:13Z",
-      "last_seen_at": "2026-06-30T17:00:24Z",
+      "last_seen_at": "2026-06-30T23:58:25Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
