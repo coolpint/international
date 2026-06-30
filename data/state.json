@@ -831,7 +831,7 @@
       "first_seen_at": "2026-06-17T00:09:34Z",
       "last_event": "new",
       "last_notified_at": "2026-06-17T00:09:34Z",
-      "last_seen_at": "2026-06-30T10:25:17Z",
+      "last_seen_at": "2026-06-30T17:00:24Z",
       "matched_terms": [
         "Republic of Korea",
         "North Korea",
@@ -899,7 +899,7 @@
       "first_seen_at": "2026-06-19T00:20:04Z",
       "last_event": "new",
       "last_notified_at": "2026-06-19T00:20:04Z",
-      "last_seen_at": "2026-06-30T10:25:17Z",
+      "last_seen_at": "2026-06-30T17:00:24Z",
       "matched_terms": [
         "North Korea",
         "Republic of Korea",
@@ -943,7 +943,7 @@
       "first_seen_at": "2026-06-06T23:56:48Z",
       "last_event": "new",
       "last_notified_at": "2026-06-06T23:56:48Z",
-      "last_seen_at": "2026-06-30T10:25:17Z",
+      "last_seen_at": "2026-06-30T17:00:24Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -966,7 +966,7 @@
       "first_seen_at": "2026-06-17T17:44:48Z",
       "last_event": "new",
       "last_notified_at": "2026-06-17T17:44:48Z",
-      "last_seen_at": "2026-06-30T10:25:17Z",
+      "last_seen_at": "2026-06-30T17:00:24Z",
       "matched_terms": [
         "South Korea",
         "North Korea",
@@ -982,6 +982,26 @@
       "summary": "One significant outcome from North Korea’s Ninth Party Congress was the appointment of Kim Yo ...\nThe post\nOn a Mission From General Affairs Department\nappeared first on\n38 North\n.",
       "title": "On a Mission From General Affairs Department",
       "url": "https://www.38north.org/2026/06/on-a-mission-from-general-affairs-department/"
+    },
+    "https://www.38north.org/2026/06/opening-of-new-road-link-with-russia-unlikely-in-near-term/": {
+      "confidence": "high",
+      "content_hash": "5bb2e1bd270b88e6832b82a2285e3124209a3515ea2b0d227d79c4ab2e5cc1f9",
+      "first_seen_at": "2026-06-30T17:00:24Z",
+      "last_event": "new",
+      "last_notified_at": "2026-06-30T17:00:24Z",
+      "last_seen_at": "2026-06-30T17:00:24Z",
+      "matched_terms": [
+        "North Korea",
+        "North Korean",
+        "Korea",
+        "Korean"
+      ],
+      "published_at": "Tue, 30 Jun 2026 15:09:58 +0000",
+      "source_id": "thirty_eight_north",
+      "source_label": "38 North",
+      "summary": "While the new road bridge between Russia and North Korea targeted a mid-June opening, the ...\nThe post\nOpening of New Road Link With Russia Unlikely in Near-Term\nappeared first on\n38 North\n.",
+      "title": "Opening of New Road Link With Russia Unlikely in Near-Term",
+      "url": "https://www.38north.org/2026/06/opening-of-new-road-link-with-russia-unlikely-in-near-term/"
     },
     "https://www.38north.org/2026/06/project-anthracite-sunchon-area-site-profile/": {
       "confidence": "high",
@@ -1009,7 +1029,7 @@
       "first_seen_at": "2026-06-11T00:08:40Z",
       "last_event": "new",
       "last_notified_at": "2026-06-11T00:08:40Z",
-      "last_seen_at": "2026-06-30T10:25:17Z",
+      "last_seen_at": "2026-06-30T17:00:24Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1031,7 +1051,7 @@
       "first_seen_at": "2026-06-29T23:54:17Z",
       "last_event": "new",
       "last_notified_at": "2026-06-29T23:54:17Z",
-      "last_seen_at": "2026-06-30T10:25:17Z",
+      "last_seen_at": "2026-06-30T17:00:24Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -1055,7 +1075,7 @@
       "first_seen_at": "2026-06-22T18:40:19Z",
       "last_event": "new",
       "last_notified_at": "2026-06-22T18:40:19Z",
-      "last_seen_at": "2026-06-30T10:25:17Z",
+      "last_seen_at": "2026-06-30T17:00:24Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -1079,7 +1099,7 @@
       "first_seen_at": "2026-04-03T15:33:11Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-06-30T10:25:17Z",
+      "last_seen_at": "2026-06-30T17:00:24Z",
       "matched_terms": [
         "Korea"
       ],
@@ -1096,7 +1116,7 @@
       "first_seen_at": "2026-04-20T16:01:59Z",
       "last_event": "new",
       "last_notified_at": null,
-      "last_seen_at": "2026-06-30T10:25:17Z",
+      "last_seen_at": "2026-06-30T17:00:24Z",
       "matched_terms": [
         "Korea"
       ],
@@ -1434,7 +1454,7 @@
       "first_seen_at": "2026-06-13T00:13:07Z",
       "last_event": "new",
       "last_notified_at": "2026-06-13T00:13:07Z",
-      "last_seen_at": "2026-06-30T10:25:17Z",
+      "last_seen_at": "2026-06-30T17:00:24Z",
       "matched_terms": [
         "South Korea",
         "Korea"
@@ -1715,7 +1735,7 @@
       "first_seen_at": "2026-05-27T23:53:58Z",
       "last_event": "new",
       "last_notified_at": "2026-05-27T23:53:58Z",
-      "last_seen_at": "2026-06-29T23:54:17Z",
+      "last_seen_at": "2026-06-30T17:00:24Z",
       "matched_terms": [
         "Republic of Korea",
         "Democratic People’s Republic of Korea",
@@ -2774,7 +2794,7 @@
       "first_seen_at": "2026-06-25T17:03:26Z",
       "last_event": "new",
       "last_notified_at": "2026-06-25T17:03:26Z",
-      "last_seen_at": "2026-06-30T10:25:17Z",
+      "last_seen_at": "2026-06-30T17:00:24Z",
       "matched_terms": [
         "South Korea",
         "Korea"
@@ -3416,7 +3436,7 @@
       "first_seen_at": "2026-06-23T17:10:13Z",
       "last_event": "updated",
       "last_notified_at": "2026-06-24T10:13:21Z",
-      "last_seen_at": "2026-06-30T10:25:17Z",
+      "last_seen_at": "2026-06-30T17:00:24Z",
       "matched_terms": [
         "South Korea",
         "Seoul",
@@ -3435,7 +3455,7 @@
       "first_seen_at": "2026-06-23T17:10:13Z",
       "last_event": "new",
       "last_notified_at": "2026-06-23T17:10:13Z",
-      "last_seen_at": "2026-06-30T10:25:17Z",
+      "last_seen_at": "2026-06-30T17:00:24Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
