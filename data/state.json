@@ -831,7 +831,7 @@
       "first_seen_at": "2026-06-17T00:09:34Z",
       "last_event": "new",
       "last_notified_at": "2026-06-17T00:09:34Z",
-      "last_seen_at": "2026-07-05T23:57:35Z",
+      "last_seen_at": "2026-07-06T11:22:13Z",
       "matched_terms": [
         "Republic of Korea",
         "North Korea",
@@ -899,7 +899,7 @@
       "first_seen_at": "2026-06-19T00:20:04Z",
       "last_event": "new",
       "last_notified_at": "2026-06-19T00:20:04Z",
-      "last_seen_at": "2026-07-05T23:57:35Z",
+      "last_seen_at": "2026-07-06T11:22:13Z",
       "matched_terms": [
         "North Korea",
         "Republic of Korea",
@@ -966,7 +966,7 @@
       "first_seen_at": "2026-06-17T17:44:48Z",
       "last_event": "new",
       "last_notified_at": "2026-06-17T17:44:48Z",
-      "last_seen_at": "2026-07-05T23:57:35Z",
+      "last_seen_at": "2026-07-06T11:22:13Z",
       "matched_terms": [
         "South Korea",
         "North Korea",
@@ -989,7 +989,7 @@
       "first_seen_at": "2026-06-30T17:00:24Z",
       "last_event": "new",
       "last_notified_at": "2026-06-30T17:00:24Z",
-      "last_seen_at": "2026-07-05T23:57:35Z",
+      "last_seen_at": "2026-07-06T11:22:13Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1029,7 +1029,7 @@
       "first_seen_at": "2026-06-11T00:08:40Z",
       "last_event": "new",
       "last_notified_at": "2026-06-11T00:08:40Z",
-      "last_seen_at": "2026-07-05T23:57:35Z",
+      "last_seen_at": "2026-07-06T11:22:13Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1051,7 +1051,7 @@
       "first_seen_at": "2026-06-29T23:54:17Z",
       "last_event": "new",
       "last_notified_at": "2026-06-29T23:54:17Z",
-      "last_seen_at": "2026-07-05T23:57:35Z",
+      "last_seen_at": "2026-07-06T11:22:13Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -1075,7 +1075,7 @@
       "first_seen_at": "2026-06-22T18:40:19Z",
       "last_event": "new",
       "last_notified_at": "2026-06-22T18:40:19Z",
-      "last_seen_at": "2026-07-05T23:57:35Z",
+      "last_seen_at": "2026-07-06T11:22:13Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -1099,7 +1099,7 @@
       "first_seen_at": "2026-07-01T17:06:12Z",
       "last_event": "new",
       "last_notified_at": "2026-07-01T17:06:12Z",
-      "last_seen_at": "2026-07-05T23:57:35Z",
+      "last_seen_at": "2026-07-06T11:22:13Z",
       "matched_terms": [
         "South Korea",
         "North Korea",
@@ -1119,7 +1119,7 @@
       "first_seen_at": "2026-04-03T15:33:11Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-07-05T23:57:35Z",
+      "last_seen_at": "2026-07-06T11:22:13Z",
       "matched_terms": [
         "Korea"
       ],
@@ -1136,7 +1136,7 @@
       "first_seen_at": "2026-04-20T16:01:59Z",
       "last_event": "new",
       "last_notified_at": null,
-      "last_seen_at": "2026-07-05T23:57:35Z",
+      "last_seen_at": "2026-07-06T11:22:13Z",
       "matched_terms": [
         "Korea"
       ],
@@ -1449,7 +1449,7 @@
       "first_seen_at": "2026-06-30T23:58:25Z",
       "last_event": "new",
       "last_notified_at": "2026-06-30T23:58:25Z",
-      "last_seen_at": "2026-07-05T23:57:35Z",
+      "last_seen_at": "2026-07-06T11:22:13Z",
       "matched_terms": [
         "South Korea",
         "South Korean",
@@ -1512,7 +1512,7 @@
       "first_seen_at": "2026-06-27T15:58:40Z",
       "last_event": "new",
       "last_notified_at": "2026-06-27T15:58:40Z",
-      "last_seen_at": "2026-06-27T15:58:40Z",
+      "last_seen_at": "2026-07-06T11:22:13Z",
       "matched_terms": [
         "South Korea",
         "Korea"
@@ -2834,7 +2834,7 @@
       "first_seen_at": "2026-06-25T17:03:26Z",
       "last_event": "new",
       "last_notified_at": "2026-06-25T17:03:26Z",
-      "last_seen_at": "2026-07-05T23:57:35Z",
+      "last_seen_at": "2026-07-06T11:22:13Z",
       "matched_terms": [
         "South Korea",
         "Korea"
@@ -2882,6 +2882,24 @@
       "summary": "Ripples of economic disruption radiating from the attack on Iran by Israel and the US give notice of the effect a war over Taiwan would spread through the world.",
       "title": "Gulf War III is a Warning About the Effects of a ‘Taiwan Straits War I’",
       "url": "https://www.rusi.org/explore-our-research/publications/commentary/gulf-war-iii-warning-about-effects-taiwan-straits-war-i"
+    },
+    "https://www.rusi.org/explore-our-research/publications/commentary/nato-30-emerge-ankara-summit-amid-fragile-unity": {
+      "confidence": "high",
+      "content_hash": "738fb8b8eb3a997af7f131c68659fb1f1da2057a474f5046a80bf2e489b1244b",
+      "first_seen_at": "2026-07-06T11:22:13Z",
+      "last_event": "new",
+      "last_notified_at": "2026-07-06T11:22:13Z",
+      "last_seen_at": "2026-07-06T11:22:13Z",
+      "matched_terms": [
+        "South Korea",
+        "Korea"
+      ],
+      "published_at": "Mon, 06 Jul 2026 11:20:23 GMT",
+      "source_id": "rusi_publications",
+      "source_label": "RUSI Publications",
+      "summary": "European allies and Canada will try to ease recurring tensions with President Trump by stepping up in a rebalanced alliance: NATO 3.0. But transatlantic unity remains fragile.",
+      "title": "NATO 3.0 to Emerge at Ankara Summit Amid Fragile Unity",
+      "url": "https://www.rusi.org/explore-our-research/publications/commentary/nato-30-emerge-ankara-summit-amid-fragile-unity"
     },
     "https://www.rusi.org/explore-our-research/publications/insights-papers/evaluating-russian-support-north-koreas-nuclear-weapons": {
       "confidence": "high",
@@ -3416,6 +3434,23 @@
       "title": "Augmented and Virtual Reality Program Transforming TVET in Ecuador",
       "url": "https://www.worldbank.org/en/news/feature/2026/04/27/augmented-and-virtual-reality-program-transforming-tvet-in-ecuador"
     },
+    "https://www.worldbank.org/en/news/press-release/2026/07/06/new-world-bank-division-director-for-china-mongolia-and-korea": {
+      "confidence": "medium",
+      "content_hash": "96f3ef6d3e082fa548cc41a74bee8ce56e35f9c1f54d499188078697a0cdff24",
+      "first_seen_at": "2026-07-06T11:22:13Z",
+      "last_event": "new",
+      "last_notified_at": null,
+      "last_seen_at": "2026-07-06T11:22:13Z",
+      "matched_terms": [
+        "Korea"
+      ],
+      "published_at": "2026-07-06T09:37:04Z",
+      "source_id": "world_bank_news",
+      "source_label": "World Bank News",
+      "summary": "The World Bank has appointed Tatiana Rosito, a Brazilian national, as its new Division Director for China, Mongolia and Korea, effective July 1, 2026, based in Beijing.",
+      "title": "New World Bank Division Director for China, Mongolia and Korea",
+      "url": "https://www.worldbank.org/en/news/press-release/2026/07/06/new-world-bank-division-director-for-china-mongolia-and-korea"
+    },
     "https://www.wto.org/english/news_e/news26_e/acc_09mar26_316_e.htm": {
       "confidence": "high",
       "content_hash": "dcce93c9a1f188717397911a411f41c88f35bdfb506b49460f83234b463f241b",
@@ -3458,7 +3493,7 @@
       "first_seen_at": "2026-07-03T16:18:46Z",
       "last_event": "new",
       "last_notified_at": "2026-07-03T16:18:46Z",
-      "last_seen_at": "2026-07-05T23:57:35Z",
+      "last_seen_at": "2026-07-06T11:22:13Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
@@ -3531,7 +3566,7 @@
       "first_seen_at": "2026-07-03T16:18:46Z",
       "last_event": "updated",
       "last_notified_at": "2026-07-03T23:57:02Z",
-      "last_seen_at": "2026-07-05T23:57:35Z",
+      "last_seen_at": "2026-07-06T11:22:13Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
