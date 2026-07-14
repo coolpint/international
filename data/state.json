@@ -866,7 +866,7 @@
       "first_seen_at": "2026-06-17T00:09:34Z",
       "last_event": "new",
       "last_notified_at": "2026-06-17T00:09:34Z",
-      "last_seen_at": "2026-07-14T08:59:15Z",
+      "last_seen_at": "2026-07-14T16:07:44Z",
       "matched_terms": [
         "Republic of Korea",
         "North Korea",
@@ -934,7 +934,7 @@
       "first_seen_at": "2026-06-19T00:20:04Z",
       "last_event": "new",
       "last_notified_at": "2026-06-19T00:20:04Z",
-      "last_seen_at": "2026-07-14T08:59:15Z",
+      "last_seen_at": "2026-07-14T16:07:44Z",
       "matched_terms": [
         "North Korea",
         "Republic of Korea",
@@ -1001,7 +1001,7 @@
       "first_seen_at": "2026-06-17T17:44:48Z",
       "last_event": "new",
       "last_notified_at": "2026-06-17T17:44:48Z",
-      "last_seen_at": "2026-07-14T08:59:15Z",
+      "last_seen_at": "2026-07-14T16:07:44Z",
       "matched_terms": [
         "South Korea",
         "North Korea",
@@ -1024,7 +1024,7 @@
       "first_seen_at": "2026-06-30T17:00:24Z",
       "last_event": "new",
       "last_notified_at": "2026-06-30T17:00:24Z",
-      "last_seen_at": "2026-07-14T08:59:15Z",
+      "last_seen_at": "2026-07-14T16:07:44Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1086,7 +1086,7 @@
       "first_seen_at": "2026-06-29T23:54:17Z",
       "last_event": "new",
       "last_notified_at": "2026-06-29T23:54:17Z",
-      "last_seen_at": "2026-07-14T08:59:15Z",
+      "last_seen_at": "2026-07-14T16:07:44Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -1110,7 +1110,7 @@
       "first_seen_at": "2026-06-22T18:40:19Z",
       "last_event": "new",
       "last_notified_at": "2026-06-22T18:40:19Z",
-      "last_seen_at": "2026-07-14T08:59:15Z",
+      "last_seen_at": "2026-07-14T16:07:44Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -1134,7 +1134,7 @@
       "first_seen_at": "2026-07-08T23:59:43Z",
       "last_event": "new",
       "last_notified_at": "2026-07-08T23:59:43Z",
-      "last_seen_at": "2026-07-14T08:59:15Z",
+      "last_seen_at": "2026-07-14T16:07:44Z",
       "matched_terms": [
         "North Korean",
         "North Korea",
@@ -1155,7 +1155,7 @@
       "first_seen_at": "2026-07-01T17:06:12Z",
       "last_event": "new",
       "last_notified_at": "2026-07-01T17:06:12Z",
-      "last_seen_at": "2026-07-14T08:59:15Z",
+      "last_seen_at": "2026-07-14T16:07:44Z",
       "matched_terms": [
         "South Korea",
         "North Korea",
@@ -1175,7 +1175,7 @@
       "first_seen_at": "2026-04-03T15:33:11Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-07-14T08:59:15Z",
+      "last_seen_at": "2026-07-14T16:07:44Z",
       "matched_terms": [
         "Korea"
       ],
@@ -1192,7 +1192,7 @@
       "first_seen_at": "2026-04-20T16:01:59Z",
       "last_event": "new",
       "last_notified_at": null,
-      "last_seen_at": "2026-07-14T08:59:15Z",
+      "last_seen_at": "2026-07-14T16:07:44Z",
       "matched_terms": [
         "Korea"
       ],
@@ -1505,7 +1505,7 @@
       "first_seen_at": "2026-06-30T23:58:25Z",
       "last_event": "new",
       "last_notified_at": "2026-06-30T23:58:25Z",
-      "last_seen_at": "2026-07-14T08:59:15Z",
+      "last_seen_at": "2026-07-14T16:07:44Z",
       "matched_terms": [
         "South Korea",
         "South Korean",
@@ -2890,7 +2890,7 @@
       "first_seen_at": "2026-06-25T17:03:26Z",
       "last_event": "new",
       "last_notified_at": "2026-06-25T17:03:26Z",
-      "last_seen_at": "2026-07-14T08:59:15Z",
+      "last_seen_at": "2026-07-14T16:07:44Z",
       "matched_terms": [
         "South Korea",
         "Korea"
@@ -2956,6 +2956,26 @@
       "summary": "European allies and Canada will try to ease recurring tensions with President Trump by stepping up in a rebalanced alliance: NATO 3.0. But transatlantic unity remains fragile.",
       "title": "NATO 3.0 to Emerge at Ankara Summit Amid Fragile Unity",
       "url": "https://www.rusi.org/explore-our-research/publications/commentary/nato-30-emerge-ankara-summit-amid-fragile-unity"
+    },
+    "https://www.rusi.org/explore-our-research/publications/commentary/whats-left-natos-asia-engagement": {
+      "confidence": "high",
+      "content_hash": "81bc0bdca94cb490291b19940be2ed22fe8efc51e36a644094452eaa7617c93b",
+      "first_seen_at": "2026-07-14T16:07:44Z",
+      "last_event": "new",
+      "last_notified_at": "2026-07-14T16:07:44Z",
+      "last_seen_at": "2026-07-14T16:07:44Z",
+      "matched_terms": [
+        "South Korea",
+        "North Korean",
+        "Korea",
+        "Korean"
+      ],
+      "published_at": "Tue, 14 Jul 2026 15:00:17 GMT",
+      "source_id": "rusi_publications",
+      "source_label": "RUSI Publications",
+      "summary": "Shared interests among European and Asian middle powers, navigating a turbulent Sino-American unilateralism, sustain NATO’s Asian partnerships.",
+      "title": "What’s Left of NATO’s Asia Engagement?",
+      "url": "https://www.rusi.org/explore-our-research/publications/commentary/whats-left-natos-asia-engagement"
     },
     "https://www.rusi.org/explore-our-research/publications/insights-papers/evaluating-russian-support-north-koreas-nuclear-weapons": {
       "confidence": "high",
