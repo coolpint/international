@@ -1134,7 +1134,7 @@
       "first_seen_at": "2026-07-15T16:12:36Z",
       "last_event": "new",
       "last_notified_at": "2026-07-15T16:12:36Z",
-      "last_seen_at": "2026-07-17T09:02:58Z",
+      "last_seen_at": "2026-07-17T16:07:37Z",
       "matched_terms": [
         "South Korea",
         "South Korean",
@@ -1156,7 +1156,7 @@
       "first_seen_at": "2026-07-16T16:09:33Z",
       "last_event": "new",
       "last_notified_at": "2026-07-16T16:09:33Z",
-      "last_seen_at": "2026-07-17T09:02:58Z",
+      "last_seen_at": "2026-07-17T16:07:37Z",
       "matched_terms": [
         "North Korea",
         "Korea",
@@ -1177,7 +1177,7 @@
       "first_seen_at": "2026-07-15T16:12:36Z",
       "last_event": "updated",
       "last_notified_at": "2026-07-15T23:51:04Z",
-      "last_seen_at": "2026-07-17T09:02:58Z",
+      "last_seen_at": "2026-07-17T16:07:37Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1198,7 +1198,7 @@
       "first_seen_at": "2026-07-15T16:12:36Z",
       "last_event": "updated",
       "last_notified_at": "2026-07-15T23:51:04Z",
-      "last_seen_at": "2026-07-17T09:02:58Z",
+      "last_seen_at": "2026-07-17T16:07:37Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1219,7 +1219,7 @@
       "first_seen_at": "2026-07-15T16:12:36Z",
       "last_event": "updated",
       "last_notified_at": "2026-07-15T23:51:04Z",
-      "last_seen_at": "2026-07-17T09:02:58Z",
+      "last_seen_at": "2026-07-17T16:07:37Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -1237,13 +1237,34 @@
       "title": "North Korea Balances Between China and Russia While Hardening Its Regional Posture",
       "url": "https://www.38north.org/2026/07/north-korea-balances-between-china-and-russia-while-hardening-its-regional-posture/"
     },
+    "https://www.38north.org/2026/07/north-korea-taps-india-for-smartphones/": {
+      "confidence": "high",
+      "content_hash": "3bf72ff5ba9ccf611ae94230bda05cb8b3fb351208bd080785c525d892a432e1",
+      "first_seen_at": "2026-07-17T16:07:37Z",
+      "last_event": "new",
+      "last_notified_at": "2026-07-17T16:07:37Z",
+      "last_seen_at": "2026-07-17T16:07:37Z",
+      "matched_terms": [
+        "North Korea",
+        "North Korean",
+        "Korea",
+        "Korean",
+        "Pyongyang"
+      ],
+      "published_at": "Fri, 17 Jul 2026 12:26:59 +0000",
+      "source_id": "thirty_eight_north",
+      "source_label": "38 North",
+      "summary": "North Korean smartphone brand Phurunhanal Electronics appears to have sourced one of its latest ...\nThe post\nNorth Korea Taps India for Smartphones\nappeared first on\n38 North\n.",
+      "title": "North Korea Taps India for Smartphones",
+      "url": "https://www.38north.org/2026/07/north-korea-taps-india-for-smartphones/"
+    },
     "https://www.38north.org/2026/07/north-koreas-economy-h1-2026-a-sliding-won-and-a-tungsten-windfall/": {
       "confidence": "high",
       "content_hash": "c9add8b2dc65239a566aa01a114b64b2a654c3ef2d73cc02c0198219ee40410d",
       "first_seen_at": "2026-07-15T16:12:36Z",
       "last_event": "updated",
       "last_notified_at": "2026-07-15T23:51:04Z",
-      "last_seen_at": "2026-07-17T09:02:58Z",
+      "last_seen_at": "2026-07-17T16:07:37Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1264,7 +1285,7 @@
       "first_seen_at": "2026-07-15T16:12:36Z",
       "last_event": "updated",
       "last_notified_at": "2026-07-15T23:51:04Z",
-      "last_seen_at": "2026-07-17T09:02:58Z",
+      "last_seen_at": "2026-07-17T16:07:37Z",
       "matched_terms": [
         "North Korea",
         "Korea",
@@ -1324,7 +1345,7 @@
       "first_seen_at": "2026-04-03T15:33:11Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-07-17T09:02:58Z",
+      "last_seen_at": "2026-07-17T16:07:37Z",
       "matched_terms": [
         "Korea"
       ],
@@ -1341,7 +1362,7 @@
       "first_seen_at": "2026-04-20T16:01:59Z",
       "last_event": "new",
       "last_notified_at": null,
-      "last_seen_at": "2026-07-17T09:02:58Z",
+      "last_seen_at": "2026-07-17T16:07:37Z",
       "matched_terms": [
         "Korea"
       ],
@@ -1654,7 +1675,7 @@
       "first_seen_at": "2026-06-30T23:58:25Z",
       "last_event": "new",
       "last_notified_at": "2026-06-30T23:58:25Z",
-      "last_seen_at": "2026-07-17T09:02:58Z",
+      "last_seen_at": "2026-07-17T16:07:37Z",
       "matched_terms": [
         "South Korea",
         "South Korean",
@@ -3039,7 +3060,7 @@
       "first_seen_at": "2026-06-25T17:03:26Z",
       "last_event": "new",
       "last_notified_at": "2026-06-25T17:03:26Z",
-      "last_seen_at": "2026-07-17T09:02:58Z",
+      "last_seen_at": "2026-07-17T16:07:37Z",
       "matched_terms": [
         "South Korea",
         "Korea"
@@ -3112,7 +3133,7 @@
       "first_seen_at": "2026-07-14T16:07:44Z",
       "last_event": "new",
       "last_notified_at": "2026-07-14T16:07:44Z",
-      "last_seen_at": "2026-07-17T09:02:58Z",
+      "last_seen_at": "2026-07-17T16:07:37Z",
       "matched_terms": [
         "South Korea",
         "North Korean",
@@ -3230,7 +3251,7 @@
       "first_seen_at": "2026-07-15T09:04:03Z",
       "last_event": "new",
       "last_notified_at": "2026-07-15T09:04:03Z",
-      "last_seen_at": "2026-07-17T09:02:58Z",
+      "last_seen_at": "2026-07-17T16:07:37Z",
       "matched_terms": [
         "Republic of Korea",
         "Seoul",
@@ -3685,7 +3706,7 @@
       "first_seen_at": "2026-07-15T23:51:04Z",
       "last_event": "new",
       "last_notified_at": "2026-07-15T23:51:04Z",
-      "last_seen_at": "2026-07-17T09:02:58Z",
+      "last_seen_at": "2026-07-17T16:07:37Z",
       "matched_terms": [
         "Korea",
         "Korean"
@@ -3876,6 +3897,24 @@
       "summary": "Eligible WTO members now have until 8 May 2026 to submit grant proposals under the WTO Fish Fund's second Call for Proposal, following an extension of the original deadline.",
       "title": "Fish Fund extends deadline of second Call for Proposals to 8 May",
       "url": "https://www.wto.org/english/news_e/news26_e/ffm_15apr26_359_e.htm"
+    },
+    "https://www.wto.org/english/news_e/news26_e/good_16jul26_460_e.htm": {
+      "confidence": "high",
+      "content_hash": "4ba7f074eedc2d2707fa9c1f45e61d5e987922b1334a19e83d42f5b585341223",
+      "first_seen_at": "2026-07-17T16:07:37Z",
+      "last_event": "new",
+      "last_notified_at": "2026-07-17T16:07:37Z",
+      "last_seen_at": "2026-07-17T16:07:37Z",
+      "matched_terms": [
+        "Republic of Korea",
+        "Korea"
+      ],
+      "published_at": "Thu, 16 Jul 2026 00:00:00 GMT",
+      "source_id": "wto_latest_news",
+      "source_label": "WTO Latest News",
+      "summary": "WTO members reached consensus on 16 July on a slate of names of the chairpersons for 13 subsidiary bodies that report to the Council for Trade in Goods.",
+      "title": "Members agree on 2026 chairpersons for subsidiary bodies of Goods Council",
+      "url": "https://www.wto.org/english/news_e/news26_e/good_16jul26_460_e.htm"
     },
     "https://www.wto.org/english/news_e/news26_e/infac_06jul26_450_e.htm": {
       "confidence": "high",
