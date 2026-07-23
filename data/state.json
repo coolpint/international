@@ -1134,7 +1134,7 @@
       "first_seen_at": "2026-07-15T16:12:36Z",
       "last_event": "new",
       "last_notified_at": "2026-07-15T16:12:36Z",
-      "last_seen_at": "2026-07-23T09:18:25Z",
+      "last_seen_at": "2026-07-23T16:19:27Z",
       "matched_terms": [
         "South Korea",
         "South Korean",
@@ -1156,7 +1156,7 @@
       "first_seen_at": "2026-07-16T16:09:33Z",
       "last_event": "new",
       "last_notified_at": "2026-07-16T16:09:33Z",
-      "last_seen_at": "2026-07-23T09:18:25Z",
+      "last_seen_at": "2026-07-23T16:19:27Z",
       "matched_terms": [
         "North Korea",
         "Korea",
@@ -1198,7 +1198,7 @@
       "first_seen_at": "2026-07-15T16:12:36Z",
       "last_event": "updated",
       "last_notified_at": "2026-07-15T23:51:04Z",
-      "last_seen_at": "2026-07-23T09:18:25Z",
+      "last_seen_at": "2026-07-23T16:19:27Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1243,7 +1243,7 @@
       "first_seen_at": "2026-07-17T16:07:37Z",
       "last_event": "new",
       "last_notified_at": "2026-07-17T16:07:37Z",
-      "last_seen_at": "2026-07-23T09:18:25Z",
+      "last_seen_at": "2026-07-23T16:19:27Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1264,7 +1264,7 @@
       "first_seen_at": "2026-07-15T16:12:36Z",
       "last_event": "updated",
       "last_notified_at": "2026-07-15T23:51:04Z",
-      "last_seen_at": "2026-07-23T09:18:25Z",
+      "last_seen_at": "2026-07-23T16:19:27Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1285,7 +1285,7 @@
       "first_seen_at": "2026-07-15T16:12:36Z",
       "last_event": "updated",
       "last_notified_at": "2026-07-15T23:51:04Z",
-      "last_seen_at": "2026-07-23T09:18:25Z",
+      "last_seen_at": "2026-07-23T16:19:27Z",
       "matched_terms": [
         "North Korea",
         "Korea",
@@ -1298,13 +1298,37 @@
       "title": "North Korea’s Expanding Production of Uranium and Conventional Missiles",
       "url": "https://www.38north.org/2026/07/north-koreas-expanding-production-of-uranium-and-conventional-missiles/"
     },
+    "https://www.38north.org/2026/07/north-koreas-nuclear-doctrine-implications-and-strategic-countermeasures-for-the-us-rok-alliance/": {
+      "confidence": "high",
+      "content_hash": "9c7e760dbedb018e8f996631906b3205edc34bc2b023b2f2db849ebd3fd42bdf",
+      "first_seen_at": "2026-07-23T16:19:27Z",
+      "last_event": "new",
+      "last_notified_at": "2026-07-23T16:19:27Z",
+      "last_seen_at": "2026-07-23T16:19:27Z",
+      "matched_terms": [
+        "North Korea",
+        "South Korea",
+        "DPRK",
+        "Korea",
+        "ROK",
+        "Korean",
+        "Seoul",
+        "Pyongyang"
+      ],
+      "published_at": "Thu, 23 Jul 2026 14:35:27 +0000",
+      "source_id": "thirty_eight_north",
+      "source_label": "38 North",
+      "summary": "Revisions made to North Korea’s constitution formally codify its self-proclaimed “responsible ...\nThe post\nNorth Korea’s Nuclear Doctrine: Implications and Strategic Countermeasures for the US-ROK Alliance\nappeared first on\n38 North\n.",
+      "title": "North Korea’s Nuclear Doctrine: Implications and Strategic Countermeasures for the US-ROK Alliance",
+      "url": "https://www.38north.org/2026/07/north-koreas-nuclear-doctrine-implications-and-strategic-countermeasures-for-the-us-rok-alliance/"
+    },
     "https://www.38north.org/2026/07/north-koreas-subdued-signaling-toward-china-during-treaty-anniversary/": {
       "confidence": "high",
       "content_hash": "8ba9edcef287219c78b38f7c6cd5781d3820c485f4034b2ee0ee9c17db63eedd",
       "first_seen_at": "2026-07-20T23:47:19Z",
       "last_event": "new",
       "last_notified_at": "2026-07-20T23:47:19Z",
-      "last_seen_at": "2026-07-23T09:18:25Z",
+      "last_seen_at": "2026-07-23T16:19:27Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -1368,7 +1392,7 @@
       "first_seen_at": "2026-04-03T15:33:11Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-07-23T09:18:25Z",
+      "last_seen_at": "2026-07-23T16:19:27Z",
       "matched_terms": [
         "Korea"
       ],
@@ -1385,7 +1409,7 @@
       "first_seen_at": "2026-04-20T16:01:59Z",
       "last_event": "new",
       "last_notified_at": null,
-      "last_seen_at": "2026-07-23T09:18:25Z",
+      "last_seen_at": "2026-07-23T16:19:27Z",
       "matched_terms": [
         "Korea"
       ],
@@ -1698,7 +1722,7 @@
       "first_seen_at": "2026-06-30T23:58:25Z",
       "last_event": "new",
       "last_notified_at": "2026-06-30T23:58:25Z",
-      "last_seen_at": "2026-07-23T09:18:25Z",
+      "last_seen_at": "2026-07-23T16:19:27Z",
       "matched_terms": [
         "South Korea",
         "South Korean",
@@ -3083,7 +3107,7 @@
       "first_seen_at": "2026-06-25T17:03:26Z",
       "last_event": "new",
       "last_notified_at": "2026-06-25T17:03:26Z",
-      "last_seen_at": "2026-07-23T09:18:25Z",
+      "last_seen_at": "2026-07-23T16:19:27Z",
       "matched_terms": [
         "South Korea",
         "Korea"
@@ -3156,7 +3180,7 @@
       "first_seen_at": "2026-07-14T16:07:44Z",
       "last_event": "new",
       "last_notified_at": "2026-07-14T16:07:44Z",
-      "last_seen_at": "2026-07-23T09:18:25Z",
+      "last_seen_at": "2026-07-23T16:19:27Z",
       "matched_terms": [
         "South Korea",
         "North Korean",
@@ -3274,7 +3298,7 @@
       "first_seen_at": "2026-07-15T09:04:03Z",
       "last_event": "new",
       "last_notified_at": "2026-07-15T09:04:03Z",
-      "last_seen_at": "2026-07-23T09:18:25Z",
+      "last_seen_at": "2026-07-23T16:19:27Z",
       "matched_terms": [
         "Republic of Korea",
         "Seoul",
@@ -3729,7 +3753,7 @@
       "first_seen_at": "2026-07-15T23:51:04Z",
       "last_event": "new",
       "last_notified_at": "2026-07-15T23:51:04Z",
-      "last_seen_at": "2026-07-23T09:18:25Z",
+      "last_seen_at": "2026-07-23T16:19:27Z",
       "matched_terms": [
         "Korea",
         "Korean"
@@ -3927,7 +3951,7 @@
       "first_seen_at": "2026-07-17T16:07:37Z",
       "last_event": "updated",
       "last_notified_at": "2026-07-20T09:49:25Z",
-      "last_seen_at": "2026-07-23T09:18:25Z",
+      "last_seen_at": "2026-07-23T16:19:27Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
