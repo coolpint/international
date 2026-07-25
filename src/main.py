@@ -49,6 +49,9 @@ def _apply_source_default_classification(
     classification: Classification,
     source: SourceConfig,
 ) -> Classification:
+    if classification.excluded:
+        return classification
+
     default_confidence = str(source.options.get("default_confidence", "")).strip().lower()
     if default_confidence not in CONFIDENCE_RANK:
         return classification
