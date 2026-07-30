@@ -85,7 +85,7 @@
       "first_seen_at": "2026-07-23T23:52:07Z",
       "last_event": "new",
       "last_notified_at": null,
-      "last_seen_at": "2026-07-30T16:20:02Z",
+      "last_seen_at": "2026-07-30T23:53:23Z",
       "matched_terms": [
         "Korea"
       ],
@@ -242,7 +242,7 @@
       "first_seen_at": "2026-07-28T23:51:29Z",
       "last_event": "new",
       "last_notified_at": "2026-07-28T23:51:29Z",
-      "last_seen_at": "2026-07-30T16:20:02Z",
+      "last_seen_at": "2026-07-30T23:53:23Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
@@ -1209,7 +1209,7 @@
       "first_seen_at": "2026-07-16T16:09:33Z",
       "last_event": "new",
       "last_notified_at": "2026-07-16T16:09:33Z",
-      "last_seen_at": "2026-07-30T16:20:02Z",
+      "last_seen_at": "2026-07-30T23:53:23Z",
       "matched_terms": [
         "North Korea",
         "Korea",
@@ -1245,13 +1245,38 @@
       "title": "Mobilizing Domestic Resources Under Sanctions: Solar Energy and Model Enterprises",
       "url": "https://www.38north.org/2026/07/mobilizing-domestic-resources-under-sanctions-solar-energy-and-model-enterprises/"
     },
+    "https://www.38north.org/2026/07/more-than-a-destroyer-what-choe-hyon-reveals-about-north-koreas-maritime-strategy/": {
+      "confidence": "high",
+      "content_hash": "b9675e626aa22aa5209139d7e7c030f2f356680b89b68c222735057f430af5ba",
+      "first_seen_at": "2026-07-30T23:53:23Z",
+      "last_event": "new",
+      "last_notified_at": "2026-07-30T23:53:23Z",
+      "last_seen_at": "2026-07-30T23:53:23Z",
+      "matched_terms": [
+        "North Korea",
+        "Republic of Korea",
+        "North Korean",
+        "Democratic People’s Republic of Korea",
+        "DPRK",
+        "Korean Peninsula",
+        "Korea",
+        "Korean",
+        "Pyongyang"
+      ],
+      "published_at": "Thu, 30 Jul 2026 18:59:47 +0000",
+      "source_id": "thirty_eight_north",
+      "source_label": "38 North",
+      "summary": "The Democratic People’s Republic of Korea (DPRK or North Korea) officially commissioned its new ...\nThe post\nMore Than a Destroyer: What\nChoe Hyon\nReveals About North Korea’s Maritime Strategy\nappeared first on\n38 North\n.",
+      "title": "More Than a Destroyer: What Choe Hyon Reveals About North Korea’s Maritime Strategy",
+      "url": "https://www.38north.org/2026/07/more-than-a-destroyer-what-choe-hyon-reveals-about-north-koreas-maritime-strategy/"
+    },
     "https://www.38north.org/2026/07/more-than-smartphones-how-digital-technology-is-changing-north-korea/": {
       "confidence": "high",
       "content_hash": "63fadb6a3edf5d97f71ae477f8f076c0ce88bf8a694082598c8acf4479247894",
       "first_seen_at": "2026-07-15T16:12:36Z",
       "last_event": "updated",
       "last_notified_at": "2026-07-15T23:51:04Z",
-      "last_seen_at": "2026-07-30T16:20:02Z",
+      "last_seen_at": "2026-07-30T23:53:23Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1296,7 +1321,7 @@
       "first_seen_at": "2026-07-17T16:07:37Z",
       "last_event": "new",
       "last_notified_at": "2026-07-17T16:07:37Z",
-      "last_seen_at": "2026-07-30T16:20:02Z",
+      "last_seen_at": "2026-07-30T23:53:23Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1317,7 +1342,7 @@
       "first_seen_at": "2026-07-15T16:12:36Z",
       "last_event": "updated",
       "last_notified_at": "2026-07-15T23:51:04Z",
-      "last_seen_at": "2026-07-30T16:20:02Z",
+      "last_seen_at": "2026-07-30T23:53:23Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1357,7 +1382,7 @@
       "first_seen_at": "2026-07-23T16:19:27Z",
       "last_event": "new",
       "last_notified_at": "2026-07-23T16:19:27Z",
-      "last_seen_at": "2026-07-30T16:20:02Z",
+      "last_seen_at": "2026-07-30T23:53:23Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -1381,7 +1406,7 @@
       "first_seen_at": "2026-07-20T23:47:19Z",
       "last_event": "new",
       "last_notified_at": "2026-07-20T23:47:19Z",
-      "last_seen_at": "2026-07-30T16:20:02Z",
+      "last_seen_at": "2026-07-30T23:53:23Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -1404,7 +1429,7 @@
       "first_seen_at": "2026-07-28T23:51:29Z",
       "last_event": "updated",
       "last_notified_at": "2026-07-29T16:15:09Z",
-      "last_seen_at": "2026-07-30T16:20:02Z",
+      "last_seen_at": "2026-07-30T23:53:23Z",
       "matched_terms": [
         "DPRK",
         "Republic of Korea",
@@ -1467,7 +1492,7 @@
       "first_seen_at": "2026-04-03T15:33:11Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-07-30T16:20:02Z",
+      "last_seen_at": "2026-07-30T23:53:23Z",
       "matched_terms": [
         "Korea"
       ],
@@ -1484,7 +1509,7 @@
       "first_seen_at": "2026-04-20T16:01:59Z",
       "last_event": "new",
       "last_notified_at": null,
-      "last_seen_at": "2026-07-30T16:20:02Z",
+      "last_seen_at": "2026-07-30T23:53:23Z",
       "matched_terms": [
         "Korea"
       ],
@@ -1797,7 +1822,7 @@
       "first_seen_at": "2026-06-30T23:58:25Z",
       "last_event": "new",
       "last_notified_at": "2026-06-30T23:58:25Z",
-      "last_seen_at": "2026-07-30T16:20:02Z",
+      "last_seen_at": "2026-07-30T23:53:23Z",
       "matched_terms": [
         "South Korea",
         "South Korean",
@@ -3202,7 +3227,7 @@
       "first_seen_at": "2026-06-25T17:03:26Z",
       "last_event": "new",
       "last_notified_at": "2026-06-25T17:03:26Z",
-      "last_seen_at": "2026-07-30T16:20:02Z",
+      "last_seen_at": "2026-07-30T23:53:23Z",
       "matched_terms": [
         "South Korea",
         "Korea"
@@ -3275,7 +3300,7 @@
       "first_seen_at": "2026-07-14T16:07:44Z",
       "last_event": "new",
       "last_notified_at": "2026-07-14T16:07:44Z",
-      "last_seen_at": "2026-07-30T16:20:02Z",
+      "last_seen_at": "2026-07-30T23:53:23Z",
       "matched_terms": [
         "South Korea",
         "North Korean",
@@ -3393,7 +3418,7 @@
       "first_seen_at": "2026-07-15T09:04:03Z",
       "last_event": "new",
       "last_notified_at": "2026-07-15T09:04:03Z",
-      "last_seen_at": "2026-07-30T16:20:02Z",
+      "last_seen_at": "2026-07-30T23:53:23Z",
       "matched_terms": [
         "Republic of Korea",
         "Seoul",
@@ -3848,7 +3873,7 @@
       "first_seen_at": "2026-07-15T23:51:04Z",
       "last_event": "new",
       "last_notified_at": "2026-07-15T23:51:04Z",
-      "last_seen_at": "2026-07-30T16:20:02Z",
+      "last_seen_at": "2026-07-30T23:53:23Z",
       "matched_terms": [
         "Korea",
         "Korean"
@@ -4046,7 +4071,7 @@
       "first_seen_at": "2026-07-17T16:07:37Z",
       "last_event": "updated",
       "last_notified_at": "2026-07-20T09:49:25Z",
-      "last_seen_at": "2026-07-30T16:20:02Z",
+      "last_seen_at": "2026-07-30T23:53:23Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
