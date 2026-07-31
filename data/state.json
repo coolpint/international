@@ -85,7 +85,7 @@
       "first_seen_at": "2026-07-23T23:52:07Z",
       "last_event": "new",
       "last_notified_at": null,
-      "last_seen_at": "2026-07-31T09:36:40Z",
+      "last_seen_at": "2026-07-31T16:29:33Z",
       "matched_terms": [
         "Korea"
       ],
@@ -1209,7 +1209,7 @@
       "first_seen_at": "2026-07-16T16:09:33Z",
       "last_event": "new",
       "last_notified_at": "2026-07-16T16:09:33Z",
-      "last_seen_at": "2026-07-31T09:36:40Z",
+      "last_seen_at": "2026-07-31T16:29:33Z",
       "matched_terms": [
         "North Korea",
         "Korea",
@@ -1251,7 +1251,7 @@
       "first_seen_at": "2026-07-30T23:53:23Z",
       "last_event": "new",
       "last_notified_at": "2026-07-30T23:53:23Z",
-      "last_seen_at": "2026-07-31T09:36:40Z",
+      "last_seen_at": "2026-07-31T16:29:33Z",
       "matched_terms": [
         "North Korea",
         "Republic of Korea",
@@ -1276,7 +1276,7 @@
       "first_seen_at": "2026-07-15T16:12:36Z",
       "last_event": "updated",
       "last_notified_at": "2026-07-15T23:51:04Z",
-      "last_seen_at": "2026-07-31T09:36:40Z",
+      "last_seen_at": "2026-07-31T16:29:33Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1321,7 +1321,7 @@
       "first_seen_at": "2026-07-17T16:07:37Z",
       "last_event": "new",
       "last_notified_at": "2026-07-17T16:07:37Z",
-      "last_seen_at": "2026-07-31T09:36:40Z",
+      "last_seen_at": "2026-07-31T16:29:33Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1342,7 +1342,7 @@
       "first_seen_at": "2026-07-15T16:12:36Z",
       "last_event": "updated",
       "last_notified_at": "2026-07-15T23:51:04Z",
-      "last_seen_at": "2026-07-31T09:36:40Z",
+      "last_seen_at": "2026-07-31T16:29:33Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1382,7 +1382,7 @@
       "first_seen_at": "2026-07-23T16:19:27Z",
       "last_event": "new",
       "last_notified_at": "2026-07-23T16:19:27Z",
-      "last_seen_at": "2026-07-31T09:36:40Z",
+      "last_seen_at": "2026-07-31T16:29:33Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -1406,7 +1406,7 @@
       "first_seen_at": "2026-07-20T23:47:19Z",
       "last_event": "new",
       "last_notified_at": "2026-07-20T23:47:19Z",
-      "last_seen_at": "2026-07-31T09:36:40Z",
+      "last_seen_at": "2026-07-31T16:29:33Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -1429,7 +1429,7 @@
       "first_seen_at": "2026-07-28T23:51:29Z",
       "last_event": "updated",
       "last_notified_at": "2026-07-29T16:15:09Z",
-      "last_seen_at": "2026-07-31T09:36:40Z",
+      "last_seen_at": "2026-07-31T16:29:33Z",
       "matched_terms": [
         "DPRK",
         "Republic of Korea",
@@ -1492,7 +1492,7 @@
       "first_seen_at": "2026-04-03T15:33:11Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-07-31T09:36:40Z",
+      "last_seen_at": "2026-07-31T16:29:33Z",
       "matched_terms": [
         "Korea"
       ],
@@ -1509,7 +1509,7 @@
       "first_seen_at": "2026-04-20T16:01:59Z",
       "last_event": "new",
       "last_notified_at": null,
-      "last_seen_at": "2026-07-31T09:36:40Z",
+      "last_seen_at": "2026-07-31T16:29:33Z",
       "matched_terms": [
         "Korea"
       ],
@@ -1822,7 +1822,7 @@
       "first_seen_at": "2026-06-30T23:58:25Z",
       "last_event": "new",
       "last_notified_at": "2026-06-30T23:58:25Z",
-      "last_seen_at": "2026-07-31T09:36:40Z",
+      "last_seen_at": "2026-07-31T16:29:33Z",
       "matched_terms": [
         "South Korea",
         "South Korean",
@@ -3227,7 +3227,7 @@
       "first_seen_at": "2026-06-25T17:03:26Z",
       "last_event": "new",
       "last_notified_at": "2026-06-25T17:03:26Z",
-      "last_seen_at": "2026-07-31T09:36:40Z",
+      "last_seen_at": "2026-07-31T16:29:33Z",
       "matched_terms": [
         "South Korea",
         "Korea"
@@ -3300,7 +3300,7 @@
       "first_seen_at": "2026-07-14T16:07:44Z",
       "last_event": "new",
       "last_notified_at": "2026-07-14T16:07:44Z",
-      "last_seen_at": "2026-07-31T09:36:40Z",
+      "last_seen_at": "2026-07-31T16:29:33Z",
       "matched_terms": [
         "South Korea",
         "North Korean",
@@ -3418,7 +3418,7 @@
       "first_seen_at": "2026-07-15T09:04:03Z",
       "last_event": "new",
       "last_notified_at": "2026-07-15T09:04:03Z",
-      "last_seen_at": "2026-07-31T09:36:40Z",
+      "last_seen_at": "2026-07-31T16:29:33Z",
       "matched_terms": [
         "Republic of Korea",
         "Seoul",
@@ -3873,7 +3873,7 @@
       "first_seen_at": "2026-07-15T23:51:04Z",
       "last_event": "new",
       "last_notified_at": "2026-07-15T23:51:04Z",
-      "last_seen_at": "2026-07-31T09:36:40Z",
+      "last_seen_at": "2026-07-31T16:29:33Z",
       "matched_terms": [
         "Korea",
         "Korean"
@@ -3919,6 +3919,24 @@
       "summary": "At a meeting of the Working Party on the Accession of Uzbekistan on 9 March, the head of Uzbekistan's delegation, Deputy Prime Minister Jamshid Khodjaev, said his country is committed to bringing Uzbekistan’s accession process to a successful conclusion this year. Thanking members for supporting Uzbekistan's accession during a very busy period, he reaffirmed the country's commitment to engage constructively with all Working Party members. Uzbekistan stands ready to address any remaining issues i",
       "title": "Uzbekistan commits to maintaining \"strong momentum\" to accede to WTO in 2026",
       "url": "https://www.wto.org/english/news_e/news26_e/acc_09mar26_316_e.htm"
+    },
+    "https://www.wto.org/english/news_e/news26_e/acc_27jul26_470_e.htm": {
+      "confidence": "high",
+      "content_hash": "d10cf88fff4f953add6a0ead46f5966cea9abb810d5af07477a151acc975e4bc",
+      "first_seen_at": "2026-07-31T16:29:33Z",
+      "last_event": "new",
+      "last_notified_at": "2026-07-31T16:29:33Z",
+      "last_seen_at": "2026-07-31T16:29:33Z",
+      "matched_terms": [
+        "Republic of Korea",
+        "Korea"
+      ],
+      "published_at": "Mon, 27 Jul 2026 00:00:00 GMT",
+      "source_id": "wto_latest_news",
+      "source_label": "WTO Latest News",
+      "summary": "Uzbekistan reaffirmed its determination to complete its WTO accession process within 2026 at a meeting of the Working Party on the Accession of Uzbekistan on 27 and 28 July, soon after its last meeting in March. The head of Uzbekistan's delegation, Chief Negotiator Azizbek Urunov, stressed that maintaining a strong pace of engagement and addressing members' remaining concerns will be critical to bringing the accession process to a successful conclusion.",
+      "title": "Uzbekistan reaffirms 2026 WTO accession goal, thanks members for continuing engagement",
+      "url": "https://www.wto.org/english/news_e/news26_e/acc_27jul26_470_e.htm"
     },
     "https://www.wto.org/english/news_e/news26_e/anti_28apr26_381_e.htm": {
       "confidence": "high",
