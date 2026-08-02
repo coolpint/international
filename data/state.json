@@ -85,7 +85,7 @@
       "first_seen_at": "2026-07-23T23:52:07Z",
       "last_event": "new",
       "last_notified_at": null,
-      "last_seen_at": "2026-08-01T23:48:20Z",
+      "last_seen_at": "2026-08-02T09:04:16Z",
       "matched_terms": [
         "Korea"
       ],
@@ -1209,7 +1209,7 @@
       "first_seen_at": "2026-07-16T16:09:33Z",
       "last_event": "new",
       "last_notified_at": "2026-07-16T16:09:33Z",
-      "last_seen_at": "2026-08-01T23:48:20Z",
+      "last_seen_at": "2026-08-02T09:04:16Z",
       "matched_terms": [
         "North Korea",
         "Korea",
@@ -1251,7 +1251,7 @@
       "first_seen_at": "2026-07-30T23:53:23Z",
       "last_event": "new",
       "last_notified_at": "2026-07-30T23:53:23Z",
-      "last_seen_at": "2026-08-01T23:48:20Z",
+      "last_seen_at": "2026-08-02T09:04:16Z",
       "matched_terms": [
         "North Korea",
         "Republic of Korea",
@@ -1276,7 +1276,7 @@
       "first_seen_at": "2026-07-15T16:12:36Z",
       "last_event": "updated",
       "last_notified_at": "2026-07-15T23:51:04Z",
-      "last_seen_at": "2026-08-01T23:48:20Z",
+      "last_seen_at": "2026-08-02T09:04:16Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1321,7 +1321,7 @@
       "first_seen_at": "2026-07-17T16:07:37Z",
       "last_event": "new",
       "last_notified_at": "2026-07-17T16:07:37Z",
-      "last_seen_at": "2026-08-01T23:48:20Z",
+      "last_seen_at": "2026-08-02T09:04:16Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1342,7 +1342,7 @@
       "first_seen_at": "2026-07-15T16:12:36Z",
       "last_event": "updated",
       "last_notified_at": "2026-07-15T23:51:04Z",
-      "last_seen_at": "2026-08-01T23:48:20Z",
+      "last_seen_at": "2026-08-02T09:04:16Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1382,7 +1382,7 @@
       "first_seen_at": "2026-07-23T16:19:27Z",
       "last_event": "new",
       "last_notified_at": "2026-07-23T16:19:27Z",
-      "last_seen_at": "2026-08-01T23:48:20Z",
+      "last_seen_at": "2026-08-02T09:04:16Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -1406,7 +1406,7 @@
       "first_seen_at": "2026-07-20T23:47:19Z",
       "last_event": "new",
       "last_notified_at": "2026-07-20T23:47:19Z",
-      "last_seen_at": "2026-08-01T23:48:20Z",
+      "last_seen_at": "2026-08-02T09:04:16Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -1429,7 +1429,7 @@
       "first_seen_at": "2026-07-28T23:51:29Z",
       "last_event": "updated",
       "last_notified_at": "2026-07-29T16:15:09Z",
-      "last_seen_at": "2026-08-01T23:48:20Z",
+      "last_seen_at": "2026-08-02T09:04:16Z",
       "matched_terms": [
         "DPRK",
         "Republic of Korea",
@@ -1492,7 +1492,7 @@
       "first_seen_at": "2026-04-03T15:33:11Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-08-01T23:48:20Z",
+      "last_seen_at": "2026-08-02T09:04:16Z",
       "matched_terms": [
         "Korea"
       ],
@@ -1509,7 +1509,7 @@
       "first_seen_at": "2026-04-20T16:01:59Z",
       "last_event": "new",
       "last_notified_at": null,
-      "last_seen_at": "2026-08-01T23:48:20Z",
+      "last_seen_at": "2026-08-02T09:04:16Z",
       "matched_terms": [
         "Korea"
       ],
@@ -1878,6 +1878,26 @@
       "summary": "The G7’s agenda has globalized even as the bloc’s share of the world economy and population has shrunk. As leaders convene at Évian-les-Bains, is the group still fit for purpose — and which countries actually perform on the issues it prioritizes?",
       "title": "Who Are G7’s Top Performers?",
       "url": "https://www.csis.org/analysis/who-are-g7s-top-performers"
+    },
+    "https://www.csis.org/index%2Ephp/analysis/south-koreas-market-boom-and-bubble-beneath-it": {
+      "confidence": "high",
+      "content_hash": "d9323c6466678025c43733d120265ba0ed18cdfa1ed71591acd38c1fc32349ad",
+      "first_seen_at": "2026-08-02T09:04:16Z",
+      "last_event": "new",
+      "last_notified_at": "2026-08-02T09:04:16Z",
+      "last_seen_at": "2026-08-02T09:04:16Z",
+      "matched_terms": [
+        "South Korea",
+        "South Korean",
+        "Korea",
+        "Korean"
+      ],
+      "published_at": "Sun, 02 Aug 2026 09:05:13 GMT",
+      "source_id": "csis_korea_chair",
+      "source_label": "CSIS Korea Chair",
+      "summary": "The South Korean stock market is the world’s best-performing in the first six months of 2026, doubling in value mainly on investors’ perceptions of two companies. But South Korean investors are also at great risk because the euphoric sentiment driving the rally will end someday. This could shock the broader economy, create political fallout, and damage Koreans’ confidence in stock investing.",
+      "title": "South Korea’s Market Boom—and the Bubble Beneath It",
+      "url": "https://www.csis.org/index%2Ephp/analysis/south-koreas-market-boom-and-bubble-beneath-it"
     },
     "https://www.csis.org/index%2ephp/analysis/south-koreas-market-boom-and-bubble-beneath-it": {
       "confidence": "high",
@@ -3227,7 +3247,7 @@
       "first_seen_at": "2026-06-25T17:03:26Z",
       "last_event": "new",
       "last_notified_at": "2026-06-25T17:03:26Z",
-      "last_seen_at": "2026-08-01T23:48:20Z",
+      "last_seen_at": "2026-08-02T09:04:16Z",
       "matched_terms": [
         "South Korea",
         "Korea"
@@ -3300,7 +3320,7 @@
       "first_seen_at": "2026-07-14T16:07:44Z",
       "last_event": "new",
       "last_notified_at": "2026-07-14T16:07:44Z",
-      "last_seen_at": "2026-08-01T23:48:20Z",
+      "last_seen_at": "2026-08-02T09:04:16Z",
       "matched_terms": [
         "South Korea",
         "North Korean",
@@ -3418,7 +3438,7 @@
       "first_seen_at": "2026-07-15T09:04:03Z",
       "last_event": "new",
       "last_notified_at": "2026-07-15T09:04:03Z",
-      "last_seen_at": "2026-08-01T23:48:20Z",
+      "last_seen_at": "2026-08-02T09:04:16Z",
       "matched_terms": [
         "Republic of Korea",
         "Seoul",
@@ -3873,7 +3893,7 @@
       "first_seen_at": "2026-07-15T23:51:04Z",
       "last_event": "new",
       "last_notified_at": "2026-07-15T23:51:04Z",
-      "last_seen_at": "2026-08-01T23:48:20Z",
+      "last_seen_at": "2026-08-02T09:04:16Z",
       "matched_terms": [
         "Korea",
         "Korean"
@@ -3926,7 +3946,7 @@
       "first_seen_at": "2026-07-31T16:29:33Z",
       "last_event": "new",
       "last_notified_at": "2026-07-31T16:29:33Z",
-      "last_seen_at": "2026-08-01T23:48:20Z",
+      "last_seen_at": "2026-08-02T09:04:16Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
