@@ -85,7 +85,7 @@
       "first_seen_at": "2026-07-23T23:52:07Z",
       "last_event": "new",
       "last_notified_at": null,
-      "last_seen_at": "2026-08-03T10:32:26Z",
+      "last_seen_at": "2026-08-03T17:04:44Z",
       "matched_terms": [
         "Korea"
       ],
@@ -1209,7 +1209,7 @@
       "first_seen_at": "2026-07-16T16:09:33Z",
       "last_event": "new",
       "last_notified_at": "2026-07-16T16:09:33Z",
-      "last_seen_at": "2026-08-03T10:32:26Z",
+      "last_seen_at": "2026-08-03T17:04:44Z",
       "matched_terms": [
         "North Korea",
         "Korea",
@@ -1251,7 +1251,7 @@
       "first_seen_at": "2026-07-30T23:53:23Z",
       "last_event": "new",
       "last_notified_at": "2026-07-30T23:53:23Z",
-      "last_seen_at": "2026-08-03T10:32:26Z",
+      "last_seen_at": "2026-08-03T17:04:44Z",
       "matched_terms": [
         "North Korea",
         "Republic of Korea",
@@ -1276,7 +1276,7 @@
       "first_seen_at": "2026-07-15T16:12:36Z",
       "last_event": "updated",
       "last_notified_at": "2026-07-15T23:51:04Z",
-      "last_seen_at": "2026-08-03T10:32:26Z",
+      "last_seen_at": "2026-08-03T17:04:44Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1321,7 +1321,7 @@
       "first_seen_at": "2026-07-17T16:07:37Z",
       "last_event": "new",
       "last_notified_at": "2026-07-17T16:07:37Z",
-      "last_seen_at": "2026-08-03T10:32:26Z",
+      "last_seen_at": "2026-08-03T17:04:44Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1382,7 +1382,7 @@
       "first_seen_at": "2026-07-23T16:19:27Z",
       "last_event": "new",
       "last_notified_at": "2026-07-23T16:19:27Z",
-      "last_seen_at": "2026-08-03T10:32:26Z",
+      "last_seen_at": "2026-08-03T17:04:44Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -1406,7 +1406,7 @@
       "first_seen_at": "2026-07-20T23:47:19Z",
       "last_event": "new",
       "last_notified_at": "2026-07-20T23:47:19Z",
-      "last_seen_at": "2026-08-03T10:32:26Z",
+      "last_seen_at": "2026-08-03T17:04:44Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -1429,7 +1429,7 @@
       "first_seen_at": "2026-07-28T23:51:29Z",
       "last_event": "updated",
       "last_notified_at": "2026-07-29T16:15:09Z",
-      "last_seen_at": "2026-08-03T10:32:26Z",
+      "last_seen_at": "2026-08-03T17:04:44Z",
       "matched_terms": [
         "DPRK",
         "Republic of Korea",
@@ -1486,13 +1486,40 @@
       "title": "What Draws Trump to Kim Jong Un? The Answer Is Personal",
       "url": "https://www.38north.org/2026/07/what-draws-trump-to-kim-jong-un-the-answer-is-personal/"
     },
+    "https://www.38north.org/2026/08/breaking-the-ice-in-northeast-asia-president-lees-brazen-bet-on-the-arctic/": {
+      "confidence": "high",
+      "content_hash": "b7cb1a873b1d5fa766e85472e9d60c0d702fba19df589cc99c3f6f0689f6b0a4",
+      "first_seen_at": "2026-08-03T17:04:44Z",
+      "last_event": "new",
+      "last_notified_at": "2026-08-03T17:04:44Z",
+      "last_seen_at": "2026-08-03T17:04:44Z",
+      "matched_terms": [
+        "South Korea",
+        "South Korean",
+        "Republic of Korea",
+        "North Korea",
+        "Korean Peninsula",
+        "inter-Korean",
+        "Korea",
+        "Korean",
+        "ROK",
+        "Seoul",
+        "Pyongyang"
+      ],
+      "published_at": "Mon, 03 Aug 2026 12:31:27 +0000",
+      "source_id": "thirty_eight_north",
+      "source_label": "38 North",
+      "summary": "At a time of grave world tensions and rising defense preparations, including in Northeast Asia, ...\nThe post\nBreaking the Ice in Northeast Asia: President Lee’s Brazen Bet on the Arctic\nappeared first on\n38 North\n.",
+      "title": "Breaking the Ice in Northeast Asia: President Lee’s Brazen Bet on the Arctic",
+      "url": "https://www.38north.org/2026/08/breaking-the-ice-in-northeast-asia-president-lees-brazen-bet-on-the-arctic/"
+    },
     "https://www.bis.org/press/p260322.htm": {
       "confidence": "medium",
       "content_hash": "26df461f780b89a6555243819e200b44dbf4171d6ac30351655afcaf14ab9f95",
       "first_seen_at": "2026-04-03T15:33:11Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-08-03T10:32:26Z",
+      "last_seen_at": "2026-08-03T17:04:44Z",
       "matched_terms": [
         "Korea"
       ],
@@ -1509,7 +1536,7 @@
       "first_seen_at": "2026-04-20T16:01:59Z",
       "last_event": "new",
       "last_notified_at": null,
-      "last_seen_at": "2026-08-03T10:32:26Z",
+      "last_seen_at": "2026-08-03T17:04:44Z",
       "matched_terms": [
         "Korea"
       ],
@@ -1704,6 +1731,27 @@
       "title": "The 2026 World Cup: Sports and Conflict",
       "url": "https://www.csis.org/analysis/2026-world-cup-sports-and-conflict"
     },
+    "https://www.csis.org/analysis/ai-moment-us-rok-alliance": {
+      "confidence": "high",
+      "content_hash": "350062267230b74fd4ae7a51aa794ce4062fa4d0eca0dd881e671eb1dbd5b98d",
+      "first_seen_at": "2026-08-03T17:04:44Z",
+      "last_event": "new",
+      "last_notified_at": "2026-08-03T17:04:44Z",
+      "last_seen_at": "2026-08-03T17:04:44Z",
+      "matched_terms": [
+        "South Korea",
+        "Republic of Korea",
+        "ROK",
+        "Korea",
+        "Seoul"
+      ],
+      "published_at": "Mon, 03 Aug 2026 17:05:11 GMT",
+      "source_id": "csis_korea_chair",
+      "source_label": "CSIS Korea Chair",
+      "summary": "Winning the AI race is no longer about inventing better models. It is about turning AI into national power. South Korea is emerging as a pivotal country capable of connecting American innovation with real-world deployment through its strengths in semiconductors, advanced manufacturing, and digital infrastructure.",
+      "title": "AI Moment for the U.S.-ROK Alliance",
+      "url": "https://www.csis.org/analysis/ai-moment-us-rok-alliance"
+    },
     "https://www.csis.org/analysis/can-sports-diplomacy-open-door-korean-peninsula": {
       "confidence": "high",
       "content_hash": "00b767155d0d65660360c722c17ff8944a92f7cef6e170b5eb938364a092b706",
@@ -1822,7 +1870,7 @@
       "first_seen_at": "2026-06-30T23:58:25Z",
       "last_event": "new",
       "last_notified_at": "2026-06-30T23:58:25Z",
-      "last_seen_at": "2026-08-03T10:32:26Z",
+      "last_seen_at": "2026-08-03T17:04:44Z",
       "matched_terms": [
         "South Korea",
         "South Korean",
@@ -3247,7 +3295,7 @@
       "first_seen_at": "2026-06-25T17:03:26Z",
       "last_event": "new",
       "last_notified_at": "2026-06-25T17:03:26Z",
-      "last_seen_at": "2026-08-03T10:32:26Z",
+      "last_seen_at": "2026-08-03T17:04:44Z",
       "matched_terms": [
         "South Korea",
         "Korea"
@@ -3320,7 +3368,7 @@
       "first_seen_at": "2026-07-14T16:07:44Z",
       "last_event": "new",
       "last_notified_at": "2026-07-14T16:07:44Z",
-      "last_seen_at": "2026-08-03T10:32:26Z",
+      "last_seen_at": "2026-08-03T17:04:44Z",
       "matched_terms": [
         "South Korea",
         "North Korean",
@@ -3438,7 +3486,7 @@
       "first_seen_at": "2026-07-15T09:04:03Z",
       "last_event": "new",
       "last_notified_at": "2026-07-15T09:04:03Z",
-      "last_seen_at": "2026-08-03T10:32:26Z",
+      "last_seen_at": "2026-08-03T17:04:44Z",
       "matched_terms": [
         "Republic of Korea",
         "Seoul",
@@ -3893,7 +3941,7 @@
       "first_seen_at": "2026-07-15T23:51:04Z",
       "last_event": "new",
       "last_notified_at": "2026-07-15T23:51:04Z",
-      "last_seen_at": "2026-08-03T10:32:26Z",
+      "last_seen_at": "2026-08-03T17:04:44Z",
       "matched_terms": [
         "Korea",
         "Korean"
@@ -3946,7 +3994,7 @@
       "first_seen_at": "2026-07-31T16:29:33Z",
       "last_event": "new",
       "last_notified_at": "2026-07-31T16:29:33Z",
-      "last_seen_at": "2026-08-03T10:32:26Z",
+      "last_seen_at": "2026-08-03T17:04:44Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
