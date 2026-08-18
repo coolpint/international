@@ -169,6 +169,95 @@
       "note": "Parses the official Chinese-language MFA spokesperson statements and Q&A listing."
     },
     {
+      "id": "nyt_korea_news",
+      "label": "The New York Times — Korea",
+      "type": "rss_xml",
+      "enabled": true,
+      "list_url": "https://news.google.com/rss/search?q=%28Korea%20OR%20Korean%29%20when%3A30d%20site%3Anytimes.com%20-site%3Acooking.nytimes.com&hl=en-US&gl=US&ceid=US%3Aen",
+      "excluded_feed_site": "nytimes.com",
+      "excluded_feed_outlet_terms": [
+        "Yonhap",
+        "\"The Korea Herald\"",
+        "\"The Korea Times\"",
+        "\"Korea JoongAng Daily\"",
+        "\"Chosun Ilbo\"",
+        "\"JoongAng Ilbo\"",
+        "\"Dong-A Ilbo\"",
+        "Hankyoreh",
+        "\"Maeil Business Newspaper\"",
+        "\"Korea Economic Daily\"",
+        "\"News1 Korea\"",
+        "\"Seoul Economic Daily\""
+      ],
+      "max_items": 100,
+      "minimum_items": 1,
+      "country": "United States",
+      "language": "en",
+      "source_kind": "media_search",
+      "allowed_domains": [
+        "news.google.com"
+      ],
+      "allowed_feed_source_names": [
+        "The New York Times"
+      ],
+      "allowed_feed_source_domains": [
+        "www.nytimes.com"
+      ],
+      "deny_title_patterns": [
+        " - NYT Cooking"
+      ],
+      "default_confidence": "high",
+      "default_matched_terms": [
+        "NYT Korea priority source"
+      ],
+      "note": "User-designated priority media source. Google News searches the latest 30 days for Korea/Korean on nytimes.com, excludes NYT Cooking, and verifies each result's feed source name and domain before assigning high priority; Korean-media re-reporting remains hard-excluded."
+    },
+    {
+      "id": "wsj_korea_news",
+      "label": "The Wall Street Journal — Korea",
+      "type": "rss_xml",
+      "enabled": true,
+      "list_url": "https://news.google.com/rss/search?q=%28Korea%20OR%20Korean%29%20when%3A30d%20site%3Awsj.com&hl=en-US&gl=US&ceid=US%3Aen",
+      "excluded_feed_site": "wsj.com",
+      "excluded_feed_outlet_terms": [
+        "Yonhap",
+        "\"The Korea Herald\"",
+        "\"The Korea Times\"",
+        "\"Korea JoongAng Daily\"",
+        "\"Chosun Ilbo\"",
+        "\"JoongAng Ilbo\"",
+        "\"Dong-A Ilbo\"",
+        "Hankyoreh",
+        "\"Maeil Business Newspaper\"",
+        "\"Korea Economic Daily\"",
+        "\"News1 Korea\"",
+        "\"Seoul Economic Daily\""
+      ],
+      "max_items": 100,
+      "minimum_items": 1,
+      "country": "United States",
+      "language": "en",
+      "source_kind": "media_search",
+      "allowed_domains": [
+        "news.google.com"
+      ],
+      "allowed_feed_source_names": [
+        "WSJ"
+      ],
+      "allowed_feed_source_domains": [
+        "www.wsj.com"
+      ],
+      "deny_title_patterns": [
+        "Print Edition | Wall Street Journal",
+        "Foreign Exchange Rates - WSJ"
+      ],
+      "default_confidence": "high",
+      "default_matched_terms": [
+        "WSJ Korea priority source"
+      ],
+      "note": "User-designated priority media source. Google News searches the latest 30 days for Korea/Korean on wsj.com and verifies each result's feed source name and domain before assigning high priority; Korean-media re-reporting remains hard-excluded, and WSJ's official RSS was not used because its latest tested entries were stale."
+    },
+    {
       "id": "adb_news",
       "label": "ADB News",
       "type": "rss_xml",
