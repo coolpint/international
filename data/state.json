@@ -327,11 +327,11 @@
     },
     "https://unctad.org/publication/global-trade-update-julyaugust-2026-global-trade-continues-expand-amid-rising-price": {
       "confidence": "high",
-      "content_hash": "6013be9c3448f6a21d1a715867ed49a67ff8edcc4a33aca74020889296837fca",
+      "content_hash": "b663d3d484d4ae39393a04613aa55437e408156161fd7eb2d7b0a51d2dc2523f",
       "first_seen_at": "2026-08-04T09:33:28Z",
-      "last_event": "new",
-      "last_notified_at": "2026-08-04T09:33:28Z",
-      "last_seen_at": "2026-08-25T15:32:53Z",
+      "last_event": "updated",
+      "last_notified_at": "2026-08-25T23:16:45Z",
+      "last_seen_at": "2026-08-25T23:16:45Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
@@ -1546,7 +1546,7 @@
       "first_seen_at": "2026-08-20T23:16:38Z",
       "last_event": "new",
       "last_notified_at": "2026-08-20T23:16:38Z",
-      "last_seen_at": "2026-08-25T15:32:53Z",
+      "last_seen_at": "2026-08-25T23:16:45Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -1563,13 +1563,35 @@
       "title": "A Door Ajar, a High Bar: Whither North Korea-US Relations?",
       "url": "https://www.38north.org/2026/08/a-door-ajar-a-high-bar-whither-north-korea-us-relations/"
     },
+    "https://www.38north.org/2026/08/all-the-way-with-moscow-pyongyangs-strategic-calculations-in-support-of-russias-war/": {
+      "confidence": "high",
+      "content_hash": "2aaa52259642afdafff6451dea53592d704eff300ae7475c0dff9a1acaee03eb",
+      "first_seen_at": "2026-08-25T23:16:45Z",
+      "last_event": "new",
+      "last_notified_at": "2026-08-25T23:16:45Z",
+      "last_seen_at": "2026-08-25T23:16:45Z",
+      "matched_terms": [
+        "South Korea",
+        "North Korea",
+        "North Korean",
+        "Pyongyang",
+        "Korea",
+        "Korean"
+      ],
+      "published_at": "Tue, 25 Aug 2026 17:36:29 +0000",
+      "source_id": "thirty_eight_north",
+      "source_label": "38 North",
+      "summary": "Since the start of the Russia-Ukraine War in 2022, North Korea has contributed substantial arms ...\nThe post\nAll the Way With Moscow? Pyongyang’s Strategic Calculations in Support of Russia’s War\nappeared first on\n38 North\n.",
+      "title": "All the Way With Moscow? Pyongyang’s Strategic Calculations in Support of Russia’s War",
+      "url": "https://www.38north.org/2026/08/all-the-way-with-moscow-pyongyangs-strategic-calculations-in-support-of-russias-war/"
+    },
     "https://www.38north.org/2026/08/beyond-pyongyang-regional-development-modernization-and-inequality-in-north-korea/": {
       "confidence": "high",
       "content_hash": "bf9bc063079d0742e3be145e7dfe9faab29f99688ea83282bc324498fdfc48ce",
       "first_seen_at": "2026-08-19T23:13:58Z",
       "last_event": "new",
       "last_notified_at": "2026-08-19T23:13:58Z",
-      "last_seen_at": "2026-08-25T15:32:53Z",
+      "last_seen_at": "2026-08-25T23:16:45Z",
       "matched_terms": [
         "North Korea",
         "Korea",
@@ -1616,7 +1638,7 @@
       "first_seen_at": "2026-08-04T16:45:52Z",
       "last_event": "new",
       "last_notified_at": "2026-08-04T16:45:52Z",
-      "last_seen_at": "2026-08-25T15:32:53Z",
+      "last_seen_at": "2026-08-25T23:16:45Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -1637,7 +1659,7 @@
       "first_seen_at": "2026-08-24T23:14:09Z",
       "last_event": "new",
       "last_notified_at": "2026-08-24T23:14:09Z",
-      "last_seen_at": "2026-08-25T15:32:53Z",
+      "last_seen_at": "2026-08-25T23:16:45Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1658,7 +1680,7 @@
       "first_seen_at": "2026-08-21T23:13:50Z",
       "last_event": "new",
       "last_notified_at": "2026-08-21T23:13:50Z",
-      "last_seen_at": "2026-08-25T15:32:53Z",
+      "last_seen_at": "2026-08-25T23:16:45Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1681,7 +1703,7 @@
       "first_seen_at": "2026-08-05T23:49:38Z",
       "last_event": "new",
       "last_notified_at": "2026-08-05T23:49:38Z",
-      "last_seen_at": "2026-08-25T15:32:53Z",
+      "last_seen_at": "2026-08-25T23:16:45Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1701,7 +1723,7 @@
       "first_seen_at": "2026-08-14T15:41:33Z",
       "last_event": "new",
       "last_notified_at": "2026-08-14T15:41:33Z",
-      "last_seen_at": "2026-08-25T15:32:53Z",
+      "last_seen_at": "2026-08-25T23:16:45Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -1722,7 +1744,7 @@
       "first_seen_at": "2026-04-03T15:33:11Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-08-25T15:32:53Z",
+      "last_seen_at": "2026-08-25T23:16:45Z",
       "matched_terms": [
         "Korea"
       ],
@@ -1739,7 +1761,7 @@
       "first_seen_at": "2026-04-20T16:01:59Z",
       "last_event": "new",
       "last_notified_at": null,
-      "last_seen_at": "2026-08-25T15:32:53Z",
+      "last_seen_at": "2026-08-25T23:16:45Z",
       "matched_terms": [
         "Korea"
       ],
@@ -1940,7 +1962,7 @@
       "first_seen_at": "2026-08-13T15:49:59Z",
       "last_event": "new",
       "last_notified_at": "2026-08-13T15:49:59Z",
-      "last_seen_at": "2026-08-25T15:32:53Z",
+      "last_seen_at": "2026-08-25T23:16:45Z",
       "matched_terms": [
         "South Korean",
         "North Korea",
@@ -1963,7 +1985,7 @@
       "first_seen_at": "2026-08-03T17:04:44Z",
       "last_event": "new",
       "last_notified_at": "2026-08-03T17:04:44Z",
-      "last_seen_at": "2026-08-25T15:32:53Z",
+      "last_seen_at": "2026-08-25T23:16:45Z",
       "matched_terms": [
         "South Korea",
         "Republic of Korea",
@@ -2032,7 +2054,7 @@
       "first_seen_at": "2026-08-17T23:13:07Z",
       "last_event": "new",
       "last_notified_at": "2026-08-17T23:13:07Z",
-      "last_seen_at": "2026-08-25T15:32:53Z",
+      "last_seen_at": "2026-08-25T23:16:45Z",
       "matched_terms": [
         "South Korea",
         "North Korea",
@@ -2096,7 +2118,7 @@
       "first_seen_at": "2026-08-07T01:39:33Z",
       "last_event": "new",
       "last_notified_at": "2026-08-07T01:39:33Z",
-      "last_seen_at": "2026-08-25T15:32:53Z",
+      "last_seen_at": "2026-08-25T23:16:45Z",
       "matched_terms": [
         "North Korea",
         "Republic of Korea",
@@ -3610,7 +3632,7 @@
       "first_seen_at": "2026-06-25T17:03:26Z",
       "last_event": "new",
       "last_notified_at": "2026-06-25T17:03:26Z",
-      "last_seen_at": "2026-08-25T15:32:53Z",
+      "last_seen_at": "2026-08-25T23:16:45Z",
       "matched_terms": [
         "South Korea",
         "Korea"
@@ -3683,7 +3705,7 @@
       "first_seen_at": "2026-07-14T16:07:44Z",
       "last_event": "new",
       "last_notified_at": "2026-07-14T16:07:44Z",
-      "last_seen_at": "2026-08-25T15:32:53Z",
+      "last_seen_at": "2026-08-25T23:16:45Z",
       "matched_terms": [
         "South Korea",
         "North Korean",
@@ -3821,7 +3843,7 @@
       "first_seen_at": "2026-07-15T09:04:03Z",
       "last_event": "new",
       "last_notified_at": "2026-07-15T09:04:03Z",
-      "last_seen_at": "2026-08-25T15:32:53Z",
+      "last_seen_at": "2026-08-25T23:16:45Z",
       "matched_terms": [
         "Republic of Korea",
         "Seoul",
@@ -4329,7 +4351,7 @@
       "first_seen_at": "2026-07-31T16:29:33Z",
       "last_event": "new",
       "last_notified_at": "2026-07-31T16:29:33Z",
-      "last_seen_at": "2026-08-25T15:32:53Z",
+      "last_seen_at": "2026-08-25T23:16:45Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
