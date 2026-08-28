@@ -1546,7 +1546,7 @@
       "first_seen_at": "2026-08-20T23:16:38Z",
       "last_event": "new",
       "last_notified_at": "2026-08-20T23:16:38Z",
-      "last_seen_at": "2026-08-28T06:25:47Z",
+      "last_seen_at": "2026-08-28T19:09:02Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -1569,7 +1569,7 @@
       "first_seen_at": "2026-08-25T23:16:45Z",
       "last_event": "updated",
       "last_notified_at": "2026-08-26T07:37:30Z",
-      "last_seen_at": "2026-08-28T06:25:47Z",
+      "last_seen_at": "2026-08-28T19:09:02Z",
       "matched_terms": [
         "South Korea",
         "North Korea",
@@ -1587,11 +1587,11 @@
     },
     "https://www.38north.org/2026/08/beyond-pyongyang-access-to-electricity/": {
       "confidence": "high",
-      "content_hash": "f25bde1b0003a203ea0bdcca88ba6d5fe991c141d095e699cb5e77afcaa45ec5",
+      "content_hash": "5d5c0b63d9b0466207095f0556651135d1380aa4a772eab6c3a99ec65579a647",
       "first_seen_at": "2026-08-27T17:58:44Z",
-      "last_event": "new",
-      "last_notified_at": "2026-08-27T17:58:44Z",
-      "last_seen_at": "2026-08-28T06:25:47Z",
+      "last_event": "updated",
+      "last_notified_at": "2026-08-28T19:09:02Z",
+      "last_seen_at": "2026-08-28T19:09:02Z",
       "matched_terms": [
         "South Korea",
         "North Korea",
@@ -1606,13 +1606,34 @@
       "title": "Beyond Pyongyang: Access to Electricity",
       "url": "https://www.38north.org/2026/08/beyond-pyongyang-access-to-electricity/"
     },
+    "https://www.38north.org/2026/08/beyond-pyongyang-north-koreas-industrial-landscape/": {
+      "confidence": "high",
+      "content_hash": "f643e15410e680e4bc4f5374ece87e24f27101b44701eeed7fc4e6a3559ab668",
+      "first_seen_at": "2026-08-28T19:09:02Z",
+      "last_event": "new",
+      "last_notified_at": "2026-08-28T19:09:02Z",
+      "last_seen_at": "2026-08-28T19:09:02Z",
+      "matched_terms": [
+        "North Korea",
+        "North Korean",
+        "Korea",
+        "Pyongyang",
+        "Korean"
+      ],
+      "published_at": "Fri, 28 Aug 2026 16:50:34 +0000",
+      "source_id": "thirty_eight_north",
+      "source_label": "38 North",
+      "summary": "As part of our series examining the socioeconomic disparity between Pyongyang and other ...\nThe post\nBeyond Pyongyang: North Korea’s Industrial Landscape\nappeared first on\n38 North\n.",
+      "title": "Beyond Pyongyang: North Korea’s Industrial Landscape",
+      "url": "https://www.38north.org/2026/08/beyond-pyongyang-north-koreas-industrial-landscape/"
+    },
     "https://www.38north.org/2026/08/beyond-pyongyang-regional-development-modernization-and-inequality-in-north-korea/": {
       "confidence": "high",
       "content_hash": "bf9bc063079d0742e3be145e7dfe9faab29f99688ea83282bc324498fdfc48ce",
       "first_seen_at": "2026-08-19T23:13:58Z",
       "last_event": "new",
       "last_notified_at": "2026-08-19T23:13:58Z",
-      "last_seen_at": "2026-08-28T06:25:47Z",
+      "last_seen_at": "2026-08-28T19:09:02Z",
       "matched_terms": [
         "North Korea",
         "Korea",
@@ -1628,11 +1649,11 @@
     },
     "https://www.38north.org/2026/08/beyond-pyongyang-transportation-networks/": {
       "confidence": "high",
-      "content_hash": "8517e32d222b971e1a38604e3b860030b49d2dc50c95f70d5338a3c0600f537f",
+      "content_hash": "bf7fada8194d319cdbc5862115c1883c483911ed756478ba60e2ce845e501107",
       "first_seen_at": "2026-08-28T06:25:47Z",
-      "last_event": "new",
-      "last_notified_at": "2026-08-28T06:25:47Z",
-      "last_seen_at": "2026-08-28T06:25:47Z",
+      "last_event": "updated",
+      "last_notified_at": "2026-08-28T19:09:02Z",
+      "last_seen_at": "2026-08-28T19:09:02Z",
       "matched_terms": [
         "North Korea",
         "Pyongyang",
@@ -1700,7 +1721,7 @@
       "first_seen_at": "2026-08-24T23:14:09Z",
       "last_event": "new",
       "last_notified_at": "2026-08-24T23:14:09Z",
-      "last_seen_at": "2026-08-28T06:25:47Z",
+      "last_seen_at": "2026-08-28T19:09:02Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1721,7 +1742,7 @@
       "first_seen_at": "2026-08-21T23:13:50Z",
       "last_event": "new",
       "last_notified_at": "2026-08-21T23:13:50Z",
-      "last_seen_at": "2026-08-28T06:25:47Z",
+      "last_seen_at": "2026-08-28T19:09:02Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1785,7 +1806,7 @@
       "first_seen_at": "2026-04-03T15:33:11Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-08-28T06:25:47Z",
+      "last_seen_at": "2026-08-28T19:09:02Z",
       "matched_terms": [
         "Korea"
       ],
@@ -1802,7 +1823,7 @@
       "first_seen_at": "2026-04-20T16:01:59Z",
       "last_event": "new",
       "last_notified_at": null,
-      "last_seen_at": "2026-08-28T06:25:47Z",
+      "last_seen_at": "2026-08-28T19:09:02Z",
       "matched_terms": [
         "Korea"
       ],
@@ -2003,7 +2024,7 @@
       "first_seen_at": "2026-08-13T15:49:59Z",
       "last_event": "new",
       "last_notified_at": "2026-08-13T15:49:59Z",
-      "last_seen_at": "2026-08-28T06:25:47Z",
+      "last_seen_at": "2026-08-28T19:09:02Z",
       "matched_terms": [
         "South Korean",
         "North Korea",
@@ -2026,7 +2047,7 @@
       "first_seen_at": "2026-08-03T17:04:44Z",
       "last_event": "new",
       "last_notified_at": "2026-08-03T17:04:44Z",
-      "last_seen_at": "2026-08-28T06:25:47Z",
+      "last_seen_at": "2026-08-28T19:09:02Z",
       "matched_terms": [
         "South Korea",
         "Republic of Korea",
@@ -2095,7 +2116,7 @@
       "first_seen_at": "2026-08-17T23:13:07Z",
       "last_event": "new",
       "last_notified_at": "2026-08-17T23:13:07Z",
-      "last_seen_at": "2026-08-28T06:25:47Z",
+      "last_seen_at": "2026-08-28T19:09:02Z",
       "matched_terms": [
         "South Korea",
         "North Korea",
@@ -2159,7 +2180,7 @@
       "first_seen_at": "2026-08-07T01:39:33Z",
       "last_event": "new",
       "last_notified_at": "2026-08-07T01:39:33Z",
-      "last_seen_at": "2026-08-27T17:58:44Z",
+      "last_seen_at": "2026-08-28T19:09:02Z",
       "matched_terms": [
         "North Korea",
         "Republic of Korea",
@@ -3673,7 +3694,7 @@
       "first_seen_at": "2026-06-25T17:03:26Z",
       "last_event": "new",
       "last_notified_at": "2026-06-25T17:03:26Z",
-      "last_seen_at": "2026-08-28T06:25:47Z",
+      "last_seen_at": "2026-08-28T19:09:02Z",
       "matched_terms": [
         "South Korea",
         "Korea"
@@ -3746,7 +3767,7 @@
       "first_seen_at": "2026-07-14T16:07:44Z",
       "last_event": "new",
       "last_notified_at": "2026-07-14T16:07:44Z",
-      "last_seen_at": "2026-08-28T06:25:47Z",
+      "last_seen_at": "2026-08-28T19:09:02Z",
       "matched_terms": [
         "South Korea",
         "North Korean",
@@ -3884,7 +3905,7 @@
       "first_seen_at": "2026-07-15T09:04:03Z",
       "last_event": "new",
       "last_notified_at": "2026-07-15T09:04:03Z",
-      "last_seen_at": "2026-08-28T06:25:47Z",
+      "last_seen_at": "2026-08-28T19:09:02Z",
       "matched_terms": [
         "Republic of Korea",
         "Seoul",
@@ -4392,7 +4413,7 @@
       "first_seen_at": "2026-07-31T16:29:33Z",
       "last_event": "new",
       "last_notified_at": "2026-07-31T16:29:33Z",
-      "last_seen_at": "2026-08-28T06:25:47Z",
+      "last_seen_at": "2026-08-28T19:09:02Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
