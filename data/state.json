@@ -331,7 +331,7 @@
       "first_seen_at": "2026-08-04T09:33:28Z",
       "last_event": "updated",
       "last_notified_at": "2026-08-25T23:16:45Z",
-      "last_seen_at": "2026-08-31T20:29:29Z",
+      "last_seen_at": "2026-09-01T01:30:39Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
@@ -1569,7 +1569,7 @@
       "first_seen_at": "2026-08-25T23:16:45Z",
       "last_event": "updated",
       "last_notified_at": "2026-08-26T07:37:30Z",
-      "last_seen_at": "2026-08-31T20:29:29Z",
+      "last_seen_at": "2026-09-01T01:30:39Z",
       "matched_terms": [
         "South Korea",
         "North Korea",
@@ -1591,7 +1591,7 @@
       "first_seen_at": "2026-08-27T17:58:44Z",
       "last_event": "updated",
       "last_notified_at": "2026-08-28T19:09:02Z",
-      "last_seen_at": "2026-08-31T20:29:29Z",
+      "last_seen_at": "2026-09-01T01:30:39Z",
       "matched_terms": [
         "South Korea",
         "North Korea",
@@ -1606,13 +1606,32 @@
       "title": "Beyond Pyongyang: Access to Electricity",
       "url": "https://www.38north.org/2026/08/beyond-pyongyang-access-to-electricity/"
     },
+    "https://www.38north.org/2026/08/beyond-pyongyang-educational-resource-divide/": {
+      "confidence": "high",
+      "content_hash": "705cce04074e86d97a598730ae11ef04c124d5c3b5dcc09f93aeb23aac000b4a",
+      "first_seen_at": "2026-09-01T01:30:39Z",
+      "last_event": "new",
+      "last_notified_at": "2026-09-01T01:30:39Z",
+      "last_seen_at": "2026-09-01T01:30:39Z",
+      "matched_terms": [
+        "North Korea",
+        "Pyongyang",
+        "Korea"
+      ],
+      "published_at": "Mon, 31 Aug 2026 20:36:13 +0000",
+      "source_id": "thirty_eight_north",
+      "source_label": "38 North",
+      "summary": "As part of our series examining the socioeconomic disparity between Pyongyang and other ...\nThe post\nBeyond Pyongyang: Educational Resource Divide\nappeared first on\n38 North\n.",
+      "title": "Beyond Pyongyang: Educational Resource Divide",
+      "url": "https://www.38north.org/2026/08/beyond-pyongyang-educational-resource-divide/"
+    },
     "https://www.38north.org/2026/08/beyond-pyongyang-mobile-networks-the-internet-and-broadcasting/": {
       "confidence": "high",
       "content_hash": "a09c325aa82dd27945eab26ba89780358d6f939ec448475bcb4105f594cf27b5",
       "first_seen_at": "2026-08-29T03:57:46Z",
       "last_event": "new",
       "last_notified_at": "2026-08-29T03:57:46Z",
-      "last_seen_at": "2026-08-31T20:29:29Z",
+      "last_seen_at": "2026-09-01T01:30:39Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1633,7 +1652,7 @@
       "first_seen_at": "2026-08-28T19:09:02Z",
       "last_event": "new",
       "last_notified_at": "2026-08-28T19:09:02Z",
-      "last_seen_at": "2026-08-31T20:29:29Z",
+      "last_seen_at": "2026-09-01T01:30:39Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1674,7 +1693,7 @@
       "first_seen_at": "2026-08-28T06:25:47Z",
       "last_event": "updated",
       "last_notified_at": "2026-08-28T19:09:02Z",
-      "last_seen_at": "2026-08-31T20:29:29Z",
+      "last_seen_at": "2026-09-01T01:30:39Z",
       "matched_terms": [
         "North Korea",
         "Pyongyang",
@@ -1742,7 +1761,7 @@
       "first_seen_at": "2026-08-24T23:14:09Z",
       "last_event": "new",
       "last_notified_at": "2026-08-24T23:14:09Z",
-      "last_seen_at": "2026-08-31T20:29:29Z",
+      "last_seen_at": "2026-09-01T01:30:39Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1763,7 +1782,7 @@
       "first_seen_at": "2026-08-21T23:13:50Z",
       "last_event": "new",
       "last_notified_at": "2026-08-21T23:13:50Z",
-      "last_seen_at": "2026-08-31T20:29:29Z",
+      "last_seen_at": "2026-09-01T01:30:39Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -2045,7 +2064,7 @@
       "first_seen_at": "2026-08-13T15:49:59Z",
       "last_event": "new",
       "last_notified_at": "2026-08-13T15:49:59Z",
-      "last_seen_at": "2026-08-31T20:29:29Z",
+      "last_seen_at": "2026-09-01T01:30:39Z",
       "matched_terms": [
         "South Korean",
         "North Korea",
@@ -2068,7 +2087,7 @@
       "first_seen_at": "2026-08-03T17:04:44Z",
       "last_event": "new",
       "last_notified_at": "2026-08-03T17:04:44Z",
-      "last_seen_at": "2026-08-31T20:29:29Z",
+      "last_seen_at": "2026-09-01T01:30:39Z",
       "matched_terms": [
         "South Korea",
         "Republic of Korea",
@@ -2137,7 +2156,7 @@
       "first_seen_at": "2026-08-17T23:13:07Z",
       "last_event": "new",
       "last_notified_at": "2026-08-17T23:13:07Z",
-      "last_seen_at": "2026-08-31T20:29:29Z",
+      "last_seen_at": "2026-09-01T01:30:39Z",
       "matched_terms": [
         "South Korea",
         "North Korea",
@@ -2201,7 +2220,7 @@
       "first_seen_at": "2026-08-07T01:39:33Z",
       "last_event": "new",
       "last_notified_at": "2026-08-07T01:39:33Z",
-      "last_seen_at": "2026-08-31T20:29:29Z",
+      "last_seen_at": "2026-09-01T01:30:39Z",
       "matched_terms": [
         "North Korea",
         "Republic of Korea",
@@ -3715,7 +3734,7 @@
       "first_seen_at": "2026-06-25T17:03:26Z",
       "last_event": "new",
       "last_notified_at": "2026-06-25T17:03:26Z",
-      "last_seen_at": "2026-08-31T20:29:29Z",
+      "last_seen_at": "2026-09-01T01:30:39Z",
       "matched_terms": [
         "South Korea",
         "Korea"
@@ -3926,7 +3945,7 @@
       "first_seen_at": "2026-07-15T09:04:03Z",
       "last_event": "new",
       "last_notified_at": "2026-07-15T09:04:03Z",
-      "last_seen_at": "2026-08-31T20:29:29Z",
+      "last_seen_at": "2026-09-01T01:30:39Z",
       "matched_terms": [
         "Republic of Korea",
         "Seoul",
@@ -4434,7 +4453,7 @@
       "first_seen_at": "2026-07-31T16:29:33Z",
       "last_event": "new",
       "last_notified_at": "2026-07-31T16:29:33Z",
-      "last_seen_at": "2026-08-31T20:29:29Z",
+      "last_seen_at": "2026-09-01T01:30:39Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
