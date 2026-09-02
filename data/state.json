@@ -1569,7 +1569,7 @@
       "first_seen_at": "2026-08-25T23:16:45Z",
       "last_event": "updated",
       "last_notified_at": "2026-08-26T07:37:30Z",
-      "last_seen_at": "2026-09-02T11:52:12Z",
+      "last_seen_at": "2026-09-02T18:13:46Z",
       "matched_terms": [
         "South Korea",
         "North Korea",
@@ -1591,7 +1591,7 @@
       "first_seen_at": "2026-08-27T17:58:44Z",
       "last_event": "updated",
       "last_notified_at": "2026-08-28T19:09:02Z",
-      "last_seen_at": "2026-09-02T11:52:12Z",
+      "last_seen_at": "2026-09-02T18:13:46Z",
       "matched_terms": [
         "South Korea",
         "North Korea",
@@ -1612,7 +1612,7 @@
       "first_seen_at": "2026-09-01T01:30:39Z",
       "last_event": "new",
       "last_notified_at": "2026-09-01T01:30:39Z",
-      "last_seen_at": "2026-09-02T11:52:12Z",
+      "last_seen_at": "2026-09-02T18:13:46Z",
       "matched_terms": [
         "North Korea",
         "Pyongyang",
@@ -1631,7 +1631,7 @@
       "first_seen_at": "2026-08-29T03:57:46Z",
       "last_event": "new",
       "last_notified_at": "2026-08-29T03:57:46Z",
-      "last_seen_at": "2026-09-02T11:52:12Z",
+      "last_seen_at": "2026-09-02T18:13:46Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1652,7 +1652,7 @@
       "first_seen_at": "2026-08-28T19:09:02Z",
       "last_event": "new",
       "last_notified_at": "2026-08-28T19:09:02Z",
-      "last_seen_at": "2026-09-02T11:52:12Z",
+      "last_seen_at": "2026-09-02T18:13:46Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1693,7 +1693,7 @@
       "first_seen_at": "2026-08-28T06:25:47Z",
       "last_event": "updated",
       "last_notified_at": "2026-08-28T19:09:02Z",
-      "last_seen_at": "2026-09-02T11:52:12Z",
+      "last_seen_at": "2026-09-02T18:13:46Z",
       "matched_terms": [
         "North Korea",
         "Pyongyang",
@@ -1840,13 +1840,32 @@
       "title": "The KN-23 Goes to War: Has It Improved North Korea’s Missiles?",
       "url": "https://www.38north.org/2026/08/the-kn-23-goes-to-war-has-it-improved-north-koreas-missiles/"
     },
+    "https://www.38north.org/2026/09/changes-in-the-kpa-high-command/": {
+      "confidence": "high",
+      "content_hash": "1353926adaa7e665f09579a6f8aab3c7d2061733c39416f8784bccc7e8ea876e",
+      "first_seen_at": "2026-09-02T18:13:46Z",
+      "last_event": "new",
+      "last_notified_at": "2026-09-02T18:13:46Z",
+      "last_seen_at": "2026-09-02T18:13:46Z",
+      "matched_terms": [
+        "North Korean",
+        "Korea",
+        "Korean"
+      ],
+      "published_at": "Wed, 02 Sep 2026 16:52:00 +0000",
+      "source_id": "thirty_eight_north",
+      "source_label": "38 North",
+      "summary": "On August 29, Kim Jong Un presided over both an awards ceremony for three defense industry ...\nThe post\nChanges in the KPA High Command\nappeared first on\n38 North\n.",
+      "title": "Changes in the KPA High Command",
+      "url": "https://www.38north.org/2026/09/changes-in-the-kpa-high-command/"
+    },
     "https://www.38north.org/2026/09/north-korea-makes-significant-progress-on-new-trade-facility-with-china/": {
       "confidence": "high",
       "content_hash": "513499e57b0c38896e69a8a9f1d3bb4c9626199e285d67dd65ce05df6272cff5",
       "first_seen_at": "2026-09-02T00:40:21Z",
       "last_event": "updated",
       "last_notified_at": "2026-09-02T11:52:12Z",
-      "last_seen_at": "2026-09-02T11:52:12Z",
+      "last_seen_at": "2026-09-02T18:13:46Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -2084,7 +2103,7 @@
       "first_seen_at": "2026-08-13T15:49:59Z",
       "last_event": "new",
       "last_notified_at": "2026-08-13T15:49:59Z",
-      "last_seen_at": "2026-09-02T11:52:12Z",
+      "last_seen_at": "2026-09-02T18:13:46Z",
       "matched_terms": [
         "South Korean",
         "North Korea",
@@ -2107,7 +2126,7 @@
       "first_seen_at": "2026-08-03T17:04:44Z",
       "last_event": "new",
       "last_notified_at": "2026-08-03T17:04:44Z",
-      "last_seen_at": "2026-09-02T11:52:12Z",
+      "last_seen_at": "2026-09-02T18:13:46Z",
       "matched_terms": [
         "South Korea",
         "Republic of Korea",
@@ -2176,7 +2195,7 @@
       "first_seen_at": "2026-08-17T23:13:07Z",
       "last_event": "new",
       "last_notified_at": "2026-08-17T23:13:07Z",
-      "last_seen_at": "2026-09-02T11:52:12Z",
+      "last_seen_at": "2026-09-02T18:13:46Z",
       "matched_terms": [
         "South Korea",
         "North Korea",
@@ -2240,7 +2259,7 @@
       "first_seen_at": "2026-08-07T01:39:33Z",
       "last_event": "new",
       "last_notified_at": "2026-08-07T01:39:33Z",
-      "last_seen_at": "2026-09-02T11:52:12Z",
+      "last_seen_at": "2026-09-02T18:13:46Z",
       "matched_terms": [
         "North Korea",
         "Republic of Korea",
@@ -3754,7 +3773,7 @@
       "first_seen_at": "2026-06-25T17:03:26Z",
       "last_event": "new",
       "last_notified_at": "2026-06-25T17:03:26Z",
-      "last_seen_at": "2026-09-02T11:52:12Z",
+      "last_seen_at": "2026-09-02T18:13:46Z",
       "matched_terms": [
         "South Korea",
         "Korea"
@@ -3965,7 +3984,7 @@
       "first_seen_at": "2026-07-15T09:04:03Z",
       "last_event": "new",
       "last_notified_at": "2026-07-15T09:04:03Z",
-      "last_seen_at": "2026-09-02T11:52:12Z",
+      "last_seen_at": "2026-09-02T18:13:46Z",
       "matched_terms": [
         "Republic of Korea",
         "Seoul",
