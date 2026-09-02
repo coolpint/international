@@ -331,7 +331,7 @@
       "first_seen_at": "2026-08-04T09:33:28Z",
       "last_event": "updated",
       "last_notified_at": "2026-08-25T23:16:45Z",
-      "last_seen_at": "2026-09-01T18:03:14Z",
+      "last_seen_at": "2026-09-02T00:40:21Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
@@ -1569,7 +1569,7 @@
       "first_seen_at": "2026-08-25T23:16:45Z",
       "last_event": "updated",
       "last_notified_at": "2026-08-26T07:37:30Z",
-      "last_seen_at": "2026-09-01T18:03:14Z",
+      "last_seen_at": "2026-09-02T00:40:21Z",
       "matched_terms": [
         "South Korea",
         "North Korea",
@@ -1591,7 +1591,7 @@
       "first_seen_at": "2026-08-27T17:58:44Z",
       "last_event": "updated",
       "last_notified_at": "2026-08-28T19:09:02Z",
-      "last_seen_at": "2026-09-01T18:03:14Z",
+      "last_seen_at": "2026-09-02T00:40:21Z",
       "matched_terms": [
         "South Korea",
         "North Korea",
@@ -1612,7 +1612,7 @@
       "first_seen_at": "2026-09-01T01:30:39Z",
       "last_event": "new",
       "last_notified_at": "2026-09-01T01:30:39Z",
-      "last_seen_at": "2026-09-01T18:03:14Z",
+      "last_seen_at": "2026-09-02T00:40:21Z",
       "matched_terms": [
         "North Korea",
         "Pyongyang",
@@ -1631,7 +1631,7 @@
       "first_seen_at": "2026-08-29T03:57:46Z",
       "last_event": "new",
       "last_notified_at": "2026-08-29T03:57:46Z",
-      "last_seen_at": "2026-09-01T18:03:14Z",
+      "last_seen_at": "2026-09-02T00:40:21Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1652,7 +1652,7 @@
       "first_seen_at": "2026-08-28T19:09:02Z",
       "last_event": "new",
       "last_notified_at": "2026-08-28T19:09:02Z",
-      "last_seen_at": "2026-09-01T18:03:14Z",
+      "last_seen_at": "2026-09-02T00:40:21Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1693,7 +1693,7 @@
       "first_seen_at": "2026-08-28T06:25:47Z",
       "last_event": "updated",
       "last_notified_at": "2026-08-28T19:09:02Z",
-      "last_seen_at": "2026-09-01T18:03:14Z",
+      "last_seen_at": "2026-09-02T00:40:21Z",
       "matched_terms": [
         "North Korea",
         "Pyongyang",
@@ -1761,7 +1761,7 @@
       "first_seen_at": "2026-08-24T23:14:09Z",
       "last_event": "new",
       "last_notified_at": "2026-08-24T23:14:09Z",
-      "last_seen_at": "2026-09-01T18:03:14Z",
+      "last_seen_at": "2026-09-02T00:40:21Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1839,6 +1839,26 @@
       "summary": "North Korean-made KN-23 solid-propellant, road-mobile short-range ballistic missiles (SRBMs) ...\nThe post\nThe KN-23 Goes to War: Has It Improved North Korea’s Missiles?\nappeared first on\n38 North\n.",
       "title": "The KN-23 Goes to War: Has It Improved North Korea’s Missiles?",
       "url": "https://www.38north.org/2026/08/the-kn-23-goes-to-war-has-it-improved-north-koreas-missiles/"
+    },
+    "https://www.38north.org/2026/09/north-korea-makes-significant-progress-on-new-trade-facility-with-china/": {
+      "confidence": "high",
+      "content_hash": "3723f870413f6d1ebf44e1e63dd6fe7546178ab12d3d22eb12546c57dc4440f8",
+      "first_seen_at": "2026-09-02T00:40:21Z",
+      "last_event": "new",
+      "last_notified_at": "2026-09-02T00:40:21Z",
+      "last_seen_at": "2026-09-02T00:40:21Z",
+      "matched_terms": [
+        "North Korea",
+        "North Korean",
+        "Korea",
+        "Korean"
+      ],
+      "published_at": "Tue, 01 Sep 2026 20:42:54 +0000",
+      "source_id": "thirty_eight_north",
+      "source_label": "38 North",
+      "summary": "After years of delay, North Korea has made significant progress on a trade crossing and ...\nThe post\nNorth Korea Makes Significant Progress on New Trade Facility With China\nappeared first on\n38 North\n.",
+      "title": "North Korea Makes Significant Progress on New Trade Facility With China",
+      "url": "https://www.38north.org/2026/09/north-korea-makes-significant-progress-on-new-trade-facility-with-china/"
     },
     "https://www.bis.org/press/p260322.htm": {
       "confidence": "medium",
@@ -2064,7 +2084,7 @@
       "first_seen_at": "2026-08-13T15:49:59Z",
       "last_event": "new",
       "last_notified_at": "2026-08-13T15:49:59Z",
-      "last_seen_at": "2026-09-01T18:03:14Z",
+      "last_seen_at": "2026-09-02T00:40:21Z",
       "matched_terms": [
         "South Korean",
         "North Korea",
@@ -2087,7 +2107,7 @@
       "first_seen_at": "2026-08-03T17:04:44Z",
       "last_event": "new",
       "last_notified_at": "2026-08-03T17:04:44Z",
-      "last_seen_at": "2026-09-01T18:03:14Z",
+      "last_seen_at": "2026-09-02T00:40:21Z",
       "matched_terms": [
         "South Korea",
         "Republic of Korea",
@@ -2156,7 +2176,7 @@
       "first_seen_at": "2026-08-17T23:13:07Z",
       "last_event": "new",
       "last_notified_at": "2026-08-17T23:13:07Z",
-      "last_seen_at": "2026-09-01T18:03:14Z",
+      "last_seen_at": "2026-09-02T00:40:21Z",
       "matched_terms": [
         "South Korea",
         "North Korea",
@@ -2220,7 +2240,7 @@
       "first_seen_at": "2026-08-07T01:39:33Z",
       "last_event": "new",
       "last_notified_at": "2026-08-07T01:39:33Z",
-      "last_seen_at": "2026-09-01T18:03:14Z",
+      "last_seen_at": "2026-09-02T00:40:21Z",
       "matched_terms": [
         "North Korea",
         "Republic of Korea",
@@ -3734,7 +3754,7 @@
       "first_seen_at": "2026-06-25T17:03:26Z",
       "last_event": "new",
       "last_notified_at": "2026-06-25T17:03:26Z",
-      "last_seen_at": "2026-09-01T18:03:14Z",
+      "last_seen_at": "2026-09-02T00:40:21Z",
       "matched_terms": [
         "South Korea",
         "Korea"
@@ -3945,7 +3965,7 @@
       "first_seen_at": "2026-07-15T09:04:03Z",
       "last_event": "new",
       "last_notified_at": "2026-07-15T09:04:03Z",
-      "last_seen_at": "2026-09-01T18:03:14Z",
+      "last_seen_at": "2026-09-02T00:40:21Z",
       "matched_terms": [
         "Republic of Korea",
         "Seoul",
