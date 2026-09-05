@@ -1612,7 +1612,7 @@
       "first_seen_at": "2026-09-01T01:30:39Z",
       "last_event": "new",
       "last_notified_at": "2026-09-01T01:30:39Z",
-      "last_seen_at": "2026-09-05T00:28:15Z",
+      "last_seen_at": "2026-09-05T11:02:50Z",
       "matched_terms": [
         "North Korea",
         "Pyongyang",
@@ -1631,7 +1631,7 @@
       "first_seen_at": "2026-08-29T03:57:46Z",
       "last_event": "new",
       "last_notified_at": "2026-08-29T03:57:46Z",
-      "last_seen_at": "2026-09-05T00:28:15Z",
+      "last_seen_at": "2026-09-05T11:02:50Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1652,7 +1652,7 @@
       "first_seen_at": "2026-08-28T19:09:02Z",
       "last_event": "new",
       "last_notified_at": "2026-08-28T19:09:02Z",
-      "last_seen_at": "2026-09-05T00:28:15Z",
+      "last_seen_at": "2026-09-05T11:02:50Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1693,7 +1693,7 @@
       "first_seen_at": "2026-08-28T06:25:47Z",
       "last_event": "updated",
       "last_notified_at": "2026-08-28T19:09:02Z",
-      "last_seen_at": "2026-09-05T00:28:15Z",
+      "last_seen_at": "2026-09-05T11:02:50Z",
       "matched_terms": [
         "North Korea",
         "Pyongyang",
@@ -1846,7 +1846,7 @@
       "first_seen_at": "2026-09-02T18:13:46Z",
       "last_event": "new",
       "last_notified_at": "2026-09-02T18:13:46Z",
-      "last_seen_at": "2026-09-05T00:28:15Z",
+      "last_seen_at": "2026-09-05T11:02:50Z",
       "matched_terms": [
         "North Korean",
         "Korea",
@@ -1865,7 +1865,7 @@
       "first_seen_at": "2026-09-02T00:40:21Z",
       "last_event": "updated",
       "last_notified_at": "2026-09-02T11:52:12Z",
-      "last_seen_at": "2026-09-05T00:28:15Z",
+      "last_seen_at": "2026-09-05T11:02:50Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1885,7 +1885,7 @@
       "first_seen_at": "2026-09-05T00:28:15Z",
       "last_event": "new",
       "last_notified_at": "2026-09-05T00:28:15Z",
-      "last_seen_at": "2026-09-05T00:28:15Z",
+      "last_seen_at": "2026-09-05T11:02:50Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -1907,7 +1907,7 @@
       "first_seen_at": "2026-09-04T00:31:50Z",
       "last_event": "new",
       "last_notified_at": "2026-09-04T00:31:50Z",
-      "last_seen_at": "2026-09-05T00:28:15Z",
+      "last_seen_at": "2026-09-05T11:02:50Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -2146,7 +2146,7 @@
       "first_seen_at": "2026-08-13T15:49:59Z",
       "last_event": "new",
       "last_notified_at": "2026-08-13T15:49:59Z",
-      "last_seen_at": "2026-09-05T00:28:15Z",
+      "last_seen_at": "2026-09-05T11:02:50Z",
       "matched_terms": [
         "South Korean",
         "North Korea",
@@ -2238,7 +2238,7 @@
       "first_seen_at": "2026-08-17T23:13:07Z",
       "last_event": "new",
       "last_notified_at": "2026-08-17T23:13:07Z",
-      "last_seen_at": "2026-09-05T00:28:15Z",
+      "last_seen_at": "2026-09-05T11:02:50Z",
       "matched_terms": [
         "South Korea",
         "North Korea",
@@ -2302,7 +2302,7 @@
       "first_seen_at": "2026-08-07T01:39:33Z",
       "last_event": "new",
       "last_notified_at": "2026-08-07T01:39:33Z",
-      "last_seen_at": "2026-09-05T00:28:15Z",
+      "last_seen_at": "2026-09-05T11:02:50Z",
       "matched_terms": [
         "North Korea",
         "Republic of Korea",
@@ -2445,6 +2445,27 @@
       "summary": "The South Korean stock market is the world’s best-performing in the first six months of 2026, doubling in value mainly on investors’ perceptions of two companies. But South Korean investors are also at great risk because the euphoric sentiment driving the rally will end someday. This could shock the broader economy, create political fallout, and damage Koreans’ confidence in stock investing.",
       "title": "South Korea’s Market Boom—and the Bubble Beneath It",
       "url": "https://www.csis.org/index%2Ephp/analysis/south-koreas-market-boom-and-bubble-beneath-it"
+    },
+    "https://www.csis.org/index%2ephp/analysis/ai-moment-us-rok-alliance": {
+      "confidence": "high",
+      "content_hash": "350062267230b74fd4ae7a51aa794ce4062fa4d0eca0dd881e671eb1dbd5b98d",
+      "first_seen_at": "2026-09-05T11:02:50Z",
+      "last_event": "new",
+      "last_notified_at": "2026-09-05T11:02:50Z",
+      "last_seen_at": "2026-09-05T11:02:50Z",
+      "matched_terms": [
+        "South Korea",
+        "Republic of Korea",
+        "ROK",
+        "Korea",
+        "Seoul"
+      ],
+      "published_at": "Sat, 05 Sep 2026 11:03:32 GMT",
+      "source_id": "csis_korea_chair",
+      "source_label": "CSIS Korea Chair",
+      "summary": "Winning the AI race is no longer about inventing better models. It is about turning AI into national power. South Korea is emerging as a pivotal country capable of connecting American innovation with real-world deployment through its strengths in semiconductors, advanced manufacturing, and digital infrastructure.",
+      "title": "AI Moment for the U.S.-ROK Alliance",
+      "url": "https://www.csis.org/index%2ephp/analysis/ai-moment-us-rok-alliance"
     },
     "https://www.csis.org/index%2ephp/analysis/old-friends-new-calculations-reset-china-north-korea-relations": {
       "confidence": "high",
@@ -3816,7 +3837,7 @@
       "first_seen_at": "2026-06-25T17:03:26Z",
       "last_event": "new",
       "last_notified_at": "2026-06-25T17:03:26Z",
-      "last_seen_at": "2026-09-05T00:28:15Z",
+      "last_seen_at": "2026-09-05T11:02:50Z",
       "matched_terms": [
         "South Korea",
         "Korea"
@@ -4027,7 +4048,7 @@
       "first_seen_at": "2026-07-15T09:04:03Z",
       "last_event": "new",
       "last_notified_at": "2026-07-15T09:04:03Z",
-      "last_seen_at": "2026-09-05T00:28:15Z",
+      "last_seen_at": "2026-09-05T11:02:50Z",
       "matched_terms": [
         "Republic of Korea",
         "Seoul",
