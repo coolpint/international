@@ -59,16 +59,49 @@ def register_item(state: dict, item: MonitoredItem, run_at: str, bootstrapping: 
     if existing is None:
         record["first_seen_at"] = run_at
         record["last_notified_at"] = None
+        record["last_notified_hash"] = None
         event_type = "bootstrap" if bootstrapping else "new"
     elif existing.get("content_hash") != fingerprint:
         record["first_seen_at"] = existing.get("first_seen_at", run_at)
         record["last_notified_at"] = existing.get("last_notified_at")
+        record["last_notified_hash"] = existing.get("last_notified_hash")
+        if (
+            "last_notified_hash" not in existing
+            and existing.get("last_notified_at") is not None
+        ):
+            record["last_notified_hash"] = existing.get("content_hash")
         event_type = "updated"
     else:
+        if (
+            "last_notified_hash" not in existing
+            and existing.get("last_notified_at") is not None
+        ):
+            existing["last_notified_hash"] = existing.get("content_hash")
         existing["last_seen_at"] = run_at
         existing["confidence"] = item.confidence
         existing["matched_terms"] = item.matched_terms
-        return None
+        if (
+            item.confidence == "high"
+            and existing.get("last_notified_hash") != existing.get("content_hash")
+            and existing.get("last_event") in {"new", "updated", "retry"}
+        ):
+            existing["last_event"] = "retry"
+            event_type = "retry"
+        else:
+            return None
+
+        return {
+            "event": event_type,
+            "run_at": run_at,
+            "source_id": item.source_id,
+            "source_label": item.source_label,
+            "url": item.url,
+            "title": item.title,
+            "published_at": item.published_at,
+            "confidence": item.confidence,
+            "matched_terms": item.matched_terms,
+            "notified": False,
+        }
 
     record["last_event"] = event_type
     items[item.url] = record
@@ -90,6 +123,9 @@ def register_item(state: dict, item: MonitoredItem, run_at: str, bootstrapping: 
 def mark_notified(state: dict, url: str, run_at: str) -> None:
     state.setdefault("items", {}).setdefault(url, {})
     state["items"][url]["last_notified_at"] = run_at
+    state["items"][url]["last_notified_hash"] = state["items"][url].get(
+        "content_hash"
+    )
 
 
 def append_history(history_dir: Path, events: list[dict]) -> None:
