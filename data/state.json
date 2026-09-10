@@ -102,7 +102,7 @@
       "first_seen_at": "2026-09-09T18:10:34Z",
       "last_event": "new",
       "last_notified_at": "2026-09-09T18:10:34Z",
-      "last_seen_at": "2026-09-10T11:57:46Z",
+      "last_seen_at": "2026-09-10T17:57:31Z",
       "matched_terms": [
         "North Korean",
         "Korean"
@@ -1630,7 +1630,7 @@
       "first_seen_at": "2026-09-01T01:30:39Z",
       "last_event": "new",
       "last_notified_at": "2026-09-01T01:30:39Z",
-      "last_seen_at": "2026-09-10T11:57:46Z",
+      "last_seen_at": "2026-09-10T17:57:31Z",
       "matched_terms": [
         "North Korea",
         "Pyongyang",
@@ -1649,7 +1649,7 @@
       "first_seen_at": "2026-08-29T03:57:46Z",
       "last_event": "new",
       "last_notified_at": "2026-08-29T03:57:46Z",
-      "last_seen_at": "2026-09-10T11:57:46Z",
+      "last_seen_at": "2026-09-10T17:57:31Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1670,7 +1670,7 @@
       "first_seen_at": "2026-08-28T19:09:02Z",
       "last_event": "new",
       "last_notified_at": "2026-08-28T19:09:02Z",
-      "last_seen_at": "2026-09-10T11:57:46Z",
+      "last_seen_at": "2026-09-10T17:57:31Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1864,7 +1864,7 @@
       "first_seen_at": "2026-09-02T18:13:46Z",
       "last_event": "new",
       "last_notified_at": "2026-09-02T18:13:46Z",
-      "last_seen_at": "2026-09-10T11:57:46Z",
+      "last_seen_at": "2026-09-10T17:57:31Z",
       "matched_terms": [
         "North Korean",
         "Korea",
@@ -1877,13 +1877,34 @@
       "title": "Changes in the KPA High Command",
       "url": "https://www.38north.org/2026/09/changes-in-the-kpa-high-command/"
     },
+    "https://www.38north.org/2026/09/new-north-korea-china-link-appears-close-to-opening/": {
+      "confidence": "high",
+      "content_hash": "b363cdb78f99d0fa5b5f03c252b575acf3a781564e2fee3ea6ba48c2bc530a64",
+      "first_seen_at": "2026-09-10T17:57:31Z",
+      "last_event": "new",
+      "last_notified_at": "2026-09-10T17:57:31Z",
+      "last_seen_at": "2026-09-10T17:57:31Z",
+      "matched_terms": [
+        "North Korea",
+        "North Korean",
+        "DPRK",
+        "Korea",
+        "Korean"
+      ],
+      "published_at": "Thu, 10 Sep 2026 13:56:36 +0000",
+      "source_id": "thirty_eight_north",
+      "source_label": "38 North",
+      "summary": "North Korea and China appear close to finally opening a border crossing that has been under ...\nThe post\nNew North Korea-China Link Appears Close to Opening\nappeared first on\n38 North\n.",
+      "title": "New North Korea-China Link Appears Close to Opening",
+      "url": "https://www.38north.org/2026/09/new-north-korea-china-link-appears-close-to-opening/"
+    },
     "https://www.38north.org/2026/09/north-korea-makes-significant-progress-on-new-trade-facility-with-china/": {
       "confidence": "high",
       "content_hash": "513499e57b0c38896e69a8a9f1d3bb4c9626199e285d67dd65ce05df6272cff5",
       "first_seen_at": "2026-09-02T00:40:21Z",
       "last_event": "updated",
       "last_notified_at": "2026-09-02T11:52:12Z",
-      "last_seen_at": "2026-09-10T11:57:46Z",
+      "last_seen_at": "2026-09-10T17:57:31Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1903,7 +1924,7 @@
       "first_seen_at": "2026-09-05T00:28:15Z",
       "last_event": "new",
       "last_notified_at": "2026-09-05T00:28:15Z",
-      "last_seen_at": "2026-09-10T11:57:46Z",
+      "last_seen_at": "2026-09-10T17:57:31Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -1925,7 +1946,7 @@
       "first_seen_at": "2026-09-04T00:31:50Z",
       "last_event": "new",
       "last_notified_at": "2026-09-04T00:31:50Z",
-      "last_seen_at": "2026-09-10T11:57:46Z",
+      "last_seen_at": "2026-09-10T17:57:31Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -2164,7 +2185,7 @@
       "first_seen_at": "2026-08-13T15:49:59Z",
       "last_event": "new",
       "last_notified_at": "2026-08-13T15:49:59Z",
-      "last_seen_at": "2026-09-10T11:57:46Z",
+      "last_seen_at": "2026-09-10T17:57:31Z",
       "matched_terms": [
         "South Korean",
         "North Korea",
@@ -2187,7 +2208,7 @@
       "first_seen_at": "2026-08-03T17:04:44Z",
       "last_event": "new",
       "last_notified_at": "2026-08-03T17:04:44Z",
-      "last_seen_at": "2026-09-10T11:57:46Z",
+      "last_seen_at": "2026-09-10T17:57:31Z",
       "matched_terms": [
         "South Korea",
         "Republic of Korea",
@@ -2256,7 +2277,7 @@
       "first_seen_at": "2026-08-17T23:13:07Z",
       "last_event": "new",
       "last_notified_at": "2026-08-17T23:13:07Z",
-      "last_seen_at": "2026-09-10T11:57:46Z",
+      "last_seen_at": "2026-09-10T17:57:31Z",
       "matched_terms": [
         "South Korea",
         "North Korea",
@@ -2320,7 +2341,7 @@
       "first_seen_at": "2026-08-07T01:39:33Z",
       "last_event": "new",
       "last_notified_at": "2026-08-07T01:39:33Z",
-      "last_seen_at": "2026-09-10T11:57:46Z",
+      "last_seen_at": "2026-09-10T17:57:31Z",
       "matched_terms": [
         "North Korea",
         "Republic of Korea",
@@ -3878,7 +3899,7 @@
       "first_seen_at": "2026-06-25T17:03:26Z",
       "last_event": "new",
       "last_notified_at": "2026-06-25T17:03:26Z",
-      "last_seen_at": "2026-09-10T11:57:46Z",
+      "last_seen_at": "2026-09-10T17:57:31Z",
       "matched_terms": [
         "South Korea",
         "Korea"
@@ -4089,7 +4110,7 @@
       "first_seen_at": "2026-07-15T09:04:03Z",
       "last_event": "new",
       "last_notified_at": "2026-07-15T09:04:03Z",
-      "last_seen_at": "2026-09-10T11:57:46Z",
+      "last_seen_at": "2026-09-10T17:57:31Z",
       "matched_terms": [
         "Republic of Korea",
         "Seoul",
