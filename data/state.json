@@ -102,7 +102,7 @@
       "first_seen_at": "2026-09-09T18:10:34Z",
       "last_event": "new",
       "last_notified_at": "2026-09-09T18:10:34Z",
-      "last_seen_at": "2026-09-13T17:47:04Z",
+      "last_seen_at": "2026-09-14T00:32:54Z",
       "matched_terms": [
         "North Korean",
         "Korean"
@@ -1630,7 +1630,7 @@
       "first_seen_at": "2026-09-01T01:30:39Z",
       "last_event": "new",
       "last_notified_at": "2026-09-01T01:30:39Z",
-      "last_seen_at": "2026-09-13T17:47:04Z",
+      "last_seen_at": "2026-09-14T00:32:54Z",
       "matched_terms": [
         "North Korea",
         "Pyongyang",
@@ -1649,7 +1649,7 @@
       "first_seen_at": "2026-08-29T03:57:46Z",
       "last_event": "new",
       "last_notified_at": "2026-08-29T03:57:46Z",
-      "last_seen_at": "2026-09-13T17:47:04Z",
+      "last_seen_at": "2026-09-14T00:32:54Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1670,7 +1670,7 @@
       "first_seen_at": "2026-08-28T19:09:02Z",
       "last_event": "new",
       "last_notified_at": "2026-08-28T19:09:02Z",
-      "last_seen_at": "2026-09-13T17:47:04Z",
+      "last_seen_at": "2026-09-14T00:32:54Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1864,7 +1864,7 @@
       "first_seen_at": "2026-09-02T18:13:46Z",
       "last_event": "new",
       "last_notified_at": "2026-09-02T18:13:46Z",
-      "last_seen_at": "2026-09-13T17:47:04Z",
+      "last_seen_at": "2026-09-14T00:32:54Z",
       "matched_terms": [
         "North Korean",
         "Korea",
@@ -1883,7 +1883,7 @@
       "first_seen_at": "2026-09-10T17:57:31Z",
       "last_event": "new",
       "last_notified_at": "2026-09-10T17:57:31Z",
-      "last_seen_at": "2026-09-13T17:47:04Z",
+      "last_seen_at": "2026-09-14T00:32:54Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1904,7 +1904,7 @@
       "first_seen_at": "2026-09-02T00:40:21Z",
       "last_event": "updated",
       "last_notified_at": "2026-09-02T11:52:12Z",
-      "last_seen_at": "2026-09-13T17:47:04Z",
+      "last_seen_at": "2026-09-14T00:32:54Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1924,7 +1924,7 @@
       "first_seen_at": "2026-09-05T00:28:15Z",
       "last_event": "new",
       "last_notified_at": "2026-09-05T00:28:15Z",
-      "last_seen_at": "2026-09-13T17:47:04Z",
+      "last_seen_at": "2026-09-14T00:32:54Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -1946,7 +1946,7 @@
       "first_seen_at": "2026-09-04T00:31:50Z",
       "last_event": "new",
       "last_notified_at": "2026-09-04T00:31:50Z",
-      "last_seen_at": "2026-09-13T17:47:04Z",
+      "last_seen_at": "2026-09-14T00:32:54Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -2185,7 +2185,7 @@
       "first_seen_at": "2026-08-13T15:49:59Z",
       "last_event": "new",
       "last_notified_at": "2026-08-13T15:49:59Z",
-      "last_seen_at": "2026-09-13T17:47:04Z",
+      "last_seen_at": "2026-09-14T00:32:54Z",
       "matched_terms": [
         "South Korean",
         "North Korea",
@@ -2341,7 +2341,7 @@
       "first_seen_at": "2026-08-07T01:39:33Z",
       "last_event": "new",
       "last_notified_at": "2026-08-07T01:39:33Z",
-      "last_seen_at": "2026-09-13T12:26:49Z",
+      "last_seen_at": "2026-09-14T00:32:54Z",
       "matched_terms": [
         "North Korea",
         "Republic of Korea",
@@ -2464,6 +2464,49 @@
       "summary": "The conventional policy wisdom is that President Trump’s enthusiasm for reengagement is not shared by Kim Jong-un. But Victor Cha argues that a unique set of drivers, including North Korean revisionism, could spur a renewal of diplomacy.",
       "title": "After Iran: A Scenario for Renewed Trump-Kim Summitry",
       "url": "https://www.csis.org/index%2Ephp/analysis/after-iran-scenario-renewed-trump-kim-summitry"
+    },
+    "https://www.csis.org/index%2Ephp/analysis/ai-moment-us-rok-alliance": {
+      "confidence": "high",
+      "content_hash": "350062267230b74fd4ae7a51aa794ce4062fa4d0eca0dd881e671eb1dbd5b98d",
+      "first_seen_at": "2026-09-14T00:32:54Z",
+      "last_event": "new",
+      "last_notified_at": "2026-09-14T00:32:54Z",
+      "last_seen_at": "2026-09-14T00:32:54Z",
+      "matched_terms": [
+        "South Korea",
+        "Republic of Korea",
+        "ROK",
+        "Korea",
+        "Seoul"
+      ],
+      "published_at": "Mon, 14 Sep 2026 00:33:38 GMT",
+      "source_id": "csis_korea_chair",
+      "source_label": "CSIS Korea Chair",
+      "summary": "Winning the AI race is no longer about inventing better models. It is about turning AI into national power. South Korea is emerging as a pivotal country capable of connecting American innovation with real-world deployment through its strengths in semiconductors, advanced manufacturing, and digital infrastructure.",
+      "title": "AI Moment for the U.S.-ROK Alliance",
+      "url": "https://www.csis.org/index%2Ephp/analysis/ai-moment-us-rok-alliance"
+    },
+    "https://www.csis.org/index%2Ephp/analysis/emergency-episode-whats-happening-korea-military-exercises-kim-jong-un-and-iran": {
+      "confidence": "high",
+      "content_hash": "cc90f115e26e8d49a284034b93a75f8143fc7a838189f93f0c14c2af45530484",
+      "first_seen_at": "2026-09-14T00:32:54Z",
+      "last_event": "new",
+      "last_notified_at": "2026-09-14T00:32:54Z",
+      "last_seen_at": "2026-09-14T00:32:54Z",
+      "matched_terms": [
+        "South Korea",
+        "North Korea",
+        "North Korean",
+        "Korea",
+        "Korean",
+        "ROK"
+      ],
+      "published_at": "Mon, 14 Sep 2026 00:33:37 GMT",
+      "source_id": "csis_korea_chair",
+      "source_label": "CSIS Korea Chair",
+      "summary": "On an emergency episode of the Capital Cable, experts discuss U.S-North Korea relations, joint military exercises and a potential Trump-Kim meeting.",
+      "title": "Emergency Episode: What's Happening with Korea? Military exercises, Kim Jong-un and Iran",
+      "url": "https://www.csis.org/index%2Ephp/analysis/emergency-episode-whats-happening-korea-military-exercises-kim-jong-un-and-iran"
     },
     "https://www.csis.org/index%2Ephp/analysis/south-koreas-market-boom-and-bubble-beneath-it": {
       "confidence": "high",
@@ -3899,7 +3942,7 @@
       "first_seen_at": "2026-06-25T17:03:26Z",
       "last_event": "new",
       "last_notified_at": "2026-06-25T17:03:26Z",
-      "last_seen_at": "2026-09-13T17:47:04Z",
+      "last_seen_at": "2026-09-14T00:32:54Z",
       "matched_terms": [
         "South Korea",
         "Korea"
@@ -4110,7 +4153,7 @@
       "first_seen_at": "2026-07-15T09:04:03Z",
       "last_event": "new",
       "last_notified_at": "2026-07-15T09:04:03Z",
-      "last_seen_at": "2026-09-13T17:47:04Z",
+      "last_seen_at": "2026-09-14T00:32:54Z",
       "matched_terms": [
         "Republic of Korea",
         "Seoul",
