@@ -102,7 +102,7 @@
       "first_seen_at": "2026-09-09T18:10:34Z",
       "last_event": "new",
       "last_notified_at": "2026-09-09T18:10:34Z",
-      "last_seen_at": "2026-09-19T00:47:34Z",
+      "last_seen_at": "2026-09-19T11:42:31Z",
       "matched_terms": [
         "North Korean",
         "Korean"
@@ -1630,7 +1630,7 @@
       "first_seen_at": "2026-09-01T01:30:39Z",
       "last_event": "new",
       "last_notified_at": "2026-09-01T01:30:39Z",
-      "last_seen_at": "2026-09-19T00:47:34Z",
+      "last_seen_at": "2026-09-19T11:42:31Z",
       "matched_terms": [
         "North Korea",
         "Pyongyang",
@@ -1649,7 +1649,7 @@
       "first_seen_at": "2026-08-29T03:57:46Z",
       "last_event": "new",
       "last_notified_at": "2026-08-29T03:57:46Z",
-      "last_seen_at": "2026-09-19T00:47:34Z",
+      "last_seen_at": "2026-09-19T11:42:31Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1864,7 +1864,7 @@
       "first_seen_at": "2026-09-02T18:13:46Z",
       "last_event": "new",
       "last_notified_at": "2026-09-02T18:13:46Z",
-      "last_seen_at": "2026-09-19T00:47:34Z",
+      "last_seen_at": "2026-09-19T11:42:31Z",
       "matched_terms": [
         "North Korean",
         "Korea",
@@ -1883,7 +1883,7 @@
       "first_seen_at": "2026-09-10T17:57:31Z",
       "last_event": "new",
       "last_notified_at": "2026-09-10T17:57:31Z",
-      "last_seen_at": "2026-09-19T00:47:34Z",
+      "last_seen_at": "2026-09-19T11:42:31Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1904,7 +1904,7 @@
       "first_seen_at": "2026-09-02T00:40:21Z",
       "last_event": "updated",
       "last_notified_at": "2026-09-02T11:52:12Z",
-      "last_seen_at": "2026-09-19T00:47:34Z",
+      "last_seen_at": "2026-09-19T11:42:31Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1924,7 +1924,7 @@
       "first_seen_at": "2026-09-05T00:28:15Z",
       "last_event": "new",
       "last_notified_at": "2026-09-05T00:28:15Z",
-      "last_seen_at": "2026-09-19T00:47:34Z",
+      "last_seen_at": "2026-09-19T11:42:31Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -1946,7 +1946,7 @@
       "first_seen_at": "2026-09-18T17:57:31Z",
       "last_event": "new",
       "last_notified_at": "2026-09-18T17:57:31Z",
-      "last_seen_at": "2026-09-19T00:47:34Z",
+      "last_seen_at": "2026-09-19T11:42:31Z",
       "matched_terms": [
         "South Korea",
         "South Korean",
@@ -1974,7 +1974,7 @@
       "first_seen_at": "2026-09-04T00:31:50Z",
       "last_event": "new",
       "last_notified_at": "2026-09-04T00:31:50Z",
-      "last_seen_at": "2026-09-19T00:47:34Z",
+      "last_seen_at": "2026-09-19T11:42:31Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1995,7 +1995,7 @@
       "first_seen_at": "2026-09-14T13:29:47Z",
       "last_event": "new",
       "last_notified_at": "2026-09-14T13:29:47Z",
-      "last_seen_at": "2026-09-19T00:47:34Z",
+      "last_seen_at": "2026-09-19T11:42:31Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea",
@@ -2232,7 +2232,7 @@
       "first_seen_at": "2026-08-13T15:49:59Z",
       "last_event": "new",
       "last_notified_at": "2026-08-13T15:49:59Z",
-      "last_seen_at": "2026-09-19T00:47:34Z",
+      "last_seen_at": "2026-09-19T11:42:31Z",
       "matched_terms": [
         "South Korean",
         "North Korea",
@@ -2324,7 +2324,7 @@
       "first_seen_at": "2026-08-17T23:13:07Z",
       "last_event": "new",
       "last_notified_at": "2026-08-17T23:13:07Z",
-      "last_seen_at": "2026-09-19T00:47:34Z",
+      "last_seen_at": "2026-09-19T11:42:31Z",
       "matched_terms": [
         "South Korea",
         "North Korea",
@@ -2367,7 +2367,7 @@
       "first_seen_at": "2026-09-18T00:53:39Z",
       "last_event": "new",
       "last_notified_at": "2026-09-18T00:53:39Z",
-      "last_seen_at": "2026-09-19T00:47:34Z",
+      "last_seen_at": "2026-09-19T11:42:31Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -2576,6 +2576,28 @@
       "summary": "On an emergency episode of the Capital Cable, experts discuss U.S-North Korea relations, joint military exercises and a potential Trump-Kim meeting.",
       "title": "Emergency Episode: What's Happening with Korea? Military exercises, Kim Jong-un and Iran",
       "url": "https://www.csis.org/index%2Ephp/analysis/emergency-episode-whats-happening-korea-military-exercises-kim-jong-un-and-iran"
+    },
+    "https://www.csis.org/index%2Ephp/analysis/old-friends-new-calculations-reset-china-north-korea-relations": {
+      "confidence": "high",
+      "content_hash": "4dc30e8f8bbcb4e81322035e178ba8a0e0f244abfbe0a6e0e62b00d5adbeb540",
+      "first_seen_at": "2026-09-19T11:42:31Z",
+      "last_event": "new",
+      "last_notified_at": "2026-09-19T11:42:31Z",
+      "last_seen_at": "2026-09-19T11:42:31Z",
+      "matched_terms": [
+        "North Korea",
+        "Republic of Korea",
+        "Democratic People’s Republic of Korea",
+        "DPRK",
+        "Korea",
+        "Pyongyang"
+      ],
+      "published_at": "Sat, 19 Sep 2026 11:43:04 GMT",
+      "source_id": "csis_korea_chair",
+      "source_label": "CSIS Korea Chair",
+      "summary": "China’s shift toward deeper ties with North Korea, including within military affairs, brings important implications worth exploring.",
+      "title": "Old Friends, New Calculations: A Reset in China-North Korea Relations",
+      "url": "https://www.csis.org/index%2Ephp/analysis/old-friends-new-calculations-reset-china-north-korea-relations"
     },
     "https://www.csis.org/index%2Ephp/analysis/south-koreas-market-boom-and-bubble-beneath-it": {
       "confidence": "high",
@@ -4033,7 +4055,7 @@
       "first_seen_at": "2026-06-25T17:03:26Z",
       "last_event": "new",
       "last_notified_at": "2026-06-25T17:03:26Z",
-      "last_seen_at": "2026-09-19T00:47:34Z",
+      "last_seen_at": "2026-09-19T11:42:31Z",
       "matched_terms": [
         "South Korea",
         "Korea"
@@ -4244,7 +4266,7 @@
       "first_seen_at": "2026-07-15T09:04:03Z",
       "last_event": "new",
       "last_notified_at": "2026-07-15T09:04:03Z",
-      "last_seen_at": "2026-09-19T00:47:34Z",
+      "last_seen_at": "2026-09-19T11:42:31Z",
       "matched_terms": [
         "Republic of Korea",
         "Seoul",
