@@ -27,11 +27,11 @@
     {
       "id": "unctad_publications",
       "label": "UNCTAD Publications",
-      "type": "unctad_publications",
-      "enabled": true,
+      "type": "pending",
+      "enabled": false,
       "list_url": "https://unctad.org/publications",
       "max_items": 12,
-      "note": "Featured publications are accessible; broader search endpoints currently sit behind a challenge page."
+      "note": "Disabled on 2026-07-25 because the official publications page repeatedly returns a Cloudflare HTTP 403 to non-browser automation."
     },
     {
       "id": "unrisd_news",
@@ -66,10 +66,196 @@
     {
       "id": "ilo_newsroom",
       "label": "ILO Newsroom",
+      "type": "html_listing",
+      "enabled": true,
+      "list_url": "https://www.ilo.org/resource/news/all-news-recent",
+      "max_items": 20,
+      "link_selector": ".views-row a[href]",
+      "allowed_domains": [
+        "www.ilo.org"
+      ],
+      "allowed_url_patterns": [
+        "/resource/news/"
+      ],
+      "note": "Parses the official ILO All news listing after the former rss.xml endpoint was removed."
+    },
+    {
+      "id": "uk_fcdo_news",
+      "label": "UK Foreign, Commonwealth & Development Office",
       "type": "rss_xml",
       "enabled": true,
-      "list_url": "https://www.ilo.org/rss.xml",
-      "max_items": 20
+      "list_url": "https://www.gov.uk/government/organisations/foreign-commonwealth-development-office.atom",
+      "max_items": 30,
+      "country": "United Kingdom",
+      "language": "en",
+      "source_kind": "government",
+      "allowed_domains": [
+        "www.gov.uk"
+      ],
+      "allowed_url_patterns": [
+        "/government/"
+      ],
+      "note": "Uses the official GOV.UK Atom feed for FCDO publications and announcements."
+    },
+    {
+      "id": "canada_global_affairs_news",
+      "label": "Global Affairs Canada",
+      "type": "rss_xml",
+      "enabled": true,
+      "list_url": "https://api.io.canada.ca/io-server/gc/news/en/v2?atomtitle=Global+Affairs+Canada+news&dept=departmentofforeignaffairstradeanddevelopment&format=atom&orderBy=desc&pick=1000&publishedDate%3E=2015-01-01&sort=publishedDate",
+      "max_items": 30,
+      "country": "Canada",
+      "language": "en",
+      "source_kind": "government",
+      "allowed_domains": [
+        "www.canada.ca",
+        "international.canada.ca"
+      ],
+      "note": "Uses the official Government of Canada Atom feed for Global Affairs Canada."
+    },
+    {
+      "id": "eu_council_press_fr",
+      "label": "Conseil de l’Union européenne",
+      "type": "rss_xml",
+      "enabled": true,
+      "list_url": "https://www.consilium.europa.eu/fr/rss/pressreleases.ashx",
+      "max_items": 30,
+      "country": "European Union",
+      "language": "fr",
+      "source_kind": "government",
+      "allowed_domains": [
+        "www.consilium.europa.eu"
+      ],
+      "allowed_url_patterns": [
+        "/fr/press/press-releases/"
+      ],
+      "note": "Uses the Council of the European Union's official French-language press release RSS feed."
+    },
+    {
+      "id": "germany_foreign_office_press_de",
+      "label": "Auswärtiges Amt",
+      "type": "rss_xml",
+      "enabled": true,
+      "list_url": "https://www.auswaertiges-amt.de/static/includes/rss/Presse-RSS-Feed.xml",
+      "max_items": 30,
+      "country": "Germany",
+      "language": "de",
+      "source_kind": "government",
+      "allowed_domains": [
+        "www.auswaertiges-amt.de"
+      ],
+      "allowed_url_patterns": [
+        "/de/newsroom/"
+      ],
+      "note": "Uses the German Federal Foreign Office's official German-language press releases and speeches RSS feed."
+    },
+    {
+      "id": "china_mfa_spokesperson_zh",
+      "label": "中华人民共和国外交部发言人",
+      "type": "html_listing",
+      "enabled": true,
+      "list_url": "https://www.mfa.gov.cn/web/fyrbt_673021/dhdw_673027/index.shtml",
+      "max_items": 20,
+      "country": "China",
+      "language": "zh-Hans",
+      "source_kind": "government",
+      "link_selector": "a[href^=\"./20\"]",
+      "allowed_domains": [
+        "www.mfa.gov.cn"
+      ],
+      "allowed_url_patterns": [
+        "/web/fyrbt_673021/dhdw_673027/"
+      ],
+      "note": "Parses the official Chinese-language MFA spokesperson statements and Q&A listing."
+    },
+    {
+      "id": "nyt_korea_news",
+      "label": "The New York Times — Korea",
+      "type": "rss_xml",
+      "enabled": true,
+      "list_url": "https://news.google.com/rss/search?q=%28Korea%20OR%20Korean%29%20when%3A30d%20site%3Anytimes.com%20-site%3Acooking.nytimes.com&hl=en-US&gl=US&ceid=US%3Aen",
+      "excluded_feed_site": "nytimes.com",
+      "excluded_feed_outlet_terms": [
+        "Yonhap",
+        "\"The Korea Herald\"",
+        "\"The Korea Times\"",
+        "\"Korea JoongAng Daily\"",
+        "\"Chosun Ilbo\"",
+        "\"JoongAng Ilbo\"",
+        "\"Dong-A Ilbo\"",
+        "Hankyoreh",
+        "\"Maeil Business Newspaper\"",
+        "\"Korea Economic Daily\"",
+        "\"News1 Korea\"",
+        "\"Seoul Economic Daily\""
+      ],
+      "max_items": 100,
+      "minimum_items": 1,
+      "country": "United States",
+      "language": "en",
+      "source_kind": "media_search",
+      "allowed_domains": [
+        "news.google.com"
+      ],
+      "allowed_feed_source_names": [
+        "The New York Times"
+      ],
+      "allowed_feed_source_domains": [
+        "www.nytimes.com"
+      ],
+      "deny_title_patterns": [
+        " - NYT Cooking"
+      ],
+      "default_confidence": "high",
+      "default_matched_terms": [
+        "NYT Korea priority source"
+      ],
+      "note": "User-designated priority media source. Google News searches the latest 30 days for Korea/Korean on nytimes.com, excludes NYT Cooking, and verifies each result's feed source name and domain before assigning high priority; Korean-media re-reporting remains hard-excluded."
+    },
+    {
+      "id": "wsj_korea_news",
+      "label": "The Wall Street Journal — Korea",
+      "type": "rss_xml",
+      "enabled": true,
+      "list_url": "https://news.google.com/rss/search?q=%28Korea%20OR%20Korean%29%20when%3A30d%20site%3Awsj.com&hl=en-US&gl=US&ceid=US%3Aen",
+      "excluded_feed_site": "wsj.com",
+      "excluded_feed_outlet_terms": [
+        "Yonhap",
+        "\"The Korea Herald\"",
+        "\"The Korea Times\"",
+        "\"Korea JoongAng Daily\"",
+        "\"Chosun Ilbo\"",
+        "\"JoongAng Ilbo\"",
+        "\"Dong-A Ilbo\"",
+        "Hankyoreh",
+        "\"Maeil Business Newspaper\"",
+        "\"Korea Economic Daily\"",
+        "\"News1 Korea\"",
+        "\"Seoul Economic Daily\""
+      ],
+      "max_items": 100,
+      "minimum_items": 1,
+      "country": "United States",
+      "language": "en",
+      "source_kind": "media_search",
+      "allowed_domains": [
+        "news.google.com"
+      ],
+      "allowed_feed_source_names": [
+        "WSJ"
+      ],
+      "allowed_feed_source_domains": [
+        "www.wsj.com"
+      ],
+      "deny_title_patterns": [
+        "Print Edition | Wall Street Journal",
+        "Foreign Exchange Rates - WSJ"
+      ],
+      "default_confidence": "high",
+      "default_matched_terms": [
+        "WSJ Korea priority source"
+      ],
+      "note": "User-designated priority media source. Google News searches the latest 30 days for Korea/Korean on wsj.com and verifies each result's feed source name and domain before assigning high priority; Korean-media re-reporting remains hard-excluded, and WSJ's official RSS was not used because its latest tested entries were stale."
     },
     {
       "id": "adb_news",
@@ -219,22 +405,18 @@
     {
       "id": "cisa_north_korea_cyber_advisories",
       "label": "CISA North Korea Cyber Advisories",
-      "type": "html_listing",
+      "type": "rss_xml",
       "enabled": true,
-      "list_url": "https://www.cisa.gov/topics/cyber-threats-and-advisories/nation-state-cyber-actors/north-korea/publications",
+      "list_url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
       "max_items": 20,
-      "link_selector": "table a[href]",
       "allowed_domains": [
         "www.cisa.gov"
       ],
       "allowed_url_patterns": [
-        "/news-events/cybersecurity-advisories/"
+        "/news-events/cybersecurity-advisories/",
+        "/resources-tools/resources/"
       ],
-      "default_confidence": "high",
-      "default_matched_terms": [
-        "North Korea cyber advisory source"
-      ],
-      "note": "Parses CISA's official North Korea state-sponsored cyber threat advisories page."
+      "note": "Uses CISA's official broad advisory RSS feed and applies normal Korea keyword classification to filtered advisory and resource URLs."
     },
     {
       "id": "thirty_eight_north",
@@ -373,6 +555,25 @@
       "list_url": "https://www.undp.org/news-centre",
       "max_items": 20,
       "note": "Official site returned Access Denied to non-browser automation from the tested environment."
+    },
+    {
+      "id": "australia_dfat_news",
+      "label": "Australia DFAT News",
+      "type": "pending",
+      "enabled": false,
+      "list_url": "https://www.dfat.gov.au/news",
+      "max_items": 20,
+      "country": "Australia",
+      "language": "en",
+      "source_kind": "government",
+      "link_selector": "a[href]",
+      "allowed_domains": [
+        "www.dfat.gov.au"
+      ],
+      "allowed_url_patterns": [
+        "/news/media-release/"
+      ],
+      "note": "Official DFAT listing is relevant, but live parsing timed out repeatedly on 2026-07-25; keep disabled until response latency is stable."
     }
   ]
 }

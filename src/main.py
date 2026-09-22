@@ -49,6 +49,9 @@ def _apply_source_default_classification(
     classification: Classification,
     source: SourceConfig,
 ) -> Classification:
+    if classification.excluded:
+        return classification
+
     default_confidence = str(source.options.get("default_confidence", "")).strip().lower()
     if default_confidence not in CONFIDENCE_RANK:
         return classification
@@ -175,7 +178,7 @@ def main() -> int:
             and not args.dry_run
             and telegram_ready
             and item.confidence == "high"
-            and event["event"] in {"new", "updated"}
+            and event["event"] in {"new", "updated", "retry"}
         )
 
         event["notified"] = False
@@ -197,6 +200,7 @@ def main() -> int:
         "events": len(events),
         "new": sum(1 for event in events if event["event"] == "new"),
         "updated": sum(1 for event in events if event["event"] == "updated"),
+        "retry": sum(1 for event in events if event["event"] == "retry"),
         "bootstrap": sum(1 for event in events if event["event"] == "bootstrap"),
         "notified": sum(1 for event in events if event.get("notified")),
     }

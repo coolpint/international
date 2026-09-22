@@ -116,17 +116,29 @@ def build_health_report(
     min_expected_successes = max(1, expected_runs - 2)
 
     source_error_counter = Counter()
+    latest_source_status = {}
     for report in run_logs:
+        report_time = _parse_iso_datetime(report.get("run_at"))
         for source in report.get("sources", []):
-            if source.get("status") != "error":
-                continue
-            source_error_counter[source.get("source_id") or "unknown"] += 1
+            source_id = source.get("source_id") or "unknown"
+            if source.get("status") == "error":
+                source_error_counter[source_id] += 1
+
+            previous = latest_source_status.get(source_id)
+            if previous is None or (report_time is not None and report_time >= previous[0]):
+                latest_source_status[source_id] = (
+                    report_time or datetime.min.replace(tzinfo=timezone.utc),
+                    source.get("status"),
+                )
 
     notification_errors = sum(1 for row in history_rows if row.get("notification_error"))
     notified_count = sum(1 for row in history_rows if row.get("notified"))
     new_count = sum(1 for row in history_rows if row.get("event") == "new")
     updated_count = sum(1 for row in history_rows if row.get("event") == "updated")
     source_error_total = sum(source_error_counter.values())
+    currently_failing_sources = sorted(
+        source_id for source_id, (_, status) in latest_source_status.items() if status == "error"
+    )
     stale = latest_success is None or now - latest_success > timedelta(hours=18)
 
     issues = []
@@ -136,8 +148,8 @@ def build_health_report(
         issues.append(f"최근 {days}일 스케줄 성공 횟수가 낮습니다 ({len(success_runs)}/{expected_runs})")
     if failed_runs:
         issues.append(f"최근 {days}일 스케줄 실패가 {len(failed_runs)}회 있습니다")
-    if source_error_total:
-        issues.append(f"최근 {days}일 소스 에러가 {source_error_total}회 있습니다")
+    if currently_failing_sources:
+        issues.append(f"현재 실패 중인 소스가 {len(currently_failing_sources)}개 있습니다")
     if notification_errors:
         issues.append(f"최근 {days}일 텔레그램 전송 오류가 {notification_errors}회 있습니다")
 
@@ -161,6 +173,8 @@ def build_health_report(
     if source_error_counter:
         top_sources = ", ".join(f"{source_id} {count}회" for source_id, count in source_error_counter.most_common(5))
         lines.append(f"에러 소스: {top_sources}")
+    if currently_failing_sources:
+        lines.append(f"현재 실패: {', '.join(currently_failing_sources)}")
 
     if status == "healthy":
         lines.append("판정: 지난 한 주 기준 이상 징후 없이 정상 작동중입니다.")
