@@ -102,7 +102,7 @@
       "first_seen_at": "2026-09-09T18:10:34Z",
       "last_event": "new",
       "last_notified_at": "2026-09-09T18:10:34Z",
-      "last_seen_at": "2026-09-24T12:25:26Z",
+      "last_seen_at": "2026-09-24T18:44:40Z",
       "matched_terms": [
         "North Korean",
         "Korean"
@@ -332,7 +332,7 @@
       "first_seen_at": "2026-09-24T00:57:52Z",
       "last_event": "new",
       "last_notified_at": "2026-09-24T00:57:52Z",
-      "last_seen_at": "2026-09-24T12:25:26Z",
+      "last_seen_at": "2026-09-24T18:44:40Z",
       "matched_terms": [
         "North Korean",
         "Korean",
@@ -1901,7 +1901,7 @@
       "first_seen_at": "2026-09-02T18:13:46Z",
       "last_event": "new",
       "last_notified_at": "2026-09-02T18:13:46Z",
-      "last_seen_at": "2026-09-24T12:25:26Z",
+      "last_seen_at": "2026-09-24T18:44:40Z",
       "matched_terms": [
         "North Korean",
         "Korea",
@@ -1920,7 +1920,7 @@
       "first_seen_at": "2026-09-10T17:57:31Z",
       "last_event": "new",
       "last_notified_at": "2026-09-10T17:57:31Z",
-      "last_seen_at": "2026-09-24T12:25:26Z",
+      "last_seen_at": "2026-09-24T18:44:40Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1941,7 +1941,7 @@
       "first_seen_at": "2026-09-02T00:40:21Z",
       "last_event": "updated",
       "last_notified_at": "2026-09-02T11:52:12Z",
-      "last_seen_at": "2026-09-24T12:25:26Z",
+      "last_seen_at": "2026-09-24T18:44:40Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1961,7 +1961,7 @@
       "first_seen_at": "2026-09-05T00:28:15Z",
       "last_event": "new",
       "last_notified_at": "2026-09-05T00:28:15Z",
-      "last_seen_at": "2026-09-24T12:25:26Z",
+      "last_seen_at": "2026-09-24T18:44:40Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -1983,7 +1983,7 @@
       "first_seen_at": "2026-09-18T17:57:31Z",
       "last_event": "new",
       "last_notified_at": "2026-09-18T17:57:31Z",
-      "last_seen_at": "2026-09-24T12:25:26Z",
+      "last_seen_at": "2026-09-24T18:44:40Z",
       "matched_terms": [
         "South Korea",
         "South Korean",
@@ -2005,13 +2005,34 @@
       "title": "Peace First: Seoul’s Two-State Answer to a Changed Peninsula",
       "url": "https://www.38north.org/2026/09/peace-first-seouls-two-state-answer-to-a-changed-peninsula/"
     },
+    "https://www.38north.org/2026/09/sister-before-daughter-kim-yo-jong-and-the-normalization-of-female-paektu-authority-for-kim-ju-ae/": {
+      "confidence": "high",
+      "content_hash": "c96a0576fb82171300ea5c77240e22e83c94e0f9f27780dd611e81185c9f5f12",
+      "first_seen_at": "2026-09-24T18:44:40Z",
+      "last_event": "new",
+      "last_notified_at": "2026-09-24T18:44:40Z",
+      "last_seen_at": "2026-09-24T18:44:40Z",
+      "matched_terms": [
+        "South Korean",
+        "North Korea",
+        "North Korean",
+        "Korea",
+        "Korean"
+      ],
+      "published_at": "Thu, 24 Sep 2026 18:28:29 +0000",
+      "source_id": "thirty_eight_north",
+      "source_label": "38 North",
+      "summary": "Kim Yo Jong is arguably North Korea’s most powerful woman. However, existing explanations of ...\nThe post\nSister Before Daughter: Kim Yo Jong and the Normalization of Female Paektu Authority for Kim Ju Ae\nappeared first on\n38 North\n.",
+      "title": "Sister Before Daughter: Kim Yo Jong and the Normalization of Female Paektu Authority for Kim Ju Ae",
+      "url": "https://www.38north.org/2026/09/sister-before-daughter-kim-yo-jong-and-the-normalization-of-female-paektu-authority-for-kim-ju-ae/"
+    },
     "https://www.38north.org/2026/09/successes-and-challenges-of-north-koreas-five-year-plan-for-economic-development-assessment-and-outlook/": {
       "confidence": "high",
       "content_hash": "1449d898bac84f5adda55f94bc872ea0a547c0e0b95eaedded04eaa45228ab61",
       "first_seen_at": "2026-09-04T00:31:50Z",
       "last_event": "new",
       "last_notified_at": "2026-09-04T00:31:50Z",
-      "last_seen_at": "2026-09-24T12:25:26Z",
+      "last_seen_at": "2026-09-24T18:44:40Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -2032,7 +2053,7 @@
       "first_seen_at": "2026-09-22T01:21:15Z",
       "last_event": "new",
       "last_notified_at": "2026-09-22T01:21:15Z",
-      "last_seen_at": "2026-09-24T12:25:26Z",
+      "last_seen_at": "2026-09-24T18:44:40Z",
       "matched_terms": [
         "DPRK",
         "North Korea",
@@ -2054,7 +2075,7 @@
       "first_seen_at": "2026-09-14T13:29:47Z",
       "last_event": "new",
       "last_notified_at": "2026-09-14T13:29:47Z",
-      "last_seen_at": "2026-09-24T12:25:26Z",
+      "last_seen_at": "2026-09-24T18:44:40Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea",
@@ -2291,7 +2312,7 @@
       "first_seen_at": "2026-08-13T15:49:59Z",
       "last_event": "new",
       "last_notified_at": "2026-08-13T15:49:59Z",
-      "last_seen_at": "2026-09-24T12:25:26Z",
+      "last_seen_at": "2026-09-24T18:44:40Z",
       "matched_terms": [
         "South Korean",
         "North Korea",
@@ -2383,7 +2404,7 @@
       "first_seen_at": "2026-08-17T23:13:07Z",
       "last_event": "new",
       "last_notified_at": "2026-08-17T23:13:07Z",
-      "last_seen_at": "2026-09-24T12:25:26Z",
+      "last_seen_at": "2026-09-24T18:44:40Z",
       "matched_terms": [
         "South Korea",
         "North Korea",
@@ -2426,7 +2447,7 @@
       "first_seen_at": "2026-09-23T18:44:02Z",
       "last_event": "new",
       "last_notified_at": "2026-09-23T18:44:02Z",
-      "last_seen_at": "2026-09-24T12:25:26Z",
+      "last_seen_at": "2026-09-24T18:44:40Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -2448,7 +2469,7 @@
       "first_seen_at": "2026-09-18T00:53:39Z",
       "last_event": "new",
       "last_notified_at": "2026-09-18T00:53:39Z",
-      "last_seen_at": "2026-09-24T12:25:26Z",
+      "last_seen_at": "2026-09-24T18:44:40Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -2491,7 +2512,7 @@
       "first_seen_at": "2026-08-07T01:39:33Z",
       "last_event": "new",
       "last_notified_at": "2026-08-07T01:39:33Z",
-      "last_seen_at": "2026-09-24T00:57:52Z",
+      "last_seen_at": "2026-09-24T18:44:40Z",
       "matched_terms": [
         "North Korea",
         "Republic of Korea",
@@ -4136,7 +4157,7 @@
       "first_seen_at": "2026-06-25T17:03:26Z",
       "last_event": "new",
       "last_notified_at": "2026-06-25T17:03:26Z",
-      "last_seen_at": "2026-09-24T12:25:26Z",
+      "last_seen_at": "2026-09-24T18:44:40Z",
       "matched_terms": [
         "South Korea",
         "Korea"
@@ -4347,7 +4368,7 @@
       "first_seen_at": "2026-07-15T09:04:03Z",
       "last_event": "new",
       "last_notified_at": "2026-07-15T09:04:03Z",
-      "last_seen_at": "2026-09-24T12:25:26Z",
+      "last_seen_at": "2026-09-24T18:44:40Z",
       "matched_terms": [
         "Republic of Korea",
         "Seoul",
