@@ -351,7 +351,7 @@
       "first_seen_at": "2026-09-29T13:33:04Z",
       "last_event": "new",
       "last_notified_at": "2026-09-29T13:33:04Z",
-      "last_seen_at": "2026-09-29T13:33:04Z",
+      "last_seen_at": "2026-09-29T19:42:25Z",
       "matched_terms": [
         "Republic of Korea",
         "Republic of Korea (ROK)",
@@ -1944,7 +1944,7 @@
       "first_seen_at": "2026-09-10T17:57:31Z",
       "last_event": "new",
       "last_notified_at": "2026-09-10T17:57:31Z",
-      "last_seen_at": "2026-09-29T13:33:04Z",
+      "last_seen_at": "2026-09-29T19:42:25Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1985,7 +1985,7 @@
       "first_seen_at": "2026-09-05T00:28:15Z",
       "last_event": "new",
       "last_notified_at": "2026-09-05T00:28:15Z",
-      "last_seen_at": "2026-09-29T13:33:04Z",
+      "last_seen_at": "2026-09-29T19:42:25Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -2007,7 +2007,7 @@
       "first_seen_at": "2026-09-18T17:57:31Z",
       "last_event": "new",
       "last_notified_at": "2026-09-18T17:57:31Z",
-      "last_seen_at": "2026-09-29T13:33:04Z",
+      "last_seen_at": "2026-09-29T19:42:25Z",
       "matched_terms": [
         "South Korea",
         "South Korean",
@@ -2029,13 +2029,36 @@
       "title": "Peace First: Seoul’s Two-State Answer to a Changed Peninsula",
       "url": "https://www.38north.org/2026/09/peace-first-seouls-two-state-answer-to-a-changed-peninsula/"
     },
+    "https://www.38north.org/2026/09/quick-take-a-shift-in-us-messaging-amid-north-koreas-nuclear-signaling/": {
+      "confidence": "high",
+      "content_hash": "3a76e03b869802a76dd2f1229eee0348c73c1dca3ceff97a8acce8e1d882b927",
+      "first_seen_at": "2026-09-29T19:42:25Z",
+      "last_event": "new",
+      "last_notified_at": "2026-09-29T19:42:25Z",
+      "last_seen_at": "2026-09-29T19:42:25Z",
+      "matched_terms": [
+        "North Korea",
+        "North Korean",
+        "DPRK",
+        "Korean Peninsula",
+        "Korea",
+        "Korean",
+        "Pyongyang"
+      ],
+      "published_at": "Tue, 29 Sep 2026 15:57:15 +0000",
+      "source_id": "thirty_eight_north",
+      "source_label": "38 North",
+      "summary": "When Presidents Donald Trump and Xi Jinping met in May, the discrepancy between the two ...\nThe post\nQuick Take: A Shift in US Messaging Amid North Korea’s Nuclear Signaling\nappeared first on\n38 North\n.",
+      "title": "Quick Take: A Shift in US Messaging Amid North Korea’s Nuclear Signaling",
+      "url": "https://www.38north.org/2026/09/quick-take-a-shift-in-us-messaging-amid-north-koreas-nuclear-signaling/"
+    },
     "https://www.38north.org/2026/09/signs-of-life-at-new-sinuiju-dandong-crossing/": {
       "confidence": "high",
       "content_hash": "41628af47135adb61713f06cf8d1345997e9f1e78f9695e6d5baa85e0e962d5f",
       "first_seen_at": "2026-09-28T20:55:34Z",
       "last_event": "new",
       "last_notified_at": "2026-09-28T20:55:34Z",
-      "last_seen_at": "2026-09-29T13:33:04Z",
+      "last_seen_at": "2026-09-29T19:42:25Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -2055,7 +2078,7 @@
       "first_seen_at": "2026-09-24T18:44:40Z",
       "last_event": "new",
       "last_notified_at": "2026-09-24T18:44:40Z",
-      "last_seen_at": "2026-09-29T13:33:04Z",
+      "last_seen_at": "2026-09-29T19:42:25Z",
       "matched_terms": [
         "South Korean",
         "North Korea",
@@ -2076,7 +2099,7 @@
       "first_seen_at": "2026-09-04T00:31:50Z",
       "last_event": "new",
       "last_notified_at": "2026-09-04T00:31:50Z",
-      "last_seen_at": "2026-09-29T13:33:04Z",
+      "last_seen_at": "2026-09-29T19:42:25Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -2097,7 +2120,7 @@
       "first_seen_at": "2026-09-22T01:21:15Z",
       "last_event": "new",
       "last_notified_at": "2026-09-22T01:21:15Z",
-      "last_seen_at": "2026-09-29T13:33:04Z",
+      "last_seen_at": "2026-09-29T19:42:25Z",
       "matched_terms": [
         "DPRK",
         "North Korea",
@@ -2119,7 +2142,7 @@
       "first_seen_at": "2026-09-14T13:29:47Z",
       "last_event": "new",
       "last_notified_at": "2026-09-14T13:29:47Z",
-      "last_seen_at": "2026-09-29T13:33:04Z",
+      "last_seen_at": "2026-09-29T19:42:25Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea",
@@ -2356,7 +2379,7 @@
       "first_seen_at": "2026-08-13T15:49:59Z",
       "last_event": "new",
       "last_notified_at": "2026-08-13T15:49:59Z",
-      "last_seen_at": "2026-09-29T13:33:04Z",
+      "last_seen_at": "2026-09-29T19:42:25Z",
       "matched_terms": [
         "South Korean",
         "North Korea",
@@ -2448,7 +2471,7 @@
       "first_seen_at": "2026-08-17T23:13:07Z",
       "last_event": "new",
       "last_notified_at": "2026-08-17T23:13:07Z",
-      "last_seen_at": "2026-09-29T13:33:04Z",
+      "last_seen_at": "2026-09-29T19:42:25Z",
       "matched_terms": [
         "South Korea",
         "North Korea",
@@ -2491,7 +2514,7 @@
       "first_seen_at": "2026-09-23T18:44:02Z",
       "last_event": "new",
       "last_notified_at": "2026-09-23T18:44:02Z",
-      "last_seen_at": "2026-09-29T13:33:04Z",
+      "last_seen_at": "2026-09-29T19:42:25Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -2513,7 +2536,7 @@
       "first_seen_at": "2026-09-18T00:53:39Z",
       "last_event": "new",
       "last_notified_at": "2026-09-18T00:53:39Z",
-      "last_seen_at": "2026-09-29T13:33:04Z",
+      "last_seen_at": "2026-09-29T19:42:25Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -4223,7 +4246,7 @@
       "first_seen_at": "2026-06-25T17:03:26Z",
       "last_event": "new",
       "last_notified_at": "2026-06-25T17:03:26Z",
-      "last_seen_at": "2026-09-29T13:33:04Z",
+      "last_seen_at": "2026-09-29T19:42:25Z",
       "matched_terms": [
         "South Korea",
         "Korea"
@@ -4434,7 +4457,7 @@
       "first_seen_at": "2026-07-15T09:04:03Z",
       "last_event": "new",
       "last_notified_at": "2026-07-15T09:04:03Z",
-      "last_seen_at": "2026-09-29T13:33:04Z",
+      "last_seen_at": "2026-09-29T19:42:25Z",
       "matched_terms": [
         "Republic of Korea",
         "Seoul",
@@ -5051,7 +5074,7 @@
       "first_seen_at": "2026-09-25T19:02:00Z",
       "last_event": "new",
       "last_notified_at": "2026-09-25T19:02:00Z",
-      "last_seen_at": "2026-09-29T13:33:04Z",
+      "last_seen_at": "2026-09-29T19:42:25Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
