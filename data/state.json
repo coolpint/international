@@ -1944,7 +1944,7 @@
       "first_seen_at": "2026-09-10T17:57:31Z",
       "last_event": "new",
       "last_notified_at": "2026-09-10T17:57:31Z",
-      "last_seen_at": "2026-09-30T13:11:12Z",
+      "last_seen_at": "2026-09-30T19:43:43Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1985,7 +1985,7 @@
       "first_seen_at": "2026-09-05T00:28:15Z",
       "last_event": "new",
       "last_notified_at": "2026-09-05T00:28:15Z",
-      "last_seen_at": "2026-09-30T13:11:12Z",
+      "last_seen_at": "2026-09-30T19:43:43Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -2007,7 +2007,7 @@
       "first_seen_at": "2026-09-18T17:57:31Z",
       "last_event": "new",
       "last_notified_at": "2026-09-18T17:57:31Z",
-      "last_seen_at": "2026-09-30T13:11:12Z",
+      "last_seen_at": "2026-09-30T19:43:43Z",
       "matched_terms": [
         "South Korea",
         "South Korean",
@@ -2035,7 +2035,7 @@
       "first_seen_at": "2026-09-29T19:42:25Z",
       "last_event": "new",
       "last_notified_at": "2026-09-29T19:42:25Z",
-      "last_seen_at": "2026-09-30T13:11:12Z",
+      "last_seen_at": "2026-09-30T19:43:43Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -2058,7 +2058,7 @@
       "first_seen_at": "2026-09-28T20:55:34Z",
       "last_event": "new",
       "last_notified_at": "2026-09-28T20:55:34Z",
-      "last_seen_at": "2026-09-30T13:11:12Z",
+      "last_seen_at": "2026-09-30T19:43:43Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -2078,7 +2078,7 @@
       "first_seen_at": "2026-09-24T18:44:40Z",
       "last_event": "new",
       "last_notified_at": "2026-09-24T18:44:40Z",
-      "last_seen_at": "2026-09-30T13:11:12Z",
+      "last_seen_at": "2026-09-30T19:43:43Z",
       "matched_terms": [
         "South Korean",
         "North Korea",
@@ -2099,7 +2099,7 @@
       "first_seen_at": "2026-09-04T00:31:50Z",
       "last_event": "new",
       "last_notified_at": "2026-09-04T00:31:50Z",
-      "last_seen_at": "2026-09-30T13:11:12Z",
+      "last_seen_at": "2026-09-30T19:43:43Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -2120,7 +2120,7 @@
       "first_seen_at": "2026-09-22T01:21:15Z",
       "last_event": "new",
       "last_notified_at": "2026-09-22T01:21:15Z",
-      "last_seen_at": "2026-09-30T13:11:12Z",
+      "last_seen_at": "2026-09-30T19:43:43Z",
       "matched_terms": [
         "DPRK",
         "North Korea",
@@ -2471,7 +2471,7 @@
       "first_seen_at": "2026-08-17T23:13:07Z",
       "last_event": "new",
       "last_notified_at": "2026-08-17T23:13:07Z",
-      "last_seen_at": "2026-09-30T13:11:12Z",
+      "last_seen_at": "2026-09-30T19:43:43Z",
       "matched_terms": [
         "South Korea",
         "North Korea",
@@ -2514,7 +2514,7 @@
       "first_seen_at": "2026-09-23T18:44:02Z",
       "last_event": "new",
       "last_notified_at": "2026-09-23T18:44:02Z",
-      "last_seen_at": "2026-09-30T13:11:12Z",
+      "last_seen_at": "2026-09-30T19:43:43Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -2536,7 +2536,7 @@
       "first_seen_at": "2026-09-18T00:53:39Z",
       "last_event": "new",
       "last_notified_at": "2026-09-18T00:53:39Z",
-      "last_seen_at": "2026-09-30T13:11:12Z",
+      "last_seen_at": "2026-09-30T19:43:43Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -4246,7 +4246,7 @@
       "first_seen_at": "2026-06-25T17:03:26Z",
       "last_event": "new",
       "last_notified_at": "2026-06-25T17:03:26Z",
-      "last_seen_at": "2026-09-30T13:11:12Z",
+      "last_seen_at": "2026-09-30T19:43:43Z",
       "matched_terms": [
         "South Korea",
         "Korea"
@@ -4457,7 +4457,7 @@
       "first_seen_at": "2026-07-15T09:04:03Z",
       "last_event": "new",
       "last_notified_at": "2026-07-15T09:04:03Z",
-      "last_seen_at": "2026-09-30T13:11:12Z",
+      "last_seen_at": "2026-09-30T19:43:43Z",
       "matched_terms": [
         "Republic of Korea",
         "Seoul",
@@ -5074,7 +5074,7 @@
       "first_seen_at": "2026-09-25T19:02:00Z",
       "last_event": "new",
       "last_notified_at": "2026-09-25T19:02:00Z",
-      "last_seen_at": "2026-09-30T13:11:12Z",
+      "last_seen_at": "2026-09-30T19:43:43Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
@@ -5085,6 +5085,24 @@
       "summary": "The Dispute Settlement Body (DSB) agreed at its meeting on 25 September to a request from the Russian Federation for the establishment of a panel to review the European Union's Carbon Border Adjustment Mechanism (CBAM) Package and alleged export subsidy under the EU scheme for trading greenhouse gas emission allowances.",
       "title": "Panel to review EU carbon border adjustment mechanism and emissions trading scheme",
       "url": "https://www.wto.org/english/news_e/news26_e/dsb_25sep26_496_e.htm"
+    },
+    "https://www.wto.org/english/news_e/news26_e/envir_28sep26_501_e.htm": {
+      "confidence": "high",
+      "content_hash": "280fc52bf10fae7f2c297c3fe167c20948aca6e9cbc9ee00544d9e9320e23202",
+      "first_seen_at": "2026-09-30T19:43:43Z",
+      "last_event": "new",
+      "last_notified_at": "2026-09-30T19:43:43Z",
+      "last_seen_at": "2026-09-30T19:43:43Z",
+      "matched_terms": [
+        "Republic of Korea",
+        "Korea"
+      ],
+      "published_at": "Mon, 28 Sep 2026 00:00:00 GMT",
+      "source_id": "wto_latest_news",
+      "source_label": "WTO Latest News",
+      "summary": "The Committee on Trade and Environment (CTE) met on 28-29 September to advance its discussions on the trade and environment nexus, focusing on interoperability and development aspects of trade-related climate measures. Members also built on the voluntary information sharing exercise launched earlier this year with a view to enhancing transparency of trade and climate measures in the Committee. In addition, they were briefed on work undertaken in other international fora and on developments in se",
+      "title": "WTO members deepen discussions on trade and climate measures, share updates",
+      "url": "https://www.wto.org/english/news_e/news26_e/envir_28sep26_501_e.htm"
     },
     "https://www.wto.org/english/news_e/news26_e/ffm_02jul26_441_e.htm": {
       "confidence": "high",
