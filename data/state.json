@@ -1938,13 +1938,31 @@
       "title": "Changes in the KPA High Command",
       "url": "https://www.38north.org/2026/09/changes-in-the-kpa-high-command/"
     },
+    "https://www.38north.org/2026/09/land-clearance-could-signal-drone-base-expansion/": {
+      "confidence": "high",
+      "content_hash": "8f265d49d1379203705ed48b5cda77f95f5fcdb9709ab0f990b5dfa020877266",
+      "first_seen_at": "2026-10-01T01:41:59Z",
+      "last_event": "new",
+      "last_notified_at": "2026-10-01T01:41:59Z",
+      "last_seen_at": "2026-10-01T01:41:59Z",
+      "matched_terms": [
+        "North Korea",
+        "Korea"
+      ],
+      "published_at": "Wed, 30 Sep 2026 21:02:25 +0000",
+      "source_id": "thirty_eight_north",
+      "source_label": "38 North",
+      "summary": "Clearance of agricultural land at North Korea’s main drone development and testing base could ...\nThe post\nLand Clearance Could Signal Drone Base Expansion\nappeared first on\n38 North\n.",
+      "title": "Land Clearance Could Signal Drone Base Expansion",
+      "url": "https://www.38north.org/2026/09/land-clearance-could-signal-drone-base-expansion/"
+    },
     "https://www.38north.org/2026/09/new-north-korea-china-link-appears-close-to-opening/": {
       "confidence": "high",
       "content_hash": "b363cdb78f99d0fa5b5f03c252b575acf3a781564e2fee3ea6ba48c2bc530a64",
       "first_seen_at": "2026-09-10T17:57:31Z",
       "last_event": "new",
       "last_notified_at": "2026-09-10T17:57:31Z",
-      "last_seen_at": "2026-09-30T19:43:43Z",
+      "last_seen_at": "2026-10-01T01:41:59Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -1985,7 +2003,7 @@
       "first_seen_at": "2026-09-05T00:28:15Z",
       "last_event": "new",
       "last_notified_at": "2026-09-05T00:28:15Z",
-      "last_seen_at": "2026-09-30T19:43:43Z",
+      "last_seen_at": "2026-10-01T01:41:59Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -2007,7 +2025,7 @@
       "first_seen_at": "2026-09-18T17:57:31Z",
       "last_event": "new",
       "last_notified_at": "2026-09-18T17:57:31Z",
-      "last_seen_at": "2026-09-30T19:43:43Z",
+      "last_seen_at": "2026-10-01T01:41:59Z",
       "matched_terms": [
         "South Korea",
         "South Korean",
@@ -2035,7 +2053,7 @@
       "first_seen_at": "2026-09-29T19:42:25Z",
       "last_event": "new",
       "last_notified_at": "2026-09-29T19:42:25Z",
-      "last_seen_at": "2026-09-30T19:43:43Z",
+      "last_seen_at": "2026-10-01T01:41:59Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -2058,7 +2076,7 @@
       "first_seen_at": "2026-09-28T20:55:34Z",
       "last_event": "new",
       "last_notified_at": "2026-09-28T20:55:34Z",
-      "last_seen_at": "2026-09-30T19:43:43Z",
+      "last_seen_at": "2026-10-01T01:41:59Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -2078,7 +2096,7 @@
       "first_seen_at": "2026-09-24T18:44:40Z",
       "last_event": "new",
       "last_notified_at": "2026-09-24T18:44:40Z",
-      "last_seen_at": "2026-09-30T19:43:43Z",
+      "last_seen_at": "2026-10-01T01:41:59Z",
       "matched_terms": [
         "South Korean",
         "North Korea",
@@ -2120,7 +2138,7 @@
       "first_seen_at": "2026-09-22T01:21:15Z",
       "last_event": "new",
       "last_notified_at": "2026-09-22T01:21:15Z",
-      "last_seen_at": "2026-09-30T19:43:43Z",
+      "last_seen_at": "2026-10-01T01:41:59Z",
       "matched_terms": [
         "DPRK",
         "North Korea",
@@ -2471,7 +2489,7 @@
       "first_seen_at": "2026-08-17T23:13:07Z",
       "last_event": "new",
       "last_notified_at": "2026-08-17T23:13:07Z",
-      "last_seen_at": "2026-09-30T19:43:43Z",
+      "last_seen_at": "2026-10-01T01:41:59Z",
       "matched_terms": [
         "South Korea",
         "North Korea",
@@ -2514,7 +2532,7 @@
       "first_seen_at": "2026-09-23T18:44:02Z",
       "last_event": "new",
       "last_notified_at": "2026-09-23T18:44:02Z",
-      "last_seen_at": "2026-09-30T19:43:43Z",
+      "last_seen_at": "2026-10-01T01:41:59Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -2536,7 +2554,7 @@
       "first_seen_at": "2026-09-18T00:53:39Z",
       "last_event": "new",
       "last_notified_at": "2026-09-18T00:53:39Z",
-      "last_seen_at": "2026-09-30T19:43:43Z",
+      "last_seen_at": "2026-10-01T01:41:59Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -4246,7 +4264,7 @@
       "first_seen_at": "2026-06-25T17:03:26Z",
       "last_event": "new",
       "last_notified_at": "2026-06-25T17:03:26Z",
-      "last_seen_at": "2026-09-30T19:43:43Z",
+      "last_seen_at": "2026-10-01T01:41:59Z",
       "matched_terms": [
         "South Korea",
         "Korea"
@@ -4457,7 +4475,7 @@
       "first_seen_at": "2026-07-15T09:04:03Z",
       "last_event": "new",
       "last_notified_at": "2026-07-15T09:04:03Z",
-      "last_seen_at": "2026-09-30T19:43:43Z",
+      "last_seen_at": "2026-10-01T01:41:59Z",
       "matched_terms": [
         "Republic of Korea",
         "Seoul",
@@ -5074,7 +5092,7 @@
       "first_seen_at": "2026-09-25T19:02:00Z",
       "last_event": "new",
       "last_notified_at": "2026-09-25T19:02:00Z",
-      "last_seen_at": "2026-09-30T19:43:43Z",
+      "last_seen_at": "2026-10-01T01:41:59Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
@@ -5092,7 +5110,7 @@
       "first_seen_at": "2026-09-30T19:43:43Z",
       "last_event": "new",
       "last_notified_at": "2026-09-30T19:43:43Z",
-      "last_seen_at": "2026-09-30T19:43:43Z",
+      "last_seen_at": "2026-10-01T01:41:59Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
