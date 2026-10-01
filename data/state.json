@@ -1944,7 +1944,7 @@
       "first_seen_at": "2026-10-01T01:41:59Z",
       "last_event": "new",
       "last_notified_at": "2026-10-01T01:41:59Z",
-      "last_seen_at": "2026-10-01T01:41:59Z",
+      "last_seen_at": "2026-10-01T14:01:02Z",
       "matched_terms": [
         "North Korea",
         "Korea"
@@ -1962,7 +1962,7 @@
       "first_seen_at": "2026-09-10T17:57:31Z",
       "last_event": "new",
       "last_notified_at": "2026-09-10T17:57:31Z",
-      "last_seen_at": "2026-10-01T01:41:59Z",
+      "last_seen_at": "2026-10-01T14:01:02Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -2025,7 +2025,7 @@
       "first_seen_at": "2026-09-18T17:57:31Z",
       "last_event": "new",
       "last_notified_at": "2026-09-18T17:57:31Z",
-      "last_seen_at": "2026-10-01T01:41:59Z",
+      "last_seen_at": "2026-10-01T14:01:02Z",
       "matched_terms": [
         "South Korea",
         "South Korean",
@@ -2053,7 +2053,7 @@
       "first_seen_at": "2026-09-29T19:42:25Z",
       "last_event": "new",
       "last_notified_at": "2026-09-29T19:42:25Z",
-      "last_seen_at": "2026-10-01T01:41:59Z",
+      "last_seen_at": "2026-10-01T14:01:02Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -2076,7 +2076,7 @@
       "first_seen_at": "2026-09-28T20:55:34Z",
       "last_event": "new",
       "last_notified_at": "2026-09-28T20:55:34Z",
-      "last_seen_at": "2026-10-01T01:41:59Z",
+      "last_seen_at": "2026-10-01T14:01:02Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -2096,7 +2096,7 @@
       "first_seen_at": "2026-09-24T18:44:40Z",
       "last_event": "new",
       "last_notified_at": "2026-09-24T18:44:40Z",
-      "last_seen_at": "2026-10-01T01:41:59Z",
+      "last_seen_at": "2026-10-01T14:01:02Z",
       "matched_terms": [
         "South Korean",
         "North Korea",
@@ -2138,7 +2138,7 @@
       "first_seen_at": "2026-09-22T01:21:15Z",
       "last_event": "new",
       "last_notified_at": "2026-09-22T01:21:15Z",
-      "last_seen_at": "2026-10-01T01:41:59Z",
+      "last_seen_at": "2026-10-01T14:01:02Z",
       "matched_terms": [
         "DPRK",
         "North Korea",
@@ -2153,6 +2153,32 @@
       "summary": "After years of stalled talks, health cooperation could give Washington a practical way to ...\nThe post\nWhat Health Diplomacy Can Offer US-DPRK Engagement\nappeared first on\n38 North\n.",
       "title": "What Health Diplomacy Can Offer US-DPRK Engagement",
       "url": "https://www.38north.org/2026/09/what-health-diplomacy-can-offer-us-dprk-engagement/"
+    },
+    "https://www.38north.org/2026/10/the-dangers-of-north-koreas-nuclear-status-quo/": {
+      "confidence": "high",
+      "content_hash": "1955c450e1898f4f3b90717f11a773e3b8562cd32c9c805c99dd69fed1e55b22",
+      "first_seen_at": "2026-10-01T14:01:02Z",
+      "last_event": "new",
+      "last_notified_at": "2026-10-01T14:01:02Z",
+      "last_seen_at": "2026-10-01T14:01:02Z",
+      "matched_terms": [
+        "North Korea",
+        "South Korea",
+        "South Korean",
+        "North Korean",
+        "Korean Peninsula",
+        "Korea",
+        "Korean",
+        "ROK",
+        "Seoul",
+        "Pyongyang"
+      ],
+      "published_at": "Thu, 01 Oct 2026 13:52:13 +0000",
+      "source_id": "thirty_eight_north",
+      "source_label": "38 North",
+      "summary": "Since President Donald Trump expressed his desire to meet with North Korean leader Kim Jong Un ...\nThe post\nThe Dangers of North Korea’s Nuclear Status Quo\nappeared first on\n38 North\n.",
+      "title": "The Dangers of North Korea’s Nuclear Status Quo",
+      "url": "https://www.38north.org/2026/10/the-dangers-of-north-koreas-nuclear-status-quo/"
     },
     "https://www.adb.org/news/adb-and-republic-korea-deepen-ties-energy-critical-minerals-and-artificial-intelligence": {
       "confidence": "high",
@@ -2532,7 +2558,7 @@
       "first_seen_at": "2026-09-23T18:44:02Z",
       "last_event": "new",
       "last_notified_at": "2026-09-23T18:44:02Z",
-      "last_seen_at": "2026-10-01T01:41:59Z",
+      "last_seen_at": "2026-10-01T14:01:02Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -2554,7 +2580,7 @@
       "first_seen_at": "2026-09-18T00:53:39Z",
       "last_event": "new",
       "last_notified_at": "2026-09-18T00:53:39Z",
-      "last_seen_at": "2026-10-01T01:41:59Z",
+      "last_seen_at": "2026-10-01T14:01:02Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -2679,6 +2705,28 @@
       "summary": "As Xi visits North Korea, South Korea should reassess its China strategy, recognizing a shift from complementarity to competition and Beijing’s unhelpful role on North Korea, and pursue strategic clarity based on a strong U.S.-ROK alliance and trilateral ties with Japan.",
       "title": "Strategic Clarity: Reassessing the Value of China to Korea",
       "url": "https://www.csis.org/analysis/strategic-clarity-reassessing-value-china-korea"
+    },
+    "https://www.csis.org/analysis/what-should-koreas-take-asian-nato-be": {
+      "confidence": "high",
+      "content_hash": "a7f3ac648ffc3ed124d9fcc286aa95853105d8e741f393e47db3a4fb4ab9a076",
+      "first_seen_at": "2026-10-01T14:01:02Z",
+      "last_event": "new",
+      "last_notified_at": "2026-10-01T14:01:02Z",
+      "last_seen_at": "2026-10-01T14:01:02Z",
+      "matched_terms": [
+        "Republic of Korea",
+        "Republic of Korea (ROK)",
+        "North Korea",
+        "Korea",
+        "ROK",
+        "Seoul"
+      ],
+      "published_at": "Thu, 01 Oct 2026 14:01:52 GMT",
+      "source_id": "csis_korea_chair",
+      "source_label": "CSIS Korea Chair",
+      "summary": "An Asian NATO is unlikely to be institutionalized in the near future. However, keeping the issue alive can serve as an aspirational goal. That aspiration will push Korea to further strengthen all the layers of its multi-layered security architecture.",
+      "title": "What Should Korea’s Take on “The Asian NATO” Be?",
+      "url": "https://www.csis.org/analysis/what-should-koreas-take-asian-nato-be"
     },
     "https://www.csis.org/analysis/who-are-g7s-top-performers": {
       "confidence": "high",
@@ -4475,7 +4523,7 @@
       "first_seen_at": "2026-07-15T09:04:03Z",
       "last_event": "new",
       "last_notified_at": "2026-07-15T09:04:03Z",
-      "last_seen_at": "2026-10-01T01:41:59Z",
+      "last_seen_at": "2026-10-01T14:01:02Z",
       "matched_terms": [
         "Republic of Korea",
         "Seoul",
@@ -5092,7 +5140,7 @@
       "first_seen_at": "2026-09-25T19:02:00Z",
       "last_event": "new",
       "last_notified_at": "2026-09-25T19:02:00Z",
-      "last_seen_at": "2026-10-01T01:41:59Z",
+      "last_seen_at": "2026-10-01T14:01:02Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
@@ -5106,11 +5154,11 @@
     },
     "https://www.wto.org/english/news_e/news26_e/envir_28sep26_501_e.htm": {
       "confidence": "high",
-      "content_hash": "280fc52bf10fae7f2c297c3fe167c20948aca6e9cbc9ee00544d9e9320e23202",
+      "content_hash": "a2087fbfc10a052f2cfe35f1e06e1187315c92efdf1b4222778c6fdb0a8b08ca",
       "first_seen_at": "2026-09-30T19:43:43Z",
-      "last_event": "new",
-      "last_notified_at": "2026-09-30T19:43:43Z",
-      "last_seen_at": "2026-10-01T01:41:59Z",
+      "last_event": "updated",
+      "last_notified_at": "2026-10-01T14:01:02Z",
+      "last_seen_at": "2026-10-01T14:01:02Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
