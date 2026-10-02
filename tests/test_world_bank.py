@@ -1,4 +1,5 @@
 import unittest
+from datetime import datetime, timedelta, timezone
 from unittest.mock import patch
 
 from src.monitor.models import SourceConfig
@@ -40,13 +41,14 @@ class WorldBankTests(unittest.TestCase):
 
     @patch("src.monitor.sources.fetch_json")
     def test_collect_world_bank_items_sorts_and_skips_future(self, mock_fetch_json) -> None:
+        future_date = (datetime.now(timezone.utc) + timedelta(days=7)).isoformat().replace("+00:00", "Z")
         mock_fetch_json.return_value = {
             "documents": {
                 "future": {
-                    "url": "http://www.worldbank.org/en/news/brief/2026/06/02/future-item",
+                    "url": "http://www.worldbank.org/en/news/brief/future-item",
                     "title": {"cdata!": "Future item"},
                     "descr": {"cdata!": "Should be ignored."},
-                    "lnchdt": "2026-06-02T21:20:00Z",
+                    "lnchdt": future_date,
                 },
                 "older": {
                     "url": "http://www.worldbank.org/en/news/press-release/2026/03/15/older-item",

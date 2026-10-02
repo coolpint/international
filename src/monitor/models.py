@@ -34,3 +34,4 @@ class Classification:
     relevant: bool
     confidence: str
     matched_terms: list[str] = field(default_factory=list)
+    excluded: bool = False

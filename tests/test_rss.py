@@ -8,6 +8,7 @@ from src.monitor.models import SourceConfig
 from src.monitor.sources import (
     _build_rss_item,
     _collect_rss_items,
+    _excluded_rss_feed_urls,
     _extract_bruegel_publication_links,
     _extract_rusi_publication_links,
     _xml_html_text,
@@ -145,6 +146,230 @@ class RssTests(unittest.TestCase):
 
         self.assertEqual(len(items), 1)
         self.assertEqual(items[0].url, "https://www.sipri.org/publications/example")
+
+    @patch("src.monitor.sources.fetch_text")
+    def test_google_news_feed_verifies_publisher_and_denies_non_news_titles(
+        self, mock_fetch_text
+    ) -> None:
+        source = SourceConfig(
+            id="nyt_korea_news",
+            label="The New York Times — Korea",
+            type="rss_xml",
+            enabled=True,
+            list_url="https://news.google.com/rss/search?q=Korea+site:nytimes.com",
+            max_items=100,
+            options={
+                "allowed_domains": ["news.google.com"],
+                "allowed_feed_source_names": ["The New York Times"],
+                "allowed_feed_source_domains": ["www.nytimes.com"],
+                "deny_title_patterns": [" - NYT Cooking"],
+                "minimum_items": 1,
+            },
+        )
+        mock_fetch_text.return_value = (
+            """<?xml version="1.0" encoding="utf-8"?>
+            <rss version="2.0">
+              <channel>
+                <item>
+                  <title>South Korea policy shift - The New York Times</title>
+                  <link>https://news.google.com/rss/articles/valid</link>
+                  <description>South Korea policy shift</description>
+                  <source url="https://www.nytimes.com">The New York Times</source>
+                </item>
+                <item>
+                  <title>Imposter result</title>
+                  <link>https://news.google.com/rss/articles/imposter</link>
+                  <description>Korea</description>
+                  <source url="https://example.com">The New York Times</source>
+                </item>
+                <item>
+                  <title>Korean Fried Chicken Recipe - NYT Cooking</title>
+                  <link>https://news.google.com/rss/articles/recipe</link>
+                  <description>Korean Fried Chicken Recipe</description>
+                  <source url="https://www.nytimes.com">The New York Times</source>
+                </item>
+                <item>
+                  <title>South Korea's Recipe for Growth - The New York Times</title>
+                  <link>https://news.google.com/rss/articles/growth</link>
+                  <description>South Korea's Recipe for Growth</description>
+                  <source url="https://www.nytimes.com">The New York Times</source>
+                </item>
+              </channel>
+            </rss>""",
+            {},
+        )
+
+        items = _collect_rss_items(source)
+
+        self.assertEqual(len(items), 2)
+        self.assertEqual(items[0].title, "South Korea policy shift - The New York Times")
+        self.assertEqual(
+            items[1].title,
+            "South Korea's Recipe for Growth - The New York Times",
+        )
+
+    @patch("src.monitor.sources.fetch_text")
+    def test_priority_feed_rejects_zero_verified_items(self, mock_fetch_text) -> None:
+        source = SourceConfig(
+            id="wsj_korea_news",
+            label="The Wall Street Journal — Korea",
+            type="rss_xml",
+            enabled=True,
+            list_url="https://news.google.com/rss/search?q=Korea+site:wsj.com",
+            max_items=100,
+            options={
+                "allowed_feed_source_names": ["WSJ"],
+                "allowed_feed_source_domains": ["www.wsj.com"],
+                "minimum_items": 1,
+            },
+        )
+        mock_fetch_text.return_value = (
+            """<rss version="2.0"><channel>
+              <item>
+                <title>Unverified Korea result</title>
+                <link>https://news.google.com/rss/articles/unverified</link>
+              </item>
+            </channel></rss>""",
+            {},
+        )
+
+        with self.assertRaisesRegex(RuntimeError, "expected at least 1"):
+            _collect_rss_items(source)
+
+    @patch("src.monitor.sources.fetch_text")
+    def test_priority_feed_excludes_re_reported_article_by_stable_guid(
+        self, mock_fetch_text
+    ) -> None:
+        source = SourceConfig(
+            id="nyt_korea_news",
+            label="The New York Times — Korea",
+            type="rss_xml",
+            enabled=True,
+            list_url="https://news.google.com/rss/search?q=Korea+site:nytimes.com",
+            max_items=100,
+            options={
+                "excluded_feed_site": "nytimes.com",
+                "excluded_feed_outlet_terms": ["Yonhap", '"The Korea Herald"'],
+                "allowed_domains": ["news.google.com"],
+                "allowed_feed_source_names": ["The New York Times"],
+                "allowed_feed_source_domains": ["www.nytimes.com"],
+                "minimum_items": 1,
+            },
+        )
+        main_feed = """<rss version="2.0"><channel>
+          <item>
+            <title>South Korea original reporting - The New York Times</title>
+            <link>https://news.google.com/rss/articles/original</link>
+            <guid isPermaLink="false">original-id</guid>
+            <source url="https://www.nytimes.com">The New York Times</source>
+          </item>
+          <item>
+            <title>South Korea re-report - The New York Times</title>
+            <link>https://news.google.com/rss/articles/re-report</link>
+            <guid isPermaLink="false">re-report-id</guid>
+            <source url="https://www.nytimes.com">The New York Times</source>
+          </item>
+        </channel></rss>"""
+        exclusion_feed = """<rss version="2.0"><channel>
+          <item>
+            <title>South Korea re-report - The New York Times</title>
+            <link>https://news.google.com/rss/articles/re-report</link>
+            <guid isPermaLink="false">re-report-id</guid>
+            <source url="https://www.nytimes.com">The New York Times</source>
+          </item>
+        </channel></rss>"""
+        empty_exclusion_feed = "<rss version='2.0'><channel></channel></rss>"
+        mock_fetch_text.side_effect = [
+            (main_feed, {}),
+            (exclusion_feed, {}),
+            (empty_exclusion_feed, {}),
+        ]
+
+        items = _collect_rss_items(source)
+
+        self.assertEqual([item.title for item in items], [
+            "South Korea original reporting - The New York Times"
+        ])
+
+    def test_priority_feed_builds_short_publisher_scoped_exclusion_urls(self) -> None:
+        source = SourceConfig(
+            id="nyt_korea_news",
+            label="The New York Times — Korea",
+            type="rss_xml",
+            enabled=True,
+            list_url="https://news.google.com/rss/search?q=Korea+site:nytimes.com",
+            max_items=100,
+            options={
+                "excluded_feed_site": "nytimes.com",
+                "excluded_feed_outlet_terms": ["Yonhap", '"The Korea Herald"'],
+            },
+        )
+
+        urls = _excluded_rss_feed_urls(source)
+
+        self.assertEqual(len(urls), 2)
+        self.assertIn("site%3Anytimes.com+Yonhap", urls[0])
+        self.assertIn("site%3Anytimes.com+%22The+Korea+Herald%22", urls[1])
+        self.assertNotIn("Korea+Herald", urls[0])
+
+    @patch("src.monitor.sources.fetch_text")
+    def test_priority_feed_fails_closed_on_unverified_exclusion_results(
+        self, mock_fetch_text
+    ) -> None:
+        source = SourceConfig(
+            id="nyt_korea_news",
+            label="The New York Times — Korea",
+            type="rss_xml",
+            enabled=True,
+            list_url="https://news.google.com/rss/search?q=Korea+site:nytimes.com",
+            max_items=100,
+            options={
+                "excluded_feed_site": "nytimes.com",
+                "excluded_feed_outlet_terms": ["Yonhap"],
+                "allowed_feed_source_names": ["The New York Times"],
+                "allowed_feed_source_domains": ["www.nytimes.com"],
+            },
+        )
+        main_feed = "<rss version='2.0'><channel></channel></rss>"
+        drifted_exclusion_feed = """<rss version="2.0"><channel>
+          <item>
+            <title>Korea story - Yonhap News Agency</title>
+            <link>https://news.google.com/rss/articles/unrelated</link>
+            <guid isPermaLink="false">unrelated-id</guid>
+            <source url="https://en.yna.co.kr">Yonhap News Agency</source>
+          </item>
+        </channel></rss>"""
+        mock_fetch_text.side_effect = [
+            (main_feed, {}),
+            (drifted_exclusion_feed, {}),
+        ]
+
+        with self.assertRaisesRegex(RuntimeError, "none matched the required publisher"):
+            _collect_rss_items(source)
+
+    @patch("src.monitor.sources.fetch_text")
+    def test_priority_feed_fails_closed_when_exclusion_feed_fails(
+        self, mock_fetch_text
+    ) -> None:
+        source = SourceConfig(
+            id="wsj_korea_news",
+            label="The Wall Street Journal — Korea",
+            type="rss_xml",
+            enabled=True,
+            list_url="https://news.google.com/rss/search?q=Korea+site:wsj.com",
+            max_items=100,
+            options={
+                "excluded_feed_url": "https://news.google.com/rss/search?q=Yonhap+site:wsj.com",
+            },
+        )
+        main_feed = "<rss version='2.0'><channel></channel></rss>"
+        mock_fetch_text.side_effect = [
+            (main_feed, {}),
+            RuntimeError("exclusion feed unavailable"),
+        ]
+
+        with self.assertRaisesRegex(RuntimeError, "exclusion feed unavailable"):
+            _collect_rss_items(source)
 
     def test_collect_rss_items_supports_rdf_rss(self) -> None:
         source = SourceConfig(

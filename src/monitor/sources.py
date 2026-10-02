@@ -3,7 +3,7 @@ from __future__ import annotations
 from datetime import datetime, timezone
 import html
 import json
-from urllib.parse import urljoin, urlparse
+from urllib.parse import urlencode, urljoin, urlparse
 from xml.etree import ElementTree
 
 from bs4 import BeautifulSoup
@@ -170,6 +170,8 @@ def _collect_rss_items(source: SourceConfig) -> list[MonitoredItem]:
         raise RuntimeError(f"{source.id} feed fetch failed. {joined}")
 
     items = []
+    verified_item_count = 0
+    excluded_identities = _collect_excluded_rss_identities(source)
     root_name = _xml_local_name(root.tag)
 
     if root_name == "rss":
@@ -180,15 +182,25 @@ def _collect_rss_items(source: SourceConfig) -> list[MonitoredItem]:
         for node in channel:
             if _xml_local_name(node.tag) != "item":
                 continue
+            if not _rss_node_matches_feed_source(node, source):
+                continue
             item = _build_rss_item(source, node, selected_feed_url)
             if item and _rss_item_matches_source_filters(item, source):
+                verified_item_count += 1
+                if _rss_node_identity(node) in excluded_identities:
+                    continue
                 items.append(item)
     elif root_name == "RDF":
         for node in root:
             if _xml_local_name(node.tag) != "item":
                 continue
+            if not _rss_node_matches_feed_source(node, source):
+                continue
             item = _build_rss_item(source, node, selected_feed_url)
             if item and _rss_item_matches_source_filters(item, source):
+                verified_item_count += 1
+                if _rss_node_identity(node) in excluded_identities:
+                    continue
                 items.append(item)
     elif root_name == "feed":
         for node in root:
@@ -196,11 +208,108 @@ def _collect_rss_items(source: SourceConfig) -> list[MonitoredItem]:
                 continue
             item = _build_atom_item(source, node, selected_feed_url)
             if item and _rss_item_matches_source_filters(item, source):
+                verified_item_count += 1
+                if _rss_node_identity(node) in excluded_identities:
+                    continue
                 items.append(item)
     else:
         raise RuntimeError(f"{source.id} feed is not RSS/Atom XML.")
 
-    return items[: source.max_items]
+    items = items[: source.max_items]
+    minimum_items = int(source.options.get("minimum_items", 0))
+    if verified_item_count < minimum_items:
+        raise RuntimeError(
+            f"{source.id} returned {verified_item_count} verified items; "
+            f"expected at least {minimum_items}."
+        )
+    return items
+
+
+def _collect_excluded_rss_identities(source: SourceConfig) -> set[str]:
+    feed_urls = _excluded_rss_feed_urls(source)
+    if not feed_urls:
+        return set()
+
+    identities = set()
+    for feed_url in feed_urls:
+        xml_text, _ = fetch_text(feed_url)
+        root = ElementTree.fromstring(xml_text)
+        if _xml_local_name(root.tag) != "rss":
+            raise RuntimeError(f"{source.id} exclusion feed is not RSS XML.")
+
+        channel = _xml_first_child(root, "channel")
+        if channel is None:
+            raise RuntimeError(
+                f"{source.id} exclusion feed is missing a channel element."
+            )
+
+        raw_item_count = 0
+        verified_item_count = 0
+        for node in channel:
+            if _xml_local_name(node.tag) != "item":
+                continue
+            raw_item_count += 1
+            if not _rss_node_matches_feed_source(node, source):
+                continue
+            verified_item_count += 1
+            identity = _rss_node_identity(node)
+            if identity:
+                identities.add(identity)
+
+        if raw_item_count and not verified_item_count:
+            raise RuntimeError(
+                f"{source.id} exclusion feed returned {raw_item_count} items "
+                "but none matched the required publisher."
+            )
+    return identities
+
+
+def _excluded_rss_feed_urls(source: SourceConfig) -> list[str]:
+    explicit_url = str(source.options.get("excluded_feed_url", "")).strip()
+    if explicit_url:
+        return [explicit_url]
+
+    outlet_terms = _option_string_list(source, "excluded_feed_outlet_terms")
+    site = str(source.options.get("excluded_feed_site", "")).strip()
+    if not outlet_terms or not site:
+        return []
+
+    attribution_query = str(
+        source.options.get(
+            "excluded_feed_attribution_query",
+            "(reported OR according OR citing OR cited)",
+        )
+    ).strip()
+    window = str(source.options.get("excluded_feed_window", "when:30d")).strip()
+    locale = str(source.options.get("excluded_feed_locale", "en-US")).strip()
+    country = str(source.options.get("excluded_feed_country", "US")).strip()
+    edition = str(source.options.get("excluded_feed_edition", "US:en")).strip()
+
+    urls = []
+    for outlet_term in outlet_terms:
+        query = " ".join(
+            part
+            for part in (
+                f"site:{site}",
+                outlet_term,
+                attribution_query,
+                window,
+            )
+            if part
+        )
+        urls.append(
+            "https://news.google.com/rss/search?"
+            + urlencode({"q": query, "hl": locale, "gl": country, "ceid": edition})
+        )
+    return urls
+
+
+def _rss_node_identity(node: ElementTree.Element) -> str:
+    return (
+        _xml_first_child_text(node, "guid")
+        or _xml_first_child_text(node, "link")
+        or _xml_atom_link(node)
+    )
 
 
 def _collect_unrisd_api_items(source: SourceConfig) -> list[MonitoredItem]:
@@ -440,7 +549,39 @@ def _url_matches_source_filters(url: str, source: SourceConfig) -> bool:
 
 
 def _rss_item_matches_source_filters(item: MonitoredItem, source: SourceConfig) -> bool:
-    return _url_matches_source_filters(item.url, source)
+    if not _url_matches_source_filters(item.url, source):
+        return False
+
+    denied_title_patterns = _option_string_list(source, "deny_title_patterns")
+    title = item.title.casefold()
+    if any(pattern.casefold() in title for pattern in denied_title_patterns):
+        return False
+
+    return True
+
+
+def _rss_node_matches_feed_source(node: ElementTree.Element, source: SourceConfig) -> bool:
+    allowed_names = _option_string_list(source, "allowed_feed_source_names")
+    allowed_domains = _option_string_list(source, "allowed_feed_source_domains")
+    if not allowed_names and not allowed_domains:
+        return True
+
+    source_node = _xml_first_child(node, "source")
+    if source_node is None:
+        return False
+
+    source_name = (source_node.text or "").strip().casefold()
+    source_url = (source_node.get("url") or "").strip()
+    source_domain = urlparse(source_url).netloc.casefold()
+
+    if allowed_names and source_name not in {name.casefold() for name in allowed_names}:
+        return False
+    if allowed_domains:
+        domains = [domain.casefold() for domain in allowed_domains]
+        if not any(source_domain == domain or source_domain.endswith("." + domain) for domain in domains):
+            return False
+
+    return True
 
 
 def _extract_html_listing_links(base_url: str, soup: BeautifulSoup, selector: str, source: SourceConfig) -> list[str]:

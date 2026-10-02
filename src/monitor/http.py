@@ -1,10 +1,13 @@
 from __future__ import annotations
 
 import json
+import ssl
 from time import sleep
 from urllib.error import HTTPError, URLError
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
+
+import certifi
 
 
 DEFAULT_HEADERS = {
@@ -18,6 +21,7 @@ DEFAULT_HEADERS = {
 
 RETRYABLE_HTTP_STATUS_CODES = {429, 500, 502, 503, 504}
 DEFAULT_RETRY_ATTEMPTS = 2
+TLS_CONTEXT = ssl.create_default_context(cafile=certifi.where())
 
 
 def fetch_text(url: str, timeout: int = 30) -> tuple[str, dict[str, str]]:
@@ -37,7 +41,7 @@ def request_text(
     for attempt in range(retry_attempts + 1):
         request = Request(url, data=data, headers=request_headers, method=method)
         try:
-            with urlopen(request, timeout=timeout) as response:
+            with urlopen(request, timeout=timeout, context=TLS_CONTEXT) as response:
                 raw = response.read()
                 headers = {key.lower(): value for key, value in response.headers.items()}
                 charset = response.headers.get_content_charset() or "utf-8"
@@ -68,7 +72,7 @@ def post_form(url: str, payload: dict[str, str], timeout: int = 30) -> str:
     }
     request = Request(url, data=body, headers=headers, method="POST")
     try:
-        with urlopen(request, timeout=timeout) as response:
+        with urlopen(request, timeout=timeout, context=TLS_CONTEXT) as response:
             charset = response.headers.get_content_charset() or "utf-8"
             return response.read().decode(charset, errors="replace")
     except HTTPError as exc:

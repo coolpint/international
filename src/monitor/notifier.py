@@ -16,6 +16,8 @@ SOURCE_LABELS_KO = {
     "UNRISD Publications": "UNRISD 간행물",
     "WTO Latest News": "WTO 최신 뉴스",
     "ILO Newsroom": "ILO 뉴스룸",
+    "The New York Times — Korea": "뉴욕타임스 한국 뉴스",
+    "The Wall Street Journal — Korea": "월스트리트저널 한국 뉴스",
     "ADB News": "ADB 뉴스",
     "World Bank News": "세계은행 뉴스",
     "AIIB News": "AIIB 뉴스",
@@ -41,6 +43,7 @@ SOURCE_LABELS_KO = {
 EVENT_LABELS_KO = {
     "new": "신규",
     "updated": "업데이트",
+    "retry": "재시도",
     "bootstrap": "초기 기준선",
 }
 
@@ -64,6 +67,8 @@ TERM_LABELS_KO = {
     "North Korea specialist source": "북한 전문 소스",
     "North Korea cyber advisory source": "북한 사이버 권고 소스",
     "Korean Peninsula source": "한반도 전문 소스",
+    "NYT Korea priority source": "뉴욕타임스 한국 고우선 소스",
+    "WSJ Korea priority source": "월스트리트저널 한국 고우선 소스",
 }
 
 

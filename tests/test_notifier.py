@@ -28,6 +28,22 @@ class NotifierTests(unittest.TestCase):
         self.assertIn("원문 요약: English summary", message)
         self.assertIn("원문 보기", message)
 
+    def test_retry_event_is_labeled_in_korean(self) -> None:
+        item = MonitoredItem(
+            source_id="nyt_korea_news",
+            source_label="The New York Times — Korea",
+            url="https://news.google.com/rss/articles/example",
+            title="South Korea update",
+            summary="",
+            body="",
+            confidence="high",
+            matched_terms=["NYT Korea priority source"],
+        )
+
+        message = build_telegram_message(item, "retry")
+
+        self.assertIn("[뉴욕타임스 한국 뉴스] 한국 관련 재시도 알림", message)
+
 
 if __name__ == "__main__":
     unittest.main()
