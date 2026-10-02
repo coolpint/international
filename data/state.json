@@ -1944,7 +1944,7 @@
       "first_seen_at": "2026-10-01T01:41:59Z",
       "last_event": "new",
       "last_notified_at": "2026-10-01T01:41:59Z",
-      "last_seen_at": "2026-10-02T13:21:45Z",
+      "last_seen_at": "2026-10-02T19:39:38Z",
       "matched_terms": [
         "North Korea",
         "Korea"
@@ -2025,7 +2025,7 @@
       "first_seen_at": "2026-09-18T17:57:31Z",
       "last_event": "new",
       "last_notified_at": "2026-09-18T17:57:31Z",
-      "last_seen_at": "2026-10-02T13:21:45Z",
+      "last_seen_at": "2026-10-02T19:39:38Z",
       "matched_terms": [
         "South Korea",
         "South Korean",
@@ -2053,7 +2053,7 @@
       "first_seen_at": "2026-09-29T19:42:25Z",
       "last_event": "new",
       "last_notified_at": "2026-09-29T19:42:25Z",
-      "last_seen_at": "2026-10-02T13:21:45Z",
+      "last_seen_at": "2026-10-02T19:39:38Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -2076,7 +2076,7 @@
       "first_seen_at": "2026-09-28T20:55:34Z",
       "last_event": "new",
       "last_notified_at": "2026-09-28T20:55:34Z",
-      "last_seen_at": "2026-10-02T13:21:45Z",
+      "last_seen_at": "2026-10-02T19:39:38Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -2096,7 +2096,7 @@
       "first_seen_at": "2026-09-24T18:44:40Z",
       "last_event": "new",
       "last_notified_at": "2026-09-24T18:44:40Z",
-      "last_seen_at": "2026-10-02T13:21:45Z",
+      "last_seen_at": "2026-10-02T19:39:38Z",
       "matched_terms": [
         "South Korean",
         "North Korea",
@@ -2138,7 +2138,7 @@
       "first_seen_at": "2026-09-22T01:21:15Z",
       "last_event": "new",
       "last_notified_at": "2026-09-22T01:21:15Z",
-      "last_seen_at": "2026-10-02T13:21:45Z",
+      "last_seen_at": "2026-10-02T19:39:38Z",
       "matched_terms": [
         "DPRK",
         "North Korea",
@@ -2154,13 +2154,33 @@
       "title": "What Health Diplomacy Can Offer US-DPRK Engagement",
       "url": "https://www.38north.org/2026/09/what-health-diplomacy-can-offer-us-dprk-engagement/"
     },
+    "https://www.38north.org/2026/10/several-naval-construction-projects-underway/": {
+      "confidence": "high",
+      "content_hash": "f394f8aebd3f8371c8d8f20e010192d4c962a0ceef370d40aed7424afaf277a7",
+      "first_seen_at": "2026-10-02T19:39:38Z",
+      "last_event": "new",
+      "last_notified_at": "2026-10-02T19:39:38Z",
+      "last_seen_at": "2026-10-02T19:39:38Z",
+      "matched_terms": [
+        "North Korea",
+        "DPRK",
+        "Korea",
+        "Pyongyang"
+      ],
+      "published_at": "Fri, 02 Oct 2026 13:31:30 +0000",
+      "source_id": "thirty_eight_north",
+      "source_label": "38 North",
+      "summary": "Construction has resumed in earnest on what is expected to become a flagship naval ...\nThe post\nSeveral Naval Construction Projects Underway\nappeared first on\n38 North\n.",
+      "title": "Several Naval Construction Projects Underway",
+      "url": "https://www.38north.org/2026/10/several-naval-construction-projects-underway/"
+    },
     "https://www.38north.org/2026/10/the-dangers-of-north-koreas-nuclear-status-quo/": {
       "confidence": "high",
       "content_hash": "1955c450e1898f4f3b90717f11a773e3b8562cd32c9c805c99dd69fed1e55b22",
       "first_seen_at": "2026-10-01T14:01:02Z",
       "last_event": "new",
       "last_notified_at": "2026-10-01T14:01:02Z",
-      "last_seen_at": "2026-10-02T13:21:45Z",
+      "last_seen_at": "2026-10-02T19:39:38Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -2558,7 +2578,7 @@
       "first_seen_at": "2026-09-23T18:44:02Z",
       "last_event": "new",
       "last_notified_at": "2026-09-23T18:44:02Z",
-      "last_seen_at": "2026-10-02T13:21:45Z",
+      "last_seen_at": "2026-10-02T19:39:38Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -2580,7 +2600,7 @@
       "first_seen_at": "2026-09-18T00:53:39Z",
       "last_event": "new",
       "last_notified_at": "2026-09-18T00:53:39Z",
-      "last_seen_at": "2026-10-02T13:21:45Z",
+      "last_seen_at": "2026-10-02T19:39:38Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -2712,7 +2732,7 @@
       "first_seen_at": "2026-10-01T14:01:02Z",
       "last_event": "new",
       "last_notified_at": "2026-10-01T14:01:02Z",
-      "last_seen_at": "2026-10-02T13:21:45Z",
+      "last_seen_at": "2026-10-02T19:39:38Z",
       "matched_terms": [
         "Republic of Korea",
         "Republic of Korea (ROK)",
@@ -4523,7 +4543,7 @@
       "first_seen_at": "2026-07-15T09:04:03Z",
       "last_event": "new",
       "last_notified_at": "2026-07-15T09:04:03Z",
-      "last_seen_at": "2026-10-02T13:21:45Z",
+      "last_seen_at": "2026-10-02T19:39:38Z",
       "matched_terms": [
         "Republic of Korea",
         "Seoul",
@@ -5140,7 +5160,7 @@
       "first_seen_at": "2026-09-25T19:02:00Z",
       "last_event": "new",
       "last_notified_at": "2026-09-25T19:02:00Z",
-      "last_seen_at": "2026-10-02T13:21:45Z",
+      "last_seen_at": "2026-10-02T19:39:38Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
@@ -5158,7 +5178,7 @@
       "first_seen_at": "2026-09-30T19:43:43Z",
       "last_event": "updated",
       "last_notified_at": "2026-10-01T14:01:02Z",
-      "last_seen_at": "2026-10-02T13:21:45Z",
+      "last_seen_at": "2026-10-02T19:39:38Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
