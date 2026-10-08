@@ -1944,7 +1944,7 @@
       "first_seen_at": "2026-10-01T01:41:59Z",
       "last_event": "new",
       "last_notified_at": "2026-10-01T01:41:59Z",
-      "last_seen_at": "2026-10-07T20:19:17Z",
+      "last_seen_at": "2026-10-08T02:21:52Z",
       "matched_terms": [
         "North Korea",
         "Korea"
@@ -2053,7 +2053,7 @@
       "first_seen_at": "2026-09-29T19:42:25Z",
       "last_event": "new",
       "last_notified_at": "2026-09-29T19:42:25Z",
-      "last_seen_at": "2026-10-07T20:19:17Z",
+      "last_seen_at": "2026-10-08T02:21:52Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -2076,7 +2076,7 @@
       "first_seen_at": "2026-09-28T20:55:34Z",
       "last_event": "new",
       "last_notified_at": "2026-09-28T20:55:34Z",
-      "last_seen_at": "2026-10-07T20:19:17Z",
+      "last_seen_at": "2026-10-08T02:21:52Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -2096,7 +2096,7 @@
       "first_seen_at": "2026-09-24T18:44:40Z",
       "last_event": "new",
       "last_notified_at": "2026-09-24T18:44:40Z",
-      "last_seen_at": "2026-10-07T20:19:17Z",
+      "last_seen_at": "2026-10-08T02:21:52Z",
       "matched_terms": [
         "South Korean",
         "North Korea",
@@ -2138,7 +2138,7 @@
       "first_seen_at": "2026-09-22T01:21:15Z",
       "last_event": "new",
       "last_notified_at": "2026-09-22T01:21:15Z",
-      "last_seen_at": "2026-10-07T20:19:17Z",
+      "last_seen_at": "2026-10-08T02:21:52Z",
       "matched_terms": [
         "DPRK",
         "North Korea",
@@ -2160,7 +2160,7 @@
       "first_seen_at": "2026-10-02T19:39:38Z",
       "last_event": "new",
       "last_notified_at": "2026-10-02T19:39:38Z",
-      "last_seen_at": "2026-10-07T20:19:17Z",
+      "last_seen_at": "2026-10-08T02:21:52Z",
       "matched_terms": [
         "North Korea",
         "DPRK",
@@ -2180,7 +2180,7 @@
       "first_seen_at": "2026-10-01T14:01:02Z",
       "last_event": "new",
       "last_notified_at": "2026-10-01T14:01:02Z",
-      "last_seen_at": "2026-10-07T20:19:17Z",
+      "last_seen_at": "2026-10-08T02:21:52Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -2199,6 +2199,31 @@
       "summary": "Since President Donald Trump expressed his desire to meet with North Korean leader Kim Jong Un ...\nThe post\nThe Dangers of North Korea’s Nuclear Status Quo\nappeared first on\n38 North\n.",
       "title": "The Dangers of North Korea’s Nuclear Status Quo",
       "url": "https://www.38north.org/2026/10/the-dangers-of-north-koreas-nuclear-status-quo/"
+    },
+    "https://www.38north.org/2026/10/what-seoul-and-kyiv-should-learn-from-the-north-korean-pow-dispute/": {
+      "confidence": "high",
+      "content_hash": "02f65de3cfb0e62ea13f6d8c449f8ead307b5595587be2fd9e1d2f079096cd51",
+      "first_seen_at": "2026-10-08T02:21:52Z",
+      "last_event": "new",
+      "last_notified_at": "2026-10-08T02:21:52Z",
+      "last_seen_at": "2026-10-08T02:21:52Z",
+      "matched_terms": [
+        "North Korean",
+        "South Korea",
+        "South Korean",
+        "Republic of Korea",
+        "North Korea",
+        "Korean",
+        "Seoul",
+        "Korea",
+        "Pyongyang"
+      ],
+      "published_at": "Wed, 07 Oct 2026 22:13:46 +0000",
+      "source_id": "thirty_eight_north",
+      "source_label": "38 North",
+      "summary": "The dispute over two North Korean soldiers transferred from Ukraine to South Korea has exposed ...\nThe post\nWhat Seoul and Kyiv Should Learn from the North Korean POW Dispute\nappeared first on\n38 North\n.",
+      "title": "What Seoul and Kyiv Should Learn from the North Korean POW Dispute",
+      "url": "https://www.38north.org/2026/10/what-seoul-and-kyiv-should-learn-from-the-north-korean-pow-dispute/"
     },
     "https://www.adb.org/news/adb-and-republic-korea-deepen-ties-energy-critical-minerals-and-artificial-intelligence": {
       "confidence": "high",
@@ -2578,7 +2603,7 @@
       "first_seen_at": "2026-09-23T18:44:02Z",
       "last_event": "new",
       "last_notified_at": "2026-09-23T18:44:02Z",
-      "last_seen_at": "2026-10-07T20:19:17Z",
+      "last_seen_at": "2026-10-08T02:21:52Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -2600,7 +2625,7 @@
       "first_seen_at": "2026-09-18T00:53:39Z",
       "last_event": "new",
       "last_notified_at": "2026-09-18T00:53:39Z",
-      "last_seen_at": "2026-10-07T20:19:17Z",
+      "last_seen_at": "2026-10-08T02:21:52Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -2732,7 +2757,7 @@
       "first_seen_at": "2026-10-01T14:01:02Z",
       "last_event": "new",
       "last_notified_at": "2026-10-01T14:01:02Z",
-      "last_seen_at": "2026-10-07T20:19:17Z",
+      "last_seen_at": "2026-10-08T02:21:52Z",
       "matched_terms": [
         "Republic of Korea",
         "Republic of Korea (ROK)",
@@ -4543,7 +4568,7 @@
       "first_seen_at": "2026-07-15T09:04:03Z",
       "last_event": "new",
       "last_notified_at": "2026-07-15T09:04:03Z",
-      "last_seen_at": "2026-10-07T20:19:17Z",
+      "last_seen_at": "2026-10-08T02:21:52Z",
       "matched_terms": [
         "Republic of Korea",
         "Seoul",
@@ -5178,7 +5203,7 @@
       "first_seen_at": "2026-09-30T19:43:43Z",
       "last_event": "updated",
       "last_notified_at": "2026-10-01T14:01:02Z",
-      "last_seen_at": "2026-10-07T20:19:17Z",
+      "last_seen_at": "2026-10-08T02:21:52Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
