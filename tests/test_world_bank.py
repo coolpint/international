@@ -1,4 +1,5 @@
 import unittest
+from datetime import datetime, timezone
 from unittest.mock import patch
 
 from src.monitor.models import SourceConfig
@@ -63,7 +64,10 @@ class WorldBankTests(unittest.TestCase):
             }
         }
 
-        items = _collect_world_bank_news_items(self.source)
+        with patch("src.monitor.sources.datetime") as clock:
+            clock.now.return_value = datetime(2026, 3, 26, tzinfo=timezone.utc)
+            clock.fromisoformat.side_effect = datetime.fromisoformat
+            items = _collect_world_bank_news_items(self.source)
 
         self.assertEqual([item.title for item in items], ["Newer Seoul item", "Older Korea item"])
 

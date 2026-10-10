@@ -11,6 +11,7 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 from .monitor.http import fetch_json
+from .monitor.config import load_sources
 from .monitor.notifier import send_telegram_text, telegram_is_configured
 
 
@@ -108,6 +109,8 @@ def build_health_report(
     run_logs: list[dict],
     now: datetime,
     days: int,
+    source_history: list[dict] | None = None,
+    active_source_ids: set[str] | None = None,
 ) -> HealthReport:
     success_runs = [run for run in runs if run.get("conclusion") == "success"]
     failed_runs = [run for run in runs if run.get("conclusion") not in {"success", None}]
@@ -118,9 +121,33 @@ def build_health_report(
     source_error_counter = Counter()
     for report in run_logs:
         for source in report.get("sources", []):
-            if source.get("status") != "error":
+            if source.get("status") not in {"error", "partial"} or source.get("enabled") is False:
+                continue
+            if active_source_ids is not None and source.get("source_id") not in active_source_ids:
                 continue
             source_error_counter[source.get("source_id") or "unknown"] += 1
+
+    source_health = {}
+    for log in sorted(source_history if source_history is not None else run_logs,
+                      key=lambda row: row.get("run_at", "")):
+        timestamp = _parse_iso_datetime(log.get("run_at"))
+        if timestamp is None or timestamp > now:
+            continue
+        for source in log.get("sources", []):
+            source_id = source.get("source_id")
+            if not source_id or source.get("status") == "disabled" or source.get("enabled") is False:
+                continue
+            if active_source_ids is not None and source_id not in active_source_ids:
+                continue
+            health = source_health.setdefault(source_id, {"zeros": 0, "last_ok": None, "last_items": None})
+            status = source.get("status")
+            count = source.get("collected")
+            health["zeros"] = health["zeros"] + 1 if count == 0 or status == "error" else 0
+            # Legacy ok/0 cannot prove a healthy empty response.
+            if status in {"ok", "empty", "filtered"} and (count != 0 or "candidates" in source):
+                health["last_ok"] = timestamp
+            if count and status in {"ok", "partial"}:
+                health["last_items"] = timestamp
 
     notification_errors = sum(1 for row in history_rows if row.get("notification_error"))
     notified_count = sum(1 for row in history_rows if row.get("notified"))
@@ -140,6 +167,15 @@ def build_health_report(
         issues.append(f"최근 {days}일 소스 에러가 {source_error_total}회 있습니다")
     if notification_errors:
         issues.append(f"최근 {days}일 텔레그램 전송 오류가 {notification_errors}회 있습니다")
+
+    if active_source_ids is not None:
+        for source_id in sorted(active_source_ids - source_health.keys()):
+            issues.append(f"{source_id}: 정상 수집 로그 없음")
+    for source_id, health in sorted(source_health.items()):
+        if health["zeros"] >= 3:
+            issues.append(f"{source_id}: 연속 0건 {health['zeros']}회 (빈 결과/필터 제외/실패 확인 필요)")
+        if health["last_ok"] is None or now - health["last_ok"] > timedelta(hours=18):
+            issues.append(f"{source_id}: 마지막 정상 시각 {_format_kst(health['last_ok'])}, 18시간 내 정상 수집 확인 안 됨")
 
     status = "healthy" if not issues else "warning"
     title = "[국제 모니터 주간 점검] 정상 작동중" if status == "healthy" else "[국제 모니터 주간 점검] 이상 감지"
@@ -162,6 +198,11 @@ def build_health_report(
         top_sources = ", ".join(f"{source_id} {count}회" for source_id, count in source_error_counter.most_common(5))
         lines.append(f"에러 소스: {top_sources}")
 
+    if source_health:
+        lines.append("소스별 마지막 정상 시각:")
+        for source_id, health in sorted(source_health.items()):
+            lines.append(f"- {source_id}: {_format_kst(health['last_ok'])}; 마지막 항목 {_format_kst(health['last_items'])}; 연속 0건 {health['zeros']}회")
+
     if status == "healthy":
         lines.append("판정: 지난 한 주 기준 이상 징후 없이 정상 작동중입니다.")
     else:
@@ -182,7 +223,9 @@ def main() -> int:
     history_rows = _load_ndjson_since(Path(args.history_dir), since)
     run_logs = _load_ndjson_since(Path(args.run_log_dir), since)
     runs = load_monitor_runs(repository, args.workflow_file, since, github_token)
-    report = build_health_report(runs, history_rows, run_logs, now, args.days)
+    source_history = _load_ndjson_since(Path(args.run_log_dir), datetime.min.replace(tzinfo=timezone.utc))
+    active_source_ids = {source.id for source in load_sources(REPO_ROOT / "config" / "sources.json") if source.enabled}
+    report = build_health_report(runs, history_rows, run_logs, now, args.days, source_history, active_source_ids)
 
     print(report.message)
 

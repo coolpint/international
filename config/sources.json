@@ -66,10 +66,21 @@
     {
       "id": "ilo_newsroom",
       "label": "ILO Newsroom",
-      "type": "rss_xml",
+      "type": "html_listing",
       "enabled": true,
-      "list_url": "https://www.ilo.org/rss.xml",
-      "max_items": 20
+      "list_url": "https://www.ilo.org/resource/news",
+      "max_items": 20,
+      "link_selector": "a.ilo--card--link[href]",
+      "allowed_domains": [
+        "www.ilo.org"
+      ],
+      "allowed_url_patterns": [
+        "/resource/news/",
+        "/resource/article/",
+        "/resource/statement/"
+      ],
+      "note": "Uses official newsroom cards; the former rss.xml returns HTML, not a supported news feed.",
+      "collection_revision": "2026-10-path-repair"
     },
     {
       "id": "adb_news",
@@ -119,9 +130,11 @@
         "www.bis.org"
       ],
       "allowed_url_patterns": [
-        "/press/"
+        "/press/",
+        "/media-releases/"
       ],
-      "note": "Uses BIS's official press releases RSS feed."
+      "note": "Uses BIS's official press releases RSS feed.",
+      "collection_revision": "2026-10-path-repair"
     },
     {
       "id": "ecb_press",
@@ -191,14 +204,15 @@
       "enabled": true,
       "list_url": "https://ustr.gov/about-us/policy-offices/press-office/press-releases",
       "max_items": 20,
-      "link_selector": "div.view-content div.views-row .views-field-title a[href]",
+      "link_selector": "ul.listing li a[href]",
       "allowed_domains": [
         "ustr.gov"
       ],
       "allowed_url_patterns": [
         "/press-office/press-releases/"
       ],
-      "note": "Parses the official USTR press releases page and keeps press release URLs only."
+      "note": "Uses the official press release list (ul.listing); excludes archive navigation links.",
+      "collection_revision": "2026-10-path-repair"
     },
     {
       "id": "fbi_national_press_releases",

@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import hashlib
+from copy import deepcopy
 import json
 from datetime import datetime
 from pathlib import Path
@@ -17,7 +18,7 @@ DEFAULT_STATE = {
 
 def load_state(path: Path) -> dict:
     if not path.exists():
-        return DEFAULT_STATE.copy()
+        return deepcopy(DEFAULT_STATE)
     return json.loads(path.read_text(encoding="utf-8"))
 
 

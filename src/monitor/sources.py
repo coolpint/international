@@ -12,7 +12,62 @@ from .http import fetch_json, fetch_text, post_json
 from .models import MonitoredItem, SourceConfig
 
 
-def collect_items(source: SourceConfig) -> list[MonitoredItem]:
+class CollectionResult(list[MonitoredItem]):
+    """List-compatible result with counts before source filters and item limits."""
+
+    def __init__(self) -> None:
+        super().__init__()
+        self.candidates = 0
+        self.succeeded = 0
+        self.failed = 0
+        self.filtered = 0
+        self.deferred = 0
+        self.errors = []
+        self.selected_url = None
+        self.failure_reason = None
+
+    @property
+    def status(self) -> str:
+        if self.failure_reason:
+            return "error"
+        if self.failed:
+            return "partial" if self.succeeded else "error"
+        if not self.candidates:
+            return "empty"
+        return "ok" if self else "filtered"
+
+    def report(self) -> dict:
+        return {
+            "status": self.status, "collected": len(self),
+            "candidates": self.candidates, "succeeded": self.succeeded,
+            "failed": self.failed, "filtered": self.filtered,
+            "deferred": self.deferred, "errors": self.errors,
+            "selected_url": self.selected_url, "detail": self.failure_reason,
+        }
+
+
+def _collect_details(source: SourceConfig, urls: list[str], result=None) -> CollectionResult:
+    result = result if result is not None else CollectionResult()
+    if not urls and not result.candidates:
+        result.failure_reason = "listing selector found no candidates; structure may have changed"
+        return result
+    if not result.candidates:
+        result.candidates = len(urls)
+    result.deferred = max(0, len(urls) - source.max_items)
+    for url in urls[:source.max_items]:
+        try:
+            item = _fetch_detail_item(source, url)
+            if not item.title or not (item.summary or item.body):
+                raise ValueError("detail is missing title or article text")
+            result.append(item)
+            result.succeeded += 1
+        except Exception as exc:
+            result.failed += 1
+            result.errors.append({"url": url, "detail": str(exc)})
+    return result
+
+
+def collect_items(source: SourceConfig) -> CollectionResult:
     if not source.list_url:
         raise RuntimeError(f"{source.id} has no list URL configured.")
 
@@ -33,21 +88,34 @@ def collect_items(source: SourceConfig) -> list[MonitoredItem]:
     soup = BeautifulSoup(html_text, "html.parser")
 
     if source.type == "un_news_latest":
+        selector = 'a[href*="/en/story/"]'
         urls = _extract_un_news_links(source.list_url, soup)
     elif source.type == "un_press_listing":
+        selector = 'a[href$=".doc.htm"]'
         urls = _extract_press_links(source.list_url, soup)
     elif source.type == "unctad_publications":
+        selector = 'a[href^="/publication/"], a[href*="unctad.org/publication/"]'
         urls = _extract_unctad_publication_links(source.list_url, soup)
     else:
         raise RuntimeError(f"Unsupported active source type: {source.type}")
 
-    items = []
-    for url in urls[: source.max_items]:
-        try:
-            items.append(_fetch_detail_item(source, url))
-        except Exception as exc:
-            print(f"[warn] {source.id}: failed to parse {url}: {exc}")
-    return items
+    return _collect_listing_details(source, soup, selector, urls)
+
+
+def _raw_listing_urls(base_url: str, soup: BeautifulSoup, selector: str) -> list[str]:
+    return _dedupe_preserve_order([
+        urljoin(base_url, anchor["href"])
+        for anchor in soup.select(selector) if anchor.get("href")
+    ])
+
+
+def _collect_listing_details(source: SourceConfig, soup: BeautifulSoup, selector: str,
+                             urls: list[str]) -> CollectionResult:
+    result = CollectionResult()
+    result.selected_url = source.list_url
+    result.candidates = len(_raw_listing_urls(source.list_url, soup, selector))
+    result.filtered = result.candidates - len(urls)
+    return _collect_details(source, urls, result)
 
 
 def _dedupe_preserve_order(urls: list[str]) -> list[str]:
@@ -132,6 +200,11 @@ def _fetch_detail_item(source: SourceConfig, url: str) -> MonitoredItem:
     soup = BeautifulSoup(html, "html.parser")
 
     title = _extract_title(soup)
+    if title.casefold().rstrip(".! ") in {
+        "access denied", "just a moment", "not acceptable",
+        "attention required", "attention required | cloudflare",
+    } or soup.select_one('script[src*="/cdn-cgi/challenge-platform/"]'):
+        raise RuntimeError("detail response is an access restriction or challenge page")
     summary = _extract_summary(soup)
     body = _extract_body_text(soup)
     published_at = _extract_published_at(soup) or headers.get("last-modified")
@@ -147,7 +220,7 @@ def _fetch_detail_item(source: SourceConfig, url: str) -> MonitoredItem:
     )
 
 
-def _collect_rss_items(source: SourceConfig) -> list[MonitoredItem]:
+def _collect_rss_items(source: SourceConfig) -> CollectionResult:
     feed_urls = [str(source.list_url)]
     fallback_urls = source.options.get("fallback_urls", [])
     if isinstance(fallback_urls, list):
@@ -159,7 +232,12 @@ def _collect_rss_items(source: SourceConfig) -> list[MonitoredItem]:
     for feed_url in feed_urls:
         try:
             xml_text, _ = fetch_text(feed_url)
-            root = ElementTree.fromstring(xml_text)
+            parsed_root = ElementTree.fromstring(xml_text)
+            if _xml_local_name(parsed_root.tag) not in {"rss", "RDF", "feed"}:
+                raise ValueError("response is not RSS/Atom XML")
+            if _xml_local_name(parsed_root.tag) == "rss" and _xml_first_child(parsed_root, "channel") is None:
+                raise ValueError("RSS feed is missing a channel element")
+            root = parsed_root
             selected_feed_url = feed_url
             break
         except Exception as exc:
@@ -169,41 +247,37 @@ def _collect_rss_items(source: SourceConfig) -> list[MonitoredItem]:
         joined = "; ".join(errors)
         raise RuntimeError(f"{source.id} feed fetch failed. {joined}")
 
-    items = []
+    items = CollectionResult()
+    items.selected_url = selected_feed_url
+    # Fallback transport failures are diagnostic; a valid selected feed is usable.
+    items.errors = errors
     root_name = _xml_local_name(root.tag)
-
-    if root_name == "rss":
-        channel = _xml_first_child(root, "channel")
-        if channel is None:
-            raise RuntimeError(f"{source.id} RSS feed is missing a channel element.")
-
-        for node in channel:
-            if _xml_local_name(node.tag) != "item":
-                continue
-            item = _build_rss_item(source, node, selected_feed_url)
-            if item and _rss_item_matches_source_filters(item, source):
-                items.append(item)
-    elif root_name == "RDF":
-        for node in root:
-            if _xml_local_name(node.tag) != "item":
-                continue
-            item = _build_rss_item(source, node, selected_feed_url)
-            if item and _rss_item_matches_source_filters(item, source):
-                items.append(item)
-    elif root_name == "feed":
-        for node in root:
-            if _xml_local_name(node.tag) != "entry":
-                continue
-            item = _build_atom_item(source, node, selected_feed_url)
-            if item and _rss_item_matches_source_filters(item, source):
-                items.append(item)
-    else:
-        raise RuntimeError(f"{source.id} feed is not RSS/Atom XML.")
-
-    return items[: source.max_items]
+    container = _xml_first_child(root, "channel") if root_name == "rss" else root
+    node_name = "entry" if root_name == "feed" else "item"
+    for node in container:
+        if _xml_local_name(node.tag) != node_name:
+            continue
+        items.candidates += 1
+        builder = _build_atom_item if root_name == "feed" else _build_rss_item
+        try:
+            item = builder(source, node, selected_feed_url)
+            if item is None:
+                raise ValueError("feed item is missing title or link")
+        except Exception:
+            items.failed += 1
+            items.errors.append({"detail": "feed item is missing valid title or link", "candidate": items.candidates})
+            continue
+        if not _rss_item_matches_source_filters(item, source):
+            items.filtered += 1
+        elif len(items) >= source.max_items:
+            items.deferred += 1
+        else:
+            items.append(item)
+            items.succeeded += 1
+    return items
 
 
-def _collect_unrisd_api_items(source: SourceConfig) -> list[MonitoredItem]:
+def _collect_unrisd_api_items(source: SourceConfig) -> CollectionResult:
     token_url = str(source.options.get("oauth_token_url", "")).strip()
     api_url = str(source.options.get("api_url", "")).strip()
     route_prefix = str(source.options.get("route_prefix", "")).strip()
@@ -220,17 +294,13 @@ def _collect_unrisd_api_items(source: SourceConfig) -> list[MonitoredItem]:
         f"{api_url}?limit={source.max_items}&sort=-publishAt&isPublished=1",
         headers={"Authorization": f"Bearer {access_token}"},
     )
-    records = payload.get("data", [])
-
-    items = []
-    for record in records:
-        item = _build_unrisd_item(source, record, route_prefix)
-        if item:
-            items.append(item)
-    return items
+    if not isinstance(payload, dict) or not isinstance(payload.get("data"), list):
+        raise RuntimeError(f"{source.id}: API response is missing a data array")
+    records = payload["data"]
+    return _collect_records(records, lambda record: _build_unrisd_item(source, record, route_prefix), source.max_items)
 
 
-def _collect_world_bank_news_items(source: SourceConfig) -> list[MonitoredItem]:
+def _collect_world_bank_news_items(source: SourceConfig) -> CollectionResult:
     api_url = str(source.options.get("api_url", "")).strip()
     if not api_url:
         raise RuntimeError(f"{source.id} is missing api_url.")
@@ -239,7 +309,7 @@ def _collect_world_bank_news_items(source: SourceConfig) -> list[MonitoredItem]:
     if not isinstance(payload, dict):
         raise RuntimeError(f"{source.id} returned an unexpected response payload.")
 
-    documents = payload.get("documents", {})
+    documents = payload.get("documents")
     if not isinstance(documents, dict):
         raise RuntimeError(f"{source.id} payload did not contain a documents object.")
 
@@ -258,58 +328,59 @@ def _collect_world_bank_news_items(source: SourceConfig) -> list[MonitoredItem]:
 
     records.sort(key=lambda record: str(record.get("lnchdt") or ""), reverse=True)
 
-    items = []
-    for record in records[: source.max_items]:
-        item = _build_world_bank_news_item(source, record)
-        if item:
-            items.append(item)
-    return items
+    result = _collect_records(records, lambda record: _build_world_bank_news_item(source, record), source.max_items)
+    result.candidates = len(documents)
+    result.filtered = sum(1 for record in documents.values() if isinstance(record, dict) and
+                          (dt := _parse_iso_datetime(str(record.get("lnchdt") or ""))) and dt > now)
+    result.failed += sum(1 for record in documents.values() if not isinstance(record, dict))
+    return result
 
 
-def _collect_bruegel_publication_items(source: SourceConfig) -> list[MonitoredItem]:
+def _collect_bruegel_publication_items(source: SourceConfig) -> CollectionResult:
     html_text, _ = fetch_text(source.list_url)
     soup = BeautifulSoup(html_text, "html.parser")
     urls = _extract_bruegel_publication_links(source.list_url, soup)
 
-    items = []
-    for url in urls[: source.max_items]:
-        try:
-            items.append(_fetch_detail_item(source, url))
-        except Exception as exc:
-            print(f"[warn] {source.id}: failed to parse {url}: {exc}")
-    return items
+    return _collect_listing_details(source, soup,
+        "div.c-listing__items article.c-list-item--article h2 a[href]", urls)
 
 
-def _collect_rusi_publication_items(source: SourceConfig) -> list[MonitoredItem]:
+def _collect_rusi_publication_items(source: SourceConfig) -> CollectionResult:
     html_text, _ = fetch_text(source.list_url)
     soup = BeautifulSoup(html_text, "html.parser")
     urls = _extract_rusi_publication_links(source.list_url, soup)
 
-    items = []
-    for url in urls[: source.max_items]:
-        try:
-            items.append(_fetch_detail_item(source, url))
-        except Exception as exc:
-            print(f"[warn] {source.id}: failed to parse {url}: {exc}")
-    return items
+    return _collect_listing_details(source, soup,
+        'a.RelatedArticle-module--mainLink--4c03e[href*="/explore-our-research/publications/"]', urls)
 
 
-def _collect_html_listing_items(source: SourceConfig) -> list[MonitoredItem]:
+def _collect_html_listing_items(source: SourceConfig) -> CollectionResult:
     selector = str(source.options.get("link_selector", "")).strip()
     if not selector:
         raise RuntimeError(f"{source.id} is missing link_selector.")
 
     html_text, _ = fetch_text(source.list_url)
     soup = BeautifulSoup(html_text, "html.parser")
-    urls = _extract_html_listing_links(source.list_url, soup, selector, source)
+    raw_urls = _raw_listing_urls(source.list_url, soup, selector)
+    urls = [url for url in raw_urls if _url_matches_source_filters(url, source)]
+    return _collect_listing_details(source, soup, selector, urls)
 
-    items = []
-    for url in urls[: source.max_items]:
+
+def _collect_records(records, builder, max_items) -> CollectionResult:
+    result = CollectionResult()
+    result.candidates = len(records)
+    result.deferred = max(0, len(records) - max_items)
+    for record in records[:max_items]:
         try:
-            items.append(_fetch_detail_item(source, url))
-        except Exception as exc:
-            print(f"[warn] {source.id}: failed to parse {url}: {exc}")
-    return items
+            item = builder(record)
+            if item is None:
+                raise ValueError("record is missing title or URL")
+            result.append(item)
+            result.succeeded += 1
+        except Exception:
+            result.failed += 1
+            result.errors.append({"detail": "API record is missing valid title or URL"})
+    return result
 
 
 def _build_unrisd_item(source: SourceConfig, record: dict, route_prefix: str) -> MonitoredItem | None:

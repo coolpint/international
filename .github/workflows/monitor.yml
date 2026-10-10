@@ -12,6 +12,7 @@ on:
         type: choice
         options:
           - monitor
+          - dry_run
           - test_telegram
 
 permissions:
@@ -40,6 +41,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run Monitor
+        id: monitor
         env:
           PYTHONUNBUFFERED: "1"
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
@@ -49,11 +51,14 @@ jobs:
           MODE="${WORKFLOW_MODE:-monitor}"
           if [ "$MODE" = "test_telegram" ]; then
             python -m src.main --test-telegram
+          elif [ "$MODE" = "dry_run" ]; then
+            python -m src.main --dry-run
           else
             python -m src.main
           fi
 
       - name: Commit State Changes
+        if: ${{ !cancelled() && (steps.monitor.outcome == 'success' || steps.monitor.outcome == 'failure') && github.event.inputs.mode != 'test_telegram' && github.event.inputs.mode != 'dry_run' }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

@@ -87,7 +87,7 @@ def main() -> int:
 
     bootstrapping = not state.get("bootstrapped", False)
     source_bootstrapped_at = state.setdefault("source_bootstrapped_at", {})
-    if not source_bootstrapped_at and state.get("bootstrapped"):
+    if not state.get("source_bootstrap_migrated") and not source_bootstrapped_at and state.get("bootstrapped"):
         for record in state.get("items", {}).values():
             source_id = record.get("source_id")
             if not source_id:
@@ -96,6 +96,9 @@ def main() -> int:
                 source_id,
                 record.get("first_seen_at") or state.get("bootstrapped_at") or run_at,
             )
+    state["source_bootstrap_migrated"] = True
+    collection_revisions = state.setdefault("collection_revisions", {})
+    successful_revisions = {}
     relevant_items = []
     events = []
     successful_source_ids = []
@@ -126,23 +129,33 @@ def main() -> int:
                     "source_label": source.label,
                     "enabled": True,
                     "status": "error",
+                    "collected": 0,
+                    "candidates": None,
+                    "succeeded": 0,
+                    "failed": None,
+                    "filtered": None,
                     "detail": str(exc),
                 }
             )
             continue
 
-        successful_source_ids.append(source.id)
-        print(f"[source] {source.id}: collected {len(items)} items")
-        source_bootstrapping = bootstrapping or source.id not in source_bootstrapped_at
+        collection_report = items.report()
+        if items.status in {"ok", "empty", "filtered"}:
+            successful_source_ids.append(source.id)
+        print(f"[source] {source.id}: {collection_report}")
+        revision = source.options.get("collection_revision")
+        revision_changed = revision is not None and collection_revisions.get(source.id) != revision
+        source_bootstrapping = bootstrapping or source.id not in source_bootstrapped_at or revision_changed
+        if revision_changed and items.status == "ok" and items:
+            successful_revisions[source.id] = revision
         if source_bootstrapping and not bootstrapping:
-            print(f"[bootstrap] New source detected for {source.id}; storing current relevant items without Telegram alerts.")
+            print(f"[bootstrap] Baseline required for {source.id}; storing current relevant items without Telegram alerts.")
         source_reports.append(
             {
                 "source_id": source.id,
                 "source_label": source.label,
                 "enabled": True,
-                "status": "ok",
-                "collected": len(items),
+                **collection_report,
                 "bootstrapping": source_bootstrapping,
             }
         )
@@ -172,6 +185,7 @@ def main() -> int:
 
         should_notify = (
             not bootstrapping
+            and not source_bootstrapping
             and not args.dry_run
             and telegram_ready
             and item.confidence == "high"
@@ -216,12 +230,13 @@ def main() -> int:
             state["bootstrapped_at"] = run_at
         for source_id in successful_source_ids:
             source_bootstrapped_at.setdefault(source_id, run_at)
+        collection_revisions.update(successful_revisions)
         save_state(Path(args.state), state)
         append_history(Path(args.history_dir), events)
         append_run_log(Path(args.run_log_dir), run_report)
 
     print(f"[summary] {summary}")
-    return 0
+    return 1 if any(report["status"] in {"error", "partial"} for report in source_reports) else 0
 
 
 if __name__ == "__main__":
