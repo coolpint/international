@@ -1,6 +1,11 @@
 {
   "bootstrapped": true,
   "bootstrapped_at": "2026-03-07T09:13:17Z",
+  "collection_revisions": {
+    "bis_press_releases": "2026-10-path-repair",
+    "ilo_newsroom": "2026-10-path-repair",
+    "ustr_press_releases": "2026-10-path-repair"
+  },
   "items": {
     "https://home.treasury.gov/news/press-releases/sb0416": {
       "confidence": "high",
@@ -456,6 +461,24 @@
       "summary": "WASHINGTON — Today, United States Trade Representative Jamieson Greer announced the initiation of investigations regarding the acts, policies, and practices of various economies under Section 301(b) of the Trade Act of 1974 relating to structural excess capacity and production in manufacturing sectors. The investigations will determine whether those acts, policies, and practices are unreasonable or discriminatory and burden or restrict U.S. commerce.",
       "title": "USTR Initiates Section 301 Investigations Relating to Structural Excess Capacity and Production in Manufacturing Sectors",
       "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/march/ustr-initiates-section-301-investigations-relating-structural-excess-capacity-and-production"
+    },
+    "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/october/fourteen-economies-join-united-states-signing-joint-ministerial-statement-address-global-excess": {
+      "confidence": "high",
+      "content_hash": "c1b4709e66d52483ba1cb042aeddd0b11b2b28efcc0036e4cd95812fa6941377",
+      "first_seen_at": "2026-10-10T00:24:48Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-10-10T00:24:48Z",
+      "matched_terms": [
+        "Republic of Korea",
+        "Korea"
+      ],
+      "published_at": "Sat, 10 Oct 2026 00:25:20 GMT",
+      "source_id": "ustr_press_releases",
+      "source_label": "USTR Press Releases",
+      "summary": "WASHINGTON — On the margins of the Organisation for Economic Co-operation and Development (OECD) Trade Committee, the Office of the United States Trade Representative convened a meeting of senior officials of 14 economies to begin work to address structural excess capacity and production in key manufacturing sectors.",
+      "title": "Fourteen Economies Join the United States in Signing a Joint Ministerial Statement to Address Global Excess Capacity and Production in Key Manufacturing Sectors",
+      "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/october/fourteen-economies-join-united-states-signing-joint-ministerial-statement-address-global-excess"
     },
     "https://www.38north.org/2026/04/a-new-rocket-motor-further-muddles-north-koreas-solid-propellant-icbm-outlook/": {
       "confidence": "high",
@@ -1944,7 +1967,7 @@
       "first_seen_at": "2026-10-01T01:41:59Z",
       "last_event": "new",
       "last_notified_at": "2026-10-01T01:41:59Z",
-      "last_seen_at": "2026-10-09T19:54:27Z",
+      "last_seen_at": "2026-10-10T00:24:48Z",
       "matched_terms": [
         "North Korea",
         "Korea"
@@ -2053,7 +2076,7 @@
       "first_seen_at": "2026-09-29T19:42:25Z",
       "last_event": "new",
       "last_notified_at": "2026-09-29T19:42:25Z",
-      "last_seen_at": "2026-10-09T19:54:27Z",
+      "last_seen_at": "2026-10-10T00:24:48Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -2076,7 +2099,7 @@
       "first_seen_at": "2026-09-28T20:55:34Z",
       "last_event": "new",
       "last_notified_at": "2026-09-28T20:55:34Z",
-      "last_seen_at": "2026-10-09T19:54:27Z",
+      "last_seen_at": "2026-10-10T00:24:48Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -2096,7 +2119,7 @@
       "first_seen_at": "2026-09-24T18:44:40Z",
       "last_event": "new",
       "last_notified_at": "2026-09-24T18:44:40Z",
-      "last_seen_at": "2026-10-09T19:54:27Z",
+      "last_seen_at": "2026-10-10T00:24:48Z",
       "matched_terms": [
         "South Korean",
         "North Korea",
@@ -2138,7 +2161,7 @@
       "first_seen_at": "2026-09-22T01:21:15Z",
       "last_event": "new",
       "last_notified_at": "2026-09-22T01:21:15Z",
-      "last_seen_at": "2026-10-09T19:54:27Z",
+      "last_seen_at": "2026-10-10T00:24:48Z",
       "matched_terms": [
         "DPRK",
         "North Korea",
@@ -2160,7 +2183,7 @@
       "first_seen_at": "2026-10-02T19:39:38Z",
       "last_event": "new",
       "last_notified_at": "2026-10-02T19:39:38Z",
-      "last_seen_at": "2026-10-09T19:54:27Z",
+      "last_seen_at": "2026-10-10T00:24:48Z",
       "matched_terms": [
         "North Korea",
         "DPRK",
@@ -2180,7 +2203,7 @@
       "first_seen_at": "2026-10-01T14:01:02Z",
       "last_event": "new",
       "last_notified_at": "2026-10-01T14:01:02Z",
-      "last_seen_at": "2026-10-09T19:54:27Z",
+      "last_seen_at": "2026-10-10T00:24:48Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -2206,7 +2229,7 @@
       "first_seen_at": "2026-10-08T02:21:52Z",
       "last_event": "new",
       "last_notified_at": "2026-10-08T02:21:52Z",
-      "last_seen_at": "2026-10-09T19:54:27Z",
+      "last_seen_at": "2026-10-10T00:24:48Z",
       "matched_terms": [
         "North Korean",
         "South Korea",
@@ -2603,7 +2626,7 @@
       "first_seen_at": "2026-09-23T18:44:02Z",
       "last_event": "new",
       "last_notified_at": "2026-09-23T18:44:02Z",
-      "last_seen_at": "2026-10-09T19:54:27Z",
+      "last_seen_at": "2026-10-10T00:24:48Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -2625,7 +2648,7 @@
       "first_seen_at": "2026-09-18T00:53:39Z",
       "last_event": "new",
       "last_notified_at": "2026-09-18T00:53:39Z",
-      "last_seen_at": "2026-10-09T19:54:27Z",
+      "last_seen_at": "2026-10-10T00:24:48Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -2757,7 +2780,7 @@
       "first_seen_at": "2026-10-01T14:01:02Z",
       "last_event": "new",
       "last_notified_at": "2026-10-01T14:01:02Z",
-      "last_seen_at": "2026-10-09T19:54:27Z",
+      "last_seen_at": "2026-10-10T00:24:48Z",
       "matched_terms": [
         "Republic of Korea",
         "Republic of Korea (ROK)",
@@ -4568,7 +4591,7 @@
       "first_seen_at": "2026-07-15T09:04:03Z",
       "last_event": "new",
       "last_notified_at": "2026-07-15T09:04:03Z",
-      "last_seen_at": "2026-10-09T19:54:27Z",
+      "last_seen_at": "2026-10-10T00:24:48Z",
       "matched_terms": [
         "Republic of Korea",
         "Seoul",
@@ -5203,7 +5226,7 @@
       "first_seen_at": "2026-09-30T19:43:43Z",
       "last_event": "updated",
       "last_notified_at": "2026-10-01T14:01:02Z",
-      "last_seen_at": "2026-10-09T19:54:27Z",
+      "last_seen_at": "2026-10-10T00:24:48Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
@@ -5379,6 +5402,7 @@
       "url": "https://www.wto.org/english/news_e/pres26_e/pr994_347_e.htm"
     }
   },
+  "source_bootstrap_migrated": true,
   "source_bootstrapped_at": {
     "adb_news": "2026-03-23T13:56:57Z",
     "aiib_news": "2026-04-03T15:33:11Z",
