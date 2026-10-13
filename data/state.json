@@ -125,7 +125,7 @@
       "first_seen_at": "2026-10-13T14:41:06Z",
       "last_event": "new",
       "last_notified_at": "2026-10-13T14:41:06Z",
-      "last_seen_at": "2026-10-13T14:41:06Z",
+      "last_seen_at": "2026-10-13T20:25:47Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
@@ -486,7 +486,7 @@
       "first_seen_at": "2026-10-10T00:24:48Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-10-13T14:41:06Z",
+      "last_seen_at": "2026-10-13T20:25:47Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
@@ -1985,7 +1985,7 @@
       "first_seen_at": "2026-10-01T01:41:59Z",
       "last_event": "new",
       "last_notified_at": "2026-10-01T01:41:59Z",
-      "last_seen_at": "2026-10-13T14:41:06Z",
+      "last_seen_at": "2026-10-13T20:25:47Z",
       "matched_terms": [
         "North Korea",
         "Korea"
@@ -2094,7 +2094,7 @@
       "first_seen_at": "2026-09-29T19:42:25Z",
       "last_event": "new",
       "last_notified_at": "2026-09-29T19:42:25Z",
-      "last_seen_at": "2026-10-13T14:41:06Z",
+      "last_seen_at": "2026-10-13T20:25:47Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -2117,7 +2117,7 @@
       "first_seen_at": "2026-09-28T20:55:34Z",
       "last_event": "new",
       "last_notified_at": "2026-09-28T20:55:34Z",
-      "last_seen_at": "2026-10-13T14:41:06Z",
+      "last_seen_at": "2026-10-13T20:25:47Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -2137,7 +2137,7 @@
       "first_seen_at": "2026-09-24T18:44:40Z",
       "last_event": "new",
       "last_notified_at": "2026-09-24T18:44:40Z",
-      "last_seen_at": "2026-10-13T14:41:06Z",
+      "last_seen_at": "2026-10-13T20:25:47Z",
       "matched_terms": [
         "South Korean",
         "North Korea",
@@ -2179,7 +2179,7 @@
       "first_seen_at": "2026-09-22T01:21:15Z",
       "last_event": "new",
       "last_notified_at": "2026-09-22T01:21:15Z",
-      "last_seen_at": "2026-10-13T14:41:06Z",
+      "last_seen_at": "2026-10-13T20:25:47Z",
       "matched_terms": [
         "DPRK",
         "North Korea",
@@ -2201,7 +2201,7 @@
       "first_seen_at": "2026-10-02T19:39:38Z",
       "last_event": "new",
       "last_notified_at": "2026-10-02T19:39:38Z",
-      "last_seen_at": "2026-10-13T14:41:06Z",
+      "last_seen_at": "2026-10-13T20:25:47Z",
       "matched_terms": [
         "North Korea",
         "DPRK",
@@ -2221,7 +2221,7 @@
       "first_seen_at": "2026-10-01T14:01:02Z",
       "last_event": "new",
       "last_notified_at": "2026-10-01T14:01:02Z",
-      "last_seen_at": "2026-10-13T14:41:06Z",
+      "last_seen_at": "2026-10-13T20:25:47Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -2247,7 +2247,7 @@
       "first_seen_at": "2026-10-08T02:21:52Z",
       "last_event": "new",
       "last_notified_at": "2026-10-08T02:21:52Z",
-      "last_seen_at": "2026-10-13T14:41:06Z",
+      "last_seen_at": "2026-10-13T20:25:47Z",
       "matched_terms": [
         "North Korean",
         "South Korea",
@@ -2291,7 +2291,7 @@
       "first_seen_at": "2026-10-13T14:41:06Z",
       "last_event": "new",
       "last_notified_at": null,
-      "last_seen_at": "2026-10-13T14:41:06Z",
+      "last_seen_at": "2026-10-13T20:25:47Z",
       "matched_terms": [
         "Korea"
       ],
@@ -2661,7 +2661,7 @@
       "first_seen_at": "2026-09-23T18:44:02Z",
       "last_event": "new",
       "last_notified_at": "2026-09-23T18:44:02Z",
-      "last_seen_at": "2026-10-13T14:41:06Z",
+      "last_seen_at": "2026-10-13T20:25:47Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -2809,13 +2809,34 @@
       "title": "Strategic Clarity: Reassessing the Value of China to Korea",
       "url": "https://www.csis.org/analysis/strategic-clarity-reassessing-value-china-korea"
     },
+    "https://www.csis.org/analysis/us-and-korea-should-be-bold-their-investments": {
+      "confidence": "high",
+      "content_hash": "14ce2834fc4c1c3e9b8928c061f5bede79efbe699a722adca34bba5194f04e29",
+      "first_seen_at": "2026-10-13T20:25:47Z",
+      "last_event": "new",
+      "last_notified_at": "2026-10-13T20:25:47Z",
+      "last_seen_at": "2026-10-13T20:25:47Z",
+      "matched_terms": [
+        "South Korea",
+        "South Korean",
+        "Korea",
+        "Korean",
+        "Seoul"
+      ],
+      "published_at": "Tue, 13 Oct 2026 20:24:19 GMT",
+      "source_id": "csis_korea_chair",
+      "source_label": "CSIS Korea Chair",
+      "summary": "Seoul and Washington should dedicate a portion of the investments to projects that will improve national security and supply chain security even if they entail accepting some commercial risk.",
+      "title": "The U.S. and Korea Should Be Bold in Their Investments",
+      "url": "https://www.csis.org/analysis/us-and-korea-should-be-bold-their-investments"
+    },
     "https://www.csis.org/analysis/what-should-koreas-take-asian-nato-be": {
       "confidence": "high",
       "content_hash": "a7f3ac648ffc3ed124d9fcc286aa95853105d8e741f393e47db3a4fb4ab9a076",
       "first_seen_at": "2026-10-01T14:01:02Z",
       "last_event": "new",
       "last_notified_at": "2026-10-01T14:01:02Z",
-      "last_seen_at": "2026-10-13T14:41:06Z",
+      "last_seen_at": "2026-10-13T20:25:47Z",
       "matched_terms": [
         "Republic of Korea",
         "Republic of Korea (ROK)",
@@ -3877,6 +3898,27 @@
       "title": "Uzbekistan launches new Social Insurance Law",
       "url": "https://www.ilo.org/resource/news/uzbekistan-launches-new-social-insurance-law"
     },
+    "https://www.justice.gov/opa/pr/justice-department-announces-coordinated-actions-combat-north-korean-remote-it-worker": {
+      "confidence": "high",
+      "content_hash": "e1dab7e8bf770a5b0faa09ce1b5667597db2dd9e413f7776d1c6928e8122ebc1",
+      "first_seen_at": "2026-10-13T20:25:47Z",
+      "last_event": "new",
+      "last_notified_at": "2026-10-13T20:25:47Z",
+      "last_seen_at": "2026-10-13T20:25:47Z",
+      "matched_terms": [
+        "North Korean",
+        "North Korea",
+        "DPRK",
+        "Korean",
+        "Korea"
+      ],
+      "published_at": "Tue, 13 Oct 2026 12:00:00 +0000",
+      "source_id": "doj_press_releases",
+      "source_label": "DOJ Press Releases",
+      "summary": "Today the Department of Justice announced coordinated actions against the Democratic People’s Republic of North Korea (DPRK) government’s schemes to fund its regime through remote information technology (IT) work for U.S. companies.",
+      "title": "Justice Department Announces Coordinated Actions to Combat North Korean Remote IT Worker Schemes Affecting More than 70 U.S. Companies",
+      "url": "https://www.justice.gov/opa/pr/justice-department-announces-coordinated-actions-combat-north-korean-remote-it-worker"
+    },
     "https://www.justice.gov/opa/pr/two-us-nationals-sentenced-facilitating-fraudulent-remote-information-technology-worker": {
       "confidence": "high",
       "content_hash": "dee947bc0247b65c36a72dabe8d8dbf1bf48628240fbdbe766dd5322f0a0de3d",
@@ -4648,7 +4690,7 @@
       "first_seen_at": "2026-07-15T09:04:03Z",
       "last_event": "new",
       "last_notified_at": "2026-07-15T09:04:03Z",
-      "last_seen_at": "2026-10-13T14:41:06Z",
+      "last_seen_at": "2026-10-13T20:25:47Z",
       "matched_terms": [
         "Republic of Korea",
         "Seoul",
