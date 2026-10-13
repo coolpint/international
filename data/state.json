@@ -119,6 +119,24 @@
       "title": "Treasury Cracks Down on Transnational Criminal Organization Behind Cyber Scam Operations Targeting Americans",
       "url": "https://home.treasury.gov/news/press-releases/sb0624/"
     },
+    "https://home.treasury.gov/news/press-releases/sb0655/": {
+      "confidence": "high",
+      "content_hash": "ae7b8ab36fe995b4ddde42d5461843ef8de04c0a6e3540df52f0776620bdb275",
+      "first_seen_at": "2026-10-13T14:41:06Z",
+      "last_event": "new",
+      "last_notified_at": "2026-10-13T14:41:06Z",
+      "last_seen_at": "2026-10-13T14:41:06Z",
+      "matched_terms": [
+        "Republic of Korea",
+        "Korea"
+      ],
+      "published_at": "2026-10-13T14:00:00Z",
+      "source_id": "treasury_press_releases",
+      "source_label": "U.S. Treasury Press Releases",
+      "summary": "WASHINGTON—Today, Secretary of the Treasury Scott Bessent spoke virtually with Republic of Korea Deputy Prime Minister and Minister of Finance and Economy Lee Hyoung-il. Secretary Bessent congratulated Deputy Prime Minister Lee on his new role and underscored the importance of the U.S.–Republic of …",
+      "title": "READOUT: Secretary of the Treasury Scott Bessent’s Introductory Call with Republic of Korea Deputy Prime Minister Lee Hyoung-il",
+      "url": "https://home.treasury.gov/news/press-releases/sb0655/"
+    },
     "https://news.un.org/en/story/2026/04/1167409": {
       "confidence": "high",
       "content_hash": "10208b74fdc1748e4e1116804502cb6900bc835825db9d49c1e85bf80a048f7c",
@@ -468,7 +486,7 @@
       "first_seen_at": "2026-10-10T00:24:48Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-10-13T03:16:14Z",
+      "last_seen_at": "2026-10-13T14:41:06Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
@@ -1967,7 +1985,7 @@
       "first_seen_at": "2026-10-01T01:41:59Z",
       "last_event": "new",
       "last_notified_at": "2026-10-01T01:41:59Z",
-      "last_seen_at": "2026-10-13T03:16:14Z",
+      "last_seen_at": "2026-10-13T14:41:06Z",
       "matched_terms": [
         "North Korea",
         "Korea"
@@ -2076,7 +2094,7 @@
       "first_seen_at": "2026-09-29T19:42:25Z",
       "last_event": "new",
       "last_notified_at": "2026-09-29T19:42:25Z",
-      "last_seen_at": "2026-10-13T03:16:14Z",
+      "last_seen_at": "2026-10-13T14:41:06Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -2099,7 +2117,7 @@
       "first_seen_at": "2026-09-28T20:55:34Z",
       "last_event": "new",
       "last_notified_at": "2026-09-28T20:55:34Z",
-      "last_seen_at": "2026-10-13T03:16:14Z",
+      "last_seen_at": "2026-10-13T14:41:06Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -2119,7 +2137,7 @@
       "first_seen_at": "2026-09-24T18:44:40Z",
       "last_event": "new",
       "last_notified_at": "2026-09-24T18:44:40Z",
-      "last_seen_at": "2026-10-13T03:16:14Z",
+      "last_seen_at": "2026-10-13T14:41:06Z",
       "matched_terms": [
         "South Korean",
         "North Korea",
@@ -2161,7 +2179,7 @@
       "first_seen_at": "2026-09-22T01:21:15Z",
       "last_event": "new",
       "last_notified_at": "2026-09-22T01:21:15Z",
-      "last_seen_at": "2026-10-13T03:16:14Z",
+      "last_seen_at": "2026-10-13T14:41:06Z",
       "matched_terms": [
         "DPRK",
         "North Korea",
@@ -2183,7 +2201,7 @@
       "first_seen_at": "2026-10-02T19:39:38Z",
       "last_event": "new",
       "last_notified_at": "2026-10-02T19:39:38Z",
-      "last_seen_at": "2026-10-13T03:16:14Z",
+      "last_seen_at": "2026-10-13T14:41:06Z",
       "matched_terms": [
         "North Korea",
         "DPRK",
@@ -2203,7 +2221,7 @@
       "first_seen_at": "2026-10-01T14:01:02Z",
       "last_event": "new",
       "last_notified_at": "2026-10-01T14:01:02Z",
-      "last_seen_at": "2026-10-13T03:16:14Z",
+      "last_seen_at": "2026-10-13T14:41:06Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -2229,7 +2247,7 @@
       "first_seen_at": "2026-10-08T02:21:52Z",
       "last_event": "new",
       "last_notified_at": "2026-10-08T02:21:52Z",
-      "last_seen_at": "2026-10-13T03:16:14Z",
+      "last_seen_at": "2026-10-13T14:41:06Z",
       "matched_terms": [
         "North Korean",
         "South Korea",
@@ -2266,6 +2284,23 @@
       "summary": "ADB President Masato Kanda met Republic of Korea President Lee Jae Myung to strengthen cooperation on energy security, critical minerals, and artificial intelligence, drawing on Korean technology and financing to support investment across Asia and the Pacific.",
       "title": "ADB and Republic of Korea Deepen Ties on Energy, Critical Minerals, and Artificial Intelligence",
       "url": "https://www.adb.org/news/adb-and-republic-korea-deepen-ties-energy-critical-minerals-and-artificial-intelligence"
+    },
+    "https://www.bis.org/media-releases/20261013-basel-committee-finds-australia-japan-korea-switzerland-compliant-and-canada-united-kingdom": {
+      "confidence": "medium",
+      "content_hash": "4c28d403bda8c012f7f793806e27a3bbb8035ed1e82addee4a99c455c5c6f254",
+      "first_seen_at": "2026-10-13T14:41:06Z",
+      "last_event": "new",
+      "last_notified_at": null,
+      "last_seen_at": "2026-10-13T14:41:06Z",
+      "matched_terms": [
+        "Korea"
+      ],
+      "published_at": "2026-10-13T00:00:00Z",
+      "source_id": "bis_press_releases",
+      "source_label": "BIS Press Releases",
+      "summary": "The Basel Committee has published assessment reports on the implementation of its leverage ratio framework (LEV) in Australia, Canada, Japan, Korea, Switzerland and the United Kingdom. Australia, Japan, Korea and Switzerland are assessed as compliant; Canada and the United Kingdom are assessed as largely compliant. This publication concludes the first round of multi-jurisdictional assessments of the leverage ratio.",
+      "title": "Basel Committee finds Australia, Japan, Korea, Switzerland compliant,  and Canada, United Kingdom largely compliant with its leverage ratio  framework",
+      "url": "https://www.bis.org/media-releases/20261013-basel-committee-finds-australia-japan-korea-switzerland-compliant-and-canada-united-kingdom"
     },
     "https://www.bis.org/press/p260322.htm": {
       "confidence": "medium",
@@ -2626,7 +2661,7 @@
       "first_seen_at": "2026-09-23T18:44:02Z",
       "last_event": "new",
       "last_notified_at": "2026-09-23T18:44:02Z",
-      "last_seen_at": "2026-10-12T16:19:08Z",
+      "last_seen_at": "2026-10-13T14:41:06Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -2648,7 +2683,7 @@
       "first_seen_at": "2026-09-18T00:53:39Z",
       "last_event": "new",
       "last_notified_at": "2026-09-18T00:53:39Z",
-      "last_seen_at": "2026-10-13T03:16:14Z",
+      "last_seen_at": "2026-10-13T14:41:06Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -2780,7 +2815,7 @@
       "first_seen_at": "2026-10-01T14:01:02Z",
       "last_event": "new",
       "last_notified_at": "2026-10-01T14:01:02Z",
-      "last_seen_at": "2026-10-13T03:16:14Z",
+      "last_seen_at": "2026-10-13T14:41:06Z",
       "matched_terms": [
         "Republic of Korea",
         "Republic of Korea (ROK)",
@@ -4613,7 +4648,7 @@
       "first_seen_at": "2026-07-15T09:04:03Z",
       "last_event": "new",
       "last_notified_at": "2026-07-15T09:04:03Z",
-      "last_seen_at": "2026-10-13T03:16:14Z",
+      "last_seen_at": "2026-10-13T14:41:06Z",
       "matched_terms": [
         "Republic of Korea",
         "Seoul",
