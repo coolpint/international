@@ -125,7 +125,7 @@
       "first_seen_at": "2026-10-13T14:41:06Z",
       "last_event": "new",
       "last_notified_at": "2026-10-13T14:41:06Z",
-      "last_seen_at": "2026-10-14T12:33:43Z",
+      "last_seen_at": "2026-10-14T19:03:30Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
@@ -486,7 +486,7 @@
       "first_seen_at": "2026-10-10T00:24:48Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-10-14T12:33:43Z",
+      "last_seen_at": "2026-10-14T19:03:30Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
@@ -1985,7 +1985,7 @@
       "first_seen_at": "2026-10-01T01:41:59Z",
       "last_event": "new",
       "last_notified_at": "2026-10-01T01:41:59Z",
-      "last_seen_at": "2026-10-14T12:33:43Z",
+      "last_seen_at": "2026-10-14T19:03:30Z",
       "matched_terms": [
         "North Korea",
         "Korea"
@@ -2094,7 +2094,7 @@
       "first_seen_at": "2026-09-29T19:42:25Z",
       "last_event": "new",
       "last_notified_at": "2026-09-29T19:42:25Z",
-      "last_seen_at": "2026-10-14T12:33:43Z",
+      "last_seen_at": "2026-10-14T19:03:30Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -2117,7 +2117,7 @@
       "first_seen_at": "2026-09-28T20:55:34Z",
       "last_event": "new",
       "last_notified_at": "2026-09-28T20:55:34Z",
-      "last_seen_at": "2026-10-14T12:33:43Z",
+      "last_seen_at": "2026-10-14T19:03:30Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -2137,7 +2137,7 @@
       "first_seen_at": "2026-09-24T18:44:40Z",
       "last_event": "new",
       "last_notified_at": "2026-09-24T18:44:40Z",
-      "last_seen_at": "2026-10-14T12:33:43Z",
+      "last_seen_at": "2026-10-14T19:03:30Z",
       "matched_terms": [
         "South Korean",
         "North Korea",
@@ -2179,7 +2179,7 @@
       "first_seen_at": "2026-09-22T01:21:15Z",
       "last_event": "new",
       "last_notified_at": "2026-09-22T01:21:15Z",
-      "last_seen_at": "2026-10-14T12:33:43Z",
+      "last_seen_at": "2026-10-14T19:03:30Z",
       "matched_terms": [
         "DPRK",
         "North Korea",
@@ -2201,7 +2201,7 @@
       "first_seen_at": "2026-10-02T19:39:38Z",
       "last_event": "new",
       "last_notified_at": "2026-10-02T19:39:38Z",
-      "last_seen_at": "2026-10-14T12:33:43Z",
+      "last_seen_at": "2026-10-14T19:03:30Z",
       "matched_terms": [
         "North Korea",
         "DPRK",
@@ -2221,7 +2221,7 @@
       "first_seen_at": "2026-10-01T14:01:02Z",
       "last_event": "new",
       "last_notified_at": "2026-10-01T14:01:02Z",
-      "last_seen_at": "2026-10-14T12:33:43Z",
+      "last_seen_at": "2026-10-14T19:03:30Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -2247,7 +2247,7 @@
       "first_seen_at": "2026-10-08T02:21:52Z",
       "last_event": "new",
       "last_notified_at": "2026-10-08T02:21:52Z",
-      "last_seen_at": "2026-10-14T12:33:43Z",
+      "last_seen_at": "2026-10-14T19:03:30Z",
       "matched_terms": [
         "North Korean",
         "South Korea",
@@ -2291,7 +2291,7 @@
       "first_seen_at": "2026-10-13T14:41:06Z",
       "last_event": "new",
       "last_notified_at": null,
-      "last_seen_at": "2026-10-14T12:33:43Z",
+      "last_seen_at": "2026-10-14T19:03:30Z",
       "matched_terms": [
         "Korea"
       ],
@@ -2634,6 +2634,26 @@
       "title": "Emergency Episode: What's Happening with Korea? Military exercises, Kim Jong-un and Iran",
       "url": "https://www.csis.org/analysis/emergency-episode-whats-happening-korea-military-exercises-kim-jong-un-and-iran"
     },
+    "https://www.csis.org/analysis/human-rights-abuses-drone-production-yelabuga": {
+      "confidence": "high",
+      "content_hash": "873a6b283cca82542ce359342ee94784d68919e4f198d3e1c1a64cba2d81410c",
+      "first_seen_at": "2026-10-14T19:03:30Z",
+      "last_event": "new",
+      "last_notified_at": "2026-10-14T19:03:30Z",
+      "last_seen_at": "2026-10-14T19:03:30Z",
+      "matched_terms": [
+        "North Korea",
+        "North Korean",
+        "Korea",
+        "Korean"
+      ],
+      "published_at": "Wed, 14 Oct 2026 18:42:35 GMT",
+      "source_id": "csis_korea_chair",
+      "source_label": "CSIS Korea Chair",
+      "summary": "This report by the Center for Strategic and International Studies, in cooperation with the George W. Bush Institute, contends that the burgeoning labor force that powers the Alabuga drone factory has become a site of gross human rights abuses and human trafficking.",
+      "title": "Human Rights Abuses in Drone Production at Yelabuga",
+      "url": "https://www.csis.org/analysis/human-rights-abuses-drone-production-yelabuga"
+    },
     "https://www.csis.org/analysis/impact-iran-conflict-south-korea-numbers": {
       "confidence": "high",
       "content_hash": "9279f01baca9146c503c1c526e9058e86bd772cbb680d436bdb41577c5733464",
@@ -2815,7 +2835,7 @@
       "first_seen_at": "2026-10-13T20:25:47Z",
       "last_event": "new",
       "last_notified_at": "2026-10-13T20:25:47Z",
-      "last_seen_at": "2026-10-14T12:33:43Z",
+      "last_seen_at": "2026-10-14T19:03:30Z",
       "matched_terms": [
         "South Korea",
         "South Korean",
@@ -2836,7 +2856,7 @@
       "first_seen_at": "2026-10-01T14:01:02Z",
       "last_event": "new",
       "last_notified_at": "2026-10-01T14:01:02Z",
-      "last_seen_at": "2026-10-14T12:33:43Z",
+      "last_seen_at": "2026-10-14T19:03:30Z",
       "matched_terms": [
         "Republic of Korea",
         "Republic of Korea (ROK)",
@@ -3898,13 +3918,31 @@
       "title": "Uzbekistan launches new Social Insurance Law",
       "url": "https://www.ilo.org/resource/news/uzbekistan-launches-new-social-insurance-law"
     },
+    "https://www.justice.gov/opa/pr/bosnian-national-sentenced-violating-international-sanctions-against-north-korea": {
+      "confidence": "high",
+      "content_hash": "3bca08fc854110e87404145defa2ac5691d934cae16a34b5fa2bf42ba4835f87",
+      "first_seen_at": "2026-10-14T19:03:30Z",
+      "last_event": "new",
+      "last_notified_at": "2026-10-14T19:03:30Z",
+      "last_seen_at": "2026-10-14T19:03:30Z",
+      "matched_terms": [
+        "North Korea",
+        "Korea"
+      ],
+      "published_at": "Wed, 14 Oct 2026 12:00:00 +0000",
+      "source_id": "doj_press_releases",
+      "source_label": "DOJ Press Releases",
+      "summary": "A Bosnian national was sentenced to 60 months in federal prison after pleading guilty to federal export and sanctions violations by conspiring and attempting to broker the sale of Man Portable Air Defense Systems, which are anti-aircraft missiles.",
+      "title": "Bosnian National Sentenced for Violating International Sanctions Against North Korea",
+      "url": "https://www.justice.gov/opa/pr/bosnian-national-sentenced-violating-international-sanctions-against-north-korea"
+    },
     "https://www.justice.gov/opa/pr/justice-department-announces-coordinated-actions-combat-north-korean-remote-it-worker": {
       "confidence": "high",
       "content_hash": "e1dab7e8bf770a5b0faa09ce1b5667597db2dd9e413f7776d1c6928e8122ebc1",
       "first_seen_at": "2026-10-13T20:25:47Z",
       "last_event": "new",
       "last_notified_at": "2026-10-13T20:25:47Z",
-      "last_seen_at": "2026-10-14T12:33:43Z",
+      "last_seen_at": "2026-10-14T19:03:30Z",
       "matched_terms": [
         "North Korean",
         "North Korea",
@@ -4690,7 +4728,7 @@
       "first_seen_at": "2026-07-15T09:04:03Z",
       "last_event": "new",
       "last_notified_at": "2026-07-15T09:04:03Z",
-      "last_seen_at": "2026-10-14T12:33:43Z",
+      "last_seen_at": "2026-10-14T19:03:30Z",
       "matched_terms": [
         "Republic of Korea",
         "Seoul",
