@@ -125,7 +125,7 @@
       "first_seen_at": "2026-10-13T14:41:06Z",
       "last_event": "new",
       "last_notified_at": "2026-10-13T14:41:06Z",
-      "last_seen_at": "2026-10-15T12:17:37Z",
+      "last_seen_at": "2026-10-15T18:45:53Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
@@ -486,7 +486,7 @@
       "first_seen_at": "2026-10-10T00:24:48Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-10-15T12:17:37Z",
+      "last_seen_at": "2026-10-15T18:45:53Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
@@ -2195,6 +2195,120 @@
       "title": "What Health Diplomacy Can Offer US-DPRK Engagement",
       "url": "https://www.38north.org/2026/09/what-health-diplomacy-can-offer-us-dprk-engagement/"
     },
+    "https://www.38north.org/2026/10/closer-to-china-and-russia-firm-on-nuclear-status/": {
+      "confidence": "high",
+      "content_hash": "ae75f221c1bc449aeede571a55464d78b114f3981ae4211704f8eb929b2496ad",
+      "first_seen_at": "2026-10-15T18:45:53Z",
+      "last_event": "new",
+      "last_notified_at": "2026-10-15T18:45:53Z",
+      "last_seen_at": "2026-10-15T18:45:53Z",
+      "matched_terms": [
+        "South Korea",
+        "North Korea",
+        "North Korean",
+        "Korea",
+        "Korean",
+        "Pyongyang"
+      ],
+      "published_at": "Thu, 15 Oct 2026 12:55:23 +0000",
+      "source_id": "thirty_eight_north",
+      "source_label": "38 North",
+      "summary": "This article is from the sixth edition (July–September 2026) of 38 North’s quarterly product, ...\nThe post\nCloser to China and Russia, Firm on Nuclear Status\nappeared first on\n38 North\n.",
+      "title": "Closer to China and Russia, Firm on Nuclear Status",
+      "url": "https://www.38north.org/2026/10/closer-to-china-and-russia-firm-on-nuclear-status/"
+    },
+    "https://www.38north.org/2026/10/north-koreas-expanding-military-capabilities-across-domains/": {
+      "confidence": "high",
+      "content_hash": "f9705888f501e7ef17717dc9fbf1f6fd3cc53a9a862cb71134aa7467235d1e90",
+      "first_seen_at": "2026-10-15T18:45:53Z",
+      "last_event": "new",
+      "last_notified_at": "2026-10-15T18:45:53Z",
+      "last_seen_at": "2026-10-15T18:45:53Z",
+      "matched_terms": [
+        "North Korea",
+        "South Korea",
+        "South Korean",
+        "North Korean",
+        "inter-Korean",
+        "Korea",
+        "Korean",
+        "Pyongyang"
+      ],
+      "published_at": "Thu, 15 Oct 2026 12:55:02 +0000",
+      "source_id": "thirty_eight_north",
+      "source_label": "38 North",
+      "summary": "This article is from the sixth edition (July–September 2026) of 38 North’s quarterly product, ...\nThe post\nNorth Korea’s Expanding Military Capabilities Across Domains\nappeared first on\n38 North\n.",
+      "title": "North Korea’s Expanding Military Capabilities Across Domains",
+      "url": "https://www.38north.org/2026/10/north-koreas-expanding-military-capabilities-across-domains/"
+    },
+    "https://www.38north.org/2026/10/north-koreas-new-party-rules-and-the-limits-of-delegated-authority/": {
+      "confidence": "high",
+      "content_hash": "1d6a05e625bc09c5bdd7c5cd1d91c4f63d2772d85bf56f8c913bfb1f09add9d7",
+      "first_seen_at": "2026-10-15T18:45:53Z",
+      "last_event": "new",
+      "last_notified_at": "2026-10-15T18:45:53Z",
+      "last_seen_at": "2026-10-15T18:45:53Z",
+      "matched_terms": [
+        "North Korea",
+        "South Korea",
+        "South Korean",
+        "Korean Peninsula",
+        "inter-Korean",
+        "Korea",
+        "Korean"
+      ],
+      "published_at": "Thu, 15 Oct 2026 12:55:27 +0000",
+      "source_id": "thirty_eight_north",
+      "source_label": "38 North",
+      "summary": "This article is from the sixth edition (July–September 2026) of 38 North’s quarterly product, ...\nThe post\nNorth Korea’s New Party Rules and the Limits of Delegated Authority\nappeared first on\n38 North\n.",
+      "title": "North Korea’s New Party Rules and the Limits of Delegated Authority",
+      "url": "https://www.38north.org/2026/10/north-koreas-new-party-rules-and-the-limits-of-delegated-authority/"
+    },
+    "https://www.38north.org/2026/10/nuclear-stockpile-uncertainty-amidst-a-continuing-strategic-missile-launch-drought/": {
+      "confidence": "high",
+      "content_hash": "05baa7c7d2868ba216e95c493ea76e8e110d308f32c5505fe60bc01eecba6fac",
+      "first_seen_at": "2026-10-15T18:45:53Z",
+      "last_event": "new",
+      "last_notified_at": "2026-10-15T18:45:53Z",
+      "last_seen_at": "2026-10-15T18:45:53Z",
+      "matched_terms": [
+        "South Korea",
+        "Republic of Korea",
+        "North Korea",
+        "North Korean",
+        "Korea",
+        "Korean",
+        "ROK",
+        "Pyongyang"
+      ],
+      "published_at": "Thu, 15 Oct 2026 12:55:49 +0000",
+      "source_id": "thirty_eight_north",
+      "source_label": "38 North",
+      "summary": "This article is from the sixth edition (July–September 2026) of 38 North’s quarterly product, ...\nThe post\nNuclear Stockpile Uncertainty Amidst a Continuing Strategic Missile Launch Drought\nappeared first on\n38 North\n.",
+      "title": "Nuclear Stockpile Uncertainty Amidst a Continuing Strategic Missile Launch Drought",
+      "url": "https://www.38north.org/2026/10/nuclear-stockpile-uncertainty-amidst-a-continuing-strategic-missile-launch-drought/"
+    },
+    "https://www.38north.org/2026/10/private-cars-and-state-lotteries-in-north-korea/": {
+      "confidence": "high",
+      "content_hash": "cab7c58c817e5720e5c2854cc4d7f23a5c5fd1238ae3d1f80b4277cac43ae1c8",
+      "first_seen_at": "2026-10-15T18:45:53Z",
+      "last_event": "new",
+      "last_notified_at": "2026-10-15T18:45:53Z",
+      "last_seen_at": "2026-10-15T18:45:53Z",
+      "matched_terms": [
+        "North Korea",
+        "South Korean",
+        "Korea",
+        "Korean",
+        "Pyongyang"
+      ],
+      "published_at": "Thu, 15 Oct 2026 12:55:48 +0000",
+      "source_id": "thirty_eight_north",
+      "source_label": "38 North",
+      "summary": "This article is from the sixth edition (July–September 2026) of 38 North’s quarterly product, ...\nThe post\nPrivate Cars and State Lotteries in North Korea\nappeared first on\n38 North\n.",
+      "title": "Private Cars and State Lotteries in North Korea",
+      "url": "https://www.38north.org/2026/10/private-cars-and-state-lotteries-in-north-korea/"
+    },
     "https://www.38north.org/2026/10/several-naval-construction-projects-underway/": {
       "confidence": "high",
       "content_hash": "f394f8aebd3f8371c8d8f20e010192d4c962a0ceef370d40aed7424afaf277a7",
@@ -2214,6 +2328,26 @@
       "summary": "Construction has resumed in earnest on what is expected to become a flagship naval ...\nThe post\nSeveral Naval Construction Projects Underway\nappeared first on\n38 North\n.",
       "title": "Several Naval Construction Projects Underway",
       "url": "https://www.38north.org/2026/10/several-naval-construction-projects-underway/"
+    },
+    "https://www.38north.org/2026/10/sustaining-production-coal-regional-industry-and-a-domestic-wheat-economy/": {
+      "confidence": "high",
+      "content_hash": "8b6b02a9af18951fed0ab6a4291705109b1be438f8b71aa39ce11d5369a5e552",
+      "first_seen_at": "2026-10-15T18:45:53Z",
+      "last_event": "new",
+      "last_notified_at": "2026-10-15T18:45:53Z",
+      "last_seen_at": "2026-10-15T18:45:53Z",
+      "matched_terms": [
+        "North Korea",
+        "Korea",
+        "Korean",
+        "Pyongyang"
+      ],
+      "published_at": "Thu, 15 Oct 2026 12:55:07 +0000",
+      "source_id": "thirty_eight_north",
+      "source_label": "38 North",
+      "summary": "This article is from the sixth edition (July–September 2026) of 38 North’s quarterly product, ...\nThe post\nSustaining Production: Coal, Regional Industry, and a Domestic Wheat Economy\nappeared first on\n38 North\n.",
+      "title": "Sustaining Production: Coal, Regional Industry, and a Domestic Wheat Economy",
+      "url": "https://www.38north.org/2026/10/sustaining-production-coal-regional-industry-and-a-domestic-wheat-economy/"
     },
     "https://www.38north.org/2026/10/the-dangers-of-north-koreas-nuclear-status-quo/": {
       "confidence": "high",
@@ -2241,13 +2375,35 @@
       "title": "The Dangers of North Korea’s Nuclear Status Quo",
       "url": "https://www.38north.org/2026/10/the-dangers-of-north-koreas-nuclear-status-quo/"
     },
+    "https://www.38north.org/2026/10/the-korean-dmz-has-a-verification-problem/": {
+      "confidence": "high",
+      "content_hash": "935666673c237dd0d2e0d7dc1efeb0ceebd74f87f03c3067d080ee0baff49071",
+      "first_seen_at": "2026-10-15T18:45:53Z",
+      "last_event": "new",
+      "last_notified_at": "2026-10-15T18:45:53Z",
+      "last_seen_at": "2026-10-15T18:45:53Z",
+      "matched_terms": [
+        "South Korea",
+        "South Korean",
+        "North Korea",
+        "North Korean",
+        "Korean",
+        "Korea"
+      ],
+      "published_at": "Thu, 15 Oct 2026 17:27:04 +0000",
+      "source_id": "thirty_eight_north",
+      "source_label": "38 North",
+      "summary": "On October 5, South Korea’s military concluded that North Korean forces had deliberately ...\nThe post\nThe Korean DMZ Has a Verification Problem\nappeared first on\n38 North\n.",
+      "title": "The Korean DMZ Has a Verification Problem",
+      "url": "https://www.38north.org/2026/10/the-korean-dmz-has-a-verification-problem/"
+    },
     "https://www.38north.org/2026/10/what-seoul-and-kyiv-should-learn-from-the-north-korean-pow-dispute/": {
       "confidence": "high",
       "content_hash": "02f65de3cfb0e62ea13f6d8c449f8ead307b5595587be2fd9e1d2f079096cd51",
       "first_seen_at": "2026-10-08T02:21:52Z",
       "last_event": "new",
       "last_notified_at": "2026-10-08T02:21:52Z",
-      "last_seen_at": "2026-10-15T12:17:37Z",
+      "last_seen_at": "2026-10-15T18:45:53Z",
       "matched_terms": [
         "North Korean",
         "South Korea",
@@ -2291,7 +2447,7 @@
       "first_seen_at": "2026-10-13T14:41:06Z",
       "last_event": "new",
       "last_notified_at": null,
-      "last_seen_at": "2026-10-15T12:17:37Z",
+      "last_seen_at": "2026-10-15T18:45:53Z",
       "matched_terms": [
         "Korea"
       ],
@@ -2640,7 +2796,7 @@
       "first_seen_at": "2026-10-14T19:03:30Z",
       "last_event": "new",
       "last_notified_at": "2026-10-14T19:03:30Z",
-      "last_seen_at": "2026-10-15T12:17:37Z",
+      "last_seen_at": "2026-10-15T18:45:53Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -2835,7 +2991,7 @@
       "first_seen_at": "2026-10-13T20:25:47Z",
       "last_event": "new",
       "last_notified_at": "2026-10-13T20:25:47Z",
-      "last_seen_at": "2026-10-15T12:17:37Z",
+      "last_seen_at": "2026-10-15T18:45:53Z",
       "matched_terms": [
         "South Korea",
         "South Korean",
@@ -2856,7 +3012,7 @@
       "first_seen_at": "2026-10-01T14:01:02Z",
       "last_event": "new",
       "last_notified_at": "2026-10-01T14:01:02Z",
-      "last_seen_at": "2026-10-15T12:17:37Z",
+      "last_seen_at": "2026-10-15T18:45:53Z",
       "matched_terms": [
         "Republic of Korea",
         "Republic of Korea (ROK)",
@@ -3413,6 +3569,27 @@
       "title": "Water crisis grips Hyesan as tap water flows just once every five days",
       "url": "https://www.dailynk.com/english/water-crisis-grips-hyesan-as-tap-water-flows-just-once-every-five-days/"
     },
+    "https://www.fbi.gov/news/press-releases/justice-department-announces-coordinated-actions-to-combat-north-korean-remote-it-worker-schemes-affecting-more-than-70-us-companies": {
+      "confidence": "high",
+      "content_hash": "63a3b02f4195d3eafaad927e412516fdabdab7febf9b7ffbb1fd17fdee492013",
+      "first_seen_at": "2026-10-15T18:45:53Z",
+      "last_event": "new",
+      "last_notified_at": "2026-10-15T18:45:53Z",
+      "last_seen_at": "2026-10-15T18:45:53Z",
+      "matched_terms": [
+        "North Korean",
+        "North Korea",
+        "DPRK",
+        "Korean",
+        "Korea"
+      ],
+      "published_at": "Tue, 13 Oct 2026 20:33:00 +0000",
+      "source_id": "fbi_national_press_releases",
+      "source_label": "FBI National Press Releases",
+      "summary": "The Department of Justice announced coordinated actions against the Democratic People’s Republic of North Korea (DPRK) government’s schemes to fund its regime through remote information technology (IT) work for U.S. companies.",
+      "title": "Justice Department Announces Coordinated Actions to Combat North Korean Remote IT Worker Schemes Affecting More than 70 U.S. Companies",
+      "url": "https://www.fbi.gov/news/press-releases/justice-department-announces-coordinated-actions-to-combat-north-korean-remote-it-worker-schemes-affecting-more-than-70-us-companies"
+    },
     "https://www.fbi.gov/news/press-releases/two-us-nationals-sentenced-for-facilitating-fraudulent-remote-information-technology-worker-schemes-to-generate-revenue-for-the-democratic-peoples-republic-of-korea": {
       "confidence": "high",
       "content_hash": "ab0bcf2e3934ef1ebe7fca6584e144b2f22d14a363983663c40c35abf3a5d82d",
@@ -3924,7 +4101,7 @@
       "first_seen_at": "2026-10-14T19:03:30Z",
       "last_event": "new",
       "last_notified_at": "2026-10-14T19:03:30Z",
-      "last_seen_at": "2026-10-15T12:17:37Z",
+      "last_seen_at": "2026-10-15T18:45:53Z",
       "matched_terms": [
         "North Korea",
         "Korea"
@@ -4728,7 +4905,7 @@
       "first_seen_at": "2026-07-15T09:04:03Z",
       "last_event": "new",
       "last_notified_at": "2026-07-15T09:04:03Z",
-      "last_seen_at": "2026-10-15T12:17:37Z",
+      "last_seen_at": "2026-10-15T18:45:53Z",
       "matched_terms": [
         "Republic of Korea",
         "Seoul",
