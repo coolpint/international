@@ -1,6 +1,146 @@
 {
   "bootstrapped": true,
   "bootstrapped_at": "2026-03-07T09:13:17Z",
+  "collection_health": {
+    "adb_news": {
+      "delivered_signature": "healthy",
+      "observed_at": "2026-10-18T22:50:36Z",
+      "observed_signature": "healthy",
+      "status": "ok"
+    },
+    "aiib_news": {
+      "delivered_signature": "healthy",
+      "observed_at": "2026-10-18T22:50:36Z",
+      "observed_signature": "healthy",
+      "status": "ok"
+    },
+    "bis_press_releases": {
+      "delivered_signature": "healthy",
+      "observed_at": "2026-10-18T22:50:36Z",
+      "observed_signature": "healthy",
+      "status": "ok"
+    },
+    "cisa_north_korea_cyber_advisories": {
+      "delivered_signature": "599853e78618d145f1fa8e105fe355544b8efb97ea5cecad7f1d8887052e0ba4",
+      "observed_at": "2026-10-18T22:50:36Z",
+      "observed_signature": "599853e78618d145f1fa8e105fe355544b8efb97ea5cecad7f1d8887052e0ba4",
+      "status": "error"
+    },
+    "csis_korea_chair": {
+      "delivered_signature": "healthy",
+      "observed_at": "2026-10-18T22:50:36Z",
+      "observed_signature": "healthy",
+      "status": "ok"
+    },
+    "doj_press_releases": {
+      "delivered_signature": "healthy",
+      "observed_at": "2026-10-18T22:50:36Z",
+      "observed_signature": "healthy",
+      "status": "ok"
+    },
+    "ecb_press": {
+      "delivered_signature": "healthy",
+      "observed_at": "2026-10-18T22:50:36Z",
+      "observed_signature": "healthy",
+      "status": "ok"
+    },
+    "eib_press_releases": {
+      "delivered_signature": "healthy",
+      "observed_at": "2026-10-18T22:50:36Z",
+      "observed_signature": "healthy",
+      "status": "ok"
+    },
+    "fbi_national_press_releases": {
+      "delivered_signature": "healthy",
+      "observed_at": "2026-10-18T22:50:36Z",
+      "observed_signature": "healthy",
+      "status": "ok"
+    },
+    "ilo_newsroom": {
+      "delivered_signature": "healthy",
+      "observed_at": "2026-10-18T22:50:36Z",
+      "observed_signature": "healthy",
+      "status": "ok"
+    },
+    "rusi_publications": {
+      "delivered_signature": "healthy",
+      "observed_at": "2026-10-18T22:50:36Z",
+      "observed_signature": "healthy",
+      "status": "ok"
+    },
+    "sipri_publications": {
+      "delivered_signature": "healthy",
+      "observed_at": "2026-10-18T22:50:36Z",
+      "observed_signature": "healthy",
+      "status": "filtered"
+    },
+    "thirty_eight_north": {
+      "delivered_signature": "healthy",
+      "observed_at": "2026-10-18T22:50:36Z",
+      "observed_signature": "healthy",
+      "status": "ok"
+    },
+    "treasury_press_releases": {
+      "delivered_signature": "healthy",
+      "observed_at": "2026-10-18T22:50:36Z",
+      "observed_signature": "healthy",
+      "status": "ok"
+    },
+    "un_meetings_coverage": {
+      "delivered_signature": "18f68fa89b0e86b8abf7d76772d0772725b7cef4020e49c2c9f504d57e30baa0",
+      "observed_at": "2026-10-18T22:50:36Z",
+      "observed_signature": "18f68fa89b0e86b8abf7d76772d0772725b7cef4020e49c2c9f504d57e30baa0",
+      "status": "error"
+    },
+    "un_news_latest": {
+      "delivered_signature": "healthy",
+      "observed_at": "2026-10-18T22:50:36Z",
+      "observed_signature": "healthy",
+      "status": "ok"
+    },
+    "un_press_releases": {
+      "delivered_signature": "18f68fa89b0e86b8abf7d76772d0772725b7cef4020e49c2c9f504d57e30baa0",
+      "observed_at": "2026-10-18T22:50:36Z",
+      "observed_signature": "18f68fa89b0e86b8abf7d76772d0772725b7cef4020e49c2c9f504d57e30baa0",
+      "status": "error"
+    },
+    "unctad_publications": {
+      "delivered_signature": "599853e78618d145f1fa8e105fe355544b8efb97ea5cecad7f1d8887052e0ba4",
+      "observed_at": "2026-10-18T22:50:36Z",
+      "observed_signature": "599853e78618d145f1fa8e105fe355544b8efb97ea5cecad7f1d8887052e0ba4",
+      "status": "error"
+    },
+    "unrisd_news": {
+      "delivered_signature": "healthy",
+      "observed_at": "2026-10-18T22:50:36Z",
+      "observed_signature": "healthy",
+      "status": "ok"
+    },
+    "unrisd_publications": {
+      "delivered_signature": "healthy",
+      "observed_at": "2026-10-18T22:50:36Z",
+      "observed_signature": "healthy",
+      "status": "ok"
+    },
+    "ustr_press_releases": {
+      "delivered_signature": "healthy",
+      "observed_at": "2026-10-18T22:50:36Z",
+      "observed_signature": "healthy",
+      "status": "ok"
+    },
+    "world_bank_news": {
+      "delivered_signature": "healthy",
+      "observed_at": "2026-10-18T22:50:36Z",
+      "observed_signature": "healthy",
+      "status": "ok"
+    },
+    "wto_latest_news": {
+      "delivered_signature": "healthy",
+      "observed_at": "2026-10-18T22:50:36Z",
+      "observed_signature": "healthy",
+      "status": "ok"
+    }
+  },
   "collection_revisions": {
     "bis_press_releases": "2026-10-path-repair",
     "ilo_newsroom": "2026-10-path-repair",
@@ -125,7 +265,7 @@
       "first_seen_at": "2026-10-13T14:41:06Z",
       "last_event": "new",
       "last_notified_at": "2026-10-13T14:41:06Z",
-      "last_seen_at": "2026-10-18T17:40:15Z",
+      "last_seen_at": "2026-10-18T22:50:36Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
@@ -486,7 +626,7 @@
       "first_seen_at": "2026-10-10T00:24:48Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-10-18T17:40:15Z",
+      "last_seen_at": "2026-10-18T22:50:36Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
@@ -2201,7 +2341,7 @@
       "first_seen_at": "2026-10-15T18:45:53Z",
       "last_event": "new",
       "last_notified_at": "2026-10-15T18:45:53Z",
-      "last_seen_at": "2026-10-18T17:40:15Z",
+      "last_seen_at": "2026-10-18T22:50:36Z",
       "matched_terms": [
         "South Korea",
         "North Korea",
@@ -2223,7 +2363,7 @@
       "first_seen_at": "2026-10-15T18:45:53Z",
       "last_event": "new",
       "last_notified_at": "2026-10-15T18:45:53Z",
-      "last_seen_at": "2026-10-18T17:40:15Z",
+      "last_seen_at": "2026-10-18T22:50:36Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -2247,7 +2387,7 @@
       "first_seen_at": "2026-10-15T18:45:53Z",
       "last_event": "new",
       "last_notified_at": "2026-10-15T18:45:53Z",
-      "last_seen_at": "2026-10-18T17:40:15Z",
+      "last_seen_at": "2026-10-18T22:50:36Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -2270,7 +2410,7 @@
       "first_seen_at": "2026-10-15T18:45:53Z",
       "last_event": "new",
       "last_notified_at": "2026-10-15T18:45:53Z",
-      "last_seen_at": "2026-10-18T17:40:15Z",
+      "last_seen_at": "2026-10-18T22:50:36Z",
       "matched_terms": [
         "South Korea",
         "Republic of Korea",
@@ -2294,7 +2434,7 @@
       "first_seen_at": "2026-10-15T18:45:53Z",
       "last_event": "new",
       "last_notified_at": "2026-10-15T18:45:53Z",
-      "last_seen_at": "2026-10-18T17:40:15Z",
+      "last_seen_at": "2026-10-18T22:50:36Z",
       "matched_terms": [
         "North Korea",
         "South Korean",
@@ -2335,7 +2475,7 @@
       "first_seen_at": "2026-10-15T18:45:53Z",
       "last_event": "new",
       "last_notified_at": "2026-10-15T18:45:53Z",
-      "last_seen_at": "2026-10-18T17:40:15Z",
+      "last_seen_at": "2026-10-18T22:50:36Z",
       "matched_terms": [
         "North Korea",
         "Korea",
@@ -2381,7 +2521,7 @@
       "first_seen_at": "2026-10-15T18:45:53Z",
       "last_event": "new",
       "last_notified_at": "2026-10-15T18:45:53Z",
-      "last_seen_at": "2026-10-18T17:40:15Z",
+      "last_seen_at": "2026-10-18T22:50:36Z",
       "matched_terms": [
         "South Korea",
         "South Korean",
@@ -2403,7 +2543,7 @@
       "first_seen_at": "2026-10-08T02:21:52Z",
       "last_event": "new",
       "last_notified_at": "2026-10-08T02:21:52Z",
-      "last_seen_at": "2026-10-18T17:40:15Z",
+      "last_seen_at": "2026-10-18T22:50:36Z",
       "matched_terms": [
         "North Korean",
         "South Korea",
@@ -2447,7 +2587,7 @@
       "first_seen_at": "2026-10-13T14:41:06Z",
       "last_event": "new",
       "last_notified_at": null,
-      "last_seen_at": "2026-10-18T17:40:15Z",
+      "last_seen_at": "2026-10-18T22:50:36Z",
       "matched_terms": [
         "Korea"
       ],
@@ -2796,7 +2936,7 @@
       "first_seen_at": "2026-10-14T19:03:30Z",
       "last_event": "new",
       "last_notified_at": "2026-10-14T19:03:30Z",
-      "last_seen_at": "2026-10-18T17:40:15Z",
+      "last_seen_at": "2026-10-18T22:50:36Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -2991,7 +3131,7 @@
       "first_seen_at": "2026-10-13T20:25:47Z",
       "last_event": "new",
       "last_notified_at": "2026-10-13T20:25:47Z",
-      "last_seen_at": "2026-10-18T17:40:15Z",
+      "last_seen_at": "2026-10-18T22:50:36Z",
       "matched_terms": [
         "South Korea",
         "South Korean",
@@ -3012,7 +3152,7 @@
       "first_seen_at": "2026-10-01T14:01:02Z",
       "last_event": "new",
       "last_notified_at": "2026-10-01T14:01:02Z",
-      "last_seen_at": "2026-10-18T17:40:15Z",
+      "last_seen_at": "2026-10-18T22:50:36Z",
       "matched_terms": [
         "Republic of Korea",
         "Republic of Korea (ROK)",
@@ -3575,7 +3715,7 @@
       "first_seen_at": "2026-10-15T18:45:53Z",
       "last_event": "new",
       "last_notified_at": "2026-10-15T18:45:53Z",
-      "last_seen_at": "2026-10-18T17:40:15Z",
+      "last_seen_at": "2026-10-18T22:50:36Z",
       "matched_terms": [
         "North Korean",
         "North Korea",
@@ -3816,7 +3956,7 @@
       "first_seen_at": "2026-10-16T11:59:52Z",
       "last_event": "new",
       "last_notified_at": null,
-      "last_seen_at": "2026-10-18T17:40:15Z",
+      "last_seen_at": "2026-10-18T22:50:36Z",
       "matched_terms": [
         "Korea"
       ],
@@ -4922,7 +5062,7 @@
       "first_seen_at": "2026-07-15T09:04:03Z",
       "last_event": "new",
       "last_notified_at": "2026-07-15T09:04:03Z",
-      "last_seen_at": "2026-10-18T17:40:15Z",
+      "last_seen_at": "2026-10-18T22:50:36Z",
       "matched_terms": [
         "Republic of Korea",
         "Seoul",
@@ -5647,7 +5787,7 @@
       "first_seen_at": "2026-10-16T11:59:52Z",
       "last_event": "new",
       "last_notified_at": "2026-10-16T11:59:52Z",
-      "last_seen_at": "2026-10-18T17:40:15Z",
+      "last_seen_at": "2026-10-18T22:50:36Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
@@ -5751,6 +5891,7 @@
       "url": "https://www.wto.org/english/news_e/pres26_e/pr994_347_e.htm"
     }
   },
+  "notification_outbox": {},
   "source_bootstrap_migrated": true,
   "source_bootstrapped_at": {
     "adb_news": "2026-03-23T13:56:57Z",
