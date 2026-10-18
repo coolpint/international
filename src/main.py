@@ -11,7 +11,7 @@ from .monitor.notifier import send_telegram_message, send_telegram_text, telegra
 from .monitor.backfill import collect_backfill, REPAIR_SOURCES
 from .monitor.delivery import queue_item, queue_health, collection_status, deliver_outbox
 from .monitor.models import Classification, MonitoredItem, SourceConfig
-from .monitor.sources import collect_items
+from .monitor.sources import collect_items, CollectionResult
 from .monitor.state import append_history, append_run_log, load_state, register_item, save_state
 
 
@@ -124,21 +124,10 @@ def main() -> int:
             items = collect_items(source)
         except Exception as exc:
             print(f"[error] {source.id}: {exc}", file=sys.stderr)
-            source_reports.append(
-                {
-                    "source_id": source.id,
-                    "source_label": source.label,
-                    "enabled": True,
-                    "status": "error",
-                    "collected": 0,
-                    "candidates": None,
-                    "succeeded": 0,
-                    "failed": None,
-                    "filtered": None,
-                    "detail": str(exc),
-                }
-            )
-            continue
+            items = CollectionResult()
+            items.selected_url = source.list_url
+            items.failure_reason = str(exc)
+            items.candidates = items.failed = items.filtered = None
 
         collection_report = items.report()
         if items.status in {"ok", "empty", "filtered"}:
@@ -213,7 +202,8 @@ def main() -> int:
                                   lambda: save_state(Path(args.state), state))
         for event in events:
             record = state["items"][event["url"]]
-            event["notified"] = record.get("last_notified_at") == run_at
+            event["notified"] = (record.get("last_notified_at") == run_at
+                                 and record.get("last_notified_hash") == record.get("content_hash"))
     print(f"[delivery] {delivery}")
     if status != "success":
         print(f"::warning::Collection status: {status}; see source reports and persisted health alerts")

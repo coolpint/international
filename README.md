@@ -129,3 +129,17 @@ python3.12 -m venv .venv
 pip install -r requirements.txt
 python -m src.main --dry-run
 ```
+
+## 수집 장애와 재전송
+
+실행 로그의 `status`는 `success`, `partial_failure`, `total_failure`로 구분됩니다.
+부분 장애는 Actions 경고 및 소스별 로그에 남기고 정상 소스 처리를 계속합니다.
+전체 수집 실패 또는 Telegram 미처리 대기열이 있으면 종료 코드 1을 반환합니다.
+장애 알림은 동일 원인의 최초·변경·복구 때 전송하며, 실패한 자료/장애 알림은
+`data/state.json`의 `notification_outbox`에 보관해 다음 실행에서 재시도합니다.
+
+과거 오류 로그에 기록된 UN 원문 재수집은 Actions `mode=backfill` 또는
+`python -m src.main --backfill`을 사용합니다. 기존 한국 관련성 판정과 URL
+중복 제거를 적용합니다. 접근 불가로 발견하지 못한 전체 자료의 보충을 보장하지
+않습니다. 공식 경로 검증 결과와 남은 UN·UNCTAD·CISA 제약은
+[운영 수정 기록](docs/OPERATIONS_REPAIR.md)을 참조하세요.

@@ -85,6 +85,7 @@ class DeliveryTests(unittest.TestCase):
         self.assertEqual(collection_status([report(),report('ok',None)]),'partial_failure')
         self.assertEqual(collection_status([report('partial')]),'partial_failure')
         self.assertEqual(collection_status([report()]),'total_failure')
+        self.assertEqual(collection_status([{**report(), 'backfill':{'succeeded':1}}]),'partial_failure')
 
     def test_telegram_rejection_invalid_json_and_token_redaction(self):
         for response in ['{"ok":false}','not json']:
@@ -141,3 +142,28 @@ class FullRunTests(unittest.TestCase):
             with patch('src.main.parse_args',return_value=args), patch('src.main.load_sources',return_value=[source]), patch('src.main.load_keywords',return_value={}), patch('src.main.collect_items',side_effect=RuntimeError('HTTP 403')), patch('src.main.telegram_is_configured',return_value=True), patch('src.main.send_telegram_text') as send, contextlib.redirect_stdout(io.StringIO()),contextlib.redirect_stderr(io.StringIO()):
                 self.assertEqual(main.main(),1);send.assert_called_once()
             log=json.loads(next((root/'logs').glob('*')).read_text());self.assertEqual(log['status'],'total_failure')
+
+    def test_backfill_survives_listing_failure_and_preserves_high_confidence_dedupe(self):
+        source=SourceConfig('un_press_releases','UN','un_press_listing',True,'https://press.un.org/en/content/press-release',20)
+        item=article();item.source_id=source.id
+        recovered=CollectionResult();recovered.candidates=recovered.succeeded=1;recovered.append(item)
+        with tempfile.TemporaryDirectory() as d:
+            root=Path(d);p=root/'state.json'
+            save_state(p,{'bootstrapped':True,'source_bootstrapped_at':{source.id:'t0'},'items':{}})
+            args=argparse.Namespace(sources='',keywords='',state=str(p),history_dir=str(root/'history'),run_log_dir=str(root/'logs'),dry_run=False,test_telegram=False,backfill=True)
+            with patch('src.main.parse_args',return_value=args), patch('src.main.load_sources',return_value=[source]), patch('src.main.load_keywords',return_value={}), patch('src.main.classify_item',return_value=Classification(True,'high',['Korea'])), patch('src.main.collect_items',side_effect=RuntimeError('HTTP 406')), patch('src.main.collect_backfill',return_value=recovered) as backfill, patch('src.main.telegram_is_configured',return_value=True), patch('src.main.send_telegram_text'), patch('src.main.send_telegram_message') as send, contextlib.redirect_stdout(io.StringIO()), contextlib.redirect_stderr(io.StringIO()):
+                main.main();main.main()
+                self.assertEqual(backfill.call_count,2);send.assert_called_once()
+            logs=[json.loads(l) for l in next((root/'logs').glob('*')).read_text().splitlines()]
+            self.assertEqual(logs[0]['sources'][0]['backfill']['succeeded'],1)
+
+    def test_missing_telegram_keeps_eligible_delivery_pending(self):
+        source=SourceConfig('source','Source','rss_xml',True,'https://example.org/feed',20)
+        result=CollectionResult();result.candidates=result.succeeded=1;result.append(article())
+        with tempfile.TemporaryDirectory() as d:
+            root=Path(d);p=root/'state.json'
+            save_state(p,{'bootstrapped':True,'source_bootstrapped_at':{'source':'t0'},'items':{}})
+            args=argparse.Namespace(sources='',keywords='',state=str(p),history_dir=str(root/'history'),run_log_dir=str(root/'logs'),dry_run=False,test_telegram=False)
+            with patch('src.main.parse_args',return_value=args), patch('src.main.load_sources',return_value=[source]), patch('src.main.load_keywords',return_value={}), patch('src.main.classify_item',return_value=Classification(True,'high',['Korea'])), patch('src.main.collect_items',return_value=result), patch('src.main.telegram_is_configured',return_value=False), patch('src.main.send_telegram_message') as send, contextlib.redirect_stdout(io.StringIO()):
+                self.assertEqual(main.main(),1);send.assert_not_called()
+            self.assertEqual(len(load_state(p)['notification_outbox']),1)

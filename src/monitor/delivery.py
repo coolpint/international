@@ -18,7 +18,7 @@ def queue_item(state, item, event_type):
 def collection_status(reports):
     active = [r for r in reports if r.get('enabled')]
     failed = [r for r in active if r['status'] in {'error', 'partial'}]
-    if not active or (failed and len(failed) == len(active) and not any(r.get('succeeded', 0) for r in active)):
+    if not active or (failed and len(failed) == len(active) and not any(r.get('succeeded', 0) or r.get('backfill', {}).get('succeeded', 0) for r in active)):
         return 'total_failure'
     return 'partial_failure' if failed else 'success'
 

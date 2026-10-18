@@ -40,6 +40,7 @@ article URLs. Historical UNCTAD/CISA list failures did not record unknown articl
 URLs. Replaying observed failures cannot prove an exhaustive archive backfill.
 Longer listing outages can hide documents never observed by this monitor; those
 remain unquantified until the publisher provides accessible archive discovery.
+Replay also runs if the current type-specific list itself is unavailable.
 Nested `backfill` counters in each source's run report preserve replay outcomes.
 
 ## Status, alerts and delivery
@@ -70,7 +71,7 @@ cannot be eliminated by claiming exactly-once delivery.
 
 ## Verification
 
-66 offline regression tests pass, including production-config dry-run without
+68 offline regression tests pass, including production-config dry-run without
 network, disk writes or sends; partial/total failures; explicit partial CISA
 recovery; historical replay allowlisting; unchanged/absent item retry after state
 reload; newest-version replacement; Telegram rejection and token redaction;
