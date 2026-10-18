@@ -1,4 +1,4 @@
-# Collection and delivery repair (2026-10-19)
+# Collection and delivery repair (2026-10-18)
 
 This repair is based on clean main `68d2dc1`. No pre-existing working changes
 were present in the new checkout. Existing state, history, URL keys and keyword
@@ -81,3 +81,50 @@ reload; newest-version replacement; Telegram rejection and token redaction;
 first/change/recovery alert dedupe and failed-health retry. The same suite runs
 inside the operational Actions workflow before collection. Runtime verification
 results are recorded below after dispatch.
+
+
+## Actual Actions verification (2026-10-18 UTC)
+
+Code commits: initial repair `da513c1acf2d1cea455443fbcc5099f8c6352cd6`,
+listing-outage replay follow-up `e13f37c`, bounded replay
+`fbcc3f69ad0aef2a9c3f66f49fccb861ead3486a`.
+
+| Run | Regression tests | Collected | Relevant observations | New/updated | Telegram item / health sends | Failed / pending |
+|---|---:|---:|---:|---:|---:|---:|
+| [39173971218](https://github.com/coolpint/international/actions/runs/39173971218) | 66 passed | 243 | 18 | 0 / 0 | 0 / 4 | 0 / 0 |
+| [39174538700](https://github.com/coolpint/international/actions/runs/39174538700) | 69 passed | 243 | 17 | 0 / 0 | 0 / 0 | 0 / 0 |
+
+Both Actions jobs concluded success, while their persisted collection status is
+explicitly `partial_failure`, with warnings and four remaining failed sources.
+State commits are `81482a3` and `616ec7d`. The second run confirms that the same
+four incidents do not resend alerts after acknowledged Telegram delivery.
+Retry after failed Telegram delivery and recovery alerts were validated with
+isolated mocks/state reload, rather than deliberately breaking the live channel.
+
+Actual outstanding coverage:
+
+- UN Press: first run attempted 11 current article URLs and 20 other observed
+  historical URLs; all 31 returned HTTP 406. The initial historical set was 29,
+  and two additional current URLs enlarged the observed union to 31. Second run
+  retried 3 historical URLs, again 406, and deferred 17 already denied in run 1.
+- UN Meetings: the type-specific list itself returned HTTP 406. The final replay
+  still loaded the 49 historically observed article URLs, attempted 3 (all 406),
+  and explicitly deferred 46. These 46 were not individually retried in this
+  repair session. There is no claim of complete historical recovery.
+- UNCTAD list returned HTTP 403 in both runs. Unknown publications during the
+  discovery outage cannot be counted or backfilled without accessible official
+  archive discovery.
+- CISA list **and both known original articles** returned HTTP 403 in Actions.
+  Local access to those two pages succeeded, but their existing collector hashes
+  matched stored state (8,226 / 6,218 extracted body characters respectively).
+  This does not restore scheduled Actions discovery or prove an exhaustive
+  North Korea advisory archive. No duplicate baseline articles were sent.
+
+No missing article was successfully recovered for supplementary delivery. Four
+failure alerts were sent only to the existing configured Telegram destination.
+All original state URL keys and content hashes remained intact across both runs.
+One previously observed FBI article was absent from the second relevant-observation
+set; its existing state record was retained. No new recipients, credentials or
+security settings were introduced or changed. Complete collection recovery still
+requires a verified accessible official API/feed/archive or a publisher-approved
+access channel; restriction bypasses were neither attempted nor configured.
