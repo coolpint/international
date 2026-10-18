@@ -104,7 +104,7 @@ class RecoveryTests(unittest.TestCase):
         with patch('src.monitor.sources.fetch_text',side_effect=[RuntimeError('HTTP 403'),(detail,{})]):
             result=collect_items(source)
         self.assertEqual(result.status,'partial');self.assertEqual(len(result),1)
-        self.assertIn('only known',result.failure_reason);self.assertIn('HTTP 403',result.errors[0]['detail'])
+        self.assertIn('only for known',result.failure_reason);self.assertIn('HTTP 403',result.errors[0]['detail'])
 
     def test_backfill_uses_only_observed_official_urls_and_skips_current_attempts(self):
         source=SourceConfig('un_press_releases','UN','un_press_listing',True,'https://press.un.org/en/content/press-release',20)
@@ -117,6 +117,18 @@ class RecoveryTests(unittest.TestCase):
             with patch('src.monitor.sources.fetch_text',return_value=('<h1>Korea</h1><main><p>Republic of Korea cooperation article body is long enough for the extraction rule.</p></main>',{})) as fetch:
                 result=collect_backfill(source,Path(d),current)
             fetch.assert_called_once_with(urls[1]);self.assertEqual(result[0].url,urls[1])
+
+
+    def test_backfill_stops_after_three_access_denials_and_reports_deferred(self):
+        source=SourceConfig('un_press_releases','UN','un_press_listing',True,'https://press.un.org/en/content/press-release',20)
+        with tempfile.TemporaryDirectory() as d:
+            urls=[f'https://press.un.org/en/2026/{i}.doc.htm' for i in range(8)]
+            (Path(d)/'history.ndjson').write_text(json.dumps({'sources':[{'source_id':source.id,'errors':[{'url':u} for u in urls]}]})+'\n')
+            with patch('src.monitor.sources.fetch_text',side_effect=RuntimeError('HTTP 406')) as fetch:
+                result=collect_backfill(source,Path(d),CollectionResult())
+            self.assertEqual(fetch.call_count,3)
+            self.assertEqual((result.candidates,result.failed,result.deferred),(8,3,5))
+            self.assertEqual(result.status,'error')
 
 
 class FullRunTests(unittest.TestCase):

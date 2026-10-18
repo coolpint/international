@@ -31,6 +31,9 @@ rules are preserved. Operations use only the existing Actions Telegram secrets.
 Dispatch `monitor.yml` with `mode=backfill` (or `python -m src.main --backfill`).
 It runs normal collection and also replays distinct UN article URLs actually
 recorded in historical source errors, excluding URLs already attempted this run.
+Historical replay stops after three consecutive HTTP 403/406 responses and
+reports remaining candidates as deferred, rather than repeatedly loading a
+source that is still refusing requests. A later explicit backfill can retry.
 Only HTTPS canonical `press.un.org/en/*.doc.htm` URLs are accepted. All recovered
 articles pass the unchanged relevance/confidence rules and URL/content dedupe.
 Only existing high-confidence Korea-related new/updated items may be sent.
@@ -71,7 +74,7 @@ cannot be eliminated by claiming exactly-once delivery.
 
 ## Verification
 
-68 offline regression tests pass, including production-config dry-run without
+69 offline regression tests pass, including production-config dry-run without
 network, disk writes or sends; partial/total failures; explicit partial CISA
 recovery; historical replay allowlisting; unchanged/absent item retry after state
 reload; newest-version replacement; Telegram rejection and token redaction;

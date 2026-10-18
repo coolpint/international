@@ -3,6 +3,7 @@ from __future__ import annotations
 from datetime import datetime, timezone
 import html
 import json
+import re
 from urllib.parse import urljoin, urlparse
 from xml.etree import ElementTree
 
@@ -54,16 +55,23 @@ def _collect_details(source: SourceConfig, urls: list[str], result=None) -> Coll
     if not result.candidates:
         result.candidates = len(urls)
     result.deferred = max(0, len(urls) - source.max_items)
-    for url in urls[:source.max_items]:
+    access_failures = 0
+    stop_after = int(source.options.get("stop_after_access_failures", 0))
+    for index, url in enumerate(urls[:source.max_items]):
         try:
             item = _fetch_detail_item(source, url)
             if not item.title or not (item.summary or item.body):
                 raise ValueError("detail is missing title or article text")
             result.append(item)
             result.succeeded += 1
+            access_failures = 0
         except Exception as exc:
             result.failed += 1
             result.errors.append({"url": url, "detail": str(exc)})
+            access_failures = access_failures + 1 if re.search(r"HTTP (403|406)\b", str(exc)) else 0
+            if stop_after and access_failures >= stop_after:
+                result.deferred += len(urls[:source.max_items]) - index - 1
+                break
     return result
 
 
@@ -369,7 +377,7 @@ def _collect_html_listing_items(source: SourceConfig) -> CollectionResult:
             raise
         result = _collect_details(source, seeds)
         result.selected_url = source.list_url
-        result.failure_reason = "listing unavailable; only known official documents recovered"
+        result.failure_reason = "listing unavailable; recovery attempted only for known official documents"
         result.errors.insert(0, {"url": source.list_url, "detail": str(exc)})
         return result
     soup = BeautifulSoup(html_text, "html.parser")
