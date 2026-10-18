@@ -44,6 +44,17 @@ def register_item(state: dict, item: MonitoredItem, run_at: str, bootstrapping: 
     items = state.setdefault("items", {})
     existing = items.get(item.url)
     fingerprint = _content_hash(item)
+    if item.archive_fallback:
+        reference = {"advisory_id": "AA24-207A", "published_at": item.published_at,
+                     "retrieval_url": item.retrieval_url, "last_checked_at": run_at}
+        if existing is not None:
+            # A dated PDF is evidence of the original advisory, not evidence of
+            # a new revision of the blocked current web page. Preserve its hash
+            # and notification history; never resend a format-only change.
+            existing["archive_reference"] = reference
+            existing["last_seen_at"] = run_at
+            return None
+        bootstrapping = True  # This verified 2024 archive predates monitoring.
 
     record = {
         "source_id": item.source_id,
@@ -73,6 +84,8 @@ def register_item(state: dict, item: MonitoredItem, run_at: str, bootstrapping: 
         existing["matched_terms"] = item.matched_terms
         return None
 
+    if item.archive_fallback:
+        record["archive_reference"] = reference
     record["last_event"] = event_type
     items[item.url] = record
 

@@ -64,6 +64,10 @@ def _collect_details(source: SourceConfig, urls: list[str], result=None) -> Coll
                 raise ValueError("detail is missing title or article text")
             result.append(item)
             result.succeeded += 1
+            if item.archive_fallback:
+                result.failure_reason = "dated official archive available; current primary/discovery coverage remains incomplete"
+                result.errors.append({"url": url, "detail": item.retrieval_note,
+                                      "archive_url": item.retrieval_url})
             access_failures = 0
         except Exception as exc:
             result.failed += 1
@@ -204,7 +208,14 @@ def _extract_rusi_publication_links(base_url: str, soup: BeautifulSoup) -> list[
 
 
 def _fetch_detail_item(source: SourceConfig, url: str) -> MonitoredItem:
-    html, headers = fetch_text(url)
+    try:
+        html, headers = fetch_text(url)
+    except Exception as exc:
+        from .archive import collect_verified_archive
+        item = collect_verified_archive(source, url, exc)
+        if item is not None:
+            return item
+        raise
     soup = BeautifulSoup(html, "html.parser")
 
     title = _extract_title(soup)

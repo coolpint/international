@@ -250,7 +250,7 @@
       "default_matched_terms": [
         "North Korea cyber advisory source"
       ],
-      "note": "Official North Korea listing. If listing fails, retry its two verified official article links; report partial coverage because new advisory discovery remains unavailable.",
+      "note": "Official North Korea listing; retry two known canonical articles and the verified dated FBI AA24-207A archive only. Primary/discovery failures remain partial/error; the 2024 archive never creates new/update alerts.",
       "recovery_detail_urls": [
         "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-207a",
         "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-040a"

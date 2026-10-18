@@ -64,6 +64,7 @@ class OfflineDryRunTests(unittest.TestCase):
             with patch('sys.argv',argv), patch('src.monitor.sources.fetch_text',side_effect=request), \
                  patch('src.monitor.sources.fetch_json',side_effect=fetch_json), \
                  patch('src.monitor.sources.post_json',return_value={'access_token':'mock-only'}), \
+                 patch('src.monitor.archive.fetch_archive_bytes',side_effect=RuntimeError('HTTP 403 fixture archive')), \
                  patch('src.monitor.http.urlopen',side_effect=AssertionError('Network disabled')) as network, \
                  patch('src.main.telegram_is_configured',return_value=True), \
                  patch('src.main.send_telegram_message') as send, \

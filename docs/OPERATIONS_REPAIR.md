@@ -128,3 +128,37 @@ set; its existing state record was retained. No new recipients, credentials or
 security settings were introduced or changed. Complete collection recovery still
 requires a verified accessible official API/feed/archive or a publisher-approved
 access channel; restriction bypasses were neither attempted nor configured.
+
+
+## Follow-up: weekly reconciliation and verified archive
+
+The weekly report now reads the current `notification_outbox` and run-log
+`delivery` acknowledgments. Successful retries without a new history event count
+as actual item deliveries; health deliveries are listed separately. Modern
+history events are not counted again alongside run delivery totals. Legacy
+history-only rows remain supported. Current backlog is distinct from historical
+failed attempts, including attempts later recovered. Verified empty/fully
+filtered responses reset the zero streak; inconsistent or legacy unverified
+zeros remain warnings. A successfully delivered warning report exits 0 with an
+Actions warning. Explicit latest `total_failure` and report/API/Telegram errors
+still fail the check. Long reports are split within Telegram's UTF-16 size limit.
+The weekly workflow retains its original read-only permissions and secrets.
+
+The official co-published FBI AA24-207A PDF was verified as 30 readable pages,
+issued July 25, 2024, with matching advisory ID. The collector now tries this
+single explicitly allowlisted archive if its canonical CISA article is blocked:
+https://www.fbi.gov/file-repository/north-korea-cyber-group-conducts-global-espionage-campaign-to-advance-regimes-military-and-nuclear-programs-072524.pdf
+
+Its original CISA URL remains the dedupe key. A dated archive is never interpreted
+as a new revision of the current CISA article: existing content hash and previous
+notification timestamp are preserved, and only archive provenance/observation
+metadata is added. An unseen 2024 archive creates a baseline, not a new alert.
+Primary access errors and incomplete discovery remain explicit partial/error
+reports even when the archive succeeds. No archive was verified for AA23-040A;
+CISA CSAF was not substituted for the missing North Korea advisory scope.
+
+83 offline regression tests pass, including retry counting, legacy/modern
+non-double-counting, pending item and health failures, verified filtered zeros,
+warning-vs-total-failure exit semantics, Telegram-size splitting, advisory
+ID/date/page validation, canonical URL preservation and old-archive alert
+suppression. Live follow-up results are recorded after dispatch below.

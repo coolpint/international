@@ -27,6 +27,9 @@ class MonitoredItem:
     relevant: bool = False
     confidence: str = "low"
     matched_terms: list[str] = field(default_factory=list)
+    archive_fallback: bool = False
+    retrieval_url: str | None = None
+    retrieval_note: str | None = None
 
 
 @dataclass
