@@ -12,6 +12,7 @@ on:
         type: choice
         options:
           - monitor
+          - backfill
           - dry_run
           - test_telegram
 
@@ -40,6 +41,9 @@ jobs:
       - name: Install Dependencies
         run: pip install -r requirements.txt
 
+      - name: Run Regression Tests
+        run: python -m unittest discover -s tests
+
       - name: Run Monitor
         id: monitor
         env:
@@ -51,6 +55,8 @@ jobs:
           MODE="${WORKFLOW_MODE:-monitor}"
           if [ "$MODE" = "test_telegram" ]; then
             python -m src.main --test-telegram
+          elif [ "$MODE" = "backfill" ]; then
+            python -m src.main --backfill
           elif [ "$MODE" = "dry_run" ]; then
             python -m src.main --dry-run
           else

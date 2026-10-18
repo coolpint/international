@@ -69,7 +69,7 @@ class OfflineDryRunTests(unittest.TestCase):
                  patch('src.main.send_telegram_message') as send, \
                  contextlib.redirect_stdout(output),contextlib.redirect_stderr(errors):
                 code = main.main()
-            self.assertEqual(code,1)
+            self.assertEqual(code,0)
             send.assert_not_called()
             network.assert_not_called()
             self.assertEqual(list(root.iterdir()), [])

@@ -13,16 +13,18 @@
       "label": "UN Press Releases",
       "type": "un_press_listing",
       "enabled": true,
-      "list_url": "https://press.un.org/en/press-release",
-      "max_items": 20
+      "list_url": "https://press.un.org/en/content/press-release",
+      "max_items": 20,
+      "note": "Official navigation-linked type-specific listing. Article HTTP 406 remains an error; mixed summary RSS is not a full-text substitute."
     },
     {
       "id": "un_meetings_coverage",
       "label": "UN Meetings Coverage",
       "type": "un_press_listing",
       "enabled": true,
-      "list_url": "https://press.un.org/en/meetings-coverage",
-      "max_items": 20
+      "list_url": "https://press.un.org/en/content/meetings-coverage",
+      "max_items": 20,
+      "note": "Official navigation-linked type-specific listing. Article HTTP 406 remains an error; mixed summary RSS is not a full-text substitute."
     },
     {
       "id": "unctad_publications",
@@ -31,7 +33,7 @@
       "enabled": true,
       "list_url": "https://unctad.org/publications",
       "max_items": 12,
-      "note": "Featured publications are accessible; broader search endpoints currently sit behind a challenge page."
+      "note": "Official publications listing currently returns HTTP 403 challenge; no equivalent official full-text discovery path verified. Keep explicit errors; do not bypass restrictions."
     },
     {
       "id": "unrisd_news",
@@ -248,7 +250,11 @@
       "default_matched_terms": [
         "North Korea cyber advisory source"
       ],
-      "note": "Parses CISA's official North Korea state-sponsored cyber threat advisories page."
+      "note": "Official North Korea listing. If listing fails, retry its two verified official article links; report partial coverage because new advisory discovery remains unavailable.",
+      "recovery_detail_urls": [
+        "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-207a",
+        "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-040a"
+      ]
     },
     {
       "id": "thirty_eight_north",

@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import html
+import json
 import os
 
 from .http import post_form
@@ -121,7 +122,13 @@ def send_telegram_message(item: MonitoredItem, event_type: str) -> None:
         "parse_mode": "HTML",
         "disable_web_page_preview": "true",
     }
-    post_form(f"https://api.telegram.org/bot{token}/sendMessage", payload)
+    try:
+        response = json.loads(post_form(f"https://api.telegram.org/bot{token}/sendMessage", payload))
+        if not isinstance(response, dict) or response.get("ok") is not True:
+            raise ValueError("Telegram did not confirm acceptance")
+    except Exception:
+        # HTTP exception URLs contain the bot token. Never propagate them.
+        raise RuntimeError("Telegram delivery was not confirmed; queued for retry") from None
 
 
 def send_telegram_text(text: str) -> None:
@@ -136,4 +143,10 @@ def send_telegram_text(text: str) -> None:
         "text": text,
         "disable_web_page_preview": "true",
     }
-    post_form(f"https://api.telegram.org/bot{token}/sendMessage", payload)
+    try:
+        response = json.loads(post_form(f"https://api.telegram.org/bot{token}/sendMessage", payload))
+        if not isinstance(response, dict) or response.get("ok") is not True:
+            raise ValueError("Telegram did not confirm acceptance")
+    except Exception:
+        # HTTP exception URLs contain the bot token. Never propagate them.
+        raise RuntimeError("Telegram delivery was not confirmed; queued for retry") from None

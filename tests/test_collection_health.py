@@ -144,7 +144,7 @@ class MonitorIntegrationTests(unittest.TestCase):
                  patch('src.main.load_keywords',return_value={}), patch('src.main.collect_items',side_effect=results), \
                  patch('src.main.telegram_is_configured',return_value=True), \
                  patch('src.main.classify_item',return_value=main.Classification(True,'high',['Korea'])), \
-                 patch('src.main.send_telegram_message') as send, contextlib.redirect_stdout(io.StringIO()), contextlib.redirect_stderr(io.StringIO()):
+                 patch('src.main.send_telegram_message') as send, patch('src.main.send_telegram_text'), contextlib.redirect_stdout(io.StringIO()), contextlib.redirect_stderr(io.StringIO()):
                 code=main.main()
             send.assert_not_called()
             if dry_run:
@@ -161,11 +161,11 @@ class MonitorIntegrationTests(unittest.TestCase):
 
     def test_dry_run_has_no_writes_or_notifications_when_one_source_fails(self):
         code,_,_=self.run_monitor(True,[RuntimeError('HTTP 403'),self.good()])
-        self.assertEqual(code,1)
+        self.assertEqual(code,0)
 
     def test_failure_persists_normal_source_and_diagnostic_in_isolated_directory(self):
         code,state,report=self.run_monitor(False,[RuntimeError('HTTP 403'),self.good()])
-        self.assertEqual(code,1)
+        self.assertEqual(code,0)
         self.assertIn('https://example.org/good',state['items'])
         self.assertEqual([s['status'] for s in report['sources']],['error','ok'])
         self.assertNotIn('example',state['source_bootstrapped_at'])
@@ -174,7 +174,7 @@ class MonitorIntegrationTests(unittest.TestCase):
     def test_partial_source_cannot_complete_bootstrap(self):
         partial=self.good();partial.failed=1;partial.candidates=2
         code,state,report=self.run_monitor(False,[partial,self.good()])
-        self.assertEqual(code,1)
+        self.assertEqual(code,0)
         self.assertEqual(report['sources'][0]['status'],'partial')
         self.assertNotIn('example',state['source_bootstrapped_at'])
 

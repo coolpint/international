@@ -29,7 +29,7 @@ class CollectionResult(list[MonitoredItem]):
     @property
     def status(self) -> str:
         if self.failure_reason:
-            return "error"
+            return "partial" if self.succeeded else "error"
         if self.failed:
             return "partial" if self.succeeded else "error"
         if not self.candidates:
@@ -359,7 +359,19 @@ def _collect_html_listing_items(source: SourceConfig) -> CollectionResult:
     if not selector:
         raise RuntimeError(f"{source.id} is missing link_selector.")
 
-    html_text, _ = fetch_text(source.list_url)
+    try:
+        html_text, _ = fetch_text(source.list_url)
+    except Exception as exc:
+        # These URLs were linked by the official source-specific listing. This
+        # recovers known documents only; failed discovery remains a partial error.
+        seeds = _option_string_list(source, "recovery_detail_urls")
+        if not seeds:
+            raise
+        result = _collect_details(source, seeds)
+        result.selected_url = source.list_url
+        result.failure_reason = "listing unavailable; only known official documents recovered"
+        result.errors.insert(0, {"url": source.list_url, "detail": str(exc)})
+        return result
     soup = BeautifulSoup(html_text, "html.parser")
     raw_urls = _raw_listing_urls(source.list_url, soup, selector)
     urls = [url for url in raw_urls if _url_matches_source_filters(url, source)]

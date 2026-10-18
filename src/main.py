@@ -7,10 +7,12 @@ from pathlib import Path
 
 from .monitor.config import load_keywords, load_sources
 from .monitor.filtering import classify_item
-from .monitor.notifier import send_telegram_message, telegram_is_configured
+from .monitor.notifier import send_telegram_message, send_telegram_text, telegram_is_configured
+from .monitor.backfill import collect_backfill, REPAIR_SOURCES
+from .monitor.delivery import queue_item, queue_health, collection_status, deliver_outbox
 from .monitor.models import Classification, MonitoredItem, SourceConfig
 from .monitor.sources import collect_items
-from .monitor.state import append_history, append_run_log, load_state, mark_notified, register_item, save_state
+from .monitor.state import append_history, append_run_log, load_state, register_item, save_state
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
@@ -30,6 +32,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--history-dir", default=str(DEFAULT_HISTORY_DIR))
     parser.add_argument("--run-log-dir", default=str(DEFAULT_RUN_LOG_DIR))
     parser.add_argument("--dry-run", action="store_true")
+    parser.add_argument("--backfill", action="store_true", help="Replay historically observed failed official detail URLs")
     parser.add_argument("--test-telegram", action="store_true")
     return parser.parse_args()
 
@@ -74,8 +77,6 @@ def main() -> int:
         if not telegram_is_configured():
             print("[error] Telegram secrets not configured.", file=sys.stderr)
             return 1
-
-        from .monitor.notifier import send_telegram_text
 
         send_telegram_text("international monitor 테스트 메시지")
         print("[summary] sent test telegram message")
@@ -160,6 +161,13 @@ def main() -> int:
             }
         )
 
+        if getattr(args, "backfill", False) and source.id in REPAIR_SOURCES:
+            recovered = collect_backfill(source, Path(args.run_log_dir), items)
+            if recovered is not None:
+                source_reports[-1]["backfill"] = recovered.report()
+                print(f"[backfill] {source.id}: {recovered.report()}")
+                items.extend(recovered)
+
         for item in items:
             classification = classify_item(item, keywords)
             classification = _apply_source_default_classification(item, classification, source)
@@ -186,8 +194,6 @@ def main() -> int:
         should_notify = (
             not bootstrapping
             and not source_bootstrapping
-            and not args.dry_run
-            and telegram_ready
             and item.confidence == "high"
             and event["event"] in {"new", "updated"}
         )
@@ -195,16 +201,23 @@ def main() -> int:
         event["notified"] = False
 
         if should_notify:
-            try:
-                send_telegram_message(item, event["event"])
-            except Exception as exc:
-                event["notification_error"] = str(exc)
-                print(f"[warn] notify failed for {item.url}: {exc}", file=sys.stderr)
-            else:
-                mark_notified(state, item.url, run_at)
-                event["notified"] = True
+            queue_item(state, item, event["event"])
 
         events.append(event)
+
+    status = collection_status(source_reports)
+    queue_health(state, source_reports, run_at)
+    delivery = {"delivered": 0, "failed": 0, "pending": len(state.get("notification_outbox", {}))}
+    if not args.dry_run and telegram_ready:
+        delivery = deliver_outbox(state, run_at, send_telegram_message, send_telegram_text,
+                                  lambda: save_state(Path(args.state), state))
+        for event in events:
+            record = state["items"][event["url"]]
+            event["notified"] = record.get("last_notified_at") == run_at
+    print(f"[delivery] {delivery}")
+    if status != "success":
+        print(f"::warning::Collection status: {status}; see source reports and persisted health alerts")
+    print(f"[status] {status}")
 
     summary = {
         "relevant_items": len(relevant_items),
@@ -216,6 +229,8 @@ def main() -> int:
     }
     run_report = {
         "run_at": run_at,
+        "status": status,
+        "delivery": delivery,
         "bootstrapping": bootstrapping,
         "telegram_ready": telegram_ready,
         "sources": source_reports,
@@ -236,7 +251,7 @@ def main() -> int:
         append_run_log(Path(args.run_log_dir), run_report)
 
     print(f"[summary] {summary}")
-    return 1 if any(report["status"] in {"error", "partial"} for report in source_reports) else 0
+    return 1 if status == "total_failure" or (delivery["pending"] and not args.dry_run) else 0
 
 
 if __name__ == "__main__":
