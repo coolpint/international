@@ -162,3 +162,10 @@ non-double-counting, pending item and health failures, verified filtered zeros,
 warning-vs-total-failure exit semantics, Telegram-size splitting, advisory
 ID/date/page validation, canonical URL preservation and old-archive alert
 suppression. Live follow-up results are recorded after dispatch below.
+
+### Follow-up live results
+
+- [Monitor 39175567333](https://github.com/coolpint/international/actions/runs/39175567333), code `b3aef3b821c8a1ffc07e329d89b5c0a6fd7967c6`: 83 tests passed; 244 collected, 18 Korea-related observations, zero new/updated item events. CISA recovered the single dated AA24-207A FBI archive, reporting `partial` (1 success, 1 failed known article, discovery still 403). Overall collection remains `partial_failure`. Exactly one legitimate error→partial health-change alert was accepted; no article alert was sent; failures/pending both zero. State commit `7a3470e` contains archive ID/date/retrieval URL. The existing original content hash and notification timestamp remained unchanged, and all original URL keys/hashes were preserved.
+- [Weekly 39175808141](https://github.com/coolpint/international/actions/runs/39175808141): 83 tests passed; report sent successfully with `health-status=warning`, Actions warning annotation, and job conclusion `success`. The report retained 95 source-error observations in its 7-day window and the explicit outstanding UN/UNCTAD/CISA normal-access warnings. It counted 15 historical item deliveries and 5 health deliveries, current backlog 0. These are period totals, not 15 newly resent articles. SIPRI showed a healthy recent response and zero unverified-zero streak. Read-only workflow permissions and existing recipients/secrets were retained.
+
+The archive restores **one dated advisory body only**, not CISA discovery, the other known advisory, current web-page revisions, or the complete missing interval. UN/UNCTAD access restrictions and the 46 deferred meetings article URLs remain unresolved. No successful full historical backfill is claimed.
