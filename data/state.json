@@ -4,139 +4,139 @@
   "collection_health": {
     "adb_news": {
       "delivered_signature": "healthy",
-      "observed_at": "2026-10-21T01:08:11Z",
+      "observed_at": "2026-10-21T12:35:04Z",
       "observed_signature": "healthy",
       "status": "ok"
     },
     "aiib_news": {
       "delivered_signature": "healthy",
-      "observed_at": "2026-10-21T01:08:11Z",
+      "observed_at": "2026-10-21T12:35:04Z",
       "observed_signature": "healthy",
       "status": "ok"
     },
     "bis_press_releases": {
       "delivered_signature": "healthy",
-      "observed_at": "2026-10-21T01:08:11Z",
+      "observed_at": "2026-10-21T12:35:04Z",
       "observed_signature": "healthy",
       "status": "ok"
     },
     "cisa_north_korea_cyber_advisories": {
-      "delivered_signature": "4508e8c31f99d595e3c72ada2737c624e1630622c689c0ce849019a7c928f79c",
-      "observed_at": "2026-10-21T01:08:11Z",
-      "observed_signature": "4508e8c31f99d595e3c72ada2737c624e1630622c689c0ce849019a7c928f79c",
-      "status": "partial"
+      "delivered_signature": "healthy",
+      "observed_at": "2026-10-21T12:35:04Z",
+      "observed_signature": "healthy",
+      "status": "ok"
     },
     "csis_korea_chair": {
       "delivered_signature": "healthy",
-      "observed_at": "2026-10-21T01:08:11Z",
+      "observed_at": "2026-10-21T12:35:04Z",
       "observed_signature": "healthy",
       "status": "ok"
     },
     "doj_press_releases": {
       "delivered_signature": "healthy",
-      "observed_at": "2026-10-21T01:08:11Z",
+      "observed_at": "2026-10-21T12:35:04Z",
       "observed_signature": "healthy",
       "status": "ok"
     },
     "ecb_press": {
       "delivered_signature": "healthy",
-      "observed_at": "2026-10-21T01:08:11Z",
+      "observed_at": "2026-10-21T12:35:04Z",
       "observed_signature": "healthy",
       "status": "ok"
     },
     "eib_press_releases": {
       "delivered_signature": "healthy",
-      "observed_at": "2026-10-21T01:08:11Z",
+      "observed_at": "2026-10-21T12:35:04Z",
       "observed_signature": "healthy",
       "status": "ok"
     },
     "fbi_national_press_releases": {
       "delivered_signature": "healthy",
-      "observed_at": "2026-10-21T01:08:11Z",
+      "observed_at": "2026-10-21T12:35:04Z",
       "observed_signature": "healthy",
       "status": "ok"
     },
     "ilo_newsroom": {
       "delivered_signature": "healthy",
-      "observed_at": "2026-10-21T01:08:11Z",
+      "observed_at": "2026-10-21T12:35:04Z",
       "observed_signature": "healthy",
       "status": "ok"
     },
     "rusi_publications": {
       "delivered_signature": "healthy",
-      "observed_at": "2026-10-21T01:08:11Z",
+      "observed_at": "2026-10-21T12:35:04Z",
       "observed_signature": "healthy",
       "status": "ok"
     },
     "sipri_publications": {
-      "delivered_signature": "3a6cfe028b69c6cf0acfd3cad5d0ebe72df7cecf6e26a1fef324cb68a590ec78",
-      "observed_at": "2026-10-21T01:08:11Z",
-      "observed_signature": "3a6cfe028b69c6cf0acfd3cad5d0ebe72df7cecf6e26a1fef324cb68a590ec78",
-      "status": "error"
+      "delivered_signature": "healthy",
+      "observed_at": "2026-10-21T12:35:04Z",
+      "observed_signature": "healthy",
+      "status": "ok"
     },
     "thirty_eight_north": {
       "delivered_signature": "healthy",
-      "observed_at": "2026-10-21T01:08:11Z",
+      "observed_at": "2026-10-21T12:35:04Z",
       "observed_signature": "healthy",
       "status": "ok"
     },
     "treasury_press_releases": {
       "delivered_signature": "healthy",
-      "observed_at": "2026-10-21T01:08:11Z",
+      "observed_at": "2026-10-21T12:35:04Z",
       "observed_signature": "healthy",
       "status": "ok"
     },
     "un_meetings_coverage": {
-      "delivered_signature": "70a2f573a2304d191603671f77b69fd0e8aae7f462a4ad3b11bfcdde58a7cae4",
-      "observed_at": "2026-10-21T01:08:11Z",
-      "observed_signature": "70a2f573a2304d191603671f77b69fd0e8aae7f462a4ad3b11bfcdde58a7cae4",
-      "status": "partial"
+      "delivered_signature": "18f68fa89b0e86b8abf7d76772d0772725b7cef4020e49c2c9f504d57e30baa0",
+      "observed_at": "2026-10-21T12:35:04Z",
+      "observed_signature": "18f68fa89b0e86b8abf7d76772d0772725b7cef4020e49c2c9f504d57e30baa0",
+      "status": "error"
     },
     "un_news_latest": {
       "delivered_signature": "healthy",
-      "observed_at": "2026-10-21T01:08:11Z",
+      "observed_at": "2026-10-21T12:35:04Z",
       "observed_signature": "healthy",
       "status": "ok"
     },
     "un_press_releases": {
-      "delivered_signature": "70a2f573a2304d191603671f77b69fd0e8aae7f462a4ad3b11bfcdde58a7cae4",
-      "observed_at": "2026-10-21T01:08:11Z",
-      "observed_signature": "70a2f573a2304d191603671f77b69fd0e8aae7f462a4ad3b11bfcdde58a7cae4",
-      "status": "partial"
+      "delivered_signature": "18f68fa89b0e86b8abf7d76772d0772725b7cef4020e49c2c9f504d57e30baa0",
+      "observed_at": "2026-10-21T12:35:04Z",
+      "observed_signature": "18f68fa89b0e86b8abf7d76772d0772725b7cef4020e49c2c9f504d57e30baa0",
+      "status": "error"
     },
     "unctad_publications": {
       "delivered_signature": "healthy",
-      "observed_at": "2026-10-21T01:08:11Z",
+      "observed_at": "2026-10-21T12:35:04Z",
       "observed_signature": "healthy",
       "status": "ok"
     },
     "unrisd_news": {
       "delivered_signature": "healthy",
-      "observed_at": "2026-10-21T01:08:11Z",
+      "observed_at": "2026-10-21T12:35:04Z",
       "observed_signature": "healthy",
       "status": "ok"
     },
     "unrisd_publications": {
       "delivered_signature": "healthy",
-      "observed_at": "2026-10-21T01:08:11Z",
+      "observed_at": "2026-10-21T12:35:04Z",
       "observed_signature": "healthy",
       "status": "ok"
     },
     "ustr_press_releases": {
       "delivered_signature": "healthy",
-      "observed_at": "2026-10-21T01:08:11Z",
+      "observed_at": "2026-10-21T12:35:04Z",
       "observed_signature": "healthy",
       "status": "ok"
     },
     "world_bank_news": {
       "delivered_signature": "healthy",
-      "observed_at": "2026-10-21T01:08:11Z",
+      "observed_at": "2026-10-21T12:35:04Z",
       "observed_signature": "healthy",
       "status": "ok"
     },
     "wto_latest_news": {
       "delivered_signature": "healthy",
-      "observed_at": "2026-10-21T01:08:11Z",
+      "observed_at": "2026-10-21T12:35:04Z",
       "observed_signature": "healthy",
       "status": "ok"
     }
@@ -265,7 +265,7 @@
       "first_seen_at": "2026-10-13T14:41:06Z",
       "last_event": "new",
       "last_notified_at": "2026-10-13T14:41:06Z",
-      "last_seen_at": "2026-10-21T01:08:11Z",
+      "last_seen_at": "2026-10-21T12:35:04Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
@@ -626,7 +626,7 @@
       "first_seen_at": "2026-10-10T00:24:48Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-10-21T01:08:11Z",
+      "last_seen_at": "2026-10-21T12:35:04Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
@@ -2342,7 +2342,7 @@
       "last_event": "new",
       "last_notified_at": "2026-10-20T18:49:23Z",
       "last_notified_hash": "e1a842e0c9c8f65ec764c06feefecbb17029dc2702b92c6220ed80d0430fb4df",
-      "last_seen_at": "2026-10-21T01:08:11Z",
+      "last_seen_at": "2026-10-21T12:35:04Z",
       "matched_terms": [
         "South Korea",
         "North Korea",
@@ -2365,7 +2365,7 @@
       "last_event": "new",
       "last_notified_at": "2026-10-21T01:08:11Z",
       "last_notified_hash": "8a75abee7611f74c6fe2ccce4ff6592452087c5e7c2ecbc81bf325bb2bcc7dc4",
-      "last_seen_at": "2026-10-21T01:08:11Z",
+      "last_seen_at": "2026-10-21T12:35:04Z",
       "matched_terms": [
         "DPRK",
         "North Korea",
@@ -2387,7 +2387,7 @@
       "last_event": "new",
       "last_notified_at": "2026-10-19T20:17:36Z",
       "last_notified_hash": "711380d189016114796c9e617a4b25bc15f2f118a48122ebedcfb21420c5928f",
-      "last_seen_at": "2026-10-21T01:08:11Z",
+      "last_seen_at": "2026-10-21T12:35:04Z",
       "matched_terms": [
         "North Korea",
         "South Korean",
@@ -2454,7 +2454,7 @@
       "first_seen_at": "2026-10-15T18:45:53Z",
       "last_event": "new",
       "last_notified_at": "2026-10-15T18:45:53Z",
-      "last_seen_at": "2026-10-21T01:08:11Z",
+      "last_seen_at": "2026-10-21T12:35:04Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -2478,7 +2478,7 @@
       "last_event": "new",
       "last_notified_at": "2026-10-20T01:21:24Z",
       "last_notified_hash": "6ab2b6f8d362d475dbe2d4b29e25e3d2fe60356ede7b07f926691771e8ee846e",
-      "last_seen_at": "2026-10-21T01:08:11Z",
+      "last_seen_at": "2026-10-21T12:35:04Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -2502,7 +2502,7 @@
       "first_seen_at": "2026-10-15T18:45:53Z",
       "last_event": "new",
       "last_notified_at": "2026-10-15T18:45:53Z",
-      "last_seen_at": "2026-10-21T01:08:11Z",
+      "last_seen_at": "2026-10-21T12:35:04Z",
       "matched_terms": [
         "South Korea",
         "Republic of Korea",
@@ -2526,7 +2526,7 @@
       "first_seen_at": "2026-10-15T18:45:53Z",
       "last_event": "new",
       "last_notified_at": "2026-10-15T18:45:53Z",
-      "last_seen_at": "2026-10-21T01:08:11Z",
+      "last_seen_at": "2026-10-21T12:35:04Z",
       "matched_terms": [
         "North Korea",
         "South Korean",
@@ -2613,7 +2613,7 @@
       "first_seen_at": "2026-10-15T18:45:53Z",
       "last_event": "new",
       "last_notified_at": "2026-10-15T18:45:53Z",
-      "last_seen_at": "2026-10-21T01:08:11Z",
+      "last_seen_at": "2026-10-21T12:35:04Z",
       "matched_terms": [
         "South Korea",
         "South Korean",
@@ -2679,7 +2679,7 @@
       "first_seen_at": "2026-10-13T14:41:06Z",
       "last_event": "new",
       "last_notified_at": null,
-      "last_seen_at": "2026-10-21T01:08:11Z",
+      "last_seen_at": "2026-10-21T12:35:04Z",
       "matched_terms": [
         "Korea"
       ],
@@ -2730,7 +2730,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-06-19T00:20:04Z",
+      "last_seen_at": "2026-10-21T12:35:04Z",
       "matched_terms": [
         "DPRK",
         "South Korea",
@@ -2763,7 +2763,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-10-21T01:08:11Z",
+      "last_seen_at": "2026-10-21T12:35:04Z",
       "matched_terms": [
         "North Korea",
         "South Korean",
@@ -3034,7 +3034,7 @@
       "first_seen_at": "2026-10-14T19:03:30Z",
       "last_event": "new",
       "last_notified_at": "2026-10-14T19:03:30Z",
-      "last_seen_at": "2026-10-21T01:08:11Z",
+      "last_seen_at": "2026-10-21T12:35:04Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -3120,7 +3120,7 @@
       "last_event": "new",
       "last_notified_at": "2026-10-20T18:49:23Z",
       "last_notified_hash": "0dfd92c7f4e060314c96a0cd294a55a6dbefa59d5090ccbce496721c57667541",
-      "last_seen_at": "2026-10-21T01:08:11Z",
+      "last_seen_at": "2026-10-21T12:35:04Z",
       "matched_terms": [
         "North Korea",
         "Korea",
@@ -3249,7 +3249,7 @@
       "first_seen_at": "2026-10-13T20:25:47Z",
       "last_event": "new",
       "last_notified_at": "2026-10-13T20:25:47Z",
-      "last_seen_at": "2026-10-21T01:08:11Z",
+      "last_seen_at": "2026-10-21T12:35:04Z",
       "matched_terms": [
         "South Korea",
         "South Korean",
@@ -3270,7 +3270,7 @@
       "first_seen_at": "2026-10-01T14:01:02Z",
       "last_event": "new",
       "last_notified_at": "2026-10-01T14:01:02Z",
-      "last_seen_at": "2026-10-21T01:08:11Z",
+      "last_seen_at": "2026-10-21T12:35:04Z",
       "matched_terms": [
         "Republic of Korea",
         "Republic of Korea (ROK)",
@@ -4075,7 +4075,7 @@
       "first_seen_at": "2026-10-16T11:59:52Z",
       "last_event": "new",
       "last_notified_at": null,
-      "last_seen_at": "2026-10-21T01:08:11Z",
+      "last_seen_at": "2026-10-21T12:35:04Z",
       "matched_terms": [
         "Korea"
       ],
@@ -5181,7 +5181,7 @@
       "first_seen_at": "2026-07-15T09:04:03Z",
       "last_event": "new",
       "last_notified_at": "2026-07-15T09:04:03Z",
-      "last_seen_at": "2026-10-21T01:08:11Z",
+      "last_seen_at": "2026-10-21T12:35:04Z",
       "matched_terms": [
         "Republic of Korea",
         "Seoul",
@@ -5906,7 +5906,7 @@
       "first_seen_at": "2026-10-16T11:59:52Z",
       "last_event": "new",
       "last_notified_at": "2026-10-16T11:59:52Z",
-      "last_seen_at": "2026-10-21T01:08:11Z",
+      "last_seen_at": "2026-10-21T12:35:04Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
@@ -5925,7 +5925,7 @@
       "last_event": "new",
       "last_notified_at": "2026-10-19T14:10:19Z",
       "last_notified_hash": "5c86e87f71a8f96cd01002b62c35dbe5c5e8fab0c93f27c484c6c6b2b1c2d936",
-      "last_seen_at": "2026-10-21T01:08:11Z",
+      "last_seen_at": "2026-10-21T12:35:04Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
