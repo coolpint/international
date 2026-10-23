@@ -43,9 +43,16 @@ class UnPressTests(unittest.TestCase):
         self.assertEqual(item.url, self.url)
         self.assertEqual(item.published_at, "2026-10-21T12:00:00Z")
         self.assertIn("Paragraph 24:", item.body)
-        self.assertEqual(len(item.body.split("\n\n")), 25)
+        self.assertEqual(item.body.count("Paragraph "), 25)
         self.assertNotIn("Unrelated daily", item.body)
         self.assertIn("Paragraph 0:", item.summary)
+
+    def test_inline_markup_preserves_multiword_keyword_matching(self):
+        from src.monitor.filtering import classify_item
+        html = detail().replace('Republic of Korea', 'Republic of <em>Korea</em>')
+        item = parse_un_press_detail(source(), self.url, html)
+        self.assertIn('Republic of Korea', item.body)
+        self.assertTrue(classify_item(item, {'high_confidence_terms': ['Republic of Korea']}).relevant)
 
     def test_preserves_list_table_and_div_body_evidence(self):
         html = detail().replace("Republic of Korea", "Delegates").replace('</div></article>', """<ul><li>Republic of Korea list evidence</li></ul>

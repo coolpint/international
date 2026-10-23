@@ -99,7 +99,8 @@ def parse_un_press_detail(source, url, html):
     if body_node is not None:
         for unwanted in body_node.select("script, style, noscript, template"):
             unwanted.decompose()
-    body = body_node.get_text("\n\n", strip=True) if body_node else ""
+    # Inline emphasis must not split multiword search terms such as South Korea.
+    body = " ".join(body_node.get_text(" ", strip=True).split()) if body_node else ""
     first_paragraph = body_node.select_one("p") if body_node else None
     summary = first_paragraph.get_text(" ", strip=True) if first_paragraph else body[:500]
     if len(title) < 10 or len(body) < 100:
