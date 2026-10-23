@@ -190,6 +190,7 @@ def collect_un_press_items(source):
         _validate_url(source.list_url)
         with _browser_page() as page:
             urls, result.filtered = _listing_urls(source, _render(page, source.list_url))
+            result.document_urls = urls
             result.candidates = len(urls) + result.filtered
             if not urls:
                 if not result.candidates:
@@ -229,6 +230,7 @@ def collect_un_press_urls(source, urls):
     result.transport = "chromium-" + _browser_mode()
     result.selected_url = source.list_url
     urls = list(dict.fromkeys(urls))
+    result.document_urls = urls
     result.candidates = len(urls)
     if not urls:
         return result

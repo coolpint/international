@@ -288,3 +288,7 @@
 - 2차 Actions dry_run39941534866은 실행 success였지만 실제 UN 결과는 보도자료8/10, 회의보도7/10 partial이었다. 일부 문서의 article readiness timeout이 남았고 성공으로 숨기지 않았다. 상태 저장·전송은 없었다. 기존 headless로는 완전 복구가 아님을 확인했다.
 - constitution과 공식 CI 방식의 기본 headed Chromium+Xvfb 비교 검증을 협의했다. 동일 버전·공식 URL·깨끗한 profile·자동화 기본 설정을 유지하고 UI 디스플레이만 제공한다. 스텔스·토큰이식·개인세션 없이 실제 DOM을 얻는 경우에만 채택하며 지속 challenge는 실패로 둔다. transport를 chromium-headless/headed로 구분해 기록한다.
 - UN 본문 전체 분류와 함께 변경 지문도 두 소스에서만 전체 본문을 사용한다. 후반부 수정 누락을 막으며 다른 소스의 기존 지문 범위는 유지한다. 첫 전환 회차는 collection revision 기준선이 알림 폭주를 막는다. 후반부 변경 회귀까지114개 테스트가 통과했다.
+- headed Actions39942190535도 보도자료8/10·회의보도7/10 partial로 끝났고 headless와 같은5문서가 timeout이었다. constitution과 사전 중단 기준을 재확인하고 추가 배포판 변형을 중단했다. 기본 Chrome 실행이 금지여서가 아니라 반복 증거와 낮은 기대 정보에 따른 결정이다. 운영은 동일 성과의 기본 headless로 되돌려 불필요 Xvfb 의존을 제거한다.
+- 완전 복구는 확인되지 않았다. 전건406에서 검증된15개 원문을 수집하는 부분 복구를 반영하고 실패 URL·상태를 유지한다. 차단을 풀기 위한 스텔스·토큰이식·개인세션 복사는 사용하지 않는다.
+- partial이 지속될 때 repair revision 미확정 때문에 정상 새 문서 알림까지 매회 bootstrap으로 억제되는 문제를 발견했다. constitution과 기존UN2소스/기존bootstrap/정확repairrevision/검증본문1건이상에 한정해 알림 기준선만1회확정하기로 했다. 전체 건강은 partial로 유지한다. 알려진 미수집URL은 deferred_collection_baselines에 저장해 늦게복구돼도해당문서의최초알림을억제한다. 다른소스·새소스·다른revision·전건실패는예외를적용하지않는다.
+- 부분 기준선·지연 복구·후속 신규 알림·미전송 보존 회귀6개를 추가했다. 전체120개 테스트, 구문 컴파일·YAML 파싱·diff 검증이 통과했고 최종 review는 P1/P2 없음을 확인했다. 운영 반영 후 정상 실행과 원격 저장 로그/기준선/대기열을 재조회하고 실제 복구 범위를 기록한다.

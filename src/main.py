@@ -99,6 +99,7 @@ def main() -> int:
             )
     state["source_bootstrap_migrated"] = True
     collection_revisions = state.setdefault("collection_revisions", {})
+    deferred_baselines = state.setdefault("deferred_collection_baselines", {})
     successful_revisions = {}
     relevant_items = []
     events = []
@@ -138,6 +139,32 @@ def main() -> int:
         source_bootstrapping = bootstrapping or source.id not in source_bootstrapped_at or revision_changed
         if revision_changed and items.status == "ok" and items:
             successful_revisions[source.id] = revision
+        # A repaired, already-bootstrapped UN source can keep collecting valid
+        # documents while a few URLs remain blocked. Confirm only the observed
+        # notification baseline, without changing the source's partial status.
+        partial_un_baseline = (
+            revision_changed
+            and revision == "2026-10-un-browser"
+            and source.id in {"un_press_releases", "un_meetings_coverage"}
+            and source.type == "un_press_listing"
+            and source.options.get("render_javascript") is True
+            and source.id in source_bootstrapped_at
+            and not bootstrapping
+            and items.status == "partial"
+            and items.succeeded > 0
+            and bool(items)
+        )
+        if partial_un_baseline:
+            successful_revisions[source.id] = revision
+            known = set(getattr(items, "document_urls", []))
+            known.update(error["url"] for error in items.errors
+                         if isinstance(error, dict) and error.get("url"))
+            known.difference_update(item.url for item in items)
+            deferred_baselines[source.id] = sorted(known)
+            state.setdefault("collection_revision_baselines", {})[source.id] = {
+                "revision": revision, "run_at": run_at,
+                "collection_status": "partial", "verified_documents": len(items),
+            }
         if source_bootstrapping and not bootstrapping:
             print(f"[bootstrap] Baseline required for {source.id}; storing current relevant items without Slack alerts.")
         source_reports.append(
@@ -158,6 +185,9 @@ def main() -> int:
                 items.extend(recovered)
 
         for item in items:
+            deferred_baseline = item.url in deferred_baselines.get(source.id, [])
+            if deferred_baseline:
+                deferred_baselines[source.id].remove(item.url)
             classification = classify_item(item, keywords)
             classification = _apply_source_default_classification(item, classification, source)
             if not classification.relevant:
@@ -166,7 +196,7 @@ def main() -> int:
             item.relevant = True
             item.confidence = classification.confidence
             item.matched_terms = classification.matched_terms
-            relevant_items.append((item, source_bootstrapping))
+            relevant_items.append((item, source_bootstrapping or deferred_baseline))
 
     if bootstrapping:
         print("[bootstrap] First run detected; storing current relevant items without Slack alerts.")

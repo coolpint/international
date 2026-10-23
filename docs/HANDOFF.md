@@ -5,7 +5,12 @@
 주간 보고서의 채널 도착을 확인했습니다. 목적지는 cooltaku / #international-news / C0CBMH52MEV입니다.
 international 전용 웹훅만 사용하고 news-alert 자격정보는 재사용하지 않습니다.
 연결된 Slack 도구의 세션은 GitHub Actions용 웹훅을 대신하지 않습니다.
-수집은 UN 보도자료·회의 기록의 HTTP 406 때문에 부분 실패이며, Slack 전달 성공과 구분합니다.
+UN은 기본 Chromium 원문 렌더링으로 일부 복구했지만 상세 Client Challenge가 남아
+수집은 부분 실패입니다. Slack 전달 성공·Actions success와 구분합니다.
+
+UN 수집 런타임은 Playwright1.64.1/기본 Chromium이며 monitor는 Ubuntu24.04에 고정합니다.
+`python -m playwright install --with-deps --no-shell chromium`으로 동일 버전의 런타임을 준비합니다.
+부분 복구 알림 기준선과 알려진 미수집URL은 state에 별도 기록하며 원래 실패 이력은 보존합니다.
 
 ## Summary
 

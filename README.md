@@ -5,7 +5,9 @@
 
 2026-10-23 Slack 전환을 main에 반영했습니다. GitHub Actions의 테스트 메시지와
 주간 보고서가 `#international-news`에 도착한 것을 확인했습니다. 수집 건강은
-별도 기준이며 UN 보도자료·회의 기록의 기존 HTTP 406은 남아 있습니다.
+별도 기준입니다. UN 원문은 기본 Chromium으로 부분 복구했으며, 일부 상세 문서는
+Client Challenge 차단이 남아 있습니다. 2026-10-23 Actions 표본은 보도자료8/10,
+회의보도7/10이고 완전 복구가 아닙니다.
 
 UN 계열 기관, 국제기구, 싱크탱크, 미국 정부 보도자료의 한국(대한민국, 북한, 한반도 전체) 관련 업데이트를 감지해 Slack 채널로 보내는 GitHub Actions 기반 모니터입니다.
 
@@ -134,6 +136,12 @@ HTTP 성공 및 응답 본문 `ok` 확인 후 완료 처리합니다. 수락 직
 ```
 
 ## Local Dry Run
+
+UN 원문 렌더링에는 고정된 Playwright 버전에 맞는 Chromium이 필요합니다.
+의존성 설치 후 `python -m playwright install --no-shell chromium`을 실행합니다.
+Actions는 Ubuntu24.04에서 시스템 의존성을 포함해 설치합니다. 기본 headless를
+사용하며, 진단용 headed 실행은 Linux에서 Xvfb가 필요합니다. 탐지 회피 설정이나
+개인 브라우저 쿠키는 사용하지 않습니다.
 
 ```bash
 python3.12 -m venv .venv
