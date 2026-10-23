@@ -179,3 +179,14 @@ class FullRunTests(unittest.TestCase):
             with patch('src.main.parse_args',return_value=args), patch('src.main.load_sources',return_value=[source]), patch('src.main.load_keywords',return_value={}), patch('src.main.classify_item',return_value=Classification(True,'high',['Korea'])), patch('src.main.collect_items',return_value=result), patch('src.main.slack_is_configured',return_value=False), patch('src.main.send_slack_message') as send, contextlib.redirect_stdout(io.StringIO()):
                 self.assertEqual(main.main(),1);send.assert_not_called()
             self.assertEqual(len(load_state(p)['notification_outbox']),1)
+
+    def test_browser_backfill_uses_bounded_shared_renderer(self):
+        source = SourceConfig('un_press_releases', 'UN', 'un_press_listing', True,
+                              'https://press.un.org/en/content/press-release', 20,
+                              options={'render_javascript': True})
+        urls = ['https://press.un.org/en/2026/sgsm23342.doc.htm']
+        expected = CollectionResult()
+        with patch('src.monitor.backfill.observed_failures', return_value=urls), \
+             patch('src.monitor.un_press.collect_un_press_urls', return_value=expected) as renderer:
+            self.assertIs(collect_backfill(source, Path('/unused'), CollectionResult()), expected)
+        renderer.assert_called_once_with(source, urls)

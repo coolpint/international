@@ -267,3 +267,16 @@
 - 상태 자동 저장 커밋 35579fe를 확인했고 원격 state의 notification_channel=slack, outbox 0건을 재조회했다. 기존 항목 296건과 health 23개 기록에는 채널 표식을 소급하지 않았다. 이번 회차는 신규 뉴스·장애 메시지가 없어 그 두 경로의 실제 신규 메시지 도착까지 검증한 것은 아니다. 실제 수신은 test_slack 및 주간 보고로 검증했다.
 - 수신 증거: 테스트 https://cooltaku.slack.com/archives/C0CBMH52MEV/p1792744645061089 , 주간 보고 https://cooltaku.slack.com/archives/C0CBMH52MEV/p1792744352542569 . 일반 Slack connector 메시지 전송으로 대신하지 않고 실제 GitHub Actions 웹훅 경로의 메시지를 읽어 확인했다.
 - UN 두 소스의 HTTP 406은 별도 미해결 수집 장애다. 이 변경은 알림 채널 전환 완료이며 전체 소스 정상 복구 완료가 아니다. Telegram 시크릿 자체는 삭제하지 않았으나 운영 workflow에 주입하거나 fallback 호출하지 않는다.
+
+### 2026-10-23 UN HTTP 406 원인 진단 및 복구 착수
+
+- 사용자 요청으로 UN 보도자료·회의 기록의 반복 406 원인을 조사하고 실제 Actions에서 복구를 검증한다. 작업은 최신 main ef96ec7에서 codex/un-press-recovery 브랜치로 분리했다.
+- 동일 공식 상세 URL sgsm23342.doc.htm에 기존 Chrome122 UA 요청은 406/빈 본문을 반환했다. 표준 Accept HTML, 기본 urllib, curl은 HTTP 200이지만 3038바이트 Fastly Client Challenge 화면을 반환했다. 해당 화면은 JavaScript 활성화를 요구하며 기사 본문이 아니다. 헤더 교체만으로 복구할 수 없는 클라이언트 검증 계층 문제로 좁혔다. 서버 내부 규칙의 상세 조건은 확인할 수 없다.
+- 일반 인앱 브라우저 및 별도 깨끗한 기본 Chromium(channel=chromium, headless=True, context 기본값)에서 같은 원문의 실제 제목·SG/SM/23342·2026-10-21 날짜와 본문, 회의보도 범위별 목록을 읽었다. 로컬 성공만으로 Actions 복구를 선언하지 않는다.
+- constitution 에이전트와 정상 공개 브라우저의 JavaScript 실행은 도전 토큰 추출·주입이나 개인 세션 복사와 다름을 확인했다. 기본 설정을 유지하고 스텔스·탐지 회피·프록시 순환·토큰 외부 재사용 없이 정상 article DOM이 나올 때만 수집한다. 지속 challenge나 CAPTCHA는 실패로 남긴다.
+- UN 두 소스에만 브라우저 렌더링을 적용한다. 분류별 기존 목록, 공식 HTTPS 호스트, 원문 ID를 유지하고 제목·날짜·문서번호·전체 본문을 검증한다. 혼합 요약 RSS로 대체하지 않는다. HTTP 200 challenge 감지도 보강한다.
+- 수집 revision을 갱신해 최초 정상 회차의 현재 항목은 기준선으로 저장하고 과거 기사 일괄 알림을 억제한다. 그 다음 신규·수정부터 Slack 알림 대상이다. 과거 실패 기록은 보존한다.
+- 로컬 회귀·live 확인, review 후 원격 반영과 Actions dry_run/정상 실행, 저장된 source status/counts 확인을 완료 게이트로 둔다.
+- 1차 로컬 live는 보도자료 9/10, 회의보도 8/10 상세 본문 수집이었다. sgsm23339·gal3753은 기본 headless Chromium에서도 Client Challenge가 지속돼 실패로 유지했다. 다른 1건은 공식 URL gashc448.doc.htm 및 canonical에 비해 본문 기호가 GA/SHC/4448인 공식 slug 예외였다. 명시적 단일 alias와 정확한 canonical 일치를 요구하고 일반 ID 검증은 유지했다.
+- review에서 본문 p 이외 목록·표 누락과 backfill 연속 중단 조건 누락을 발견했다. 본문 컨테이너 전체 텍스트, 목록/상세 문서유형 검증, UN backfill 단일 브라우저 재사용과 20건 상한·3회 연속 실패 중단을 보강했다. 110개 테스트와 YAML 파싱·diff 검증이 통과했다.
+- 작업 브랜치의 Actions dry_run으로 깨끗한 Linux 환경의 전체 수집을 먼저 검증한다. 이 단계는 운영 main/data를 변경하거나 Slack에 발송하지 않는다. 차단이 남으면 성공으로 숨기지 않고 추가 원인을 확인한다.

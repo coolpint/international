@@ -71,6 +71,17 @@ class CollectionTests(unittest.TestCase):
         self.assertEqual(result.failed, 1)
         self.assertIn('challenge', result.errors[0]['detail'])
 
+    def test_http_200_fastly_challenge_is_not_an_article(self):
+        challenge = ('<title>Client Challenge</title>'
+                     '<link href="/_fs-ch-example/assets/font.woff2" rel="preload">'
+                     '<main><p>A required part of this site could not load. '
+                     'Please enable JavaScript to proceed with the client check.</p></main>')
+        result = self.collect_details([
+            ('<article><a href="/one">1</a></article>', {}), (challenge, {})])
+        self.assertEqual(result.status, 'error')
+        self.assertEqual(result.failed, 1)
+        self.assertIn('challenge', result.errors[0]['detail'])
+
     def rss(self, xml):
         source = SourceConfig('feed','Feed','rss_xml',True,'https://example.org/feed',20)
         with patch('src.monitor.sources.fetch_text', return_value=(xml, {})):

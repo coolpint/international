@@ -41,6 +41,10 @@ jobs:
       - name: Install Dependencies
         run: pip install -r requirements.txt
 
+      - name: Install UN Browser Runtime
+        if: ${{ github.event.inputs.mode != 'test_slack' }}
+        run: python -m playwright install --with-deps --no-shell chromium
+
       - name: Run Regression Tests
         run: python -m unittest discover -s tests
 

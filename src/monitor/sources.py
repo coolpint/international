@@ -96,6 +96,10 @@ def collect_items(source: SourceConfig) -> CollectionResult:
     if source.type == "rusi_publications":
         return _collect_rusi_publication_items(source)
 
+    if source.type == "un_press_listing" and source.options.get("render_javascript"):
+        from .un_press import collect_un_press_items
+        return collect_un_press_items(source)
+
     html_text, _ = fetch_text(source.list_url)
     soup = BeautifulSoup(html_text, "html.parser")
 
@@ -208,6 +212,9 @@ def _extract_rusi_publication_links(base_url: str, soup: BeautifulSoup) -> list[
 
 
 def _fetch_detail_item(source: SourceConfig, url: str) -> MonitoredItem:
+    if source.type == "un_press_listing" and source.options.get("render_javascript"):
+        from .un_press import fetch_un_press_detail
+        return fetch_un_press_detail(source, url)
     try:
         html, headers = fetch_text(url)
     except Exception as exc:
@@ -221,8 +228,8 @@ def _fetch_detail_item(source: SourceConfig, url: str) -> MonitoredItem:
     title = _extract_title(soup)
     if title.casefold().rstrip(".! ") in {
         "access denied", "just a moment", "not acceptable",
-        "attention required", "attention required | cloudflare",
-    } or soup.select_one('script[src*="/cdn-cgi/challenge-platform/"]'):
+        "attention required", "attention required | cloudflare", "client challenge",
+    } or soup.select_one('script[src*="/cdn-cgi/challenge-platform/"], link[href*="/_fs-ch-"]'):
         raise RuntimeError("detail response is an access restriction or challenge page")
     summary = _extract_summary(soup)
     body = _extract_body_text(soup)

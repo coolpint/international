@@ -15,7 +15,9 @@
       "enabled": true,
       "list_url": "https://press.un.org/en/content/press-release",
       "max_items": 20,
-      "note": "Official navigation-linked type-specific listing. Article HTTP 406 remains an error; mixed summary RSS is not a full-text substitute."
+      "note": "Official type-specific listing and full articles rendered with default Chromium. Persistent client challenges remain explicit errors; no summary feed substitution.",
+      "render_javascript": true,
+      "collection_revision": "2026-10-un-browser"
     },
     {
       "id": "un_meetings_coverage",
@@ -24,7 +26,9 @@
       "enabled": true,
       "list_url": "https://press.un.org/en/content/meetings-coverage",
       "max_items": 20,
-      "note": "Official navigation-linked type-specific listing. Article HTTP 406 remains an error; mixed summary RSS is not a full-text substitute."
+      "note": "Official type-specific listing and full articles rendered with default Chromium. Persistent client challenges remain explicit errors; no summary feed substitution.",
+      "render_javascript": true,
+      "collection_revision": "2026-10-un-browser"
     },
     {
       "id": "unctad_publications",

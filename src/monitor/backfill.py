@@ -34,6 +34,9 @@ def collect_backfill(source, log_directory, current):
     attempted = {item.url for item in current}
     attempted.update(e.get('url') for e in current.errors if isinstance(e, dict))
     urls = [url for url in urls if url not in attempted]
+    if urls and source.type == 'un_press_listing' and source.options.get('render_javascript'):
+        from .un_press import collect_un_press_urls
+        return collect_un_press_urls(source, urls)
     from dataclasses import replace
     result = _collect_details(replace(source, max_items=max(1, len(urls)),
             options={**source.options, "stop_after_access_failures": 3}), urls) if urls else None
