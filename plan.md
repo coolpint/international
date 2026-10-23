@@ -285,3 +285,5 @@
 - constitution은 URL/문서기호 불일치의 명시 예외를 전체 URL(연도 포함), 정확한 날짜2026-10-22, 분류 및 canonical 일치로 한정하도록 권고했고 반영했다. 공식 오타 여부는 추정이며 확인된 사실은 URL gashc448과 문서기호 GA/SHC/4448의 불일치다.
 - pip index에서 Playwright1.64.1이 현재 설치 가능한 최신으로 표시됐고 실제 설치에 성공했다. 해당 버전의 기본 Chromium156에서도 일부 로컬 상세 Client Challenge는 남아 실패로 유지했다. 개인 브라우저에서 보이는 문서를 Actions에서도 반드시 볼 수 있다고 가정하지 않는다.
 - 긴 UN 회의록의 한국 언급이 도입부4000자를 넘어 있어도 검출되도록 UN 두 소스만 본문 전체를 관련도 분류에 사용한다. 다른 소스의 기존4000자 범위는 유지한다. 인라인 태그와 본문 후반 표에만 있는 다단어 국가명 회귀를 포함해112개 테스트가 통과했다.
+- 2차 Actions dry_run39941534866은 실행 success였지만 실제 UN 결과는 보도자료8/10, 회의보도7/10 partial이었다. 일부 문서의 article readiness timeout이 남았고 성공으로 숨기지 않았다. 상태 저장·전송은 없었다. 기존 headless로는 완전 복구가 아님을 확인했다.
+- constitution과 공식 CI 방식의 기본 headed Chromium+Xvfb 비교 검증을 협의했다. 동일 버전·공식 URL·깨끗한 profile·자동화 기본 설정을 유지하고 UI 디스플레이만 제공한다. 스텔스·토큰이식·개인세션 없이 실제 DOM을 얻는 경우에만 채택하며 지속 challenge는 실패로 둔다. transport를 chromium-headless/headed로 구분해 기록한다.

@@ -38,13 +38,16 @@ class CollectionResult(list[MonitoredItem]):
         return "ok" if self else "filtered"
 
     def report(self) -> dict:
-        return {
+        report = {
             "status": self.status, "collected": len(self),
             "candidates": self.candidates, "succeeded": self.succeeded,
             "failed": self.failed, "filtered": self.filtered,
             "deferred": self.deferred, "errors": self.errors,
             "selected_url": self.selected_url, "detail": self.failure_reason,
         }
+        if getattr(self, "transport", None):
+            report["transport"] = self.transport
+        return report
 
 
 def _collect_details(source: SourceConfig, urls: list[str], result=None) -> CollectionResult:

@@ -1,6 +1,7 @@
 """Render official UN Press pages with an ordinary, short-lived Chromium context."""
 from contextlib import contextmanager
 from datetime import datetime
+import os
 import re
 from urllib.parse import urlsplit
 
@@ -15,6 +16,13 @@ TIMEOUT_MS = 30_000
 DOCUMENT_SYMBOL_ALIASES = {
     "https://press.un.org/en/2026/gashc448.doc.htm": ("gashc4448", "2026-10-22"),
 }
+
+
+def _browser_mode():
+    mode = os.environ.get("UN_PRESS_BROWSER_MODE", "headless")
+    if mode not in {"headless", "headed"}:
+        raise ValueError("Invalid UN Press browser mode")
+    return mode
 
 
 def _validate_url(url, *, detail=False):
@@ -32,7 +40,7 @@ def _validate_url(url, *, detail=False):
 def _browser_page():
     from playwright.sync_api import sync_playwright
     with sync_playwright() as playwright:
-        browser = playwright.chromium.launch(channel="chromium", headless=True)
+        browser = playwright.chromium.launch(channel="chromium", headless=_browser_mode() == "headless")
         try:
             context = browser.new_context()
             try:
@@ -176,6 +184,7 @@ def _listing_urls(source, html):
 def collect_un_press_items(source):
     from .sources import CollectionResult
     result = CollectionResult()
+    result.transport = "chromium-" + _browser_mode()
     result.selected_url = source.list_url
     try:
         _validate_url(source.list_url)
@@ -217,6 +226,7 @@ def collect_un_press_urls(source, urls):
     """Replay observed official document URLs in one ordinary browser session."""
     from .sources import CollectionResult
     result = CollectionResult()
+    result.transport = "chromium-" + _browser_mode()
     result.selected_url = source.list_url
     urls = list(dict.fromkeys(urls))
     result.candidates = len(urls)

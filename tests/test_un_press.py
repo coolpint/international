@@ -54,6 +54,17 @@ class UnPressTests(unittest.TestCase):
         self.assertIn('Republic of Korea', item.body)
         self.assertTrue(classify_item(item, {'high_confidence_terms': ['Republic of Korea']}).relevant)
 
+    def test_browser_modes_are_explicit_and_reported(self):
+        from src.monitor.un_press import _browser_mode
+        for mode in ('headless', 'headed'):
+            with patch.dict('os.environ', {'UN_PRESS_BROWSER_MODE': mode}):
+                self.assertEqual(_browser_mode(), mode)
+                result, _ = self.run_collection(1, iter([detail(symbol='SG/SM/0', document='sgsm0')]))
+                self.assertEqual(result.report()['transport'], 'chromium-' + mode)
+        with patch.dict('os.environ', {'UN_PRESS_BROWSER_MODE': 'unsupported'}):
+            with self.assertRaises(ValueError):
+                _browser_mode()
+
     def test_country_reference_after_long_meeting_introduction_is_classified(self):
         from src.monitor.filtering import classify_item
         html = detail(count=0).replace('</div></article>',

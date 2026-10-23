@@ -54,16 +54,17 @@ jobs:
           PYTHONUNBUFFERED: "1"
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
           WORKFLOW_MODE: ${{ github.event.inputs.mode }}
+          UN_PRESS_BROWSER_MODE: headed
         run: |
           MODE="${WORKFLOW_MODE:-monitor}"
           if [ "$MODE" = "test_slack" ]; then
             python -m src.main --test-slack
           elif [ "$MODE" = "backfill" ]; then
-            python -m src.main --backfill
+            xvfb-run --auto-servernum python -m src.main --backfill
           elif [ "$MODE" = "dry_run" ]; then
-            python -m src.main --dry-run
+            xvfb-run --auto-servernum python -m src.main --dry-run
           else
-            python -m src.main
+            xvfb-run --auto-servernum python -m src.main
           fi
 
       - name: Commit State Changes
