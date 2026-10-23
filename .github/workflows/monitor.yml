@@ -14,7 +14,7 @@ on:
           - monitor
           - backfill
           - dry_run
-          - test_telegram
+          - test_slack
 
 permissions:
   contents: write
@@ -48,13 +48,12 @@ jobs:
         id: monitor
         env:
           PYTHONUNBUFFERED: "1"
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
           WORKFLOW_MODE: ${{ github.event.inputs.mode }}
         run: |
           MODE="${WORKFLOW_MODE:-monitor}"
-          if [ "$MODE" = "test_telegram" ]; then
-            python -m src.main --test-telegram
+          if [ "$MODE" = "test_slack" ]; then
+            python -m src.main --test-slack
           elif [ "$MODE" = "backfill" ]; then
             python -m src.main --backfill
           elif [ "$MODE" = "dry_run" ]; then
@@ -64,7 +63,7 @@ jobs:
           fi
 
       - name: Commit State Changes
-        if: ${{ !cancelled() && (steps.monitor.outcome == 'success' || steps.monitor.outcome == 'failure') && github.event.inputs.mode != 'test_telegram' && github.event.inputs.mode != 'dry_run' }}
+        if: ${{ !cancelled() && (steps.monitor.outcome == 'success' || steps.monitor.outcome == 'failure') && github.event.inputs.mode != 'test_slack' && github.event.inputs.mode != 'dry_run' }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

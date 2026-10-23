@@ -138,20 +138,20 @@ class FullRunTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as d:
             root=Path(d);p=root/'state.json'
             save_state(p,{'bootstrapped':True,'source_bootstrapped_at':{'source':'t0'},'items':{}})
-            args=argparse.Namespace(sources='',keywords='',state=str(p),history_dir=str(root/'history'),run_log_dir=str(root/'logs'),dry_run=False,test_telegram=False)
-            with patch('src.main.parse_args',return_value=args), patch('src.main.load_sources',return_value=[source]), patch('src.main.load_keywords',return_value={}), patch('src.main.classify_item',return_value=Classification(True,'high',['Korea'])), patch('src.main.telegram_is_configured',return_value=True), patch('src.main.send_telegram_text'), contextlib.redirect_stdout(io.StringIO()):
-                with patch('src.main.collect_items',return_value=result), patch('src.main.send_telegram_message',side_effect=TimeoutError()) as send:
+            args=argparse.Namespace(sources='',keywords='',state=str(p),history_dir=str(root/'history'),run_log_dir=str(root/'logs'),dry_run=False,test_slack=False)
+            with patch('src.main.parse_args',return_value=args), patch('src.main.load_sources',return_value=[source]), patch('src.main.load_keywords',return_value={}), patch('src.main.classify_item',return_value=Classification(True,'high',['Korea'])), patch('src.main.slack_is_configured',return_value=True), patch('src.main.send_slack_text'), contextlib.redirect_stdout(io.StringIO()):
+                with patch('src.main.collect_items',return_value=result), patch('src.main.send_slack_message',side_effect=TimeoutError()) as send:
                     self.assertEqual(main.main(),1)
                 self.assertEqual(len(load_state(p)['notification_outbox']),1)
-                with patch('src.main.collect_items',return_value=CollectionResult()), patch('src.main.send_telegram_message') as send:
+                with patch('src.main.collect_items',return_value=CollectionResult()), patch('src.main.send_slack_message') as send:
                     self.assertEqual(main.main(),0);send.assert_called_once()
                 self.assertFalse(load_state(p)['notification_outbox'])
 
     def test_all_sources_unavailable_still_persists_and_returns_failure(self):
         with tempfile.TemporaryDirectory() as d:
-            root=Path(d);args=argparse.Namespace(sources='',keywords='',state=str(root/'state.json'),history_dir=str(root/'history'),run_log_dir=str(root/'logs'),dry_run=False,test_telegram=False)
+            root=Path(d);args=argparse.Namespace(sources='',keywords='',state=str(root/'state.json'),history_dir=str(root/'history'),run_log_dir=str(root/'logs'),dry_run=False,test_slack=False)
             source=SourceConfig('source','Source','rss_xml',True,'https://example.org/feed',20)
-            with patch('src.main.parse_args',return_value=args), patch('src.main.load_sources',return_value=[source]), patch('src.main.load_keywords',return_value={}), patch('src.main.collect_items',side_effect=RuntimeError('HTTP 403')), patch('src.main.telegram_is_configured',return_value=True), patch('src.main.send_telegram_text') as send, contextlib.redirect_stdout(io.StringIO()),contextlib.redirect_stderr(io.StringIO()):
+            with patch('src.main.parse_args',return_value=args), patch('src.main.load_sources',return_value=[source]), patch('src.main.load_keywords',return_value={}), patch('src.main.collect_items',side_effect=RuntimeError('HTTP 403')), patch('src.main.slack_is_configured',return_value=True), patch('src.main.send_slack_text') as send, contextlib.redirect_stdout(io.StringIO()),contextlib.redirect_stderr(io.StringIO()):
                 self.assertEqual(main.main(),1);send.assert_called_once()
             log=json.loads(next((root/'logs').glob('*')).read_text());self.assertEqual(log['status'],'total_failure')
 
@@ -162,8 +162,8 @@ class FullRunTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as d:
             root=Path(d);p=root/'state.json'
             save_state(p,{'bootstrapped':True,'source_bootstrapped_at':{source.id:'t0'},'items':{}})
-            args=argparse.Namespace(sources='',keywords='',state=str(p),history_dir=str(root/'history'),run_log_dir=str(root/'logs'),dry_run=False,test_telegram=False,backfill=True)
-            with patch('src.main.parse_args',return_value=args), patch('src.main.load_sources',return_value=[source]), patch('src.main.load_keywords',return_value={}), patch('src.main.classify_item',return_value=Classification(True,'high',['Korea'])), patch('src.main.collect_items',side_effect=RuntimeError('HTTP 406')), patch('src.main.collect_backfill',return_value=recovered) as backfill, patch('src.main.telegram_is_configured',return_value=True), patch('src.main.send_telegram_text'), patch('src.main.send_telegram_message') as send, contextlib.redirect_stdout(io.StringIO()), contextlib.redirect_stderr(io.StringIO()):
+            args=argparse.Namespace(sources='',keywords='',state=str(p),history_dir=str(root/'history'),run_log_dir=str(root/'logs'),dry_run=False,test_slack=False,backfill=True)
+            with patch('src.main.parse_args',return_value=args), patch('src.main.load_sources',return_value=[source]), patch('src.main.load_keywords',return_value={}), patch('src.main.classify_item',return_value=Classification(True,'high',['Korea'])), patch('src.main.collect_items',side_effect=RuntimeError('HTTP 406')), patch('src.main.collect_backfill',return_value=recovered) as backfill, patch('src.main.slack_is_configured',return_value=True), patch('src.main.send_slack_text'), patch('src.main.send_slack_message') as send, contextlib.redirect_stdout(io.StringIO()), contextlib.redirect_stderr(io.StringIO()):
                 main.main();main.main()
                 self.assertEqual(backfill.call_count,2);send.assert_called_once()
             logs=[json.loads(l) for l in next((root/'logs').glob('*')).read_text().splitlines()]
@@ -175,7 +175,7 @@ class FullRunTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as d:
             root=Path(d);p=root/'state.json'
             save_state(p,{'bootstrapped':True,'source_bootstrapped_at':{'source':'t0'},'items':{}})
-            args=argparse.Namespace(sources='',keywords='',state=str(p),history_dir=str(root/'history'),run_log_dir=str(root/'logs'),dry_run=False,test_telegram=False)
-            with patch('src.main.parse_args',return_value=args), patch('src.main.load_sources',return_value=[source]), patch('src.main.load_keywords',return_value={}), patch('src.main.classify_item',return_value=Classification(True,'high',['Korea'])), patch('src.main.collect_items',return_value=result), patch('src.main.telegram_is_configured',return_value=False), patch('src.main.send_telegram_message') as send, contextlib.redirect_stdout(io.StringIO()):
+            args=argparse.Namespace(sources='',keywords='',state=str(p),history_dir=str(root/'history'),run_log_dir=str(root/'logs'),dry_run=False,test_slack=False)
+            with patch('src.main.parse_args',return_value=args), patch('src.main.load_sources',return_value=[source]), patch('src.main.load_keywords',return_value={}), patch('src.main.classify_item',return_value=Classification(True,'high',['Korea'])), patch('src.main.collect_items',return_value=result), patch('src.main.slack_is_configured',return_value=False), patch('src.main.send_slack_message') as send, contextlib.redirect_stdout(io.StringIO()):
                 self.assertEqual(main.main(),1);send.assert_not_called()
             self.assertEqual(len(load_state(p)['notification_outbox']),1)

@@ -3,8 +3,10 @@ from __future__ import annotations
 import html
 import json
 import os
+import re
+from urllib.parse import urlsplit
 
-from .http import post_form
+from .http import post_form, request_text
 from .models import MonitoredItem
 
 
@@ -150,3 +152,87 @@ def send_telegram_text(text: str) -> None:
     except Exception:
         # HTTP exception URLs contain the bot token. Never propagate them.
         raise RuntimeError("Telegram delivery was not confirmed; queued for retry") from None
+
+
+def _slack_webhook_url() -> str:
+    url = os.environ.get("SLACK_WEBHOOK_URL", "")
+    if not url.strip():
+        raise RuntimeError("SLACK_WEBHOOK_URL is missing.")
+    try:
+        parsed = urlsplit(url)
+        valid = (
+            parsed.scheme == "https"
+            and parsed.netloc == "hooks.slack.com"
+            and not parsed.query
+            and not parsed.fragment
+            and "?" not in url
+            and "#" not in url
+            and re.fullmatch(r"/services/[A-Za-z0-9_-]+/[A-Za-z0-9_-]+/[A-Za-z0-9_-]+", parsed.path)
+            and not any(character.isspace() for character in url)
+        )
+    except ValueError:
+        valid = False
+    if not valid:
+        raise RuntimeError("SLACK_WEBHOOK_URL is invalid.") from None
+    return url
+
+
+def slack_is_configured() -> bool:
+    try:
+        _slack_webhook_url()
+    except RuntimeError:
+        return False
+    return True
+
+
+def build_slack_message(item: MonitoredItem, event_type: str) -> str:
+    title = " ".join(item.title.split())
+    summary = _trim_summary(item.summary or item.body)
+    matched = ", ".join(_translate_term(term) for term in item.matched_terms[:5])
+    source_label = SOURCE_LABELS_KO.get(item.source_label, item.source_label)
+    event_label = EVENT_LABELS_KO.get(event_type, event_type)
+    confidence_label = CONFIDENCE_LABELS_KO.get(item.confidence, item.confidence)
+    lines = [
+        f"[{source_label}] 한국 관련 {event_label} 알림",
+        f"관련도: {confidence_label}",
+    ]
+    if matched:
+        lines.append(f"근거 키워드: {matched}")
+    if item.published_at:
+        lines.append(f"발행: {item.published_at}")
+    if title:
+        lines.append(f"원문 제목: {title}")
+    if summary:
+        lines.append(f"원문 요약: {summary}")
+    lines.append(f"원문 URL: {item.url}")
+    return "\n".join(lines)
+
+
+def send_slack_message(item: MonitoredItem, event_type: str) -> None:
+    send_slack_text(build_slack_message(item, event_type))
+
+
+def send_slack_text(text: str) -> None:
+    url = _slack_webhook_url()
+    payload = {
+        # Slack reserves these characters for special parsing, including mentions.
+        "text": html.escape(text, quote=False),
+        "mrkdwn": False,
+        "parse": "none",
+        "link_names": False,
+        "unfurl_links": False,
+        "unfurl_media": False,
+    }
+    try:
+        response, _ = request_text(
+            url=url,
+            headers={"Content-Type": "application/json; charset=utf-8"},
+            method="POST",
+            data=json.dumps(payload, ensure_ascii=False).encode("utf-8"),
+            # The durable outbox owns retries; never repeat a webhook POST here.
+            retry_attempts=0,
+        )
+        if response.strip() != "ok":
+            raise ValueError("Slack did not confirm acceptance")
+    except Exception:
+        raise RuntimeError("Slack delivery was not confirmed; queued for retry") from None

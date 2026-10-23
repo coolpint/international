@@ -134,7 +134,7 @@ class MonitorIntegrationTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
             args = argparse.Namespace(sources='unused', keywords='unused',state=str(root/'state.json'),
-                history_dir=str(root/'history'),run_log_dir=str(root/'logs'),dry_run=dry_run,test_telegram=False)
+                history_dir=str(root/'history'),run_log_dir=str(root/'logs'),dry_run=dry_run,test_slack=False)
             if initial_state is not None:
                 (root/'state.json').write_text(json.dumps(initial_state))
             sources=[listing_source(), SourceConfig('normal','Normal','rss_xml',True,'https://example.org/feed',20)]
@@ -142,9 +142,9 @@ class MonitorIntegrationTests(unittest.TestCase):
                 sources[0].options['collection_revision'] = revision
             with patch('src.main.parse_args',return_value=args), patch('src.main.load_sources',return_value=sources), \
                  patch('src.main.load_keywords',return_value={}), patch('src.main.collect_items',side_effect=results), \
-                 patch('src.main.telegram_is_configured',return_value=True), \
+                 patch('src.main.slack_is_configured',return_value=True), \
                  patch('src.main.classify_item',return_value=main.Classification(True,'high',['Korea'])), \
-                 patch('src.main.send_telegram_message') as send, patch('src.main.send_telegram_text'), contextlib.redirect_stdout(io.StringIO()), contextlib.redirect_stderr(io.StringIO()):
+                 patch('src.main.send_slack_message') as send, patch('src.main.send_slack_text'), contextlib.redirect_stdout(io.StringIO()), contextlib.redirect_stderr(io.StringIO()):
                 code=main.main()
             send.assert_not_called()
             if dry_run:

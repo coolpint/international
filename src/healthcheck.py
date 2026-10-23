@@ -13,7 +13,7 @@ from zoneinfo import ZoneInfo
 from .monitor.http import fetch_json
 from .monitor.config import load_sources
 from .monitor.state import load_state
-from .monitor.notifier import send_telegram_text, telegram_is_configured
+from .monitor.notifier import send_slack_text, slack_is_configured
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
@@ -195,9 +195,9 @@ def build_health_report(
     if source_error_total:
         issues.append(f"최근 {days}일 소스 에러가 {source_error_total}회 있습니다")
     if notification_errors:
-        issues.append(f"최근 {days}일 텔레그램 전송 실패 시도가 {notification_errors}회 있습니다 (이후 재전송 성공 포함 가능)")
+        issues.append(f"최근 {days}일 알림 전송 실패 시도가 {notification_errors}회 있습니다 (이후 재전송 성공 포함 가능)")
     if pending:
-        issues.append(f"현재 텔레그램 전송 대기가 {pending}건 있습니다")
+        issues.append(f"현재 알림 전송 대기가 {pending}건 있습니다")
 
     if active_source_ids is not None:
         for source_id in sorted(active_source_ids - source_health.keys()):
@@ -249,8 +249,8 @@ def build_health_report(
     return HealthReport(status=status, message="\n".join(lines))
 
 
-def _telegram_chunks(text: str, limit: int = 3500) -> list[str]:
-    """Keep full reports within Telegram's UTF-16 message limit."""
+def _slack_chunks(text: str, limit: int = 3500) -> list[str]:
+    """Split full reports conservatively without losing text."""
     chunks = []
     while text:
         units = 0
@@ -288,11 +288,11 @@ def main() -> int:
     print(report.message)
 
     if not args.dry_run:
-        if not telegram_is_configured():
-            print("[error] Telegram secrets not configured.", file=sys.stderr)
+        if not slack_is_configured():
+            print("[error] Slack secrets not configured.", file=sys.stderr)
             return 1
-        for chunk in _telegram_chunks(report.message):
-            send_telegram_text(chunk)
+        for chunk in _slack_chunks(report.message):
+            send_slack_text(chunk)
     print(f"[health-status] {report.status}")
     if report.status != "healthy":
         annotation = "error" if report.status == "error" else "warning"

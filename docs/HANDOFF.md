@@ -1,12 +1,18 @@
 # Handoff Guide
 
+현재 기본 경로는 `/Users/sanghoon/codes/international`이며 Index 볼륨에 의존하지 않습니다.
+2026-10-23 Slack 전환 코드는 준비 단계입니다. 실제 운영 전환에는 전용 시크릿 등록,
+코드 반영, 전달 확인이 남아 있습니다. 목적지는 cooltaku / #international-news / C0CBMH52MEV입니다.
+international 전용 웹훅만 사용하고 news-alert 자격정보는 재사용하지 않습니다.
+연결된 Slack 도구의 세션은 GitHub Actions용 웹훅을 대신하지 않습니다.
+
 ## Summary
 
 이 프로젝트의 운영 런타임은 로컬 머신이 아니라 GitHub Actions입니다.
 
 - 운영 기준으로는 `로컬 머신 의존성 없음`
 - 개발과 수동 점검 기준으로는 `Python`, `git`, 네트워크, GitHub 인증이 필요`
-- 텔레그램 알림과 GitHub Actions 설정은 GitHub repository 설정에 의존
+- Slack 알림과 GitHub Actions 설정은 GitHub repository 설정에 의존
 
 즉, 다른 머신으로 옮겨도 저장소를 clone 하고 개발 도구만 맞추면 이어서 작업할 수 있습니다.
 
@@ -23,8 +29,7 @@
    - 스케줄 실행
    - 상태 파일 자동 커밋
 3. GitHub Secrets
-   - 텔레그램 봇 토큰
-   - 텔레그램 채널 ID
+   - international 전용 Slack Incoming Webhook
 
 ## Runtime Dependencies
 
@@ -36,9 +41,9 @@
 |---|---|---|
 | GitHub Actions | 필수 | 실제 스케줄 실행 주체 |
 | Repository write 권한 | 필수 | `data/` 변경사항을 Actions가 commit/push 함 |
-| GitHub Secrets | 필수 | `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID` |
+| GitHub Secrets | 필수 | `SLACK_WEBHOOK_URL` |
 | 외부 웹 접근 | 필수 | 공식 RSS/API/HTML 소스를 읽어야 함 |
-| Telegram Bot | 필수 | 봇이 채널 관리자여야 함 |
+| Slack Incoming Webhook | 필수 | #international-news에 연결한 international 전용 웹훅 |
 
 ### Local Development
 
@@ -86,9 +91,9 @@
 
 운영 상태는 repository 안의 `data/` 디렉터리에 저장됩니다.
 
-- [data/state.json](/Users/air/codes/UN-news/data/state.json)
-- [data/history/](/Users/air/codes/UN-news/data/history)
-- [data/run_logs/](/Users/air/codes/UN-news/data/run_logs)
+- [data/state.json](../data/state.json)
+- [data/history/](../data/history)
+- [data/run_logs/](../data/run_logs)
 
 중요한 점:
 
@@ -102,22 +107,21 @@
 
 GitHub repository 설정에 아래 secret 이 있어야 운영 알림이 동작합니다.
 
-- `TELEGRAM_BOT_TOKEN`
-- `TELEGRAM_CHAT_ID`
+- `SLACK_WEBHOOK_URL`
 
 설정 위치:
 
 - `Settings -> Secrets and variables -> Actions`
 
-### Telegram Requirements
+### Slack Requirements
 
-- 봇은 대상 채널의 관리자여야 함
-- `TELEGRAM_CHAT_ID`는 `@channel_username` 또는 `-100...` 형식 가능
+- 전용 Incoming Webhook이 #international-news(C0CBMH52MEV)에 연결돼 있어야 함
+- `SLACK_WEBHOOK_URL`은 Slack이 발급한 HTTPS Incoming Webhook URL임
 
 ### Workflow Files
 
-- [monitor.yml](/Users/air/codes/UN-news/.github/workflows/monitor.yml)
-- [weekly-healthcheck.yml](/Users/air/codes/UN-news/.github/workflows/weekly-healthcheck.yml)
+- [monitor.yml](../.github/workflows/monitor.yml)
+- [weekly-healthcheck.yml](../.github/workflows/weekly-healthcheck.yml)
 
 운영상 중요한 GitHub 의존성:
 
@@ -129,7 +133,7 @@ GitHub repository 설정에 아래 secret 이 있어야 운영 알림이 동작�
 
 ### 1. Weekly healthcheck repository fallback
 
-[src/healthcheck.py](/Users/air/codes/UN-news/src/healthcheck.py) 에는 로컬 실행 시 기본 repository fallback 이 있습니다.
+[src/healthcheck.py](../src/healthcheck.py) 에는 로컬 실행 시 기본 repository fallback 이 있습니다.
 
 - 기본값: `coolpint/international`
 
@@ -200,10 +204,9 @@ python -m src.main --dry-run
 위 단계에 더해서 아래를 반드시 확인해야 합니다.
 
 1. GitHub Actions 활성화
-2. `TELEGRAM_BOT_TOKEN` secret 복사
-3. `TELEGRAM_CHAT_ID` secret 복사
-4. Actions 가 branch 에 push 가능한지 확인
-5. healthcheck 용 repository context 확인
+2. 해당 채널의 international 전용 `SLACK_WEBHOOK_URL` secret 등록
+3. Actions 가 branch 에 push 가능한지 확인
+4. healthcheck 용 repository context 확인
 
 ## Operational Commands
 
@@ -219,12 +222,11 @@ python -m unittest discover -s tests
 python -m src.main --dry-run
 ```
 
-### Local Telegram Test
+### Local Slack Test
 
 ```bash
-export TELEGRAM_BOT_TOKEN=...
-export TELEGRAM_CHAT_ID=...
-python -m src.main --test-telegram
+export SLACK_WEBHOOK_URL=...
+python -m src.main --test-slack
 ```
 
 ### Local Weekly Health Check Dry Run

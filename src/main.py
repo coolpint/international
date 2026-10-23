@@ -7,7 +7,7 @@ from pathlib import Path
 
 from .monitor.config import load_keywords, load_sources
 from .monitor.filtering import classify_item
-from .monitor.notifier import send_telegram_message, send_telegram_text, telegram_is_configured
+from .monitor.notifier import send_slack_message, send_slack_text, slack_is_configured
 from .monitor.backfill import collect_backfill, REPAIR_SOURCES
 from .monitor.delivery import queue_item, queue_health, collection_status, deliver_outbox
 from .monitor.models import Classification, MonitoredItem, SourceConfig
@@ -33,7 +33,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--run-log-dir", default=str(DEFAULT_RUN_LOG_DIR))
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--backfill", action="store_true", help="Replay historically observed failed official detail URLs")
-    parser.add_argument("--test-telegram", action="store_true")
+    parser.add_argument("--test-slack", action="store_true")
     return parser.parse_args()
 
 
@@ -73,13 +73,13 @@ def main() -> int:
     args = parse_args()
     run_at = utc_now_iso()
 
-    if args.test_telegram:
-        if not telegram_is_configured():
-            print("[error] Telegram secrets not configured.", file=sys.stderr)
+    if args.test_slack:
+        if not slack_is_configured():
+            print("[error] Slack secrets not configured.", file=sys.stderr)
             return 1
 
-        send_telegram_text("international monitor 테스트 메시지")
-        print("[summary] sent test telegram message")
+        send_slack_text("international monitor 테스트 메시지")
+        print("[summary] sent test slack message")
         return 0
 
     sources = load_sources(Path(args.sources))
@@ -139,7 +139,7 @@ def main() -> int:
         if revision_changed and items.status == "ok" and items:
             successful_revisions[source.id] = revision
         if source_bootstrapping and not bootstrapping:
-            print(f"[bootstrap] Baseline required for {source.id}; storing current relevant items without Telegram alerts.")
+            print(f"[bootstrap] Baseline required for {source.id}; storing current relevant items without Slack alerts.")
         source_reports.append(
             {
                 "source_id": source.id,
@@ -169,11 +169,14 @@ def main() -> int:
             relevant_items.append((item, source_bootstrapping))
 
     if bootstrapping:
-        print("[bootstrap] First run detected; storing current relevant items without Telegram alerts.")
+        print("[bootstrap] First run detected; storing current relevant items without Slack alerts.")
 
-    telegram_ready = telegram_is_configured()
-    if not telegram_ready:
-        print("[info] Telegram secrets not configured; notifications will be skipped.")
+    # Retain existing delivery hashes as the cutover baseline; only pending/new
+    # items move to Slack. Historical Telegram deliveries are not replayed.
+    state["notification_channel"] = "slack"
+    slack_ready = slack_is_configured()
+    if not slack_ready:
+        print("[info] Slack secrets not configured; notifications will be skipped.")
 
     for item, source_bootstrapping in relevant_items:
         event = register_item(state, item, run_at, bootstrapping=bootstrapping or source_bootstrapping)
@@ -197,8 +200,8 @@ def main() -> int:
     status = collection_status(source_reports)
     queue_health(state, source_reports, run_at)
     delivery = {"delivered": 0, "failed": 0, "pending": len(state.get("notification_outbox", {}))}
-    if not args.dry_run and telegram_ready:
-        delivery = deliver_outbox(state, run_at, send_telegram_message, send_telegram_text,
+    if not args.dry_run and slack_ready:
+        delivery = deliver_outbox(state, run_at, send_slack_message, send_slack_text,
                                   lambda: save_state(Path(args.state), state))
         for event in events:
             record = state["items"][event["url"]]
@@ -222,7 +225,8 @@ def main() -> int:
         "status": status,
         "delivery": delivery,
         "bootstrapping": bootstrapping,
-        "telegram_ready": telegram_ready,
+        "slack_ready": slack_ready,
+        "notification_channel": "slack",
         "sources": source_reports,
         "summary": summary,
     }

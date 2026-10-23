@@ -65,7 +65,7 @@ def queue_health(state, reports, run_at):
             continue
         label = report.get('source_label', source_id)
         transition = '최초 장애' if not previous else ('장애 변경' if failed else '복구')
-        # A pending incident may never have reached Telegram; current condition
+        # A pending incident may never have reached the notification service; current condition
         # supersedes it so a recovery is never followed by a stale failure alert.
         text = (f'international 수집 {transition}: {label}\n'
                 f'전체 판정: {overall}; 소스 판정: {report["status"]}\n'
@@ -80,7 +80,7 @@ def deliver_outbox(state, run_at, send_item, send_text, checkpoint):
     delivered = failed = 0
     counts = {"item_delivered": 0, "health_delivered": 0}
     # Persist before the first external side effect. At-least-once delivery:
-    # a process loss after Telegram accepts but before save can duplicate a send.
+    # a process loss after the notification service accepts but before save can duplicate a send.
     checkpoint()
     for key, entry in list(outbox.items()):
         try:
@@ -91,7 +91,7 @@ def deliver_outbox(state, run_at, send_item, send_text, checkpoint):
         except Exception as exc:
             entry['attempts'] = entry.get('attempts', 0) + 1
             entry['last_attempt_at'] = run_at
-            # Transport exception messages may contain the bot token URL.
+            # Transport exception messages may contain the credential URL.
             entry['last_error'] = type(exc).__name__
             failed += 1
         else:
@@ -99,8 +99,12 @@ def deliver_outbox(state, run_at, send_item, send_text, checkpoint):
                 record = state['items'].get(entry['item']['url'], {})
                 record['last_notified_at'] = run_at
                 record['last_notified_hash'] = entry['content_hash']
+                if state.get('notification_channel'):
+                    record['last_notified_channel'] = state['notification_channel']
             else:
                 state['collection_health'][entry['source_id']]['delivered_signature'] = entry['signature']
+                if state.get('notification_channel'):
+                    state['collection_health'][entry['source_id']]['last_notified_channel'] = state['notification_channel']
             del outbox[key]
             delivered += 1
             counts[entry["kind"] + "_delivered"] += 1

@@ -62,7 +62,7 @@ class WeeklyDeliveryTests(unittest.TestCase):
 
     def test_long_report_chunks_preserve_all_text_and_fit_telegram_limit(self):
         text=('source: 한국 관련 점검 🧭\n'*500)+'tail'
-        chunks=healthcheck._telegram_chunks(text)
+        chunks=healthcheck._slack_chunks(text)
         self.assertGreater(len(chunks),1);self.assertEqual(''.join(chunks),text)
         self.assertTrue(all(len(chunk.encode('utf-16-le'))//2<=3500 for chunk in chunks))
 
@@ -71,7 +71,7 @@ class WeeklyDeliveryTests(unittest.TestCase):
             args=argparse.Namespace(days=1,workflow_file='monitor.yml',history_dir=d,run_log_dir=d,state=str(Path(d)/'state.json'),dry_run=False)
             log=self.log(status='total_failure' if total else 'partial_failure')
             log['sources']=[dict(self.source,status='error',collected=0,detail='HTTP 406')]
-            with patch('src.healthcheck.parse_args',return_value=args),patch('src.healthcheck.utc_now',return_value=self.now),patch('src.healthcheck._load_ndjson_since',return_value=[log]),patch('src.healthcheck.load_monitor_runs',return_value=self.runs),patch('src.healthcheck.load_sources',return_value=[SourceConfig('source','Source','rss_xml',True,'https://example.org',20)]),patch('src.healthcheck.telegram_is_configured',return_value=True),patch('src.healthcheck.send_telegram_text',side_effect=RuntimeError('unconfirmed') if send_failure else None) as send,contextlib.redirect_stdout(io.StringIO()):
+            with patch('src.healthcheck.parse_args',return_value=args),patch('src.healthcheck.utc_now',return_value=self.now),patch('src.healthcheck._load_ndjson_since',return_value=[log]),patch('src.healthcheck.load_monitor_runs',return_value=self.runs),patch('src.healthcheck.load_sources',return_value=[SourceConfig('source','Source','rss_xml',True,'https://example.org',20)]),patch('src.healthcheck.slack_is_configured',return_value=True),patch('src.healthcheck.send_slack_text',side_effect=RuntimeError('unconfirmed') if send_failure else None) as send,contextlib.redirect_stdout(io.StringIO()):
                 if send_failure:
                     with self.assertRaises(RuntimeError):healthcheck.main()
                     return
