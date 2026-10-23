@@ -245,10 +245,25 @@
 - [x] 뉴스·장애·주간 보고 Slack 전용 구현
 - [x] 전환 기준선·누락·실패 재시도 추가 검증
 - [x] 최종 review
-- [ ] international 전용 웹훅의 Actions 시크릿 등록
-- [ ] 원격 운영 반영 및 실제 Slack 전달 검증
+- [x] international 전용 웹훅의 Actions 시크릿 등록
+- [x] 원격 운영 반영 및 실제 Slack 전달 검증
 
 - 최종 검증: 93개 테스트 통과(전체 collectors offline dry-run과 전환 회귀 5개 포함), 워크플로 YAML 2개 파싱, Python 구문 컴파일, `git diff --check` 통과. 캐시 쓰기 제한은 임시 PYTHONPYCACHEPREFIX로 우회했다. 운영 데이터 diff는 없다.
 - review는 P1/P2 없음으로 확인했다. README 폴백 오타와 주간 보고의 과거 전송 실패 채널 오표기를 수정했다. 전환 전 기록을 Slack 기록으로 소급 표기하지 않는다.
 - 실제 전송과 원격 반영은 미실행이며, UN HTTP 406은 미해결이다. 주간 보고 실패는 다음 예약/수동 실행으로 재시도하며 뉴스·장애 outbox 재시도와 구분한다.
 - constitution 추가 판단: 로컬 구현 준비 완료와 운영 전환 검증 미완료를 구분한다. §5의 live dry-run 요건을 면제하지 않는다. 전용 시크릿 등록·코드 반영 후 Actions의 무전송 dry_run, test_slack의 수락 응답과 지정 채널 도착 재관찰을 운영 전환 게이트로 둔다. 기존 실행 이력은 이번 변경의 live 검증을 대체하지 않는다.
+
+### 2026-10-23 Slack 운영 반영 및 실수신 검증
+
+- 사용자가 전용 SLACK_WEBHOOK_URL 등록 완료와 준비 커밋 원격 반영, Actions 실행, 지정 채널 수신 검증을 명시 승인했다.
+- 시크릿은 이름과 갱신 시각만 확인했고 값은 조회하지 않았다. news-alert의 자격정보는 사용하지 않았다.
+- 원격 main이 준비 기준 d3a09df와 같은 것을 확인한 뒤 ba3e707을 강제 push 없이 main에 반영했다. deployment review는 차단 문제 없음을 확인했다.
+- 무전송 dry_run 실행 39925308761과 test_slack 실행 39925339730을 시작했다. 동일 concurrency group에 따라 테스트는 수집 점검 종료 후 실행된다.
+- 주간 점검 실행 39925342690은 ba3e707 기준 회귀 테스트 93개 통과 후 success로 끝났다. 내부 health-status는 warning이며, 2026-10-23 17:32:32 KST에 #international-news(C0CBMH52MEV)에서 국제뉴스 앱의 주간 보고서 도착을 connector로 재관찰했다. 기존 소스 장애 경고와 Slack 전송 성공을 구분한다.
+- dry_run 실행 39925308761은 success, 내부 수집 상태는 partial_failure였다. 활성 23개 중 21개 ok, UN 보도자료·회의 기록은 각각 상세 11건 HTTP 406으로 error였다. 발송 0건·대기 0건·상태 파일 변경 없음 및 상태 커밋 단계 skip을 확인했다.
+- test_slack 실행 39925339730은 success였고 2026-10-23 17:37:25 KST에 국제뉴스 앱의 테스트 메시지를 지정 채널에서 재관찰했다. 메시지 TS는 1792744645.061089다. 테스트 모드는 수집 및 상태 저장을 수행하지 않았다.
+- 정상 모드 39926101893을 시작해 실제 outbox 및 새 운영 로그 저장을 확인한다. 실행 완료 전에는 해당 결과를 성공으로 기록하지 않는다.
+- 정상 모드 39926101893은 17:44 KST에 Actions success로 완료됐다. 회귀 테스트 93개 통과, 원격 저장 로그는 notification_channel=slack, slack_ready=true, 내부 status=partial_failure였다. 소스 상태는 21개 ok, UN 보도자료·회의 기록 2개 error다. 관련 항목 20건, 신규/업데이트 이벤트 0건, 전달/실패/대기 모두 0건이다.
+- 상태 자동 저장 커밋 35579fe를 확인했고 원격 state의 notification_channel=slack, outbox 0건을 재조회했다. 기존 항목 296건과 health 23개 기록에는 채널 표식을 소급하지 않았다. 이번 회차는 신규 뉴스·장애 메시지가 없어 그 두 경로의 실제 신규 메시지 도착까지 검증한 것은 아니다. 실제 수신은 test_slack 및 주간 보고로 검증했다.
+- 수신 증거: 테스트 https://cooltaku.slack.com/archives/C0CBMH52MEV/p1792744645061089 , 주간 보고 https://cooltaku.slack.com/archives/C0CBMH52MEV/p1792744352542569 . 일반 Slack connector 메시지 전송으로 대신하지 않고 실제 GitHub Actions 웹훅 경로의 메시지를 읽어 확인했다.
+- UN 두 소스의 HTTP 406은 별도 미해결 수집 장애다. 이 변경은 알림 채널 전환 완료이며 전체 소스 정상 복구 완료가 아니다. Telegram 시크릿 자체는 삭제하지 않았으나 운영 workflow에 주입하거나 fallback 호출하지 않는다.

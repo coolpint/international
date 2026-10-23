@@ -3,8 +3,9 @@
 현재 Mac mini 개발·점검 폴더는 `/Users/sanghoon/codes/international`입니다.
 정기 운영은 GitHub Actions이며 Index 볼륨에 의존하지 않습니다.
 
-Slack 전환은 준비 단계입니다. 전용 웹훅 등록, 코드 운영 반영, 실제 전달 확인이
-끝나기 전에는 운영 전환 완료가 아닙니다.
+2026-10-23 Slack 전환을 main에 반영했습니다. GitHub Actions의 테스트 메시지와
+주간 보고서가 `#international-news`에 도착한 것을 확인했습니다. 수집 건강은
+별도 기준이며 UN 보도자료·회의 기록의 기존 HTTP 406은 남아 있습니다.
 
 UN 계열 기관, 국제기구, 싱크탱크, 미국 정부 보도자료의 한국(대한민국, 북한, 한반도 전체) 관련 업데이트를 감지해 Slack 채널로 보내는 GitHub Actions 기반 모니터입니다.
 

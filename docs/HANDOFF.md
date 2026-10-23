@@ -1,10 +1,11 @@
 # Handoff Guide
 
 현재 기본 경로는 `/Users/sanghoon/codes/international`이며 Index 볼륨에 의존하지 않습니다.
-2026-10-23 Slack 전환 코드는 준비 단계입니다. 실제 운영 전환에는 전용 시크릿 등록,
-코드 반영, 전달 확인이 남아 있습니다. 목적지는 cooltaku / #international-news / C0CBMH52MEV입니다.
+2026-10-23 Slack 전용 시크릿 등록과 main 코드 반영을 완료했고 Actions 테스트와
+주간 보고서의 채널 도착을 확인했습니다. 목적지는 cooltaku / #international-news / C0CBMH52MEV입니다.
 international 전용 웹훅만 사용하고 news-alert 자격정보는 재사용하지 않습니다.
 연결된 Slack 도구의 세션은 GitHub Actions용 웹훅을 대신하지 않습니다.
+수집은 UN 보도자료·회의 기록의 HTTP 406 때문에 부분 실패이며, Slack 전달 성공과 구분합니다.
 
 ## Summary
 
