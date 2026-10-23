@@ -30,11 +30,12 @@ def save_state(path: Path, state: dict) -> None:
 
 
 def _content_hash(item: MonitoredItem) -> str:
+    body = item.body if item.source_id in {"un_press_releases", "un_meetings_coverage"} else item.body[:4000]
     payload = "\n".join(
         [
             item.title.strip(),
             item.summary.strip(),
-            item.body[:4000].strip(),
+            body.strip(),
         ]
     ).encode("utf-8")
     return hashlib.sha256(payload).hexdigest()

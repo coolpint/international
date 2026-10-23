@@ -75,6 +75,17 @@ class UnPressTests(unittest.TestCase):
         self.assertGreater(item.body.index('Republic of Korea'), 4000)
         self.assertTrue(classify_item(item, {'high_confidence_terms': ['Republic of Korea']}).relevant)
 
+    def test_update_in_late_un_body_changes_the_fingerprint(self):
+        from dataclasses import replace
+        from src.monitor.state import _content_hash
+        original = parse_un_press_detail(source(), self.url, detail())
+        original.body = 'Introduction. ' * 400 + 'Republic of Korea spoke.'
+        updated = replace(original, body=original.body + ' A new decision followed.')
+        self.assertNotEqual(_content_hash(original), _content_hash(updated))
+        # Preserve the established fingerprint scope for other source types.
+        self.assertEqual(_content_hash(replace(original, source_id='other')),
+                         _content_hash(replace(updated, source_id='other')))
+
     def test_preserves_list_table_and_div_body_evidence(self):
         html = detail().replace("Republic of Korea", "Delegates").replace('</div></article>', """<ul><li>Republic of Korea list evidence</li></ul>
             <table><tr><td>South Korea table evidence</td></tr></table>
