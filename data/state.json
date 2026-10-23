@@ -4,142 +4,142 @@
   "collection_health": {
     "adb_news": {
       "delivered_signature": "healthy",
-      "observed_at": "2026-10-23T12:17:27Z",
+      "observed_at": "2026-10-23T18:58:43Z",
       "observed_signature": "healthy",
       "status": "ok"
     },
     "aiib_news": {
       "delivered_signature": "healthy",
-      "observed_at": "2026-10-23T12:17:27Z",
+      "observed_at": "2026-10-23T18:58:43Z",
       "observed_signature": "healthy",
       "status": "ok"
     },
     "bis_press_releases": {
       "delivered_signature": "healthy",
-      "observed_at": "2026-10-23T12:17:27Z",
+      "observed_at": "2026-10-23T18:58:43Z",
       "observed_signature": "healthy",
       "status": "ok"
     },
     "cisa_north_korea_cyber_advisories": {
       "delivered_signature": "4508e8c31f99d595e3c72ada2737c624e1630622c689c0ce849019a7c928f79c",
       "last_notified_channel": "slack",
-      "observed_at": "2026-10-23T12:17:27Z",
+      "observed_at": "2026-10-23T18:58:43Z",
       "observed_signature": "4508e8c31f99d595e3c72ada2737c624e1630622c689c0ce849019a7c928f79c",
       "status": "partial"
     },
     "csis_korea_chair": {
       "delivered_signature": "healthy",
-      "observed_at": "2026-10-23T12:17:27Z",
+      "observed_at": "2026-10-23T18:58:43Z",
       "observed_signature": "healthy",
       "status": "ok"
     },
     "doj_press_releases": {
       "delivered_signature": "healthy",
-      "observed_at": "2026-10-23T12:17:27Z",
+      "observed_at": "2026-10-23T18:58:43Z",
       "observed_signature": "healthy",
       "status": "ok"
     },
     "ecb_press": {
       "delivered_signature": "healthy",
-      "observed_at": "2026-10-23T12:17:27Z",
+      "observed_at": "2026-10-23T18:58:43Z",
       "observed_signature": "healthy",
       "status": "ok"
     },
     "eib_press_releases": {
       "delivered_signature": "healthy",
-      "observed_at": "2026-10-23T12:17:27Z",
+      "observed_at": "2026-10-23T18:58:43Z",
       "observed_signature": "healthy",
       "status": "ok"
     },
     "fbi_national_press_releases": {
       "delivered_signature": "healthy",
-      "observed_at": "2026-10-23T12:17:27Z",
+      "observed_at": "2026-10-23T18:58:43Z",
       "observed_signature": "healthy",
       "status": "ok"
     },
     "ilo_newsroom": {
       "delivered_signature": "healthy",
-      "observed_at": "2026-10-23T12:17:27Z",
+      "observed_at": "2026-10-23T18:58:43Z",
       "observed_signature": "healthy",
       "status": "ok"
     },
     "rusi_publications": {
       "delivered_signature": "healthy",
-      "observed_at": "2026-10-23T12:17:27Z",
+      "observed_at": "2026-10-23T18:58:43Z",
       "observed_signature": "healthy",
       "status": "ok"
     },
     "sipri_publications": {
       "delivered_signature": "healthy",
-      "observed_at": "2026-10-23T12:17:27Z",
+      "observed_at": "2026-10-23T18:58:43Z",
       "observed_signature": "healthy",
       "status": "ok"
     },
     "thirty_eight_north": {
       "delivered_signature": "healthy",
-      "observed_at": "2026-10-23T12:17:27Z",
+      "observed_at": "2026-10-23T18:58:43Z",
       "observed_signature": "healthy",
       "status": "ok"
     },
     "treasury_press_releases": {
       "delivered_signature": "healthy",
-      "observed_at": "2026-10-23T12:17:27Z",
+      "observed_at": "2026-10-23T18:58:43Z",
       "observed_signature": "healthy",
       "status": "ok"
     },
     "un_meetings_coverage": {
       "delivered_signature": "3ff8432cbdc684543ee6a6e6cc2f950fda76767b465183a09c98c986addcdc0a",
       "last_notified_channel": "slack",
-      "observed_at": "2026-10-23T12:17:27Z",
+      "observed_at": "2026-10-23T18:58:43Z",
       "observed_signature": "3ff8432cbdc684543ee6a6e6cc2f950fda76767b465183a09c98c986addcdc0a",
       "status": "partial"
     },
     "un_news_latest": {
       "delivered_signature": "healthy",
-      "observed_at": "2026-10-23T12:17:27Z",
+      "observed_at": "2026-10-23T18:58:43Z",
       "observed_signature": "healthy",
       "status": "ok"
     },
     "un_press_releases": {
       "delivered_signature": "8f6393e08aa823988f9450ff823ebd085121ac2ed428746046f46a4566503d93",
       "last_notified_channel": "slack",
-      "observed_at": "2026-10-23T12:17:27Z",
+      "observed_at": "2026-10-23T18:58:43Z",
       "observed_signature": "8f6393e08aa823988f9450ff823ebd085121ac2ed428746046f46a4566503d93",
       "status": "partial"
     },
     "unctad_publications": {
       "delivered_signature": "healthy",
-      "observed_at": "2026-10-23T12:17:27Z",
+      "observed_at": "2026-10-23T18:58:43Z",
       "observed_signature": "healthy",
       "status": "ok"
     },
     "unrisd_news": {
       "delivered_signature": "healthy",
-      "observed_at": "2026-10-23T12:17:27Z",
+      "observed_at": "2026-10-23T18:58:43Z",
       "observed_signature": "healthy",
       "status": "ok"
     },
     "unrisd_publications": {
       "delivered_signature": "healthy",
-      "observed_at": "2026-10-23T12:17:27Z",
+      "observed_at": "2026-10-23T18:58:43Z",
       "observed_signature": "healthy",
       "status": "ok"
     },
     "ustr_press_releases": {
       "delivered_signature": "healthy",
-      "observed_at": "2026-10-23T12:17:27Z",
+      "observed_at": "2026-10-23T18:58:43Z",
       "observed_signature": "healthy",
       "status": "ok"
     },
     "world_bank_news": {
       "delivered_signature": "healthy",
-      "observed_at": "2026-10-23T12:17:27Z",
+      "observed_at": "2026-10-23T18:58:43Z",
       "observed_signature": "healthy",
       "status": "ok"
     },
     "wto_latest_news": {
       "delivered_signature": "healthy",
-      "observed_at": "2026-10-23T12:17:27Z",
+      "observed_at": "2026-10-23T18:58:43Z",
       "observed_signature": "healthy",
       "status": "ok"
     }
@@ -167,12 +167,7 @@
   },
   "deferred_collection_baselines": {
     "un_meetings_coverage": [
-      "https://press.un.org/en/2026/ga12796.doc.htm",
-      "https://press.un.org/en/2026/gadis3774.doc.htm",
-      "https://press.un.org/en/2026/gadis3775.doc.htm",
       "https://press.un.org/en/2026/gal3753.doc.htm",
-      "https://press.un.org/en/2026/gal3754.doc.htm",
-      "https://press.un.org/en/2026/gashc4447.doc.htm",
       "https://press.un.org/en/2026/gaspd842.doc.htm",
       "https://press.un.org/en/2026/sc16485.doc.htm"
     ],
@@ -181,7 +176,6 @@
       "https://press.un.org/en/2026/sgsm23335.doc.htm",
       "https://press.un.org/en/2026/sgsm23336.doc.htm",
       "https://press.un.org/en/2026/sgsm23337.doc.htm",
-      "https://press.un.org/en/2026/sgsm23338.doc.htm",
       "https://press.un.org/en/2026/sgsm23339.doc.htm",
       "https://press.un.org/en/2026/sgsm23341.doc.htm",
       "https://press.un.org/en/2026/sgt3475.doc.htm"
@@ -614,6 +608,46 @@
       "title": "Daily Press Briefing by the Office of the Spokesperson for the Secretary-General",
       "url": "https://press.un.org/en/2026/db260518.doc.htm"
     },
+    "https://press.un.org/en/2026/ga12797.doc.htm": {
+      "confidence": "high",
+      "content_hash": "c5e716d57615c6dfbf883d6bc24e3f1e58ba9aa4d0f674ce22cfb1dda1289b38",
+      "first_seen_at": "2026-10-23T18:58:43Z",
+      "last_event": "new",
+      "last_notified_at": "2026-10-23T18:58:43Z",
+      "last_notified_channel": "slack",
+      "last_notified_hash": "c5e716d57615c6dfbf883d6bc24e3f1e58ba9aa4d0f674ce22cfb1dda1289b38",
+      "last_seen_at": "2026-10-23T18:58:43Z",
+      "matched_terms": [
+        "Republic of Korea",
+        "Democratic People’s Republic of Korea",
+        "Korea",
+        "Pyongyang"
+      ],
+      "published_at": "2026-10-22T12:00:00Z",
+      "source_id": "un_meetings_coverage",
+      "source_label": "UN Meetings Coverage",
+      "summary": "With its credibility and effectiveness at stake, the Security Council must undergo comprehensive reform if the United Nations is to uphold its founding ideals, the General Assembly heard today.",
+      "title": "‘Credibility and Effectiveness at Stake’, General Assembly Hears as Delegates Press for Comprehensive Security Council Reform",
+      "url": "https://press.un.org/en/2026/ga12797.doc.htm"
+    },
+    "https://press.un.org/en/2026/gadis3774.doc.htm": {
+      "confidence": "high",
+      "content_hash": "1adeb702b619f029fc6566f53ab6b5d03178d28980a23ea96ea14d9988194a6a",
+      "first_seen_at": "2026-10-23T18:58:43Z",
+      "last_event": "bootstrap",
+      "last_notified_at": null,
+      "last_seen_at": "2026-10-23T18:58:43Z",
+      "matched_terms": [
+        "Republic of Korea",
+        "Korea"
+      ],
+      "published_at": "2026-10-21T12:00:00Z",
+      "source_id": "un_meetings_coverage",
+      "source_label": "UN Meetings Coverage",
+      "summary": "Delegates in the First Committee (Disarmament and International Security) today voiced broad support for preserving outer space as a peaceful, secure and accessible domain for all countries, but differed on the best path to prevent its weaponization, with some favouring legally binding agreements and others prioritizing voluntary measures.",
+      "title": "First Committee Debates Pathways to Prevent Weaponization of Outer Space",
+      "url": "https://press.un.org/en/2026/gadis3774.doc.htm"
+    },
     "https://press.un.org/en/2026/sc16302.doc.htm": {
       "confidence": "medium",
       "content_hash": "10e6652632c35fb99ddbf556611d061a3da33fc2a3a85f2ee7fcf1a0c09530d8",
@@ -690,7 +724,7 @@
       "first_seen_at": "2026-10-10T00:24:48Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-10-23T12:17:27Z",
+      "last_seen_at": "2026-10-23T18:58:43Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
@@ -2401,12 +2435,13 @@
     },
     "https://www.38north.org/2026/10/across-the-border-an-area-awaiting-rural-development/": {
       "confidence": "high",
-      "content_hash": "81c21e129bdbdfd7650ce9ea2152aed14e74cf4d66b9415e4b68f2c1d2564c8a",
+      "content_hash": "d8a65c83d93b7ed408ec4570211ff29a7f8c85d945767e1edf5d0959fef23acb",
       "first_seen_at": "2026-10-22T18:57:39Z",
-      "last_event": "new",
-      "last_notified_at": "2026-10-22T18:57:39Z",
-      "last_notified_hash": "81c21e129bdbdfd7650ce9ea2152aed14e74cf4d66b9415e4b68f2c1d2564c8a",
-      "last_seen_at": "2026-10-23T12:17:27Z",
+      "last_event": "updated",
+      "last_notified_at": "2026-10-23T18:58:43Z",
+      "last_notified_channel": "slack",
+      "last_notified_hash": "d8a65c83d93b7ed408ec4570211ff29a7f8c85d945767e1edf5d0959fef23acb",
+      "last_seen_at": "2026-10-23T18:58:43Z",
       "matched_terms": [
         "South Korea",
         "North Korea",
@@ -2418,8 +2453,8 @@
       "published_at": "Thu, 22 Oct 2026 14:19:09 +0000",
       "source_id": "thirty_eight_north",
       "source_label": "38 North",
-      "summary": "Across North Korea, the countryside is being transformed. Over the past few years, Kim Jong ...\nThe post\nAcross The Border: An Area Awaiting Rural Development\nappeared first on\n38 North\n.",
-      "title": "Across The Border: An Area Awaiting Rural Development",
+      "summary": "Across North Korea, the countryside is being transformed. Over the past few years, Kim Jong ...\nThe post\nAcross the Border: An Area Awaiting Rural Development\nappeared first on\n38 North\n.",
+      "title": "Across the Border: An Area Awaiting Rural Development",
       "url": "https://www.38north.org/2026/10/across-the-border-an-area-awaiting-rural-development/"
     },
     "https://www.38north.org/2026/10/across-the-border-north-koreans-work-on-the-southern-border-fence/": {
@@ -2429,7 +2464,7 @@
       "last_event": "new",
       "last_notified_at": "2026-10-20T18:49:23Z",
       "last_notified_hash": "e1a842e0c9c8f65ec764c06feefecbb17029dc2702b92c6220ed80d0430fb4df",
-      "last_seen_at": "2026-10-23T12:17:27Z",
+      "last_seen_at": "2026-10-23T18:58:43Z",
       "matched_terms": [
         "South Korea",
         "North Korea",
@@ -2452,7 +2487,7 @@
       "last_event": "new",
       "last_notified_at": "2026-10-21T01:08:11Z",
       "last_notified_hash": "8a75abee7611f74c6fe2ccce4ff6592452087c5e7c2ecbc81bf325bb2bcc7dc4",
-      "last_seen_at": "2026-10-23T12:17:27Z",
+      "last_seen_at": "2026-10-23T18:58:43Z",
       "matched_terms": [
         "DPRK",
         "North Korea",
@@ -2469,12 +2504,13 @@
     },
     "https://www.38north.org/2026/10/book-review-what-miss-kathi-reveals-about-engagement-with-north-korea/": {
       "confidence": "high",
-      "content_hash": "711380d189016114796c9e617a4b25bc15f2f118a48122ebedcfb21420c5928f",
+      "content_hash": "569bd0abf9e28042a4b38930553b921792d7f31808c6eed141b56b3391ac496b",
       "first_seen_at": "2026-10-19T20:17:36Z",
-      "last_event": "new",
-      "last_notified_at": "2026-10-19T20:17:36Z",
-      "last_notified_hash": "711380d189016114796c9e617a4b25bc15f2f118a48122ebedcfb21420c5928f",
-      "last_seen_at": "2026-10-23T12:17:27Z",
+      "last_event": "updated",
+      "last_notified_at": "2026-10-23T18:58:43Z",
+      "last_notified_channel": "slack",
+      "last_notified_hash": "569bd0abf9e28042a4b38930553b921792d7f31808c6eed141b56b3391ac496b",
+      "last_seen_at": "2026-10-23T18:58:43Z",
       "matched_terms": [
         "North Korea",
         "South Korean",
@@ -2485,8 +2521,8 @@
       "published_at": "Mon, 19 Oct 2026 15:49:58 +0000",
       "source_id": "thirty_eight_north",
       "source_label": "38 North",
-      "summary": "Miss Kathi: Saving Lives in North Korea[1] By Kathi Zellweger and Mike Chinoy. Post Hill Press, ...\nThe post\nBook Review: What\nMiss Kathi\nReveals About Engagement with North Korea\nappeared first on\n38 North\n.",
-      "title": "Book Review: What Miss Kathi Reveals About Engagement with North Korea",
+      "summary": "Miss Kathi: Saving Lives in North Korea[1] By Kathi Zellweger and Mike Chinoy. Post Hill Press, ...\nThe post\nBook Review: What\nMiss Kathi\nReveals About Engagement With North Korea\nappeared first on\n38 North\n.",
+      "title": "Book Review: What Miss Kathi Reveals About Engagement With North Korea",
       "url": "https://www.38north.org/2026/10/book-review-what-miss-kathi-reveals-about-engagement-with-north-korea/"
     },
     "https://www.38north.org/2026/10/closer-to-china-and-russia-firm-on-nuclear-status/": {
@@ -2565,7 +2601,7 @@
       "last_event": "new",
       "last_notified_at": "2026-10-20T01:21:24Z",
       "last_notified_hash": "6ab2b6f8d362d475dbe2d4b29e25e3d2fe60356ede7b07f926691771e8ee846e",
-      "last_seen_at": "2026-10-23T12:17:27Z",
+      "last_seen_at": "2026-10-23T18:58:43Z",
       "matched_terms": [
         "North Korea",
         "South Korea",
@@ -2589,7 +2625,7 @@
       "first_seen_at": "2026-10-15T18:45:53Z",
       "last_event": "new",
       "last_notified_at": "2026-10-15T18:45:53Z",
-      "last_seen_at": "2026-10-23T12:17:27Z",
+      "last_seen_at": "2026-10-23T18:58:43Z",
       "matched_terms": [
         "South Korea",
         "Republic of Korea",
@@ -2613,7 +2649,7 @@
       "first_seen_at": "2026-10-15T18:45:53Z",
       "last_event": "new",
       "last_notified_at": "2026-10-15T18:45:53Z",
-      "last_seen_at": "2026-10-23T12:17:27Z",
+      "last_seen_at": "2026-10-23T18:58:43Z",
       "matched_terms": [
         "North Korea",
         "South Korean",
@@ -2700,7 +2736,7 @@
       "first_seen_at": "2026-10-15T18:45:53Z",
       "last_event": "new",
       "last_notified_at": "2026-10-15T18:45:53Z",
-      "last_seen_at": "2026-10-23T12:17:27Z",
+      "last_seen_at": "2026-10-23T18:58:43Z",
       "matched_terms": [
         "South Korea",
         "South Korean",
@@ -2766,7 +2802,7 @@
       "first_seen_at": "2026-10-13T14:41:06Z",
       "last_event": "new",
       "last_notified_at": null,
-      "last_seen_at": "2026-10-23T12:17:27Z",
+      "last_seen_at": "2026-10-23T18:58:43Z",
       "matched_terms": [
         "Korea"
       ],
@@ -2841,7 +2877,7 @@
     "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-207a": {
       "archive_reference": {
         "advisory_id": "AA24-207A",
-        "last_checked_at": "2026-10-23T12:17:27Z",
+        "last_checked_at": "2026-10-23T18:58:43Z",
         "published_at": "2024-07-25",
         "retrieval_url": "https://www.fbi.gov/file-repository/north-korea-cyber-group-conducts-global-espionage-campaign-to-advance-regimes-military-and-nuclear-programs-072524.pdf"
       },
@@ -2850,7 +2886,7 @@
       "first_seen_at": "2026-04-13T03:53:51Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-10-23T12:17:27Z",
+      "last_seen_at": "2026-10-23T18:58:43Z",
       "matched_terms": [
         "North Korea",
         "South Korean",
@@ -3121,7 +3157,7 @@
       "first_seen_at": "2026-10-14T19:03:30Z",
       "last_event": "new",
       "last_notified_at": "2026-10-14T19:03:30Z",
-      "last_seen_at": "2026-10-23T12:17:27Z",
+      "last_seen_at": "2026-10-23T18:58:43Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -3207,7 +3243,7 @@
       "last_event": "new",
       "last_notified_at": "2026-10-20T18:49:23Z",
       "last_notified_hash": "0dfd92c7f4e060314c96a0cd294a55a6dbefa59d5090ccbce496721c57667541",
-      "last_seen_at": "2026-10-23T12:17:27Z",
+      "last_seen_at": "2026-10-23T18:58:43Z",
       "matched_terms": [
         "North Korea",
         "Korea",
@@ -3330,13 +3366,40 @@
       "title": "Strategic Clarity: Reassessing the Value of China to Korea",
       "url": "https://www.csis.org/analysis/strategic-clarity-reassessing-value-china-korea"
     },
+    "https://www.csis.org/analysis/ukraine-and-south-koreas-diplomatic-dispute-deepens-state-play": {
+      "confidence": "high",
+      "content_hash": "66bece447c69f76ad0339e1945fd5954e0e5f184f9829e5619ad5c9f8721fae4",
+      "first_seen_at": "2026-10-23T18:58:43Z",
+      "last_event": "new",
+      "last_notified_at": "2026-10-23T18:58:43Z",
+      "last_notified_channel": "slack",
+      "last_notified_hash": "66bece447c69f76ad0339e1945fd5954e0e5f184f9829e5619ad5c9f8721fae4",
+      "last_seen_at": "2026-10-23T18:58:43Z",
+      "matched_terms": [
+        "South Korea",
+        "South Korean",
+        "North Korea",
+        "North Korean",
+        "inter-Korean",
+        "Korea",
+        "Korean",
+        "Seoul",
+        "Pyongyang"
+      ],
+      "published_at": "Fri, 23 Oct 2026 19:02:40 GMT",
+      "source_id": "csis_korea_chair",
+      "source_label": "CSIS Korea Chair",
+      "summary": "Victor Cha explains why the diplomatic dispute between South Korea and Ukraine over President Volodymyr Zelensky’s public disclosure that Kyiv had transferred two North Korean prisoners of war to Seoul has deepened, and what both sides may want out of it.",
+      "title": "Ukraine and South Korea’s Diplomatic Dispute Deepens | State of Play",
+      "url": "https://www.csis.org/analysis/ukraine-and-south-koreas-diplomatic-dispute-deepens-state-play"
+    },
     "https://www.csis.org/analysis/us-and-korea-should-be-bold-their-investments": {
       "confidence": "high",
       "content_hash": "14ce2834fc4c1c3e9b8928c061f5bede79efbe699a722adca34bba5194f04e29",
       "first_seen_at": "2026-10-13T20:25:47Z",
       "last_event": "new",
       "last_notified_at": "2026-10-13T20:25:47Z",
-      "last_seen_at": "2026-10-23T12:17:27Z",
+      "last_seen_at": "2026-10-23T18:58:43Z",
       "matched_terms": [
         "South Korea",
         "South Korean",
@@ -3964,7 +4027,7 @@
       "last_event": "updated",
       "last_notified_at": "2026-10-20T12:23:35Z",
       "last_notified_hash": "160804131a51f5a8f6e4b69e44853eca4c14e1ef761f00c7cdfd83c3e173d572",
-      "last_seen_at": "2026-10-23T11:08:05Z",
+      "last_seen_at": "2026-10-23T18:58:43Z",
       "matched_terms": [
         "North Korean",
         "North Korea",
@@ -5328,7 +5391,7 @@
       "first_seen_at": "2026-07-15T09:04:03Z",
       "last_event": "new",
       "last_notified_at": "2026-07-15T09:04:03Z",
-      "last_seen_at": "2026-10-23T12:17:27Z",
+      "last_seen_at": "2026-10-23T18:58:43Z",
       "matched_terms": [
         "Republic of Korea",
         "Seoul",
@@ -6053,7 +6116,7 @@
       "first_seen_at": "2026-10-16T11:59:52Z",
       "last_event": "new",
       "last_notified_at": "2026-10-16T11:59:52Z",
-      "last_seen_at": "2026-10-23T12:17:27Z",
+      "last_seen_at": "2026-10-23T18:58:43Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
@@ -6072,7 +6135,7 @@
       "last_event": "new",
       "last_notified_at": "2026-10-19T14:10:19Z",
       "last_notified_hash": "5c86e87f71a8f96cd01002b62c35dbe5c5e8fab0c93f27c484c6c6b2b1c2d936",
-      "last_seen_at": "2026-10-23T12:17:27Z",
+      "last_seen_at": "2026-10-23T18:58:43Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
