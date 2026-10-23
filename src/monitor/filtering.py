@@ -52,7 +52,9 @@ def classify_item(item: MonitoredItem, keywords: dict) -> Classification:
     min_medium_hits_for_high = int(keywords.get("min_medium_hits_for_high", 2))
 
     title = item.title or ""
-    other_text = " ".join(part for part in [item.summary, item.body[:4000]] if part)
+    # UN meeting records often mention a country well beyond the introduction.
+    body = item.body if item.source_id in {"un_press_releases", "un_meetings_coverage"} else item.body[:4000]
+    other_text = " ".join(part for part in [item.summary, body] if part)
     combined_text = " ".join(part for part in [title, other_text] if part)
 
     title_high = _find_hits(title, high_terms)

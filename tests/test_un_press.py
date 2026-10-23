@@ -54,6 +54,16 @@ class UnPressTests(unittest.TestCase):
         self.assertIn('Republic of Korea', item.body)
         self.assertTrue(classify_item(item, {'high_confidence_terms': ['Republic of Korea']}).relevant)
 
+    def test_country_reference_after_long_meeting_introduction_is_classified(self):
+        from src.monitor.filtering import classify_item
+        html = detail(count=0).replace('</div></article>',
+            '<p>' + ('General discussion of the agenda. ' * 200) + '</p>'
+            '<table><tr><td>Republic of <em>Korea</em> addressed the meeting.</td></tr></table>'
+            '</div></article>')
+        item = parse_un_press_detail(source(), self.url, html)
+        self.assertGreater(item.body.index('Republic of Korea'), 4000)
+        self.assertTrue(classify_item(item, {'high_confidence_terms': ['Republic of Korea']}).relevant)
+
     def test_preserves_list_table_and_div_body_evidence(self):
         html = detail().replace("Republic of Korea", "Delegates").replace('</div></article>', """<ul><li>Republic of Korea list evidence</li></ul>
             <table><tr><td>South Korea table evidence</td></tr></table>
@@ -74,12 +84,17 @@ class UnPressTests(unittest.TestCase):
                                 True, "https://press.un.org/en/content/meetings-coverage", 20)
         url = "https://press.un.org/en/2026/gashc448.doc.htm"
         html = detail(symbol="GA/SHC/4448", document="gashc448").replace(
-            ">Press Release<", ">Meetings Coverage<")
+            ">Press Release<", ">Meetings Coverage<").replace("2026-10-21", "2026-10-22")
         self.assertEqual(parse_un_press_detail(meetings, url, html).url, url)
         invalid = (
             html.replace('rel="canonical"', 'rel="other"'),
             html.replace('href="' + url + '"', 'href="https://press.un.org/en/2026/gashc4448.doc.htm"'),
             html.replace("GA/SHC/4448", "GA/SHC/4449"),
+            html.replace("2026-10-22", "2026-10-21"),
+            html.replace("2026", "2025"),
+            html.replace(">Meetings Coverage<", ">Press Release<"),
+            detail(symbol="GA/SHC/4448", document="gashc448", count=0).replace(
+                ">Press Release<", ">Meetings Coverage<").replace("2026-10-21", "2026-10-22"),
         )
         for content in invalid:
             with self.assertRaises(ValueError):

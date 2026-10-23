@@ -11,8 +11,10 @@ from .models import MonitoredItem
 DETAIL_SELECTOR = "main article.node--view-mode-full"
 LIST_SELECTOR = "main article.node--view-mode-content-list-item"
 TIMEOUT_MS = 30_000
-# Official slug typo observed with an exactly matching official canonical URL.
-DOCUMENT_SYMBOL_ALIASES = {"gashc448": "gashc4448"}
+# Observed official URL/symbol discrepancy, restricted to one dated document.
+DOCUMENT_SYMBOL_ALIASES = {
+    "https://press.un.org/en/2026/gashc448.doc.htm": ("gashc4448", "2026-10-22"),
+}
 
 
 def _validate_url(url, *, detail=False):
@@ -119,11 +121,14 @@ def parse_un_press_detail(source, url, html):
         symbols = article.select(".field--name-field-symbol")
     document_id = parsed.path.rsplit("/", 1)[1].removesuffix(".doc.htm")
     symbol_ids = [re.sub(r"[^a-z0-9]", "", n.get_text(strip=True).lower()) for n in symbols]
-    expected_symbol = DOCUMENT_SYMBOL_ALIASES.get(document_id, document_id)
+    alias = DOCUMENT_SYMBOL_ALIASES.get(url)
+    expected_symbol = alias[0] if alias else document_id
+    if alias and date.date().isoformat() != alias[1]:
+        raise ValueError("UN Press aliased document date does not match verified original")
     if expected_symbol not in symbol_ids:
         raise ValueError("UN Press document symbol does not match canonical document ID")
     canonical = soup.select_one('link[rel="canonical"]')
-    if document_id in DOCUMENT_SYMBOL_ALIASES and canonical is None:
+    if alias and canonical is None:
         raise ValueError("UN Press aliased document requires an exact official canonical URL")
     if canonical is not None:
         canonical_url = str(canonical.get("href", ""))
