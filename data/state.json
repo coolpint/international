@@ -4,144 +4,144 @@
   "collection_health": {
     "adb_news": {
       "delivered_signature": "healthy",
-      "observed_at": "2026-10-30T02:16:05Z",
+      "observed_at": "2026-10-30T13:42:59Z",
       "observed_signature": "healthy",
       "status": "ok"
     },
     "aiib_news": {
       "delivered_signature": "healthy",
-      "observed_at": "2026-10-30T02:16:05Z",
+      "observed_at": "2026-10-30T13:42:59Z",
       "observed_signature": "healthy",
       "status": "ok"
     },
     "bis_press_releases": {
       "delivered_signature": "healthy",
-      "observed_at": "2026-10-30T02:16:05Z",
+      "observed_at": "2026-10-30T13:42:59Z",
       "observed_signature": "healthy",
       "status": "ok"
     },
     "cisa_north_korea_cyber_advisories": {
-      "delivered_signature": "4508e8c31f99d595e3c72ada2737c624e1630622c689c0ce849019a7c928f79c",
+      "delivered_signature": "599853e78618d145f1fa8e105fe355544b8efb97ea5cecad7f1d8887052e0ba4",
       "last_notified_channel": "slack",
-      "observed_at": "2026-10-30T02:16:05Z",
-      "observed_signature": "4508e8c31f99d595e3c72ada2737c624e1630622c689c0ce849019a7c928f79c",
-      "status": "partial"
+      "observed_at": "2026-10-30T13:42:59Z",
+      "observed_signature": "599853e78618d145f1fa8e105fe355544b8efb97ea5cecad7f1d8887052e0ba4",
+      "status": "error"
     },
     "csis_korea_chair": {
       "delivered_signature": "healthy",
-      "observed_at": "2026-10-30T02:16:05Z",
+      "observed_at": "2026-10-30T13:42:59Z",
       "observed_signature": "healthy",
       "status": "ok"
     },
     "doj_press_releases": {
       "delivered_signature": "healthy",
-      "observed_at": "2026-10-30T02:16:05Z",
+      "observed_at": "2026-10-30T13:42:59Z",
       "observed_signature": "healthy",
       "status": "ok"
     },
     "ecb_press": {
       "delivered_signature": "healthy",
-      "observed_at": "2026-10-30T02:16:05Z",
+      "observed_at": "2026-10-30T13:42:59Z",
       "observed_signature": "healthy",
       "status": "ok"
     },
     "eib_press_releases": {
       "delivered_signature": "healthy",
-      "observed_at": "2026-10-30T02:16:05Z",
+      "observed_at": "2026-10-30T13:42:59Z",
       "observed_signature": "healthy",
       "status": "ok"
     },
     "fbi_national_press_releases": {
       "delivered_signature": "healthy",
-      "observed_at": "2026-10-30T02:16:05Z",
+      "observed_at": "2026-10-30T13:42:59Z",
       "observed_signature": "healthy",
       "status": "ok"
     },
     "ilo_newsroom": {
       "delivered_signature": "healthy",
-      "observed_at": "2026-10-30T02:16:05Z",
+      "observed_at": "2026-10-30T13:42:59Z",
       "observed_signature": "healthy",
       "status": "ok"
     },
     "rusi_publications": {
       "delivered_signature": "healthy",
-      "observed_at": "2026-10-30T02:16:05Z",
+      "observed_at": "2026-10-30T13:42:59Z",
       "observed_signature": "healthy",
       "status": "ok"
     },
     "sipri_publications": {
       "delivered_signature": "healthy",
-      "observed_at": "2026-10-30T02:16:05Z",
+      "observed_at": "2026-10-30T13:42:59Z",
       "observed_signature": "healthy",
       "status": "ok"
     },
     "thirty_eight_north": {
       "delivered_signature": "healthy",
-      "observed_at": "2026-10-30T02:16:05Z",
+      "observed_at": "2026-10-30T13:42:59Z",
       "observed_signature": "healthy",
       "status": "ok"
     },
     "treasury_press_releases": {
       "delivered_signature": "healthy",
-      "observed_at": "2026-10-30T02:16:05Z",
+      "observed_at": "2026-10-30T13:42:59Z",
       "observed_signature": "healthy",
       "status": "ok"
     },
     "un_meetings_coverage": {
-      "delivered_signature": "d203cc5f41577c83823348e0759bfac29010534ea23d4ff934c4dd5ef3b727f7",
+      "delivered_signature": "3e3f3c5c15f9705b0a985b6f7b54d034194bebead3730d46847e2d31128b430e",
       "last_notified_channel": "slack",
-      "observed_at": "2026-10-30T02:16:05Z",
-      "observed_signature": "d203cc5f41577c83823348e0759bfac29010534ea23d4ff934c4dd5ef3b727f7",
+      "observed_at": "2026-10-30T13:42:59Z",
+      "observed_signature": "3e3f3c5c15f9705b0a985b6f7b54d034194bebead3730d46847e2d31128b430e",
       "status": "partial"
     },
     "un_news_latest": {
       "delivered_signature": "healthy",
       "last_notified_channel": "slack",
-      "observed_at": "2026-10-30T02:16:05Z",
+      "observed_at": "2026-10-30T13:42:59Z",
       "observed_signature": "healthy",
       "status": "ok"
     },
     "un_press_releases": {
       "delivered_signature": "healthy",
       "last_notified_channel": "slack",
-      "observed_at": "2026-10-30T02:16:05Z",
+      "observed_at": "2026-10-30T13:42:59Z",
       "observed_signature": "healthy",
       "status": "ok"
     },
     "unctad_publications": {
       "delivered_signature": "f4bfcd546e570d1423374ba3d264cf1e112d63da0bfb1c7b12b3a8e591495c8e",
       "last_notified_channel": "slack",
-      "observed_at": "2026-10-30T02:16:05Z",
+      "observed_at": "2026-10-30T13:42:59Z",
       "observed_signature": "f4bfcd546e570d1423374ba3d264cf1e112d63da0bfb1c7b12b3a8e591495c8e",
       "status": "partial"
     },
     "unrisd_news": {
       "delivered_signature": "healthy",
-      "observed_at": "2026-10-30T02:16:05Z",
+      "observed_at": "2026-10-30T13:42:59Z",
       "observed_signature": "healthy",
       "status": "ok"
     },
     "unrisd_publications": {
       "delivered_signature": "healthy",
-      "observed_at": "2026-10-30T02:16:05Z",
+      "observed_at": "2026-10-30T13:42:59Z",
       "observed_signature": "healthy",
       "status": "ok"
     },
     "ustr_press_releases": {
       "delivered_signature": "healthy",
-      "observed_at": "2026-10-30T02:16:05Z",
+      "observed_at": "2026-10-30T13:42:59Z",
       "observed_signature": "healthy",
       "status": "ok"
     },
     "world_bank_news": {
       "delivered_signature": "healthy",
-      "observed_at": "2026-10-30T02:16:05Z",
+      "observed_at": "2026-10-30T13:42:59Z",
       "observed_signature": "healthy",
       "status": "ok"
     },
     "wto_latest_news": {
       "delivered_signature": "healthy",
-      "observed_at": "2026-10-30T02:16:05Z",
+      "observed_at": "2026-10-30T13:42:59Z",
       "observed_signature": "healthy",
       "status": "ok"
     }
@@ -318,7 +318,7 @@
       "last_notified_at": "2026-10-28T19:59:14Z",
       "last_notified_channel": "slack",
       "last_notified_hash": "f867655d7dc229a1b247cc6ffac0b073d7cab93c12637945d5f9d3df71445922",
-      "last_seen_at": "2026-10-30T02:16:05Z",
+      "last_seen_at": "2026-10-30T13:42:59Z",
       "matched_terms": [
         "DPRK",
         "Republic of Korea",
@@ -712,6 +712,27 @@
       "title": "General Assembly Reaffirms Support for IAEA as Nuclear Safety, Proliferation Concerns Persist",
       "url": "https://press.un.org/en/2026/ga12798.doc.htm"
     },
+    "https://press.un.org/en/2026/ga12802.doc.htm": {
+      "confidence": "high",
+      "content_hash": "cf147240d8754dac5b30656d3e14a0ef0c9fa090b5ceebc8e835291ed3ff7516",
+      "first_seen_at": "2026-10-30T13:42:59Z",
+      "last_event": "new",
+      "last_notified_at": "2026-10-30T13:42:59Z",
+      "last_notified_channel": "slack",
+      "last_notified_hash": "cf147240d8754dac5b30656d3e14a0ef0c9fa090b5ceebc8e835291ed3ff7516",
+      "last_seen_at": "2026-10-30T13:42:59Z",
+      "matched_terms": [
+        "Republic of Korea",
+        "Democratic People's Republic of Korea",
+        "Korea"
+      ],
+      "published_at": "2026-10-29T12:00:00Z",
+      "source_id": "un_meetings_coverage",
+      "source_label": "UN Meetings Coverage",
+      "summary": "As the International Court of Justice marks its eightieth anniversary amid a record caseload, the General Assembly heard today urgent calls to strengthen the Court’s independence, uphold its decisions and ensure that international law prevails over the use of force.",
+      "title": "Underscoring Importance of Independence for International Court of Justice, General Assembly Stresses Need for Adequate Resources, Law Over Power",
+      "url": "https://press.un.org/en/2026/ga12802.doc.htm"
+    },
     "https://press.un.org/en/2026/gadis3774.doc.htm": {
       "confidence": "high",
       "content_hash": "1adeb702b619f029fc6566f53ab6b5d03178d28980a23ea96ea14d9988194a6a",
@@ -772,6 +793,27 @@
       "title": "First Committee Approves 3 Draft Resolutions, 2 Decisions on Other Weapons of Mass Destruction",
       "url": "https://press.un.org/en/2026/gadis3779.doc.htm"
     },
+    "https://press.un.org/en/2026/gadis3781.doc.htm": {
+      "confidence": "high",
+      "content_hash": "0c40dee00987bca3d561be35c61744bb92b84d31154623d02ccaaf4760720d2c",
+      "first_seen_at": "2026-10-30T13:42:59Z",
+      "last_event": "new",
+      "last_notified_at": "2026-10-30T13:42:59Z",
+      "last_notified_channel": "slack",
+      "last_notified_hash": "0c40dee00987bca3d561be35c61744bb92b84d31154623d02ccaaf4760720d2c",
+      "last_seen_at": "2026-10-30T13:42:59Z",
+      "matched_terms": [
+        "Republic of Korea",
+        "Democratic People’s Republic of Korea",
+        "Korea"
+      ],
+      "published_at": "2026-10-29T12:00:00Z",
+      "source_id": "un_meetings_coverage",
+      "source_label": "UN Meetings Coverage",
+      "summary": "The First Committee (Disarmament and International Security) today approved three draft resolutions and a decision related to outer space, as well as eight draft resolutions and two decisions regarding conventional weapons, forwarding them to the General Assembly.",
+      "title": "First Committee Forwards 14 Texts on Outer Space, Conventional Weapons to General Assembly",
+      "url": "https://press.un.org/en/2026/gadis3781.doc.htm"
+    },
     "https://press.un.org/en/2026/gal3756.doc.htm": {
       "confidence": "high",
       "content_hash": "5e31b8d1fed5c7d959613cedf0fd3c6fa4cfd557d68b5f33696ce43ef8afc557",
@@ -822,7 +864,7 @@
       "last_notified_at": "2026-10-29T19:57:50Z",
       "last_notified_channel": "slack",
       "last_notified_hash": "e71694705f99cdfe5bac28acf2b3972cf53b04dfe901d1bbbf16f07498d6730f",
-      "last_seen_at": "2026-10-30T02:16:05Z",
+      "last_seen_at": "2026-10-30T13:42:59Z",
       "matched_terms": [
         "Republic of Korea",
         "Democratic People’s Republic of Korea",
@@ -911,7 +953,7 @@
       "first_seen_at": "2026-10-10T00:24:48Z",
       "last_event": "bootstrap",
       "last_notified_at": null,
-      "last_seen_at": "2026-10-30T02:16:05Z",
+      "last_seen_at": "2026-10-30T13:42:59Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
@@ -2628,7 +2670,7 @@
       "last_notified_at": "2026-10-23T18:58:43Z",
       "last_notified_channel": "slack",
       "last_notified_hash": "d8a65c83d93b7ed408ec4570211ff29a7f8c85d945767e1edf5d0959fef23acb",
-      "last_seen_at": "2026-10-30T02:16:05Z",
+      "last_seen_at": "2026-10-30T13:42:59Z",
       "matched_terms": [
         "South Korea",
         "North Korea",
@@ -2651,7 +2693,7 @@
       "last_event": "new",
       "last_notified_at": "2026-10-20T18:49:23Z",
       "last_notified_hash": "e1a842e0c9c8f65ec764c06feefecbb17029dc2702b92c6220ed80d0430fb4df",
-      "last_seen_at": "2026-10-30T02:16:05Z",
+      "last_seen_at": "2026-10-30T13:42:59Z",
       "matched_terms": [
         "South Korea",
         "North Korea",
@@ -2674,7 +2716,7 @@
       "last_event": "new",
       "last_notified_at": "2026-10-21T01:08:11Z",
       "last_notified_hash": "8a75abee7611f74c6fe2ccce4ff6592452087c5e7c2ecbc81bf325bb2bcc7dc4",
-      "last_seen_at": "2026-10-30T02:16:05Z",
+      "last_seen_at": "2026-10-30T13:42:59Z",
       "matched_terms": [
         "DPRK",
         "North Korea",
@@ -2720,7 +2762,7 @@
       "last_notified_at": "2026-10-26T20:13:41Z",
       "last_notified_channel": "slack",
       "last_notified_hash": "3ddf66b376f0f4fa22cdf9ae2237b89be27e459ee0d83308b44ec279fa0b8ff9",
-      "last_seen_at": "2026-10-30T02:16:05Z",
+      "last_seen_at": "2026-10-30T13:42:59Z",
       "matched_terms": [
         "North Korean",
         "Korea",
@@ -2763,7 +2805,7 @@
       "last_notified_at": "2026-10-28T01:55:31Z",
       "last_notified_channel": "slack",
       "last_notified_hash": "ca2066b2faf271c1cf46d3b1b445cb579679aaa7a567a14b4f5cbe89dce82430",
-      "last_seen_at": "2026-10-30T02:16:05Z",
+      "last_seen_at": "2026-10-30T13:42:59Z",
       "matched_terms": [
         "DPRK",
         "North Korea",
@@ -2787,7 +2829,7 @@
       "last_notified_at": "2026-10-29T02:00:18Z",
       "last_notified_channel": "slack",
       "last_notified_hash": "19529d37a4fb5bf48e48c2b9786eb22d5f7fc6a12ca08d6eda40e0102a86fe2b",
-      "last_seen_at": "2026-10-30T02:16:05Z",
+      "last_seen_at": "2026-10-30T13:42:59Z",
       "matched_terms": [
         "North Korea",
         "South Korean",
@@ -2929,7 +2971,7 @@
       "last_notified_at": "2026-10-26T13:48:50Z",
       "last_notified_channel": "slack",
       "last_notified_hash": "e93802178eca36662ac8fe16e19f557f12a61040e08ff5038d52c19c27234d91",
-      "last_seen_at": "2026-10-30T02:16:05Z",
+      "last_seen_at": "2026-10-30T13:42:59Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -2953,7 +2995,7 @@
       "last_notified_at": "2026-10-29T19:57:50Z",
       "last_notified_channel": "slack",
       "last_notified_hash": "e7026d1a4408ceabc8fca4542b579b125d60206339d70dd97ab017bcf621dd31",
-      "last_seen_at": "2026-10-30T02:16:05Z",
+      "last_seen_at": "2026-10-30T13:42:59Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -3106,7 +3148,7 @@
       "first_seen_at": "2026-10-13T14:41:06Z",
       "last_event": "new",
       "last_notified_at": null,
-      "last_seen_at": "2026-10-30T02:16:05Z",
+      "last_seen_at": "2026-10-30T13:42:59Z",
       "matched_terms": [
         "Korea"
       ],
@@ -3461,7 +3503,7 @@
       "first_seen_at": "2026-10-14T19:03:30Z",
       "last_event": "new",
       "last_notified_at": "2026-10-14T19:03:30Z",
-      "last_seen_at": "2026-10-30T02:16:05Z",
+      "last_seen_at": "2026-10-30T13:42:59Z",
       "matched_terms": [
         "North Korea",
         "North Korean",
@@ -3547,7 +3589,7 @@
       "last_event": "new",
       "last_notified_at": "2026-10-20T18:49:23Z",
       "last_notified_hash": "0dfd92c7f4e060314c96a0cd294a55a6dbefa59d5090ccbce496721c57667541",
-      "last_seen_at": "2026-10-30T02:16:05Z",
+      "last_seen_at": "2026-10-30T13:42:59Z",
       "matched_terms": [
         "North Korea",
         "Korea",
@@ -3678,7 +3720,7 @@
       "last_notified_at": "2026-10-23T18:58:43Z",
       "last_notified_channel": "slack",
       "last_notified_hash": "66bece447c69f76ad0339e1945fd5954e0e5f184f9829e5619ad5c9f8721fae4",
-      "last_seen_at": "2026-10-30T02:16:05Z",
+      "last_seen_at": "2026-10-30T13:42:59Z",
       "matched_terms": [
         "South Korea",
         "South Korean",
@@ -3703,7 +3745,7 @@
       "first_seen_at": "2026-10-13T20:25:47Z",
       "last_event": "new",
       "last_notified_at": "2026-10-13T20:25:47Z",
-      "last_seen_at": "2026-10-30T02:16:05Z",
+      "last_seen_at": "2026-10-30T13:42:59Z",
       "matched_terms": [
         "South Korea",
         "South Korean",
@@ -4379,7 +4421,7 @@
       "last_event": "updated",
       "last_notified_at": "2026-10-20T12:23:35Z",
       "last_notified_hash": "160804131a51f5a8f6e4b69e44853eca4c14e1ef761f00c7cdfd83c3e173d572",
-      "last_seen_at": "2026-10-30T02:16:05Z",
+      "last_seen_at": "2026-10-30T13:42:59Z",
       "matched_terms": [
         "North Korean",
         "North Korea",
@@ -5743,7 +5785,7 @@
       "first_seen_at": "2026-07-15T09:04:03Z",
       "last_event": "new",
       "last_notified_at": "2026-07-15T09:04:03Z",
-      "last_seen_at": "2026-10-30T02:16:05Z",
+      "last_seen_at": "2026-10-30T13:42:59Z",
       "matched_terms": [
         "Republic of Korea",
         "Seoul",
@@ -6271,7 +6313,7 @@
       "last_notified_at": "2026-10-29T13:50:58Z",
       "last_notified_channel": "slack",
       "last_notified_hash": "600501c38902363a21b74cd74969e1ca65d1a6868330bdab5793952880907ff3",
-      "last_seen_at": "2026-10-30T02:16:05Z",
+      "last_seen_at": "2026-10-30T13:42:59Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
@@ -6582,7 +6624,7 @@
       "last_notified_at": "2026-10-29T13:50:58Z",
       "last_notified_channel": "slack",
       "last_notified_hash": "ed5dcdb156dd11e215dfa55ec30591ceb076625a96c4e181a37dfc29c8900fb1",
-      "last_seen_at": "2026-10-30T02:16:05Z",
+      "last_seen_at": "2026-10-30T13:42:59Z",
       "matched_terms": [
         "Republic of Korea",
         "Korea"
