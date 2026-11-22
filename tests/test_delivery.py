@@ -74,6 +74,19 @@ class DeliveryTests(unittest.TestCase):
         send.side_effect=None;deliver_outbox(state,'t2',Mock(),send,lambda:None)
         queue_health(state,[report()],'t3');self.assertFalse(state['notification_outbox'])
 
+    def test_same_non_http_cause_is_not_a_new_incident_when_document_count_changes(self):
+        state = {}
+        send = Mock()
+        for count in (1, 3, 2):
+            errors = [{'detail': 'UN Press article readiness timeout',
+                       'url': f'https://press.un.org/en/2026/doc{i}.doc.htm'} for i in range(count)]
+            queue_health(state, [{**report('partial', ''), 'errors': errors, 'failed': count}], 't')
+            deliver_outbox(state, 't', Mock(), send, lambda: None)
+        send.assert_called_once()
+        queue_health(state, [report('error', 'UN Press article readiness timeout')], 't')
+        deliver_outbox(state, 't', Mock(), send, lambda: None)
+        self.assertEqual(send.call_count, 2)
+
     def test_recovery_replaces_pending_failure(self):
         state={};queue_health(state,[report()],'t1')
         queue_health(state,[report('ok',None)],'t2')
