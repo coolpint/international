@@ -133,6 +133,23 @@ class CollectionTests(unittest.TestCase):
             self.assertGreater(result.candidates, 0)
             self.assertEqual(result.failed, 0)
 
+    def test_unctad_latest_publications_take_priority_over_featured_reports(self):
+        source = SOURCES['unctad_publications']
+        source = SourceConfig(source.id, source.label, source.type, True, source.list_url, 1)
+        listing = '''<article>
+          <a href="/publication/featured">Featured report</a>
+          <div class="block-unctad-block-latest-publications">
+            <h2>Latest publications</h2>
+            <a href="/publication/debt/dashboard">Dashboard</a>
+            <a href="/publication/latest">New report</a>
+          </div>
+        </article>'''
+        with patch('src.monitor.sources.fetch_text', side_effect=[(listing, {}), (DETAIL, {})]):
+            result = collect_items(source)
+        self.assertEqual(result.status, 'ok')
+        self.assertEqual(result[0].url, 'https://unctad.org/publication/latest')
+        self.assertEqual((result.candidates, result.filtered, result.deferred), (3, 1, 1))
+
     def test_api_missing_schema_is_not_empty(self):
         with patch('src.monitor.sources.fetch_json', return_value={}):
             with self.assertRaises(RuntimeError): collect_items(SOURCES['world_bank_news'])
