@@ -33,9 +33,9 @@ def _failure_signature(report):
     if codes:
         cause = ['HTTP ' + c for c in codes]
     else:
-        normalized = re.sub(r'https?://\S+', '<url>', ' '.join(details))
-        normalized = re.sub(r'\b\d+\b', '#', normalized)
-        cause = [normalized[:300]]
+        normalized = {re.sub(r'\b\d+\b', '#', re.sub(r'https?://\S+', '<url>', text)).strip()
+                      for text in details}
+        cause = ['; '.join(sorted(normalized - {''}))[:300]]
     return hashlib.sha256(json.dumps([report['status'], cause]).encode()).hexdigest(), cause
 
 
