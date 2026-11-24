@@ -37,7 +37,7 @@
       "enabled": true,
       "list_url": "https://unctad.org/publications",
       "max_items": 12,
-      "note": "Official publications listing currently returns HTTP 403 challenge; no equivalent official full-text discovery path verified. Keep explicit errors; do not bypass restrictions."
+      "note": "Prioritizes the official Latest publications section over featured reports. Listing or detail access restrictions remain explicit errors."
     },
     {
       "id": "unrisd_news",

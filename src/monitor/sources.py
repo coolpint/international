@@ -114,7 +114,13 @@ def collect_items(source: SourceConfig) -> CollectionResult:
         urls = _extract_press_links(source.list_url, soup)
     elif source.type == "unctad_publications":
         selector = 'a[href^="/publication/"], a[href*="unctad.org/publication/"]'
-        urls = _extract_unctad_publication_links(source.list_url, soup)
+        # ponytail: prioritize the official latest list; featured links use the remaining budget.
+        latest = soup.select_one('.block-unctad-block-latest-publications:has(> h2:-soup-contains("Latest publications"))')
+        urls = _dedupe_preserve_order(
+            (_raw_listing_urls(source.list_url, latest, selector) if latest else [])
+            + _raw_listing_urls(source.list_url, soup, selector)
+        )
+        urls = [url for url in urls if re.fullmatch(r"https://unctad\.org/publication/[^/?#]+/?", url)]
     else:
         raise RuntimeError(f"Unsupported active source type: {source.type}")
 
@@ -172,18 +178,6 @@ def _extract_press_links(base_url: str, soup: BeautifulSoup) -> list[str]:
             continue
         url = urljoin(base_url, href)
         if url.endswith(".doc.htm") and "/en/" in url:
-            urls.append(url)
-    return _dedupe_preserve_order(urls)
-
-
-def _extract_unctad_publication_links(base_url: str, soup: BeautifulSoup) -> list[str]:
-    urls = []
-    for anchor in soup.select('a[href^="/publication/"], a[href*="unctad.org/publication/"]'):
-        href = anchor.get("href")
-        if not href:
-            continue
-        url = urljoin(base_url, href)
-        if "/publication/" in url:
             urls.append(url)
     return _dedupe_preserve_order(urls)
 
